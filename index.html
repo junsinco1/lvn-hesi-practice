@@ -3,16 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LVN HESI Practice – Web App (Hard Mode)</title>
+  <title>LVN HESI Practice – Web App v2</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
     <div class="title">
       <h1>LVN HESI Practice <span class="badge">Hard Mode</span></h1>
-      <div class="sub">Case tabs • SATA • Bowtie • Negative wording • 75Q Exams • Leaderboard • Timer</div>
+      <div class="sub">Case Tabs • SATA • Bowtie • 75Q Exams • Themes</div>
     </div>
-
     <div class="status">
       <div id="scoreLine">Score: 0/0 • Missed: 0 • Mode: Practice</div>
       <div id="timerLine">⏱ Off</div>
@@ -38,20 +37,21 @@
           </select>
         </label>
 
-        <label class="chk">
-          <input type="checkbox" id="reviewMissed" />
-          Review missed only
+        <label>Theme
+          <select id="themeSelect">
+            <option value="dark">Dark</option>
+            <option value="purple">Purple</option>
+            <option value="green">Clinical</option>
+            <option value="light">Light</option>
+          </select>
         </label>
 
         <label>Timer
           <select id="timerSelect">
             <option value="0" selected>Off</option>
             <option value="30">30 sec</option>
-            <option value="45">45 sec</option>
             <option value="60">60 sec</option>
             <option value="90">90 sec</option>
-            <option value="120">120 sec</option>
-            <option value="180">180 sec</option>
           </select>
         </label>
       </div>
@@ -62,20 +62,15 @@
         <button id="btnShowRationale" class="btn">Show Rationale</button>
         <button id="btnStartExam" class="btn danger">Start 75Q Exam</button>
         <button id="btnLeaderboard" class="btn">Leaderboard</button>
-        <button id="btnReset" class="btn subtle">Reset</button>
-      </div>
-
-      <div class="hint">
-        SATA is strict (exact match). Bowtie requires all 3 correct. Timer marks unanswered as incorrect.
       </div>
     </section>
 
     <section class="content card">
       <div class="tabs">
-        <button class="tab active" data-tab="case">Case Study</button>
+        <button class="tab active" data-tab="case">Case</button>
         <button class="tab" data-tab="vitals">Vitals</button>
-        <button class="tab" data-tab="nurse">What the Nurse Did</button>
-        <button class="tab" data-tab="orders">Provider Orders</button>
+        <button class="tab" data-tab="nurse">Nurse</button>
+        <button class="tab" data-tab="orders">Orders</button>
         <button class="tab" data-tab="question">Question</button>
         <button class="tab" data-tab="rationale">Rationale</button>
       </div>
@@ -91,20 +86,13 @@
 
       <div class="answers" id="answers"></div>
     </section>
-
-    <section class="footerNote">
-      <div>Scores save on this device (browser storage). Host this folder on any web server.</div>
-      <div class="small">iPhone/iPad Safari → Share → Add to Home Screen.</div>
-    </section>
   </main>
 
   <dialog id="dlg">
     <form method="dialog" class="dlg">
-      <h3 id="dlgTitle">Dialog</h3>
-      <div id="dlgBody" class="dlgBody"></div>
-      <div class="dlgActions">
-        <button value="cancel" class="btn">Close</button>
-      </div>
+      <h3 id="dlgTitle"></h3>
+      <div id="dlgBody"></div>
+      <button>Close</button>
     </form>
   </dialog>
 
