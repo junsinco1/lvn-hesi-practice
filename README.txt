@@ -10,3 +10,8 @@ Upload index.html, styles.css, app.js, questions.json to GitHub Pages / Netlify 
 
 iOS:
 Safari → Share → Add to Home Screen
+
+
+v3 UPDATE
+- Leaderboard now prompts for student initials (2–4 letters)
+- Initials are sanitized (letters only) and uppercased
