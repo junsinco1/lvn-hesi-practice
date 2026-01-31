@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>LVN HESI Practice – Web App v2</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#0b1020" />
 </head>
 <body>
   <header class="header">
@@ -45,27 +43,6 @@
             <option value="purple">Purple</option>
             <option value="green">Clinical</option>
             <option value="light">Light</option>
-          </select>
-        </label>
-
-        <label>Font
-          <select id="fontSelect">
-            <option value="0.95">Small</option>
-            <option value="1.0" selected>Medium</option>
-            <option value="1.1">Large</option>
-            <option value="1.2">XL</option>
-          </select>
-        </label>
-
-        <label class="chk">
-          <input type="checkbox" id="hiContrast" />
-          High contrast
-        </label>
-
-        <label>Scoring
-          <select id="scoringSelect">
-            <option value="strict" selected>Strict</option>
-            <option value="partial">NGN partial credit</option>
           </select>
         </label>
 
@@ -116,43 +93,6 @@
       <h3 id="dlgTitle"></h3>
       <div id="dlgBody"></div>
       <button>Close</button>
-    </form>
-  </dialog>
-
-
-  <dialog id="dlgExamCode">
-    <form method="dialog" class="dlg">
-      <h3>Exam Code</h3>
-      <div class="dlgBody">
-        <div class="small">Use an exam code to generate the <b>same 75-question exam</b> for everyone.</div>
-        <div style="margin-top:12px">
-          <label>Enter code
-            <input id="examCodeInput" maxlength="32" placeholder="e.g., LVN-APRIL-A" />
-          </label>
-        </div>
-        <div class="small" style="margin-top:10px">Any text code works. It deterministically seeds the exam generator.</div>
-      </div>
-      <div class="dlgActions">
-        <button value="cancel" class="btn">Cancel</button>
-        <button value="ok" class="btn primary">Use Code</button>
-      </div>
-    </form>
-  </dialog>
-
-  <dialog id="dlgInstructor">
-    <form method="dialog" class="dlg">
-      <h3>Instructor Mode</h3>
-      <div class="dlgBody">
-        <div class="small">Enter instructor code to unlock export tools on this device.</div>
-        <label style="margin-top:12px; display:flex; gap:8px; align-items:center;">Instructor code
-          <input id="instrCodeInput" maxlength="32" placeholder="Set by you" />
-        </label>
-        <div class="small" style="margin-top:10px">Device-local only (no server). First unlock sets the code.</div>
-      </div>
-      <div class="dlgActions">
-        <button value="cancel" class="btn">Cancel</button>
-        <button value="ok" class="btn primary">Unlock</button>
-      </div>
     </form>
   </dialog>
 
