@@ -1,20 +1,15 @@
-LVN HESI Practice WebApp v4.1 (FIXED)
+LVN HESI Practice WebApp v4.2 DIAGNOSTIC
 
-This version fixes v4 button issues by restoring full app.js logic.
+This build fixes the most common GitHub Pages problems:
+- Service worker caching old broken app.js (cache name bumped to v4-2)
+- Script cache-busting: app.js?v=42
+- Better error details for questions.json fetch/parse failures
+- Diagnostics button shows exact URLs used
 
-Features:
-- Themes + font size + high contrast
-- Practice (no repeats until filter pool exhausted)
-- 75Q exam generator with optional Exam Code (same exam for everyone)
-- Timer per question
-- Strict vs NGN partial credit scoring (SATA & Bowtie)
-- Mastery tracking by topic + Focus Weak
-- Streak + badges
-- Tabs: Case / Vitals / Nurse Did / Provider Orders / Rationale
-- Leaderboard with initials + optional section (device-local)
-- Instructor-gated CSV export (device-local)
-- Offline PWA cache
-
-Deployment:
-Upload files to GitHub Pages repo root:
+Deploy:
+Upload ALL files in this zip to the SAME GitHub Pages folder:
 index.html, styles.css, app.js, questions.json, manifest.json, service-worker.js
+
+Then:
+- Hard refresh (Cmd+Shift+R / Ctrl+Shift+R)
+- If iPhone: Settings > Safari > Advanced > Website Data > delete your site

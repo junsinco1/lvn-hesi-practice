@@ -1,5 +1,5 @@
-const CACHE_NAME = "lvn-hesi-webapp-v4-1";
-const ASSETS = ["./","./index.html","./styles.css","./app.js","./questions.json","./manifest.json"];
+const CACHE_NAME = "lvn-hesi-webapp-v4-2";
+const ASSETS = ["./","./index.html","./styles.css","./app.js","./app.js?v=42","./questions.json","./manifest.json"];
 self.addEventListener("install", (e)=>{
   e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });

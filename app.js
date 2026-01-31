@@ -67,6 +67,7 @@ const ui = {
   btnLeaderboard: el("btnLeaderboard"),
   btnExport: el("btnExport"),
   btnReset: el("btnReset"),
+  btnDiag: el("btnDiag"),
 
   qTag: el("qTag"),
   qTopic: el("qTopic"),
@@ -870,6 +871,26 @@ function initSettings(){
   updateScoreLine();
 }
 
+function runDiagnostics(){
+  const base = new URL("./", window.location.href).toString();
+  const urls = {
+    base,
+    appJs: new URL("app.js", base).toString(),
+    appJsV: new URL("app.js?v=42", base).toString(),
+    questions: new URL("questions.json", base).toString(),
+    sw: new URL("service-worker.js", base).toString(),
+  };
+  const lines = [];
+  lines.push("Diagnostics");
+  lines.push("");
+  for(const [k,v] of Object.entries(urls)){
+    lines.push(`${k}: ${v}`);
+  }
+  lines.push("");
+  lines.push("If questions fail to load, open the questions URL above directly.");
+  showDialog("Diagnostics", lines.join("\n"));
+}
+
 function wireEvents(){
   ui.btnPractice.addEventListener("click", nextPractice);
   ui.btnStartExam.addEventListener("click", startExam);
@@ -882,6 +903,7 @@ function wireEvents(){
   ui.btnLeaderboard.addEventListener("click", showLeaderboard);
   ui.btnExport.addEventListener("click", exportTools);
   ui.btnReset.addEventListener("click", resetAll);
+  if(ui.btnDiag) ui.btnDiag.addEventListener("click", runDiagnostics);
 
   ui.btnSubmit.addEventListener("click", submitAnswer);
   ui.btnShowRationale.addEventListener("click", showRationale);
@@ -921,7 +943,7 @@ async function boot(){
     showDialog("Ready", `Loaded ${QUESTIONS.length} questions.\n\nClick “Next Practice” to start.`);
   }catch(err){
     console.error(err);
-    showDialog("Error", "Could not load questions.json. Make sure all files are uploaded to GitHub Pages root.");
+    showDialog("Error", "Could not load questions.json.\n\nDetails:\n" + (err && err.message ? err.message : String(err)) + "\n\nFix: confirm questions.json is in the same GitHub Pages folder as index.html, then hard refresh / clear site data.");
   }
 }
 
