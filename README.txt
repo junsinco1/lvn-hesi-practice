@@ -1,36 +1,20 @@
-LVN HESI Practice – Web App (v1)
+LVN HESI Practice WebApp v4.1 (FIXED)
 
-This is a STATIC web app that runs on iOS/Android/Mac/Windows in a browser.
+This version fixes v4 button issues by restoring full app.js logic.
 
-IMPORTANT
-- You must open it via http(s). If you double-click index.html (file://),
-  the browser may block loading questions.json.
-
-RUN LOCALLY (Mac)
-1) Unzip folder
-2) Terminal:
-   cd /path/to/folder
-   python3 -m http.server 8000
-3) Open:
-   http://localhost:8000
-
-RUN LOCALLY (Windows)
-1) Unzip folder
-2) PowerShell:
-   cd C:\path\to\folder
-   py -m http.server 8000
-3) Open:
-   http://localhost:8000
-
-INSTALL-LIKE ON iPhone/iPad
-- Open the hosted URL in Safari
-- Share → Add to Home Screen
-
-FEATURES
-- Practice: no repeats until filtered pool exhausted (then new cycle)
-- 75Q Exam: mix of standalone + progressive case groups; no duplicate IDs
-- Case tabs: Case Study / Vitals / Nurse Actions / Provider Orders
-- Question types: Single, SATA (strict), Bowtie
-- Negative wording warning
+Features:
+- Themes + font size + high contrast
+- Practice (no repeats until filter pool exhausted)
+- 75Q exam generator with optional Exam Code (same exam for everyone)
 - Timer per question
-- Leaderboard saved to this device (localStorage)
+- Strict vs NGN partial credit scoring (SATA & Bowtie)
+- Mastery tracking by topic + Focus Weak
+- Streak + badges
+- Tabs: Case / Vitals / Nurse Did / Provider Orders / Rationale
+- Leaderboard with initials + optional section (device-local)
+- Instructor-gated CSV export (device-local)
+- Offline PWA cache
+
+Deployment:
+Upload files to GitHub Pages repo root:
+index.html, styles.css, app.js, questions.json, manifest.json, service-worker.js

@@ -1,608 +1,928 @@
-// LVN HESI Practice – Web App (static)
-//
-// Run by hosting this folder and opening index.html via http(s).
-// (Local file:// may block fetch of questions.json.)
+// LVN HESI Practice WebApp v4.1 (fixed buttons + full logic)
+"use strict";
 
-const BANK_URL = "questions.json";
-const LS_SCORES = "lvn_hesi_scores_web_v1";
+// ---------- Storage keys ----------
+const LS_THEME   = "lvn_theme_v4";
+const LS_FONT    = "lvn_font_v4";
+const LS_HC      = "lvn_hicontrast_v4";
+const LS_SCORING = "lvn_scoring_v4";
+const LS_TIMER   = "lvn_timer_v4";
+const LS_SCORES  = "lvn_scores_v4";
+const LS_MASTERY = "lvn_mastery_v4";
+const LS_BADGES  = "lvn_badges_v4";
+const LS_EXAMCODE= "lvn_exam_code_v4";
+const LS_INSTR   = "lvn_instructor_unlocked_v4";
+const LS_INSTR_CODE = "lvn_instructor_code_v4";
 
-const el = (id) => document.getElementById(id);
+// ---------- Themes ----------
+const THEMES = {
+  dark:   { bg:"#0b1020", card:"#121a33", muted:"#9fb0d0", text:"#e8eefc", accent:"#66d9ff", danger:"#ff6b6b" },
+  purple: { bg:"#120b20", card:"#1a1233", muted:"#b6a9d0", text:"#f0ebff", accent:"#b88cff", danger:"#ff7a7a" },
+  green:  { bg:"#0b1a14", card:"#0f2a1f", muted:"#8fd1b5", text:"#eafff6", accent:"#6dffb3", danger:"#ff6b6b" },
+  light:  { bg:"#f5f7fb", card:"#ffffff", muted:"#5f6c85", text:"#1a1f2e", accent:"#2f7cff", danger:"#d92d20" }
+};
 
+// ---------- Deterministic RNG helpers (for exam codes) ----------
+function hashStringToSeed(str){
+  let h = 2166136261;
+  for(let i=0;i<str.length;i++){
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0);
+}
+function mulberry32(seed){
+  let t = seed >>> 0;
+  return function(){
+    t += 0x6D2B79F5;
+    let x = Math.imul(t ^ (t >>> 15), 1 | t);
+    x ^= x + Math.imul(x ^ (x >>> 7), 61 | x);
+    return ((x ^ (x >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function shuffleInPlace(arr, rand=Math.random){
+  for(let i=arr.length-1;i>0;i--){
+    const j = Math.floor(rand() * (i+1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// ---------- DOM ----------
+const el = (id)=>document.getElementById(id);
 const ui = {
-  difficulty: el("difficulty"),
-  topic: el("topic"),
-  reviewMissed: el("reviewMissed"),
+  topicSelect: el("topicSelect"),
+  diffSelect: el("diffSelect"),
+  typeSelect: el("typeSelect"),
+  themeSelect: el("themeSelect"),
+  fontSelect: el("fontSelect"),
+  hiContrast: el("hiContrast"),
+  scoringSelect: el("scoringSelect"),
   timerSelect: el("timerSelect"),
+
+  btnPractice: el("btnPractice"),
+  btnStartExam: el("btnStartExam"),
+  btnExamCode: el("btnExamCode"),
+  btnFocusWeak: el("btnFocusWeak"),
+  btnLeaderboard: el("btnLeaderboard"),
+  btnExport: el("btnExport"),
+  btnReset: el("btnReset"),
+
+  qTag: el("qTag"),
+  qTopic: el("qTopic"),
+  qWarn: el("qWarn"),
+  qStem: el("qStem"),
+
+  bowtieWrap: el("bowtieWrap"),
+  bowLeft: el("bowLeft"),
+  bowMid: el("bowMid"),
+  bowRight: el("bowRight"),
+
+  optionsWrap: el("optionsWrap"),
+  btnSubmit: el("btnSubmit"),
+  btnShowRationale: el("btnShowRationale"),
   scoreLine: el("scoreLine"),
+
+  pane_case: el("pane_case"),
+  pane_vitals: el("pane_vitals"),
+  pane_nurse: el("pane_nurse"),
+  pane_orders: el("pane_orders"),
+  pane_rationale: el("pane_rationale"),
+
+  masteryLine: el("masteryLine"),
+  streakLine: el("streakLine"),
+  badgesLine: el("badgesLine"),
+  modeLine: el("modeLine"),
   timerLine: el("timerLine"),
-  answers: el("answers"),
-  panes: {
-    case: el("pane-case"),
-    vitals: el("pane-vitals"),
-    nurse: el("pane-nurse"),
-    orders: el("pane-orders"),
-    question: el("pane-question"),
-    rationale: el("pane-rationale"),
-  },
+
   dlg: el("dlg"),
   dlgTitle: el("dlgTitle"),
   dlgBody: el("dlgBody"),
-  btnNext: el("btnNext"),
-  btnSubmit: el("btnSubmit"),
-  btnShowRationale: el("btnShowRationale"),
-  btnStartExam: el("btnStartExam"),
-  btnLeaderboard: el("btnLeaderboard"),
-  btnReset: el("btnReset"),
+
+  dlgExamCode: el("dlgExamCode"),
+  examCodeInput: el("examCodeInput"),
+
+  dlgInstructor: el("dlgInstructor"),
+  instrCodeInput: el("instrCodeInput"),
 };
 
-let bank = [];
-let pool = [];
-let unseenPool = [];
-let seenIds = new Set();
-let missedIds = new Set();
+const tabs = Array.from(document.querySelectorAll(".tab"));
+tabs.forEach(t=>t.addEventListener("click", ()=>setTab(t.dataset.tab)));
 
-let mode = "practice"; // practice | exam
+function setTab(name){
+  tabs.forEach(t=>t.classList.toggle("active", t.dataset.tab===name));
+  ["case","vitals","nurse","orders","rationale"].forEach(k=>{
+    el("pane_"+k).classList.toggle("hidden", k!==name);
+  });
+}
+
+// ---------- App state ----------
+let QUESTIONS = [];
+let mode = "practice";            // practice | exam
 let examQueue = [];
-let examIndex = 0;
-
-let current = null;
-let score = 0;
-let total = 0;
-
+let current = null;               // question object
+let currentAnswer = null;         // user's selected answer in normalized form
 let timerSeconds = 0;
 let timerRemaining = 0;
 let timerHandle = null;
 
-// ---------- Helpers ----------
-function escapeHtml(s){
-  return String(s ?? "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#39;");
-}
-function shuffle(arr){
-  for(let i=arr.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [arr[i],arr[j]]=[arr[j],arr[i]];
-  }
-}
-function setEq(a,b){
-  if(a.size!==b.size) return false;
-  for(const v of a) if(!b.has(v)) return false;
-  return true;
+let scorePoints = 0;              // points achieved
+let scoreMax = 0;                 // max points possible
+let missedIds = new Set();        // across session
+
+let focusWeak = false;
+let examCode = "";
+let scoringMode = "strict";       // strict|partial
+
+let mastery = {};                 // {topic:{attempts,correct}}
+let badges = { earned:{} };
+let streak = 0;
+
+// ---------- Utilities ----------
+function safeJsonParse(raw, fallback){
+  try{ return JSON.parse(raw); }catch{ return fallback; }
 }
 function showDialog(title, body){
   ui.dlgTitle.textContent = title;
   ui.dlgBody.textContent = body;
   ui.dlg.showModal();
 }
-function setTab(tab){
-  document.querySelectorAll(".tab").forEach(btn=>{
-    btn.classList.toggle("active", btn.dataset.tab===tab);
-  });
-  Object.entries(ui.panes).forEach(([k,el])=>{
-    el.classList.toggle("active", k===tab);
-  });
+function normalizeTopic(t){ return (t || "Untitled").trim() || "Untitled"; }
+function isNegativeStem(stem){
+  const s = (stem||"").toLowerCase();
+  return s.includes("not ") || s.includes("except") || s.includes("avoid") || s.includes("contraindicated") || s.includes("least appropriate");
+}
+function formatBlock(x){
+  if(!x) return "—";
+  if(typeof x === "string") return x.trim() || "—";
+  if(Array.isArray(x)) return x.map(v=>String(v)).join("\n");
+  if(typeof x === "object"){
+    return Object.entries(x).map(([k,v])=>`${k}: ${v}`).join("\n");
+  }
+  return String(x);
+}
+function formatVitals(v){
+  if(!v) return "—";
+  if(Array.isArray(v)){
+    const blocks = v.map(item=>{
+      const t = item.time ? `Time: ${item.time}\n` : "";
+      const vit = item.vitals && typeof item.vitals==="object"
+        ? Object.entries(item.vitals).map(([k,val])=>`${k}: ${val}`).join("\n")
+        : "";
+      return (t+vit).trim();
+    }).filter(Boolean);
+    return blocks.length ? blocks.join("\n\n---\n\n") : "—";
+  }
+  return formatBlock(v);
 }
 
-// Tabs click
-document.querySelectorAll(".tab").forEach(btn=>{
-  btn.addEventListener("click", ()=> setTab(btn.dataset.tab));
-});
-
+// ---------- Persistence ----------
 function loadScores(){
-  try{
-    const raw = localStorage.getItem(LS_SCORES);
-    const data = raw ? JSON.parse(raw) : [];
-    return Array.isArray(data) ? data : [];
-  }catch{ return []; }
+  const raw = localStorage.getItem(LS_SCORES);
+  return safeJsonParse(raw, []);
 }
 function saveScores(scores){
-  try{ localStorage.setItem(LS_SCORES, JSON.stringify(scores)); }catch{}
+  localStorage.setItem(LS_SCORES, JSON.stringify(scores));
+}
+function loadMastery(){
+  return safeJsonParse(localStorage.getItem(LS_MASTERY), {});
+}
+function saveMastery(m){
+  localStorage.setItem(LS_MASTERY, JSON.stringify(m));
+}
+function loadBadges(){
+  return safeJsonParse(localStorage.getItem(LS_BADGES), { earned:{} });
+}
+function saveBadges(b){
+  localStorage.setItem(LS_BADGES, JSON.stringify(b));
 }
 
-function updateStatus(){
-  const modeTxt = mode==="exam" ? "Exam" : "Practice";
-  ui.scoreLine.textContent = `Score: ${score}/${total} • Missed: ${missedIds.size} • Mode: ${modeTxt}`;
+// ---------- Theming / accessibility ----------
+function applyTheme(name){
+  const t = THEMES[name] || THEMES.dark;
+  const r = document.documentElement.style;
+  r.setProperty("--bg", t.bg);
+  r.setProperty("--card", t.card);
+  r.setProperty("--muted", t.muted);
+  r.setProperty("--text", t.text);
+  r.setProperty("--accent", t.accent);
+  r.setProperty("--danger", t.danger);
+  localStorage.setItem(LS_THEME, name);
 }
-function updateTimer(){
-  if(timerSeconds<=0) ui.timerLine.textContent = "⏱ Off";
-  else ui.timerLine.textContent = `⏱ ${timerRemaining}s`;
+function applyFont(scale){
+  document.documentElement.style.setProperty("--fontScale", scale);
+  localStorage.setItem(LS_FONT, scale);
 }
-
-function cancelTimer(){
-  if(timerHandle){ clearInterval(timerHandle); timerHandle=null; }
+function applyHighContrast(on){
+  document.body.classList.toggle("hicontrast", !!on);
+  localStorage.setItem(LS_HC, on ? "1" : "0");
 }
-function startTimer(){
-  cancelTimer();
-  timerSeconds = Number(ui.timerSelect.value || 0);
-  timerRemaining = timerSeconds;
-  updateTimer();
-  if(timerSeconds<=0) return;
-  timerHandle = setInterval(()=>{
-    timerRemaining -= 1;
-    updateTimer();
-    if(timerRemaining<=0){
-      cancelTimer();
-      autoTimeout();
-    }
-  }, 1000);
+function applyScoring(mode){
+  scoringMode = (mode==="partial") ? "partial" : "strict";
+  localStorage.setItem(LS_SCORING, scoringMode);
 }
 
-function clearUI(){
-  Object.values(ui.panes).forEach(p=> p.textContent="");
-  ui.answers.innerHTML = "";
+// ---------- Mastery + dashboard ----------
+function masteryLabel(pct){
+  if(pct === null) return "—";
+  if(pct < 60) return "Red";
+  if(pct < 80) return "Yellow";
+  return "Green";
 }
-
-function buildTopicList(){
-  const topics = Array.from(new Set(bank.map(q=>q.topic || "Untitled"))).sort((a,b)=>a.localeCompare(b));
-  ui.topic.innerHTML = '<option value="__ALL__">All Topics</option>' + topics.map(t=>`<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("");
+function topicPct(topic){
+  const m = mastery[topic];
+  if(!m || !m.attempts) return null;
+  return (m.correct||0) / Math.max(1,m.attempts) * 100;
 }
-
-function applyFilters(resetCycle=true){
-  const minDiff = Number(ui.difficulty.value || 1);
-  const topic = ui.topic.value;
-
-  pool = bank.filter(q => Number(q.difficulty || 1) >= minDiff);
-  if(topic && topic !== "__ALL__"){
-    pool = pool.filter(q => (q.topic || "") === topic);
+function computeMasterySummary(){
+  const topics = Object.keys(mastery);
+  if(!topics.length) return { pct:null, red:0, yellow:0, green:0 };
+  let totalAttempts=0, totalCorrect=0, red=0,yellow=0,green=0;
+  for(const t of topics){
+    const m = mastery[t];
+    if(!m || !m.attempts) continue;
+    totalAttempts += m.attempts;
+    totalCorrect += (m.correct||0);
+    const pct = (m.correct||0)/Math.max(1,m.attempts)*100;
+    const lab = masteryLabel(pct);
+    if(lab==="Red") red++;
+    else if(lab==="Yellow") yellow++;
+    else if(lab==="Green") green++;
   }
-  if(ui.reviewMissed.checked){
-    pool = pool.filter(q => missedIds.has(q.id));
-  }
-
-  if(resetCycle){
-    seenIds = new Set();
-    unseenPool = pool.filter(q => q.id);
-  }
+  const pct = totalCorrect / Math.max(1,totalAttempts) * 100;
+  return { pct, red, yellow, green };
+}
+function updateDashboard(){
+  const s = computeMasterySummary();
+  ui.masteryLine.textContent = (s.pct===null) ? "—" : `${Math.round(s.pct)}% • Red ${s.red} • Yellow ${s.yellow} • Green ${s.green}`;
+  ui.streakLine.textContent = String(streak);
+  const earned = Object.keys((badges && badges.earned) ? badges.earned : {});
+  ui.badgesLine.textContent = earned.length ? earned.slice(0,5).join(", ") + (earned.length>5?"…":"") : "—";
+  ui.modeLine.textContent = (mode==="exam") ? "Exam" : (focusWeak ? "Practice (Focus Weak)" : "Practice");
+  ui.timerLine.textContent = timerSeconds ? `${timerSeconds}s` : "Off";
 }
 
+// ---------- Question selection / filtering ----------
+function filteredPool(){
+  const topic = ui.topicSelect.value || "All";
+  const diff = ui.diffSelect.value || "any";
+  const qtype = ui.typeSelect.value || "any";
+
+  return QUESTIONS.filter(q=>{
+    if(topic !== "All" && normalizeTopic(q.topic) !== topic) return false;
+    if(diff !== "any" && (q.difficulty||"any") !== diff) return false;
+    if(qtype !== "any" && (q.qtype||"single") !== qtype) return false;
+    return true;
+  });
+}
+function weightForQuestion(q){
+  let w = 1.0;
+  const topic = normalizeTopic(q.topic);
+  const pct = topicPct(topic);
+  if(pct === null) w *= 1.2;
+  else if(pct < 60) w *= 2.4;
+  else if(pct < 80) w *= 1.6;
+
+  if(missedIds.has(q.id)) w *= 1.8;
+  return w;
+}
+function weightedPick(arr, rand=Math.random){
+  const weights = arr.map(weightForQuestion);
+  const sum = weights.reduce((a,b)=>a+b,0);
+  let r = rand()*sum;
+  for(let i=0;i<arr.length;i++){
+    r -= weights[i];
+    if(r<=0) return arr[i];
+  }
+  return arr[arr.length-1];
+}
 function pickPracticeQuestion(){
-  if(!unseenPool.length){
-    unseenPool = pool.filter(q => q.id && !seenIds.has(q.id));
-    if(!unseenPool.length){
-      seenIds = new Set();
-      unseenPool = pool.filter(q => q.id);
-    }
-  }
-  if(!unseenPool.length) return null;
-  const idx = Math.floor(Math.random()*unseenPool.length);
-  const q = unseenPool[idx];
-  if(q?.id){
-    seenIds.add(q.id);
-    unseenPool = unseenPool.filter(x=>x.id !== q.id);
-  }
+  const pool = filteredPool();
+  if(!pool.length) return null;
+
+  // avoid repeats until pool exhausted for current filter
+  const unseen = pool.filter(q=>!q._seen);
+  const pickFrom = unseen.length ? unseen : pool;
+  const q = focusWeak ? weightedPick(pickFrom) : pickFrom[Math.floor(Math.random()*pickFrom.length)];
+
+  // mark seen for current filter/session
+  q._seen = true;
   return q;
 }
-
-// Exam: mix progressive groups + standalone, enforce unique IDs
-function buildExamQueue(examPool){
-  const groups = new Map();
-  const standalone = [];
-
-  for(const q of examPool){
-    const cg = q.case_group;
-    if(cg && typeof cg==="object" && cg.id){
-      if(!groups.has(cg.id)) groups.set(cg.id, []);
-      groups.get(cg.id).push(q);
-    }else{
-      standalone.push(q);
+function buildExamQueue(pool, seedCode=""){
+  const unique = [];
+  const seen = new Set();
+  for(const q of pool){
+    const id = q.id || (q.stem ? (normalizeTopic(q.topic)+"|"+q.stem).slice(0,120) : Math.random().toString(36).slice(2));
+    q.id = id;
+    if(!seen.has(id)){
+      seen.add(id);
+      unique.push(q);
     }
   }
-
-  const normalized = [];
-  for(const [gid, arr] of groups.entries()){
-    const sorted = arr.slice().sort((a,b)=> Number(a.case_group?.sequence||999) - Number(b.case_group?.sequence||999));
-    const total = Number(sorted[0]?.case_group?.total || sorted.length);
-    const slice = sorted.slice(0,total);
-    if(slice.length >= 3) normalized.push(slice);
+  // deterministic shuffle if seedCode
+  let rand = Math.random;
+  if(seedCode){
+    const seed = hashStringToSeed(seedCode);
+    rand = mulberry32(seed);
   }
-
-  shuffle(normalized);
-  shuffle(standalone);
-
-  const exam = [];
-  const targetGroups = 4;
-  let picked=0;
-
-  for(const grp of normalized){
-    if(picked>=targetGroups) break;
-    if(exam.length + grp.length > 75) continue;
-    exam.push(...grp);
-    picked += 1;
-  }
-
-  const used = new Set(exam.map(q=>q.id).filter(Boolean));
-  for(const q of standalone){
-    if(exam.length>=75) break;
-    if(q.id && !used.has(q.id)){
-      exam.push(q); used.add(q.id);
-    }
-  }
-
-  if(exam.length<75){
-    const remaining = examPool.filter(q=>q.id && !used.has(q.id));
-    shuffle(remaining);
-    exam.push(...remaining.slice(0, 75-exam.length));
-  }
-
-  // enforce unique IDs
-  const uniq=[];
-  const used2=new Set();
-  for(const q of exam){
-    if(q.id && !used2.has(q.id)){
-      uniq.push(q); used2.add(q.id);
-    }
-  }
-  if(uniq.length<75){
-    const remaining = examPool.filter(q=>q.id && !used2.has(q.id));
-    shuffle(remaining);
-    uniq.push(...remaining.slice(0, 75-uniq.length));
-  }
-  return uniq.slice(0,75);
+  const shuffled = shuffleInPlace(unique.slice(), rand);
+  return shuffled.slice(0,75);
 }
 
-function formatVitals(v){
-  if(!v || typeof v!=="object") return "No vitals provided.";
-  const lines = Object.entries(v).map(([k,val])=>`${k}: ${val}`);
-  return lines.length ? lines.join("\n") : "No vitals provided.";
+// ---------- Render question ----------
+function clearAnswerUI(){
+  ui.optionsWrap.innerHTML = "";
+  ui.bowtieWrap.classList.add("hidden");
+  ui.btnSubmit.disabled = true;
+  ui.btnShowRationale.disabled = true;
+  ui.pane_rationale.textContent = "—";
+  currentAnswer = null;
 }
-
+function renderTabs(q){
+  const c = q.case || q.case_study || {};
+  ui.pane_case.textContent   = formatBlock(c.case || c.text || q.case_text || "—");
+  ui.pane_vitals.textContent = formatVitals(c.vitals || q.vitals || "—");
+  ui.pane_nurse.textContent  = formatBlock(c.nurse || c.nurse_actions || q.nurse_actions || "—");
+  ui.pane_orders.textContent = formatBlock(c.orders || c.provider_orders || q.provider_orders || "—");
+}
 function renderQuestion(q){
-  cancelTimer();
-  clearUI();
   current = q;
+  clearAnswerUI();
 
-  if(!q){
-    showDialog("No questions", "No questions match the current filters. Lower difficulty, choose All Topics, or uncheck Review missed.");
+  const topic = normalizeTopic(q.topic);
+  ui.qTopic.textContent = topic;
+  ui.qTag.textContent = (mode==="exam" ? "EXAM" : "PRACTICE") + ` • ${(q.qtype||"single").toUpperCase()} • ${(q.difficulty||"any").replace("_"," ")}`;
+  ui.qStem.textContent = q.stem || "—";
+
+  ui.qWarn.textContent = isNegativeStem(q.stem) ? "NEGATIVE WORDING — read carefully" : "";
+
+  renderTabs(q);
+  setTab("case");
+
+  if((q.qtype||"single")==="bowtie"){
+    renderBowtie(q);
+  }else{
+    renderOptions(q);
+  }
+
+  startTimer();
+  updateScoreLine();
+  updateDashboard();
+}
+function renderOptions(q){
+  const isSATA = (q.qtype||"single")==="sata";
+  const name = "opt";
+  (q.options||[]).forEach((opt, idx)=>{
+    const id = `opt_${idx}`;
+    const row = document.createElement("label");
+    row.className = "opt";
+    const input = document.createElement("input");
+    input.type = isSATA ? "checkbox" : "radio";
+    input.name = name;
+    input.value = opt;
+    input.id = id;
+    input.addEventListener("change", collectAnswer);
+    const txt = document.createElement("div");
+    txt.className = "txt";
+    txt.textContent = opt;
+    row.appendChild(input);
+    row.appendChild(txt);
+    ui.optionsWrap.appendChild(row);
+  });
+}
+function renderBowtie(q){
+  ui.bowtieWrap.classList.remove("hidden");
+  ui.optionsWrap.innerHTML = "";
+  const b = q.bowtie || {};
+  const left = b.left_options || [];
+  const mid  = b.middle_options || [];
+  const right= b.right_options || [];
+  fillSelect(ui.bowLeft, left);
+  fillSelect(ui.bowMid, mid);
+  fillSelect(ui.bowRight, right);
+
+  ui.bowLeft.addEventListener("change", collectAnswer);
+  ui.bowMid.addEventListener("change", collectAnswer);
+  ui.bowRight.addEventListener("change", collectAnswer);
+}
+function fillSelect(sel, options){
+  sel.innerHTML = "";
+  const ph = document.createElement("option");
+  ph.value = "";
+  ph.textContent = "— Select —";
+  sel.appendChild(ph);
+  options.forEach(o=>{
+    const op = document.createElement("option");
+    op.value = o;
+    op.textContent = o;
+    sel.appendChild(op);
+  });
+}
+
+// ---------- Answering / scoring ----------
+function collectAnswer(){
+  if(!current) return;
+  const qt = current.qtype || "single";
+  if(qt==="bowtie"){
+    currentAnswer = {
+      left: ui.bowLeft.value || "",
+      middle: ui.bowMid.value || "",
+      right: ui.bowRight.value || ""
+    };
+    ui.btnSubmit.disabled = !(currentAnswer.left && currentAnswer.middle && currentAnswer.right);
     return;
   }
-
-  const cs = q.case || {};
-  ui.panes.case.textContent = cs.case_study || "No case information for this question.";
-  ui.panes.vitals.textContent = formatVitals(cs.vitals);
-  ui.panes.nurse.textContent = (cs.nurse_actions && cs.nurse_actions.length) ? cs.nurse_actions.join("\n") : "No nursing actions listed.";
-  ui.panes.orders.textContent = (cs.provider_orders && cs.provider_orders.length) ? cs.provider_orders.join("\n") : "No provider orders listed.";
-
-  let prefix = "";
-  if(mode==="exam") prefix += `EXAM QUESTION ${examIndex}/75\n\n`;
-  if(q.case_group?.id){
-    prefix += `[${q.case_group.title || "Progressive Case"} — ${q.case_group.id} | Q${q.case_group.sequence}/${q.case_group.total}]\n\n`;
+  if(qt==="sata"){
+    const vals = Array.from(ui.optionsWrap.querySelectorAll("input[type=checkbox]:checked")).map(i=>i.value);
+    currentAnswer = vals;
+    ui.btnSubmit.disabled = vals.length===0;
+    return;
   }
-  const neg = q.polarity==="negative" ? "⚠️ NEGATIVE WORDING: look for NOT/EXCEPT.\n\n" : "";
-  ui.panes.question.textContent = prefix + neg + (q.stem || "");
-  ui.panes.rationale.textContent = "";
-
-  // Header badge
-  const flag = document.createElement("div");
-  flag.className = "flag";
-  flag.textContent = `Type: ${q.qtype || "single"} • Topic: ${q.topic || ""} • Diff: ${q.difficulty || ""}`;
-  ui.answers.appendChild(flag);
-
-  if(q.qtype==="single"){
-    (q.choices||[]).forEach((c, i)=> ui.answers.appendChild(makeRadio(c, i)));
-  }else if(q.qtype==="sata"){
-    (q.choices||[]).forEach((c, i)=> ui.answers.appendChild(makeCheck(c, i)));
-  }else if(q.qtype==="bowtie"){
-    ui.answers.appendChild(makeBowtie(q.bowtie || {}));
-  }else{
-    const p=document.createElement("div");
-    p.textContent = `Unknown question type: ${q.qtype}`;
-    ui.answers.appendChild(p);
+  // single
+  const pick = ui.optionsWrap.querySelector("input[type=radio]:checked");
+  currentAnswer = pick ? pick.value : null;
+  ui.btnSubmit.disabled = !currentAnswer;
+}
+function scoreCurrent(){
+  // returns {points,max,correct}
+  const qt = current.qtype || "single";
+  if(scoringMode==="strict"){
+    const ok = isCorrectStrict();
+    return { points: ok?1:0, max:1, correct: ok };
   }
-
-  setTab("question");
-  startTimer();
-}
-
-function makeRadio(choice, idx){
-  const wrap = document.createElement("div");
-  wrap.className = "answer";
-  wrap.innerHTML = `
-    <label>
-      <input type="radio" name="single" value="${escapeHtml(choice)}">
-      <span>${escapeHtml(choice)}</span>
-    </label>`;
-  return wrap;
-}
-function makeCheck(choice, idx){
-  const wrap = document.createElement("div");
-  wrap.className = "answer";
-  wrap.innerHTML = `
-    <label>
-      <input type="checkbox" value="${escapeHtml(choice)}">
-      <span>${escapeHtml(choice)}</span>
-    </label>`;
-  return wrap;
-}
-function makeBowtie(b){
-  const wrap = document.createElement("div");
-  wrap.className = "answer";
-  const grid = document.createElement("div");
-  grid.style.display="grid";
-  grid.style.gridTemplateColumns="1fr 1fr 1fr";
-  grid.style.gap="10px";
-
-  grid.appendChild(makeBowtieCol("left", b.left_label || "Left", b.left_options || []));
-  grid.appendChild(makeBowtieCol("middle", b.middle_label || "Middle", b.middle_options || []));
-  grid.appendChild(makeBowtieCol("right", b.right_label || "Right", b.right_options || []));
-
-  wrap.appendChild(grid);
-  return wrap;
-}
-function makeBowtieCol(key, label, options){
-  const col=document.createElement("div");
-  col.className="answer";
-  col.innerHTML = `<div class="flag">${escapeHtml(label)}</div>`;
-  const group = `bow_${key}`;
-  options.forEach(opt=>{
-    const row=document.createElement("label");
-    row.style.display="flex";
-    row.style.gap="10px";
-    row.style.alignItems="flex-start";
-    row.style.marginTop="8px";
-    row.innerHTML = `
-      <input type="radio" name="${group}" value="${escapeHtml(opt)}">
-      <span>${escapeHtml(opt)}</span>`;
-    col.appendChild(row);
-  });
-  return col;
-}
-
-function getUserAnswer(){
-  if(!current) return {answered:false};
-  if(current.qtype==="single"){
-    const sel=document.querySelector('input[type="radio"][name="single"]:checked');
-    return {answered:!!sel, value: sel?sel.value:""};
+  // partial
+  if(qt==="single"){
+    const ok = (currentAnswer === current.answer);
+    return { points: ok?1:0, max:1, correct: ok };
   }
-  if(current.qtype==="sata"){
-    const sel=Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(x=>x.value);
-    return {answered: sel.length>0, value: sel};
+  if(qt==="sata"){
+    const correctSet = new Set(Array.isArray(current.answer)?current.answer:[]);
+    const userSet = new Set(Array.isArray(currentAnswer)?currentAnswer:[]);
+    let tp=0, fp=0;
+    for(const v of userSet){ if(correctSet.has(v)) tp++; else fp++; }
+    const raw = tp - fp;
+    const max = Math.max(1, correctSet.size);
+    const points = Math.max(0, Math.min(max, raw));
+    const ok = (points===max);
+    return { points, max, correct: ok };
   }
-  if(current.qtype==="bowtie"){
-    const left=document.querySelector('input[type="radio"][name="bow_left"]:checked')?.value || "";
-    const mid=document.querySelector('input[type="radio"][name="bow_middle"]:checked')?.value || "";
-    const right=document.querySelector('input[type="radio"][name="bow_right"]:checked')?.value || "";
-    return {answered: !!(left && mid && right), value:{left, middle:mid, right}};
+  if(qt==="bowtie"){
+    const b = current.bowtie || {};
+    const max = 3;
+    let points = 0;
+    if(currentAnswer.left===b.left_answer) points++;
+    if(currentAnswer.middle===b.middle_answer) points++;
+    if(currentAnswer.right===b.right_answer) points++;
+    return { points, max, correct: points===max };
   }
-  return {answered:false};
+  const ok = isCorrectStrict();
+  return { points: ok?1:0, max:1, correct: ok };
 }
-
-function isCorrect(ans){
-  if(!current) return false;
-  if(current.qtype==="single") return ans.value === current.answer;
-  if(current.qtype==="sata"){
-    const a=new Set(Array.isArray(current.answer)?current.answer:[]);
-    const u=new Set(Array.isArray(ans.value)?ans.value:[]);
-    return setEq(a,u);
+function isCorrectStrict(){
+  const qt = current.qtype || "single";
+  if(qt==="single"){
+    return currentAnswer === current.answer;
   }
-  if(current.qtype==="bowtie"){
-    const b=current.bowtie || {};
-    return ans.value.left===b.left_answer && ans.value.middle===b.middle_answer && ans.value.right===b.right_answer;
+  if(qt==="sata"){
+    const a = Array.isArray(current.answer)?current.answer:[];
+    const u = Array.isArray(currentAnswer)?currentAnswer:[];
+    if(u.length !== a.length) return false;
+    const setA = new Set(a);
+    for(const v of u) if(!setA.has(v)) return false;
+    return true;
+  }
+  if(qt==="bowtie"){
+    const b = current.bowtie || {};
+    return currentAnswer.left===b.left_answer
+        && currentAnswer.middle===b.middle_answer
+        && currentAnswer.right===b.right_answer;
   }
   return false;
 }
-
 function buildRationale(){
-  const q=current;
-  if(!q) return "";
-  const lines=[];
-  lines.push(`ID: ${q.id || ""}   |   Topic: ${q.topic || ""}   |   Difficulty: ${q.difficulty || ""}`);
-  lines.push("");
-  if(q.qtype==="single"){
-    lines.push("Correct Answer:");
-    lines.push(`- ${q.answer || ""}`);
-    lines.push("");
-    lines.push("Rationale:");
-    lines.push(q.rationale || "");
-    const cr=q.choice_rationales || {};
-    if(cr && Object.keys(cr).length){
-      lines.push("");
-      lines.push("Option-by-option breakdown:");
-      for(const c of (q.choices||[])){
-        lines.push(`- ${c}: ${cr[c] || ""}`);
-      }
-    }
-  }else if(q.qtype==="sata"){
-    lines.push("Correct Answers (must match exactly):");
-    for(const a of (q.answer||[])) lines.push(`- ${a}`);
-    lines.push("");
-    lines.push("Rationale:");
-    lines.push(q.rationale || "");
-    const cr=q.choice_rationales || {};
-    if(cr && Object.keys(cr).length){
-      lines.push("");
-      lines.push("Option-by-option breakdown:");
-      for(const c of (q.choices||[])){
-        lines.push(`- ${c}: ${cr[c] || ""}`);
-      }
-    }
-  }else if(q.qtype==="bowtie"){
-    const b=q.bowtie || {};
-    lines.push("Correct Bowtie:");
-    lines.push(`- ${b.left_label || "Left"}: ${b.left_answer || ""}`);
-    lines.push(`- ${b.middle_label || "Middle"}: ${b.middle_answer || ""}`);
-    lines.push(`- ${b.right_label || "Right"}: ${b.right_answer || ""}`);
-    lines.push("");
-    lines.push("Rationale:");
-    lines.push(q.rationale || "");
+  const lines = [];
+  const qt = current.qtype || "single";
+  if(qt==="single"){
+    lines.push(`Correct answer: ${current.answer}`);
+  }else if(qt==="sata"){
+    lines.push(scoringMode==="partial" ? "Correct answers (partial credit enabled):" : "Correct answers (must match exactly):");
+    (current.answer||[]).forEach(a=>lines.push(`- ${a}`));
+  }else if(qt==="bowtie"){
+    const b=current.bowtie||{};
+    lines.push("Bowtie correct selections:");
+    lines.push(`- Client problem: ${b.left_answer||"—"}`);
+    lines.push(`- Priority action: ${b.middle_answer||"—"}`);
+    lines.push(`- Expected outcome: ${b.right_answer||"—"}`);
   }
+  lines.push("");
+  lines.push(current.rationale || "No rationale provided.");
   return lines.join("\n");
 }
-
-function showRationale(){
-  ui.panes.rationale.textContent = buildRationale();
-  setTab("rationale");
+function awardBadges(sc){
+  const earn = (name)=>{
+    if(!badges.earned) badges.earned = {};
+    if(!badges.earned[name]){
+      badges.earned[name] = new Date().toISOString().slice(0,10);
+      saveBadges(badges);
+    }
+  };
+  if(streak>=5) earn("Streak5");
+  if(streak>=10) earn("Streak10");
+  if((current.qtype||"") === "sata" && sc.correct) earn("SATA");
+  if((current.qtype||"") === "bowtie" && sc.correct) earn("Bowtie");
 }
-
-function submit(){
-  cancelTimer();
+function teachBack(){
+  if(mode==="exam") return;
+  const prompts = [
+    "In 1 sentence: what cue made this the priority?",
+    "What assessment would you re-check first after the intervention?",
+    "Which finding would require immediate provider notification?",
+    "What safety risk was the distractor trying to trick you with?"
+  ];
+  const p = prompts[Math.floor(Math.random()*prompts.length)];
+  try{ window.prompt("Teach-back (not graded):\n\n"+p, ""); }catch{}
+}
+function submitAnswer(){
   if(!current) return;
 
-  const ans=getUserAnswer();
-  if(!ans.answered){
-    showDialog("Answer required", "Select an answer before submitting.");
-    startTimer();
-    return;
-  }
+  stopTimer();
+  const sc = scoreCurrent();
+  scorePoints += sc.points;
+  scoreMax += sc.max;
 
-  total += 1;
-  const correct=isCorrect(ans);
-  if(correct) score += 1;
-  else if(current.id) missedIds.add(current.id);
-
-  updateStatus();
-  showRationale();
-
-  if(mode==="exam"){
-    setTimeout(loadExamQuestion, 200);
+  if(sc.correct){
+    streak += 1;
   }else{
-    ui.timerLine.textContent = "⏱ Done";
+    streak = 0;
+    if(current.id) missedIds.add(current.id);
   }
-}
 
-function autoTimeout(){
-  if(!current) return;
-  const ans=getUserAnswer();
-  if(ans.answered){
-    submit();
-    return;
-  }
-  total += 1;
-  if(current.id) missedIds.add(current.id);
-  updateStatus();
-  ui.panes.rationale.textContent = `⏱ Time expired. Marked incorrect.\n\n${current.rationale || ""}`;
+  const topic = normalizeTopic(current.topic);
+  if(!mastery[topic]) mastery[topic] = { attempts:0, correct:0 };
+  mastery[topic].attempts += 1;
+  mastery[topic].correct += (sc.correct ? 1 : 0);
+  saveMastery(mastery);
+
+  awardBadges(sc);
+
+  ui.pane_rationale.textContent = buildRationale();
   setTab("rationale");
+  ui.btnShowRationale.disabled = false;
+  ui.btnSubmit.disabled = true;
+
+  updateScoreLine();
+  updateDashboard();
+
+  setTimeout(teachBack, 50);
+
   if(mode==="exam"){
-    setTimeout(loadExamQuestion, 200);
+    if(examQueue.length){
+      // next question button prompt
+      showDialog("Saved", "Answer recorded. Click OK for next question.");
+      ui.dlg.addEventListener("close", ()=>{ nextFromQueue(); }, { once:true });
+    }else{
+      finishExam();
+    }
   }
 }
+function showRationale(){
+  if(!current) return;
+  ui.pane_rationale.textContent = buildRationale();
+  setTab("rationale");
+}
+function updateScoreLine(){
+  ui.scoreLine.textContent = `Score: ${scorePoints}/${scoreMax} • Missed: ${missedIds.size} • Scoring: ${scoringMode}${focusWeak ? " • FocusWeak" : ""}`;
+}
 
-function startExam(){
-  const minDiff = Number(ui.difficulty.value || 1);
-  const topic = ui.topic.value;
-  let examPool = bank.filter(q => Number(q.difficulty || 1) >= minDiff);
-  if(topic && topic !== "__ALL__"){
-    examPool = examPool.filter(q => (q.topic || "") === topic);
-  }
-  if(examPool.length < 75){
-    showDialog("Not enough questions", `Only ${examPool.length} questions match filters. Choose All Topics or lower difficulty.`);
+// ---------- Timer ----------
+function startTimer(){
+  stopTimer();
+  timerRemaining = timerSeconds;
+  ui.timerLine.textContent = timerSeconds ? `${timerSeconds}s` : "Off";
+  if(!timerSeconds) return;
+  tickTimer();
+  timerHandle = setInterval(tickTimer, 1000);
+}
+function tickTimer(){
+  if(!timerSeconds) return;
+  ui.timerLine.textContent = `${timerRemaining}s`;
+  if(timerRemaining <= 0){
+    clearInterval(timerHandle);
+    timerHandle = null;
+    handleTimeout();
     return;
   }
-  mode="exam";
-  score=0; total=0;
-  missedIds = new Set();
-  examQueue = buildExamQueue(examPool);
-  examIndex = 0;
-  updateStatus();
-  showDialog("Exam started", "75-question exam started.\n\nIncludes standalone questions + progressive case groups.\n\nSubmit advances automatically.");
-  loadExamQuestion();
+  timerRemaining -= 1;
 }
-
-function finishExam(){
-  cancelTimer();
-  const pct = Math.round((score / Math.max(1,total))*1000)/10;
-  const ok = window.confirm(`Exam complete!\n\nScore: ${score}/${total} (${pct}%)\nMissed: ${missedIds.size}\n\nAdd to leaderboard?`);
-  if(ok){
-    const name = (window.prompt("Enter name for leaderboard:", "Anonymous") || "Anonymous").slice(0,24);
-    const entry = { name, score, total, pct, date: new Date().toISOString().slice(0,16).replace("T"," ") };
-    const scores = loadScores();
-    scores.push(entry);
-    scores.sort((a,b)=> (b.pct-a.pct) || (b.score-a.score));
-    saveScores(scores.slice(0,50));
-    showLeaderboard();
+function stopTimer(){
+  if(timerHandle){
+    clearInterval(timerHandle);
+    timerHandle = null;
   }
-  mode="practice";
-  examQueue=[];
-  examIndex=0;
-  updateStatus();
-  nextPractice();
+}
+function handleTimeout(){
+  // mark incorrect
+  streak = 0;
+  scoreMax += 1;
+  if(current && current.id) missedIds.add(current.id);
+  const topic = normalizeTopic(current.topic);
+  if(!mastery[topic]) mastery[topic] = { attempts:0, correct:0 };
+  mastery[topic].attempts += 1;
+  saveMastery(mastery);
+
+  ui.pane_rationale.textContent = `⏱ Time expired. Marked incorrect.\n\n${current ? (current.rationale||"") : ""}`;
+  setTab("rationale");
+  updateScoreLine();
+  updateDashboard();
+
+  if(mode==="exam"){
+    if(examQueue.length){
+      showDialog("Time expired", "Click OK for next question.");
+      ui.dlg.addEventListener("close", ()=>{ nextFromQueue(); }, { once:true });
+    }else{
+      finishExam();
+    }
+  }
 }
 
-function loadExamQuestion(){
-  if(examIndex >= examQueue.length){
+// ---------- Exam / leaderboard / export ----------
+function startExam(){
+  const pool = filteredPool();
+  if(pool.length < 75){
+    showDialog("Not enough questions", `Your current filters only include ${pool.length} questions. Choose “All” topic / Any difficulty / Any type to reach 75.`);
+    return;
+  }
+  mode = "exam";
+  scorePoints = 0;
+  scoreMax = 0;
+  missedIds = new Set();
+  streak = 0;
+
+  examCode = (localStorage.getItem(LS_EXAMCODE) || "").trim();
+  const codeSeed = examCode ? `${examCode}|${ui.topicSelect.value}|${ui.diffSelect.value}|${ui.typeSelect.value}` : "";
+  examQueue = buildExamQueue(pool, codeSeed);
+
+  nextFromQueue();
+}
+function nextFromQueue(){
+  if(!examQueue.length){
     finishExam();
     return;
   }
-  const q = examQueue[examIndex];
-  examIndex += 1;
+  const q = examQueue.shift();
   renderQuestion(q);
 }
+function finishExam(){
+  mode = "practice";
+  stopTimer();
+  const pct = scoreMax ? Math.round((scorePoints/scoreMax)*100) : 0;
 
-function nextPractice(){
-  mode="practice";
-  applyFilters(false);
-  if(!pool.length){
-    clearUI();
-    showDialog("No questions", "No questions match filters.");
-    return;
-  }
-  const q = pickPracticeQuestion();
-  renderQuestion(q);
+  let initials = (window.prompt("Enter your initials (2–4 letters):", "") || "").trim();
+  initials = initials.replace(/[^A-Za-z]/g,"").toUpperCase().slice(0,4);
+  if(initials.length < 2) initials = "NA";
+  let section = (window.prompt("Optional: enter section/cohort (e.g., AM, PM, LVN1):", "") || "").trim().slice(0,12);
+
+  const entry = {
+    name: initials,
+    section,
+    pct,
+    score: scorePoints,
+    total: scoreMax,
+    date: new Date().toISOString().slice(0,16).replace("T"," ")
+  };
+  const scores = loadScores();
+  scores.unshift(entry);
+  scores.sort((a,b)=> (b.pct-a.pct) || (b.score-a.score));
+  saveScores(scores.slice(0,200));
+
+  showDialog("Exam complete", `Score: ${pct}% (${scorePoints}/${scoreMax})\nSaved to leaderboard.`);
+  ui.dlg.addEventListener("close", ()=>{ updateDashboard(); }, { once:true });
 }
-
-function resetAll(){
-  cancelTimer();
-  mode="practice";
-  examQueue=[]; examIndex=0;
-  score=0; total=0;
-  missedIds = new Set();
-
-  ui.reviewMissed.checked=false;
-  ui.difficulty.value="5";
-  ui.topic.value="__ALL__";
-
-  seenIds=new Set();
-  applyFilters(true);
-  updateStatus();
-  nextPractice();
-}
-
 function showLeaderboard(){
   const scores = loadScores();
   if(!scores.length){
-    showDialog("Leaderboard", "No scores saved on this device yet. Finish an exam and save your score.");
+    showDialog("Leaderboard", "No saved scores yet.");
     return;
   }
-  const lines = ["Leaderboard (Top 50 on this device)\n"];
-  scores.slice(0,50).forEach((s,i)=>{
-    lines.push(`${String(i+1).padStart(2," ")}. ${s.name} — ${s.pct}% (${s.score}/${s.total}) — ${s.date}`);
+  const section = (window.prompt("Filter by section? Leave blank for all:", "") || "").trim();
+  const show = section ? scores.filter(s => (s.section||"").toLowerCase() === section.toLowerCase()) : scores;
+
+  const lines = [];
+  lines.push("Leaderboard (Top 50 on this device) — Initials");
+  if(section) lines.push(`Section filter: ${section}`);
+  lines.push("");
+  (show.length ? show : scores).slice(0,50).forEach((s,i)=>{
+    lines.push(`${String(i+1).padStart(2," ")}. ${s.name}${s.section?` (${s.section})`:''} — ${s.pct}% (${s.score}/${s.total}) — ${s.date}`);
   });
   showDialog("Leaderboard", lines.join("\n"));
 }
+function exportCSV(filename, rows){
+  const csv = rows.map(r=>r.map(x=>`"${String(x??"").replaceAll('"','""')}"`).join(",")).join("\n");
+  const blob = new Blob([csv], {type:"text/csv"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url), 800);
+}
+function exportTools(){
+  const unlocked = localStorage.getItem(LS_INSTR)==="1";
+  if(!unlocked){
+    ui.instrCodeInput.value = "";
+    ui.dlgInstructor.showModal();
+    ui.dlgInstructor.addEventListener("close", ()=>{
+      if(ui.dlgInstructor.returnValue!=="ok") return;
+      const entered = (ui.instrCodeInput.value||"").trim();
+      let code = localStorage.getItem(LS_INSTR_CODE) || "";
+      if(!code){
+        localStorage.setItem(LS_INSTR_CODE, entered);
+        code = entered;
+      }
+      if(entered && entered === code){
+        localStorage.setItem(LS_INSTR,"1");
+        showDialog("Instructor unlocked","Exports enabled on this device.");
+      }else{
+        showDialog("Incorrect code","Instructor code did not match.");
+      }
+    }, { once:true });
+    return;
+  }
 
-// UI wiring
-ui.btnNext.addEventListener("click", ()=>{
-  if(mode==="exam"){ showDialog("Exam mode", "Use Submit to move forward in Exam Mode."); return; }
-  nextPractice();
-});
-ui.btnSubmit.addEventListener("click", submit);
-ui.btnShowRationale.addEventListener("click", showRationale);
-ui.btnStartExam.addEventListener("click", startExam);
-ui.btnLeaderboard.addEventListener("click", showLeaderboard);
-ui.btnReset.addEventListener("click", resetAll);
+  const scores = loadScores();
+  const m = loadMastery();
+  const rows1 = [["initials","section","pct","score","total","date"]];
+  scores.forEach(s=>rows1.push([s.name,s.section||"",s.pct,s.score,s.total,s.date]));
+  exportCSV("lvn_scores.csv", rows1);
 
-ui.difficulty.addEventListener("change", ()=>{ applyFilters(true); updateStatus(); nextPractice(); });
-ui.topic.addEventListener("change", ()=>{ applyFilters(true); updateStatus(); nextPractice(); });
-ui.reviewMissed.addEventListener("change", ()=>{ applyFilters(true); updateStatus(); nextPractice(); });
-ui.timerSelect.addEventListener("change", ()=>{ timerSeconds=Number(ui.timerSelect.value||0); timerRemaining=timerSeconds; updateTimer(); });
+  const rows2 = [["topic","attempts","correct","pct"]];
+  Object.entries(m).forEach(([t,v])=>{
+    const pct = v.attempts ? Math.round((v.correct||0)/v.attempts*100) : "";
+    rows2.push([t, v.attempts||0, v.correct||0, pct]);
+  });
+  exportCSV("lvn_mastery.csv", rows2);
+
+  showDialog("Export complete","Downloaded lvn_scores.csv and lvn_mastery.csv");
+}
+
+// ---------- Exam code dialog ----------
+function setExamCode(){
+  ui.examCodeInput.value = localStorage.getItem(LS_EXAMCODE) || "";
+  ui.dlgExamCode.showModal();
+  ui.dlgExamCode.addEventListener("close", ()=>{
+    if(ui.dlgExamCode.returnValue!=="ok") return;
+    const code = (ui.examCodeInput.value||"").trim();
+    localStorage.setItem(LS_EXAMCODE, code);
+    examCode = code;
+    showDialog("Exam code set", code ? `Using code: ${code}` : "Cleared. Exams will be random.");
+  }, { once:true });
+}
+
+// ---------- Reset ----------
+function resetAll(){
+  if(!confirm("Reset progress, mastery, badges, and seen questions on this device?")) return;
+  localStorage.removeItem(LS_SCORES);
+  localStorage.removeItem(LS_MASTERY);
+  localStorage.removeItem(LS_BADGES);
+  missedIds = new Set();
+  mastery = {};
+  badges = { earned:{} };
+  streak = 0;
+  QUESTIONS.forEach(q=>{ delete q._seen; });
+  scorePoints = 0;
+  scoreMax = 0;
+  updateScoreLine();
+  updateDashboard();
+  showDialog("Reset complete","Device-local progress cleared.");
+}
+
+// ---------- Data load ----------
+function buildTopicList(){
+  const topics = Array.from(new Set(QUESTIONS.map(q=>normalizeTopic(q.topic)))).sort((a,b)=>a.localeCompare(b));
+  ui.topicSelect.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = "All";
+  all.textContent = "All";
+  ui.topicSelect.appendChild(all);
+  topics.forEach(t=>{
+    const op = document.createElement("option");
+    op.value = t;
+    op.textContent = t;
+    ui.topicSelect.appendChild(op);
+  });
+}
+async function loadQuestions(){
+  const resp = await fetch("questions.json", { cache: "no-store" });
+  const data = await resp.json();
+  // Normalize schema minimally
+  const arr = Array.isArray(data) ? data : (data.questions || []);
+  QUESTIONS = arr.map((q,idx)=>{
+    const qq = {...q};
+    qq.id = qq.id || `q_${idx}_${Math.random().toString(36).slice(2,7)}`;
+    qq.qtype = qq.qtype || qq.type || "single";
+    qq.options = qq.options || qq.choices || [];
+    qq.answer = qq.answer ?? qq.correct;
+    qq.topic = normalizeTopic(qq.topic);
+    return qq;
+  });
+}
+
+// ---------- Practice flow ----------
+function nextPractice(){
+  mode = "practice";
+  const q = pickPracticeQuestion();
+  if(!q){
+    showDialog("No questions", "No questions match your current filters.");
+    return;
+  }
+  renderQuestion(q);
+}
 
 // ---------- Init ----------
-(async function init(){
-  try{
-    const res = await fetch(BANK_URL, { cache: "no-store" });
-    if(!res.ok) throw new Error(`Failed to load ${BANK_URL}. If you opened via file://, use a local server.`);
-    bank = await res.json();
-    if(!Array.isArray(bank) || !bank.length) throw new Error("questions.json is empty or invalid.");
+function initSettings(){
+  const theme = localStorage.getItem(LS_THEME) || "dark";
+  ui.themeSelect.value = theme;
+  applyTheme(theme);
 
+  const font = localStorage.getItem(LS_FONT) || "1.0";
+  ui.fontSelect.value = font;
+  applyFont(font);
+
+  const hc = localStorage.getItem(LS_HC) === "1";
+  ui.hiContrast.checked = hc;
+  applyHighContrast(hc);
+
+  const sc = localStorage.getItem(LS_SCORING) || "strict";
+  ui.scoringSelect.value = sc;
+  applyScoring(sc);
+
+  const ts = localStorage.getItem(LS_TIMER) || "0";
+  ui.timerSelect.value = ts;
+  timerSeconds = Number(ts||0);
+
+  mastery = loadMastery();
+  badges = loadBadges();
+
+  updateDashboard();
+  updateScoreLine();
+}
+
+function wireEvents(){
+  ui.btnPractice.addEventListener("click", nextPractice);
+  ui.btnStartExam.addEventListener("click", startExam);
+  ui.btnExamCode.addEventListener("click", setExamCode);
+  ui.btnFocusWeak.addEventListener("click", ()=>{
+    focusWeak = !focusWeak;
+    showDialog("Focus Weak", focusWeak ? "ON: more weak topics + missed questions." : "OFF: normal random practice.");
+    updateDashboard();
+  });
+  ui.btnLeaderboard.addEventListener("click", showLeaderboard);
+  ui.btnExport.addEventListener("click", exportTools);
+  ui.btnReset.addEventListener("click", resetAll);
+
+  ui.btnSubmit.addEventListener("click", submitAnswer);
+  ui.btnShowRationale.addEventListener("click", showRationale);
+
+  ui.themeSelect.addEventListener("change", ()=>applyTheme(ui.themeSelect.value));
+  ui.fontSelect.addEventListener("change", ()=>applyFont(ui.fontSelect.value));
+  ui.hiContrast.addEventListener("change", ()=>applyHighContrast(ui.hiContrast.checked));
+  ui.scoringSelect.addEventListener("change", ()=>{ applyScoring(ui.scoringSelect.value); showDialog("Scoring", scoringMode==="strict" ? "Strict (all-or-nothing)." : "NGN partial credit enabled."); updateScoreLine(); });
+  ui.timerSelect.addEventListener("change", ()=>{
+    timerSeconds = Number(ui.timerSelect.value||0);
+    localStorage.setItem(LS_TIMER, String(timerSeconds));
+    showDialog("Timer", timerSeconds ? `Timer set to ${timerSeconds}s per question.` : "Timer off.");
+    updateDashboard();
+  });
+
+  // Filter change resets seen flags for that filter session (so students can rotate per filter)
+  [ui.topicSelect, ui.diffSelect, ui.typeSelect].forEach(sel=>{
+    sel.addEventListener("change", ()=>{
+      // clear seen state only for current view to avoid confusion
+      QUESTIONS.forEach(q=>{ delete q._seen; });
+    });
+  });
+}
+
+async function boot(){
+  try{
+    // PWA offline
+    if("serviceWorker" in navigator){
+      window.addEventListener("load", ()=> navigator.serviceWorker.register("service-worker.js").catch(()=>{}) );
+    }
+
+    initSettings();
+    wireEvents();
+    await loadQuestions();
     buildTopicList();
-    applyFilters(true);
-    updateStatus();
-    nextPractice();
+    updateDashboard();
+    showDialog("Ready", `Loaded ${QUESTIONS.length} questions.\n\nClick “Next Practice” to start.`);
   }catch(err){
     console.error(err);
-    showDialog("Startup error", String(err));
+    showDialog("Error", "Could not load questions.json. Make sure all files are uploaded to GitHub Pages root.");
   }
-})();
+}
+
+boot();
