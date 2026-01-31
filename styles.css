@@ -27,3 +27,40 @@ body{
 .pane{display:none}
 .pane.active{display:block}
 .answers{margin-top:12px}
+
+
+/* v4: font scaling + high contrast */
+:root{ --fontScale: 1.0; }
+body{ font-size: calc(16px * var(--fontScale)); }
+
+body.hicontrast{
+  --muted: #d7e2ff;
+  --text: #ffffff;
+  --accent: #9be7ff;
+  --danger: #ff8c8c;
+}
+body.hicontrast .card{ border-color:#5b75d6; }
+body.hicontrast .btn{ border-color:#5b75d6; }
+body.hicontrast .tab{ border-color:#5b75d6; }
+
+.dash{
+  margin-top:10px;
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid #223063;
+  background:#0c132a;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px 16px;
+  color:var(--muted);
+  font-size:12px;
+}
+.dash .k{
+  display:inline-block;
+  padding:3px 8px;
+  border-radius:999px;
+  border:1px solid #223063;
+  background:#0a1026;
+  margin-right:6px;
+  color:var(--muted);
+}
