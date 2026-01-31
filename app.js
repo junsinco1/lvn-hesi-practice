@@ -1,6 +1,42 @@
 // LVN HESI Practice WebApp v4.1 (fixed buttons + full logic)
 "use strict";
 
+// Visible error overlay for debugging (shows JS errors on screen)
+(function(){
+  function ensure(){
+    let d=document.getElementById("errOverlay");
+    if(!d){
+      d=document.createElement("div");
+      d.id="errOverlay";
+      d.style.position="fixed";
+      d.style.left="12px";
+      d.style.right="12px";
+      d.style.bottom="12px";
+      d.style.zIndex="99999";
+      d.style.padding="10px 12px";
+      d.style.borderRadius="14px";
+      d.style.border="1px solid rgba(255,0,0,.45)";
+      d.style.background="rgba(0,0,0,.78)";
+      d.style.color="#fff";
+      d.style.fontSize="12px";
+      d.style.whiteSpace="pre-wrap";
+      d.style.display="none";
+      document.body.appendChild(d);
+    }
+    return d;
+  }
+  window.addEventListener("error", (e)=>{
+    const d=ensure();
+    d.style.display="block";
+    d.textContent = "JS Error:\n" + (e.message||e.error||"unknown") + "\n" + (e.filename||"") + ":" + (e.lineno||"");
+  });
+  window.addEventListener("unhandledrejection", (e)=>{
+    const d=ensure();
+    d.style.display="block";
+    d.textContent = "Promise Rejection:\n" + (e.reason && e.reason.message ? e.reason.message : String(e.reason));
+  });
+})();
+
 // ---------- Storage keys ----------
 const LS_THEME   = "lvn_theme_v4";
 const LS_FONT    = "lvn_font_v4";
@@ -931,9 +967,7 @@ function wireEvents(){
 async function boot(){
   try{
     // PWA offline
-    if("serviceWorker" in navigator){
-      window.addEventListener("load", ()=> navigator.serviceWorker.register("service-worker.js").catch(()=>{}) );
-    }
+    // service worker disabled in v4.3-debug to prevent caching issues
 
     initSettings();
     wireEvents();
