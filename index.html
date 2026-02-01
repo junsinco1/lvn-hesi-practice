@@ -302,8 +302,11 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
     const items=hasCase ? [
       ["Case", q.case.case || q.case.summary || "—"],
       ["Vitals", JSON.stringify(q.case.vitals||[], null, 2)],
-      ["Nurse Did", (q.case.nurse||[]).join("\n")||"—"],
-      ["Provider Orders", (q.case.orders||[]).join("\n")||"—"],
+      ["Labs", JSON.stringify(q.case.labs||{}, null, 2)],
+      ["Nurse Did", (q.case.nurse||[]).join("
+")||"—"],
+      ["Provider Orders", (q.case.orders||[]).join("
+")||"—"],
       ["Rationale", q.rationale||"—"]
     ] : [["Info","No case tabs for this question."]];
     items.forEach(([name,body],idx)=>{
@@ -391,6 +394,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
     }else if(qtype==="bowtie" && q.bowtie){
       const b=q.bowtie;
       const left=$("bow_left").value, mid=$("bow_middle").value, right=$("bow_right").value;
+      if(!left||!mid||!right){ banner("Select an option in all three bowtie columns before submitting."); return; }
       wasCorrect=(left===b.left_answer && mid===b.middle_answer && right===b.right_answer);
       state.answered=true;
       extra=`Correct: ${b.left_answer} | ${b.middle_answer} | ${b.right_answer}`;
@@ -437,6 +441,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
     return `<div style="flex:1; min-width:190px;">
       <label>${escapeHtml(label||side)}</label>
       <select id="bow_${side}" style="width:100%;">
+        <option value="">-- select --</option>
         ${(options||[]).map(o=>`<option value="${escapeHtml(o)}">${escapeHtml(o)}</option>`).join("")}
       </select>
     </div>`;
@@ -449,6 +454,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
 
     const qtype=q.qtype||q.type||"single";
     const stem=q.stem||q.question||"—";
+    const caseObj = q.case || null;
     const choices=q.choices||q.options||[];
     const polarity=q.polarity||"positive";
     const lvl=q.level||"LVN";
@@ -459,7 +465,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
       <span class="tag">${escapeHtml(lvl)}</span>
       <span class="tag">${escapeHtml(polarity)}</span>
     </div>
-    <div class="qstem">${escapeHtml(stem)}</div>`;
+    <div id="caseBanner" class="small" style="margin:6px 0 10px; padding:10px; border:1px solid var(--border); border-radius:14px; background: rgba(0,0,0,0.10);"></div><div class="qstem">${escapeHtml(stem)}</div>`;
 
     if(qtype==="bowtie" && q.bowtie){
       const b=q.bowtie;
@@ -476,6 +482,18 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
       <div id="rat" style="margin-top:10px;"></div>
       <div class="row" id="afterActions" style="margin-top:10px;"></div>`;
       area.innerHTML=html;
+      // Case banner
+      try{
+        const cb=document.getElementById("caseBanner");
+        if(cb){
+          if(caseObj){
+            const s=(caseObj.setting?("Setting: "+caseObj.setting+". "):"")+(caseObj.history?caseObj.history+" ":"");
+            cb.textContent=s.trim() || "Case details available in tabs.";
+          }else{
+            cb.textContent="";
+          }
+        }
+      }catch(e){}
       $("btnSubmit").onclick=()=>gradeCurrent(false);
       $("btnShowRat").onclick=()=>showRationale(q);
       setTabs(q); updateHUD(); startTimer(); renderAfterSubmitControls();
@@ -490,6 +508,18 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
     <div id="rat" style="margin-top:10px;"></div>
     <div class="row" id="afterActions" style="margin-top:10px;"></div>`;
     area.innerHTML=html;
+    // Case banner
+    try{
+      const cb=document.getElementById("caseBanner");
+      if(cb){
+        if(caseObj){
+          const s=(caseObj.setting?("Setting: "+caseObj.setting+". "):"")+(caseObj.history?caseObj.history+" ":"");
+          cb.textContent=s.trim() || "Case details available in tabs.";
+        }else{
+          cb.textContent="";
+        }
+      }
+    }catch(e){}
     const c=$("choices");
     choices.forEach((ch)=>{
       const d=document.createElement("div");
