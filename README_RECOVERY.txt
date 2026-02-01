@@ -1,13 +1,12 @@
-RECOVERY BUILD (No Cache / No Service Worker)
+RECOVERY v2 (Fixes code showing on the page)
 
-Upload ALL files in this folder to the SAME GitHub Pages folder (usually repo root).
+Upload ALL files to the SAME GitHub Pages folder (repo root).
 
 Then open:
-  https://<yourname>.github.io/<repo>/index_app.html?v=999
-
-If anything fails, open Diagnostics inside the app and copy the "Load errors" lines.
+  https://junsinco1.github.io/lvn-hesi-practice/index_app.html?v=999
 
 Important:
-- Remove any old service-worker.js from the repo (this build does not use it).
-- Hard refresh once: Cmd+Shift+R (Mac) / Ctrl+Shift+R (Windows)
-- iOS: Settings > Safari > Advanced > Website Data > delete your site, then reload.
+- Delete service-worker.js from the repo if it exists.
+- After uploading, hard refresh once:
+  Mac: Cmd+Shift+R | Windows: Ctrl+Shift+R
+  iOS: Settings > Safari > Advanced > Website Data > delete your site
