@@ -297,8 +297,8 @@ Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'bl
   function renderQuestion(q){
     State.current = q;
     clearBanner(); clearErrors();
-    $('#feedback').style.display='none';
-    $('#feedback').textContent='';
+    $('#feedbackLeft').style.display='none';
+    $('#feedbackLeft').textContent='';
 
     $('#qTopic').textContent = `Topic: ${q.topic}`;
     $('#qType').textContent = `Type: ${q.qtype.toUpperCase()}`;
@@ -495,7 +495,7 @@ Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'bl
     saveLocal();
 
     // feedback
-    const fb = $('#feedback');
+    const fb = $('#feedbackLeft');
     fb.style.display='block';
 
     let ansLine = '';
@@ -690,8 +690,8 @@ Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'bl
     $('#btnSubmit').addEventListener('click', ()=> submitCurrent(false));
     $('#btnShowRationale').addEventListener('click', ()=>{
       if(!State.current) return;
-      $('#feedback').style.display='block';
-      $('#feedback').textContent = rationaleBlock(State.current) || 'No rationale provided.';
+      $('#feedbackLeft').style.display='block';
+      $('#feedbackLeft').textContent = rationaleBlock(State.current) || 'No rationale provided.';
     });
 
     $('#btnReset').addEventListener('click', ()=>{
