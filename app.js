@@ -111,10 +111,7 @@ const el = {
   countStatus: $("#countStatus"),
   reloadBtn: $("#reloadBtn"),
   bankSel: $("#bankSel"),
-  systemSel: $("#systemSel"),
-  topicSel: $("#topicSel"),
   typeSel: $("#typeSel"),
-  diffSel: $("#diffSel"),
   timerSel: $("#timerSel"),
   themeSel: $("#themeSel"),
   accentSel: $("#accentSel"),
@@ -333,15 +330,8 @@ async function loadManifest(){
 }
 
 function setSystemAndTopicOptions(bankName){
-  const meta = manifest.banks.find(b=>b.name===bankName);
-  const sysList = meta?.systems || ["ANY"];
-  el.systemSel.innerHTML = sysList.map(s=>`<option value="${s}">${s}</option>`).join("");
-  // Topics: for Compass A we provide the large list; others "ANY" until you load those banks.
-  const topics = meta?.topics || ["ANY"];
-  const base = ["ANY", ...topics.filter(t=>t!=="ANY")];
-  // de-dupe
-  const uniq = [...new Set(base)];
-  el.topicSel.innerHTML = uniq.map(t=>`<option value="${t}">${t}</option>`).join("");
+  // Filters removed: System / Topic / Difficulty.
+  // Bank selection + Type + Timer remain.
 }
 
 async function loadBank(bankName){
@@ -364,15 +354,8 @@ async function loadBank(bankName){
 
 // ---------- Filtering & picking ----------
 function matchesFilters(q){
-  const sys = el.systemSel.value || "ANY";
-  const topic = el.topicSel.value || "ANY";
-  const type = el.typeSel.value || "ANY";
-  const diff = el.diffSel.value || "ANY";
-
-  if(sys !== "ANY" && (q.system||"ANY") !== sys) return false;
-  if(topic !== "ANY" && (q.topic||"ANY") !== topic) return false;
+  const type = el.typeSel?.value || "ANY";
   if(type !== "ANY" && (q.qtype||"single") !== type) return false;
-  if(diff !== "ANY" && String(q.difficulty||3) !== String(diff)) return false;
   return true;
 }
 
