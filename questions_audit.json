@@ -1,0 +1,27 @@
+{
+  "total": 5000,
+  "unique_stems": 4778,
+  "duplicate_stems_exact": 216,
+  "top_single_answers": [
+    [
+      "delay action and reassess later because the client is not in acute distress per facility protocol",
+      67
+    ],
+    [
+      "document the finding without implementing any intervention and reassess within 5\u201310 minutes",
+      63
+    ],
+    [
+      "provide reassurance only and encourage rest without further assessment per facility protocol",
+      62
+    ],
+    [
+      "document the finding without implementing any intervention and notify the provider with SBAR if not improving",
+      61
+    ],
+    [
+      "provide reassurance only and encourage rest without further assessment while maintaining safety precautions",
+      61
+    ]
+  ]
+}

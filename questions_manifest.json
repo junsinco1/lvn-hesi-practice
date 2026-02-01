@@ -4,12 +4,7 @@
     "questions_part02.json",
     "questions_part03.json",
     "questions_part04.json",
-    "questions_part05.json",
-    "questions_part06.json",
-    "questions_part07.json",
-    "questions_part08.json",
-    "questions_part09.json",
-    "questions_part10.json"
+    "questions_part05.json"
   ],
-  "total_questions": 10000
+  "total_questions": 5000
 }
