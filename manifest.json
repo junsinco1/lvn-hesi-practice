@@ -1,9 +1,9 @@
 {
   "name": "LVN HESI Practice",
-  "short_name": "HESI Practice",
+  "short_name": "LVN HESI",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0b1020",
-  "theme_color": "#0b1020",
+  "background_color": "#0b0f14",
+  "theme_color": "#4f46e5",
   "icons": []
 }

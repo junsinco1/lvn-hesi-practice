@@ -1,210 +1,494 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>LVN HESI Practice</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#0b1020" />
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    :root{
+      --bg:#0b0f14; --panel:#121826; --text:#e5e7eb; --muted:#9ca3af;
+      --accent:#7c3aed; --accent2:#22c55e; --danger:#ef4444;
+      --border:rgba(255,255,255,0.10);
+      --radius:16px;
+      --font: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      --fs:16px;
+      --hc:0;
+    }
+    [data-theme="dark"]{ --bg:#0b0f14; --panel:#121826; --text:#e5e7eb; --muted:#9ca3af; --border:rgba(255,255,255,0.10); }
+    [data-theme="light"]{ --bg:#f6f7fb; --panel:#ffffff; --text:#111827; --muted:#4b5563; --border:rgba(17,24,39,0.12); }
+    [data-theme="clinical"]{ --bg:#07121a; --panel:#0b1e2a; --text:#e6f6ff; --muted:#8fb0c3; --accent:#06b6d4; --border:rgba(230,246,255,0.14); }
+    [data-theme="purple"]{ --accent:#7c3aed; }
+    [data-theme="dark"][data-accent="purple"]{ --accent:#7c3aed; }
+    [data-accent="purple"]{ --accent:#7c3aed; }
+    [data-accent="teal"]{ --accent:#06b6d4; }
+    [data-accent="rose"]{ --accent:#f43f5e; }
+    [data-accent="amber"]{ --accent:#f59e0b; }
+
+    body{ margin:0; font-family:var(--font); font-size:var(--fs); background:var(--bg); color:var(--text); }
+    .wrap{ max-width:1100px; margin:0 auto; padding:18px; }
+    h1{ font-size:24px; margin:0 0 6px; }
+    .sub{ color:var(--muted); margin:0 0 16px; }
+    .grid{ display:grid; grid-template-columns: 1.2fr 0.8fr; gap:14px; }
+    @media (max-width: 900px){ .grid{ grid-template-columns:1fr; } }
+    .card{ background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); padding:14px; box-shadow: 0 10px 24px rgba(0,0,0,0.18); }
+    .row{ display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+    label{ font-size:12px; color:var(--muted); display:block; margin-bottom:4px; }
+    select, input{ background:transparent; color:var(--text); border:1px solid var(--border); border-radius:12px; padding:10px 10px; min-width:160px; }
+    button{ background:var(--accent); color:white; border:0; border-radius:12px; padding:10px 14px; font-weight:700; cursor:pointer; }
+    button.secondary{ background:transparent; border:1px solid var(--border); color:var(--text); }
+    button.danger{ background:var(--danger); }
+    .pill{ display:inline-flex; align-items:center; gap:8px; padding:8px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); }
+    .muted{ color:var(--muted); }
+    .qstem{ font-size:18px; line-height:1.35; margin:0 0 10px; }
+    .choices{ display:grid; gap:8px; }
+    .choice{ border:1px solid var(--border); border-radius:12px; padding:10px; cursor:pointer; }
+    .choice.sel{ outline: 2px solid var(--accent); }
+    .choice.correct{ outline: 2px solid var(--accent2); }
+    .choice.wrong{ outline: 2px solid var(--danger); }
+    .tabs{ display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+    .tab{ padding:8px 10px; border-radius:10px; border:1px solid var(--border); color:var(--muted); cursor:pointer; }
+    .tab.active{ color:var(--text); border-color: var(--accent); }
+    pre{ white-space:pre-wrap; word-break:break-word; background:rgba(0,0,0,0.18); border:1px solid var(--border); border-radius:12px; padding:10px; }
+    .banner{ display:none; margin:10px 0 0; padding:10px; border-radius:12px; border:1px solid var(--border); background: rgba(239,68,68,0.12); color: #fecaca; }
+    .banner.show{ display:block; }
+  </style>
 </head>
-<body>
+<body data-theme="dark" data-accent="purple">
   <div class="wrap">
-    <header class="top">
-      <div class="brand">
-        <div class="logo">LVN</div>
-        <div>
-          <div class="title">HESI Compass Practice</div>
-          <div class="sub">Super-difficult NGN-style practice (device-local)</div>
-        </div>
-      </div>
+    <h1>LVN HESI Compass Practice</h1>
+    <p class="sub">Super-difficult NGN-style practice • works on GitHub Pages • no caching issues</p>
 
-      <div class="controls card">
-        <label>Topic
-          <select id="topicSelect"></select>
-        </label>
-
-        <label>Difficulty
-          <select id="diffSelect">
-            <option value="any" selected>Any</option>
-            <option value="hard">Hard</option>
-            <option value="very_hard">Very hard</option>
-          </select>
-        </label>
-
-        <label>Type
-          <select id="typeSelect">
-            <option value="any" selected>Any</option>
-            <option value="single">Regular</option>
-            <option value="sata">SATA</option>
-            <option value="bowtie">Bowtie</option>
-          </select>
-        </label>
-
-        <label>Theme
-          <select id="themeSelect">
-            <option value="dark" selected>Dark</option>
-            <option value="purple">Purple</option>
-            <option value="green">Clinical</option>
-            <option value="light">Light</option>
-          </select>
-        </label>
-
-        <label>Font
-          <select id="fontSelect">
-            <option value="0.95">Small</option>
-            <option value="1.0" selected>Medium</option>
-            <option value="1.1">Large</option>
-            <option value="1.2">XL</option>
-          </select>
-        </label>
-
-        <label class="chk">
-          <input type="checkbox" id="hiContrast" /> High contrast
-        </label>
-
-        <label>Scoring
-          <select id="scoringSelect">
-            <option value="strict" selected>Strict</option>
-            <option value="partial">NGN partial credit</option>
-          </select>
-        </label>
-
-        <label>Timer
-          <select id="timerSelect">
-            <option value="0" selected>Off</option>
-            <option value="30">30 sec</option>
-            <option value="45">45 sec</option>
-            <option value="60">60 sec</option>
-            <option value="90">90 sec</option>
-            <option value="120">120 sec</option>
-          </select>
-        </label>
-
-        <div class="btnRow">
-          <button id="btnPractice" class="btn primary">Next Practice</button>
-          <button id="btnStartExam" class="btn danger">Start 75Q Exam</button>
-          <button id="btnExamCode" class="btn">Exam Code</button>
-          <button id="btnFocusWeak" class="btn">Focus Weak</button>
-          <button id="btnLeaderboard" class="btn">Leaderboard</button>
-          <button id="btnExport" class="btn subtle">Export (Instructor)</button>
-          <button id="btnReset" class="btn subtle">Reset</button>
-          <button id="btnDiag" class="btn subtle">Diagnostics</button>
-        </div>
-
-        <div id="dash" class="dash">
-          <div><span class="k">Mastery</span> <span id="masteryLine">—</span></div>
-          <div><span class="k">Streak</span> <span id="streakLine">0</span></div>
-          <div><span class="k">Badges</span> <span id="badgesLine">—</span></div>
-          <div><span class="k">Mode</span> <span id="modeLine">Practice</span></div>
-          <div><span class="k">Timer</span> <span id="timerLine">Off</span></div>
-        </div>
-
-        <div class="hint">
-          Tip: Use <b>Exam Code</b> to generate the same exam for everyone. Use <b>Focus Weak</b> to drill missed/weak topics.
-        </div>
-      </div>
-    </header>
-
-    <main class="main">
-      <section class="card qcard">
-        <div class="qmeta">
-          <div id="qTag" class="pill">—</div>
-          <div id="qTopic" class="muted">—</div>
-          <div id="qWarn" class="warn"></div>
-        </div>
-
-        <div id="qStem" class="stem">Load a practice question to begin.</div>
-
-        <div id="bowtieWrap" class="bowtie hidden">
-          <div class="bowRow">
-            <div class="bowCol">
-              <div class="bowHead">Client problem</div>
-              <select id="bowLeft"></select>
-            </div>
-            <div class="bowCol">
-              <div class="bowHead">Priority action</div>
-              <select id="bowMid"></select>
-            </div>
-            <div class="bowCol">
-              <div class="bowHead">Expected outcome</div>
-              <select id="bowRight"></select>
-            </div>
+    <div class="grid">
+      <div class="card">
+        <div class="row">
+          <div>
+            <label>Topic</label>
+            <select id="topic"></select>
           </div>
-          <div class="small muted">Bowtie uses 3 linked decisions. Partial-credit scoring can be enabled.</div>
+          <div>
+            <label>Type</label>
+            <select id="qtype">
+              <option value="any">Any</option>
+              <option value="single">Regular</option>
+              <option value="sata">SATA</option>
+              <option value="bowtie">Bowtie</option>
+            </select>
+          </div>
+          <div>
+            <label>Level</label>
+            <select id="level">
+              <option value="any">Any</option>
+              <option value="LVN">LVN</option>
+              <option value="RN-very-hard">RN-very-hard</option>
+            </select>
+          </div>
+          <div>
+            <label>Theme</label>
+            <select id="theme">
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
+              <option value="clinical">Clinical</option>
+            </select>
+          </div>
+          <div>
+            <label>Accent</label>
+            <select id="accent">
+              <option value="purple">Purple</option>
+              <option value="teal">Teal</option>
+              <option value="rose">Rose</option>
+              <option value="amber">Amber</option>
+            </select>
+          </div>
+          <div class="row" style="margin-left:auto;">
+            <button id="btnNext">Next Practice</button>
+            <button class="secondary" id="btnExam">Start 75Q Exam</button>
+            <button class="danger" id="btnReset">Reset</button>
+          </div>
         </div>
 
-        <div id="optionsWrap" class="options"></div>
-
-        <div class="actions">
-          <button id="btnSubmit" class="btn primary" disabled>Submit</button>
-          <button id="btnShowRationale" class="btn" disabled>Rationale</button>
+        <div class="row" style="margin-top:12px;">
+          <div class="pill"><b id="count">0</b> <span class="muted">questions loaded</span></div>
+          <div class="pill"><span class="muted">Mode:</span> <b id="mode">Practice</b></div>
+          <div class="pill"><span class="muted">Score:</span> <b id="score">0/0</b></div>
         </div>
 
-        <div id="scoreLine" class="scoreLine">Score: 0/0</div>
-      </section>
+        <div id="err" class="banner"></div>
 
-      <section class="card tabs">
-        <div class="tabRow">
-          <button class="tab active" data-tab="case">Case</button>
-          <button class="tab" data-tab="vitals">Vitals</button>
-          <button class="tab" data-tab="nurse">Nurse Did</button>
-          <button class="tab" data-tab="orders">Provider Orders</button>
-          <button class="tab" data-tab="rationale">Rationale</button>
+        <hr style="border:0;border-top:1px solid var(--border); margin:14px 0;">
+        <div id="qArea">
+          <p class="muted">Loading questions…</p>
         </div>
+      </div>
 
-        <div id="pane_case" class="pane">—</div>
-        <div id="pane_vitals" class="pane hidden">—</div>
-        <div id="pane_nurse" class="pane hidden">—</div>
-        <div id="pane_orders" class="pane hidden">—</div>
-        <div id="pane_rationale" class="pane hidden">—</div>
-      </section>
-    </main>
+      <div class="card">
+        <h3 style="margin:0 0 8px;">Case Tabs</h3>
+        <div class="tabs" id="tabs"></div>
+        <div id="tabBody" class="muted">Load a case-based question to view tabs.</div>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:14px;">
+      Deploy tip: upload this folder’s files to the same GitHub Pages directory. No service-worker caching.
+    </p>
   </div>
 
-  <dialog id="dlg">
-    <form method="dialog" class="dlg">
-      <h3 id="dlgTitle">Info</h3>
-      <div id="dlgBody" class="dlgBody"></div>
-      <div class="dlgActions">
-        <button class="btn primary" value="ok">OK</button>
-      </div>
-    </form>
-  </dialog>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const state = {
+    QUESTIONS: [],
+    pool: [],
+    current: null,
+    mode: "Practice",
+    sel: null,
+    answered: false,
+    score: {correct:0,total:0},
+    exam: null,
+  };
 
-  <dialog id="dlgExamCode">
-    <form method="dialog" class="dlg">
-      <h3>Exam Code</h3>
-      <div class="dlgBody">
-        <div class="small">Set an exam code to create the <b>same 75Q exam</b> for everyone.</div>
-        <label style="display:block; margin-top:10px;">Code
-          <input id="examCodeInput" maxlength="32" placeholder="e.g., LVN-APRIL-A" />
-        </label>
-        <div class="small" style="margin-top:10px;">Leave blank to return to random exams.</div>
-      </div>
-      <div class="dlgActions">
-        <button value="cancel" class="btn">Cancel</button>
-        <button value="ok" class="btn primary">Use</button>
-      </div>
-    </form>
-  </dialog>
+  function banner(msg){
+    const el = $("err");
+    el.textContent = msg;
+    el.classList.toggle("show", !!msg);
+  }
 
-  <dialog id="dlgInstructor">
-    <form method="dialog" class="dlg">
-      <h3>Instructor Mode</h3>
-      <div class="dlgBody">
-        <div class="small">Enter instructor code to unlock exports on this device. First unlock sets the code.</div>
-        <label style="display:block; margin-top:10px;">Instructor code
-          <input id="instrCodeInput" maxlength="32" />
-        </label>
-      </div>
-      <div class="dlgActions">
-        <button value="cancel" class="btn">Cancel</button>
-        <button value="ok" class="btn primary">Unlock</button>
-      </div>
-    </form>
-  </dialog>
+  async function fetchJson(url){
+    const resp = await fetch(url, {cache:"no-store"});
+    if(!resp.ok){
+      const txt = await resp.text();
+      throw new Error(`Fetch failed ${resp.status} ${resp.statusText} for ${url}. First: ${txt.slice(0,120)}`);
+    }
+    return await resp.json();
+  }
 
-  <script src="app.js?v=51"></script>
+  async function loadQuestions(){
+    const base = new URL("./", window.location.href);
+    const manifestUrl = new URL("questions_manifest.json", base).toString();
+    const fallbackUrl = new URL("questions.json", base).toString();
+
+    try{
+      const man = await fetchJson(manifestUrl);
+      if(man && Array.isArray(man.parts) && man.parts.length){
+        const arr = [];
+        for(const p of man.parts){
+          const partUrl = new URL(p, base).toString();
+          const data = await fetchJson(partUrl);
+          if(Array.isArray(data)) arr.push(...data);
+          else if(data && Array.isArray(data.questions)) arr.push(...data.questions);
+        }
+        return arr;
+      }
+    }catch(e){
+      console.warn("Manifest load failed:", e);
+    }
+
+    // fallback
+    const data = await fetchJson(fallbackUrl);
+    return Array.isArray(data) ? data : (data.questions || []);
+  }
+
+  function normTopic(t){
+    if(!t) return "General";
+    return String(t).trim();
+  }
+
+  function rebuildTopicList(){
+    const topics = Array.from(new Set(state.QUESTIONS.map(q => normTopic(q.topic)))).sort();
+    const sel = $("topic");
+    sel.innerHTML = "";
+    const opt0 = document.createElement("option");
+    opt0.value="any"; opt0.textContent="Any";
+    sel.appendChild(opt0);
+    for(const t of topics){
+      const o = document.createElement("option");
+      o.value=t; o.textContent=t;
+      sel.appendChild(o);
+    }
+  }
+
+  function applyTheme(){
+    document.body.dataset.theme = $("theme").value;
+    document.body.dataset.accent = $("accent").value;
+  }
+
+  function buildPool(){
+    const t = $("topic").value;
+    const qt = $("qtype").value;
+    const lvl = $("level").value;
+
+    state.pool = state.QUESTIONS.filter(q => {
+      const okTopic = (t==="any" || normTopic(q.topic)===t);
+      const okType = (qt==="any" || (q.qtype||q.type)===qt);
+      const okLvl = (lvl==="any" || (q.level||q.lvl||"LVN")===lvl);
+      return okTopic && okType && okLvl;
+    });
+
+    if(state.pool.length===0){
+      banner("No questions match this filter. Try Topic=Any, Type=Any, Level=Any.");
+    }else{
+      banner("");
+    }
+  }
+
+  function pickOne(){
+    if(!state.pool.length) return null;
+    return state.pool[Math.floor(Math.random()*state.pool.length)];
+  }
+
+  function setTabs(q){
+    const tabs = $("tabs");
+    tabs.innerHTML="";
+    const hasCase = q && q.case;
+    const items = hasCase ? [
+      ["Case", q.case.case || q.case.summary || "—"],
+      ["Vitals", JSON.stringify(q.case.vitals||[], null, 2)],
+      ["Nurse Did", (q.case.nurse||[]).join("\n") || "—"],
+      ["Provider Orders", (q.case.orders||[]).join("\n") || "—"],
+      ["Rationale", q.rationale || "—"]
+    ] : [["Info","No case tabs for this question."]];
+    items.forEach(([name, body], idx) => {
+      const b = document.createElement("div");
+      b.className="tab"+(idx===0?" active":"");
+      b.textContent=name;
+      b.onclick=()=>{
+        [...tabs.children].forEach(x=>x.classList.remove("active"));
+        b.classList.add("active");
+        $("tabBody").innerHTML = `<pre>${escapeHtml(String(body))}</pre>`;
+      };
+      tabs.appendChild(b);
+      if(idx===0) $("tabBody").innerHTML = `<pre>${escapeHtml(String(body))}</pre>`;
+    });
+  }
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  }
+
+  function renderQuestion(q){
+    state.current = q;
+    state.answered = false;
+    state.sel = null;
+
+    const area = $("qArea");
+    if(!q){
+      area.innerHTML = `<p class="muted">No question available.</p>`;
+      return;
+    }
+
+    const qtype = q.qtype || q.type || "single";
+    const stem = q.stem || q.question || "—";
+    const choices = q.choices || q.options || [];
+    const polarity = q.polarity || "positive";
+
+    let html = `<div class="muted" style="margin-bottom:6px;">
+      <b>${escapeHtml(normTopic(q.topic))}</b> • <span>${escapeHtml(qtype.toUpperCase())}</span> • <span>${escapeHtml(polarity)}</span>
+    </div>
+    <div class="qstem">${escapeHtml(stem)}</div>`;
+
+    if(qtype==="bowtie" && q.bowtie){
+      const b = q.bowtie;
+      html += `<div class="muted">Bowtie: pick one in each column.</div>`;
+      html += `<div class="row" style="align-items:flex-start; gap:10px; margin-top:10px;">
+        ${renderBowCol("left", b.left_label, b.left_options)}
+        ${renderBowCol("middle", b.middle_label, b.middle_options)}
+        ${renderBowCol("right", b.right_label, b.right_options)}
+      </div>
+      <div class="row" style="margin-top:10px;">
+        <button id="btnSubmit">Submit</button>
+        <button class="secondary" id="btnShowRat">Rationale</button>
+      </div>
+      <div id="rat" style="margin-top:10px;"></div>`;
+      area.innerHTML = html;
+
+      // wire
+      $("btnSubmit").onclick = () => gradeBowtie(q);
+      $("btnShowRat").onclick = () => showRationale(q);
+      setTabs(q);
+      return;
+    }
+
+    // regular / SATA
+    html += `<div class="choices" id="choices"></div>
+      <div class="row" style="margin-top:10px;">
+        <button id="btnSubmit">Submit</button>
+        <button class="secondary" id="btnShowRat">Rationale</button>
+      </div>
+      <div id="rat" style="margin-top:10px;"></div>`;
+
+    area.innerHTML = html;
+    const c = $("choices");
+
+    choices.forEach((ch) => {
+      const d = document.createElement("div");
+      d.className="choice";
+      d.textContent = ch;
+      d.onclick = () => {
+        if(state.answered) return;
+        if(qtype==="sata"){
+          if(!Array.isArray(state.sel)) state.sel=[];
+          if(state.sel.includes(ch)) state.sel = state.sel.filter(x=>x!==ch);
+          else state.sel = [...state.sel, ch];
+          d.classList.toggle("sel");
+        }else{
+          [...c.children].forEach(x=>x.classList.remove("sel"));
+          state.sel = ch;
+          d.classList.add("sel");
+        }
+      };
+      c.appendChild(d);
+    });
+
+    $("btnSubmit").onclick = () => gradeStandard(q);
+    $("btnShowRat").onclick = () => showRationale(q);
+    setTabs(q);
+  }
+
+  function renderBowCol(side, label, options){
+    return `<div style="flex:1; min-width:190px;">
+      <label>${escapeHtml(label || side)}</label>
+      <select id="bow_${side}" style="width:100%;">
+        ${(options||[]).map(o=>`<option value="${escapeHtml(o)}">${escapeHtml(o)}</option>`).join("")}
+      </select>
+    </div>`;
+  }
+
+  function showRationale(q){
+    const rat = $("rat");
+    const r = q.rationale || "—";
+    rat.innerHTML = `<pre>${escapeHtml(r)}</pre>`;
+  }
+
+  function markScore(correct){
+    state.score.total += 1;
+    if(correct) state.score.correct += 1;
+    $("score").textContent = `${state.score.correct}/${state.score.total}`;
+  }
+
+  function gradeStandard(q){
+    if(state.answered) return;
+    const qtype = q.qtype || q.type || "single";
+    const ans = q.answer;
+    const choices = q.choices || q.options || [];
+    if(qtype==="sata"){
+      const sel = Array.isArray(state.sel) ? state.sel : [];
+      const correct = Array.isArray(ans) ? ans : [];
+      // strict: must match set
+      const ok = sel.length===correct.length && sel.every(x=>correct.includes(x));
+      state.answered = true;
+      paintChoicesSATA(sel, correct);
+      markScore(ok);
+    }else{
+      const ok = (state.sel === ans);
+      state.answered = true;
+      paintChoicesSingle(choices, ans, state.sel);
+      markScore(ok);
+    }
+    showRationale(q);
+  }
+
+  function paintChoicesSingle(choices, ans, sel){
+    const nodes = [...document.querySelectorAll(".choice")];
+    nodes.forEach(n=>{
+      const t = n.textContent;
+      if(t===ans) n.classList.add("correct");
+      if(sel && t===sel && sel!==ans) n.classList.add("wrong");
+    });
+  }
+
+  function paintChoicesSATA(sel, correct){
+    const nodes = [...document.querySelectorAll(".choice")];
+    nodes.forEach(n=>{
+      const t = n.textContent;
+      if(correct.includes(t)) n.classList.add("correct");
+      if(sel.includes(t) && !correct.includes(t)) n.classList.add("wrong");
+    });
+  }
+
+  function gradeBowtie(q){
+    if(state.answered) return;
+    const b = q.bowtie;
+    const left = $("bow_left").value;
+    const mid = $("bow_middle").value;
+    const right = $("bow_right").value;
+    const ok = (left===b.left_answer && mid===b.middle_answer && right===b.right_answer);
+    state.answered = true;
+    markScore(ok);
+    showRationale(q);
+  }
+
+  function nextPractice(){
+    state.mode="Practice";
+    $("mode").textContent = state.mode;
+    buildPool();
+    renderQuestion(pickOne());
+  }
+
+  function startExam(){
+    state.mode="Exam";
+    $("mode").textContent = state.mode;
+    state.score = {correct:0,total:0};
+    $("score").textContent="0/0";
+    buildPool();
+    const pool = [...state.pool];
+    // no repeats: sample without replacement up to 75
+    shuffle(pool);
+    state.exam = pool.slice(0, 75);
+    renderQuestion(state.exam[0] || null);
+  }
+
+  function resetAll(){
+    state.score = {correct:0,total:0};
+    $("score").textContent="0/0";
+    banner("");
+    $("qArea").innerHTML = `<p class="muted">Reset complete. Click Next Practice.</p>`;
+    $("tabBody").textContent="—";
+    $("tabs").innerHTML="";
+  }
+
+  function shuffle(a){
+    for(let i=a.length-1;i>0;i--){
+      const j=Math.floor(Math.random()*(i+1));
+      [a[i],a[j]]=[a[j],a[i]];
+    }
+  }
+
+  function wireUI(){
+    $("theme").onchange = applyTheme;
+    $("accent").onchange = applyTheme;
+    $("topic").onchange = ()=>{ buildPool(); };
+    $("qtype").onchange = ()=>{ buildPool(); };
+    $("level").onchange = ()=>{ buildPool(); };
+    $("btnNext").onclick = nextPractice;
+    $("btnExam").onclick = startExam;
+    $("btnReset").onclick = resetAll;
+    applyTheme();
+  }
+
+  (async function boot(){
+    try{
+      wireUI();
+      const qs = await loadQuestions();
+      state.QUESTIONS = qs.map((q,idx)=>({
+        ...q,
+        id: q.id || `q_${idx}`,
+        topic: normTopic(q.topic),
+        qtype: q.qtype || q.type || "single",
+        choices: q.choices || q.options || [],
+        level: q.level || "LVN",
+      }));
+      $("count").textContent = state.QUESTIONS.length;
+      rebuildTopicList();
+      buildPool();
+      $("qArea").innerHTML = `<p class="muted">Loaded ${state.QUESTIONS.length} questions. Click Next Practice.</p>`;
+    }catch(e){
+      console.error(e);
+      banner("Load failed: " + e.message);
+      $("qArea").innerHTML = `<p class="muted">Could not load questions. Open questions_manifest.json directly to verify it exists in the same folder.</p>`;
+    }
+  })();
+
+})();
+</script>
 </body>
 </html>
