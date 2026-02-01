@@ -1,0 +1,4025 @@
+[
+  {
+    "id": "PHYS-THERMO-S-069",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "shivering thermogenesis",
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-007",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-047",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-023",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "dark cola urine",
+      "requests a blanket",
+      "muscle rigidity",
+      "rapid rise in temperature",
+      "normal appetite",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "dark cola urine",
+      "muscle rigidity",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "normal appetite": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-010",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "shivering thermogenesis"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-022",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "has stable appetite",
+      "no pain",
+      "wants to call family",
+      "muscle rigidity",
+      "requests a blanket",
+      "normal appetite",
+      "rapid rise in temperature",
+      "warm dry skin"
+    ],
+    "answer": [
+      "muscle rigidity",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "normal appetite": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "warm dry skin": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-031",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "shivering thermogenesis",
+      "peripheral vasodilation",
+      "evaporative cooling",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-035",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-027",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "evaporative cooling"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-039",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "shivering thermogenesis",
+      "evaporative cooling"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-048",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "shivering thermogenesis",
+      "evaporative cooling"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-053",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-006",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "dark cola urine",
+      "stable vitals",
+      "warm dry skin",
+      "states pain is 1/10",
+      "has stable appetite",
+      "rapid rise in temperature",
+      "asks for discharge paperwork",
+      "normal appetite"
+    ],
+    "answer": [
+      "rapid rise in temperature",
+      "dark cola urine"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "warm dry skin": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "normal appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-044",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "shivering thermogenesis",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-056",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "hypothalamic dysfunction",
+      "peripheral vasodilation"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-001",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "wants to call family",
+      "requests a blanket",
+      "rapid rise in temperature",
+      "muscle rigidity",
+      "reports mild fatigue after work",
+      "asks for discharge paperwork",
+      "stable vitals",
+      "mild headache"
+    ],
+    "answer": [
+      "muscle rigidity",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "mild headache": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-059",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-004",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "delay IV fluids",
+      "give antipyretic only and send home",
+      "denies new symptoms",
+      "assess for heat stroke signs",
+      "monitor electrolytes and hydration",
+      "has stable appetite",
+      "reports mild fatigue after work",
+      "wants to call family"
+    ],
+    "answer": [
+      "monitor electrolytes and hydration",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-011",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis",
+      "evaporative cooling"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-068",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "shivering thermogenesis"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-002",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "give antipyretic only and send home",
+      "states pain is 1/10",
+      "cooling measures per protocol",
+      "denies new symptoms",
+      "assess for heat stroke signs",
+      "wants to call family",
+      "requests a blanket",
+      "has stable appetite"
+    ],
+    "answer": [
+      "cooling measures per protocol",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-011",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "has stable appetite",
+      "muscle rigidity",
+      "warm dry skin",
+      "reports mild fatigue after work",
+      "no pain",
+      "dark cola urine",
+      "rapid rise in temperature",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "rapid rise in temperature",
+      "dark cola urine",
+      "muscle rigidity"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "warm dry skin": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-021",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis",
+      "evaporative cooling"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-045",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "shivering thermogenesis",
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-043",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-067",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "evaporative cooling",
+      "shivering thermogenesis"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-008",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-037",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-016",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "shivering thermogenesis",
+      "evaporative cooling",
+      "hypothalamic dysfunction",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-020",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "reports mild fatigue after work",
+      "wrap in blankets for heat stroke",
+      "assess for heat stroke signs",
+      "monitor electrolytes and hydration",
+      "asks for discharge paperwork",
+      "avoid monitoring",
+      "ignore neuro status",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "assess for heat stroke signs",
+      "monitor electrolytes and hydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "wrap in blankets for heat stroke": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "avoid monitoring": "Incorrect—less consistent or lower priority.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-005",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "avoid monitoring",
+      "states pain is 1/10",
+      "give antipyretic only and send home",
+      "delay IV fluids",
+      "assess for heat stroke signs",
+      "has stable appetite",
+      "monitor electrolytes and hydration",
+      "requests a blanket"
+    ],
+    "answer": [
+      "monitor electrolytes and hydration",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "avoid monitoring": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-008",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "muscle rigidity",
+      "reports mild fatigue after work",
+      "normal appetite",
+      "dark cola urine",
+      "rapid rise in temperature",
+      "denies new symptoms",
+      "stable vitals",
+      "has stable appetite"
+    ],
+    "answer": [
+      "dark cola urine",
+      "rapid rise in temperature",
+      "muscle rigidity"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "normal appetite": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-024",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "monitor electrolytes and hydration",
+      "asks for discharge paperwork",
+      "cooling measures per protocol",
+      "delay IV fluids",
+      "wrap in blankets for heat stroke",
+      "ignore neuro status",
+      "has stable appetite",
+      "assess for heat stroke signs"
+    ],
+    "answer": [
+      "assess for heat stroke signs",
+      "cooling measures per protocol",
+      "monitor electrolytes and hydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "wrap in blankets for heat stroke": "Incorrect—less consistent or lower priority.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-065",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-051",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-017",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-026",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "shivering thermogenesis",
+      "evaporative cooling",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-017",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "rapid rise in temperature",
+      "muscle rigidity",
+      "warm dry skin",
+      "normal appetite",
+      "denies new symptoms",
+      "has stable appetite",
+      "dark cola urine",
+      "mild headache"
+    ],
+    "answer": [
+      "dark cola urine",
+      "muscle rigidity",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "warm dry skin": "Incorrect—less consistent or lower priority.",
+      "normal appetite": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "mild headache": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-029",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "peripheral vasodilation",
+      "evaporative cooling",
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-015",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "peripheral vasodilation",
+      "shivering thermogenesis",
+      "evaporative cooling",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-021",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "assess for heat stroke signs",
+      "wrap in blankets for heat stroke",
+      "asks for discharge paperwork",
+      "requests a blanket",
+      "monitor electrolytes and hydration",
+      "cooling measures per protocol",
+      "delay IV fluids",
+      "ignore neuro status"
+    ],
+    "answer": [
+      "assess for heat stroke signs",
+      "cooling measures per protocol",
+      "monitor electrolytes and hydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "wrap in blankets for heat stroke": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-029",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "assess for heat stroke signs",
+      "avoid monitoring",
+      "cooling measures per protocol",
+      "has stable appetite",
+      "delay IV fluids",
+      "reports mild fatigue after work",
+      "monitor electrolytes and hydration",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "assess for heat stroke signs",
+      "cooling measures per protocol",
+      "monitor electrolytes and hydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "avoid monitoring": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-050",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "evaporative cooling",
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "shivering thermogenesis"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-066",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "evaporative cooling",
+      "shivering thermogenesis"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-064",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-024",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "shivering thermogenesis",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-027",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "asks for discharge paperwork",
+      "wants to call family",
+      "denies new symptoms",
+      "reports mild fatigue after work",
+      "give antipyretic only and send home",
+      "monitor electrolytes and hydration",
+      "has stable appetite",
+      "assess for heat stroke signs"
+    ],
+    "answer": [
+      "monitor electrolytes and hydration",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-004",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-012",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "no pain",
+      "states pain is 1/10",
+      "has stable appetite",
+      "stable vitals",
+      "rapid rise in temperature",
+      "reports mild fatigue after work",
+      "muscle rigidity",
+      "wants to call family"
+    ],
+    "answer": [
+      "rapid rise in temperature",
+      "muscle rigidity"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-061",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-070",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "evaporative cooling"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-036",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-033",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "shivering thermogenesis"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-025",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "has stable appetite",
+      "ignore neuro status",
+      "delay IV fluids",
+      "assess for heat stroke signs",
+      "denies new symptoms",
+      "give antipyretic only and send home",
+      "cooling measures per protocol",
+      "requests a blanket"
+    ],
+    "answer": [
+      "cooling measures per protocol",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-014",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "assess for heat stroke signs",
+      "cooling measures per protocol",
+      "denies new symptoms",
+      "monitor electrolytes and hydration",
+      "states pain is 1/10",
+      "has stable appetite",
+      "give antipyretic only and send home",
+      "wants to call family"
+    ],
+    "answer": [
+      "monitor electrolytes and hydration",
+      "assess for heat stroke signs",
+      "cooling measures per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-058",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "shivering thermogenesis"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-034",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "peripheral vasodilation",
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-032",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "shivering thermogenesis",
+      "evaporative cooling"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-006",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "shivering thermogenesis"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-026",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "reports mild fatigue after work",
+      "ignore neuro status",
+      "wants to call family",
+      "asks for discharge paperwork",
+      "cooling measures per protocol",
+      "assess for heat stroke signs",
+      "wrap in blankets for heat stroke",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "cooling measures per protocol",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "wrap in blankets for heat stroke": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-016",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "normal appetite",
+      "dark cola urine",
+      "requests a blanket",
+      "no pain",
+      "rapid rise in temperature",
+      "muscle rigidity",
+      "has stable appetite",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "muscle rigidity",
+      "dark cola urine",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "normal appetite": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-040",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "evaporative cooling"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-038",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "shivering thermogenesis",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-009",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "muscle rigidity",
+      "warm dry skin",
+      "requests a blanket",
+      "stable vitals",
+      "reports mild fatigue after work",
+      "dark cola urine",
+      "asks for discharge paperwork",
+      "rapid rise in temperature"
+    ],
+    "answer": [
+      "muscle rigidity",
+      "dark cola urine",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "warm dry skin": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-028",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "asks for discharge paperwork",
+      "ignore neuro status",
+      "requests a blanket",
+      "cooling measures per protocol",
+      "delay IV fluids",
+      "assess for heat stroke signs",
+      "reports mild fatigue after work",
+      "monitor electrolytes and hydration"
+    ],
+    "answer": [
+      "cooling measures per protocol",
+      "monitor electrolytes and hydration",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-019",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "rapid rise in temperature",
+      "dark cola urine",
+      "no pain",
+      "has stable appetite",
+      "wants to call family",
+      "mild headache",
+      "denies new symptoms",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "rapid rise in temperature",
+      "dark cola urine"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "mild headache": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-013",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "asks for discharge paperwork",
+      "has stable appetite",
+      "give antipyretic only and send home",
+      "denies new symptoms",
+      "wrap in blankets for heat stroke",
+      "avoid monitoring",
+      "cooling measures per protocol",
+      "monitor electrolytes and hydration"
+    ],
+    "answer": [
+      "cooling measures per protocol",
+      "monitor electrolytes and hydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "wrap in blankets for heat stroke": "Incorrect—less consistent or lower priority.",
+      "avoid monitoring": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-005",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-052",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "hypothalamic dysfunction",
+      "shivering thermogenesis"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-013",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "peripheral vasodilation",
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-060",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-055",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-049",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "shivering thermogenesis",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-054",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-007",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "assess for heat stroke signs",
+      "requests a blanket",
+      "states pain is 1/10",
+      "monitor electrolytes and hydration",
+      "wrap in blankets for heat stroke",
+      "give antipyretic only and send home",
+      "cooling measures per protocol",
+      "ignore neuro status"
+    ],
+    "answer": [
+      "monitor electrolytes and hydration",
+      "cooling measures per protocol",
+      "assess for heat stroke signs"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "wrap in blankets for heat stroke": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "ignore neuro status": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-028",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-001",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-025",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "peripheral vasodilation",
+      "malignant hyperthermia physiology"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-022",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "shivering thermogenesis",
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-018",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-023",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "shivering thermogenesis",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-018",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "no pain",
+      "requests a blanket",
+      "states pain is 1/10",
+      "dark cola urine",
+      "muscle rigidity",
+      "mild headache",
+      "denies new symptoms",
+      "normal appetite"
+    ],
+    "answer": [
+      "dark cola urine",
+      "muscle rigidity"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "mild headache": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "normal appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-020",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "peripheral vasodilation"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-003",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "avoid monitoring",
+      "asks for discharge paperwork",
+      "delay IV fluids",
+      "cooling measures per protocol",
+      "has stable appetite",
+      "give antipyretic only and send home",
+      "denies new symptoms",
+      "assess for heat stroke signs"
+    ],
+    "answer": [
+      "assess for heat stroke signs",
+      "cooling measures per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "avoid monitoring": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "cooling measures per protocol": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "give antipyretic only and send home": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-019",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-002",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "evaporative cooling",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis"
+    ],
+    "answer": "evaporative cooling",
+    "rationale": "Sweating lowers temperature but risks dehydration.",
+    "choice_rationales": {
+      "evaporative cooling": "Sweating lowers temperature but risks dehydration.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-046",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "evaporative cooling"
+    ],
+    "answer": "shivering thermogenesis",
+    "rationale": "Muscle activity generates heat.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "Muscle activity generates heat.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-042",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "evaporative cooling",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-010",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "stable vitals",
+      "wants to call family",
+      "requests a blanket",
+      "states pain is 1/10",
+      "asks for discharge paperwork",
+      "rapid rise in temperature",
+      "muscle rigidity",
+      "dark cola urine"
+    ],
+    "answer": [
+      "rapid rise in temperature",
+      "muscle rigidity",
+      "dark cola urine"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "muscle rigidity": "Correct—fits the physiologic pattern.",
+      "dark cola urine": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-030",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "normal appetite",
+      "reports mild fatigue after work",
+      "asks for discharge paperwork",
+      "no pain",
+      "rapid rise in temperature",
+      "stable vitals",
+      "dark cola urine",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "dark cola urine",
+      "rapid rise in temperature"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "normal appetite": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "no pain": "Incorrect—less consistent or lower priority.",
+      "rapid rise in temperature": "Correct—fits the physiologic pattern.",
+      "stable vitals": "Incorrect—less consistent or lower priority.",
+      "dark cola urine": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-SA-015",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "reports mild fatigue after work",
+      "delay IV fluids",
+      "monitor electrolytes and hydration",
+      "assess for heat stroke signs",
+      "states pain is 1/10",
+      "avoid monitoring",
+      "requests a blanket",
+      "has stable appetite"
+    ],
+    "answer": [
+      "assess for heat stroke signs",
+      "monitor electrolytes and hydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "delay IV fluids": "Incorrect—less consistent or lower priority.",
+      "monitor electrolytes and hydration": "Correct—fits the physiologic pattern.",
+      "assess for heat stroke signs": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "avoid monitoring": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic client has fever and chills.",
+        "vitals": "HR 134 BP 90/50",
+        "labs": "Lactate 4.8",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool extremities"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-041",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-014",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "shivering thermogenesis"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client rigid with rising ETCO2.",
+        "vitals": "HR 148 BP 168/96",
+        "labs": "Temp 104.2F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dark urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-062",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "hypothalamic dysfunction",
+      "shivering thermogenesis"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypothermia exposure after cold water.",
+        "vitals": "HR 48 BP 98/62",
+        "labs": "Temp 92.8F",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "shivering"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-003",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern.",
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-009",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "malignant hyperthermia physiology",
+    "rationale": "Uncontrolled Ca release causes hypermetabolism.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "Uncontrolled Ca release causes hypermetabolism.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-057",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "shivering thermogenesis",
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "evaporative cooling"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-012",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction",
+      "evaporative cooling"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-030",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "hypothalamic dysfunction",
+      "peripheral vasodilation",
+      "shivering thermogenesis"
+    ],
+    "answer": "hypothalamic dysfunction",
+    "rationale": "Set-point control fails, altering response.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "hypothalamic dysfunction": "Set-point control fails, altering response.",
+      "peripheral vasodilation": "This option is less consistent with the presented physiologic pattern.",
+      "shivering thermogenesis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-THERMO-S-063",
+    "bank": "Physiology",
+    "subbank": "Thermoregulation",
+    "system": "Thermoregulation",
+    "topic": "Thermoregulation physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "malignant hyperthermia physiology",
+      "evaporative cooling",
+      "peripheral vasodilation",
+      "hypothalamic dysfunction"
+    ],
+    "answer": "peripheral vasodilation",
+    "rationale": "Heat loss increases through skin blood flow.",
+    "choice_rationales": {
+      "malignant hyperthermia physiology": "This option is less consistent with the presented physiologic pattern.",
+      "evaporative cooling": "This option is less consistent with the presented physiologic pattern.",
+      "peripheral vasodilation": "Heat loss increases through skin blood flow.",
+      "hypothalamic dysfunction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Heat illness client is dizzy after working outside.",
+        "vitals": "HR 126 BP 94/58",
+        "labs": "Na 128",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "hot moist skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "thermo",
+    "subcategory": "Thermoregulation",
+    "subcategory_key": "thermo",
+    "category": "Physiology",
+    "category_key": "physiology"
+  }
+]

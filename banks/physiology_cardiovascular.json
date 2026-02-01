@@ -1,0 +1,4126 @@
+[
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-037",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "impaired coronary perfusion",
+      "reduced contractility",
+      "decreased preload",
+      "compensatory tachycardia"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-035",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "decreased preload",
+      "compensatory tachycardia",
+      "increased afterload",
+      "reduced contractility"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-012",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "reduced contractility",
+      "increased afterload",
+      "impaired coronary perfusion",
+      "compensatory tachycardia"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-036",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "decreased preload",
+      "increased afterload",
+      "reduced contractility",
+      "impaired coronary perfusion"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-049",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "impaired coronary perfusion",
+      "increased afterload",
+      "decreased preload",
+      "reduced contractility"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-040",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "impaired coronary perfusion",
+      "increased afterload",
+      "decreased preload",
+      "reduced contractility"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-054",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "increased afterload",
+      "decreased preload"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-038",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "reduced contractility",
+      "increased afterload",
+      "compensatory tachycardia",
+      "impaired coronary perfusion"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-027",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "reduced contractility",
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-066",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "reduced contractility",
+      "increased afterload",
+      "impaired coronary perfusion",
+      "compensatory tachycardia"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-061",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "increased afterload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-027",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "recheck BP in 5 minutes",
+      "reports mild fatigue after work",
+      "asks for discharge paperwork",
+      "has stable appetite",
+      "encourage ambulation immediately",
+      "give a double dose to catch up",
+      "requests a blanket",
+      "stop the infusion and notify provider"
+    ],
+    "answer": [
+      "stop the infusion and notify provider",
+      "recheck BP in 5 minutes"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-062",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "decreased preload",
+      "compensatory tachycardia"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-025",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "increased afterload",
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-009",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "increased afterload",
+      "decreased preload",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-050",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "compensatory tachycardia",
+      "increased afterload",
+      "impaired coronary perfusion",
+      "reduced contractility"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-019",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "increased afterload",
+      "reduced contractility"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-024",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "reduced contractility",
+      "increased afterload",
+      "compensatory tachycardia",
+      "decreased preload"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-058",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "decreased preload",
+      "increased afterload",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-022",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "increased afterload",
+      "impaired coronary perfusion",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-001",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "new chest pain with diaphoresis",
+      "denies new symptoms",
+      "wants diet teaching",
+      "requests a blanket",
+      "dry cough only",
+      "SBP < 90 mmHg",
+      "reports mild fatigue after work",
+      "new confusion or syncope"
+    ],
+    "answer": [
+      "new confusion or syncope",
+      "SBP < 90 mmHg",
+      "new chest pain with diaphoresis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "wants diet teaching": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "dry cough only": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-006",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "wants to call family",
+      "requests a blanket",
+      "encourage ambulation immediately",
+      "place on continuous ECG monitoring",
+      "give a double dose to catch up",
+      "recheck BP in 5 minutes",
+      "delay assessment until later",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "delay assessment until later": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-020",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "decreased preload",
+      "compensatory tachycardia",
+      "increased afterload",
+      "reduced contractility"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-032",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "increased afterload",
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-007",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "reduced contractility",
+      "compensatory tachycardia",
+      "increased afterload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-005",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "increased afterload",
+      "reduced contractility"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-021",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion",
+      "compensatory tachycardia"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-017",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "HR 86 regular",
+      "has stable appetite",
+      "wants diet teaching",
+      "new chest pain with diaphoresis",
+      "BP 138/84 stable",
+      "denies new symptoms",
+      "SBP < 90 mmHg",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "new chest pain with diaphoresis",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "HR 86 regular": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "wants diet teaching": "Incorrect—less consistent or lower priority.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "BP 138/84 stable": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-012",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "new chest pain with diaphoresis",
+      "requests a blanket",
+      "reports mild fatigue after work",
+      "SBP < 90 mmHg",
+      "states pain is 1/10",
+      "HR 86 regular",
+      "new confusion or syncope",
+      "wants diet teaching"
+    ],
+    "answer": [
+      "new chest pain with diaphoresis",
+      "new confusion or syncope",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "HR 86 regular": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "wants diet teaching": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-020",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "recheck BP in 5 minutes",
+      "encourage ambulation immediately",
+      "push oral fluids without evaluation",
+      "stop the infusion and notify provider",
+      "wants to call family",
+      "asks for discharge paperwork",
+      "states pain is 1/10",
+      "requests a blanket"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-022",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "asks for discharge paperwork",
+      "place on continuous ECG monitoring",
+      "recheck BP in 5 minutes",
+      "wants to call family",
+      "denies new symptoms",
+      "stop the infusion and notify provider",
+      "reports mild fatigue after work",
+      "encourage ambulation immediately"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "place on continuous ECG monitoring",
+      "stop the infusion and notify provider"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-048",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "increased afterload",
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "decreased preload"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-016",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "requests a blanket",
+      "new chest pain with diaphoresis",
+      "reports mild fatigue after work",
+      "wants diet teaching",
+      "SBP < 90 mmHg",
+      "BP 138/84 stable",
+      "asks for discharge paperwork",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "SBP < 90 mmHg",
+      "new chest pain with diaphoresis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "wants diet teaching": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "BP 138/84 stable": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-034",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-057",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "impaired coronary perfusion",
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-069",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-001",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "decreased preload",
+      "increased afterload",
+      "impaired coronary perfusion",
+      "reduced contractility"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-007",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "reports mild fatigue after work",
+      "encourage ambulation immediately",
+      "recheck BP in 5 minutes",
+      "place on continuous ECG monitoring",
+      "stop the infusion and notify provider",
+      "ignore dizziness if young",
+      "denies new symptoms",
+      "give a double dose to catch up"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-021",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "stop the infusion and notify provider",
+      "states pain is 1/10",
+      "reports mild fatigue after work",
+      "wants to call family",
+      "delay assessment until later",
+      "place on continuous ECG monitoring",
+      "has stable appetite",
+      "recheck BP in 5 minutes"
+    ],
+    "answer": [
+      "stop the infusion and notify provider",
+      "recheck BP in 5 minutes",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "delay assessment until later": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-018",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "impaired coronary perfusion",
+      "decreased preload",
+      "increased afterload",
+      "compensatory tachycardia"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-014",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "impaired coronary perfusion",
+      "decreased preload",
+      "compensatory tachycardia",
+      "increased afterload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-015",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "compensatory tachycardia",
+      "decreased preload",
+      "impaired coronary perfusion",
+      "reduced contractility"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-028",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "decreased preload",
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-016",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "compensatory tachycardia",
+      "increased afterload",
+      "impaired coronary perfusion",
+      "reduced contractility"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-003",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "SBP < 90 mmHg",
+      "asks for discharge paperwork",
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "BP 138/84 stable",
+      "new confusion or syncope",
+      "new chest pain with diaphoresis",
+      "wants to call family"
+    ],
+    "answer": [
+      "new chest pain with diaphoresis",
+      "new confusion or syncope",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "BP 138/84 stable": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-017",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "increased afterload",
+      "decreased preload",
+      "compensatory tachycardia",
+      "impaired coronary perfusion"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-051",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "decreased preload",
+      "increased afterload",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-023",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "decreased preload",
+      "increased afterload",
+      "impaired coronary perfusion",
+      "reduced contractility"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-059",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "impaired coronary perfusion",
+      "increased afterload",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-010",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "reports mild fatigue after work",
+      "new confusion or syncope",
+      "states pain is 1/10",
+      "new chest pain with diaphoresis",
+      "HR 86 regular",
+      "SBP < 90 mmHg",
+      "needs refill on meds",
+      "mild ankle edema at night"
+    ],
+    "answer": [
+      "SBP < 90 mmHg",
+      "new chest pain with diaphoresis",
+      "new confusion or syncope"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "HR 86 regular": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "needs refill on meds": "Incorrect—less consistent or lower priority.",
+      "mild ankle edema at night": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-005",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "states pain is 1/10",
+      "new chest pain with diaphoresis",
+      "SBP < 90 mmHg",
+      "needs refill on meds",
+      "wants to call family",
+      "asks for discharge paperwork",
+      "mild ankle edema at night",
+      "new confusion or syncope"
+    ],
+    "answer": [
+      "new chest pain with diaphoresis",
+      "new confusion or syncope",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "needs refill on meds": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "mild ankle edema at night": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-002",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "wants to call family",
+      "place on continuous ECG monitoring",
+      "stop the infusion and notify provider",
+      "requests a blanket",
+      "asks for discharge paperwork",
+      "states pain is 1/10",
+      "ignore dizziness if young",
+      "encourage ambulation immediately"
+    ],
+    "answer": [
+      "place on continuous ECG monitoring",
+      "stop the infusion and notify provider"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-008",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "states pain is 1/10",
+      "asks for discharge paperwork",
+      "wants to call family",
+      "encourage ambulation immediately",
+      "place on continuous ECG monitoring",
+      "has stable appetite",
+      "reports mild fatigue after work",
+      "recheck BP in 5 minutes"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-015",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "new confusion or syncope",
+      "SBP < 90 mmHg",
+      "denies new symptoms",
+      "HR 86 regular",
+      "dry cough only",
+      "new chest pain with diaphoresis",
+      "asks for discharge paperwork",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "SBP < 90 mmHg",
+      "new chest pain with diaphoresis",
+      "new confusion or syncope"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "HR 86 regular": "Incorrect—less consistent or lower priority.",
+      "dry cough only": "Incorrect—less consistent or lower priority.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-010",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "reduced contractility",
+      "increased afterload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-031",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "increased afterload",
+      "compensatory tachycardia"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-065",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-039",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "compensatory tachycardia",
+      "impaired coronary perfusion"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-042",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "compensatory tachycardia",
+      "increased afterload",
+      "decreased preload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-023",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "encourage ambulation immediately",
+      "asks for discharge paperwork",
+      "denies new symptoms",
+      "states pain is 1/10",
+      "has stable appetite",
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring",
+      "push oral fluids without evaluation"
+    ],
+    "answer": [
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-013",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "new confusion or syncope",
+      "mild ankle edema at night",
+      "HR 86 regular",
+      "has stable appetite",
+      "SBP < 90 mmHg",
+      "states pain is 1/10",
+      "dry cough only",
+      "needs refill on meds"
+    ],
+    "answer": [
+      "new confusion or syncope",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "mild ankle edema at night": "Incorrect—less consistent or lower priority.",
+      "HR 86 regular": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "dry cough only": "Incorrect—less consistent or lower priority.",
+      "needs refill on meds": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-060",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "reduced contractility",
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-030",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "increased afterload",
+      "compensatory tachycardia",
+      "reduced contractility",
+      "impaired coronary perfusion"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-056",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "compensatory tachycardia",
+      "impaired coronary perfusion"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-003",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "decreased preload",
+      "impaired coronary perfusion",
+      "compensatory tachycardia",
+      "reduced contractility"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-011",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "decreased preload",
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-052",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "decreased preload",
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-045",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "increased afterload",
+      "impaired coronary perfusion",
+      "compensatory tachycardia",
+      "decreased preload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-068",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "decreased preload",
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "compensatory tachycardia"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-019",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "wants to call family",
+      "reports mild fatigue after work",
+      "SBP < 90 mmHg",
+      "needs refill on meds",
+      "BP 138/84 stable",
+      "new confusion or syncope",
+      "dry cough only",
+      "wants diet teaching"
+    ],
+    "answer": [
+      "new confusion or syncope",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "needs refill on meds": "Incorrect—less consistent or lower priority.",
+      "BP 138/84 stable": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "dry cough only": "Incorrect—less consistent or lower priority.",
+      "wants diet teaching": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-030",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "push oral fluids without evaluation",
+      "requests a blanket",
+      "denies new symptoms",
+      "ignore dizziness if young",
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring",
+      "give a double dose to catch up",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-024",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "encourage ambulation immediately",
+      "push oral fluids without evaluation",
+      "asks for discharge paperwork",
+      "ignore dizziness if young",
+      "give a double dose to catch up",
+      "delay assessment until later",
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority.",
+      "delay assessment until later": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-047",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "decreased preload",
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-044",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "increased afterload",
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-008",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "impaired coronary perfusion",
+      "decreased preload",
+      "increased afterload",
+      "compensatory tachycardia"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-055",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "decreased preload",
+      "increased afterload",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-063",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "increased afterload",
+      "decreased preload",
+      "reduced contractility",
+      "compensatory tachycardia"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-018",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "denies new symptoms",
+      "has stable appetite",
+      "reports mild fatigue after work",
+      "encourage ambulation immediately",
+      "place on continuous ECG monitoring",
+      "requests a blanket",
+      "recheck BP in 5 minutes",
+      "give a double dose to catch up"
+    ],
+    "answer": [
+      "place on continuous ECG monitoring",
+      "recheck BP in 5 minutes"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "encourage ambulation immediately": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-004",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "BP 138/84 stable",
+      "new confusion or syncope",
+      "wants to call family",
+      "asks for discharge paperwork",
+      "has stable appetite",
+      "requests a blanket",
+      "SBP < 90 mmHg",
+      "new chest pain with diaphoresis"
+    ],
+    "answer": [
+      "new chest pain with diaphoresis",
+      "new confusion or syncope",
+      "SBP < 90 mmHg"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "BP 138/84 stable": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-046",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "reduced contractility",
+      "compensatory tachycardia",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-006",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "compensatory tachycardia",
+      "decreased preload",
+      "impaired coronary perfusion",
+      "increased afterload"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-029",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "increased afterload",
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "decreased preload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-009",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "give a double dose to catch up",
+      "denies new symptoms",
+      "stop the infusion and notify provider",
+      "ignore dizziness if young",
+      "requests a blanket",
+      "place on continuous ECG monitoring",
+      "delay assessment until later",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "delay assessment until later": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-028",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "requests a blanket",
+      "recheck BP in 5 minutes",
+      "delay assessment until later",
+      "asks for discharge paperwork",
+      "states pain is 1/10",
+      "reports mild fatigue after work",
+      "stop the infusion and notify provider",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "delay assessment until later": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-043",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "reduced contractility",
+      "increased afterload",
+      "decreased preload",
+      "compensatory tachycardia"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-053",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "increased afterload",
+      "compensatory tachycardia"
+    ],
+    "answer": "compensatory tachycardia",
+    "rationale": "SNS raises HR to preserve perfusion when SV drops.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "SNS raises HR to preserve perfusion when SV drops."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-067",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "decreased preload",
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "compensatory tachycardia"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-064",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "compensatory tachycardia",
+      "decreased preload",
+      "impaired coronary perfusion",
+      "reduced contractility"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-033",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion",
+      "compensatory tachycardia"
+    ],
+    "answer": "reduced contractility",
+    "rationale": "Myocardial dysfunction lowers ejection fraction and CO.",
+    "choice_rationales": {
+      "reduced contractility": "Myocardial dysfunction lowers ejection fraction and CO.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with chest pressure after exertion becomes pale and diaphoretic.",
+        "vitals": "HR 48 BP 78/40",
+        "labs": "Troponin pending",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "cool clammy skin"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-013",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-025",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "needs refill on meds",
+      "SBP < 90 mmHg",
+      "new chest pain with diaphoresis",
+      "dry cough only",
+      "new confusion or syncope",
+      "HR 86 regular",
+      "reports mild fatigue after work",
+      "mild ankle edema at night"
+    ],
+    "answer": [
+      "SBP < 90 mmHg",
+      "new confusion or syncope",
+      "new chest pain with diaphoresis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "needs refill on meds": "Incorrect—less consistent or lower priority.",
+      "SBP < 90 mmHg": "Correct—fits the physiologic pattern.",
+      "new chest pain with diaphoresis": "Correct—fits the physiologic pattern.",
+      "dry cough only": "Incorrect—less consistent or lower priority.",
+      "new confusion or syncope": "Correct—fits the physiologic pattern.",
+      "HR 86 regular": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "mild ankle edema at night": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-011",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "push oral fluids without evaluation",
+      "stop the infusion and notify provider",
+      "requests a blanket",
+      "wants to call family",
+      "place on continuous ECG monitoring",
+      "recheck BP in 5 minutes",
+      "denies new symptoms",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "place on continuous ECG monitoring",
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-026",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "place on continuous ECG monitoring",
+      "asks for discharge paperwork",
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider",
+      "delay assessment until later",
+      "push oral fluids without evaluation",
+      "ignore dizziness if young",
+      "give a double dose to catch up"
+    ],
+    "answer": [
+      "recheck BP in 5 minutes",
+      "stop the infusion and notify provider",
+      "place on continuous ECG monitoring"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "delay assessment until later": "Incorrect—less consistent or lower priority.",
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-029",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "requests a blanket",
+      "asks for discharge paperwork",
+      "push oral fluids without evaluation",
+      "ignore dizziness if young",
+      "recheck BP in 5 minutes",
+      "reports mild fatigue after work",
+      "give a double dose to catch up",
+      "stop the infusion and notify provider"
+    ],
+    "answer": [
+      "stop the infusion and notify provider",
+      "recheck BP in 5 minutes"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "push oral fluids without evaluation": "Incorrect—less consistent or lower priority.",
+      "ignore dizziness if young": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "give a double dose to catch up": "Incorrect—less consistent or lower priority.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-041",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "decreased preload",
+      "reduced contractility",
+      "compensatory tachycardia",
+      "increased afterload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with GI losses reports dizziness on standing.",
+        "vitals": "HR 112 BP 86/52",
+        "labs": "BUN 32 Cr 1.6",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "orthostatic symptoms, dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-004",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "compensatory tachycardia",
+      "reduced contractility",
+      "decreased preload",
+      "impaired coronary perfusion"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-002",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "compensatory tachycardia",
+      "reduced contractility",
+      "increased afterload",
+      "decreased preload"
+    ],
+    "answer": "decreased preload",
+    "rationale": "Reduced venous return lowers stroke volume and cardiac output.",
+    "choice_rationales": {
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "Reduced venous return lowers stroke volume and cardiac output."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-070",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "reduced contractility",
+      "impaired coronary perfusion",
+      "decreased preload",
+      "increased afterload"
+    ],
+    "answer": "increased afterload",
+    "rationale": "Higher SVR increases LV workload and reduces forward flow.",
+    "choice_rationales": {
+      "reduced contractility": "This option is less consistent with the presented physiologic pattern.",
+      "impaired coronary perfusion": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "Higher SVR increases LV workload and reduces forward flow."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client suddenly anxious with pleuritic pain.",
+        "vitals": "HR 130 BP 104/66",
+        "labs": "D-dimer elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "SpO2 88% RA"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-S-026",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "impaired coronary perfusion",
+      "compensatory tachycardia",
+      "increased afterload",
+      "decreased preload"
+    ],
+    "answer": "impaired coronary perfusion",
+    "rationale": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+    "choice_rationales": {
+      "impaired coronary perfusion": "Reduced oxygen supply worsens ischemia and dysrhythmias.",
+      "compensatory tachycardia": "This option is less consistent with the presented physiologic pattern.",
+      "increased afterload": "This option is less consistent with the presented physiologic pattern.",
+      "decreased preload": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-CARDIOVASCULAR-SA-014",
+    "bank": "Physiology",
+    "subbank": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "denies new symptoms",
+      "states pain is 1/10",
+      "recheck BP in 5 minutes",
+      "has stable appetite",
+      "place on continuous ECG monitoring",
+      "stop the infusion and notify provider",
+      "wants to call family",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "place on continuous ECG monitoring",
+      "stop the infusion and notify provider",
+      "recheck BP in 5 minutes"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "recheck BP in 5 minutes": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "place on continuous ECG monitoring": "Correct—fits the physiologic pattern.",
+      "stop the infusion and notify provider": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A client with HF has new crackles and frothy sputum.",
+        "vitals": "HR 122 BP 168/96",
+        "labs": "BNP elevated",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "S3 present"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "cardiovascular",
+    "subcategory": "Cardiovascular",
+    "subcategory_key": "cardiovascular",
+    "category": "Physiology",
+    "category_key": "physiology"
+  }
+]

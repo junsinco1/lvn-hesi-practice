@@ -1,0 +1,4069 @@
+[
+  {
+    "id": "PHYS-RESPIRATORY-S-059",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-040",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "bronchoconstriction",
+      "hypoventilation",
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-045",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "bronchoconstriction",
+      "diffusion impairment"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-020",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "CO2 retention causes respiratory acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-032",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-021",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "wants to call family",
+      "position upright",
+      "requests a blanket",
+      "denies new symptoms",
+      "asks for discharge paperwork",
+      "titrate oxygen per protocol",
+      "delay reassessment",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "position upright",
+      "titrate oxygen per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-027",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "bronchoconstriction"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "CO2 retention causes respiratory acidosis.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-048",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-013",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "apply a paper bag for dyspnea",
+      "withhold bronchodilator",
+      "limit fluids regardless of status",
+      "use pursed-lip breathing",
+      "position upright",
+      "denies new symptoms",
+      "delay reassessment",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "use pursed-lip breathing",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "limit fluids regardless of status": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-056",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "diffusion impairment",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-038",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "diffusion impairment",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-052",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "hypoventilation",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-060",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-023",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-031",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-069",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "hypoventilation": "CO2 retention causes respiratory acidosis.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-025",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "apply a paper bag for dyspnea",
+      "titrate oxygen per protocol",
+      "states pain is 1/10",
+      "reports mild fatigue after work",
+      "position upright",
+      "delay reassessment",
+      "wants to call family",
+      "requests a blanket"
+    ],
+    "answer": [
+      "position upright",
+      "titrate oxygen per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-047",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "hypoventilation",
+      "bronchoconstriction"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-061",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "hypoventilation",
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-070",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-016",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "diffusion impairment"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-029",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "use pursed-lip breathing",
+      "has stable appetite",
+      "titrate oxygen per protocol",
+      "apply a paper bag for dyspnea",
+      "position upright",
+      "delay reassessment",
+      "reports mild fatigue after work",
+      "wants to call family"
+    ],
+    "answer": [
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-043",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "hypoventilation",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-011",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "hypoventilation"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-008",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "diffusion impairment"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-002",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-023",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "position upright",
+      "requests a blanket",
+      "use pursed-lip breathing",
+      "has stable appetite",
+      "titrate oxygen per protocol",
+      "denies new symptoms",
+      "wants to call family",
+      "ignore SpO2 trend"
+    ],
+    "answer": [
+      "position upright",
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "position upright": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-062",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "hypoventilation",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "hypoventilation": "CO2 retention causes respiratory acidosis.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-009",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "hypoventilation",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-001",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-030",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-005",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-012",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "bronchoconstriction"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-054",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "hypoventilation"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-007",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-030",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "titrate oxygen per protocol",
+      "denies new symptoms",
+      "use pursed-lip breathing",
+      "withhold bronchodilator",
+      "apply a paper bag for dyspnea",
+      "position upright",
+      "reports mild fatigue after work",
+      "ignore SpO2 trend"
+    ],
+    "answer": [
+      "position upright",
+      "use pursed-lip breathing",
+      "titrate oxygen per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-025",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "diffusion impairment"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-066",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "diffusion impairment",
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-005",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "cyanosis",
+      "states pain is 1/10",
+      "has stable appetite",
+      "silent chest",
+      "reports mild fatigue after work",
+      "requests a blanket",
+      "decreasing level of consciousness",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "silent chest",
+      "cyanosis",
+      "decreasing level of consciousness"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-017",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "mild nasal congestion",
+      "states pain is 1/10",
+      "decreasing level of consciousness",
+      "reports fatigue only",
+      "has stable appetite",
+      "productive cough",
+      "cyanosis",
+      "wants to call family"
+    ],
+    "answer": [
+      "decreasing level of consciousness",
+      "cyanosis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "reports fatigue only": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-035",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-026",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "bronchoconstriction",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-046",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-010",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "hypoventilation",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-055",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-009",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "use pursed-lip breathing",
+      "ignore SpO2 trend",
+      "titrate oxygen per protocol",
+      "wants to call family",
+      "position upright",
+      "has stable appetite",
+      "states pain is 1/10",
+      "withhold bronchodilator"
+    ],
+    "answer": [
+      "use pursed-lip breathing",
+      "titrate oxygen per protocol",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-036",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-022",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "position upright",
+      "apply a paper bag for dyspnea",
+      "states pain is 1/10",
+      "use pursed-lip breathing",
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "asks for discharge paperwork",
+      "ignore SpO2 trend"
+    ],
+    "answer": [
+      "position upright",
+      "use pursed-lip breathing"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "position upright": "Correct—fits the physiologic pattern.",
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-019",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "diffusion impairment"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-013",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-067",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-003",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "hypoventilation",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-053",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-028",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-029",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-024",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "states pain is 1/10",
+      "decreasing level of consciousness",
+      "mild nasal congestion",
+      "mild wheeze after exercise",
+      "has stable appetite",
+      "requests a blanket",
+      "silent chest",
+      "cyanosis"
+    ],
+    "answer": [
+      "silent chest",
+      "decreasing level of consciousness",
+      "cyanosis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "mild wheeze after exercise": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "cyanosis": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-057",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "hypoventilation",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-006",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-021",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "hypoventilation",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-049",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "hypoventilation",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-012",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "reports mild fatigue after work",
+      "states pain is 1/10",
+      "titrate oxygen per protocol",
+      "delay reassessment",
+      "use pursed-lip breathing",
+      "withhold bronchodilator",
+      "requests a blanket",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-068",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "hypoventilation",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-041",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-010",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "has stable appetite",
+      "productive cough",
+      "cyanosis",
+      "decreasing level of consciousness",
+      "mild wheeze after exercise",
+      "silent chest",
+      "reports mild fatigue after work",
+      "SpO2 95% on room air"
+    ],
+    "answer": [
+      "cyanosis",
+      "silent chest",
+      "decreasing level of consciousness"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "mild wheeze after exercise": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "SpO2 95% on room air": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-026",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "mild nasal congestion",
+      "has stable appetite",
+      "cyanosis",
+      "denies new symptoms",
+      "decreasing level of consciousness",
+      "reports mild fatigue after work",
+      "mild wheeze after exercise",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "cyanosis",
+      "decreasing level of consciousness"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "mild wheeze after exercise": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-020",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "wants to call family",
+      "SpO2 95% on room air",
+      "requests a blanket",
+      "productive cough",
+      "silent chest",
+      "mild nasal congestion",
+      "has stable appetite",
+      "decreasing level of consciousness"
+    ],
+    "answer": [
+      "decreasing level of consciousness",
+      "silent chest"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "SpO2 95% on room air": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-018",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "productive cough",
+      "mild wheeze after exercise",
+      "states pain is 1/10",
+      "asks for discharge paperwork",
+      "reports fatigue only",
+      "mild nasal congestion",
+      "cyanosis",
+      "decreasing level of consciousness"
+    ],
+    "answer": [
+      "cyanosis",
+      "decreasing level of consciousness"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "mild wheeze after exercise": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "reports fatigue only": "Incorrect—less consistent or lower priority.",
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-002",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "requests a blanket",
+      "silent chest",
+      "reports mild fatigue after work",
+      "decreasing level of consciousness",
+      "states pain is 1/10",
+      "wants to call family",
+      "cyanosis",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "decreasing level of consciousness",
+      "silent chest",
+      "cyanosis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-042",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "hypoventilation",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-014",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "ignore SpO2 trend",
+      "titrate oxygen per protocol",
+      "position upright",
+      "has stable appetite",
+      "states pain is 1/10",
+      "use pursed-lip breathing",
+      "reports mild fatigue after work",
+      "delay reassessment"
+    ],
+    "answer": [
+      "position upright",
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "delay reassessment": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-008",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "cyanosis",
+      "reports fatigue only",
+      "wants to call family",
+      "denies new symptoms",
+      "productive cough",
+      "silent chest",
+      "decreasing level of consciousness",
+      "requests a blanket"
+    ],
+    "answer": [
+      "silent chest",
+      "decreasing level of consciousness",
+      "cyanosis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "reports fatigue only": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-017",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "diffusion impairment",
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch",
+      "hypoventilation"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-034",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "hypoventilation",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch",
+      "diffusion impairment"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "hypoventilation": "CO2 retention causes respiratory acidosis.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-044",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-039",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-064",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch",
+      "diffusion impairment"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-065",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "diffusion impairment",
+      "hypoventilation",
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-001",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "position upright",
+      "titrate oxygen per protocol",
+      "apply a paper bag for dyspnea",
+      "limit fluids regardless of status",
+      "reports mild fatigue after work",
+      "asks for discharge paperwork",
+      "has stable appetite",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "titrate oxygen per protocol",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "position upright": "Correct—fits the physiologic pattern.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "limit fluids regardless of status": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-011",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "requests a blanket",
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing",
+      "limit fluids regardless of status",
+      "withhold bronchodilator",
+      "apply a paper bag for dyspnea",
+      "position upright",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "limit fluids regardless of status": "Incorrect—less consistent or lower priority.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "apply a paper bag for dyspnea": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-004",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "diffusion impairment"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-058",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "hypoventilation"
+    ],
+    "answer": "bronchoconstriction",
+    "rationale": "Airflow limitation increases work of breathing and wheeze.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "Airflow limitation increases work of breathing and wheeze.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-015",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "hypoventilation"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-027",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "states pain is 1/10",
+      "cyanosis",
+      "decreasing level of consciousness",
+      "requests a blanket",
+      "silent chest",
+      "mild nasal congestion",
+      "asks for discharge paperwork",
+      "has stable appetite"
+    ],
+    "answer": [
+      "silent chest",
+      "cyanosis",
+      "decreasing level of consciousness"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-003",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "reports fatigue only",
+      "requests a blanket",
+      "states pain is 1/10",
+      "denies new symptoms",
+      "productive cough",
+      "decreasing level of consciousness",
+      "cyanosis",
+      "wants to call family"
+    ],
+    "answer": [
+      "decreasing level of consciousness",
+      "cyanosis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports fatigue only": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-037",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "CO2 retention causes respiratory acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-024",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "diffusion impairment",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-050",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "bronchoconstriction",
+      "hypoventilation",
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis"
+    ],
+    "answer": "ventilation–perfusion mismatch",
+    "rationale": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "Perfused alveoli are poorly ventilated, reducing PaO2.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-018",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "bronchoconstriction",
+      "loss of surfactant/atelectasis",
+      "hypoventilation",
+      "diffusion impairment"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-015",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "denies new symptoms",
+      "withhold bronchodilator",
+      "asks for discharge paperwork",
+      "ignore SpO2 trend",
+      "has stable appetite",
+      "position upright",
+      "use pursed-lip breathing",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "position upright",
+      "use pursed-lip breathing"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-022",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "diffusion impairment",
+      "loss of surfactant/atelectasis",
+      "hypoventilation"
+    ],
+    "answer": "hypoventilation",
+    "rationale": "CO2 retention causes respiratory acidosis.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "CO2 retention causes respiratory acidosis."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-051",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "hypoventilation",
+      "diffusion impairment",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "This option is less consistent with the presented physiologic pattern.",
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-014",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ventilation–perfusion mismatch",
+      "loss of surfactant/atelectasis",
+      "bronchoconstriction",
+      "diffusion impairment"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-006",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "reports mild fatigue after work",
+      "requests a blanket",
+      "denies new symptoms",
+      "states pain is 1/10",
+      "use pursed-lip breathing",
+      "withhold bronchodilator",
+      "position upright",
+      "delay reassessment"
+    ],
+    "answer": [
+      "use pursed-lip breathing",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "delay reassessment": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client shallow breathing and low SpO2.",
+        "vitals": "HR 104 RR 8 SpO2 87%",
+        "labs": "ABG PaO2 58",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "opioid on board"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-019",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "requests a blanket",
+      "asks for discharge paperwork",
+      "use pursed-lip breathing",
+      "withhold bronchodilator",
+      "position upright",
+      "titrate oxygen per protocol",
+      "reports mild fatigue after work",
+      "has stable appetite"
+    ],
+    "answer": [
+      "use pursed-lip breathing",
+      "position upright",
+      "titrate oxygen per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "COPD client is somnolent after receiving high-flow O2.",
+        "vitals": "HR 96 RR 10 SpO2 98%",
+        "labs": "ABG pH 7.28 PaCO2 68",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "diminished breath sounds"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-063",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "hypoventilation",
+      "diffusion impairment",
+      "bronchoconstriction",
+      "ventilation–perfusion mismatch"
+    ],
+    "answer": "diffusion impairment",
+    "rationale": "Thickened membrane limits oxygen transfer.",
+    "choice_rationales": {
+      "hypoventilation": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "Thickened membrane limits oxygen transfer.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-004",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "silent chest",
+      "cyanosis",
+      "productive cough",
+      "has stable appetite",
+      "mild nasal congestion",
+      "reports fatigue only",
+      "SpO2 95% on room air",
+      "decreasing level of consciousness"
+    ],
+    "answer": [
+      "decreasing level of consciousness",
+      "silent chest",
+      "cyanosis"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "productive cough": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "mild nasal congestion": "Incorrect—less consistent or lower priority.",
+      "reports fatigue only": "Incorrect—less consistent or lower priority.",
+      "SpO2 95% on room air": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-016",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "has stable appetite",
+      "requests a blanket",
+      "denies new symptoms",
+      "states pain is 1/10",
+      "decreasing level of consciousness",
+      "cyanosis",
+      "silent chest",
+      "mild nasal congestion"
+    ],
+    "answer": [
+      "silent chest",
+      "cyanosis",
+      "decreasing level of consciousness"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "decreasing level of consciousness": "Correct—fits the physiologic pattern.",
+      "cyanosis": "Correct—fits the physiologic pattern.",
+      "silent chest": "Correct—fits the physiologic pattern.",
+      "mild nasal congestion": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Asthma client uses rescue inhaler repeatedly; still wheezing.",
+        "vitals": "HR 138 RR 30 SpO2 91%",
+        "labs": "K 3.0",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "speaks in 2-word sentences"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-007",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "requests a blanket",
+      "delay reassessment",
+      "withhold bronchodilator",
+      "ignore SpO2 trend",
+      "denies new symptoms",
+      "position upright",
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing"
+    ],
+    "answer": [
+      "position upright",
+      "titrate oxygen per protocol",
+      "use pursed-lip breathing"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "withhold bronchodilator": "Incorrect—less consistent or lower priority.",
+      "ignore SpO2 trend": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-SA-028",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "delay reassessment",
+      "titrate oxygen per protocol",
+      "wants to call family",
+      "use pursed-lip breathing",
+      "requests a blanket",
+      "asks for discharge paperwork",
+      "limit fluids regardless of status",
+      "position upright"
+    ],
+    "answer": [
+      "use pursed-lip breathing",
+      "titrate oxygen per protocol",
+      "position upright"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "delay reassessment": "Incorrect—less consistent or lower priority.",
+      "titrate oxygen per protocol": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "use pursed-lip breathing": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "limit fluids regardless of status": "Incorrect—less consistent or lower priority.",
+      "position upright": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia client with fever develops increasing RR and crackles.",
+        "vitals": "HR 118 RR 32 SpO2 89%",
+        "labs": "WBC 18k",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pleuritic pain"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-RESPIRATORY-S-033",
+    "bank": "Physiology",
+    "subbank": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Respiratory physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "loss of surfactant/atelectasis",
+      "ventilation–perfusion mismatch",
+      "bronchoconstriction",
+      "diffusion impairment"
+    ],
+    "answer": "loss of surfactant/atelectasis",
+    "rationale": "Alveolar collapse worsens oxygenation.",
+    "choice_rationales": {
+      "loss of surfactant/atelectasis": "Alveolar collapse worsens oxygenation.",
+      "ventilation–perfusion mismatch": "This option is less consistent with the presented physiologic pattern.",
+      "bronchoconstriction": "This option is less consistent with the presented physiologic pattern.",
+      "diffusion impairment": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "respiratory",
+    "subcategory": "Respiratory",
+    "subcategory_key": "respiratory",
+    "category": "Physiology",
+    "category_key": "physiology"
+  }
+]

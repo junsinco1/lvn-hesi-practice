@@ -1,0 +1,3988 @@
+[
+  {
+    "id": "PHYS-ENDOCRINE-SA-012",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "tachycardia with dehydration",
+      "wants to call family",
+      "polydipsia",
+      "asks for discharge paperwork",
+      "bradycardia with cool skin",
+      "denies new symptoms",
+      "has stable appetite",
+      "steady weight"
+    ],
+    "answer": [
+      "polydipsia",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "steady weight": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-049",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "insulin deficiency"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-065",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-036",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "insulin deficiency"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-018",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone excess",
+      "ADH excess",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-044",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-017",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "thyroid hormone excess",
+      "insulin deficiency"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-002",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "requests a blanket",
+      "has stable appetite",
+      "constipation only",
+      "polydipsia",
+      "polyuria",
+      "denies new symptoms",
+      "asks for discharge paperwork",
+      "tachycardia with dehydration"
+    ],
+    "answer": [
+      "tachycardia with dehydration",
+      "polyuria",
+      "polydipsia"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-064",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-019",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "check glucose frequently",
+      "denies new symptoms",
+      "give hypotonic fluids first",
+      "hold labs until later",
+      "asks for discharge paperwork",
+      "prepare insulin per protocol",
+      "wants to call family",
+      "encourage sugary drinks"
+    ],
+    "answer": [
+      "prepare insulin per protocol",
+      "check glucose frequently"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "give hypotonic fluids first": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-066",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "insulin resistance",
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-009",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "insulin deficiency",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-027",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "prepare insulin per protocol",
+      "requests a blanket",
+      "hold labs until later",
+      "states pain is 1/10",
+      "reports mild fatigue after work",
+      "encourage sugary drinks",
+      "asks for discharge paperwork",
+      "check glucose frequently"
+    ],
+    "answer": [
+      "check glucose frequently",
+      "prepare insulin per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "check glucose frequently": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-057",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "ADH excess"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-027",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "insulin resistance",
+      "ADH excess",
+      "thyroid hormone deficiency",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-035",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "insulin deficiency"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-062",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-069",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "insulin deficiency"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-013",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "check glucose frequently",
+      "asks for discharge paperwork",
+      "ignore mental status change",
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "give hypotonic fluids first"
+    ],
+    "answer": [
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "check glucose frequently"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "give hypotonic fluids first": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-021",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "insulin deficiency"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-001",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "encourage sugary drinks",
+      "hold labs until later",
+      "initiate isotonic fluids",
+      "check glucose frequently",
+      "has stable appetite",
+      "denies new symptoms",
+      "ignore mental status change",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "check glucose frequently",
+      "initiate isotonic fluids"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-034",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone excess",
+      "ADH excess",
+      "insulin deficiency"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-024",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone excess",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-025",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "ignore mental status change",
+      "check glucose frequently",
+      "states pain is 1/10",
+      "asks for discharge paperwork",
+      "wants to call family",
+      "has stable appetite",
+      "hold labs until later",
+      "initiate isotonic fluids"
+    ],
+    "answer": [
+      "initiate isotonic fluids",
+      "check glucose frequently"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-002",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "insulin resistance",
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-063",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-022",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-013",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "thyroid hormone excess",
+      "ADH excess",
+      "insulin deficiency",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-016",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "polydipsia",
+      "tachycardia with dehydration",
+      "steady weight",
+      "polyuria",
+      "denies new symptoms",
+      "reports mild fatigue after work",
+      "requests a blanket",
+      "normal skin turgor"
+    ],
+    "answer": [
+      "polydipsia",
+      "polyuria",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "normal skin turgor": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-039",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "insulin resistance",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-046",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-024",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "encourage sugary drinks",
+      "hold labs until later",
+      "asks for discharge paperwork",
+      "check glucose frequently",
+      "states pain is 1/10",
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "give hypotonic fluids first"
+    ],
+    "answer": [
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "check glucose frequently"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "give hypotonic fluids first": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-051",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin resistance",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-030",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "insulin deficiency",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-005",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-043",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin resistance",
+      "ADH excess",
+      "thyroid hormone excess"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-008",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ADH excess",
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-010",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "ADH excess",
+      "thyroid hormone excess",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-010",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "asks for discharge paperwork",
+      "states pain is 1/10",
+      "denies new symptoms",
+      "tachycardia with dehydration",
+      "constipation only",
+      "has stable appetite",
+      "normal mentation",
+      "polyuria"
+    ],
+    "answer": [
+      "polyuria",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "normal mentation": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-016",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin resistance"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-003",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "thyroid hormone excess",
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-021",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "reports mild fatigue after work",
+      "steady weight",
+      "tachycardia with dehydration",
+      "wants to call family",
+      "requests a blanket",
+      "constipation only",
+      "normal mentation",
+      "polydipsia"
+    ],
+    "answer": [
+      "polydipsia",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "normal mentation": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-020",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-042",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-045",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ADH excess",
+      "thyroid hormone deficiency",
+      "insulin resistance",
+      "insulin deficiency"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-004",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "ADH excess"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-061",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-068",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "insulin resistance",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-023",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "polydipsia",
+      "requests a blanket",
+      "denies new symptoms",
+      "states pain is 1/10",
+      "tachycardia with dehydration",
+      "steady weight",
+      "constipation only",
+      "normal skin turgor"
+    ],
+    "answer": [
+      "polydipsia",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "normal skin turgor": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-011",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "insulin resistance",
+      "ADH excess"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-054",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "ADH excess",
+      "insulin deficiency"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-040",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone excess"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-008",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "polydipsia",
+      "reports mild fatigue after work",
+      "normal skin turgor",
+      "constipation only",
+      "tachycardia with dehydration",
+      "polyuria",
+      "steady weight",
+      "bradycardia with cool skin"
+    ],
+    "answer": [
+      "polyuria",
+      "tachycardia with dehydration",
+      "polydipsia"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "normal skin turgor": "Incorrect—less consistent or lower priority.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-020",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "bradycardia with cool skin",
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "requests a blanket",
+      "steady weight",
+      "polyuria",
+      "polydipsia",
+      "normal mentation"
+    ],
+    "answer": [
+      "polydipsia",
+      "polyuria"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "normal mentation": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-022",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "tachycardia with dehydration",
+      "has stable appetite",
+      "bradycardia with cool skin",
+      "normal mentation",
+      "polydipsia",
+      "denies new symptoms",
+      "wants to call family",
+      "polyuria"
+    ],
+    "answer": [
+      "polyuria",
+      "polydipsia",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority.",
+      "normal mentation": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-059",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "thyroid hormone excess",
+      "insulin resistance"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-007",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "insulin resistance",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-067",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone excess",
+      "insulin resistance"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-017",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "give hypotonic fluids first",
+      "denies new symptoms",
+      "hold labs until later",
+      "asks for discharge paperwork",
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "delay recheck",
+      "has stable appetite"
+    ],
+    "answer": [
+      "initiate isotonic fluids",
+      "prepare insulin per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "give hypotonic fluids first": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "delay recheck": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-029",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "normal skin turgor",
+      "polyuria",
+      "bradycardia with cool skin",
+      "asks for discharge paperwork",
+      "polydipsia",
+      "tachycardia with dehydration",
+      "wants to call family",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "tachycardia with dehydration",
+      "polydipsia",
+      "polyuria"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "normal skin turgor": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-037",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "insulin deficiency",
+      "insulin resistance",
+      "thyroid hormone excess",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-006",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "prepare insulin per protocol",
+      "initiate isotonic fluids",
+      "check glucose frequently",
+      "delay recheck",
+      "encourage sugary drinks",
+      "hold labs until later"
+    ],
+    "answer": [
+      "initiate isotonic fluids",
+      "check glucose frequently",
+      "prepare insulin per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "delay recheck": "Incorrect—less consistent or lower priority.",
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-056",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone excess",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-004",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "check glucose frequently",
+      "initiate isotonic fluids",
+      "delay recheck",
+      "reports mild fatigue after work",
+      "give hypotonic fluids first",
+      "ignore mental status change",
+      "hold labs until later",
+      "prepare insulin per protocol"
+    ],
+    "answer": [
+      "check glucose frequently",
+      "initiate isotonic fluids",
+      "prepare insulin per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "delay recheck": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "give hypotonic fluids first": "Incorrect—less consistent or lower priority.",
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-047",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "ADH excess",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-060",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin resistance",
+      "insulin deficiency",
+      "ADH excess"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-029",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "insulin resistance",
+      "ADH excess"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-012",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-015",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "polydipsia",
+      "constipation only",
+      "requests a blanket",
+      "denies new symptoms",
+      "states pain is 1/10",
+      "tachycardia with dehydration",
+      "normal mentation",
+      "bradycardia with cool skin"
+    ],
+    "answer": [
+      "tachycardia with dehydration",
+      "polydipsia"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "normal mentation": "Incorrect—less consistent or lower priority.",
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-041",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone excess",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-025",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-018",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "constipation only",
+      "requests a blanket",
+      "tachycardia with dehydration",
+      "has stable appetite",
+      "steady weight",
+      "polyuria",
+      "polydipsia",
+      "normal mentation"
+    ],
+    "answer": [
+      "tachycardia with dehydration",
+      "polydipsia",
+      "polyuria"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "normal mentation": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-030",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "give hypotonic fluids first",
+      "prepare insulin per protocol",
+      "has stable appetite",
+      "encourage sugary drinks",
+      "denies new symptoms",
+      "initiate isotonic fluids",
+      "check glucose frequently",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "prepare insulin per protocol",
+      "check glucose frequently",
+      "initiate isotonic fluids"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "give hypotonic fluids first": "Incorrect—less consistent or lower priority.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-053",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-055",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ADH excess",
+      "thyroid hormone excess",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-052",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone excess"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-011",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "reports mild fatigue after work",
+      "asks for discharge paperwork",
+      "prepare insulin per protocol",
+      "states pain is 1/10",
+      "check glucose frequently",
+      "requests a blanket",
+      "ignore mental status change",
+      "initiate isotonic fluids"
+    ],
+    "answer": [
+      "check glucose frequently",
+      "initiate isotonic fluids",
+      "prepare insulin per protocol"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-019",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "ADH excess",
+      "insulin resistance"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-014",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin resistance",
+      "insulin deficiency"
+    ],
+    "answer": "ADH excess",
+    "rationale": "Free water retention causes hyponatremia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "Free water retention causes hyponatremia.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-048",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "insulin resistance",
+      "thyroid hormone excess"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-026",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "ADH excess",
+      "insulin resistance"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-032",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "insulin deficiency",
+      "thyroid hormone deficiency"
+    ],
+    "answer": "thyroid hormone excess",
+    "rationale": "Increased metabolic rate and sympathetic sensitivity.",
+    "choice_rationales": {
+      "thyroid hormone excess": "Increased metabolic rate and sympathetic sensitivity.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-006",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "insulin resistance",
+      "thyroid hormone excess"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-003",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "requests a blanket",
+      "check glucose frequently",
+      "delay recheck",
+      "prepare insulin per protocol",
+      "initiate isotonic fluids",
+      "ignore mental status change",
+      "has stable appetite",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "prepare insulin per protocol",
+      "initiate isotonic fluids",
+      "check glucose frequently"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "delay recheck": "Incorrect—less consistent or lower priority.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-058",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "thyroid hormone excess"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-026",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "initiate isotonic fluids",
+      "check glucose frequently",
+      "prepare insulin per protocol",
+      "hold labs until later",
+      "reports mild fatigue after work",
+      "encourage sugary drinks",
+      "wants to call family",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "check glucose frequently"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "hold labs until later": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "encourage sugary drinks": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-050",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "ADH excess",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-028",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-005",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "bradycardia with cool skin",
+      "constipation only",
+      "asks for discharge paperwork",
+      "polydipsia",
+      "polyuria",
+      "states pain is 1/10",
+      "denies new symptoms",
+      "has stable appetite"
+    ],
+    "answer": [
+      "polyuria",
+      "polydipsia"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority.",
+      "constipation only": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-009",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "bradycardia with cool skin",
+      "tachycardia with dehydration",
+      "normal skin turgor",
+      "has stable appetite",
+      "reports mild fatigue after work",
+      "denies new symptoms",
+      "polydipsia",
+      "steady weight"
+    ],
+    "answer": [
+      "tachycardia with dehydration",
+      "polydipsia"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "bradycardia with cool skin": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "normal skin turgor": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "steady weight": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-015",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ADH excess",
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "insulin resistance"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-014",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "delay recheck",
+      "ignore mental status change",
+      "initiate isotonic fluids",
+      "prepare insulin per protocol",
+      "check glucose frequently",
+      "denies new symptoms",
+      "asks for discharge paperwork",
+      "requests a blanket"
+    ],
+    "answer": [
+      "prepare insulin per protocol",
+      "check glucose frequently",
+      "initiate isotonic fluids"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "delay recheck": "Incorrect—less consistent or lower priority.",
+      "ignore mental status change": "Incorrect—less consistent or lower priority.",
+      "initiate isotonic fluids": "Correct—fits the physiologic pattern.",
+      "prepare insulin per protocol": "Correct—fits the physiologic pattern.",
+      "check glucose frequently": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-031",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "insulin resistance",
+      "insulin deficiency",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess"
+    ],
+    "answer": "thyroid hormone deficiency",
+    "rationale": "Slowed metabolism causing bradycardia and hypothermia.",
+    "choice_rationales": {
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone deficiency": "Slowed metabolism causing bradycardia and hypothermia.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Elder with type 2 DM very thirsty and confused.",
+        "vitals": "HR 122 BP 88/54",
+        "labs": "Glucose 860; no ketones",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "dry mucosa"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-028",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "requests a blanket",
+      "denies new symptoms",
+      "polyuria",
+      "polydipsia",
+      "tachycardia with dehydration",
+      "normal mentation",
+      "normal skin turgor",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "polydipsia",
+      "polyuria",
+      "tachycardia with dehydration"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "polyuria": "Correct—fits the physiologic pattern.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "normal mentation": "Incorrect—less consistent or lower priority.",
+      "normal skin turgor": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-SA-007",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "wants to call family",
+      "steady weight",
+      "asks for discharge paperwork",
+      "normal mentation",
+      "requests a blanket",
+      "tachycardia with dehydration",
+      "polydipsia",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "tachycardia with dehydration",
+      "polydipsia"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "steady weight": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "normal mentation": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "tachycardia with dehydration": "Correct—fits the physiologic pattern.",
+      "polydipsia": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-038",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "insulin deficiency",
+      "ADH excess",
+      "thyroid hormone excess",
+      "insulin resistance"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Client with hyperthyroidism has tremor and heat intolerance.",
+        "vitals": "HR 142 BP 154/72",
+        "labs": "TSH low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weight loss"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-023",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "insulin resistance",
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "insulin deficiency"
+    ],
+    "answer": "insulin resistance",
+    "rationale": "Hyperglycemia with dehydration and osmotic diuresis.",
+    "choice_rationales": {
+      "insulin resistance": "Hyperglycemia with dehydration and osmotic diuresis.",
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetic has abdominal pain and Kussmaul breathing.",
+        "vitals": "HR 128 BP 94/60",
+        "labs": "Glucose 520; anion gap high",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "fruity breath"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-001",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "thyroid hormone excess",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op client with hyponatremia and low serum osmolality.",
+        "vitals": "HR 90 BP 128/76",
+        "labs": "Na 120; serum osm low",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "concentrated urine"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-033",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "thyroid hormone deficiency",
+      "insulin deficiency",
+      "thyroid hormone excess",
+      "ADH excess"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone deficiency": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis.",
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-ENDOCRINE-S-070",
+    "bank": "Physiology",
+    "subbank": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Endocrine physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "thyroid hormone excess",
+      "insulin resistance",
+      "ADH excess",
+      "insulin deficiency"
+    ],
+    "answer": "insulin deficiency",
+    "rationale": "Lipolysis → ketones → metabolic acidosis.",
+    "choice_rationales": {
+      "thyroid hormone excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin resistance": "This option is less consistent with the presented physiologic pattern.",
+      "ADH excess": "This option is less consistent with the presented physiologic pattern.",
+      "insulin deficiency": "Lipolysis → ketones → metabolic acidosis."
+    },
+    "bank_key": "physiology",
+    "system_key": "endocrine",
+    "subcategory": "Endocrine",
+    "subcategory_key": "endocrine",
+    "category": "Physiology",
+    "category_key": "physiology"
+  }
+]

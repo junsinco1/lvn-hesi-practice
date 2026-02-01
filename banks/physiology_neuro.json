@@ -1,0 +1,4026 @@
+[
+  {
+    "id": "PHYS-NEURO-S-057",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-026",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-008",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "steady gait",
+      "new bradycardia with widened pulse pressure",
+      "unequal pupils",
+      "reports mild fatigue after work",
+      "projectile vomiting",
+      "wants to call family",
+      "has stable appetite",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "unequal pupils",
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "steady gait": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-017",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "states pain is 1/10",
+      "unequal pupils",
+      "projectile vomiting",
+      "has stable appetite",
+      "asks for discharge paperwork",
+      "mild headache relieved by rest",
+      "warm extremities",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "answer": [
+      "projectile vomiting",
+      "new bradycardia with widened pulse pressure",
+      "unequal pupils"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "warm extremities": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-024",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-049",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-024",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "warm extremities",
+      "projectile vomiting",
+      "requests a blanket",
+      "asks for discharge paperwork",
+      "has stable appetite",
+      "unequal pupils",
+      "states pain is 1/10",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "answer": [
+      "unequal pupils",
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "warm extremities": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-027",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-021",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all statements that correctly explain the physiologic mechanism.",
+    "choices": [
+      "notify provider for neuro change",
+      "give sedatives without assessment",
+      "wants to call family",
+      "frequent neuro checks",
+      "reports mild fatigue after work",
+      "offer food immediately after stroke symptoms",
+      "maintain airway precautions",
+      "place supine flat without monitoring"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "notify provider for neuro change",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-065",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-059",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-028",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "mild headache relieved by rest",
+      "warm extremities",
+      "steady gait",
+      "reports mild fatigue after work",
+      "wants to call family",
+      "projectile vomiting",
+      "has stable appetite",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "answer": [
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "warm extremities": "Incorrect—less consistent or lower priority.",
+      "steady gait": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-044",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-031",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-015",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "offer food immediately after stroke symptoms",
+      "has stable appetite",
+      "place supine flat without monitoring",
+      "asks for discharge paperwork",
+      "frequent neuro checks",
+      "leave patient unattended",
+      "notify provider for neuro change",
+      "wants to call family"
+    ],
+    "answer": [
+      "frequent neuro checks",
+      "notify provider for neuro change"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-015",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-037",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-004",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "notify provider for neuro change",
+      "maintain airway precautions",
+      "give sedatives without assessment",
+      "reports mild fatigue after work",
+      "denies new symptoms",
+      "leave patient unattended",
+      "has stable appetite",
+      "asks for discharge paperwork"
+    ],
+    "answer": [
+      "notify provider for neuro change",
+      "maintain airway precautions"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-005",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "autonomic dysregulation"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-006",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "offer food immediately after stroke symptoms",
+      "wants to call family",
+      "has stable appetite",
+      "denies new symptoms",
+      "frequent neuro checks",
+      "asks for discharge paperwork",
+      "notify provider for neuro change",
+      "states pain is 1/10"
+    ],
+    "answer": [
+      "notify provider for neuro change",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-039",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-029",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "maintain airway precautions",
+      "notify provider for neuro change",
+      "asks for discharge paperwork",
+      "place supine flat without monitoring",
+      "wants to call family",
+      "reports mild fatigue after work",
+      "delay glucose check",
+      "leave patient unattended"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "notify provider for neuro change"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "delay glucose check": "Incorrect—less consistent or lower priority.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-016",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "frequent neuro checks",
+      "asks for discharge paperwork",
+      "give sedatives without assessment",
+      "has stable appetite",
+      "offer food immediately after stroke symptoms",
+      "maintain airway precautions",
+      "place supine flat without monitoring",
+      "requests a blanket"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-018",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "asks for discharge paperwork",
+      "projectile vomiting",
+      "steady gait",
+      "wants to call family",
+      "unequal pupils",
+      "has stable appetite",
+      "normal speech",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "projectile vomiting",
+      "unequal pupils"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "steady gait": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "normal speech": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-008",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-061",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "ischemic penumbra expansion",
+      "increased intracranial pressure"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-020",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-060",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-034",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-002",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-007",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "offer food immediately after stroke symptoms",
+      "maintain airway precautions",
+      "leave patient unattended",
+      "asks for discharge paperwork",
+      "place supine flat without monitoring",
+      "notify provider for neuro change",
+      "frequent neuro checks",
+      "give sedatives without assessment"
+    ],
+    "answer": [
+      "frequent neuro checks",
+      "maintain airway precautions",
+      "notify provider for neuro change"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-025",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "requests a blanket",
+      "offer food immediately after stroke symptoms",
+      "frequent neuro checks",
+      "asks for discharge paperwork",
+      "place supine flat without monitoring",
+      "notify provider for neuro change",
+      "denies new symptoms",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "notify provider for neuro change",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-063",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "increased intracranial pressure"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-058",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-012",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-023",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-047",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-011",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "notify provider for neuro change",
+      "offer food immediately after stroke symptoms",
+      "requests a blanket",
+      "asks for discharge paperwork",
+      "leave patient unattended",
+      "frequent neuro checks",
+      "wants to call family",
+      "maintain airway precautions"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "frequent neuro checks",
+      "notify provider for neuro change"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-027",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "place supine flat without monitoring",
+      "offer food immediately after stroke symptoms",
+      "wants to call family",
+      "leave patient unattended",
+      "asks for discharge paperwork",
+      "frequent neuro checks",
+      "maintain airway precautions",
+      "notify provider for neuro change"
+    ],
+    "answer": [
+      "notify provider for neuro change",
+      "maintain airway precautions",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-014",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-068",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-007",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-005",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "has stable appetite",
+      "notify provider for neuro change",
+      "delay glucose check",
+      "maintain airway precautions",
+      "give sedatives without assessment",
+      "frequent neuro checks",
+      "wants to call family",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "frequent neuro checks",
+      "notify provider for neuro change"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "delay glucose check": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-042",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-033",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-020",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "states pain is 1/10",
+      "mild headache relieved by rest",
+      "requests a blanket",
+      "projectile vomiting",
+      "unequal pupils",
+      "denies new symptoms",
+      "mild nausea only",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "answer": [
+      "projectile vomiting",
+      "new bradycardia with widened pulse pressure",
+      "unequal pupils"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "mild nausea only": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-011",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-038",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-012",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate decompensation or instability.",
+    "choices": [
+      "unequal pupils",
+      "steady gait",
+      "denies new symptoms",
+      "projectile vomiting",
+      "mild headache relieved by rest",
+      "normal speech",
+      "requests a blanket",
+      "mild nausea only"
+    ],
+    "answer": [
+      "projectile vomiting",
+      "unequal pupils"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "steady gait": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "normal speech": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "mild nausea only": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-062",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-006",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-028",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-056",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "autonomic dysregulation"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-013",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-026",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "frequent neuro checks",
+      "asks for discharge paperwork",
+      "denies new symptoms",
+      "has stable appetite",
+      "offer food immediately after stroke symptoms",
+      "states pain is 1/10",
+      "maintain airway precautions",
+      "give sedatives without assessment"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-052",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-035",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-001",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "leave patient unattended",
+      "asks for discharge paperwork",
+      "maintain airway precautions",
+      "delay glucose check",
+      "has stable appetite",
+      "states pain is 1/10",
+      "place supine flat without monitoring",
+      "frequent neuro checks"
+    ],
+    "answer": [
+      "frequent neuro checks",
+      "maintain airway precautions"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "delay glucose check": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-069",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-009",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "autonomic dysregulation",
+      "ischemic penumbra expansion",
+      "electrolyte-driven depolarization changes",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-055",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "increased intracranial pressure"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-013",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "maintain airway precautions",
+      "leave patient unattended",
+      "delay glucose check",
+      "frequent neuro checks",
+      "notify provider for neuro change",
+      "give sedatives without assessment",
+      "wants to call family",
+      "denies new symptoms"
+    ],
+    "answer": [
+      "frequent neuro checks",
+      "maintain airway precautions",
+      "notify provider for neuro change"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "delay glucose check": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern.",
+      "give sedatives without assessment": "Incorrect—less consistent or lower priority.",
+      "wants to call family": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-004",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-043",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-009",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "leave patient unattended",
+      "has stable appetite",
+      "frequent neuro checks",
+      "denies new symptoms",
+      "reports mild fatigue after work",
+      "place supine flat without monitoring",
+      "states pain is 1/10",
+      "maintain airway precautions"
+    ],
+    "answer": [
+      "maintain airway precautions",
+      "frequent neuro checks"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "frequent neuro checks": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "place supine flat without monitoring": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-021",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-030",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-029",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-032",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "autonomic dysregulation",
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-019",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-003",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-051",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion",
+      "increased intracranial pressure"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-070",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "electrolyte-driven depolarization changes",
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-030",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "reports mild fatigue after work",
+      "has stable appetite",
+      "requests a blanket",
+      "mild headache relieved by rest",
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting",
+      "asks for discharge paperwork",
+      "mild nausea only"
+    ],
+    "answer": [
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "mild nausea only": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-048",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-022",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "new bradycardia with widened pulse pressure",
+      "has stable appetite",
+      "requests a blanket",
+      "mild headache relieved by rest",
+      "asks for discharge paperwork",
+      "denies new symptoms",
+      "unequal pupils",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "new bradycardia with widened pulse pressure",
+      "unequal pupils"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-050",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which parameter best indicates that compensation is failing?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-066",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "ischemic penumbra expansion",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-014",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "asks for discharge paperwork",
+      "reports mild fatigue after work",
+      "normal speech",
+      "requests a blanket",
+      "new bradycardia with widened pulse pressure",
+      "unequal pupils",
+      "denies new symptoms",
+      "projectile vomiting"
+    ],
+    "answer": [
+      "projectile vomiting",
+      "unequal pupils",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "normal speech": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-053",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-010",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all cues that indicate compensation is occurring.",
+    "choices": [
+      "has stable appetite",
+      "projectile vomiting",
+      "mild headache relieved by rest",
+      "new bradycardia with widened pulse pressure",
+      "mild nausea only",
+      "unequal pupils",
+      "warm extremities",
+      "steady gait"
+    ],
+    "answer": [
+      "new bradycardia with widened pulse pressure",
+      "unequal pupils",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "mild nausea only": "Incorrect—less consistent or lower priority.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "warm extremities": "Incorrect—less consistent or lower priority.",
+      "steady gait": "Incorrect—less consistent or lower priority."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-022",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-016",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which explanation best links the data to the underlying physiologic process?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-018",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-002",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "steady gait",
+      "warm extremities",
+      "projectile vomiting",
+      "unequal pupils",
+      "has stable appetite",
+      "reports mild fatigue after work",
+      "denies new symptoms",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "answer": [
+      "unequal pupils",
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "steady gait": "Incorrect—less consistent or lower priority.",
+      "warm extremities": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority.",
+      "denies new symptoms": "Incorrect—less consistent or lower priority.",
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-046",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion"
+    ],
+    "answer": "electrolyte-driven depolarization changes",
+    "rationale": "Na/K/Ca shifts alter neuronal firing.",
+    "choice_rationales": {
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-003",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "new bradycardia with widened pulse pressure",
+      "asks for discharge paperwork",
+      "has stable appetite",
+      "warm extremities",
+      "states pain is 1/10",
+      "mild headache relieved by rest",
+      "projectile vomiting",
+      "reports mild fatigue after work"
+    ],
+    "answer": [
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "warm extremities": "Incorrect—less consistent or lower priority.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "mild headache relieved by rest": "Incorrect—less consistent or lower priority.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-036",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-010",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which interpretation of the trend is most accurate?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Stroke client has sudden aphasia and drooping.",
+        "vitals": "HR 96 BP 188/102",
+        "labs": "Glucose 110",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "onset 45 minutes"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-045",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding would be expected next if the condition worsens?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-064",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes",
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "autonomic dysregulation",
+    "rationale": "Sympathetic surges alter HR/BP/temperature.",
+    "choice_rationales": {
+      "autonomic dysregulation": "Sympathetic surges alter HR/BP/temperature.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "GBS client has ascending weakness.",
+        "vitals": "HR 104 BP 138/86",
+        "labs": "VC trending down",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "weak cough"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-025",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which nursing observation best reflects the primary physiologic disturbance?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "ischemic penumbra expansion",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Seizure disorder client missed meds, now confused postictal.",
+        "vitals": "HR 118 BP 146/84",
+        "labs": "Na 132",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "tongue bite"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-040",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which change is most consistent with the body's compensatory response?",
+    "choices": [
+      "impaired neuromuscular transmission",
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-041",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "increased intracranial pressure",
+      "ischemic penumbra expansion",
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-023",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all nursing actions that support physiologic stabilization.",
+    "choices": [
+      "new bradycardia with widened pulse pressure",
+      "projectile vomiting",
+      "requests a blanket",
+      "has stable appetite",
+      "unequal pupils",
+      "steady gait",
+      "asks for discharge paperwork",
+      "normal speech"
+    ],
+    "answer": [
+      "unequal pupils",
+      "projectile vomiting",
+      "new bradycardia with widened pulse pressure"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern.",
+      "projectile vomiting": "Correct—fits the physiologic pattern.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "has stable appetite": "Incorrect—less consistent or lower priority.",
+      "unequal pupils": "Correct—fits the physiologic pattern.",
+      "steady gait": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "normal speech": "Incorrect—less consistent or lower priority."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-067",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission",
+      "increased intracranial pressure"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure."
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-017",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which assessment pattern best supports the suspected pathophysiology?",
+    "choices": [
+      "electrolyte-driven depolarization changes",
+      "autonomic dysregulation",
+      "increased intracranial pressure",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "impaired neuromuscular transmission",
+    "rationale": "Weakness progresses, risking ventilation.",
+    "choice_rationales": {
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-054",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "ischemic penumbra expansion",
+      "increased intracranial pressure",
+      "autonomic dysregulation",
+      "electrolyte-driven depolarization changes"
+    ],
+    "answer": "ischemic penumbra expansion",
+    "rationale": "Delayed perfusion worsens neuronal injury.",
+    "choice_rationales": {
+      "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury.",
+      "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-S-001",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which physiologic mechanism best explains the client's current findings?",
+    "choices": [
+      "increased intracranial pressure",
+      "ischemic penumbra expansion",
+      "autonomic dysregulation",
+      "impaired neuromuscular transmission"
+    ],
+    "answer": "increased intracranial pressure",
+    "rationale": "Rising ICP reduces cerebral perfusion pressure.",
+    "choice_rationales": {
+      "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure.",
+      "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern.",
+      "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern.",
+      "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  },
+  {
+    "id": "PHYS-NEURO-SA-019",
+    "bank": "Physiology",
+    "subbank": "Neurologic",
+    "system": "Neurologic",
+    "topic": "Neurologic physiology",
+    "difficulty": 6,
+    "qtype": "sata",
+    "stem": "Select all findings that are consistent with this physiologic problem.",
+    "choices": [
+      "leave patient unattended",
+      "maintain airway precautions",
+      "states pain is 1/10",
+      "asks for discharge paperwork",
+      "offer food immediately after stroke symptoms",
+      "delay glucose check",
+      "requests a blanket",
+      "notify provider for neuro change"
+    ],
+    "answer": [
+      "notify provider for neuro change",
+      "maintain airway precautions"
+    ],
+    "rationale": "Correct selections align with the physiologic mechanism/instability described; distractors do not.",
+    "choice_rationales": {
+      "leave patient unattended": "Incorrect—less consistent or lower priority.",
+      "maintain airway precautions": "Correct—fits the physiologic pattern.",
+      "states pain is 1/10": "Incorrect—less consistent or lower priority.",
+      "asks for discharge paperwork": "Incorrect—less consistent or lower priority.",
+      "offer food immediately after stroke symptoms": "Incorrect—less consistent or lower priority.",
+      "delay glucose check": "Incorrect—less consistent or lower priority.",
+      "requests a blanket": "Incorrect—less consistent or lower priority.",
+      "notify provider for neuro change": "Correct—fits the physiologic pattern."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Head injury client develops worsening headache and vomiting.",
+        "vitals": "HR 52 BP 176/68",
+        "labs": "Na 140",
+        "nursing_actions": "Nurse assessments performed; interventions prioritized per protocol.",
+        "md_orders": "Provider notified; diagnostics and therapy ordered based on instability.",
+        "nurse_did": "pupils unequal"
+      }
+    },
+    "bank_key": "physiology",
+    "system_key": "neuro",
+    "subcategory": "Neurologic",
+    "subcategory_key": "neuro",
+    "category": "Physiology",
+    "category_key": "physiology"
+  }
+]
