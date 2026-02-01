@@ -1,17 +1,15 @@
-LVN HESI QUESTIONS v10 — CREATIVE VARIETY
+LVN / RN HESI PRACTICE — v11
+1000 QUESTION CREATIVE BANK
 
-WHAT CHANGED:
-• Stems rewritten to reflect different clinical thinking styles
-• Answer choices are NOT recycled templates
-• Includes:
-  - Priority scenarios
-  - Med math
-  - SATA
-  - Therapeutic communication
-  - NGN bowtie
+FEATURES:
+• 1000 unique questions
+• Mixed formats: single, SATA, NGN bowtie
+• Broad clinical diversity across systems
+• Emphasis on judgment, prioritization, and safety
+• Suitable for LVN and RN hard-mode practice
 
 FILES:
 - questions.json
 
-USE:
+USAGE:
 Replace your existing questions.json with this file.
