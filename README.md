@@ -1,4 +1,4 @@
-# Nurse Review Practice WebApp — Banks v1.3
+# Nurse Review Practice WebApp — Banks v1.4
 
 ## What you asked for (implemented)
 - **Multiple banks** ready for future content:
@@ -7,7 +7,7 @@
   - Anatomy (1,000 questions)
   - Physiology (1,000 questions)
   - Labs (1,0000 questions)
-  - Pharmacology (blank)
+  - Pharmacology (1,000 questions)
   - MedSurg (blank)
 - **Body systems dropdown** (or ANY)
 - **Topic dropdown**
@@ -39,7 +39,7 @@
 - `banks/anatomy.json` (present)
 - `banks/physiology.json` (present)
 - `banks/labs.json` (present)
-- `banks/pharmacology.json` (empty)
+- `banks/pharmacology.json` (present)
 - `banks/medsurg.json` (empty)
 
 ## Version
