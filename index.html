@@ -10,71 +10,57 @@ header{padding:16px 24px;font-size:18px;font-weight:600;background:#11162c}
 main{display:grid;grid-template-columns:320px 1fr;gap:16px;padding:16px}
 .panel{background:rgba(255,255,255,.05);border-radius:16px;padding:16px}
 .choice{margin-top:10px;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+pre{white-space:pre-wrap}
 button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;background:#7a5cff;color:#fff}
 small{opacity:.7}
 </style>
 </head>
 <body>
 <header>
-LVN HESI Compass Practice — Case Clusters
-<br><small id="status">Loading questions…</small>
+LVN HESI Compass Practice — Mixed Question Types
+<br><small id="status">Loading…</small>
 </header>
-
 <main>
 <div class="panel">
 <button onclick="nextQ()">Next Question</button>
 </div>
-
 <div class="panel">
-<h2 id="q">—</h2>
+<h2 id="q"></h2>
 <pre id="case"></pre>
 <div id="a"></div>
 </div>
 </main>
-
 <script>
 let QUESTIONS=[], idx=0;
-
 fetch("./questions.json")
-.then(r=>{
-  if(!r.ok) throw new Error("questions.json not found");
-  return r.json();
-})
+.then(r=>{if(!r.ok) throw new Error("questions.json not found"); return r.json();})
 .then(data=>{
   QUESTIONS=data;
-  document.getElementById("status").textContent =
-    `Questions loaded: ${QUESTIONS.length}`;
+  document.getElementById("status").textContent = `Questions loaded: ${QUESTIONS.length}`;
   render();
 })
-.catch(e=>{
-  document.getElementById("status").textContent = e.message;
-});
+.catch(e=>{document.getElementById("status").textContent=e.message;});
 
 function render(){
-  if(!QUESTIONS.length) return;
   const q=QUESTIONS[idx];
   document.getElementById("q").textContent=q.stem;
-
-  document.getElementById("case").textContent =
-    `CASE SUMMARY:\n${q.case.summary}\n\nVITALS:\n` +
-    Object.entries(q.case.vitals).map(e=>e.join(": ")).join("\n") +
-    "\n\nLABS:\n" +
-    Object.entries(q.case.labs).map(e=>e.join(": ")).join("\n");
-
+  const c=document.getElementById("case");
+  c.textContent="";
+  if(q.type==="case"){
+    c.textContent = "CASE:\n"+q.case.summary+"\n\nVITALS:\n"+
+      Object.entries(q.case.vitals).map(e=>e.join(": ")).join("\n")+
+      "\n\nLABS:\n"+Object.entries(q.case.labs).map(e=>e.join(": ")).join("\n");
+  }
   const a=document.getElementById("a");
   a.innerHTML="";
-  q.choices.forEach(c=>{
+  q.choices.forEach(ch=>{
     const d=document.createElement("div");
     d.className="choice";
-    d.textContent=c;
+    d.textContent=ch;
     a.appendChild(d);
   });
 }
-
-function nextQ(){
-  idx=(idx+1)%QUESTIONS.length;
-  render();
-}
+function nextQ(){ idx=(idx+1)%QUESTIONS.length; render(); }
 </script>
 </body>
 </html>
