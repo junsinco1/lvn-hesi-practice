@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>LVN HESI Compass Practice — STABLE</title>
+<title>LVN HESI Compass Practice</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body{margin:0;font-family:system-ui;background:#0b0f1e;color:#eaeaf0}
@@ -14,7 +14,7 @@ button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;backgrou
 </style>
 </head>
 <body>
-<header>LVN HESI Compass Practice — Stable Recovery Build</header>
+<header>LVN HESI Compass Practice — External Questions</header>
 <main>
 <div class="panel">
 <button onclick="nextQ()">Next Question</button>
@@ -25,14 +25,39 @@ button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;backgrou
 </div>
 </main>
 <script>
-const Q=[
-{q:"COPD client RR 8/min after opioids. Priority?",a:["Increase O2","Prepare assisted ventilation","Trendelenburg","Recheck later"]},
-{q:"Heparin 12u/kg/hr, 176 lb. Select all.",a:["176 lb ≈ 80 kg","Rate 960 u/hr","Rate 1920 u/hr","9.6 mL/hr","19.2 mL/hr"]}
-];
+let QUESTIONS=[];
+fetch("./questions.json")
+  .then(r=>{
+    if(!r.ok) throw new Error("questions.json NOT FOUND");
+    return r.json();
+  })
+  .then(data=>{
+    QUESTIONS=data;
+    render();
+  })
+  .catch(err=>{
+    document.getElementById("q").textContent=err.message;
+  });
+
 let i=0;
-function render(){q.textContent=Q[i].q;a.innerHTML="";Q[i].a.forEach(t=>{let d=document.createElement("div");d.className="choice";d.textContent=t;a.appendChild(d)})}
-function nextQ(){i=(i+1)%Q.length;render()}
-render();
+function render(){
+  if(!QUESTIONS.length) return;
+  const q=QUESTIONS[i];
+  document.getElementById("q").textContent=q.stem;
+  const a=document.getElementById("a");
+  a.innerHTML="";
+  q.choices.forEach(t=>{
+    const d=document.createElement("div");
+    d.className="choice";
+    d.textContent=t;
+    a.appendChild(d);
+  });
+}
+function nextQ(){
+  if(!QUESTIONS.length) return;
+  i=(i+1)%QUESTIONS.length;
+  render();
+}
 </script>
 </body>
 </html>

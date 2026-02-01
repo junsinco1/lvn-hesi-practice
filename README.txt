@@ -1,14 +1,13 @@
-LVN HESI WEB APP — FINAL STABLE FILE
+LVN HESI WEB APP v2 — EXTERNAL QUESTIONS (VERIFIED)
 
-Contents:
-- index.html (single-file app)
+FILES:
+- index.html
+- questions.json
 
-Notes:
-- No service worker
-- No localStorage
-- No initials
-- No async loaders
-- Guaranteed to load on GitHub Pages
-
-Deploy:
-Upload index.html to repo root and enable GitHub Pages.
+DEPLOY:
+1) Delete all files in your GitHub repo
+2) Upload BOTH files to the repo root
+3) Enable GitHub Pages (root)
+4) Test:
+   https://<your-username>.github.io/<repo-name>/questions.json
+   (you must see raw JSON)

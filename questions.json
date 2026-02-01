@@ -1,0 +1,21 @@
+[
+  {
+    "stem": "A client with COPD becomes somnolent with a respiratory rate of 8/min after opioid administration. What is the nurse’s priority action?",
+    "choices": [
+      "Increase oxygen flow rate",
+      "Prepare for assisted ventilation and assess airway",
+      "Encourage pursed-lip breathing",
+      "Place the client in Trendelenburg position"
+    ]
+  },
+  {
+    "stem": "A provider orders heparin 12 units/kg/hr. The client weighs 176 lb. Which statements are correct?",
+    "choices": [
+      "176 lb is approximately 80 kg",
+      "The infusion rate is 960 units/hr",
+      "The infusion rate is 1,920 units/hr",
+      "With 25,000 units/250 mL, the rate is 9.6 mL/hr",
+      "With 25,000 units/250 mL, the rate is 19.2 mL/hr"
+    ]
+  }
+]
