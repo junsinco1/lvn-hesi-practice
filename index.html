@@ -1,105 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>LVN HESI Compass Practice</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body{margin:0;font-family:system-ui;background:#0b0f1e;color:#eaeaf0}
-header{padding:16px 24px;font-size:18px;font-weight:600;background:#11162c}
-main{display:grid;grid-template-columns:320px 1fr;gap:16px;padding:16px}
-.panel{background:rgba(255,255,255,.05);border-radius:16px;padding:16px}
-.choice{margin-top:10px;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.15)}
-pre{white-space:pre-wrap}
-button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;background:#7a5cff;color:#fff}
-small{opacity:.7}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LVN HESI Compass A Practice</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header>
-LVN HESI Compass Practice — Progressive NGN
-<br><small id="status">Loading…</small>
-</header>
-<main>
-<div class="panel">
-<button onclick="nextQ()">Next</button>
-</div>
-<div class="panel">
-<h2 id="q"></h2>
-<pre id="case"></pre>
-<div id="a"></div>
-</div>
-</main>
-<script>
-let CLUSTERS=[], cIdx=0, qIdx=0, tIdx=0;
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">LVN HESI Compass Practice</div>
+      <div class="subtitle">Compass A • Mixed Singles • SATA • Bowtie • Case Clusters</div>
+    </div>
+    <div class="status">
+      <div id="loadStatus" class="pill">Loading…</div>
+      <div id="countStatus" class="pill">Questions: 0 • Clusters: 0</div>
+      <button id="reloadBtn" class="btn">Reload</button>
+    </div>
+  </header>
 
-function safeEntries(obj){
-  if(!obj || typeof obj !== 'object') return [];
-  return Object.entries(obj);
-}
+  <main class="layout">
+    <section class="left">
+      <div class="card">
+        <div class="cardTitle">Mode</div>
+        <div class="row">
+          <button id="nextBtn" class="btn primary">Next</button>
+          <button id="startExamBtn" class="btn">Start 75Q Exam</button>
+          <button id="resetBtn" class="btn danger">Reset</button>
+        </div>
+        <div class="kv">
+          <div><span>Topic:</span> <b id="topicLbl">—</b></div>
+          <div><span>Type:</span> <b id="typeLbl">—</b></div>
+          <div><span>Difficulty:</span> <b id="diffLbl">—</b></div>
+        </div>
+      </div>
 
-fetch("./questions.json")
-.then(r=>r.json())
-.then(data=>{
-  CLUSTERS=data||[];
-  document.getElementById("status").textContent =
-    `Clusters loaded: ${CLUSTERS.length}`;
-  render();
-})
-.catch(e=>{document.getElementById("status").textContent=e.message;});
+      <div class="card">
+        <div class="cardTitle">Case Tabs</div>
+        <div class="tabs" id="caseTabs"></div>
+        <div class="tabBody" id="caseBody">Load a case-based question to view tabs.</div>
+      </div>
 
-function render(){
-  if(!CLUSTERS.length) return;
-  const cluster = CLUSTERS[cIdx];
-  const timeline = Array.isArray(cluster.timeline) ? cluster.timeline : [];
-  const phase = timeline[tIdx] || {};
-  const q = (cluster.questions||[])[qIdx] || {};
+      <div class="card">
+        <div class="cardTitle">Answer & Rationale</div>
+        <div id="answerArea" class="muted">Select an answer to see feedback.</div>
+      </div>
+    </section>
 
-  document.getElementById("q").textContent = q.stem || "NGN Question";
+    <section class="right">
+      <div class="card qcard">
+        <div class="cardTitle">Question</div>
+        <div id="qStem" class="stem">—</div>
+        <div id="qChoices" class="choices"></div>
+        <div id="bowtieArea" class="bowtie"></div>
+        <div class="row end">
+          <button id="submitBtn" class="btn primary" disabled>Submit</button>
+          <button id="showAnswerBtn" class="btn" disabled>Show Rationale</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  const vitalsTxt = safeEntries(phase.vitals).map(e=>e.join(": ")).join("\n");
-  const labsTxt = safeEntries(phase.labs).map(e=>e.join(": ")).join("\n");
+  <footer class="footer">
+    <div class="muted">
+      If you use GitHub Pages, keep <code>index.html</code>, <code>app.js</code>, <code>styles.css</code>, and <code>questions.json</code> in the same published folder.
+    </div>
+  </footer>
 
-  document.getElementById("case").textContent =
-    `PATIENT (${cluster.topic||""})\n` +
-    `Condition: ${(cluster.patient||{}).primary_condition||""}\n\n` +
-    `PHASE: ${phase.phase||""}\n\nVITALS:\n${vitalsTxt}\n\nLABS:\n${labsTxt}`;
-
-  const a = document.getElementById("a");
-  a.innerHTML = "";
-
-  if(q.choices && Array.isArray(q.choices)){
-    q.choices.forEach(ch=>{
-      const d=document.createElement("div");
-      d.className="choice";
-      d.textContent=ch;
-      a.appendChild(d);
-    });
-  } else if(q.bowtie){
-    a.innerHTML = `
-      <div class="choice"><b>${q.bowtie.left_prompt||""}</b><br>${(q.bowtie.left_options||[]).join("<br>")}</div>
-      <div class="choice"><b>${q.bowtie.center_prompt||""}</b><br>${(q.bowtie.center_options||[]).join("<br>")}</div>
-      <div class="choice"><b>${q.bowtie.right_prompt||""}</b><br>${(q.bowtie.right_options||[]).join("<br>")}</div>
-    `;
-  }
-}
-
-function nextQ(){
-  const cluster = CLUSTERS[cIdx] || {};
-  const qs = cluster.questions || [];
-  const tl = cluster.timeline || [];
-
-  qIdx++;
-  if(qIdx >= qs.length){
-    qIdx = 0;
-    tIdx++;
-  }
-  if(tIdx >= tl.length){
-    tIdx = 0;
-    cIdx = (cIdx+1) % CLUSTERS.length;
-  }
-  render();
-}
-</script>
+  <script src="app.js"></script>
 </body>
 </html>
