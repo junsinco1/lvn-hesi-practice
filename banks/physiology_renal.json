@@ -45,9 +45,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -85,9 +85,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -136,9 +136,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -166,9 +166,9 @@
       "tubular injury": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -196,9 +196,9 @@
       "ADH-mediated free water retention": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -226,9 +226,9 @@
       "obstruction": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -266,9 +266,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -296,9 +296,9 @@
       "RAAS activation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -338,9 +338,9 @@
       "requests a blanket": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -379,9 +379,9 @@
       "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -409,9 +409,9 @@
       "ADH-mediated free water retention": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -449,9 +449,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -501,9 +501,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -541,9 +541,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -581,9 +581,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -621,9 +621,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -651,9 +651,9 @@
       "decreased GFR": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -681,9 +681,9 @@
       "decreased GFR": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -711,9 +711,9 @@
       "RAAS activation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -752,9 +752,9 @@
       "restlessness": "Correct—fits the physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -792,9 +792,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -844,9 +844,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -895,9 +895,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -946,9 +946,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -976,9 +976,9 @@
       "obstruction": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1016,9 +1016,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1046,9 +1046,9 @@
       "RAAS activation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1086,9 +1086,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1126,9 +1126,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1167,9 +1167,9 @@
       "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1207,9 +1207,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1248,9 +1248,9 @@
       "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1288,9 +1288,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1328,9 +1328,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1368,9 +1368,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1420,9 +1420,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1460,9 +1460,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1500,9 +1500,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1552,9 +1552,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1592,9 +1592,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1633,9 +1633,9 @@
       "has stable appetite": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1663,9 +1663,9 @@
       "ADH-mediated free water retention": "Dilutes serum sodium and increases volume."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1703,9 +1703,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1733,9 +1733,9 @@
       "RAAS activation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1773,9 +1773,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1813,9 +1813,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1843,9 +1843,9 @@
       "decreased GFR": "Reduced filtration causes rising BUN/creatinine."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1883,9 +1883,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1935,9 +1935,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1965,9 +1965,9 @@
       "tubular injury": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2006,9 +2006,9 @@
       "restrict high-potassium foods": "Correct—fits the physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2046,9 +2046,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2098,9 +2098,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2128,9 +2128,9 @@
       "obstruction": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2168,9 +2168,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2208,9 +2208,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2238,9 +2238,9 @@
       "tubular injury": "Impaired reabsorption/secretion alters electrolytes and acid-base."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2278,9 +2278,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2318,9 +2318,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2370,9 +2370,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2411,9 +2411,9 @@
       "asks for discharge paperwork": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2451,9 +2451,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2491,9 +2491,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2533,9 +2533,9 @@
       "denies new symptoms": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2585,9 +2585,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2636,9 +2636,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2676,9 +2676,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2716,9 +2716,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2746,9 +2746,9 @@
       "ADH-mediated free water retention": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2776,9 +2776,9 @@
       "RAAS activation": "Aldosterone retains sodium/water, increasing volume."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2816,9 +2816,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2856,9 +2856,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2907,9 +2907,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2947,9 +2947,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2998,9 +2998,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3038,9 +3038,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3089,9 +3089,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3129,9 +3129,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3170,9 +3170,9 @@
       "bladder distention": "Correct—fits the physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3200,9 +3200,9 @@
       "obstruction": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3240,9 +3240,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3292,9 +3292,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3333,9 +3333,9 @@
       "dribbling urine": "Correct—fits the physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3363,9 +3363,9 @@
       "decreased GFR": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3393,9 +3393,9 @@
       "ADH-mediated free water retention": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3423,9 +3423,9 @@
       "RAAS activation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3463,9 +3463,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3503,9 +3503,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3555,9 +3555,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3585,9 +3585,9 @@
       "ADH-mediated free water retention": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3637,9 +3637,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3677,9 +3677,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3717,9 +3717,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3757,9 +3757,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3797,9 +3797,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3827,9 +3827,9 @@
       "tubular injury": "Impaired reabsorption/secretion alters electrolytes and acid-base."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3867,9 +3867,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3907,9 +3907,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3937,9 +3937,9 @@
       "tubular injury": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3977,9 +3977,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "renal",
+    "system_key": "renal_urinary",
     "subcategory": "Renal/Urinary",
-    "subcategory_key": "renal",
+    "subcategory_key": "renal_urinary",
     "category": "Physiology",
     "category_key": "physiology"
   }

@@ -1,0 +1,78 @@
+{
+  "version": "system-taxonomy-v1",
+  "date": "2026-02-01",
+  "systems": [
+    {
+      "label": "Cardiovascular",
+      "key": "cardiovascular"
+    },
+    {
+      "label": "Respiratory",
+      "key": "respiratory"
+    },
+    {
+      "label": "Neurologic",
+      "key": "neurologic"
+    },
+    {
+      "label": "Endocrine",
+      "key": "endocrine"
+    },
+    {
+      "label": "Renal/Urinary",
+      "key": "renal_urinary"
+    },
+    {
+      "label": "GI/Hepatic",
+      "key": "gi_hepatic"
+    },
+    {
+      "label": "Musculoskeletal",
+      "key": "musculoskeletal"
+    },
+    {
+      "label": "Integumentary/Wound",
+      "key": "integumentary_wound"
+    },
+    {
+      "label": "Immune/Hematology",
+      "key": "immune_hematology"
+    },
+    {
+      "label": "Reproductive/OB",
+      "key": "reproductive_ob"
+    },
+    {
+      "label": "Pediatrics/Growth & Development",
+      "key": "pediatrics_growth_and_development"
+    },
+    {
+      "label": "Psych/Mental Health",
+      "key": "psych_mental_health"
+    },
+    {
+      "label": "Infectious Diseases/Micro",
+      "key": "infectious_diseases_micro"
+    },
+    {
+      "label": "Fluids & Electrolytes/Acid-Base",
+      "key": "fluids_and_electrolytes_acid_base"
+    },
+    {
+      "label": "Perioperative/Critical Care",
+      "key": "perioperative_critical_care"
+    },
+    {
+      "label": "Community/Public Health",
+      "key": "community_public_health"
+    },
+    {
+      "label": "Ethics/Legal/Professional",
+      "key": "ethics_legal_professional"
+    },
+    {
+      "label": "Informatics/Quality,Safety",
+      "key": "informatics_quality_safety"
+    }
+  ]
+}

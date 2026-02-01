@@ -23,9 +23,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -63,9 +63,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -115,9 +115,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -167,9 +167,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -207,9 +207,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -247,9 +247,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -299,9 +299,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -339,9 +339,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -391,9 +391,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -421,9 +421,9 @@
       "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -451,9 +451,9 @@
       "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -502,9 +502,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -532,9 +532,9 @@
       "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -572,9 +572,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -613,9 +613,9 @@
       "wants to call family": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -643,9 +643,9 @@
       "impaired neuromuscular transmission": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -673,9 +673,9 @@
       "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -724,9 +724,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -764,9 +764,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -815,9 +815,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -855,9 +855,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -906,9 +906,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -957,9 +957,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1008,9 +1008,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1038,9 +1038,9 @@
       "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1068,9 +1068,9 @@
       "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1098,9 +1098,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1138,9 +1138,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1168,9 +1168,9 @@
       "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1208,9 +1208,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1260,9 +1260,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1311,9 +1311,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1351,9 +1351,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1391,9 +1391,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1431,9 +1431,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1471,9 +1471,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1501,9 +1501,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1553,9 +1553,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1605,9 +1605,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1645,9 +1645,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1675,9 +1675,9 @@
       "ischemic penumbra expansion": "Delayed perfusion worsens neuronal injury."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1715,9 +1715,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1767,9 +1767,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1797,9 +1797,9 @@
       "electrolyte-driven depolarization changes": "Na/K/Ca shifts alter neuronal firing."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1837,9 +1837,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1889,9 +1889,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1919,9 +1919,9 @@
       "ischemic penumbra expansion": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -1959,9 +1959,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2010,9 +2010,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2050,9 +2050,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2080,9 +2080,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2120,9 +2120,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2150,9 +2150,9 @@
       "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2190,9 +2190,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2231,9 +2231,9 @@
       "give sedatives without assessment": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2261,9 +2261,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2291,9 +2291,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2342,9 +2342,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2382,9 +2382,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2422,9 +2422,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2452,9 +2452,9 @@
       "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2504,9 +2504,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2544,9 +2544,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2584,9 +2584,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2635,9 +2635,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2665,9 +2665,9 @@
       "impaired neuromuscular transmission": "Weakness progresses, risking ventilation."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2705,9 +2705,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2745,9 +2745,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2785,9 +2785,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2825,9 +2825,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2865,9 +2865,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2895,9 +2895,9 @@
       "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2935,9 +2935,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -2976,9 +2976,9 @@
       "mild nausea only": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3006,9 +3006,9 @@
       "increased intracranial pressure": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3057,9 +3057,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3097,9 +3097,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3127,9 +3127,9 @@
       "electrolyte-driven depolarization changes": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3179,9 +3179,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3219,9 +3219,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3271,9 +3271,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3311,9 +3311,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3341,9 +3341,9 @@
       "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3381,9 +3381,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3423,9 +3423,9 @@
       "new bradycardia with widened pulse pressure": "Correct—fits the physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3463,9 +3463,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3504,9 +3504,9 @@
       "reports mild fatigue after work": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3544,9 +3544,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3584,9 +3584,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3624,9 +3624,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3664,9 +3664,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3704,9 +3704,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3744,9 +3744,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3774,9 +3774,9 @@
       "autonomic dysregulation": "This option is less consistent with the presented physiologic pattern."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3816,9 +3816,9 @@
       "normal speech": "Incorrect—less consistent or lower priority."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3846,9 +3846,9 @@
       "increased intracranial pressure": "Rising ICP reduces cerebral perfusion pressure."
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3886,9 +3886,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3926,9 +3926,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -3966,9 +3966,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   },
@@ -4017,9 +4017,9 @@
       }
     },
     "bank_key": "physiology",
-    "system_key": "neuro",
+    "system_key": "neurologic",
     "subcategory": "Neurologic",
-    "subcategory_key": "neuro",
+    "subcategory_key": "neurologic",
     "category": "Physiology",
     "category_key": "physiology"
   }
