@@ -1,21 +1,102 @@
 [
   {
-    "stem": "A client with COPD becomes somnolent with a respiratory rate of 8/min after opioid administration. What is the nurse’s priority action?",
+    "topic": "Informatics-Technology",
+    "stem": "A nurse documents medication administration in the EHR but the system freezes before saving. What is the MOST appropriate action?",
     "choices": [
-      "Increase oxygen flow rate",
-      "Prepare for assisted ventilation and assess airway",
-      "Encourage pursed-lip breathing",
-      "Place the client in Trendelenburg position"
+      "Re-enter the medication later",
+      "Notify IT support and follow downtime policy",
+      "Ignore and proceed with next task",
+      "Ask another nurse to document"
     ]
   },
   {
-    "stem": "A provider orders heparin 12 units/kg/hr. The client weighs 176 lb. Which statements are correct?",
+    "topic": "Immunity",
+    "stem": "A client receiving chemotherapy has an absolute neutrophil count of 400/mm\u00b3. Which intervention is priority?",
     "choices": [
-      "176 lb is approximately 80 kg",
-      "The infusion rate is 960 units/hr",
-      "The infusion rate is 1,920 units/hr",
-      "With 25,000 units/250 mL, the rate is 9.6 mL/hr",
-      "With 25,000 units/250 mL, the rate is 19.2 mL/hr"
+      "Encourage fresh fruits",
+      "Initiate neutropenic precautions",
+      "Administer live vaccines",
+      "Allow visitors without restriction"
+    ]
+  },
+  {
+    "topic": "Fluid & Electrolyte",
+    "stem": "A client receiving furosemide has potassium 3.1 mEq/L. Which assessment is MOST critical?",
+    "choices": [
+      "Heart rhythm",
+      "Bowel sounds",
+      "Urine color",
+      "Skin turgor"
+    ]
+  },
+  {
+    "topic": "Oxygenation-Gas Exchange",
+    "stem": "A client with COPD has SpO\u2082 86% on room air. What is the nurse\u2019s first action?",
+    "choices": [
+      "Apply low-flow oxygen",
+      "Call rapid response",
+      "Administer bronchodilator immediately",
+      "Place in supine position"
+    ]
+  },
+  {
+    "topic": "Leadership",
+    "stem": "A charge nurse notes a new graduate struggling with time management. What is the BEST leadership action?",
+    "choices": [
+      "Document poor performance",
+      "Provide coaching and prioritization guidance",
+      "Reassign all tasks",
+      "Report to management"
+    ]
+  },
+  {
+    "topic": "Intrapartum",
+    "stem": "During labor, fetal heart rate shows late decelerations. What should the nurse do FIRST?",
+    "choices": [
+      "Increase oxytocin",
+      "Reposition mother and apply oxygen",
+      "Prepare for delivery",
+      "Document and continue monitoring"
+    ]
+  },
+  {
+    "topic": "Health Promotion & Maintenance",
+    "stem": "Which statement indicates effective teaching about hypertension management?",
+    "choices": [
+      "I will stop meds when I feel better",
+      "I will limit sodium intake",
+      "I only check BP when symptomatic",
+      "Exercise is not necessary"
+    ]
+  },
+  {
+    "topic": "Infection",
+    "stem": "A postoperative client has redness, warmth, and purulent drainage at the incision. What is the priority nursing action?",
+    "choices": [
+      "Notify the provider",
+      "Apply heat",
+      "Reinforce dressing",
+      "Document only"
+    ]
+  },
+  {
+    "topic": "Trauma/Emergency",
+    "stem": "A client arrives after a motor vehicle crash with unequal pupils. What is the priority assessment?",
+    "choices": [
+      "Neurological status",
+      "Pain level",
+      "Past medical history",
+      "Urinary output"
+    ]
+  },
+  {
+    "topic": "Math / Med Administration",
+    "stem": "An order reads morphine 0.5 mg IV. Supply is 2 mg/mL. How many mL will the nurse administer?",
+    "choices": [
+      "0.25 mL",
+      "0.5 mL",
+      "1 mL",
+      "2 mL"
     ]
   }
 ]

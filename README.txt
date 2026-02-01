@@ -1,13 +1,14 @@
-LVN HESI WEB APP v2 — EXTERNAL QUESTIONS (VERIFIED)
+LVN HESI WEB APP v4 — TOPIC-ALIGNED QUESTIONS
+
+This questions.json is aligned to the provided HESI Compass topic list.
+Scenarios reflect real nursing practice (Med-Surg, Maternity, Leadership, Safety, Informatics, Math).
 
 FILES:
-- index.html
 - questions.json
 
 DEPLOY:
-1) Delete all files in your GitHub repo
-2) Upload BOTH files to the repo root
-3) Enable GitHub Pages (root)
-4) Test:
-   https://<your-username>.github.io/<repo-name>/questions.json
-   (you must see raw JSON)
+Replace your existing questions.json with this file.
+Refresh the site.
+
+NOTE:
+This is a starter aligned set. The structure supports scaling to hundreds/thousands of questions per topic.
