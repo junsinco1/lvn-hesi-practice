@@ -1,21 +1,19 @@
-LVN / RN HESI PRACTICE — v14 CREATIVE PATIENT CLUSTERS
+LVN / RN HESI PRACTICE — v16 SYSTEM-SPECIFIC LABS
 
-WHAT'S DIFFERENT:
-• NO repeated stems per cluster
-• NO recycled answer choices
-• True variation in:
-  - Assessment focus
-  - Deterioration cues
-  - Clinical reasoning
-• Realistic vitals & labs per patient
-• Mixed systems & acuity
+NEW:
+• Labs now MATCH the disease system
+• Rotating lab panels:
+  - ABGs
+  - Cardiac enzymes
+  - Renal markers
+  - Endocrine markers
+  - Infection markers
+  - Neuro / hepatic labs
+  - OB hemorrhage labs
 
 SCALE:
-• 200 unique patients
-• 600 linked NGN questions
+• 400 patient clusters
+• 1,200 NGN questions
 
 FILES:
 - questions.json
-
-USAGE:
-Replace your existing questions.json.
