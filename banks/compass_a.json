@@ -13,7 +13,13 @@
     "rationale": "The elevated PaCO\u2082 with acidemia indicates hypoventilation. COPD exacerbation causes air trapping and reduced alveolar ventilation, leading to CO\u2082 retention.",
     "cluster": "CL-RESP-01",
     "domain": "MedSurg-Respiratory",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Inadequate alveolar ventilation causing CO\u2082 retention",
+      "Primary metabolic acidosis from lactic acid accumulation",
+      "Hyperventilation leading to respiratory alkalosis",
+      "Impaired oxygen carrying capacity from anemia"
+    ]
   },
   {
     "id": "CA-002",
@@ -34,7 +40,14 @@
     "rationale": "Excess oxygen and opioids can suppress respiratory drive in COPD. Supine positioning worsens ventilation. Pursed-lip breathing and monitoring are protective.",
     "cluster": "CL-RESP-01",
     "domain": "MedSurg-Respiratory",
-    "qtype": "sata"
+    "qtype": "sata",
+    "options": [
+      "Increasing oxygen to 10 L/min via non-rebreather",
+      "Administering IV morphine for dyspnea without monitoring",
+      "Encouraging pursed-lip breathing",
+      "Placing the patient supine",
+      "Assessing mental status every hour"
+    ]
   },
   {
     "id": "CA-003",
@@ -68,7 +81,16 @@
       ],
       "right_answer": "Improved PaO\u2082 and reduced work of breathing"
     },
-    "qtype": "bowtie"
+    "qtype": "bowtie",
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "case_study": {
+      "case": "Adult inpatient with COPD and suspected lower respiratory infection; increasing dyspnea over 6 hours.",
+      "vitals": "T 38.3\u00b0C, HR 112, RR 28, BP 152/84, SpO2 86% on 2 L NC (baseline 2 L at home).",
+      "nurse_actions": "Elevated HOB, coached pursed-lip breathing, verified O2 device placement, obtained ABG per protocol, notified RT for neb treatment.",
+      "provider_orders": "Duoneb now, methylprednisolone IV, sputum culture, start antibiotics after cultures, titrate O2 to target SpO2 88\u201392%."
+    },
+    "topic": "MedSurg-Respiratory",
+    "difficulty": "hard"
   },
   {
     "id": "CA-004",
@@ -84,7 +106,13 @@
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-MEDSURG-CARDIAC",
     "domain": "MedSurg-Cardiac",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Gradual symptom improvement",
+      "Unexpected neurologic or hemodynamic change",
+      "Patient questions about treatment",
+      "Family request for updates"
+    ]
   },
   {
     "id": "CA-005",
@@ -105,7 +133,14 @@
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-MEDSURG-CARDIAC",
     "domain": "MedSurg-Cardiac",
-    "qtype": "sata"
+    "qtype": "sata",
+    "options": [
+      "Monitoring vital signs",
+      "Administering prescribed medication",
+      "Teaching disease management",
+      "Changing provider orders",
+      "Documenting response to therapy"
+    ]
   },
   {
     "id": "CA-006",
@@ -139,7 +174,16 @@
       ],
       "right_answer": "Physiologic stabilization"
     },
-    "qtype": "bowtie"
+    "qtype": "bowtie",
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "case_study": {
+      "case": "Older adult with history of CHF presents with worsening orthopnea and bilateral edema after missing diuretics.",
+      "vitals": "HR 118, RR 24, BP 168/96, SpO2 90% on room air, weight up 2.5 kg in 3 days.",
+      "nurse_actions": "Assessed lung sounds (crackles), measured I&O, elevated legs, placed on O2 as ordered, prepared to give IV diuretic.",
+      "provider_orders": "Furosemide IV now, BMP, BNP, chest X-ray, fluid restriction, daily weights."
+    },
+    "topic": "MedSurg-Cardiac",
+    "difficulty": "hard"
   },
   {
     "id": "CA-007",
@@ -155,7 +199,13 @@
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-RENAL",
     "domain": "Renal",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Gradual symptom improvement",
+      "Unexpected neurologic or hemodynamic change",
+      "Patient questions about treatment",
+      "Family request for updates"
+    ]
   },
   {
     "id": "CA-008",
@@ -176,7 +226,14 @@
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-RENAL",
     "domain": "Renal",
-    "qtype": "sata"
+    "qtype": "sata",
+    "options": [
+      "Monitoring vital signs",
+      "Administering prescribed medication",
+      "Teaching disease management",
+      "Changing provider orders",
+      "Documenting response to therapy"
+    ]
   },
   {
     "id": "CA-009",
@@ -210,7 +267,16 @@
       ],
       "right_answer": "Physiologic stabilization"
     },
-    "qtype": "bowtie"
+    "qtype": "bowtie",
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "case_study": {
+      "case": "Adult with dehydration after gastroenteritis now has decreased urine output and rising creatinine.",
+      "vitals": "HR 106, BP 94/58, RR 20, SpO2 97%, mucous membranes dry.",
+      "nurse_actions": "Started IV access, monitored I&O, assessed for orthostatic changes, reviewed meds for nephrotoxins.",
+      "provider_orders": "NS bolus, repeat BMP, hold NSAIDs/ACE inhibitor temporarily, urine sodium and osmolality."
+    },
+    "topic": "Renal",
+    "difficulty": "hard"
   },
   {
     "id": "CA-010",
@@ -226,7 +292,13 @@
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-NEURO",
     "domain": "Neuro",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Gradual symptom improvement",
+      "Unexpected neurologic or hemodynamic change",
+      "Patient questions about treatment",
+      "Family request for updates"
+    ]
   },
   {
     "id": "CA-011",
@@ -247,7 +319,14 @@
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-NEURO",
     "domain": "Neuro",
-    "qtype": "sata"
+    "qtype": "sata",
+    "options": [
+      "Monitoring vital signs",
+      "Administering prescribed medication",
+      "Teaching disease management",
+      "Changing provider orders",
+      "Documenting response to therapy"
+    ]
   },
   {
     "id": "CA-012",
@@ -281,7 +360,16 @@
       ],
       "right_answer": "Physiologic stabilization"
     },
-    "qtype": "bowtie"
+    "qtype": "bowtie",
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "case_study": {
+      "case": "Adult with sudden onset unilateral weakness and slurred speech; last known well 1 hour ago.",
+      "vitals": "BP 186/102, HR 96, RR 18, SpO2 96%, glucose 112 mg/dL.",
+      "nurse_actions": "Maintained airway, performed neuro checks, kept NPO, established IV access, prepared for CT.",
+      "provider_orders": "STAT non-contrast CT, NIHSS assessment, labs, possible thrombolysis evaluation."
+    },
+    "topic": "Neuro",
+    "difficulty": "hard"
   },
   {
     "id": "CA-013",
@@ -297,7 +385,13 @@
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-OB-INTRAPARTUM",
     "domain": "OB-Intrapartum",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Gradual symptom improvement",
+      "Unexpected neurologic or hemodynamic change",
+      "Patient questions about treatment",
+      "Family request for updates"
+    ]
   },
   {
     "id": "CA-014",
@@ -318,7 +412,14 @@
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-OB-INTRAPARTUM",
     "domain": "OB-Intrapartum",
-    "qtype": "sata"
+    "qtype": "sata",
+    "options": [
+      "Monitoring vital signs",
+      "Administering prescribed medication",
+      "Teaching disease management",
+      "Changing provider orders",
+      "Documenting response to therapy"
+    ]
   },
   {
     "id": "CA-015",
@@ -352,7 +453,16 @@
       ],
       "right_answer": "Physiologic stabilization"
     },
-    "qtype": "bowtie"
+    "qtype": "bowtie",
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "case_study": {
+      "case": "Laboring client at 6 cm with tachysystole after oxytocin increase; fetal tracing concerning.",
+      "vitals": "Maternal HR 104, BP 138/82, T 37.2\u00b0C; FHR shows recurrent late decelerations.",
+      "nurse_actions": "Repositioned to left lateral, stopped oxytocin per protocol, applied O2 per policy, initiated IV bolus.",
+      "provider_orders": "Notify provider, consider tocolytic, continuous monitoring, prepare for possible operative delivery."
+    },
+    "topic": "OB-Intrapartum",
+    "difficulty": "hard"
   },
   {
     "id": "CA-016",
@@ -368,7 +478,13 @@
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-PSYCH",
     "domain": "Psych",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Gradual symptom improvement",
+      "Unexpected neurologic or hemodynamic change",
+      "Patient questions about treatment",
+      "Family request for updates"
+    ]
   },
   {
     "id": "CA-017",
@@ -389,7 +505,14 @@
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-PSYCH",
     "domain": "Psych",
-    "qtype": "sata"
+    "qtype": "sata",
+    "options": [
+      "Monitoring vital signs",
+      "Administering prescribed medication",
+      "Teaching disease management",
+      "Changing provider orders",
+      "Documenting response to therapy"
+    ]
   },
   {
     "id": "CA-018",
@@ -423,7 +546,16 @@
       ],
       "right_answer": "Physiologic stabilization"
     },
-    "qtype": "bowtie"
+    "qtype": "bowtie",
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "case_study": {
+      "case": "Client with acute mania: pressured speech, minimal sleep, escalating agitation and poor impulse control.",
+      "vitals": "HR 110, BP 146/88, RR 22, T 37.0\u00b0C.",
+      "nurse_actions": "Reduced stimuli, used calm limit-setting, ensured safety precautions, offered fluids and finger foods.",
+      "provider_orders": "Mood stabilizer/antipsychotic, PRN anxiolytic, monitor for EPS, assess for substance use."
+    },
+    "topic": "Psych",
+    "difficulty": "hard"
   },
   {
     "id": "CA-019",
@@ -438,7 +570,13 @@
     ],
     "answer": "Anticipating complications based on assessment",
     "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Completing tasks efficiently",
+      "Anticipating complications based on assessment",
+      "Following orders exactly",
+      "Delegating all care"
+    ]
   },
   {
     "id": "CA-020",
@@ -453,7 +591,13 @@
     ],
     "answer": "Anticipating complications based on assessment",
     "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Completing tasks efficiently",
+      "Anticipating complications based on assessment",
+      "Following orders exactly",
+      "Delegating all care"
+    ]
   },
   {
     "id": "CA-021",
@@ -468,7 +612,13 @@
     ],
     "answer": "Anticipating complications based on assessment",
     "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Completing tasks efficiently",
+      "Anticipating complications based on assessment",
+      "Following orders exactly",
+      "Delegating all care"
+    ]
   },
   {
     "id": "CA-022",
@@ -483,7 +633,13 @@
     ],
     "answer": "Anticipating complications based on assessment",
     "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Completing tasks efficiently",
+      "Anticipating complications based on assessment",
+      "Following orders exactly",
+      "Delegating all care"
+    ]
   },
   {
     "id": "CA-023",
@@ -498,6 +654,12 @@
     ],
     "answer": "Anticipating complications based on assessment",
     "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
-    "qtype": "single"
+    "qtype": "single",
+    "options": [
+      "Completing tasks efficiently",
+      "Anticipating complications based on assessment",
+      "Following orders exactly",
+      "Delegating all care"
+    ]
   }
 ]
