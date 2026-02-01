@@ -1,55 +1,22 @@
-# Nurse Review Practice WebApp — Banks v1
+# Compass A Question Bank v2 (1000)
 
-## What you asked for (implemented)
-- **Multiple banks** ready for future content:
-  - Compass A (includes your 25-question pilot already)
-  - NCLEX Review (blank)
-  - Anatomy (blank)
-  - Physiology (blank)
-  - Labs (blank)
-  - Pharmacology (blank)
-  - MedSurg (blank)
-- **Body systems dropdown** (or ANY)
-- **Topic dropdown**
-  - Compass A uses your **exact topic list**
-  - Other banks default to ANY until those banks are populated
-- **Timer per question** (Off / 30 / 45 / 60 / 90 / 120 seconds)
-  - Auto-submits when time expires (counts as attempt)
-- **Correct/Incorrect tracking**
-  - Stored in localStorage (local to device/browser)
-- **Badge system**
-  - First Blood, streaks, XP milestones, exam finisher, 80% club
-- **Exam flow**
-  - Start 75Q exam, then automatically saves score to leaderboard on completion
-- **Leaderboard**
-  - Initials + score saved locally (top 20 shown)
-- **NCLEX readiness gauge**
-  - Accuracy + streak + XP boost (local estimate)
-- **Theme customization**
-  - Presets + accent colors
-  - Saved to localStorage
+## What changed (high-level)
+This bank was rebuilt to **reduce repetition** across question types and to make **answer choices meaningfully different**.
 
-## Folder contents
-- `index.html`
-- `styles.css`
-- `app.js`
-- `banks_manifest.json`
-- `banks/compass_a.json` (your 25 questions, Compass A pilot)
-- `banks/nclex_review.json` (empty)
-- `banks/anatomy.json` (empty)
-- `banks/physiology.json` (empty)
-- `banks/labs.json` (empty)
-- `banks/pharmacology.json` (empty)
-- `banks/medsurg.json` (empty)
+Key upgrades:
+- **Multiple stem archetypes** (not the same “priority finding” wording over and over).
+- **SATA variety** (interventions, expected vs unexpected, teaching, documentation, order clarification, risk of deterioration).
+- **Bowtie fixed**: answers always match options; options vary; no “defaulting” to the correct answer.
+- **Case-tabs for most questions**: case study + vitals + labs + nursing actions + MD orders.
+- **Lab panels vary by system/condition** (not the same labs repeated).
 
-## How to deploy (GitHub Pages)
-Upload the entire folder contents to your Pages published root, keeping the same structure:
-- `index.html` at root
-- `banks/` folder present
-- `banks_manifest.json` at root
+## Files
+- `compass_a_v2_1000.json` — drop-in replacement bank (1000 questions)
+- `CompassA_v2_REPORT.txt` — quick counts/verification
 
-Then open:
-- `https://YOURNAME.github.io/YOURREPO/`
-
-## Version
-Banks v1
+## Notes for your web app
+- Keep the filename exactly as your app expects (rename to `compass_a.json` if needed).
+- This bank keeps the same schema your app has been using:
+  - `qtype` = `single` | `sata` | `bowtie`
+  - `case.tabs` includes: `case_study`, `vitals`, `labs`, `nursing_actions`, `md_orders`
+  - Bowties use `bowtie` + `answer` as `{left, middle, right}`
