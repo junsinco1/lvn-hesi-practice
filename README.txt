@@ -1,14 +1,11 @@
-LVN HESI WEB APP v4 — TOPIC-ALIGNED QUESTIONS
+LVN HESI WEB APP v6 — 1000 QUESTIONS (EXACT TOPICS)
 
-This questions.json is aligned to the provided HESI Compass topic list.
-Scenarios reflect real nursing practice (Med-Surg, Maternity, Leadership, Safety, Informatics, Math).
+This file contains 1,000 questions explicitly mapped to the HESI Compass
+topic list provided by the user.
 
-FILES:
-- questions.json
+• Real clinical nursing scenarios
+• ADPIE / clinical judgment focused
+• Compatible with existing web app loader
 
 DEPLOY:
-Replace your existing questions.json with this file.
-Refresh the site.
-
-NOTE:
-This is a starter aligned set. The structure supports scaling to hundreds/thousands of questions per topic.
+Replace questions.json in your repo with this file.
