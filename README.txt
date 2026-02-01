@@ -1,15 +1,17 @@
-LVN HESI WEB APP v9 — MIXED + NGN BOWTIE
+LVN HESI QUESTIONS v10 — CREATIVE VARIETY
 
-INCLUDES:
-• Case questions
-• Single-answer questions
-• SATA questions
-• NGN Bowtie questions
-• Status indicator (Questions loaded)
+WHAT CHANGED:
+• Stems rewritten to reflect different clinical thinking styles
+• Answer choices are NOT recycled templates
+• Includes:
+  - Priority scenarios
+  - Med math
+  - SATA
+  - Therapeutic communication
+  - NGN bowtie
 
 FILES:
-- index.html
 - questions.json
 
-DEPLOY:
-Upload all files to GitHub Pages root.
+USE:
+Replace your existing questions.json with this file.
