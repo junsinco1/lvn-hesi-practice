@@ -1,11 +1,16 @@
-LVN HESI WEB APP v6 — 1000 QUESTIONS (EXACT TOPICS)
+LVN HESI WEB APP v7 — CASE CLUSTERS + STATUS
 
-This file contains 1,000 questions explicitly mapped to the HESI Compass
-topic list provided by the user.
+NEW:
+• All questions are CASE CLUSTERS
+  - Case summary
+  - Vitals
+  - Labs
+• Header shows: "Questions loaded: X"
 
-• Real clinical nursing scenarios
-• ADPIE / clinical judgment focused
-• Compatible with existing web app loader
+FILES:
+- index.html
+- questions.json
 
 DEPLOY:
-Replace questions.json in your repo with this file.
+Upload both files to GitHub Pages root.
+Confirm /questions.json loads, then open site.

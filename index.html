@@ -11,51 +11,68 @@ main{display:grid;grid-template-columns:320px 1fr;gap:16px;padding:16px}
 .panel{background:rgba(255,255,255,.05);border-radius:16px;padding:16px}
 .choice{margin-top:10px;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,.15)}
 button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;background:#7a5cff;color:#fff}
+small{opacity:.7}
 </style>
 </head>
 <body>
-<header>LVN HESI Compass Practice — External Questions</header>
+<header>
+LVN HESI Compass Practice — Case Clusters
+<br><small id="status">Loading questions…</small>
+</header>
+
 <main>
 <div class="panel">
 <button onclick="nextQ()">Next Question</button>
 </div>
+
 <div class="panel">
-<h2 id="q">Loading…</h2>
+<h2 id="q">—</h2>
+<pre id="case"></pre>
 <div id="a"></div>
 </div>
 </main>
-<script>
-let QUESTIONS=[];
-fetch("./questions.json")
-  .then(r=>{
-    if(!r.ok) throw new Error("questions.json NOT FOUND");
-    return r.json();
-  })
-  .then(data=>{
-    QUESTIONS=data;
-    render();
-  })
-  .catch(err=>{
-    document.getElementById("q").textContent=err.message;
-  });
 
-let i=0;
+<script>
+let QUESTIONS=[], idx=0;
+
+fetch("./questions.json")
+.then(r=>{
+  if(!r.ok) throw new Error("questions.json not found");
+  return r.json();
+})
+.then(data=>{
+  QUESTIONS=data;
+  document.getElementById("status").textContent =
+    `Questions loaded: ${QUESTIONS.length}`;
+  render();
+})
+.catch(e=>{
+  document.getElementById("status").textContent = e.message;
+});
+
 function render(){
   if(!QUESTIONS.length) return;
-  const q=QUESTIONS[i];
+  const q=QUESTIONS[idx];
   document.getElementById("q").textContent=q.stem;
+
+  document.getElementById("case").textContent =
+    `CASE SUMMARY:\n${q.case.summary}\n\nVITALS:\n` +
+    Object.entries(q.case.vitals).map(e=>e.join(": ")).join("\n") +
+    "\n\nLABS:\n" +
+    Object.entries(q.case.labs).map(e=>e.join(": ")).join("\n");
+
   const a=document.getElementById("a");
   a.innerHTML="";
-  q.choices.forEach(t=>{
+  q.choices.forEach(c=>{
     const d=document.createElement("div");
     d.className="choice";
-    d.textContent=t;
+    d.textContent=c;
     a.appendChild(d);
   });
 }
+
 function nextQ(){
-  if(!QUESTIONS.length) return;
-  i=(i+1)%QUESTIONS.length;
+  idx=(idx+1)%QUESTIONS.length;
   render();
 }
 </script>
