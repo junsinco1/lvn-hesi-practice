@@ -257,13 +257,14 @@
     panes.orders.textContent = tabs.orders || '—';
     panes.labs.textContent = formatLabs(tabs.labs);
 
-    // default active: vitals first (more realistic)
-$$('.tabBtn').forEach(b=>b.classList.remove('active'));
-const preferred = $$('.tabBtn').find(b=>b.dataset && b.dataset.tab==='vitals') || $$('.tabBtn')[0];
-if(preferred){ preferred.classList.add('active'); }
-const showKey = preferred ? preferred.dataset.tab : 'case';
-Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'block' : 'none'; });
-}
+    // default active
+    $$('.tabBtn').forEach(b=>b.classList.remove('active'));
+    const first = $$('.tabBtn')[0];
+    if(first){ first.classList.add('active'); }
+    Object.entries(panes).forEach(([k,el],i)=>{
+      el.style.display = (i===0) ? 'block' : 'none';
+    });
+  }
 
   function formatVitals(v){
     if(!v) return '—';
@@ -306,10 +307,12 @@ Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'bl
 
     // Case display box (quick preview)
     const caseText = (q.case_tabs && q.case_tabs.case) ? q.case_tabs.case : '';
-    const qCaseEl = $('#qCase');
-    if(qCaseEl){
-      if(caseText){ qCaseEl.style.display='block'; qCaseEl.textContent = caseText; }
-      else{ qCaseEl.style.display='none'; qCaseEl.textContent=''; }
+    if(caseText){
+      $('#qCase').style.display='block';
+      $('#qCase').textContent = caseText;
+    }else{
+      $('#qCase').style.display='none';
+      $('#qCase').textContent = '';
     }
 
     $('#qStem').textContent = q.stem || '(missing stem)';
