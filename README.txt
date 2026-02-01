@@ -1,2 +1,2 @@
-Labs Bank v1 – 1000 lab interpretation questions.
-Drop banks/labs.json into your app.
+Labs Bank v2 – 1000 varied lab interpretation questions.
+Includes electrolytes, renal, cardiac, endocrine, infectious, coagulation, drug levels, UA.
