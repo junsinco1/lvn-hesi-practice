@@ -1,10 +1,10 @@
-# Nurse Review Practice WebApp — Banks v1.1
+# Nurse Review Practice WebApp — Banks v1.2
 
 ## What you asked for (implemented)
 - **Multiple banks** ready for future content:
   - Compass A (1,000 questions)
   - NCLEX Review (1,000 questions)
-  - Anatomy (blank)
+  - Anatomy (1,000 questions)
   - Physiology (blank)
   - Labs (blank)
   - Pharmacology (blank)
@@ -36,7 +36,7 @@
 - `banks_manifest.json`
 - `banks/compass_a.json` (present)
 - `banks/nclex_review.json` (present)
-- `banks/anatomy.json` (empty)
+- `banks/anatomy.json` (present)
 - `banks/physiology.json` (empty)
 - `banks/labs.json` (empty)
 - `banks/pharmacology.json` (empty)
