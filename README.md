@@ -1,4 +1,4 @@
-# Nurse Review Practice WebApp — Banks v1.4
+# Nurse Review Practice WebApp — Banks v1.5
 
 ## What you asked for (implemented)
 - **Multiple banks** ready for future content:
@@ -8,7 +8,7 @@
   - Physiology (1,000 questions)
   - Labs (1,0000 questions)
   - Pharmacology (1,000 questions)
-  - MedSurg (blank)
+  - MedSurg (1,000 questions)
 - **Body systems dropdown** (or ANY)
 - **Topic dropdown**
   - Compass A uses your **exact topic list**
@@ -40,7 +40,7 @@
 - `banks/physiology.json` (present)
 - `banks/labs.json` (present)
 - `banks/pharmacology.json` (present)
-- `banks/medsurg.json` (empty)
+- `banks/medsurg.json` (present)
 
 ## Version
 Banks v1.1
