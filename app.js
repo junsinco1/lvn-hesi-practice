@@ -1149,7 +1149,7 @@ async function boot(){
   try{
     // PWA offline caching
     if("serviceWorker" in navigator){
-      window.addEventListener("load", ()=> navigator.serviceWorker.register("service-worker.js").catch(()=>{}) );
+      window.addEventListener("load", ()=> 
     }
 
   try{
@@ -1168,3 +1168,13 @@ async function boot(){
 }
 
 boot();
+
+
+/* v5.2 diagnostics helpers */
+window.__LVN_DIAG_URLS = {
+  base: window.location.href,
+  appJs: new URL("app.js", new URL("./", window.location.href)).toString(),
+  manifest: new URL("questions_manifest.json", new URL("./", window.location.href)).toString(),
+  part01: new URL("questions_part01.json", new URL("./", window.location.href)).toString()
+};
+
