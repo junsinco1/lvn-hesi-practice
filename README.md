@@ -6,7 +6,7 @@
   - NCLEX Review (1,000 questions)
   - Anatomy (1,000 questions)
   - Physiology (1,000 questions)
-  - Labs (1,0000 questions)
+  - Labs (1,000 questions)
   - Pharmacology (1,000 questions)
   - MedSurg (1,000 questions)
 - **Body systems dropdown** (or ANY)
