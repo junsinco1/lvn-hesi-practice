@@ -1,7 +1,6 @@
 [
   {
     "id": "CA-001",
-    "type": "single",
     "archetype": "data_interpretation",
     "stem": "Which physiologic process best explains this patient\u2019s arterial blood gas findings?",
     "choices": [
@@ -10,14 +9,14 @@
       "Hyperventilation leading to respiratory alkalosis",
       "Impaired oxygen carrying capacity from anemia"
     ],
-    "answer": 0,
+    "answer": "Inadequate alveolar ventilation causing CO\u2082 retention",
     "rationale": "The elevated PaCO\u2082 with acidemia indicates hypoventilation. COPD exacerbation causes air trapping and reduced alveolar ventilation, leading to CO\u2082 retention.",
     "cluster": "CL-RESP-01",
-    "domain": "MedSurg-Respiratory"
+    "domain": "MedSurg-Respiratory",
+    "qtype": "single"
   },
   {
     "id": "CA-002",
-    "type": "sata",
     "archetype": "unsafe_common_action",
     "stem": "Which actions would increase the risk of respiratory failure in this patient? Select all that apply.",
     "choices": [
@@ -28,57 +27,51 @@
       "Assessing mental status every hour"
     ],
     "answer": [
-      0,
-      1,
-      3
+      "Increasing oxygen to 10 L/min via non-rebreather",
+      "Administering IV morphine for dyspnea without monitoring",
+      "Placing the patient supine"
     ],
     "rationale": "Excess oxygen and opioids can suppress respiratory drive in COPD. Supine positioning worsens ventilation. Pursed-lip breathing and monitoring are protective.",
     "cluster": "CL-RESP-01",
-    "domain": "MedSurg-Respiratory"
+    "domain": "MedSurg-Respiratory",
+    "qtype": "sata"
   },
   {
     "id": "CA-003",
-    "type": "bowtie",
     "archetype": "cause_action_outcome",
     "rationale": "Bronchodilation improves ventilation and gas exchange, reducing CO\u2082 retention and hypoxemia.",
     "cluster": "CL-RESP-01",
     "domain": "MedSurg-Respiratory",
     "bowtie": {
-      "left": {
-        "prompt": "Most likely physiologic problem",
-        "options": [
-          "Air trapping with alveolar hypoventilation",
-          "Acute pulmonary embolism",
-          "Left ventricular failure",
-          "Septic shock"
-        ],
-        "answer": 0
-      },
-      "middle": {
-        "prompt": "Best nursing action",
-        "options": [
-          "Administer bronchodilator and titrate oxygen cautiously",
-          "Initiate aggressive IV fluids",
-          "Prepare for blood transfusion",
-          "Apply abdominal binder"
-        ],
-        "answer": 0
-      },
-      "right": {
-        "prompt": "Expected measurable outcome",
-        "options": [
-          "Improved PaO\u2082 and reduced work of breathing",
-          "Immediate normalization of ABG",
-          "Resolution of fever",
-          "Decrease in blood glucose"
-        ],
-        "answer": 0
-      }
-    }
+      "left_label": "Most likely physiologic problem",
+      "left_options": [
+        "Air trapping with alveolar hypoventilation",
+        "Acute pulmonary embolism",
+        "Left ventricular failure",
+        "Septic shock"
+      ],
+      "left_answer": "Air trapping with alveolar hypoventilation",
+      "middle_label": "Best nursing action",
+      "middle_options": [
+        "Administer bronchodilator and titrate oxygen cautiously",
+        "Initiate aggressive IV fluids",
+        "Prepare for blood transfusion",
+        "Apply abdominal binder"
+      ],
+      "middle_answer": "Administer bronchodilator and titrate oxygen cautiously",
+      "right_label": "Expected measurable outcome",
+      "right_options": [
+        "Improved PaO\u2082 and reduced work of breathing",
+        "Immediate normalization of ABG",
+        "Resolution of fever",
+        "Decrease in blood glucose"
+      ],
+      "right_answer": "Improved PaO\u2082 and reduced work of breathing"
+    },
+    "qtype": "bowtie"
   },
   {
     "id": "CA-004",
-    "type": "single",
     "archetype": "timing_sequence",
     "stem": "In caring for a patient with Heart failure, which finding requires the most immediate follow-up?",
     "choices": [
@@ -87,14 +80,14 @@
       "Patient questions about treatment",
       "Family request for updates"
     ],
-    "answer": 1,
+    "answer": "Unexpected neurologic or hemodynamic change",
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-MEDSURG-CARDIAC",
-    "domain": "MedSurg-Cardiac"
+    "domain": "MedSurg-Cardiac",
+    "qtype": "single"
   },
   {
     "id": "CA-005",
-    "type": "sata",
     "archetype": "scope_of_practice",
     "stem": "Which actions are appropriate independent nursing interventions? Select all that apply.",
     "choices": [
@@ -105,57 +98,51 @@
       "Documenting response to therapy"
     ],
     "answer": [
-      0,
-      2,
-      4
+      "Monitoring vital signs",
+      "Teaching disease management",
+      "Documenting response to therapy"
     ],
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-MEDSURG-CARDIAC",
-    "domain": "MedSurg-Cardiac"
+    "domain": "MedSurg-Cardiac",
+    "qtype": "sata"
   },
   {
     "id": "CA-006",
-    "type": "bowtie",
     "archetype": "cause_action_outcome",
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-MEDSURG-CARDIAC",
     "domain": "MedSurg-Cardiac",
     "bowtie": {
-      "left": {
-        "prompt": "Underlying problem",
-        "options": [
-          "Primary pathophysiologic process",
-          "Unrelated condition",
-          "Medication error",
-          "Psychological stressor"
-        ],
-        "answer": 0
-      },
-      "middle": {
-        "prompt": "Priority action",
-        "options": [
-          "Target underlying process",
-          "Delay intervention",
-          "Treat unrelated symptom",
-          "Ignore findings"
-        ],
-        "answer": 0
-      },
-      "right": {
-        "prompt": "Expected result",
-        "options": [
-          "Physiologic stabilization",
-          "No change",
-          "Worsening",
-          "Unrelated improvement"
-        ],
-        "answer": 0
-      }
-    }
+      "left_label": "Underlying problem",
+      "left_options": [
+        "Primary pathophysiologic process",
+        "Unrelated condition",
+        "Medication error",
+        "Psychological stressor"
+      ],
+      "left_answer": "Primary pathophysiologic process",
+      "middle_label": "Priority action",
+      "middle_options": [
+        "Target underlying process",
+        "Delay intervention",
+        "Treat unrelated symptom",
+        "Ignore findings"
+      ],
+      "middle_answer": "Target underlying process",
+      "right_label": "Expected result",
+      "right_options": [
+        "Physiologic stabilization",
+        "No change",
+        "Worsening",
+        "Unrelated improvement"
+      ],
+      "right_answer": "Physiologic stabilization"
+    },
+    "qtype": "bowtie"
   },
   {
     "id": "CA-007",
-    "type": "single",
     "archetype": "timing_sequence",
     "stem": "In caring for a patient with Acute kidney injury, which finding requires the most immediate follow-up?",
     "choices": [
@@ -164,14 +151,14 @@
       "Patient questions about treatment",
       "Family request for updates"
     ],
-    "answer": 1,
+    "answer": "Unexpected neurologic or hemodynamic change",
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-RENAL",
-    "domain": "Renal"
+    "domain": "Renal",
+    "qtype": "single"
   },
   {
     "id": "CA-008",
-    "type": "sata",
     "archetype": "scope_of_practice",
     "stem": "Which actions are appropriate independent nursing interventions? Select all that apply.",
     "choices": [
@@ -182,57 +169,51 @@
       "Documenting response to therapy"
     ],
     "answer": [
-      0,
-      2,
-      4
+      "Monitoring vital signs",
+      "Teaching disease management",
+      "Documenting response to therapy"
     ],
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-RENAL",
-    "domain": "Renal"
+    "domain": "Renal",
+    "qtype": "sata"
   },
   {
     "id": "CA-009",
-    "type": "bowtie",
     "archetype": "cause_action_outcome",
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-RENAL",
     "domain": "Renal",
     "bowtie": {
-      "left": {
-        "prompt": "Underlying problem",
-        "options": [
-          "Primary pathophysiologic process",
-          "Unrelated condition",
-          "Medication error",
-          "Psychological stressor"
-        ],
-        "answer": 0
-      },
-      "middle": {
-        "prompt": "Priority action",
-        "options": [
-          "Target underlying process",
-          "Delay intervention",
-          "Treat unrelated symptom",
-          "Ignore findings"
-        ],
-        "answer": 0
-      },
-      "right": {
-        "prompt": "Expected result",
-        "options": [
-          "Physiologic stabilization",
-          "No change",
-          "Worsening",
-          "Unrelated improvement"
-        ],
-        "answer": 0
-      }
-    }
+      "left_label": "Underlying problem",
+      "left_options": [
+        "Primary pathophysiologic process",
+        "Unrelated condition",
+        "Medication error",
+        "Psychological stressor"
+      ],
+      "left_answer": "Primary pathophysiologic process",
+      "middle_label": "Priority action",
+      "middle_options": [
+        "Target underlying process",
+        "Delay intervention",
+        "Treat unrelated symptom",
+        "Ignore findings"
+      ],
+      "middle_answer": "Target underlying process",
+      "right_label": "Expected result",
+      "right_options": [
+        "Physiologic stabilization",
+        "No change",
+        "Worsening",
+        "Unrelated improvement"
+      ],
+      "right_answer": "Physiologic stabilization"
+    },
+    "qtype": "bowtie"
   },
   {
     "id": "CA-010",
-    "type": "single",
     "archetype": "timing_sequence",
     "stem": "In caring for a patient with Stroke, which finding requires the most immediate follow-up?",
     "choices": [
@@ -241,14 +222,14 @@
       "Patient questions about treatment",
       "Family request for updates"
     ],
-    "answer": 1,
+    "answer": "Unexpected neurologic or hemodynamic change",
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-NEURO",
-    "domain": "Neuro"
+    "domain": "Neuro",
+    "qtype": "single"
   },
   {
     "id": "CA-011",
-    "type": "sata",
     "archetype": "scope_of_practice",
     "stem": "Which actions are appropriate independent nursing interventions? Select all that apply.",
     "choices": [
@@ -259,57 +240,51 @@
       "Documenting response to therapy"
     ],
     "answer": [
-      0,
-      2,
-      4
+      "Monitoring vital signs",
+      "Teaching disease management",
+      "Documenting response to therapy"
     ],
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-NEURO",
-    "domain": "Neuro"
+    "domain": "Neuro",
+    "qtype": "sata"
   },
   {
     "id": "CA-012",
-    "type": "bowtie",
     "archetype": "cause_action_outcome",
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-NEURO",
     "domain": "Neuro",
     "bowtie": {
-      "left": {
-        "prompt": "Underlying problem",
-        "options": [
-          "Primary pathophysiologic process",
-          "Unrelated condition",
-          "Medication error",
-          "Psychological stressor"
-        ],
-        "answer": 0
-      },
-      "middle": {
-        "prompt": "Priority action",
-        "options": [
-          "Target underlying process",
-          "Delay intervention",
-          "Treat unrelated symptom",
-          "Ignore findings"
-        ],
-        "answer": 0
-      },
-      "right": {
-        "prompt": "Expected result",
-        "options": [
-          "Physiologic stabilization",
-          "No change",
-          "Worsening",
-          "Unrelated improvement"
-        ],
-        "answer": 0
-      }
-    }
+      "left_label": "Underlying problem",
+      "left_options": [
+        "Primary pathophysiologic process",
+        "Unrelated condition",
+        "Medication error",
+        "Psychological stressor"
+      ],
+      "left_answer": "Primary pathophysiologic process",
+      "middle_label": "Priority action",
+      "middle_options": [
+        "Target underlying process",
+        "Delay intervention",
+        "Treat unrelated symptom",
+        "Ignore findings"
+      ],
+      "middle_answer": "Target underlying process",
+      "right_label": "Expected result",
+      "right_options": [
+        "Physiologic stabilization",
+        "No change",
+        "Worsening",
+        "Unrelated improvement"
+      ],
+      "right_answer": "Physiologic stabilization"
+    },
+    "qtype": "bowtie"
   },
   {
     "id": "CA-013",
-    "type": "single",
     "archetype": "timing_sequence",
     "stem": "In caring for a patient with Prolonged labor, which finding requires the most immediate follow-up?",
     "choices": [
@@ -318,14 +293,14 @@
       "Patient questions about treatment",
       "Family request for updates"
     ],
-    "answer": 1,
+    "answer": "Unexpected neurologic or hemodynamic change",
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-OB-INTRAPARTUM",
-    "domain": "OB-Intrapartum"
+    "domain": "OB-Intrapartum",
+    "qtype": "single"
   },
   {
     "id": "CA-014",
-    "type": "sata",
     "archetype": "scope_of_practice",
     "stem": "Which actions are appropriate independent nursing interventions? Select all that apply.",
     "choices": [
@@ -336,57 +311,51 @@
       "Documenting response to therapy"
     ],
     "answer": [
-      0,
-      2,
-      4
+      "Monitoring vital signs",
+      "Teaching disease management",
+      "Documenting response to therapy"
     ],
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-OB-INTRAPARTUM",
-    "domain": "OB-Intrapartum"
+    "domain": "OB-Intrapartum",
+    "qtype": "sata"
   },
   {
     "id": "CA-015",
-    "type": "bowtie",
     "archetype": "cause_action_outcome",
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-OB-INTRAPARTUM",
     "domain": "OB-Intrapartum",
     "bowtie": {
-      "left": {
-        "prompt": "Underlying problem",
-        "options": [
-          "Primary pathophysiologic process",
-          "Unrelated condition",
-          "Medication error",
-          "Psychological stressor"
-        ],
-        "answer": 0
-      },
-      "middle": {
-        "prompt": "Priority action",
-        "options": [
-          "Target underlying process",
-          "Delay intervention",
-          "Treat unrelated symptom",
-          "Ignore findings"
-        ],
-        "answer": 0
-      },
-      "right": {
-        "prompt": "Expected result",
-        "options": [
-          "Physiologic stabilization",
-          "No change",
-          "Worsening",
-          "Unrelated improvement"
-        ],
-        "answer": 0
-      }
-    }
+      "left_label": "Underlying problem",
+      "left_options": [
+        "Primary pathophysiologic process",
+        "Unrelated condition",
+        "Medication error",
+        "Psychological stressor"
+      ],
+      "left_answer": "Primary pathophysiologic process",
+      "middle_label": "Priority action",
+      "middle_options": [
+        "Target underlying process",
+        "Delay intervention",
+        "Treat unrelated symptom",
+        "Ignore findings"
+      ],
+      "middle_answer": "Target underlying process",
+      "right_label": "Expected result",
+      "right_options": [
+        "Physiologic stabilization",
+        "No change",
+        "Worsening",
+        "Unrelated improvement"
+      ],
+      "right_answer": "Physiologic stabilization"
+    },
+    "qtype": "bowtie"
   },
   {
     "id": "CA-016",
-    "type": "single",
     "archetype": "timing_sequence",
     "stem": "In caring for a patient with Acute mania, which finding requires the most immediate follow-up?",
     "choices": [
@@ -395,14 +364,14 @@
       "Patient questions about treatment",
       "Family request for updates"
     ],
-    "answer": 1,
+    "answer": "Unexpected neurologic or hemodynamic change",
     "rationale": "Sudden changes indicate instability and require immediate assessment.",
     "cluster": "CL-PSYCH",
-    "domain": "Psych"
+    "domain": "Psych",
+    "qtype": "single"
   },
   {
     "id": "CA-017",
-    "type": "sata",
     "archetype": "scope_of_practice",
     "stem": "Which actions are appropriate independent nursing interventions? Select all that apply.",
     "choices": [
@@ -413,57 +382,51 @@
       "Documenting response to therapy"
     ],
     "answer": [
-      0,
-      2,
-      4
+      "Monitoring vital signs",
+      "Teaching disease management",
+      "Documenting response to therapy"
     ],
     "rationale": "Assessment, education, and documentation are independent; medication requires orders.",
     "cluster": "CL-PSYCH",
-    "domain": "Psych"
+    "domain": "Psych",
+    "qtype": "sata"
   },
   {
     "id": "CA-018",
-    "type": "bowtie",
     "archetype": "cause_action_outcome",
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-PSYCH",
     "domain": "Psych",
     "bowtie": {
-      "left": {
-        "prompt": "Underlying problem",
-        "options": [
-          "Primary pathophysiologic process",
-          "Unrelated condition",
-          "Medication error",
-          "Psychological stressor"
-        ],
-        "answer": 0
-      },
-      "middle": {
-        "prompt": "Priority action",
-        "options": [
-          "Target underlying process",
-          "Delay intervention",
-          "Treat unrelated symptom",
-          "Ignore findings"
-        ],
-        "answer": 0
-      },
-      "right": {
-        "prompt": "Expected result",
-        "options": [
-          "Physiologic stabilization",
-          "No change",
-          "Worsening",
-          "Unrelated improvement"
-        ],
-        "answer": 0
-      }
-    }
+      "left_label": "Underlying problem",
+      "left_options": [
+        "Primary pathophysiologic process",
+        "Unrelated condition",
+        "Medication error",
+        "Psychological stressor"
+      ],
+      "left_answer": "Primary pathophysiologic process",
+      "middle_label": "Priority action",
+      "middle_options": [
+        "Target underlying process",
+        "Delay intervention",
+        "Treat unrelated symptom",
+        "Ignore findings"
+      ],
+      "middle_answer": "Target underlying process",
+      "right_label": "Expected result",
+      "right_options": [
+        "Physiologic stabilization",
+        "No change",
+        "Worsening",
+        "Unrelated improvement"
+      ],
+      "right_answer": "Physiologic stabilization"
+    },
+    "qtype": "bowtie"
   },
   {
     "id": "CA-019",
-    "type": "single",
     "archetype": "best_vs_acceptable",
     "domain": "Fundamentals",
     "stem": "Which nursing response best demonstrates clinical judgment in a stable patient?",
@@ -473,12 +436,12 @@
       "Following orders exactly",
       "Delegating all care"
     ],
-    "answer": 1,
-    "rationale": "Clinical judgment requires anticipating risks, not just task completion."
+    "answer": "Anticipating complications based on assessment",
+    "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
+    "qtype": "single"
   },
   {
     "id": "CA-020",
-    "type": "single",
     "archetype": "best_vs_acceptable",
     "domain": "Fundamentals",
     "stem": "Which nursing response best demonstrates clinical judgment in a stable patient?",
@@ -488,12 +451,12 @@
       "Following orders exactly",
       "Delegating all care"
     ],
-    "answer": 1,
-    "rationale": "Clinical judgment requires anticipating risks, not just task completion."
+    "answer": "Anticipating complications based on assessment",
+    "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
+    "qtype": "single"
   },
   {
     "id": "CA-021",
-    "type": "single",
     "archetype": "best_vs_acceptable",
     "domain": "Fundamentals",
     "stem": "Which nursing response best demonstrates clinical judgment in a stable patient?",
@@ -503,12 +466,12 @@
       "Following orders exactly",
       "Delegating all care"
     ],
-    "answer": 1,
-    "rationale": "Clinical judgment requires anticipating risks, not just task completion."
+    "answer": "Anticipating complications based on assessment",
+    "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
+    "qtype": "single"
   },
   {
     "id": "CA-022",
-    "type": "single",
     "archetype": "best_vs_acceptable",
     "domain": "Fundamentals",
     "stem": "Which nursing response best demonstrates clinical judgment in a stable patient?",
@@ -518,12 +481,12 @@
       "Following orders exactly",
       "Delegating all care"
     ],
-    "answer": 1,
-    "rationale": "Clinical judgment requires anticipating risks, not just task completion."
+    "answer": "Anticipating complications based on assessment",
+    "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
+    "qtype": "single"
   },
   {
     "id": "CA-023",
-    "type": "single",
     "archetype": "best_vs_acceptable",
     "domain": "Fundamentals",
     "stem": "Which nursing response best demonstrates clinical judgment in a stable patient?",
@@ -533,7 +496,8 @@
       "Following orders exactly",
       "Delegating all care"
     ],
-    "answer": 1,
-    "rationale": "Clinical judgment requires anticipating risks, not just task completion."
+    "answer": "Anticipating complications based on assessment",
+    "rationale": "Clinical judgment requires anticipating risks, not just task completion.",
+    "qtype": "single"
   }
 ]
