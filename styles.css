@@ -48,8 +48,8 @@ body{
 }
 .wrap{
   max-width:1400px;
-  margin:18px auto;
-  padding:0 14px 30px;
+  margin:14px auto 22px;
+  padding:0 14px;
   display:grid;
   grid-template-columns: 360px 1fr;
   gap:14px;
@@ -212,3 +212,29 @@ hr{border:0; border-top:1px solid var(--border); margin:12px 0}
 .actionsBtns{display:flex; gap:10px; flex-wrap:wrap;}
 .actionsBtns .btn{flex:1 1 140px;}
 #feedbackLeft{margin-top:10px; max-height: 320px; overflow:auto;}
+
+
+/* v1.8: clean 2-col layout + topbar */
+.topbar{
+  max-width:1400px;
+  margin:14px auto 0;
+  padding:0 14px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+}
+.brand .title{font-weight:800; font-size:16px;}
+.brand .subtitle{font-size:12px; color:var(--muted); margin-top:2px;}
+.topStats{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;}
+.pill{padding:6px 10px; border:1px solid var(--border); border-radius:999px; background: rgba(255,255,255,.03); font-size:12px; color:var(--muted);}
+.actionsBtns .wide{width:100%;}
+#feedbackLeft{max-height: 360px; overflow:auto;}
+.mainCol{min-height: 640px;}
+.tabsAll .tabPane{min-height: 520px;}
+.foot{max-width:1400px; margin:10px auto 22px; padding:0 14px;}
+@media (max-width: 1000px){
+  .wrap{grid-template-columns:1fr;}
+  .mainCol{min-height: 520px;}
+  .tabsAll .tabPane{min-height: 360px;}
+}

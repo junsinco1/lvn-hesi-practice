@@ -1,33 +1,27 @@
 LVN HESI Practice Web App
-Version: STABLE v1.7
-Build: HARD BYPASS + Left Answer/Rationale
+Version: STABLE v1.8
+Build: Clean Layout Fix (undo the broken v1.7 layout)
 
-KEY FIX
-- This build uses a NEW script filename: app_v1_7.js (so the browser cannot accidentally keep an older app.js).
-- index_app.html now redirects to index.html so old links don't show an outdated UI.
+WHAT WAS BROKEN
+- The v1.7 HTML structure placed the Question card and Answer panel in the wrong columns.
 
-UI CHANGE
-- Submit + Show rationale + the answer/rationale output are in the LEFT column under Gamification.
-- The Question tab shows stem + choices only.
+WHAT THIS FIX DOES
+- Left column: filters/buttons + Gamification + Answer (Submit/Show rationale) + Rationale output.
+- Right column: Question/Case/Vitals/Nurse/MD Orders/Labs tabs with Question default.
+- No Submit buttons appear under the answers anymore.
 
 FILES INCLUDED
-- index.html (loads app_v1_7.js)
-- index_app.html (redirect to index.html)
+- index.html (clean layout)
+- index_app.html (redirect)
 - app_v1_7.js
 - styles.css
 - manifest.json
-- questions_manifest.json + questions_partXX.json
+- questions_manifest.json + parts
 - questions.json (fallback)
 - README.txt
 
 DEPLOY (NO CODING)
-1) Upload ALL files from this ZIP to your repo root (replace old files).
-2) DELETE these from the repo root if they exist:
-   - app.js
-   - service-worker.js
+1) Upload ALL files from this ZIP to repo root (replace old).
+2) Delete app.js if it exists (site uses app_v1_7.js).
 3) Open:
    https://junsinco1.github.io/lvn-hesi-practice/index.html?v=999
-
-HOW TO VERIFY YOU'RE ON v1.7
-- Right-click → View Source: you must see 'app_v1_7.js'
-- The Submit buttons should NOT be under the answers.
