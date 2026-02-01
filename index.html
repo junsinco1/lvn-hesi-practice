@@ -6,7 +6,24 @@
   <title>LVN HESI Compass Practice</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="styles.css?v=1">
-  <script defer src="app.js?v=1"></script>
+  <script defer src="app_v1_7.js"></script>
+
+<script>
+/* v1.7: force new build to load even if an old service worker exists */
+(async ()=>{
+  try{
+    if ('serviceWorker' in navigator){
+      const regs = await navigator.serviceWorker.getRegistrations();
+      for (const r of regs){ await r.unregister(); }
+    }
+    if (window.caches){
+      const keys = await caches.keys();
+      for (const k of keys){ await caches.delete(k); }
+    }
+  }catch(e){}
+})();
+</script>
+
 </head>
 <body>
   <header class="topbar">
@@ -102,10 +119,9 @@
       <hr>
       <p class="muted">Finish a 75Q exam to save to the leaderboard.</p>
     </div>
-  </section>
-
+  
     <div class="panel subpanel actionsPanel">
-      <h3>Answer</h3>
+      <h3>Answer & Rationale</h3>
       <div class="row buttons actionsBtns">
         <button id="btnSubmit" class="btn primary">Submit</button>
         <button id="btnShowRationale" class="btn ghost">Show rationale</button>
@@ -137,7 +153,7 @@
         <div id="qStem" class="stem">Loading questions…</div>
         <div id="choices" class="choices"></div>
 
-      </div>
+        </div>
 
       <div id="tab_case" class="tabPane" style="display:none"></div>
       <div id="tab_vitals" class="tabPane" style="display:none"></div>

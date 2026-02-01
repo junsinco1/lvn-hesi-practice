@@ -207,9 +207,8 @@ hr{border:0; border-top:1px solid var(--border); margin:12px 0}
   .tabsAll .tabPane{min-height: 260px;}
 }
 
-
-/* v1.5: answer actions + rationale under gamification (left column) */
+/* v1.7: left-side answer/rationale panel */
 .actionsPanel{margin-top:12px;}
 .actionsBtns{display:flex; gap:10px; flex-wrap:wrap;}
-.actionsBtns .btn{flex: 1 1 140px;}
-#feedbackLeft{margin-top:10px; max-height: 280px; overflow:auto;}
+.actionsBtns .btn{flex:1 1 140px;}
+#feedbackLeft{margin-top:10px; max-height: 320px; overflow:auto;}
