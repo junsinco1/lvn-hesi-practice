@@ -1,750 +1,940 @@
-// Nurse Review WebApp — Banks v1 (No Service Worker)
-// Features: bank/system/topic dropdowns, timer, scoring, badges, readiness gauge, leaderboard.
-// Data: banks_manifest.json + banks/*.json. Each question should include bank/system/topic/qtype/choices...
+// LVN HESI Practice WebApp v4.1 (fixed buttons + full logic)
+"use strict";
 
-const $ = (s)=>document.querySelector(s);
+// ---------- Storage keys ----------
+const LS_THEME   = "lvn_theme_v4";
+const LS_FONT    = "lvn_font_v4";
+const LS_HC      = "lvn_hicontrast_v4";
+const LS_SCORING = "lvn_scoring_v4";
+const LS_TIMER   = "lvn_timer_v4";
+const LS_SCORES  = "lvn_scores_v4";
+const LS_MASTERY = "lvn_mastery_v4";
+const LS_BADGES  = "lvn_badges_v4";
+const LS_EXAMCODE= "lvn_exam_code_v4";
+const LS_INSTR   = "lvn_instructor_unlocked_v4";
+const LS_INSTR_CODE = "lvn_instructor_code_v4";
 
-const el = {
-  loadStatus: $("#loadStatus"),
-  countStatus: $("#countStatus"),
-  reloadBtn: $("#reloadBtn"),
-  bankSel: $("#bankSel"),
-  systemSel: $("#systemSel"),
-  topicSel: $("#topicSel"),
-  typeSel: $("#typeSel"),
-  diffSel: $("#diffSel"),
-  timerSel: $("#timerSel"),
-  themeSel: $("#themeSel"),
-  accentSel: $("#accentSel"),
-  nextBtn: $("#nextBtn"),
-  startExamBtn: $("#startExamBtn"),
-  resetBtn: $("#resetBtn"),
-  modeLbl: $("#modeLbl"),
-  scoreLbl: $("#scoreLbl"),
-  timerLbl: $("#timerLbl"),
-  xpLbl: $("#xpLbl"),
-  streakLbl: $("#streakLbl"),
-  rankLbl: $("#rankLbl"),
-  badgeRow: $("#badgeRow"),
-  readyPct: $("#readyPct"),
-  gaugeFill: $("#gaugeFill"),
-  caseTabs: $("#caseTabs"),
-  caseBody: $("#caseBody"),
-  answerArea: $("#answerArea"),
-  qTopic: $("#qTopic"),
-  qType: $("#qType"),
-  qDiff: $("#qDiff"),
-  qStem: $("#qStem"),
-  qChoices: $("#qChoices"),
-  bowtieArea: $("#bowtieArea"),
-  submitBtn: $("#submitBtn"),
-  showAnswerBtn: $("#showAnswerBtn"),
-  initialsInp: $("#initialsInp"),
-  openLbBtn: $("#openLbBtn"),
-  clearLbBtn: $("#clearLbBtn"),
-  lbArea: $("#lbArea"),
+// ---------- Themes ----------
+const THEMES = {
+  dark:   { bg:"#0b1020", card:"#121a33", muted:"#9fb0d0", text:"#e8eefc", accent:"#66d9ff", danger:"#ff6b6b" },
+  purple: { bg:"#120b20", card:"#1a1233", muted:"#b6a9d0", text:"#f0ebff", accent:"#b88cff", danger:"#ff7a7a" },
+  green:  { bg:"#0b1a14", card:"#0f2a1f", muted:"#8fd1b5", text:"#eafff6", accent:"#6dffb3", danger:"#ff6b6b" },
+  light:  { bg:"#f5f7fb", card:"#ffffff", muted:"#5f6c85", text:"#1a1f2e", accent:"#2f7cff", danger:"#d92d20" }
 };
 
-// ---------- Theme presets ----------
-const THEME_PRESETS = [
-  {name:"Midnight Glass", vars:{bg:"#0b1020", bg2:"#070b18", card:"rgba(18,26,51,.82)", card2:"rgba(15,23,48,.62)", text:"#e7ecff", muted:"#9aa6d1", border:"#24305b"}},
-  {name:"Slate", vars:{bg:"#0f172a", bg2:"#0b1222", card:"rgba(23,33,62,.82)", card2:"rgba(12,18,38,.62)", text:"#eef2ff", muted:"#a5b4fc", border:"#2a3a73"}},
-  {name:"Warm Ink", vars:{bg:"#141016", bg2:"#0d0a10", card:"rgba(35,24,44,.82)", card2:"rgba(20,14,28,.62)", text:"#fff1f2", muted:"#fbcfe8", border:"#4a2a5c"}},
-  {name:"Clinical Light", vars:{bg:"#0d1326", bg2:"#070b18", card:"rgba(255,255,255,.07)", card2:"rgba(255,255,255,.05)", text:"#f8fafc", muted:"#cbd5e1", border:"#334155"}},
-];
-
-const ACCENTS = [
-  {name:"Blue", value:"#6aa3ff"},
-  {name:"Mint", value:"#3ddc97"},
-  {name:"Violet", value:"#b68cff"},
-  {name:"Amber", value:"#ffcc66"},
-  {name:"Rose", value:"#ff5b6b"},
-  {name:"Cyan", value:"#38bdf8"},
-];
-
-function setCssVars(vars){
-  const r = document.documentElement;
-  for(const [k,v] of Object.entries(vars)) r.style.setProperty(`--${k}`, v);
+// ---------- Deterministic RNG helpers (for exam codes) ----------
+function hashStringToSeed(str){
+  let h = 2166136261;
+  for(let i=0;i<str.length;i++){
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0);
+}
+function mulberry32(seed){
+  let t = seed >>> 0;
+  return function(){
+    t += 0x6D2B79F5;
+    let x = Math.imul(t ^ (t >>> 15), 1 | t);
+    x ^= x + Math.imul(x ^ (x >>> 7), 61 | x);
+    return ((x ^ (x >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function shuffleInPlace(arr, rand=Math.random){
+  for(let i=arr.length-1;i>0;i--){
+    const j = Math.floor(rand() * (i+1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }
 
-function applyThemeFromStorage(){
-  const themeName = localStorage.getItem("nr_theme") || THEME_PRESETS[0].name;
-  const accent = localStorage.getItem("nr_accent") || ACCENTS[0].value;
-  const preset = THEME_PRESETS.find(t=>t.name===themeName) || THEME_PRESETS[0];
-  setCssVars(preset.vars);
-  document.documentElement.style.setProperty("--accent", accent);
-  el.themeSel.value = preset.name;
-  el.accentSel.value = accent;
-}
+// ---------- DOM ----------
+const el = (id)=>document.getElementById(id);
+const ui = {
+  topicSelect: el("topicSelect"),
+  diffSelect: el("diffSelect"),
+  typeSelect: el("typeSelect"),
+  themeSelect: el("themeSelect"),
+  fontSelect: el("fontSelect"),
+  hiContrast: el("hiContrast"),
+  scoringSelect: el("scoringSelect"),
+  timerSelect: el("timerSelect"),
 
-function initThemeUI(){
-  el.themeSel.innerHTML = THEME_PRESETS.map(t=>`<option value="${t.name}">${t.name}</option>`).join("");
-  el.accentSel.innerHTML = ACCENTS.map(a=>`<option value="${a.value}">${a.name}</option>`).join("");
-  el.themeSel.addEventListener("change", ()=>{
-    localStorage.setItem("nr_theme", el.themeSel.value);
-    applyThemeFromStorage();
+  btnPractice: el("btnPractice"),
+  btnStartExam: el("btnStartExam"),
+  btnExamCode: el("btnExamCode"),
+  btnFocusWeak: el("btnFocusWeak"),
+  btnLeaderboard: el("btnLeaderboard"),
+  btnExport: el("btnExport"),
+  btnReset: el("btnReset"),
+
+  qTag: el("qTag"),
+  qTopic: el("qTopic"),
+  qWarn: el("qWarn"),
+  qStem: el("qStem"),
+
+  bowtieWrap: el("bowtieWrap"),
+  bowLeft: el("bowLeft"),
+  bowMid: el("bowMid"),
+  bowRight: el("bowRight"),
+
+  optionsWrap: el("optionsWrap"),
+  btnSubmit: el("btnSubmit"),
+  btnShowRationale: el("btnShowRationale"),
+  scoreLine: el("scoreLine"),
+
+  pane_case: el("pane_case"),
+  pane_vitals: el("pane_vitals"),
+  pane_nurse: el("pane_nurse"),
+  pane_orders: el("pane_orders"),
+  pane_rationale: el("pane_rationale"),
+
+  masteryLine: el("masteryLine"),
+  streakLine: el("streakLine"),
+  badgesLine: el("badgesLine"),
+  modeLine: el("modeLine"),
+  timerLine: el("timerLine"),
+
+  dlg: el("dlg"),
+  dlgTitle: el("dlgTitle"),
+  dlgBody: el("dlgBody"),
+
+  dlgExamCode: el("dlgExamCode"),
+  examCodeInput: el("examCodeInput"),
+
+  dlgInstructor: el("dlgInstructor"),
+  instrCodeInput: el("instrCodeInput"),
+};
+
+const tabs = Array.from(document.querySelectorAll(".tab"));
+tabs.forEach(t=>t.addEventListener("click", ()=>setTab(t.dataset.tab)));
+
+function setTab(name){
+  tabs.forEach(t=>t.classList.toggle("active", t.dataset.tab===name));
+  ["case","vitals","nurse","orders","rationale"].forEach(k=>{
+    el("pane_"+k).classList.toggle("hidden", k!==name);
   });
-  el.accentSel.addEventListener("change", ()=>{
-    localStorage.setItem("nr_accent", el.accentSel.value);
-    applyThemeFromStorage();
-  });
-  applyThemeFromStorage();
 }
 
-// ---------- State ----------
-let manifest = null;
-let bankCache = new Map(); // bankName -> {items, bankMeta}
-let items = [];            // current bank items
-let singles = [];
-let clusters = [];         // arrays (cluster questions)
-let mode = "practice";
+// ---------- App state ----------
+let QUESTIONS = [];
+let mode = "practice";            // practice | exam
 let examQueue = [];
-let examIndex = 0;
-let current = null;
-
-// scoring + gamification
-let scoreCorrect = 0;
-let scoreTotal = 0;
-let xp = 0;
-let streak = 0;
-
-// timer
+let current = null;               // question object
+let currentAnswer = null;         // user's selected answer in normalized form
 let timerSeconds = 0;
-let timerLeft = 0;
+let timerRemaining = 0;
 let timerHandle = null;
 
-// mastery stats per bank/system/topic
-function getStatsKey(){
-  return "nr_stats_v1";
+let scorePoints = 0;              // points achieved
+let scoreMax = 0;                 // max points possible
+let missedIds = new Set();        // across session
+
+let focusWeak = false;
+let examCode = "";
+let scoringMode = "strict";       // strict|partial
+
+let mastery = {};                 // {topic:{attempts,correct}}
+let badges = { earned:{} };
+let streak = 0;
+
+// ---------- Utilities ----------
+function safeJsonParse(raw, fallback){
+  try{ return JSON.parse(raw); }catch{ return fallback; }
 }
-function loadStats(){
-  try{
-    return JSON.parse(localStorage.getItem(getStatsKey()) || "{}") || {};
-  }catch{ return {}; }
+function showDialog(title, body){
+  ui.dlgTitle.textContent = title;
+  ui.dlgBody.textContent = body;
+  ui.dlg.showModal();
 }
-function saveStats(stats){
-  localStorage.setItem(getStatsKey(), JSON.stringify(stats));
+function normalizeTopic(t){ return (t || "Untitled").trim() || "Untitled"; }
+function isNegativeStem(stem){
+  const s = (stem||"").toLowerCase();
+  return s.includes("not ") || s.includes("except") || s.includes("avoid") || s.includes("contraindicated") || s.includes("least appropriate");
 }
-function bumpStats(q, wasCorrect){
-  const stats = loadStats();
-  const b = q.bank || "Unknown";
-  stats[b] = stats[b] || {correct:0,total:0,bySystem:{},byTopic:{},byType:{}};
-  const s = stats[b];
-
-  s.total++; if(wasCorrect) s.correct++;
-
-  const sys = q.system || "ANY";
-  s.bySystem[sys] = s.bySystem[sys] || {correct:0,total:0};
-  s.bySystem[sys].total++; if(wasCorrect) s.bySystem[sys].correct++;
-
-  const topic = q.topic || "ANY";
-  s.byTopic[topic] = s.byTopic[topic] || {correct:0,total:0};
-  s.byTopic[topic].total++; if(wasCorrect) s.byTopic[topic].correct++;
-
-  const type = q.qtype || "single";
-  s.byType[type] = s.byType[type] || {correct:0,total:0};
-  s.byType[type].total++; if(wasCorrect) s.byType[type].correct++;
-
-  saveStats(stats);
-  updateReadinessGauge();
+function formatBlock(x){
+  if(!x) return "—";
+  if(typeof x === "string") return x.trim() || "—";
+  if(Array.isArray(x)) return x.map(v=>String(v)).join("\n");
+  if(typeof x === "object"){
+    return Object.entries(x).map(([k,v])=>`${k}: ${v}`).join("\n");
+  }
+  return String(x);
+}
+function formatVitals(v){
+  if(!v) return "—";
+  if(Array.isArray(v)){
+    const blocks = v.map(item=>{
+      const t = item.time ? `Time: ${item.time}\n` : "";
+      const vit = item.vitals && typeof item.vitals==="object"
+        ? Object.entries(item.vitals).map(([k,val])=>`${k}: ${val}`).join("\n")
+        : "";
+      return (t+vit).trim();
+    }).filter(Boolean);
+    return blocks.length ? blocks.join("\n\n---\n\n") : "—";
+  }
+  return formatBlock(v);
 }
 
-// readiness gauge (simple but useful)
-function updateReadinessGauge(){
-  const stats = loadStats();
-  // Use NCLEX Review stats if any, otherwise blend across all banks
-  let base = stats["NCLEX Review"];
-  let correct = 0, total = 0;
-  if(base && base.total >= 10){
-    correct = base.correct; total = base.total;
-  } else {
-    for(const b of Object.values(stats)){
-      correct += (b.correct||0);
-      total += (b.total||0);
+// ---------- Persistence ----------
+function loadScores(){
+  const raw = localStorage.getItem(LS_SCORES);
+  return safeJsonParse(raw, []);
+}
+function saveScores(scores){
+  localStorage.setItem(LS_SCORES, JSON.stringify(scores));
+}
+function loadMastery(){
+  return safeJsonParse(localStorage.getItem(LS_MASTERY), {});
+}
+function saveMastery(m){
+  localStorage.setItem(LS_MASTERY, JSON.stringify(m));
+}
+function loadBadges(){
+  return safeJsonParse(localStorage.getItem(LS_BADGES), { earned:{} });
+}
+function saveBadges(b){
+  localStorage.setItem(LS_BADGES, JSON.stringify(b));
+}
+
+// ---------- Theming / accessibility ----------
+function applyTheme(name){
+  const t = THEMES[name] || THEMES.dark;
+  const r = document.documentElement.style;
+  r.setProperty("--bg", t.bg);
+  r.setProperty("--card", t.card);
+  r.setProperty("--muted", t.muted);
+  r.setProperty("--text", t.text);
+  r.setProperty("--accent", t.accent);
+  r.setProperty("--danger", t.danger);
+  localStorage.setItem(LS_THEME, name);
+}
+function applyFont(scale){
+  document.documentElement.style.setProperty("--fontScale", scale);
+  localStorage.setItem(LS_FONT, scale);
+}
+function applyHighContrast(on){
+  document.body.classList.toggle("hicontrast", !!on);
+  localStorage.setItem(LS_HC, on ? "1" : "0");
+}
+function applyScoring(mode){
+  scoringMode = (mode==="partial") ? "partial" : "strict";
+  localStorage.setItem(LS_SCORING, scoringMode);
+}
+
+// ---------- Mastery + dashboard ----------
+function masteryLabel(pct){
+  if(pct === null) return "—";
+  if(pct < 60) return "Red";
+  if(pct < 80) return "Yellow";
+  return "Green";
+}
+function topicPct(topic){
+  const m = mastery[topic];
+  if(!m || !m.attempts) return null;
+  return (m.correct||0) / Math.max(1,m.attempts) * 100;
+}
+function computeMasterySummary(){
+  const topics = Object.keys(mastery);
+  if(!topics.length) return { pct:null, red:0, yellow:0, green:0 };
+  let totalAttempts=0, totalCorrect=0, red=0,yellow=0,green=0;
+  for(const t of topics){
+    const m = mastery[t];
+    if(!m || !m.attempts) continue;
+    totalAttempts += m.attempts;
+    totalCorrect += (m.correct||0);
+    const pct = (m.correct||0)/Math.max(1,m.attempts)*100;
+    const lab = masteryLabel(pct);
+    if(lab==="Red") red++;
+    else if(lab==="Yellow") yellow++;
+    else if(lab==="Green") green++;
+  }
+  const pct = totalCorrect / Math.max(1,totalAttempts) * 100;
+  return { pct, red, yellow, green };
+}
+function updateDashboard(){
+  const s = computeMasterySummary();
+  ui.masteryLine.textContent = (s.pct===null) ? "—" : `${Math.round(s.pct)}% • Red ${s.red} • Yellow ${s.yellow} • Green ${s.green}`;
+  ui.streakLine.textContent = String(streak);
+  const earned = Object.keys((badges && badges.earned) ? badges.earned : {});
+  ui.badgesLine.textContent = earned.length ? earned.slice(0,5).join(", ") + (earned.length>5?"…":"") : "—";
+  ui.modeLine.textContent = (mode==="exam") ? "Exam" : (focusWeak ? "Practice (Focus Weak)" : "Practice");
+  ui.timerLine.textContent = timerSeconds ? `${timerSeconds}s` : "Off";
+}
+
+// ---------- Question selection / filtering ----------
+function filteredPool(){
+  const topic = ui.topicSelect.value || "All";
+  const diff = ui.diffSelect.value || "any";
+  const qtype = ui.typeSelect.value || "any";
+
+  return QUESTIONS.filter(q=>{
+    if(topic !== "All" && normalizeTopic(q.topic) !== topic) return false;
+    if(diff !== "any" && (q.difficulty||"any") !== diff) return false;
+    if(qtype !== "any" && (q.qtype||"single") !== qtype) return false;
+    return true;
+  });
+}
+function weightForQuestion(q){
+  let w = 1.0;
+  const topic = normalizeTopic(q.topic);
+  const pct = topicPct(topic);
+  if(pct === null) w *= 1.2;
+  else if(pct < 60) w *= 2.4;
+  else if(pct < 80) w *= 1.6;
+
+  if(missedIds.has(q.id)) w *= 1.8;
+  return w;
+}
+function weightedPick(arr, rand=Math.random){
+  const weights = arr.map(weightForQuestion);
+  const sum = weights.reduce((a,b)=>a+b,0);
+  let r = rand()*sum;
+  for(let i=0;i<arr.length;i++){
+    r -= weights[i];
+    if(r<=0) return arr[i];
+  }
+  return arr[arr.length-1];
+}
+function pickPracticeQuestion(){
+  const pool = filteredPool();
+  if(!pool.length) return null;
+
+  // avoid repeats until pool exhausted for current filter
+  const unseen = pool.filter(q=>!q._seen);
+  const pickFrom = unseen.length ? unseen : pool;
+  const q = focusWeak ? weightedPick(pickFrom) : pickFrom[Math.floor(Math.random()*pickFrom.length)];
+
+  // mark seen for current filter/session
+  q._seen = true;
+  return q;
+}
+function buildExamQueue(pool, seedCode=""){
+  const unique = [];
+  const seen = new Set();
+  for(const q of pool){
+    const id = q.id || (q.stem ? (normalizeTopic(q.topic)+"|"+q.stem).slice(0,120) : Math.random().toString(36).slice(2));
+    q.id = id;
+    if(!seen.has(id)){
+      seen.add(id);
+      unique.push(q);
     }
   }
-  const acc = total ? (correct/total) : 0;
-  // Difficulty and streak boost: rough estimate (stored in session only)
-  const streakBoost = Math.min(streak/20, 1) * 0.08; // up to +8%
-  const xpBoost = Math.min(xp/1000, 1) * 0.04;       // up to +4%
-  let readiness = Math.max(0, Math.min(1, acc + streakBoost + xpBoost));
-  const pct = Math.round(readiness*100);
-  el.readyPct.textContent = `${pct}%`;
-  el.gaugeFill.style.width = `${pct}%`;
-}
-
-function setStatusCounts(){
-  const clusterCount = clusters.length;
-  const qCount = singles.length + clusterCount; // rough session count (singles + clusters)
-  el.countStatus.textContent = `Loaded: ${items.length} questions • ${clusterCount} clusters`;
-}
-
-// ---------- Data loading ----------
-function cacheBust(url){
-  return url + (url.includes("?") ? "&" : "?") + "v=" + Date.now();
-}
-
-async function fetchJson(url){
-  const res = await fetch(cacheBust(url), { cache:"no-store" });
-  if(!res.ok) throw new Error(`${url} -> ${res.status} ${res.statusText}`);
-  return await res.json();
-}
-
-function normalizeQuestion(q, bankName){
-  const nq = {...q};
-  nq.bank = nq.bank || bankName || "Unknown";
-  nq.system = nq.system || "ANY";
-  nq.topic = nq.topic || "ANY";
-  nq.qtype = nq.qtype || (Array.isArray(nq.answer) ? "sata" : "single");
-  nq.difficulty = Number.isFinite(+nq.difficulty) ? +nq.difficulty : 3;
-  if((nq.qtype==="single" || nq.qtype==="sata") && !Array.isArray(nq.choices)) nq.choices = [];
-  if(!nq.choice_rationales || typeof nq.choice_rationales !== "object") nq.choice_rationales = {};
-  // normalize case tabs
-  if(nq.case && !nq.case.tabs && nq.tabs) nq.case = {tabs:nq.tabs};
-  return nq;
-}
-
-function buildClustersAndSingles(all){
-  singles = [];
-  clusters = [];
-  const by = new Map();
-  for(const raw of all){
-    const q = normalizeQuestion(raw, el.bankSel.value);
-    const id = q.case_group?.id || q.case_group_id || null;
-    if(id){
-      if(!by.has(id)) by.set(id, []);
-      by.get(id).push(q);
-    }else{
-      singles.push(q);
-    }
+  // deterministic shuffle if seedCode
+  let rand = Math.random;
+  if(seedCode){
+    const seed = hashStringToSeed(seedCode);
+    rand = mulberry32(seed);
   }
-  for(const [id, arr] of by.entries()){
-    arr.sort((a,b)=>(a.case_group?.sequence ?? 9999) - (b.case_group?.sequence ?? 9999));
-    clusters.push(arr);
-  }
+  const shuffled = shuffleInPlace(unique.slice(), rand);
+  return shuffled.slice(0,75);
 }
 
-async function loadManifest(){
-  manifest = await fetchJson("banks_manifest.json");
-  if(!manifest || !Array.isArray(manifest.banks)) throw new Error("banks_manifest.json invalid");
-  el.bankSel.innerHTML = manifest.banks.map(b=>`<option value="${b.name}">${b.name}</option>`).join("");
+// ---------- Render question ----------
+function clearAnswerUI(){
+  ui.optionsWrap.innerHTML = "";
+  ui.bowtieWrap.classList.add("hidden");
+  ui.btnSubmit.disabled = true;
+  ui.btnShowRationale.disabled = true;
+  ui.pane_rationale.textContent = "—";
+  currentAnswer = null;
 }
-
-function setSystemAndTopicOptions(bankName){
-  const meta = manifest.banks.find(b=>b.name===bankName);
-  const sysList = meta?.systems || ["ANY"];
-  el.systemSel.innerHTML = sysList.map(s=>`<option value="${s}">${s}</option>`).join("");
-  // Topics: for Compass A we provide the large list; others "ANY" until you load those banks.
-  const topics = meta?.topics || ["ANY"];
-  const base = ["ANY", ...topics.filter(t=>t!=="ANY")];
-  // de-dupe
-  const uniq = [...new Set(base)];
-  el.topicSel.innerHTML = uniq.map(t=>`<option value="${t}">${t}</option>`).join("");
+function renderTabs(q){
+  const c = q.case || q.case_study || {};
+  ui.pane_case.textContent   = formatBlock(c.case || c.text || q.case_text || "—");
+  ui.pane_vitals.textContent = formatVitals(c.vitals || q.vitals || "—");
+  ui.pane_nurse.textContent  = formatBlock(c.nurse || c.nurse_actions || q.nurse_actions || "—");
+  ui.pane_orders.textContent = formatBlock(c.orders || c.provider_orders || q.provider_orders || "—");
 }
-
-async function loadBank(bankName){
-  const meta = manifest.banks.find(b=>b.name===bankName);
-  if(!meta) throw new Error("Bank not found in manifest");
-  if(bankCache.has(bankName)){
-    const cached = bankCache.get(bankName);
-    items = cached.items;
-    buildClustersAndSingles(items);
-    setStatusCounts();
-    return;
-  }
-  const data = await fetchJson(meta.file);
-  if(!Array.isArray(data)) throw new Error(`${meta.file} is not an array`);
-  items = data.map(q=>normalizeQuestion(q, bankName));
-  bankCache.set(bankName, {items, meta});
-  buildClustersAndSingles(items);
-  setStatusCounts();
-}
-
-// ---------- Filtering & picking ----------
-function matchesFilters(q){
-  const sys = el.systemSel.value || "ANY";
-  const topic = el.topicSel.value || "ANY";
-  const type = el.typeSel.value || "ANY";
-  const diff = el.diffSel.value || "ANY";
-
-  if(sys !== "ANY" && (q.system||"ANY") !== sys) return false;
-  if(topic !== "ANY" && (q.topic||"ANY") !== topic) return false;
-  if(type !== "ANY" && (q.qtype||"single") !== type) return false;
-  if(diff !== "ANY" && String(q.difficulty||3) !== String(diff)) return false;
-  return true;
-}
-
-function pickFrom(arr){
-  if(!arr.length) return null;
-  return arr[Math.floor(Math.random()*arr.length)];
-}
-
-function pickNext(){
-  // Mix clusters + singles
-  const eligibleSingles = singles.filter(matchesFilters);
-  const eligibleClusters = clusters
-    .map(c=>c.filter(matchesFilters))
-    .filter(c=>c.length); // keep non-empty clusters
-
-  const clusterChance = eligibleClusters.length ? 0.50 : 0.0;
-  const useCluster = Math.random() < clusterChance;
-
-  if(useCluster){
-    const cl = pickFrom(eligibleClusters);
-    return pickFrom(cl);
-  }
-  return pickFrom(eligibleSingles) || (eligibleClusters.length ? pickFrom(pickFrom(eligibleClusters)) : null);
-}
-
-// ---------- UI render ----------
-function setCaseTabs(q){
-  el.caseTabs.innerHTML = "";
-  el.caseBody.textContent = "Load a case-based question to view tabs.";
-  if(!q?.case?.tabs) return;
-
-  const tabs = q.case.tabs;
-  const keys = ["case_study","vitals","labs","nursing_actions","md_orders"].filter(k => tabs[k] != null && String(tabs[k]).trim() !== "");
-  if(!keys.length) return;
-
-  const labels = {case_study:"Case", vitals:"Vitals", labs:"Labs", nursing_actions:"Nurse Did", md_orders:"MD Orders"};
-
-  const renderTab = (k)=>{
-    [...el.caseTabs.children].forEach(ch=>ch.classList.remove("active"));
-    const btn = [...el.caseTabs.children].find(b=>b.dataset.key===k);
-    if(btn) btn.classList.add("active");
-    el.caseBody.textContent = String(tabs[k] ?? "");
-  };
-
-  for(const k of keys){
-    const b = document.createElement("button");
-    b.className = "tab";
-    b.textContent = labels[k] || k;
-    b.dataset.key = k;
-    b.addEventListener("click", ()=>renderTab(k));
-    el.caseTabs.appendChild(b);
-  }
-  renderTab(keys[0]);
-}
-
-function clearQuestionUI(){
-  el.qStem.textContent = "—";
-  el.qChoices.innerHTML = "";
-  el.bowtieArea.style.display = "none";
-  el.bowtieArea.innerHTML = "";
-  el.answerArea.textContent = "Select an answer to see feedback.";
-  el.submitBtn.disabled = true;
-  el.showAnswerBtn.disabled = true;
-}
-
-function renderSingleOrSata(q){
-  el.qChoices.innerHTML = "";
-  const isSata = q.qtype === "sata";
-  const inputType = isSata ? "checkbox" : "radio";
-
-  if(!Array.isArray(q.choices) || !q.choices.length){
-    el.qChoices.innerHTML = `<div class="muted">This question has no choices (data issue).</div>`;
-    el.submitBtn.disabled = true;
-    el.showAnswerBtn.disabled = false;
-    return;
-  }
-
-  for(const choice of q.choices){
-    const row = document.createElement("label");
-    row.className = "choice";
-    const inp = document.createElement("input");
-    inp.type = inputType;
-    inp.name = "choice";
-    inp.value = choice;
-
-    const txt = document.createElement("div");
-    txt.textContent = choice;
-
-    row.appendChild(inp);
-    row.appendChild(txt);
-    el.qChoices.appendChild(row);
-  }
-  el.submitBtn.disabled = false;
-  el.showAnswerBtn.disabled = false;
-}
-
-function renderBowtie(q){
-  el.qChoices.innerHTML = "";
-  el.bowtieArea.style.display = "block";
-  el.bowtieArea.innerHTML = "";
-
-  const bt = q.bowtie;
-  if(!bt || !Array.isArray(bt.left_options) || !Array.isArray(bt.middle_options) || !Array.isArray(bt.right_options)){
-    el.bowtieArea.innerHTML = `<div class="muted">This bowtie is missing required fields (data issue).</div>`;
-    el.submitBtn.disabled = true;
-    el.showAnswerBtn.disabled = false;
-    return;
-  }
-
-  const makeCol = (title, opts, groupName)=>{
-    const col = document.createElement("div");
-    col.className = "btCol";
-    col.innerHTML = `<div class="btColTitle">${title}</div>`;
-    for(const opt of opts){
-      const r = document.createElement("label");
-      r.className = "btOpt";
-      const inp = document.createElement("input");
-      inp.type = "radio";
-      inp.name = groupName;
-      inp.value = opt;
-      const t = document.createElement("div");
-      t.textContent = opt;
-      r.appendChild(inp);
-      r.appendChild(t);
-      col.appendChild(r);
-    }
-    return col;
-  };
-
-  const grid = document.createElement("div");
-  grid.className = "btGrid";
-  grid.appendChild(makeCol(bt.left_label || "Most likely concern", bt.left_options, "bt_left"));
-  grid.appendChild(makeCol(bt.middle_label || "Best action now", bt.middle_options, "bt_mid"));
-  grid.appendChild(makeCol(bt.right_label || "Expected improvement", bt.right_options, "bt_right"));
-  el.bowtieArea.appendChild(grid);
-
-  el.submitBtn.disabled = false;
-  el.showAnswerBtn.disabled = false;
-}
-
-function render(q){
-  clearQuestionUI();
+function renderQuestion(q){
   current = q;
+  clearAnswerUI();
 
-  el.qTopic.textContent = q.topic || "—";
-  el.qType.textContent = q.qtype || "—";
-  el.qDiff.textContent = String(q.difficulty ?? "—");
-  el.qStem.textContent = q.stem || "—";
+  const topic = normalizeTopic(q.topic);
+  ui.qTopic.textContent = topic;
+  ui.qTag.textContent = (mode==="exam" ? "EXAM" : "PRACTICE") + ` • ${(q.qtype||"single").toUpperCase()} • ${(q.difficulty||"any").replace("_"," ")}`;
+  ui.qStem.textContent = q.stem || "—";
 
-  setCaseTabs(q);
+  ui.qWarn.textContent = isNegativeStem(q.stem) ? "NEGATIVE WORDING — read carefully" : "";
 
-  if(q.qtype === "bowtie") renderBowtie(q);
-  else renderSingleOrSata(q);
+  renderTabs(q);
+  setTab("case");
 
-  startTimerForQuestion();
+  if((q.qtype||"single")==="bowtie"){
+    renderBowtie(q);
+  }else{
+    renderOptions(q);
+  }
+
+  startTimer();
+  updateScoreLine();
+  updateDashboard();
+}
+function renderOptions(q){
+  const isSATA = (q.qtype||"single")==="sata";
+  const name = "opt";
+  (q.options||[]).forEach((opt, idx)=>{
+    const id = `opt_${idx}`;
+    const row = document.createElement("label");
+    row.className = "opt";
+    const input = document.createElement("input");
+    input.type = isSATA ? "checkbox" : "radio";
+    input.name = name;
+    input.value = opt;
+    input.id = id;
+    input.addEventListener("change", collectAnswer);
+    const txt = document.createElement("div");
+    txt.className = "txt";
+    txt.textContent = opt;
+    row.appendChild(input);
+    row.appendChild(txt);
+    ui.optionsWrap.appendChild(row);
+  });
+}
+function renderBowtie(q){
+  ui.bowtieWrap.classList.remove("hidden");
+  ui.optionsWrap.innerHTML = "";
+  const b = q.bowtie || {};
+  const left = b.left_options || [];
+  const mid  = b.middle_options || [];
+  const right= b.right_options || [];
+  fillSelect(ui.bowLeft, left);
+  fillSelect(ui.bowMid, mid);
+  fillSelect(ui.bowRight, right);
+
+  ui.bowLeft.addEventListener("change", collectAnswer);
+  ui.bowMid.addEventListener("change", collectAnswer);
+  ui.bowRight.addEventListener("change", collectAnswer);
+}
+function fillSelect(sel, options){
+  sel.innerHTML = "";
+  const ph = document.createElement("option");
+  ph.value = "";
+  ph.textContent = "— Select —";
+  sel.appendChild(ph);
+  options.forEach(o=>{
+    const op = document.createElement("option");
+    op.value = o;
+    op.textContent = o;
+    sel.appendChild(op);
+  });
 }
 
-// ---------- Answering & feedback ----------
-function getSelected(q){
-  if(q.qtype === "sata"){
-    return [...el.qChoices.querySelectorAll("input[type=checkbox]:checked")].map(x=>x.value);
+// ---------- Answering / scoring ----------
+function collectAnswer(){
+  if(!current) return;
+  const qt = current.qtype || "single";
+  if(qt==="bowtie"){
+    currentAnswer = {
+      left: ui.bowLeft.value || "",
+      middle: ui.bowMid.value || "",
+      right: ui.bowRight.value || ""
+    };
+    ui.btnSubmit.disabled = !(currentAnswer.left && currentAnswer.middle && currentAnswer.right);
+    return;
   }
-  if(q.qtype === "single"){
-    return el.qChoices.querySelector("input[type=radio]:checked")?.value ?? null;
+  if(qt==="sata"){
+    const vals = Array.from(ui.optionsWrap.querySelectorAll("input[type=checkbox]:checked")).map(i=>i.value);
+    currentAnswer = vals;
+    ui.btnSubmit.disabled = vals.length===0;
+    return;
   }
-  if(q.qtype === "bowtie"){
-    const left = document.querySelector("input[name=bt_left]:checked")?.value ?? null;
-    const mid = document.querySelector("input[name=bt_mid]:checked")?.value ?? null;
-    const right = document.querySelector("input[name=bt_right]:checked")?.value ?? null;
-    return {left, middle: mid, right};
-  }
-  return null;
+  // single
+  const pick = ui.optionsWrap.querySelector("input[type=radio]:checked");
+  currentAnswer = pick ? pick.value : null;
+  ui.btnSubmit.disabled = !currentAnswer;
 }
-
-function isCorrect(q, sel){
-  if(q.qtype === "single"){
-    return sel && q.answer && sel === q.answer;
+function scoreCurrent(){
+  // returns {points,max,correct}
+  const qt = current.qtype || "single";
+  if(scoringMode==="strict"){
+    const ok = isCorrectStrict();
+    return { points: ok?1:0, max:1, correct: ok };
   }
-  if(q.qtype === "sata"){
-    if(!Array.isArray(sel) || !Array.isArray(q.answer)) return false;
-    const a = new Set(q.answer);
-    const s = new Set(sel);
-    if(a.size !== s.size) return false;
-    for(const x of a) if(!s.has(x)) return false;
+  // partial
+  if(qt==="single"){
+    const ok = (currentAnswer === current.answer);
+    return { points: ok?1:0, max:1, correct: ok };
+  }
+  if(qt==="sata"){
+    const correctSet = new Set(Array.isArray(current.answer)?current.answer:[]);
+    const userSet = new Set(Array.isArray(currentAnswer)?currentAnswer:[]);
+    let tp=0, fp=0;
+    for(const v of userSet){ if(correctSet.has(v)) tp++; else fp++; }
+    const raw = tp - fp;
+    const max = Math.max(1, correctSet.size);
+    const points = Math.max(0, Math.min(max, raw));
+    const ok = (points===max);
+    return { points, max, correct: ok };
+  }
+  if(qt==="bowtie"){
+    const b = current.bowtie || {};
+    const leftOpts  = b.left_options  || b.leftOptions  || b.left_choices  || b.leftChoices  || [];
+    const midOpts   = b.middle_options|| b.middleOptions|| b.mid_options   || b.midOptions   || [];
+    const rightOpts = b.right_options || b.rightOptions || b.right_choices || b.rightChoices || [];
+    const leftA  = (b.left_answer ?? b.leftAnswer ?? b.left_correct ?? b.leftCorrect ?? (typeof b.left_index==="number" ? leftOpts[b.left_index] : null));
+    const midA   = (b.middle_answer ?? b.middleAnswer ?? b.middle_correct ?? b.middleCorrect ?? (typeof b.middle_index==="number" ? midOpts[b.middle_index] : null));
+    const rightA = (b.right_answer ?? b.rightAnswer ?? b.right_correct ?? b.rightCorrect ?? (typeof b.right_index==="number" ? rightOpts[b.right_index] : null));
+    const max = 3;
+    let points = 0;
+    if(currentAnswer.left===leftA) points++;
+    if(currentAnswer.middle===midA) points++;
+    if(currentAnswer.right===rightA) points++;
+    return { points, max, correct: points===max };
+  }
+  const ok = isCorrectStrict();
+  return { points: ok?1:0, max:1, correct: ok };
+}
+function isCorrectStrict(){
+  const qt = current.qtype || "single";
+  if(qt==="single"){
+    return currentAnswer === current.answer;
+  }
+  if(qt==="sata"){
+    const a = Array.isArray(current.answer)?current.answer:[];
+    const u = Array.isArray(currentAnswer)?currentAnswer:[];
+    if(u.length !== a.length) return false;
+    const setA = new Set(a);
+    for(const v of u) if(!setA.has(v)) return false;
     return true;
   }
-  if(q.qtype === "bowtie"){
-    if(!sel || typeof sel !== "object") return false;
-    const ans = q.answer || {};
-    return sel.left === ans.left && sel.middle === ans.middle && sel.right === ans.right;
+  if(qt==="bowtie"){
+    const b = current.bowtie || {};
+    return currentAnswer.left===b.left_answer
+        && currentAnswer.middle===b.middle_answer
+        && currentAnswer.right===b.right_answer;
   }
   return false;
 }
-
-function showFeedback(q, sel){
-  const correct = isCorrect(q, sel);
-
-  // scoring
-  scoreTotal++;
-  if(correct) scoreCorrect++;
-  el.scoreLbl.textContent = `${scoreCorrect}/${scoreTotal}`;
-
-  // xp & streak
-  if(correct){
-    streak++;
-    xp += 10 + Math.max(0, (q.difficulty||3) - 3) * 6;
-  }else{
-    streak = 0;
-    xp += 3;
+function buildRationale(){
+  const lines = [];
+  const qt = current.qtype || "single";
+  if(qt==="single"){
+    lines.push(`Correct answer: ${current.answer}`);
+  }else if(qt==="sata"){
+    lines.push(scoringMode==="partial" ? "Correct answers (partial credit enabled):" : "Correct answers (must match exactly):");
+    (current.answer||[]).forEach(a=>lines.push(`- ${a}`));
+  }else if(qt==="bowtie"){
+    const b=current.bowtie||{};
+    const leftOpts  = b.left_options  || b.leftOptions  || b.left_choices  || b.leftChoices  || [];
+    const midOpts   = b.middle_options|| b.middleOptions|| b.mid_options   || b.midOptions   || [];
+    const rightOpts = b.right_options || b.rightOptions || b.right_choices || b.rightChoices || [];
+    const leftA  = (b.left_answer ?? b.leftAnswer ?? b.left_correct ?? b.leftCorrect ?? (typeof b.left_index==="number" ? leftOpts[b.left_index] : null) ?? "—");
+    const midA   = (b.middle_answer ?? b.middleAnswer ?? b.middle_correct ?? b.middleCorrect ?? (typeof b.middle_index==="number" ? midOpts[b.middle_index] : null) ?? "—");
+    const rightA = (b.right_answer ?? b.rightAnswer ?? b.right_correct ?? b.rightCorrect ?? (typeof b.right_index==="number" ? rightOpts[b.right_index] : null) ?? "—");
+    lines.push("Bowtie correct selections:");
+    lines.push(`- Client problem: ${leftA||"—"}`);
+    lines.push(`- Priority action: ${midA||"—"}`);
+    lines.push(`- Expected outcome: ${rightA||"—"}`);
   }
-  el.xpLbl.textContent = String(xp);
-  el.streakLbl.textContent = String(streak);
-  el.rankLbl.textContent = rankFromXp(xp);
-
-  // stats + readiness
-  bumpStats(q, correct);
-
-  // badges
-  updateBadges();
-
-  // feedback body
-  let html = `<div><b>${correct ? "Correct ✅" : "Incorrect ❌"}</b></div>`;
-  if(q.qtype === "single"){
-    html += `<div class="muted">Correct answer: <b>${q.answer ?? "—"}</b></div>`;
-    html += choiceRationaleBlock(q);
-  } else if(q.qtype === "sata"){
-    html += `<div class="muted">Correct selections:</div><ul>${(q.answer||[]).map(a=>`<li>${a}</li>`).join("")}</ul>`;
-    html += choiceRationaleBlock(q);
-  } else if(q.qtype === "bowtie"){
-    const ans = q.answer || {};
-    html += `<div class="muted">Correct bowtie:</div>
-      <ul><li><b>${ans.left ?? "—"}</b></li><li><b>${ans.middle ?? "—"}</b></li><li><b>${ans.right ?? "—"}</b></li></ul>`;
-  }
-  if(q.rationale){
-    html += `<hr style="border:0;border-top:1px solid var(--border);margin:10px 0" />`;
-    html += `<div><b>Rationale</b></div><div class="muted">${q.rationale}</div>`;
-  }
-  el.answerArea.innerHTML = html;
+  lines.push("");
+  lines.push(current.rationale || "No rationale provided.");
+  return lines.join("\n");
+}
+function awardBadges(sc){
+  const earn = (name)=>{
+    if(!badges.earned) badges.earned = {};
+    if(!badges.earned[name]){
+      badges.earned[name] = new Date().toISOString().slice(0,10);
+      saveBadges(badges);
+    }
+  };
+  if(streak>=5) earn("Streak5");
+  if(streak>=10) earn("Streak10");
+  if((current.qtype||"") === "sata" && sc.correct) earn("SATA");
+  if((current.qtype||"") === "bowtie" && sc.correct) earn("Bowtie");
+}
+function teachBack(){
+  if(mode==="exam") return;
+  const prompts = [
+    "In 1 sentence: what cue made this the priority?",
+    "What assessment would you re-check first after the intervention?",
+    "Which finding would require immediate provider notification?",
+    "What safety risk was the distractor trying to trick you with?"
+  ];
+  const p = prompts[Math.floor(Math.random()*prompts.length)];
+  try{ window.prompt("Teach-back (not graded):\n\n"+p, ""); }catch{}
+}
+function submitAnswer(){
+  if(!current) return;
 
   stopTimer();
-}
+  const sc = scoreCurrent();
+  scorePoints += sc.points;
+  scoreMax += sc.max;
 
-function choiceRationaleBlock(q){
-  if(!q.choice_rationales || !q.choices || !q.choices.length) return "";
-  let out = `<div style="margin-top:8px">`;
-  for(const ch of q.choices){
-    const cr = q.choice_rationales[ch];
-    if(cr) out += `<div><b>${ch}</b><div class="muted">${cr}</div></div><div style="height:6px"></div>`;
+  if(sc.correct){
+    streak += 1;
+  }else{
+    streak = 0;
+    if(current.id) missedIds.add(current.id);
   }
-  out += `</div>`;
-  return out;
+
+  const topic = normalizeTopic(current.topic);
+  if(!mastery[topic]) mastery[topic] = { attempts:0, correct:0 };
+  mastery[topic].attempts += 1;
+  mastery[topic].correct += (sc.correct ? 1 : 0);
+  saveMastery(mastery);
+
+  awardBadges(sc);
+
+  ui.pane_rationale.textContent = buildRationale();
+  setTab("rationale");
+  ui.btnShowRationale.disabled = false;
+  ui.btnSubmit.disabled = true;
+
+  updateScoreLine();
+  updateDashboard();
+
+  setTimeout(teachBack, 50);
+
+  if(mode==="exam"){
+    if(examQueue.length){
+      // next question button prompt
+      showDialog("Saved", "Answer recorded. Click OK for next question.");
+      ui.dlg.addEventListener("close", ()=>{ nextFromQueue(); }, { once:true });
+    }else{
+      finishExam();
+    }
+  }
+}
+function showRationale(){
+  if(!current) return;
+  ui.pane_rationale.textContent = buildRationale();
+  setTab("rationale");
+}
+function updateScoreLine(){
+  ui.scoreLine.textContent = `Score: ${scorePoints}/${scoreMax} • Missed: ${missedIds.size} • Scoring: ${scoringMode}${focusWeak ? " • FocusWeak" : ""}`;
 }
 
 // ---------- Timer ----------
+function startTimer(){
+  stopTimer();
+  timerRemaining = timerSeconds;
+  ui.timerLine.textContent = timerSeconds ? `${timerSeconds}s` : "Off";
+  if(!timerSeconds) return;
+  tickTimer();
+  timerHandle = setInterval(tickTimer, 1000);
+}
+function tickTimer(){
+  if(!timerSeconds) return;
+  ui.timerLine.textContent = `${timerRemaining}s`;
+  if(timerRemaining <= 0){
+    clearInterval(timerHandle);
+    timerHandle = null;
+    handleTimeout();
+    return;
+  }
+  timerRemaining -= 1;
+}
 function stopTimer(){
-  if(timerHandle){ clearInterval(timerHandle); timerHandle = null; }
-  timerLeft = 0;
-  el.timerLbl.textContent = "—";
+  if(timerHandle){
+    clearInterval(timerHandle);
+    timerHandle = null;
+  }
 }
-function startTimerForQuestion(){
-  stopTimer();
-  timerSeconds = parseInt(el.timerSel.value || "0", 10) || 0;
-  if(timerSeconds <= 0){ el.timerLbl.textContent = "Off"; return; }
-  timerLeft = timerSeconds;
-  el.timerLbl.textContent = `${timerLeft}s`;
-  timerHandle = setInterval(()=>{
-    timerLeft--;
-    el.timerLbl.textContent = `${timerLeft}s`;
-    if(timerLeft <= 0){
-      stopTimer();
-      // Auto-submit as incorrect if no selection made
-      if(current){
-        const sel = getSelected(current);
-        showFeedback(current, sel);
-      }
+function handleTimeout(){
+  // mark incorrect
+  streak = 0;
+  scoreMax += 1;
+  if(current && current.id) missedIds.add(current.id);
+  const topic = normalizeTopic(current.topic);
+  if(!mastery[topic]) mastery[topic] = { attempts:0, correct:0 };
+  mastery[topic].attempts += 1;
+  saveMastery(mastery);
+
+  ui.pane_rationale.textContent = `⏱ Time expired. Marked incorrect.\n\n${current ? (current.rationale||"") : ""}`;
+  setTab("rationale");
+  updateScoreLine();
+  updateDashboard();
+
+  if(mode==="exam"){
+    if(examQueue.length){
+      showDialog("Time expired", "Click OK for next question.");
+      ui.dlg.addEventListener("close", ()=>{ nextFromQueue(); }, { once:true });
+    }else{
+      finishExam();
     }
-  }, 1000);
-}
-
-// ---------- Badges & rank ----------
-const BADGES = [
-  {id:"first_correct", label:"First Blood", test:()=>scoreCorrect>=1},
-  {id:"streak5", label:"Streak x5", test:()=>streak>=5},
-  {id:"streak10", label:"Streak x10", test:()=>streak>=10},
-  {id:"xp250", label:"XP 250", test:()=>xp>=250},
-  {id:"xp500", label:"XP 500", test:()=>xp>=500},
-  {id:"exam_finish", label:"Exam Finisher", test:()=>loadExamCount()>=1},
-  {id:"accuracy80", label:"80% Club", test:()=> (scoreTotal>=20) && (scoreCorrect/scoreTotal)>=0.80},
-];
-
-function updateBadges(){
-  el.badgeRow.innerHTML = "";
-  for(const b of BADGES){
-    const on = b.test();
-    const chip = document.createElement("div");
-    chip.className = "badge" + (on ? " on" : "");
-    chip.textContent = b.label;
-    el.badgeRow.appendChild(chip);
   }
 }
 
-function rankFromXp(x){
-  if(x>=2000) return "Legend";
-  if(x>=1200) return "Expert";
-  if(x>=700) return "Advanced";
-  if(x>=350) return "Intermediate";
-  return "Novice";
-}
-
-// ---------- Leaderboard (exam only) ----------
-function lbKey(){ return "nr_leaderboard_v1"; }
-function loadLb(){
-  try{ return JSON.parse(localStorage.getItem(lbKey())||"[]") || []; }catch{ return []; }
-}
-function saveLb(arr){ localStorage.setItem(lbKey(), JSON.stringify(arr)); }
-function loadExamCount(){
-  const lb = loadLb();
-  return lb.length;
-}
-function renderLb(){
-  const lb = loadLb().slice().sort((a,b)=>b.scorePct - a.scorePct).slice(0,20);
-  if(!lb.length){ el.lbArea.textContent = "Finish an exam to post a score."; return; }
-  el.lbArea.textContent = lb.map((x,i)=>{
-    const date = new Date(x.ts).toLocaleDateString();
-    return `${String(i+1).padStart(2,"0")}. ${x.initials}  ${x.scorePct}%  (${x.correct}/${x.total})  ${x.bank}  ${date}`;
-  }).join("\n");
-}
-
-// ---------- Exam flow ----------
+// ---------- Exam / leaderboard / export ----------
 function startExam(){
+  const pool = filteredPool();
+  if(pool.length < 75){
+    showDialog("Not enough questions", `Your current filters only include ${pool.length} questions. Choose “All” topic / Any difficulty / Any type to reach 75.`);
+    return;
+  }
   mode = "exam";
-  examQueue = [];
-  examIndex = 0;
-  scoreCorrect = 0; scoreTotal = 0;
-  el.modeLbl.textContent = "Exam";
-  el.scoreLbl.textContent = "0/0";
+  scorePoints = 0;
+  scoreMax = 0;
+  missedIds = new Set();
+  streak = 0;
 
-  for(let i=0;i<75;i++){
-    const q = pickNext();
-    if(q) examQueue.push(q);
-  }
+  examCode = (localStorage.getItem(LS_EXAMCODE) || "").trim();
+  const codeSeed = examCode ? `${examCode}|${ui.topicSelect.value}|${ui.diffSelect.value}|${ui.typeSelect.value}` : "";
+  examQueue = buildExamQueue(pool, codeSeed);
+
+  nextFromQueue();
+}
+function nextFromQueue(){
   if(!examQueue.length){
-    el.loadStatus.textContent = "No questions match filters";
+    finishExam();
     return;
   }
-  render(examQueue[0]);
-  el.loadStatus.textContent = `Exam 1/${examQueue.length}`;
+  const q = examQueue.shift();
+  renderQuestion(q);
 }
-
-function next(){
-  if(mode === "exam"){
-    if(examIndex < examQueue.length-1){
-      examIndex++;
-      el.loadStatus.textContent = `Exam ${examIndex+1}/${examQueue.length}`;
-      render(examQueue[examIndex]);
-      return;
-    }
-    // finish exam
-    const pct = scoreTotal ? Math.round((scoreCorrect/scoreTotal)*100) : 0;
-    const initials = (el.initialsInp.value || "AAA").toUpperCase().replace(/[^A-Z]/g,"").slice(0,3) || "AAA";
-    const entry = {initials, correct:scoreCorrect, total:scoreTotal, scorePct:pct, bank: el.bankSel.value, ts: Date.now()};
-    const lb = loadLb();
-    lb.push(entry);
-    saveLb(lb);
-    renderLb();
-    updateBadges();
-    mode = "practice";
-    el.modeLbl.textContent = "Practice";
-    el.loadStatus.textContent = "Exam saved ✅";
-    return;
-  }
-
-  const q = pickNext();
-  if(!q){
-    el.loadStatus.textContent = "No questions match filters";
-    return;
-  }
-  el.loadStatus.textContent = "Practice";
-  render(q);
-}
-
-function reset(){
+function finishExam(){
   mode = "practice";
-  scoreCorrect = 0; scoreTotal = 0;
-  xp = 0; streak = 0;
-  el.modeLbl.textContent = "Practice";
-  el.scoreLbl.textContent = "0/0";
-  el.xpLbl.textContent = "0";
-  el.streakLbl.textContent = "0";
-  el.rankLbl.textContent = "Novice";
-  updateBadges();
-  updateReadinessGauge();
-  clearQuestionUI();
-  el.loadStatus.textContent = "Ready";
   stopTimer();
-}
+  const pct = scoreMax ? Math.round((scorePoints/scoreMax)*100) : 0;
 
-// ---------- Controls ----------
-async function reloadAll(){
-  el.loadStatus.textContent = "Loading…";
-  try{
-    if(!manifest) await loadManifest();
-    // fill system/topic based on bank
-    const bankName = el.bankSel.value || manifest.banks[0].name;
-    setSystemAndTopicOptions(bankName);
-    await loadBank(bankName);
-    el.loadStatus.textContent = "Loaded";
-    updateBadges();
-    updateReadinessGauge();
-    renderLb();
-    // show an initial question if available
-    const q = pickNext();
-    if(q) render(q);
-  }catch(err){
-    el.loadStatus.textContent = "Load failed";
-    el.answerArea.innerHTML = `<div><b>Error</b></div><div class="muted">${String(err.message||err)}</div>`;
+  let initials = (window.prompt("Enter your initials (2–4 letters):", "") || "").trim();
+  initials = initials.replace(/[^A-Za-z]/g,"").toUpperCase().slice(0,4);
+  if(initials.length < 2) initials = "NA";
+  let section = (window.prompt("Optional: enter section/cohort (e.g., AM, PM, LVN1):", "") || "").trim().slice(0,12);
+
+  const entry = {
+    name: initials,
+    section,
+    pct,
+    score: scorePoints,
+    total: scoreMax,
+    date: new Date().toISOString().slice(0,16).replace("T"," ")
+  };
+  const scores = loadScores();
+  scores.unshift(entry);
+  scores.sort((a,b)=> (b.pct-a.pct) || (b.score-a.score));
+  saveScores(scores.slice(0,200));
+
+  showDialog("Exam complete", `Score: ${pct}% (${scorePoints}/${scoreMax})\nSaved to leaderboard.`);
+  ui.dlg.addEventListener("close", ()=>{ updateDashboard(); }, { once:true });
+}
+function showLeaderboard(){
+  const scores = loadScores();
+  if(!scores.length){
+    showDialog("Leaderboard", "No saved scores yet.");
+    return;
   }
+  const section = (window.prompt("Filter by section? Leave blank for all:", "") || "").trim();
+  const show = section ? scores.filter(s => (s.section||"").toLowerCase() === section.toLowerCase()) : scores;
+
+  const lines = [];
+  lines.push("Leaderboard (Top 50 on this device) — Initials");
+  if(section) lines.push(`Section filter: ${section}`);
+  lines.push("");
+  (show.length ? show : scores).slice(0,50).forEach((s,i)=>{
+    lines.push(`${String(i+1).padStart(2," ")}. ${s.name}${s.section?` (${s.section})`:''} — ${s.pct}% (${s.score}/${s.total}) — ${s.date}`);
+  });
+  showDialog("Leaderboard", lines.join("\n"));
+}
+function exportCSV(filename, rows){
+  const csv = rows.map(r=>r.map(x=>`"${String(x??"").replaceAll('"','""')}"`).join(",")).join("\n");
+  const blob = new Blob([csv], {type:"text/csv"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url), 800);
+}
+function exportTools(){
+  const unlocked = localStorage.getItem(LS_INSTR)==="1";
+  if(!unlocked){
+    ui.instrCodeInput.value = "";
+    ui.dlgInstructor.showModal();
+    ui.dlgInstructor.addEventListener("close", ()=>{
+      if(ui.dlgInstructor.returnValue!=="ok") return;
+      const entered = (ui.instrCodeInput.value||"").trim();
+      let code = localStorage.getItem(LS_INSTR_CODE) || "";
+      if(!code){
+        localStorage.setItem(LS_INSTR_CODE, entered);
+        code = entered;
+      }
+      if(entered && entered === code){
+        localStorage.setItem(LS_INSTR,"1");
+        showDialog("Instructor unlocked","Exports enabled on this device.");
+      }else{
+        showDialog("Incorrect code","Instructor code did not match.");
+      }
+    }, { once:true });
+    return;
+  }
+
+  const scores = loadScores();
+  const m = loadMastery();
+  const rows1 = [["initials","section","pct","score","total","date"]];
+  scores.forEach(s=>rows1.push([s.name,s.section||"",s.pct,s.score,s.total,s.date]));
+  exportCSV("lvn_scores.csv", rows1);
+
+  const rows2 = [["topic","attempts","correct","pct"]];
+  Object.entries(m).forEach(([t,v])=>{
+    const pct = v.attempts ? Math.round((v.correct||0)/v.attempts*100) : "";
+    rows2.push([t, v.attempts||0, v.correct||0, pct]);
+  });
+  exportCSV("lvn_mastery.csv", rows2);
+
+  showDialog("Export complete","Downloaded lvn_scores.csv and lvn_mastery.csv");
 }
 
-function initDropdownBehavior(){
-  el.bankSel.addEventListener("change", async ()=>{
-    const bankName = el.bankSel.value;
-    setSystemAndTopicOptions(bankName);
-    await loadBank(bankName);
-    // show a question
-    const q = pickNext();
-    if(q) render(q);
+// ---------- Exam code dialog ----------
+function setExamCode(){
+  ui.examCodeInput.value = localStorage.getItem(LS_EXAMCODE) || "";
+  ui.dlgExamCode.showModal();
+  ui.dlgExamCode.addEventListener("close", ()=>{
+    if(ui.dlgExamCode.returnValue!=="ok") return;
+    const code = (ui.examCodeInput.value||"").trim();
+    localStorage.setItem(LS_EXAMCODE, code);
+    examCode = code;
+    showDialog("Exam code set", code ? `Using code: ${code}` : "Cleared. Exams will be random.");
+  }, { once:true });
+}
+
+// ---------- Reset ----------
+function resetAll(){
+  if(!confirm("Reset progress, mastery, badges, and seen questions on this device?")) return;
+  localStorage.removeItem(LS_SCORES);
+  localStorage.removeItem(LS_MASTERY);
+  localStorage.removeItem(LS_BADGES);
+  missedIds = new Set();
+  mastery = {};
+  badges = { earned:{} };
+  streak = 0;
+  QUESTIONS.forEach(q=>{ delete q._seen; });
+  scorePoints = 0;
+  scoreMax = 0;
+  updateScoreLine();
+  updateDashboard();
+  showDialog("Reset complete","Device-local progress cleared.");
+}
+
+// ---------- Data load ----------
+function buildTopicList(){
+  const topics = Array.from(new Set(QUESTIONS.map(q=>normalizeTopic(q.topic)))).sort((a,b)=>a.localeCompare(b));
+  ui.topicSelect.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = "All";
+  all.textContent = "All";
+  ui.topicSelect.appendChild(all);
+  topics.forEach(t=>{
+    const op = document.createElement("option");
+    op.value = t;
+    op.textContent = t;
+    ui.topicSelect.appendChild(op);
   });
-  // when filters change, just pick a new question
-  for(const s of [el.systemSel, el.topicSel, el.typeSel, el.diffSel]){
-    s.addEventListener("change", ()=>{
-      const q = pickNext();
-      if(q) render(q);
+}
+async function loadQuestions(){
+  const resp = await fetch("questions.json", { cache: "no-store" });
+  const data = await resp.json();
+  // Normalize schema minimally
+  const arr = Array.isArray(data) ? data : (data.questions || []);
+  QUESTIONS = arr.map((q,idx)=>{
+    const qq = {...q};
+    qq.id = qq.id || `q_${idx}_${Math.random().toString(36).slice(2,7)}`;
+    qq.qtype = qq.qtype || qq.type || "single";
+    qq.options = qq.options || qq.choices || [];
+    qq.answer = qq.answer ?? qq.correct;
+    qq.topic = normalizeTopic(qq.topic);
+    return qq;
+  });
+}
+
+// ---------- Practice flow ----------
+function nextPractice(){
+  mode = "practice";
+  const q = pickPracticeQuestion();
+  if(!q){
+    showDialog("No questions", "No questions match your current filters.");
+    return;
+  }
+  renderQuestion(q);
+}
+
+// ---------- Init ----------
+function initSettings(){
+  const theme = localStorage.getItem(LS_THEME) || "dark";
+  ui.themeSelect.value = theme;
+  applyTheme(theme);
+
+  const font = localStorage.getItem(LS_FONT) || "1.0";
+  ui.fontSelect.value = font;
+  applyFont(font);
+
+  const hc = localStorage.getItem(LS_HC) === "1";
+  ui.hiContrast.checked = hc;
+  applyHighContrast(hc);
+
+  const sc = localStorage.getItem(LS_SCORING) || "strict";
+  ui.scoringSelect.value = sc;
+  applyScoring(sc);
+
+  const ts = localStorage.getItem(LS_TIMER) || "0";
+  ui.timerSelect.value = ts;
+  timerSeconds = Number(ts||0);
+
+  mastery = loadMastery();
+  badges = loadBadges();
+
+  updateDashboard();
+  updateScoreLine();
+}
+
+function wireEvents(){
+  ui.btnPractice.addEventListener("click", nextPractice);
+  ui.btnStartExam.addEventListener("click", startExam);
+  ui.btnExamCode.addEventListener("click", setExamCode);
+  ui.btnFocusWeak.addEventListener("click", ()=>{
+    focusWeak = !focusWeak;
+    showDialog("Focus Weak", focusWeak ? "ON: more weak topics + missed questions." : "OFF: normal random practice.");
+    updateDashboard();
+  });
+  ui.btnLeaderboard.addEventListener("click", showLeaderboard);
+  ui.btnExport.addEventListener("click", exportTools);
+  ui.btnReset.addEventListener("click", resetAll);
+
+  ui.btnSubmit.addEventListener("click", submitAnswer);
+  ui.btnShowRationale.addEventListener("click", showRationale);
+
+  ui.themeSelect.addEventListener("change", ()=>applyTheme(ui.themeSelect.value));
+  ui.fontSelect.addEventListener("change", ()=>applyFont(ui.fontSelect.value));
+  ui.hiContrast.addEventListener("change", ()=>applyHighContrast(ui.hiContrast.checked));
+  ui.scoringSelect.addEventListener("change", ()=>{ applyScoring(ui.scoringSelect.value); showDialog("Scoring", scoringMode==="strict" ? "Strict (all-or-nothing)." : "NGN partial credit enabled."); updateScoreLine(); });
+  ui.timerSelect.addEventListener("change", ()=>{
+    timerSeconds = Number(ui.timerSelect.value||0);
+    localStorage.setItem(LS_TIMER, String(timerSeconds));
+    showDialog("Timer", timerSeconds ? `Timer set to ${timerSeconds}s per question.` : "Timer off.");
+    updateDashboard();
+  });
+
+  // Filter change resets seen flags for that filter session (so students can rotate per filter)
+  [ui.topicSelect, ui.diffSelect, ui.typeSelect].forEach(sel=>{
+    sel.addEventListener("change", ()=>{
+      // clear seen state only for current view to avoid confusion
+      QUESTIONS.forEach(q=>{ delete q._seen; });
     });
+  });
+}
+
+async function boot(){
+  try{
+    // PWA offline
+    if("serviceWorker" in navigator){
+      window.addEventListener("load", ()=> navigator.serviceWorker.register("service-worker.js").catch(()=>{}) );
+    }
+
+    initSettings();
+    wireEvents();
+    await loadQuestions();
+    buildTopicList();
+    updateDashboard();
+    showDialog("Ready", `Loaded ${QUESTIONS.length} questions.\n\nClick “Next Practice” to start.`);
+  }catch(err){
+    console.error(err);
+    showDialog("Error", "Could not load questions.json. Make sure all files are uploaded to GitHub Pages root.");
   }
-  el.timerSel.addEventListener("change", ()=>{
-    // restart timer for current question
-    if(current) startTimerForQuestion();
-  });
 }
 
-function bindButtons(){
-  el.reloadBtn.addEventListener("click", reloadAll);
-  el.nextBtn.addEventListener("click", next);
-  el.startExamBtn.addEventListener("click", startExam);
-  el.resetBtn.addEventListener("click", reset);
-  el.submitBtn.addEventListener("click", ()=>{
-    if(!current) return;
-    const sel = getSelected(current);
-    showFeedback(current, sel);
-  });
-  el.showAnswerBtn.addEventListener("click", ()=>{
-    if(!current) return;
-    const sel = getSelected(current);
-    showFeedback(current, sel);
-  });
-  el.openLbBtn.addEventListener("click", renderLb);
-  el.clearLbBtn.addEventListener("click", ()=>{
-    localStorage.removeItem(lbKey());
-    renderLb();
-    updateBadges();
-  });
-}
-
-window.addEventListener("DOMContentLoaded", async ()=>{
-  initThemeUI();
-  await loadManifest();
-  // default bank: Compass A
-  el.bankSel.value = "Compass A";
-  setSystemAndTopicOptions("Compass A");
-  initDropdownBehavior();
-  bindButtons();
-  updateBadges();
-  updateReadinessGauge();
-  renderLb();
-  await reloadAll();
-});
+boot();
