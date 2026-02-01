@@ -1,29 +1,22 @@
 LVN HESI Practice Web App
-Version: STABLE v1.10
-Build: Fix Fatal Init Error (localStorage-safe) + initials input restored
+Version: STABLE v1.11
+Build: Fix initials crash (missing #initialsInput)
 
 WHAT WAS WRONG
-- App crashed during init on some browsers when localStorage access throws (privacy/blocked storage).
-- Also crashes if initials input is missing.
+- App crashed on load because app_v1_10.js wrote to #initialsInput, but the HTML did not include it.
 
-WHAT THIS FIX DOES
-- Wrapes ALL localStorage reads/writes in try/catch (lsGet/lsSet helpers).
-- Restores Initials input (#initialsInput).
-- Loads new JS filename app_v1_10.js (prevents old JS from being used).
+FIX
+- Added the Initials input back into the left panel (under Accent).
+- Added JS guards so the app will NOT crash if the initials input is ever missing again.
+- New JS filename: app_v1_11.js
 
 FILES
-- index.html (uses app_v1_10.js; includes initials input)
-- index_app.html (redirect)
-- app_v1_10.js
-- styles.css
-- questions_manifest.json + parts (and questions.json fallback)
-- README.txt
+- index.html (now includes #initialsInput and loads app_v1_11.js)
+- app_v1_11.js
+- styles.css + rest of existing files (questions manifest/parts)
 
 DEPLOY
-Upload ALL files to repo root and DELETE older JS files if present:
-- app_v1_7.js
-- app.js
-- service-worker.js
-
+Upload all files in this ZIP to your repo root (replace older files).
+Delete app_v1_10.js if it still exists in the repo.
 Open:
 https://junsinco1.github.io/lvn-hesi-practice/index.html?v=999

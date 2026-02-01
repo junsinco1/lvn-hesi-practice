@@ -6,7 +6,7 @@
   <title>LVN HESI Compass Practice</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="styles.css?v=1">
-  <script defer src="app_v1_10.js"></script>
+  <script defer src="app_v1_11.js"></script>
 
 <script>
 /* v1.7: force new build to load even if an old service worker exists */
@@ -98,7 +98,11 @@
         </label>
       </div>
 
-      <div class="row buttons">
+      <label>Initials (leaderboard)
+          <input id="initialsInput" type="text" maxlength="3" placeholder="ABC" />
+        </label>
+
+        <div class="row buttons">
         <button id="btnNext" class="btn primary">Next Practice</button>
         <button id="btnExam" class="btn">Start 75Q Exam</button>
         <button id="btnLeaderboard" class="btn">Leaderboard</button>
@@ -166,7 +170,7 @@
     <span class="muted">Deploy: upload all files to GitHub Pages root. No service-worker required.</span>
   </footer>
 
-  <script src="app_v1_10.js"></script>
+  <script src="app_v1_11.js"></script>
 
 </body>
 </html>
