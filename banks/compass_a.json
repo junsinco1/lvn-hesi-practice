@@ -90,7 +90,16 @@
       "provider_orders": "Duoneb now, methylprednisolone IV, sputum culture, start antibiotics after cultures, titrate O2 to target SpO2 88\u201392%."
     },
     "topic": "MedSurg-Respiratory",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "case": {
+      "tabs": {
+        "case_study": "68-year-old with COPD + pneumonia; increasing dyspnea and productive cough over 6 hours.",
+        "vitals": "T 38.3\u00b0C, HR 112, RR 28, BP 152/84, SpO2 86% on 2 L NC (baseline 2 L).",
+        "labs": "ABG: pH 7.31 / PaCO2 56 / PaO2 62 / HCO3 28; WBC 15.2; Lactate 1.8.",
+        "nursing_actions": "Elevated HOB, coached pursed-lip breathing, verified O2 setup, obtained ABG, requested RT neb treatment.",
+        "md_orders": "Duoneb now, IV steroid, sputum culture, start antibiotics, titrate O2 to target SpO2 88\u201392%."
+      }
+    }
   },
   {
     "id": "CA-004",
@@ -183,7 +192,16 @@
       "provider_orders": "Furosemide IV now, BMP, BNP, chest X-ray, fluid restriction, daily weights."
     },
     "topic": "MedSurg-Cardiac",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "case": {
+      "tabs": {
+        "case_study": "74-year-old with CHF reports orthopnea and rapid weight gain after missing diuretics.",
+        "vitals": "HR 118, RR 24, BP 168/96, SpO2 90% RA; 2+ pitting edema; crackles bilaterally.",
+        "labs": "BNP elevated; CXR: pulmonary congestion; BMP pending (watch K+ after diuresis).",
+        "nursing_actions": "Assessed lung sounds, obtained weight/I&O, positioned upright, prepared IV access for diuretic.",
+        "md_orders": "IV furosemide now, fluid restriction, daily weights, BMP/BNP, CXR."
+      }
+    }
   },
   {
     "id": "CA-007",
@@ -276,7 +294,16 @@
       "provider_orders": "NS bolus, repeat BMP, hold NSAIDs/ACE inhibitor temporarily, urine sodium and osmolality."
     },
     "topic": "Renal",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "case": {
+      "tabs": {
+        "case_study": "Adult with dehydration after vomiting/diarrhea now has oliguria and rising creatinine.",
+        "vitals": "HR 106, BP 94/58, RR 20, SpO2 97%, dry mucosa, dizziness on standing.",
+        "labs": "BUN/Cr rising; urine specific gravity high; consider prerenal AKI.",
+        "nursing_actions": "Monitored I&O, assessed orthostatics, reviewed meds for nephrotoxins, maintained IV access.",
+        "md_orders": "NS bolus, repeat BMP, hold nephrotoxic meds, urine studies."
+      }
+    }
   },
   {
     "id": "CA-010",
@@ -369,7 +396,16 @@
       "provider_orders": "STAT non-contrast CT, NIHSS assessment, labs, possible thrombolysis evaluation."
     },
     "topic": "Neuro",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "case": {
+      "tabs": {
+        "case_study": "Adult with sudden unilateral weakness and slurred speech; last known well 1 hour ago.",
+        "vitals": "BP 186/102, HR 96, RR 18, SpO2 96%, glucose 112 mg/dL.",
+        "labs": "Coags/CBC/CMP ordered; CT head pending for ischemic vs hemorrhagic stroke.",
+        "nursing_actions": "Kept NPO, ensured airway, neuro checks, established IV, prepared transport to CT.",
+        "md_orders": "STAT non-contrast CT, NIHSS, labs; evaluate thrombolysis eligibility."
+      }
+    }
   },
   {
     "id": "CA-013",
@@ -462,7 +498,16 @@
       "provider_orders": "Notify provider, consider tocolytic, continuous monitoring, prepare for possible operative delivery."
     },
     "topic": "OB-Intrapartum",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "case": {
+      "tabs": {
+        "case_study": "Laboring client at 6 cm develops tachysystole after oxytocin increase; fetal tracing shows recurrent late decels.",
+        "vitals": "Maternal HR 104, BP 138/82, T 37.2\u00b0C; FHR: recurrent late decelerations.",
+        "labs": "N/A (focus on fetal monitoring + uterine activity).",
+        "nursing_actions": "Stopped oxytocin per protocol, repositioned left lateral, started IV bolus, applied O2 per policy.",
+        "md_orders": "Notify provider, consider tocolytic, continuous monitoring, prepare for possible operative delivery."
+      }
+    }
   },
   {
     "id": "CA-016",
@@ -555,7 +600,16 @@
       "provider_orders": "Mood stabilizer/antipsychotic, PRN anxiolytic, monitor for EPS, assess for substance use."
     },
     "topic": "Psych",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "case": {
+      "tabs": {
+        "case_study": "Client with acute mania: pressured speech, no sleep x2 nights, escalating agitation and poor impulse control.",
+        "vitals": "HR 110, BP 146/88, RR 22, T 37.0\u00b0C.",
+        "labs": "If on lithium: level/renal/thyroid monitoring. Assess for substances if indicated.",
+        "nursing_actions": "Reduced stimuli, calm limit-setting, safety precautions, offered fluids/finger foods.",
+        "md_orders": "Antipsychotic/mood stabilizer; PRN for agitation; monitor for EPS and hydration."
+      }
+    }
   },
   {
     "id": "CA-019",
