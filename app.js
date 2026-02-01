@@ -177,7 +177,12 @@ let streak = 0;
 
 // ---------- Utilities ----------
 function safeJsonParse(raw, fallback){
-  try{ return JSON.parse(raw); }catch{ return fallback; }
+  try{
+    const v = JSON.parse(raw);
+    return (v===null || v===undefined) ? fallback : v;
+  }catch{
+    return fallback;
+  }
 }
 function showDialog(title, body){
   ui.dlgTitle.textContent = title;
@@ -272,6 +277,7 @@ function topicPct(topic){
   return (m.correct||0) / Math.max(1,m.attempts) * 100;
 }
 function computeMasterySummary(){
+  if(!mastery || typeof mastery !== "object") return { pct:null, red:0, yellow:0, green:0 };
   const topics = Object.keys(mastery);
   if(!topics.length) return { pct:null, red:0, yellow:0, green:0 };
   let totalAttempts=0, totalCorrect=0, red=0,yellow=0,green=0;
@@ -901,7 +907,10 @@ function initSettings(){
   timerSeconds = Number(ts||0);
 
   mastery = loadMastery();
+  if(!mastery || typeof mastery !== "object" || Array.isArray(mastery)) mastery = {};
   badges = loadBadges();
+  if(!badges || typeof badges !== "object") badges = { earned:{} };
+  if(!badges.earned || typeof badges.earned !== "object") badges.earned = {};
 
   updateDashboard();
   updateScoreLine();
@@ -977,7 +986,7 @@ async function boot(){
     showDialog("Ready", `Loaded ${QUESTIONS.length} questions.\n\nClick “Next Practice” to start.`);
   }catch(err){
     console.error(err);
-    showDialog("Error", "Could not load questions.json.\n\nDetails:\n" + (err && err.message ? err.message : String(err)) + "\n\nFix: confirm questions.json is in the same GitHub Pages folder as index.html, then hard refresh / clear site data.");
+    showDialog("Error", "App failed to start.\n\nDetails:\n" + (err && err.message ? err.message : String(err)) + "\n\nFix: hard refresh / clear site data. If it mentions questions.json, confirm it is in the same GitHub Pages folder as index.html.");
   }
 }
 

@@ -11,3 +11,6 @@ Upload ALL files in this zip to the SAME GitHub Pages folder as index.html.
 Then hard refresh.
 
 Once stable, you can switch back to the PWA version.
+
+
+v4.4 fix: prevents mastery from being null (localStorage may contain 'null').
