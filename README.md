@@ -1,9 +1,9 @@
-# Nurse Review Practice WebApp — Banks v1
+# Nurse Review Practice WebApp — Banks v1.1
 
 ## What you asked for (implemented)
 - **Multiple banks** ready for future content:
-  - Compass A (includes your 25-question pilot already)
-  - NCLEX Review (blank)
+  - Compass A (1,000 questions)
+  - NCLEX Review (1,000 questions)
   - Anatomy (blank)
   - Physiology (blank)
   - Labs (blank)
@@ -34,25 +34,16 @@
 - `styles.css`
 - `app.js`
 - `banks_manifest.json`
-- `banks/compass_a.json` (your 25 questions, Compass A pilot)
-- `banks/nclex_review.json` (empty)
+- `banks/compass_a.json` (present)
+- `banks/nclex_review.json` (present)
 - `banks/anatomy.json` (empty)
 - `banks/physiology.json` (empty)
 - `banks/labs.json` (empty)
 - `banks/pharmacology.json` (empty)
 - `banks/medsurg.json` (empty)
 
-## How to deploy (GitHub Pages)
-Upload the entire folder contents to your Pages published root, keeping the same structure:
-- `index.html` at root
-- `banks/` folder present
-- `banks_manifest.json` at root
-
-Then open:
-- `https://YOURNAME.github.io/YOURREPO/`
-
 ## Version
-Banks v1
+Banks v1.1
 
 
 ## v1.1 (Blueprint Exams)
