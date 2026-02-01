@@ -1,16 +1,29 @@
 LVN HESI Practice Web App
-Version: STABLE v1.9
-Build: Fix "Fatal error during initialization" + Initials field restored
+Version: STABLE v1.10
+Build: Fix Fatal Init Error (localStorage-safe) + initials input restored
 
 WHAT WAS WRONG
-- app_v1_7.js expects an element with id="initialsInput".
-- In v1.8 layout rebuild, that input was accidentally removed, causing init() to crash.
+- App crashed during init on some browsers when localStorage access throws (privacy/blocked storage).
+- Also crashes if initials input is missing.
 
 WHAT THIS FIX DOES
-- Adds back the Initials input (left column) so leaderboard initials work.
-- Adds safe guards in JS so missing initialsInput will NOT crash again.
+- Wrapes ALL localStorage reads/writes in try/catch (lsGet/lsSet helpers).
+- Restores Initials input (#initialsInput).
+- Loads new JS filename app_v1_10.js (prevents old JS from being used).
+
+FILES
+- index.html (uses app_v1_10.js; includes initials input)
+- index_app.html (redirect)
+- app_v1_10.js
+- styles.css
+- questions_manifest.json + parts (and questions.json fallback)
+- README.txt
 
 DEPLOY
-1) Upload ALL files in this ZIP to your repo root (replace old).
-2) Open:
-   https://junsinco1.github.io/lvn-hesi-practice/index.html?v=999
+Upload ALL files to repo root and DELETE older JS files if present:
+- app_v1_7.js
+- app.js
+- service-worker.js
+
+Open:
+https://junsinco1.github.io/lvn-hesi-practice/index.html?v=999
