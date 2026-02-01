@@ -1,14 +1,14 @@
-# Nurse Review Practice WebApp — Banks v1.5
+# Nurse Review Practice WebApp — Banks v1
 
 ## What you asked for (implemented)
 - **Multiple banks** ready for future content:
-  - Compass A (1,000 questions)
-  - NCLEX Review (1,000 questions)
-  - Anatomy (1,000 questions)
-  - Physiology (1,000 questions)
-  - Labs (1,000 questions)
-  - Pharmacology (1,000 questions)
-  - MedSurg (1,000 questions)
+  - Compass A (includes your 25-question pilot already)
+  - NCLEX Review (blank)
+  - Anatomy (blank)
+  - Physiology (blank)
+  - Labs (blank)
+  - Pharmacology (blank)
+  - MedSurg (blank)
 - **Body systems dropdown** (or ANY)
 - **Topic dropdown**
   - Compass A uses your **exact topic list**
@@ -34,18 +34,22 @@
 - `styles.css`
 - `app.js`
 - `banks_manifest.json`
-- `banks/compass_a.json` (present)
-- `banks/nclex_review.json` (present)
-- `banks/anatomy.json` (present)
-- `banks/physiology.json` (present)
-- `banks/labs.json` (present)
-- `banks/pharmacology.json` (present)
-- `banks/medsurg.json` (present)
+- `banks/compass_a.json` (your 25 questions, Compass A pilot)
+- `banks/nclex_review.json` (empty)
+- `banks/anatomy.json` (empty)
+- `banks/physiology.json` (empty)
+- `banks/labs.json` (empty)
+- `banks/pharmacology.json` (empty)
+- `banks/medsurg.json` (empty)
+
+## How to deploy (GitHub Pages)
+Upload the entire folder contents to your Pages published root, keeping the same structure:
+- `index.html` at root
+- `banks/` folder present
+- `banks_manifest.json` at root
+
+Then open:
+- `https://YOURNAME.github.io/YOURREPO/`
 
 ## Version
-Banks v1.1
-
-
-## v1.1 (Blueprint Exams)
-- Compass A: 75Q exams are **weighted by your Compass A topic blueprint** when Bank=Compass A and Topic=ANY.
-- Exam builder de-dupes questions and mixes clusters + singles.
+Banks v1
