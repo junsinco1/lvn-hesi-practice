@@ -245,6 +245,7 @@
   function renderTabs(q){
     const tabs = q.case_tabs || {};
     const panes = {
+      question: $('#tab_question'),
       case: $('#tab_case'),
       vitals: $('#tab_vitals'),
       nurse: $('#tab_nurse'),
@@ -257,14 +258,13 @@
     panes.orders.textContent = tabs.orders || '—';
     panes.labs.textContent = formatLabs(tabs.labs);
 
-    // default active
-    $$('.tabBtn').forEach(b=>b.classList.remove('active'));
-    const first = $$('.tabBtn')[0];
-    if(first){ first.classList.add('active'); }
-    Object.entries(panes).forEach(([k,el],i)=>{
-      el.style.display = (i===0) ? 'block' : 'none';
-    });
-  }
+    // default active: vitals first (more realistic)
+$$('.tabBtn').forEach(b=>b.classList.remove('active'));
+const preferred = $$('.tabBtn').find(b=>b.dataset && b.dataset.tab==='question') || $$('.tabBtn')[0];
+if(preferred){ preferred.classList.add('active'); }
+const showKey = preferred ? preferred.dataset.tab : 'question';
+Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'block' : 'none'; });
+}
 
   function formatVitals(v){
     if(!v) return '—';
@@ -303,16 +303,13 @@
     $('#qTopic').textContent = `Topic: ${q.topic}`;
     $('#qType').textContent = `Type: ${q.qtype.toUpperCase()}`;
     $('#qDifficulty').textContent = `Difficulty: ${q.difficulty}`;
-    $('#qPolarity').textContent = (q.polarity === 'negative') ? 'NEGATIVE (choose the exception)' : 'POSITIVE';
 
     // Case display box (quick preview)
     const caseText = (q.case_tabs && q.case_tabs.case) ? q.case_tabs.case : '';
-    if(caseText){
-      $('#qCase').style.display='block';
-      $('#qCase').textContent = caseText;
-    }else{
-      $('#qCase').style.display='none';
-      $('#qCase').textContent = '';
+    const qCaseEl = $('#qCase');
+    if(qCaseEl){
+      if(caseText){ qCaseEl.style.display='block'; qCaseEl.textContent = caseText; }
+      else{ qCaseEl.style.display='none'; qCaseEl.textContent=''; }
     }
 
     $('#qStem').textContent = q.stem || '(missing stem)';
@@ -729,7 +726,7 @@
         $$('.tabBtn').forEach(b=>b.classList.remove('active'));
         btn.classList.add('active');
         const which = btn.dataset.tab;
-        ['case','vitals','nurse','orders','labs'].forEach(k=>{
+        ['question','case','vitals','nurse','orders','labs'].forEach(k=>{
           $('#tab_'+k).style.display = (k===which) ? 'block' : 'none';
         });
       });

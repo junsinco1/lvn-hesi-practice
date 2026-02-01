@@ -47,12 +47,13 @@ body{
   font-size:12px;
 }
 .wrap{
-  max-width:1200px;
+  max-width:1400px;
   margin:18px auto;
   padding:0 14px 30px;
   display:grid;
-  grid-template-columns: 1fr 2fr 320px;
+  grid-template-columns: 360px 1fr;
   gap:14px;
+  align-items:start;
 }
 .panel{
   border:1px solid var(--border);
@@ -174,4 +175,34 @@ hr{border:0; border-top:1px solid var(--border); margin:12px 0}
 @media (max-width: 1080px){
   .wrap{grid-template-columns: 1fr}
   .statusPills{justify-content:flex-start}
+}
+
+
+/* v1.3 layout */
+.subpanel{
+  margin-top:12px;
+  padding:14px;
+}
+.gamifyPanel{background: rgba(255,255,255,.03);}
+.casePanel .caseHeader{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:10px;}
+.caseTitle{font-weight:700;}
+.tabsTop .tabPane{min-height: 360px;}
+.rightCol .stem{font-size:18px;}
+.rightCol .choices{margin-top:8px;}
+@media (max-width: 1200px){
+  .wrap{grid-template-columns: 1fr; }
+  .tabsTop .tabPane{min-height: 220px;}
+}
+
+
+/* v1.4 layout: Question tab + clean header */
+.mainCol{min-height: 520px;}
+.qheadTight{margin-bottom:10px;}
+.qmetaRow{display:flex; gap:14px; flex-wrap:wrap; color: var(--muted); font-size:12px;}
+.qmetaRow > div{padding:6px 10px; border:1px solid var(--border); border-radius:999px; background: rgba(255,255,255,.03);}
+.tabsAll .tabPane{min-height: 420px;}
+.tabPane .stem{margin-top:10px;}
+@media (max-width: 1000px){
+  .wrap{grid-template-columns: 1fr;}
+  .tabsAll .tabPane{min-height: 260px;}
 }
