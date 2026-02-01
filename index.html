@@ -13,11 +13,13 @@ main{display:grid;grid-template-columns:320px 1fr;gap:16px;padding:16px}
 pre{white-space:pre-wrap}
 button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;background:#7a5cff;color:#fff}
 small{opacity:.7}
+.bowtie{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px}
+.bowtie div{background:rgba(255,255,255,.08);padding:10px;border-radius:10px}
 </style>
 </head>
 <body>
 <header>
-LVN HESI Compass Practice — Mixed Question Types
+LVN HESI Compass Practice — NGN Mixed (Bowtie)
 <br><small id="status">Loading…</small>
 </header>
 <main>
@@ -27,6 +29,7 @@ LVN HESI Compass Practice — Mixed Question Types
 <div class="panel">
 <h2 id="q"></h2>
 <pre id="case"></pre>
+<div id="bowtie"></div>
 <div id="a"></div>
 </div>
 </main>
@@ -43,22 +46,30 @@ fetch("./questions.json")
 
 function render(){
   const q=QUESTIONS[idx];
-  document.getElementById("q").textContent=q.stem;
-  const c=document.getElementById("case");
-  c.textContent="";
-  if(q.type==="case"){
-    c.textContent = "CASE:\n"+q.case.summary+"\n\nVITALS:\n"+
-      Object.entries(q.case.vitals).map(e=>e.join(": ")).join("\n")+
-      "\n\nLABS:\n"+Object.entries(q.case.labs).map(e=>e.join(": ")).join("\n");
+  document.getElementById("q").textContent=q.stem || "";
+  document.getElementById("case").textContent="";
+  document.getElementById("bowtie").innerHTML="";
+  const a=document.getElementById("a"); a.innerHTML="";
+  if(q.type==="case" || q.type==="bowtie"){
+    document.getElementById("case").textContent =
+      "CASE:\n"+q.case.summary+"\n\nVITALS:\n"+
+      Object.entries(q.case.vitals).map(e=>e.join(": ")).join("\n");
   }
-  const a=document.getElementById("a");
-  a.innerHTML="";
-  q.choices.forEach(ch=>{
-    const d=document.createElement("div");
-    d.className="choice";
-    d.textContent=ch;
-    a.appendChild(d);
-  });
+  if(q.type==="bowtie"){
+    const b=q.bowtie;
+    document.getElementById("bowtie").innerHTML = `
+      <div><strong>${b.left_prompt}</strong><br>${b.left_options.join("<br>")}</div>
+      <div><strong>${b.center_prompt}</strong><br>${b.center_options.join("<br>")}</div>
+      <div><strong>${b.right_prompt}</strong><br>${b.right_options.join("<br>")}</div>
+    `;
+  } else {
+    q.choices.forEach(ch=>{
+      const d=document.createElement("div");
+      d.className="choice";
+      d.textContent=ch;
+      a.appendChild(d);
+    });
+  }
 }
 function nextQ(){ idx=(idx+1)%QUESTIONS.length; render(); }
 </script>

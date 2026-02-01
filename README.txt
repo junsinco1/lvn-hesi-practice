@@ -1,10 +1,11 @@
-LVN HESI WEB APP v8 — MIXED QUESTION TYPES
+LVN HESI WEB APP v9 — MIXED + NGN BOWTIE
 
 INCLUDES:
-• Case clusters (vitals + labs)
-• Single-answer priority questions
+• Case questions
+• Single-answer questions
 • SATA questions
-• Status indicator (Questions loaded: X)
+• NGN Bowtie questions
+• Status indicator (Questions loaded)
 
 FILES:
 - index.html
