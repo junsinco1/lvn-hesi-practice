@@ -13,65 +13,74 @@ main{display:grid;grid-template-columns:320px 1fr;gap:16px;padding:16px}
 pre{white-space:pre-wrap}
 button{margin-top:12px;padding:10px 14px;border-radius:10px;border:none;background:#7a5cff;color:#fff}
 small{opacity:.7}
-.bowtie{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px}
-.bowtie div{background:rgba(255,255,255,.08);padding:10px;border-radius:10px}
 </style>
 </head>
 <body>
 <header>
-LVN HESI Compass Practice — NGN Mixed (Bowtie)
+LVN HESI Compass Practice — Patient Clusters
 <br><small id="status">Loading…</small>
 </header>
 <main>
 <div class="panel">
-<button onclick="nextQ()">Next Question</button>
+<button onclick="nextQ()">Next</button>
 </div>
 <div class="panel">
 <h2 id="q"></h2>
 <pre id="case"></pre>
-<div id="bowtie"></div>
 <div id="a"></div>
 </div>
 </main>
 <script>
-let QUESTIONS=[], idx=0;
+let CLUSTERS=[], cIdx=0, qIdx=0;
+
 fetch("./questions.json")
-.then(r=>{if(!r.ok) throw new Error("questions.json not found"); return r.json();})
+.then(r=>r.json())
 .then(data=>{
-  QUESTIONS=data;
-  document.getElementById("status").textContent = `Questions loaded: ${QUESTIONS.length}`;
+  CLUSTERS=data;
+  document.getElementById("status").textContent = `Clusters loaded: ${CLUSTERS.length}`;
   render();
 })
 .catch(e=>{document.getElementById("status").textContent=e.message;});
 
 function render(){
-  const q=QUESTIONS[idx];
-  document.getElementById("q").textContent=q.stem || "";
-  document.getElementById("case").textContent="";
-  document.getElementById("bowtie").innerHTML="";
-  const a=document.getElementById("a"); a.innerHTML="";
-  if(q.type==="case" || q.type==="bowtie"){
-    document.getElementById("case").textContent =
-      "CASE:\n"+q.case.summary+"\n\nVITALS:\n"+
-      Object.entries(q.case.vitals).map(e=>e.join(": ")).join("\n");
-  }
-  if(q.type==="bowtie"){
-    const b=q.bowtie;
-    document.getElementById("bowtie").innerHTML = `
-      <div><strong>${b.left_prompt}</strong><br>${b.left_options.join("<br>")}</div>
-      <div><strong>${b.center_prompt}</strong><br>${b.center_options.join("<br>")}</div>
-      <div><strong>${b.right_prompt}</strong><br>${b.right_options.join("<br>")}</div>
-    `;
-  } else {
+  if(!CLUSTERS.length) return;
+  const cluster = CLUSTERS[cIdx];
+  const q = cluster.questions[qIdx];
+
+  document.getElementById("q").textContent = q.stem || "NGN Question";
+  document.getElementById("case").textContent =
+    `PATIENT (${cluster.topic})\nCondition: ${cluster.patient.primary_condition}\n`+
+    Object.entries(cluster.patient.vitals).map(e=>e.join(": ")).join("\n")+
+    "\n"+Object.entries(cluster.patient.labs).map(e=>e.join(": ")).join("\n");
+
+  const a = document.getElementById("a");
+  a.innerHTML = "";
+
+  if(q.choices && Array.isArray(q.choices)){
     q.choices.forEach(ch=>{
       const d=document.createElement("div");
       d.className="choice";
       d.textContent=ch;
       a.appendChild(d);
     });
+  } else if(q.bowtie){
+    a.innerHTML = `
+      <div class="choice"><b>${q.bowtie.left_prompt}</b><br>${q.bowtie.left_options.join("<br>")}</div>
+      <div class="choice"><b>${q.bowtie.center_prompt}</b><br>${q.bowtie.center_options.join("<br>")}</div>
+      <div class="choice"><b>${q.bowtie.right_prompt}</b><br>${q.bowtie.right_options.join("<br>")}</div>
+    `;
   }
 }
-function nextQ(){ idx=(idx+1)%QUESTIONS.length; render(); }
+
+function nextQ(){
+  const cluster = CLUSTERS[cIdx];
+  qIdx++;
+  if(qIdx >= cluster.questions.length){
+    qIdx = 0;
+    cIdx = (cIdx+1) % CLUSTERS.length;
+  }
+  render();
+}
 </script>
 </body>
 </html>

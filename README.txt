@@ -1,23 +1,16 @@
-LVN / RN HESI PRACTICE — v13 PATIENT CLUSTERS (EXACT TOPICS)
+LVN HESI PATIENT CLUSTERS v13.1 — UI FIX
 
-WHAT THIS IS:
-• Patient-based NGN clusters
-• Each cluster maps to ONE of your exact HESI Compass topics
-• Each patient includes:
-  - Vitals
-  - Labs
-  - Condition
-• Linked questions per patient:
-  1) Single-answer (assessment/priority)
-  2) SATA (clinical judgment)
-  3) NGN Bowtie (problem → action → outcome)
-
-SCALE:
-• 300 patient clusters
-• ~900 linked questions
+FIXED:
+• Prevents q.choices.forEach crash
+• Correctly renders:
+  - Single questions
+  - SATA questions
+  - NGN Bowtie (no choices array)
+• Properly steps through patient clusters
 
 FILES:
-- questions.json
+- index.html (REQUIRED UPDATE)
+- questions.json (unchanged)
 
 DEPLOY:
-Replace your existing questions.json with this file.
+Replace index.html ONLY.
