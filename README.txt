@@ -1,2 +1,2 @@
-Physiology Bank 1000Q
-Drop banks/physiology.json into your app.
+Physiology Bank v2 – 1000 varied mechanism-based questions.
+Replaces prior version.
