@@ -1,2 +1,2 @@
-Physiology Bank v2 – 1000 varied mechanism-based questions.
-Replaces prior version.
+Labs Bank v1 – 1000 lab interpretation questions.
+Drop banks/labs.json into your app.
