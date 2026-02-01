@@ -17,7 +17,7 @@ small{opacity:.7}
 </head>
 <body>
 <header>
-LVN HESI Compass Practice — Patient Clusters
+LVN HESI Compass Practice — Progressive NGN
 <br><small id="status">Loading…</small>
 </header>
 <main>
@@ -31,13 +31,19 @@ LVN HESI Compass Practice — Patient Clusters
 </div>
 </main>
 <script>
-let CLUSTERS=[], cIdx=0, qIdx=0;
+let CLUSTERS=[], cIdx=0, qIdx=0, tIdx=0;
+
+function safeEntries(obj){
+  if(!obj || typeof obj !== 'object') return [];
+  return Object.entries(obj);
+}
 
 fetch("./questions.json")
 .then(r=>r.json())
 .then(data=>{
-  CLUSTERS=data;
-  document.getElementById("status").textContent = `Clusters loaded: ${CLUSTERS.length}`;
+  CLUSTERS=data||[];
+  document.getElementById("status").textContent =
+    `Clusters loaded: ${CLUSTERS.length}`;
   render();
 })
 .catch(e=>{document.getElementById("status").textContent=e.message;});
@@ -45,13 +51,19 @@ fetch("./questions.json")
 function render(){
   if(!CLUSTERS.length) return;
   const cluster = CLUSTERS[cIdx];
-  const q = cluster.questions[qIdx];
+  const timeline = Array.isArray(cluster.timeline) ? cluster.timeline : [];
+  const phase = timeline[tIdx] || {};
+  const q = (cluster.questions||[])[qIdx] || {};
 
   document.getElementById("q").textContent = q.stem || "NGN Question";
+
+  const vitalsTxt = safeEntries(phase.vitals).map(e=>e.join(": ")).join("\n");
+  const labsTxt = safeEntries(phase.labs).map(e=>e.join(": ")).join("\n");
+
   document.getElementById("case").textContent =
-    `PATIENT (${cluster.topic})\nCondition: ${cluster.patient.primary_condition}\n`+
-    Object.entries(cluster.patient.vitals).map(e=>e.join(": ")).join("\n")+
-    "\n"+Object.entries(cluster.patient.labs).map(e=>e.join(": ")).join("\n");
+    `PATIENT (${cluster.topic||""})\n` +
+    `Condition: ${(cluster.patient||{}).primary_condition||""}\n\n` +
+    `PHASE: ${phase.phase||""}\n\nVITALS:\n${vitalsTxt}\n\nLABS:\n${labsTxt}`;
 
   const a = document.getElementById("a");
   a.innerHTML = "";
@@ -65,18 +77,25 @@ function render(){
     });
   } else if(q.bowtie){
     a.innerHTML = `
-      <div class="choice"><b>${q.bowtie.left_prompt}</b><br>${q.bowtie.left_options.join("<br>")}</div>
-      <div class="choice"><b>${q.bowtie.center_prompt}</b><br>${q.bowtie.center_options.join("<br>")}</div>
-      <div class="choice"><b>${q.bowtie.right_prompt}</b><br>${q.bowtie.right_options.join("<br>")}</div>
+      <div class="choice"><b>${q.bowtie.left_prompt||""}</b><br>${(q.bowtie.left_options||[]).join("<br>")}</div>
+      <div class="choice"><b>${q.bowtie.center_prompt||""}</b><br>${(q.bowtie.center_options||[]).join("<br>")}</div>
+      <div class="choice"><b>${q.bowtie.right_prompt||""}</b><br>${(q.bowtie.right_options||[]).join("<br>")}</div>
     `;
   }
 }
 
 function nextQ(){
-  const cluster = CLUSTERS[cIdx];
+  const cluster = CLUSTERS[cIdx] || {};
+  const qs = cluster.questions || [];
+  const tl = cluster.timeline || [];
+
   qIdx++;
-  if(qIdx >= cluster.questions.length){
+  if(qIdx >= qs.length){
     qIdx = 0;
+    tIdx++;
+  }
+  if(tIdx >= tl.length){
+    tIdx = 0;
     cIdx = (cIdx+1) % CLUSTERS.length;
   }
   render();

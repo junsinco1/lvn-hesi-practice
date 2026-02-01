@@ -1,14 +1,12 @@
-LVN / RN HESI PRACTICE — v21 PROGRESSIVE LAB TRENDS
+LVN HESI PRACTICE — v21.1 NULL GUARD HOTFIX
 
-NEW:
-• Lab values TREND over time
-• Baseline → worsening → improving
-• Trends tied to disease process
-• SATA requires interpreting lab direction, not static values
+FIXED:
+• Prevents Object.entries crash when vitals/labs/timeline missing
+• Adds safeEntries() guard
+• Fully compatible with v21 progressive lab-trend questions
 
-SCALE:
-• 220 progressive patient clusters
-• ~900 NGN questions
+USAGE:
+1) Replace index.html ONLY
+2) Keep your existing questions.json
 
-FILES:
-- questions.json
+NO CODE PASTING REQUIRED.
