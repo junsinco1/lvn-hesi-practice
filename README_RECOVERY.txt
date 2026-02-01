@@ -1,12 +1,8 @@
-RECOVERY v2 (Fixes code showing on the page)
+RECOVERY v3 (External JS — fixes JS showing as text)
 
-Upload ALL files to the SAME GitHub Pages folder (repo root).
+1) Delete service-worker.js from the repo (if present).
+2) Upload ALL files from this zip into the repo root.
+3) Open:
+   https://junsinco1.github.io/lvn-hesi-practice/index_app.html?v=999
 
-Then open:
-  https://junsinco1.github.io/lvn-hesi-practice/index_app.html?v=999
-
-Important:
-- Delete service-worker.js from the repo if it exists.
-- After uploading, hard refresh once:
-  Mac: Cmd+Shift+R | Windows: Ctrl+Shift+R
-  iOS: Settings > Safari > Advanced > Website Data > delete your site
+If still stuck on 'Loading questions…', click Diagnostics and copy the 'Load errors' lines.
