@@ -1,17 +1,5 @@
 {
   "parts": [
-    "questions_part01.json",
-    "questions_part02.json",
-    "questions_part03.json",
-    "questions_part04.json",
-    "questions_part05.json",
-    "questions_part06.json",
-    "questions_part07.json",
-    "questions_part08.json",
-    "questions_part09.json",
-    "questions_part10.json"
-  ],
-  "total_questions": 6000,
-  "built": "recovery_v3",
-  "built_at": "2026-02-01T04:00:20.286445Z"
+    "questions_part01.json"
+  ]
 }
