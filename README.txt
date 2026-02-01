@@ -1,17 +1,50 @@
-LVN HESI Practice WebApp v5.0 (Case Lock + Trending Vitals)
+LVN HESI Practice Web App
+Version: RECOVERY v3.1 (cache-bust filenames)
+Build type: Recovery / Loader stability
 
-New:
-1) Locked progressive cases:
-   - If a question has case_group {id, sequence}, students must complete seq 1→2→3→4.
-   - Practice mode will auto-serve the next required sequence for any incomplete case in the current filter pool.
-   - Exam mode keeps case groups in order and does not split them.
+WHAT THIS BUILD DOES
+- Fixes 'stuck on Loading questions…' caused by stale cached HTML/JS on GitHub Pages/iOS Safari.
+- Uses cache-busted filenames (index_v3_1.html + app_v3_1.js).
+- Loads questions from questions_manifest.json + questions_part01–10.json.
+- Adds no-store fetch + query-string cache busting in the loader (inside JS).
 
-2) Trending vitals:
-   - If case.vitals is an array of time blocks, the Vitals tab shows ↑ ↓ → arrows compared to the previous time.
+WHAT CHANGED FROM PREVIOUS VERSION (v3)
+- Renamed index_app.html -> index_v3_1.html
+- Renamed app.js -> app_v3_1.js
+- index.html now redirects to index_v3_1.html to force a fresh load.
 
-Deploy:
-- Upload index.html, styles.css, app.js, questions.json, manifest.json, service-worker.js to GitHub Pages folder.
-- Hard refresh / clear site data after updating (service worker).
+FILES INCLUDED (contents of this ZIP)
+- README_RECOVERY.txt
+- app_v3_1.js
+- index.html
+- index_v3_1.html
+- manifest.json
+- questions_manifest.json
+- questions_part01.json
+- questions_part02.json
+- questions_part03.json
+- questions_part04.json
+- questions_part05.json
+- questions_part06.json
+- questions_part07.json
+- questions_part08.json
+- questions_part09.json
+- questions_part10.json
 
-Notes:
-- Case progression is stored locally in localStorage key: lvn_case_progress_v5
+HOW TO DEPLOY (NO CODING)
+1) In GitHub repo: delete any old service-worker.js if present (and commit).
+2) Upload ALL files from this ZIP into the SAME GitHub Pages folder (repo root).
+3) After Pages rebuilds, open this URL (copy/paste):
+   https://junsinco1.github.io/lvn-hesi-practice/index_v3_1.html?v=999
+
+QUICK FILE CHECK (open these directly; they must NOT 404):
+ - https://junsinco1.github.io/lvn-hesi-practice/questions_manifest.json?v=999
+ - https://junsinco1.github.io/lvn-hesi-practice/questions_part01.json?v=999
+ - https://junsinco1.github.io/lvn-hesi-practice/app_v3_1.js?v=999
+
+IF IT'S STILL STUCK
+- Open the app and click Diagnostics; copy the 'Load errors' lines.
+- On iOS: Settings > Safari > Advanced > Website Data > delete 'junsinco1.github.io' then reload.
+
+KNOWN NOTES
+- This build does not use a Service Worker (intentionally) to avoid caching issues on iOS/Safari.

@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>LVN HESI Practice</title>
+<link rel="manifest" href="./manifest.json">
+<style>
+:root{
+  --bg:#0b0f14; --panel:#111827; --panel2:#0f172a;
+  --text:#e5e7eb; --muted:#9ca3af; --border:rgba(255,255,255,0.10);
+  --radius:18px; --font: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+  --accent:#4f46e5; --accent2:#22c55e;
+  --accentSoft: rgba(79,70,229,0.18); --accentSoft2: rgba(79,70,229,0.10);
+  --ok:#22c55e; --bad:#ef4444; --warn:#f59e0b;
+  --focus: 0 0 0 3px var(--accentSoft);
+}
+body[data-theme="dark"]{
+  --bg:#0b0f14; --panel:#0f172a; --panel2:#111827; --text:#e5e7eb; --muted:#9ca3af; --border:rgba(255,255,255,0.10);
+}
+body[data-theme="light"]{
+  --bg:#f6f7fb; --panel:#ffffff; --panel2:#ffffff; --text:#111827; --muted:#4b5563; --border:rgba(17,24,39,0.12);
+  --accentSoft: rgba(79,70,229,0.14); --accentSoft2: rgba(79,70,229,0.08);
+}
+body[data-theme="midnight"]{
+  --bg:#050814; --panel:#0a1026; --panel2:#0b1533; --text:#e7e9ff; --muted:#a6ace6; --border:rgba(231,233,255,0.14);
+}
+body[data-theme="clinical"]{
+  --bg:#07121a; --panel:#0b1e2a; --panel2:#08202a; --text:#e6f6ff; --muted:#8fb0c3; --border:rgba(230,246,255,0.14);
+}
+body[data-theme="sand"]{
+  --bg:#fbf6ef; --panel:#ffffff; --panel2:#ffffff; --text:#1f2937; --muted:#6b7280; --border:rgba(31,41,55,0.12);
+  --accentSoft: rgba(245,158,11,0.14); --accentSoft2: rgba(245,158,11,0.08);
+}
+body[data-accent="indigo"]{ --accent:#4f46e5; --accentSoft: rgba(79,70,229,0.18); --accentSoft2: rgba(79,70,229,0.10); }
+body[data-accent="purple"]{ --accent:#7c3aed; --accentSoft: rgba(124,58,237,0.18); --accentSoft2: rgba(124,58,237,0.10); }
+body[data-accent="teal"]{ --accent:#06b6d4; --accentSoft: rgba(6,182,212,0.18); --accentSoft2: rgba(6,182,212,0.10); }
+body[data-accent="emerald"]{ --accent:#10b981; --accentSoft: rgba(16,185,129,0.18); --accentSoft2: rgba(16,185,129,0.10); }
+body[data-accent="rose"]{ --accent:#f43f5e; --accentSoft: rgba(244,63,94,0.18); --accentSoft2: rgba(244,63,94,0.10); }
+body[data-accent="amber"]{ --accent:#f59e0b; --accentSoft: rgba(245,158,11,0.20); --accentSoft2: rgba(245,158,11,0.10); }
+body[data-accent="sky"]{ --accent:#0ea5e9; --accentSoft: rgba(14,165,233,0.18); --accentSoft2: rgba(14,165,233,0.10); }
+
+*{ box-sizing:border-box; }
+body{
+  margin:0; font-family:var(--font);
+  background:
+    radial-gradient(900px 600px at 12% 0%, var(--accentSoft2), transparent 55%),
+    radial-gradient(700px 500px at 100% 10%, rgba(34,197,94,0.06), transparent 55%),
+    radial-gradient(900px 700px at 40% 120%, rgba(14,165,233,0.06), transparent 60%),
+    var(--bg);
+  color:var(--text);
+}
+.wrap{ max-width:1220px; margin:0 auto; padding:18px; }
+h1{ font-size:26px; margin:0 0 6px; letter-spacing:0.2px; }
+.sub{ color:var(--muted); margin:0 0 16px; }
+.grid{ display:grid; grid-template-columns: 1.38fr 0.62fr; gap:14px; }
+@media (max-width: 980px){ .grid{ grid-template-columns:1fr; } }
+.card{
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)),
+    radial-gradient(600px 200px at 25% 0%, var(--accentSoft2), transparent 55%),
+    var(--panel);
+  border:1px solid var(--border); border-radius:var(--radius); padding:14px;
+  box-shadow: 0 18px 46px rgba(0,0,0,0.22);
+  position:relative; overflow:hidden;
+}
+.row{ display:flex; flex-wrap:wrap; gap:10px; align-items:flex-end; }
+label{ font-size:12px; color:var(--muted); display:block; margin-bottom:4px; }
+select, input{
+  background: rgba(0,0,0,0.10); color:var(--text);
+  border:1px solid var(--border); border-radius:12px; padding:10px 10px;
+  min-width:150px; outline:none;
+}
+select:focus, input:focus{ box-shadow: var(--focus); border-color: var(--accent); }
+.btns{ margin-left:auto; display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end; }
+button{
+  background: linear-gradient(180deg, rgba(255,255,255,0.20), rgba(255,255,255,0.04)), var(--accent);
+  color:white; border:0; border-radius:12px; padding:10px 14px; font-weight:850;
+  cursor:pointer; box-shadow: 0 10px 22px rgba(0,0,0,0.22);
+}
+button:hover{ filter:brightness(1.05); }
+button:focus{ outline:none; box-shadow: var(--focus); }
+button.secondary{ background: rgba(0,0,0,0.12); border:1px solid var(--border); color:var(--text); box-shadow:none; }
+button.danger{ background: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0.04)), var(--bad); }
+.pill{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:8px 10px; border:1px solid var(--border); border-radius:999px;
+  color:var(--muted); background: rgba(0,0,0,0.10);
+}
+.pill b{ color:var(--text); }
+.tag{ font-size:12px; color:var(--text); background: var(--accentSoft); border:1px solid rgba(255,255,255,0.06);
+  padding:6px 10px; border-radius:999px; }
+.metaLine{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px; }
+.qstem{ font-size:18px; line-height:1.35; margin:0 0 10px; }
+.choices{ display:grid; gap:8px; }
+.choice{
+  border:1px solid var(--border); border-radius:14px; padding:10px 12px; cursor:pointer;
+  background: rgba(0,0,0,0.08); transition: transform 0.04s ease, border-color 0.12s ease, background 0.12s ease;
+}
+.choice:hover{ transform: translateY(-1px); border-color: rgba(255,255,255,0.18); }
+.choice.sel{ box-shadow: var(--focus); border-color: var(--accent); background: var(--accentSoft2); }
+.choice.correct{ border-color: rgba(34,197,94,0.7); box-shadow: 0 0 0 3px rgba(34,197,94,0.18); }
+.choice.wrong{ border-color: rgba(239,68,68,0.7); box-shadow: 0 0 0 3px rgba(239,68,68,0.18); }
+.tabs{ display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+.tab{ padding:8px 10px; border-radius:10px; border:1px solid var(--border); color:var(--muted); cursor:pointer; background: rgba(0,0,0,0.08); }
+.tab.active{ color:var(--text); border-color: var(--accent); box-shadow: var(--focus); background: var(--accentSoft2); }
+pre{ white-space:pre-wrap; word-break:break-word; background: rgba(0,0,0,0.16); border:1px solid var(--border); border-radius:14px; padding:10px; }
+.banner{ display:none; margin:10px 0 0; padding:10px; border-radius:12px; border:1px solid var(--border); background: rgba(239,68,68,0.12); color: #fecaca; }
+.banner.show{ display:block; }
+hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
+.footer{ color:var(--muted); margin-top:14px; }
+.small{ font-size:12px; color:var(--muted); }
+.kpi{ display:grid; grid-template-columns: 1fr 1fr; gap:10px; }
+.kpi .card2{ padding:10px; border:1px solid var(--border); border-radius:14px; background: rgba(0,0,0,0.10); }
+.kpi .card2 b{ font-size:18px; }
+.table{ width:100%; border-collapse:collapse; }
+.table th,.table td{ padding:8px; border-bottom:1px solid var(--border); text-align:left; font-size:13px; }
+.table th{ color:var(--muted); font-weight:700; }
+.timer{ font-variant-numeric: tabular-nums; }
+.progressWrap{ height:10px; background: rgba(255,255,255,0.08); border-radius:999px; overflow:hidden; border:1px solid var(--border); }
+.progress{ height:100%; width:0%; background: linear-gradient(90deg, var(--accent), rgba(34,197,94,0.8)); }
+</style>
+</head>
+<body data-theme="dark" data-accent="indigo">
+<div id="hardFail" style="max-width:1100px;margin:12px auto;padding:12px;border:1px solid #b33;border-radius:12px;display:none;">
+<b>Load error.</b> If you can see this message and the app is stuck, open the URLs in README to confirm the files are actually published.
+</div>
+
+<div class="wrap">
+  <h1>LVN HESI Compass Practice</h1>
+  <p class="sub">Hard-mode NGN practice • A&P • Micro • Pharm • ADPIE • Math conversions • Timer • XP • Leaderboard</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="row">
+        <div><label>Topic</label><select id="topic"></select></div>
+        <div><label>Type</label>
+          <select id="qtype">
+            <option value="any">Any</option>
+            <option value="single">Regular</option>
+            <option value="sata">SATA</option>
+            <option value="bowtie">Bowtie</option>
+          </select>
+        </div>
+        <div><label>Level</label>
+          <select id="level">
+            <option value="any">Any</option>
+            <option value="LVN">LVN</option>
+            <option value="RN-very-hard">RN-very-hard</option>
+          </select>
+        </div>
+        <div><label>Timer / question</label>
+          <select id="timerSel">
+            <option value="0">Off</option>
+            <option value="30">30s</option>
+            <option value="45">45s</option>
+            <option value="60">60s</option>
+            <option value="90">90s</option>
+            <option value="120">120s</option>
+          </select>
+        </div>
+        <div><label>Theme</label>
+          <select id="theme">
+            <option value="dark">Dark</option>
+            <option value="midnight">Midnight</option>
+            <option value="clinical">Clinical</option>
+            <option value="light">Light</option>
+            <option value="sand">Sand</option>
+          </select>
+        </div>
+        <div><label>Accent</label>
+          <select id="accent">
+            <option value="indigo">Indigo</option>
+            <option value="purple">Purple</option>
+            <option value="sky">Sky</option>
+            <option value="teal">Teal</option>
+            <option value="emerald">Emerald</option>
+            <option value="rose">Rose</option>
+            <option value="amber">Amber</option>
+          </select>
+        </div>
+
+        <div class="btns">
+          <button id="btnNext">Next Practice</button>
+          <button class="secondary" id="btnExam">Start 75Q Exam</button>
+          <button class="secondary" id="btnLeaderboard">Leaderboard</button>
+          <button class="danger" id="btnReset">Reset</button>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:12px;">
+        <div class="pill"><b id="count">0</b><span class="muted">loaded</span></div>
+        <div class="pill"><span class="muted">Mode:</span><b id="mode">Practice</b></div>
+        <div class="pill"><span class="muted">Score:</span><b id="score">0/0</b></div>
+        <div class="pill"><span class="muted">XP:</span><b id="xp">0</b></div>
+        <div class="pill"><span class="muted">Streak:</span><b id="streak">0</b></div>
+        <div class="pill"><span class="muted">Timer:</span><b class="timer" id="timer">--</b></div>
+      </div>
+
+      <div class="progressWrap" style="margin-top:10px;"><div class="progress" id="progress"></div></div>
+
+      <div id="err" class="banner"></div>
+
+      <hr>
+      <div id="qArea"><p class="muted">Loading questions…</p></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin:0 0 8px;">Case Tabs</h3>
+      <div class="tabs" id="tabs"></div>
+      <div id="tabBody" class="muted">Load a case-based question to view tabs.</div>
+      <hr>
+      <h3 style="margin:0 0 8px;">Gamification</h3>
+      <div class="kpi">
+        <div class="card2"><div class="small">Rank</div><b id="rank">Novice</b></div>
+        <div class="card2"><div class="small">Accuracy</div><b id="acc">--</b></div>
+      </div>
+      <div class="small" style="margin-top:10px;">Finish a 75Q exam to save to the leaderboard.</div>
+      <div id="panel" style="margin-top:10px;"></div>
+    </div>
+  </div>
+
+  <div class="footer">Deploy: upload this folder’s files to GitHub Pages. No service-worker caching.</div>
+</div>
+
+
+<script src="app_v3_1.js?v=1"></script>
+</body>
+</html>
