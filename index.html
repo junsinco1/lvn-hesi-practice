@@ -12,6 +12,7 @@
   --radius:16px; --font: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
   --accent:#7c3aed; --accentSoft: rgba(124,58,237,0.18); --accentSoft2: rgba(124,58,237,0.10);
   --ok:#22c55e; --bad:#ef4444; --focus: 0 0 0 3px var(--accentSoft);
+  --warn:#f59e0b;
 }
 body[data-theme="dark"]{ --bg:#0b0f14; --panel:#111827; --panel2:#0f172a; --text:#e5e7eb; --muted:#9ca3af; --border:rgba(255,255,255,0.10); }
 body[data-theme="light"]{ --bg:#f6f7fb; --panel:#ffffff; --panel2:#ffffff; --text:#111827; --muted:#4b5563; --border:rgba(17,24,39,0.12); --accentSoft: rgba(124,58,237,0.14); --accentSoft2: rgba(124,58,237,0.08); }
@@ -29,11 +30,11 @@ body{
     var(--bg);
   color:var(--text);
 }
-.wrap{ max-width:1120px; margin:0 auto; padding:18px; }
+.wrap{ max-width:1180px; margin:0 auto; padding:18px; }
 h1{ font-size:26px; margin:0 0 6px; letter-spacing:0.2px; }
 .sub{ color:var(--muted); margin:0 0 16px; }
-.grid{ display:grid; grid-template-columns: 1.25fr 0.75fr; gap:14px; }
-@media (max-width: 900px){ .grid{ grid-template-columns:1fr; } }
+.grid{ display:grid; grid-template-columns: 1.35fr 0.65fr; gap:14px; }
+@media (max-width: 950px){ .grid{ grid-template-columns:1fr; } }
 .card{
   background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent), var(--panel);
   border:1px solid var(--border); border-radius:var(--radius); padding:14px;
@@ -42,22 +43,22 @@ h1{ font-size:26px; margin:0 0 6px; letter-spacing:0.2px; }
 }
 .card::before{
   content:""; position:absolute; inset:-2px;
-  background: radial-gradient(500px 200px at 30% 0%, var(--accentSoft), transparent 60%);
+  background: radial-gradient(520px 240px at 30% 0%, var(--accentSoft), transparent 60%);
   opacity:0.45; pointer-events:none;
 }
 .card > *{ position:relative; }
 .row{ display:flex; flex-wrap:wrap; gap:10px; align-items:flex-end; }
 label{ font-size:12px; color:var(--muted); display:block; margin-bottom:4px; }
-select{
+select, input{
   background: rgba(0,0,0,0.10); color:var(--text);
   border:1px solid var(--border); border-radius:12px; padding:10px 10px;
-  min-width:160px; outline:none;
+  min-width:150px; outline:none;
 }
-select:focus{ box-shadow: var(--focus); border-color: var(--accent); }
-.btns{ margin-left:auto; display:flex; gap:10px; }
+select:focus, input:focus{ box-shadow: var(--focus); border-color: var(--accent); }
+.btns{ margin-left:auto; display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end; }
 button{
   background: linear-gradient(180deg, rgba(255,255,255,0.14), rgba(255,255,255,0.02)), var(--accent);
-  color:white; border:0; border-radius:12px; padding:10px 14px; font-weight:800;
+  color:white; border:0; border-radius:12px; padding:10px 14px; font-weight:850;
   cursor:pointer; box-shadow: 0 10px 22px rgba(0,0,0,0.22);
 }
 button:hover{ filter:brightness(1.05); }
@@ -80,7 +81,7 @@ button.danger{ background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(
   background: rgba(0,0,0,0.08); transition: transform 0.04s ease, border-color 0.12s ease;
 }
 .choice:hover{ transform: translateY(-1px); border-color: rgba(255,255,255,0.18); }
-.choice.sel{ box-shadow: var(--focus); border-color: var(--accent); }
+.choice.sel{ box-shadow: var(--focus); border-color: var(--accent); background: var(--accentSoft2); }
 .choice.correct{ border-color: rgba(34,197,94,0.7); box-shadow: 0 0 0 3px rgba(34,197,94,0.18); }
 .choice.wrong{ border-color: rgba(239,68,68,0.7); box-shadow: 0 0 0 3px rgba(239,68,68,0.18); }
 .tabs{ display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
@@ -91,12 +92,22 @@ pre{ white-space:pre-wrap; word-break:break-word; background: rgba(0,0,0,0.16); 
 .banner.show{ display:block; }
 hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
 .footer{ color:var(--muted); margin-top:14px; }
+.small{ font-size:12px; color:var(--muted); }
+.kpi{ display:grid; grid-template-columns: 1fr 1fr; gap:10px; }
+.kpi .card2{ padding:10px; border:1px solid var(--border); border-radius:14px; background: rgba(0,0,0,0.10); }
+.kpi .card2 b{ font-size:18px; }
+.table{ width:100%; border-collapse:collapse; }
+.table th,.table td{ padding:8px; border-bottom:1px solid var(--border); text-align:left; font-size:13px; }
+.table th{ color:var(--muted); font-weight:700; }
+.timer{ font-variant-numeric: tabular-nums; }
+.progressWrap{ height:10px; background: rgba(255,255,255,0.08); border-radius:999px; overflow:hidden; border:1px solid var(--border); }
+.progress{ height:100%; width:0%; background: var(--accent); }
 </style>
 </head>
 <body data-theme="dark" data-accent="purple">
 <div class="wrap">
   <h1>LVN HESI Compass Practice</h1>
-  <p class="sub">Hard-mode NGN practice • Topics aligned to your original Compass breakdown</p>
+  <p class="sub">Hard-mode NGN practice • Timer • XP • Leaderboard • Case Tabs</p>
 
   <div class="grid">
     <div class="card">
@@ -115,6 +126,15 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
             <option value="any">Any</option>
             <option value="LVN">LVN</option>
             <option value="RN-very-hard">RN-very-hard</option>
+          </select>
+        </div>
+        <div><label>Timer / question</label>
+          <select id="timerSel">
+            <option value="0">Off</option>
+            <option value="30">30s</option>
+            <option value="60">60s</option>
+            <option value="90">90s</option>
+            <option value="120">120s</option>
           </select>
         </div>
         <div><label>Theme</label>
@@ -136,15 +156,21 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
         <div class="btns">
           <button id="btnNext">Next Practice</button>
           <button class="secondary" id="btnExam">Start 75Q Exam</button>
+          <button class="secondary" id="btnLeaderboard">Leaderboard</button>
           <button class="danger" id="btnReset">Reset</button>
         </div>
       </div>
 
       <div class="row" style="margin-top:12px;">
-        <div class="pill"><b id="count">0</b><span class="muted">questions loaded</span></div>
+        <div class="pill"><b id="count">0</b><span class="muted">loaded</span></div>
         <div class="pill"><span class="muted">Mode:</span><b id="mode">Practice</b></div>
         <div class="pill"><span class="muted">Score:</span><b id="score">0/0</b></div>
+        <div class="pill"><span class="muted">XP:</span><b id="xp">0</b></div>
+        <div class="pill"><span class="muted">Streak:</span><b id="streak">0</b></div>
+        <div class="pill"><span class="muted">Timer:</span><b class="timer" id="timer">--</b></div>
       </div>
+
+      <div class="progressWrap" style="margin-top:10px;"><div class="progress" id="progress"></div></div>
 
       <div id="err" class="banner"></div>
 
@@ -156,21 +182,95 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
       <h3 style="margin:0 0 8px;">Case Tabs</h3>
       <div class="tabs" id="tabs"></div>
       <div id="tabBody" class="muted">Load a case-based question to view tabs.</div>
+      <hr>
+      <h3 style="margin:0 0 8px;">Gamification</h3>
+      <div class="kpi">
+        <div class="card2"><div class="small">Rank</div><b id="rank">Novice</b></div>
+        <div class="card2"><div class="small">Accuracy</div><b id="acc">--</b></div>
+      </div>
+      <div class="small" style="margin-top:10px;">Tip: Exam results can be saved to the leaderboard with initials.</div>
+      <div id="panel" style="margin-top:10px;"></div>
     </div>
   </div>
 
-  <div class="footer">Deploy tip: upload this folder’s files to the same GitHub Pages directory. No service-worker caching.</div>
+  <div class="footer">Deploy: upload this folder’s files to your GitHub Pages directory. Service worker disabled.</div>
 </div>
 
 <script>
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { QUESTIONS:[], pool:[], current:null, mode:"Practice", sel:null, answered:false, score:{correct:0,total:0} };
+  const LS = {
+    xp:"lvn_xp_v1",
+    streak:"lvn_streak_v1",
+    mastery:"lvn_mastery_v1",
+    leaderboard:"lvn_leaderboard_v1",
+    settings:"lvn_settings_v1"
+  };
+
+  const state = {
+    QUESTIONS:[], pool:[], current:null,
+    mode:"Practice",
+    sel:null, answered:false,
+    score:{correct:0,total:0},
+    exam:{active:false, idx:0, items:[], startedAt:0},
+    timer:{sec:0, left:0, handle:null},
+    xp:0, streak:0, mastery:{}
+  };
 
   function banner(msg){
     const el = $("err");
     el.textContent = msg || "";
     el.classList.toggle("show", !!msg);
+  }
+
+  function safeJsonParse(s, fallback){
+    try{ return JSON.parse(s); }catch(e){ return fallback; }
+  }
+
+  function loadLocal(){
+    state.xp = Number(localStorage.getItem(LS.xp) || 0);
+    state.streak = Number(localStorage.getItem(LS.streak) || 0);
+    state.mastery = safeJsonParse(localStorage.getItem(LS.mastery) || "{}", {});
+    const settings = safeJsonParse(localStorage.getItem(LS.settings) || "{}", {});
+    if(settings.theme) $("theme").value=settings.theme;
+    if(settings.accent) $("accent").value=settings.accent;
+    if(settings.timer!=null) $("timerSel").value=String(settings.timer);
+  }
+  function saveLocal(){
+    localStorage.setItem(LS.xp, String(state.xp));
+    localStorage.setItem(LS.streak, String(state.streak));
+    localStorage.setItem(LS.mastery, JSON.stringify(state.mastery||{}));
+    localStorage.setItem(LS.settings, JSON.stringify({
+      theme:$("theme").value,
+      accent:$("accent").value,
+      timer:Number($("timerSel").value||0)
+    }));
+  }
+
+  function rankFromXP(xp){
+    const tiers = [
+      [0,"Novice"],
+      [250,"Apprentice"],
+      [600,"Competent"],
+      [1200,"Proficient"],
+      [2200,"Advanced"],
+      [3500,"Expert"],
+      [5200,"Clinical Ace"]
+    ];
+    let r=tiers[0][1];
+    for(const [min,name] of tiers){ if(xp>=min) r=name; }
+    return r;
+  }
+
+  function updateHUD(){
+    $("mode").textContent = state.mode + (state.exam.active ? ` (${state.exam.idx+1}/${state.exam.items.length})` : "");
+    $("score").textContent = `${state.score.correct}/${state.score.total}`;
+    $("xp").textContent = String(state.xp);
+    $("streak").textContent = String(state.streak);
+    $("rank").textContent = rankFromXP(state.xp);
+    const acc = state.score.total ? Math.round((state.score.correct/state.score.total)*100) : null;
+    $("acc").textContent = acc==null ? "--" : (acc+"%");
+    $("progress").style.width = state.exam.active ? `${Math.round(((state.exam.idx)/Math.max(1,state.exam.items.length))*100)}%` : "0%";
   }
 
   async function fetchJson(url){
@@ -184,8 +284,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
 
   async function loadQuestions(){
     const base = new URL("./", window.location.href);
-    const manifestUrl = new URL("questions_manifest.json", base).toString();
-    const man = await fetchJson(manifestUrl);
+    const man = await fetchJson(new URL("questions_manifest.json", base).toString());
     const arr = [];
     for(const p of man.parts){
       const data = await fetchJson(new URL(p, base).toString());
@@ -208,6 +307,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
   function applyTheme(){
     document.body.dataset.theme = $("theme").value;
     document.body.dataset.accent = $("accent").value;
+    saveLocal();
   }
 
   function buildPool(){
@@ -249,14 +349,70 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
     });
   }
 
-  function showRationale(q){
-    $("rat").innerHTML = `<pre>${escapeHtml(q.rationale || "—")}</pre>`;
+  // ---------- Timer ----------
+  function stopTimer(){
+    if(state.timer.handle){ clearInterval(state.timer.handle); state.timer.handle=null; }
+  }
+  function setTimerDisplay(){
+    $("timer").textContent = state.timer.sec ? `${state.timer.left}s` : "--";
+    if(state.timer.sec && state.timer.left <= 10){
+      $("timer").style.color = "var(--warn)";
+    }else{
+      $("timer").style.color = "";
+    }
+  }
+  function startTimer(){
+    stopTimer();
+    state.timer.sec = Number($("timerSel").value || 0);
+    state.timer.left = state.timer.sec;
+    saveLocal();
+    setTimerDisplay();
+    if(!state.timer.sec) return;
+    state.timer.handle = setInterval(()=>{
+      if(state.answered){ stopTimer(); setTimerDisplay(); return; }
+      state.timer.left -= 1;
+      setTimerDisplay();
+      if(state.timer.left <= 0){
+        stopTimer();
+        // Auto-submit (counts wrong) if unanswered
+        if(!state.answered){
+          state.sel = state.sel || null;
+          // If no selection, treat as incorrect
+          forceSubmitDueToTimeout();
+        }
+      }
+    }, 1000);
   }
 
-  function markScore(ok){
+  function forceSubmitDueToTimeout(){
+    // mark as incorrect and show rationale; then require Next
+    banner("Time's up! Question auto-submitted.");
+    gradeCurrent(true /*timedOut*/);
+  }
+
+  // ---------- Scoring / XP ----------
+  function awardXP(q, wasCorrect){
+    // difficulty weight: RN-very-hard gives more
+    const lvl = (q.level||"LVN");
+    const base = lvl==="RN-very-hard" ? 18 : 12;
+    const bonus = wasCorrect ? 1 : 0;
+    const streakBonus = (wasCorrect && state.streak>=3) ? Math.min(8, state.streak) : 0;
+    state.xp += (wasCorrect ? base + bonus + streakBonus : 2);
+  }
+
+  function updateMastery(q, wasCorrect){
+    const t = normTopic(q.topic);
+    const m = state.mastery || {};
+    const cur = m[t] || {seen:0, correct:0};
+    cur.seen += 1;
+    if(wasCorrect) cur.correct += 1;
+    m[t]=cur;
+    state.mastery = m;
+  }
+
+  function markScore(wasCorrect){
     state.score.total += 1;
-    if(ok) state.score.correct += 1;
-    $("score").textContent = `${state.score.correct}/${state.score.total}`;
+    if(wasCorrect) state.score.correct += 1;
   }
 
   function paintSingle(ans, sel){
@@ -275,10 +431,20 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
     });
   }
 
-  function gradeStandard(q){
-    if(state.answered) return;
+  function showRationale(q, extra){
+    const el = $("rat");
+    el.innerHTML = `<pre>${escapeHtml(q.rationale || "—")}${extra ? ("\n\n"+escapeHtml(extra)) : ""}</pre>`;
+  }
+
+  function gradeCurrent(timedOut=false){
+    const q = state.current;
+    if(!q || state.answered) return;
     const qtype=q.qtype||q.type||"single";
     const ans=q.answer;
+
+    let wasCorrect=false;
+    let extra = "";
+
     if(qtype==="sata"){
       const sel = Array.isArray(state.sel) ? state.sel : [];
       const correct = Array.isArray(ans) ? ans : [];
@@ -286,29 +452,58 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
       const wrong = sel.filter(x=>!correct.includes(x)).length;
       const denom = Math.max(correct.length,1);
       const score = Math.max(0, Math.min(1, (right - wrong*0.5)/denom));
-      const ok = score >= 0.80;
+      wasCorrect = score >= 0.80;
       state.answered=true;
       paintSATA(sel, correct);
-      markScore(ok);
-      $("rat").innerHTML = `<pre>${escapeHtml(q.rationale || "—")}\n\nNGN SATA Score: ${(score*100).toFixed(0)}% (>=80% counts correct)</pre>`;
-      return;
+      extra = `NGN SATA Score: ${(score*100).toFixed(0)}% (>=80% counts correct)`;
+    }else if(qtype==="bowtie" && q.bowtie){
+      const b=q.bowtie;
+      const left=$("bow_left").value, mid=$("bow_middle").value, right=$("bow_right").value;
+      wasCorrect = (left===b.left_answer && mid===b.middle_answer && right===b.right_answer);
+      state.answered=true;
+      extra = `Correct: ${b.left_answer} | ${b.middle_answer} | ${b.right_answer}`;
     }else{
-      const ok = (state.sel === ans);
+      wasCorrect = (state.sel === ans);
       state.answered=true;
       paintSingle(ans, state.sel);
-      markScore(ok);
-      showRationale(q);
     }
+
+    if(wasCorrect){ state.streak += 1; }
+    else { state.streak = 0; }
+
+    awardXP(q, wasCorrect);
+    updateMastery(q, wasCorrect);
+    markScore(wasCorrect);
+    saveLocal();
+    stopTimer();
+    updateHUD();
+
+    showRationale(q, timedOut ? ("Timed out. " + extra) : extra);
+
+    // In exam mode, enable "Next" behavior
+    renderAfterSubmitControls();
   }
 
-  function gradeBowtie(q){
-    if(state.answered) return;
-    const b=q.bowtie;
-    const left=$("bow_left").value, mid=$("bow_middle").value, right=$("bow_right").value;
-    const ok=(left===b.left_answer && mid===b.middle_answer && right===b.right_answer);
-    state.answered=true;
-    markScore(ok);
-    showRationale(q);
+  function renderAfterSubmitControls(){
+    const actions = $("afterActions");
+    if(!actions) return;
+    actions.innerHTML = "";
+    if(state.exam.active){
+      const btn = document.createElement("button");
+      btn.textContent = (state.exam.idx < state.exam.items.length-1) ? "Next Question" : "Finish Exam";
+      btn.onclick = () => advanceExam();
+      actions.appendChild(btn);
+      const btn2 = document.createElement("button");
+      btn2.textContent = "Review Leaderboard";
+      btn2.className="secondary";
+      btn2.onclick = () => showLeaderboard();
+      actions.appendChild(btn2);
+    }else{
+      const btn = document.createElement("button");
+      btn.textContent = "Next Practice";
+      btn.onclick = () => nextPractice();
+      actions.appendChild(btn);
+    }
   }
 
   function renderBowCol(side, label, options){
@@ -322,6 +517,7 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
 
   function renderQuestion(q){
     state.current=q; state.answered=false; state.sel=null;
+    banner("");
     const area=$("qArea");
     if(!q){ area.innerHTML=`<p class="muted">No question available.</p>`; return; }
 
@@ -351,11 +547,15 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
         <button id="btnSubmit">Submit</button>
         <button class="secondary" id="btnShowRat">Rationale</button>
       </div>
-      <div id="rat" style="margin-top:10px;"></div>`;
+      <div id="rat" style="margin-top:10px;"></div>
+      <div class="row" id="afterActions" style="margin-top:10px;"></div>`;
       area.innerHTML=html;
-      $("btnSubmit").onclick=()=>gradeBowtie(q);
+      $("btnSubmit").onclick=()=>gradeCurrent(false);
       $("btnShowRat").onclick=()=>showRationale(q);
       setTabs(q);
+      updateHUD();
+      startTimer();
+      renderAfterSubmitControls();
       return;
     }
 
@@ -364,7 +564,8 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
         <button id="btnSubmit">Submit</button>
         <button class="secondary" id="btnShowRat">Rationale</button>
       </div>
-      <div id="rat" style="margin-top:10px;"></div>`;
+      <div id="rat" style="margin-top:10px;"></div>
+      <div class="row" id="afterActions" style="margin-top:10px;"></div>`;
     area.innerHTML=html;
 
     const c=$("choices");
@@ -388,52 +589,193 @@ hr{ border:0; border-top:1px solid var(--border); margin:14px 0; }
       c.appendChild(d);
     });
 
-    $("btnSubmit").onclick=()=>gradeStandard(q);
+    $("btnSubmit").onclick=()=>gradeCurrent(false);
     $("btnShowRat").onclick=()=>showRationale(q);
     setTabs(q);
+    updateHUD();
+    startTimer();
+    renderAfterSubmitControls();
   }
 
   function nextPractice(){
-    state.mode="Practice"; $("mode").textContent=state.mode;
-    buildPool(); renderQuestion(pickOne());
+    state.exam.active=false;
+    state.mode="Practice";
+    $("progress").style.width="0%";
+    buildPool();
+    renderQuestion(pickOne());
   }
 
   function startExam(){
-    state.mode="Exam"; $("mode").textContent=state.mode;
-    state.score={correct:0,total:0}; $("score").textContent="0/0";
+    state.mode="Exam";
+    state.score={correct:0,total:0};
+    state.exam.active=true;
+    state.exam.idx=0;
+    state.exam.startedAt=Date.now();
     buildPool();
+    // shuffle pool
     const pool=[...state.pool];
     for(let i=pool.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
-    const exam=pool.slice(0,75);
-    renderQuestion(exam[0]||null);
+    state.exam.items=pool.slice(0,75);
+    renderQuestion(state.exam.items[0]||null);
+  }
+
+  function advanceExam(){
+    if(!state.exam.active) return;
+    if(!state.answered){
+      banner("Submit the question first.");
+      return;
+    }
+    if(state.exam.idx >= state.exam.items.length-1){
+      finishExam();
+      return;
+    }
+    state.exam.idx += 1;
+    banner("");
+    renderQuestion(state.exam.items[state.exam.idx]);
+  }
+
+  function finishExam(){
+    stopTimer();
+    const elapsed = Math.max(1, Math.round((Date.now()-state.exam.startedAt)/1000));
+    const pct = Math.round((state.score.correct/Math.max(1,state.score.total))*100);
+    const area=$("qArea");
+    state.exam.active=false;
+    state.mode="Exam Finished";
+    updateHUD();
+    area.innerHTML = `
+      <div class="metaLine">
+        <span class="tag">Exam Complete</span>
+        <span class="tag">${pct}%</span>
+        <span class="tag">${state.score.correct}/${state.score.total}</span>
+        <span class="tag">${elapsed}s</span>
+      </div>
+      <div class="qstem">Save your score to the leaderboard</div>
+      <div class="row">
+        <div>
+          <label>Initials (2–4)</label>
+          <input id="initials" maxlength="4" placeholder="PI" style="min-width:120px;">
+        </div>
+        <div class="btns" style="margin-left:0;">
+          <button id="btnSave">Save</button>
+          <button class="secondary" id="btnViewLB">View Leaderboard</button>
+          <button class="secondary" id="btnNewExam">New 75Q Exam</button>
+        </div>
+      </div>
+      <div id="rat" style="margin-top:10px;"></div>
+    `;
+    $("btnSave").onclick=()=>saveLeaderboard(elapsed, pct);
+    $("btnViewLB").onclick=()=>showLeaderboard();
+    $("btnNewExam").onclick=()=>startExam();
+    showRationale({rationale:`Exam summary: ${pct}% (${state.score.correct}/${state.score.total}) in ${elapsed}s.\nXP earned continues to build your rank.`});
+  }
+
+  function getLeaderboard(){
+    return safeJsonParse(localStorage.getItem(LS.leaderboard) || "[]", []);
+  }
+  function setLeaderboard(list){
+    localStorage.setItem(LS.leaderboard, JSON.stringify(list));
+  }
+  function saveLeaderboard(elapsed, pct){
+    const initialsEl = document.getElementById("initials");
+    const raw = (initialsEl ? initialsEl.value : "").trim().toUpperCase();
+    const initials = raw.replace(/[^A-Z0-9]/g,"").slice(0,4);
+    if(initials.length < 2){
+      banner("Enter 2–4 initials to save your score.");
+      return;
+    }
+    const entry = {
+      initials,
+      pct,
+      correct: state.score.correct,
+      total: state.score.total,
+      seconds: elapsed,
+      when: new Date().toISOString()
+    };
+    const lb = getLeaderboard();
+    lb.push(entry);
+    // Sort: pct desc, then time asc
+    lb.sort((a,b)=> (b.pct-a.pct) || (a.seconds-b.seconds));
+    setLeaderboard(lb.slice(0,50));
+    banner("Saved to leaderboard.");
+    showLeaderboard();
+  }
+
+  function showLeaderboard(){
+    const panel = $("panel");
+    const lb = getLeaderboard();
+    if(!lb.length){
+      panel.innerHTML = `<div class="small">No scores saved yet. Finish a 75Q exam and save with initials.</div>`;
+      return;
+    }
+    const rows = lb.slice(0,15).map((e,idx)=>{
+      const d = new Date(e.when);
+      const date = isNaN(d.getTime()) ? "" : d.toLocaleDateString();
+      return `<tr>
+        <td>${idx+1}</td>
+        <td><b>${escapeHtml(e.initials)}</b></td>
+        <td>${e.pct}%</td>
+        <td>${e.correct}/${e.total}</td>
+        <td>${e.seconds}s</td>
+        <td class="small">${escapeHtml(date)}</td>
+      </tr>`;
+    }).join("");
+    panel.innerHTML = `
+      <div class="metaLine"><span class="tag">Leaderboard</span><span class="tag">Top 15</span></div>
+      <table class="table">
+        <thead><tr><th>#</th><th>Initials</th><th>%</th><th>Score</th><th>Time</th><th>Date</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="row" style="margin-top:10px;">
+        <button class="secondary" id="btnClearLB">Clear Leaderboard</button>
+      </div>
+    `;
+    document.getElementById("btnClearLB").onclick = ()=>{
+      if(confirm("Clear leaderboard?")){ setLeaderboard([]); showLeaderboard(); }
+    };
   }
 
   function resetAll(){
-    state.score={correct:0,total:0}; $("score").textContent="0/0";
+    stopTimer();
+    state.score={correct:0,total:0};
+    state.exam={active:false, idx:0, items:[], startedAt:0};
+    state.mode="Practice";
     banner("");
     $("qArea").innerHTML=`<p class="muted">Reset complete. Click Next Practice.</p>`;
     $("tabBody").textContent="—"; $("tabs").innerHTML="";
+    updateHUD();
   }
 
   function wireUI(){
+    loadLocal();
     $("theme").onchange=applyTheme;
     $("accent").onchange=applyTheme;
+    $("timerSel").onchange=()=>{ saveLocal(); if(state.current) startTimer(); };
     ["topic","qtype","level"].forEach(id=> $(id).onchange=()=>buildPool() );
     $("btnNext").onclick=nextPractice;
     $("btnExam").onclick=startExam;
     $("btnReset").onclick=resetAll;
+    $("btnLeaderboard").onclick=showLeaderboard;
     applyTheme();
+    updateHUD();
   }
 
   (async function boot(){
     try{
       wireUI();
       const qs = await loadQuestions();
-      state.QUESTIONS = qs;
+      state.QUESTIONS = qs.map((q,idx)=>({
+        ...q,
+        id:q.id||`q_${idx}`,
+        topic:normTopic(q.topic),
+        qtype:q.qtype||q.type||"single",
+        choices:q.choices||q.options||[],
+        level:q.level||"LVN",
+      }));
       $("count").textContent=state.QUESTIONS.length;
       rebuildTopicList();
       buildPool();
-      $("qArea").innerHTML=`<p class="muted">Loaded ${state.QUESTIONS.length} questions. Click Next Practice.</p>`;
+      $("qArea").innerHTML=`<p class="muted">Loaded ${state.QUESTIONS.length} questions. Click Next Practice or Start 75Q Exam.</p>`;
+      showLeaderboard();
     }catch(e){
       console.error(e);
       banner("Load failed: "+e.message);
