@@ -73,7 +73,7 @@
     State.settings = safeJsonParse(localStorage.getItem(LS.settings), State.settings) || State.settings;
     State.leaderboard = safeJsonParse(localStorage.getItem(LS.leaderboard), []) || [];
     const initials = localStorage.getItem(LS.initials) || '';
-    $('#initialsInput').value = initials;
+    const ii = $('#initialsInput'); if(ii) ii.value = initials;
   }
 
   function saveLocal(){
@@ -588,7 +588,7 @@ Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'bl
     showBanner(`Exam finished: ${correct}/${total} (${pct}%). Saved to leaderboard.`, 'ok');
 
     // save leaderboard
-    const initials = ($('#initialsInput').value||'').trim().toUpperCase().slice(0,4);
+    const ii = $('#initialsInput'); if(ii) ii.value = initials;
     if(initials) localStorage.setItem(LS.initials, initials);
 
     State.leaderboard.push({
@@ -714,7 +714,7 @@ Object.entries(panes).forEach(([k,el])=>{ el.style.display = (k===showKey) ? 'bl
       renderLeaderboard();
     });
 
-    $('#initialsInput').addEventListener('input', (e)=>{
+    const ii2 = $('#initialsInput'); if(ii2) ii2.addEventListener('input', (e)=>{
       const v = (e.target.value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,4);
       e.target.value = v;
       localStorage.setItem(LS.initials, v);

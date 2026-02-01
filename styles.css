@@ -238,3 +238,15 @@ hr{border:0; border-top:1px solid var(--border); margin:12px 0}
   .mainCol{min-height: 520px;}
   .tabsAll .tabPane{min-height: 360px;}
 }
+
+/* v1.9: initials input */
+#initialsInput{
+  width:100%;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  color: var(--text);
+  outline: none;
+}
+#initialsInput::placeholder{ color: rgba(255,255,255,.35); }
