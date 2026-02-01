@@ -166,3 +166,7 @@ dialog::backdrop{ background: rgba(0,0,0,.55); }
 .dlg h3{ margin:0 0 10px; }
 .dlgBody{ color:var(--text); font-size:13px; line-height:1.4; }
 .dlgActions{ margin-top:12px; display:flex; justify-content:flex-end; gap:10px; }
+
+
+/* Trending vitals readability */
+#pane_vitals{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }

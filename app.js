@@ -47,6 +47,7 @@ const LS_SCORES  = "lvn_scores_v4";
 const LS_MASTERY = "lvn_mastery_v4";
 const LS_BADGES  = "lvn_badges_v4";
 const LS_EXAMCODE= "lvn_exam_code_v4";
+const LS_CASEPROG= "lvn_case_progress_v5";
 const LS_INSTR   = "lvn_instructor_unlocked_v4";
 const LS_INSTR_CODE = "lvn_instructor_code_v4";
 
@@ -174,6 +175,70 @@ let scoringMode = "strict";       // strict|partial
 let mastery = {};                 // {topic:{attempts,correct}}
 let badges = { earned:{} };
 let streak = 0;
+
+
+// ---------- Case progression ----------
+function loadCaseProgress(){
+  const v = safeJsonParse(localStorage.getItem(LS_CASEPROG), {});
+  return (v && typeof v === "object") ? v : {};
+}
+function saveCaseProgress(p){
+  localStorage.setItem(LS_CASEPROG, JSON.stringify(p || {}));
+}
+function getCaseKey(q){
+  return q && q.case_group && q.case_group.id ? String(q.case_group.id) : null;
+}
+function getCaseSeq(q){
+  return (q && q.case_group && Number.isFinite(Number(q.case_group.sequence))) ? Number(q.case_group.sequence) : null;
+}
+function markCaseCompleted(q){
+  const key = getCaseKey(q);
+  const seq = getCaseSeq(q);
+  if(!key || !seq) return;
+  const prog = loadCaseProgress();
+  const cur = prog[key] || 0;
+  if(seq > cur){
+    prog[key] = seq;
+    saveCaseProgress(prog);
+  }
+}
+function nextRequiredSeq(caseId){
+  const prog = loadCaseProgress();
+  const done = prog[caseId] || 0;
+  return done + 1;
+}
+
+// ---------- Trending vitals formatting ----------
+function extractNumber(val){
+  const m = String(val ?? "").match(/-?\d+(?:\.\d+)?/);
+  return m ? Number(m[0]) : null;
+}
+function arrowFor(prev, cur, key){
+  if(prev === null || cur === null) return "";
+  // For SpO2 higher is better; for RR/HR/T/BP usually higher can be worse; we still just show direction.
+  if(cur > prev) return " ↑";
+  if(cur < prev) return " ↓";
+  return " →";
+}
+function formatVitalsTrending(v){
+  if(!v) return "—";
+  if(!Array.isArray(v)) return formatBlock(v);
+  const blocks = [];
+  let prevVitals = null;
+  for(const item of v){
+    const t = item.time ? `Time: ${item.time}` : "Time: —";
+    const vitObj = (item.vitals && typeof item.vitals==="object") ? item.vitals : {};
+    const lines = [];
+    for(const [k,val] of Object.entries(vitObj)){
+      const curN = extractNumber(val);
+      const prevN = prevVitals ? extractNumber(prevVitals[k]) : null;
+      lines.push(`${k}: ${val}${arrowFor(prevN, curN, k)}`);
+    }
+    blocks.push([t, ...lines].join("\n"));
+    prevVitals = vitObj;
+  }
+  return blocks.join("\n\n---\n\n");
+}
 
 // ---------- Utilities ----------
 function safeJsonParse(raw, fallback){
@@ -339,39 +404,109 @@ function weightedPick(arr, rand=Math.random){
   }
   return arr[arr.length-1];
 }
+
 function pickPracticeQuestion(){
   const pool = filteredPool();
   if(!pool.length) return null;
+
+  // If there are progressive cases in the pool, enforce locked sequence:
+  // students must complete seq 1 -> 2 -> 3 -> 4.
+  const caseItems = pool.filter(q=>q.case_group && q.case_group.id && q.case_group.sequence);
+  if(caseItems.length){
+    const prog = loadCaseProgress();
+    // Build list of next-required questions across all case ids present
+    const nextRequired = [];
+    const ids = Array.from(new Set(caseItems.map(q=>String(q.case_group.id))));
+    for(const cid of ids){
+      const need = (prog[cid] || 0) + 1;
+      const candidate = caseItems.find(q=>String(q.case_group.id)===cid && Number(q.case_group.sequence)===need);
+      if(candidate) nextRequired.push(candidate);
+    }
+    if(nextRequired.length){
+      // Prefer weak-topic weighting if FocusWeak is on
+      const qPick = focusWeak ? weightedPick(nextRequired) : nextRequired[Math.floor(Math.random()*nextRequired.length)];
+      qPick._seen = true;
+      return qPick;
+    }
+    // All case groups completed; fall back to non-case pool
+  }
 
   // avoid repeats until pool exhausted for current filter
   const unseen = pool.filter(q=>!q._seen);
   const pickFrom = unseen.length ? unseen : pool;
   const q = focusWeak ? weightedPick(pickFrom) : pickFrom[Math.floor(Math.random()*pickFrom.length)];
-
-  // mark seen for current filter/session
   q._seen = true;
   return q;
 }
+
+
 function buildExamQueue(pool, seedCode=""){
-  const unique = [];
+  // Dedupe by id first
   const seen = new Set();
+  const items = [];
   for(const q of pool){
     const id = q.id || (q.stem ? (normalizeTopic(q.topic)+"|"+q.stem).slice(0,120) : Math.random().toString(36).slice(2));
     q.id = id;
-    if(!seen.has(id)){
-      seen.add(id);
-      unique.push(q);
+    if(seen.has(id)) continue;
+    seen.add(id);
+    items.push(q);
+  }
+
+  // Split into progressive case groups and standalone
+  const groups = new Map(); // caseId -> [q...]
+  const standalone = [];
+  for(const q of items){
+    const cid = (q.case_group && q.case_group.id) ? String(q.case_group.id) : null;
+    const seq = (q.case_group && q.case_group.sequence) ? Number(q.case_group.sequence) : null;
+    if(cid && seq){
+      if(!groups.has(cid)) groups.set(cid, []);
+      groups.get(cid).push(q);
+    }else{
+      standalone.push(q);
     }
   }
-  // deterministic shuffle if seedCode
+  // Sort each group by sequence
+  const groupUnits = [];
+  for(const [cid, arr] of groups.entries()){
+    const sorted = arr.slice().sort((a,b)=>Number(a.case_group.sequence)-Number(b.case_group.sequence));
+    // Only treat as full unit if it looks complete (>=2); if partial, still keep order.
+    groupUnits.push({ type:"case", cid, qs: sorted });
+  }
+  const standaloneUnits = standalone.map(q=>({ type:"single", qs:[q] }));
+
+  // Deterministic shuffle if seedCode
   let rand = Math.random;
   if(seedCode){
     const seed = hashStringToSeed(seedCode);
     rand = mulberry32(seed);
   }
-  const shuffled = shuffleInPlace(unique.slice(), rand);
-  return shuffled.slice(0,75);
+  const units = shuffleInPlace(groupUnits.concat(standaloneUnits), rand);
+
+  // Fill to exactly 75 without breaking a case group
+  const out = [];
+  for(const u of units){
+    if(out.length >= 75) break;
+    const need = 75 - out.length;
+    if(u.qs.length <= need){
+      out.push(...u.qs);
+    }else{
+      // skip case units that don't fit; allow standalone to fill remainder
+      if(u.type === "single" && need >= 1){
+        out.push(u.qs[0]);
+      }
+    }
+  }
+  // If still short (rare), top up with remaining standalone
+  if(out.length < 75){
+    const remaining = standalone.filter(q=>!out.find(x=>x.id===q.id));
+    const extra = shuffleInPlace(remaining.slice(), rand);
+    while(out.length < 75 && extra.length){
+      out.push(extra.shift());
+    }
+  }
+  return out.slice(0,75);
 }
+
 
 // ---------- Render question ----------
 function clearAnswerUI(){
@@ -385,7 +520,7 @@ function clearAnswerUI(){
 function renderTabs(q){
   const c = q.case || q.case_study || {};
   ui.pane_case.textContent   = formatBlock(c.case || c.text || q.case_text || "—");
-  ui.pane_vitals.textContent = formatVitals(c.vitals || q.vitals || "—");
+  ui.pane_vitals.textContent = formatVitalsTrending(c.vitals || q.vitals || "—");
   ui.pane_nurse.textContent  = formatBlock(c.nurse || c.nurse_actions || q.nurse_actions || "—");
   ui.pane_orders.textContent = formatBlock(c.orders || c.provider_orders || q.provider_orders || "—");
 }
@@ -608,6 +743,9 @@ function submitAnswer(){
   saveMastery(mastery);
 
   awardBadges(sc);
+
+  // lock progression for progressive cases
+  markCaseCompleted(current);
 
   ui.pane_rationale.textContent = buildRationale();
   setTab("rationale");
@@ -858,19 +996,53 @@ function buildTopicList(){
   });
 }
 async function loadQuestions(){
-  const resp = await fetch("questions.json", { cache: "no-store" });
-  const data = await resp.json();
-  // Normalize schema minimally
-  const arr = Array.isArray(data) ? data : (data.questions || []);
+  const base = new URL("./", window.location.href);
+  const singleUrl = new URL("questions.json", base).toString();
+  const manifestUrl = new URL("questions_manifest.json", base).toString();
+
+  let arr = null;
+
+  async function fetchJson(url){
+    const resp = await fetch(url, { cache: "no-store" });
+    if(!resp.ok){
+      const txt = await resp.text();
+      throw new Error(`Fetch failed: ${resp.status} ${resp.statusText}\nURL: ${url}\nFirst 120 chars: ${txt.slice(0,120)}`);
+    }
+    return await resp.json();
+  }
+
+  try{
+    const man = await fetchJson(manifestUrl);
+    if(man && Array.isArray(man.parts) && man.parts.length){
+      const parts = [];
+      for(const p of man.parts){
+        const pUrl = new URL(p, base).toString();
+        const data = await fetchJson(pUrl);
+        if(Array.isArray(data)) parts.push(...data);
+        else if(data && Array.isArray(data.questions)) parts.push(...data.questions);
+      }
+      arr = parts;
+    }
+  }catch(e){
+    console.warn("[LVN] Manifest load failed, falling back to single questions.json:", e);
+  }
+
+  if(!arr){
+    const data = await fetchJson(singleUrl);
+    arr = Array.isArray(data) ? data : (data.questions || []);
+  }
+
   QUESTIONS = arr.map((q,idx)=>{
     const qq = {...q};
     qq.id = qq.id || `q_${idx}_${Math.random().toString(36).slice(2,7)}`;
     qq.qtype = qq.qtype || qq.type || "single";
-    qq.options = qq.options || qq.choices || [];
-    qq.answer = qq.answer ?? qq.correct;
+    qq.choices = qq.choices || qq.options || [];
+    qq.answer = (qq.answer !== undefined && qq.answer !== null) ? qq.answer : qq.correct;
     qq.topic = normalizeTopic(qq.topic);
     return qq;
   });
+
+  console.log("[LVN] Loaded questions:", QUESTIONS.length);
 }
 
 // ---------- Practice flow ----------
@@ -975,9 +1147,14 @@ function wireEvents(){
 
 async function boot(){
   try{
-    // PWA offline
-    // service worker disabled in v4.3-debug to prevent caching issues
+    // PWA offline caching
+    if("serviceWorker" in navigator){
+      window.addEventListener("load", ()=> navigator.serviceWorker.register("service-worker.js").catch(()=>{}) );
+    }
 
+  try{
+    // PWA offline
+    
     initSettings();
     wireEvents();
     await loadQuestions();
