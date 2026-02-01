@@ -1,19 +1,20 @@
-LVN / RN HESI PRACTICE — v16 SYSTEM-SPECIFIC LABS
+LVN / RN HESI PRACTICE — v18 NO REPEAT SATA
 
-NEW:
-• Labs now MATCH the disease system
-• Rotating lab panels:
-  - ABGs
-  - Cardiac enzymes
-  - Renal markers
-  - Endocrine markers
-  - Infection markers
-  - Neuro / hepatic labs
-  - OB hemorrhage labs
+FIX:
+• SATA no longer repetitive
+• 7 distinct SATA intents:
+  - Deterioration
+  - Follow-up
+  - Questioning orders
+  - Improvement
+  - Teaching
+  - Safety
+  - Diagnosis support
+• Deterministic rotation prevents repeats during exams
 
 SCALE:
-• 400 patient clusters
-• 1,200 NGN questions
+• 350 patient clusters
+• 1,050 NGN questions
 
 FILES:
 - questions.json
