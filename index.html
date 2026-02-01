@@ -3,35 +3,123 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>LVN HESI Compass A Practice</title>
+  <title>Nurse Review WebApp</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="title">LVN HESI Compass Practice</div>
-      <div class="subtitle">Compass A • Mixed Singles • SATA • Bowtie • Case Clusters</div>
+      <div class="title">Nurse Review Practice</div>
+      <div class="subtitle">Compass A • NCLEX • A&P • Labs • Pharm • MedSurg — Mixed NGN</div>
     </div>
-    <div class="status">
-      <div id="loadStatus" class="pill">Loading…</div>
-      <div id="countStatus" class="pill">Questions: 0 • Clusters: 0</div>
-      <button id="reloadBtn" class="btn">Reload</button>
+
+    <div class="headerRight">
+      <div class="pill" id="loadStatus">Loading…</div>
+      <div class="pill" id="countStatus">Loaded: 0</div>
+      <button class="btn" id="reloadBtn">Reload</button>
     </div>
   </header>
 
   <main class="layout">
-    <section class="left">
+    <aside class="left">
       <div class="card">
-        <div class="cardTitle">Mode</div>
-        <div class="row">
-          <button id="nextBtn" class="btn primary">Next</button>
-          <button id="startExamBtn" class="btn">Start 75Q Exam</button>
-          <button id="resetBtn" class="btn danger">Reset</button>
+        <div class="cardTitle">Build your session</div>
+
+        <div class="grid2">
+          <label class="field">
+            <span>Bank</span>
+            <select id="bankSel"></select>
+          </label>
+
+          <label class="field">
+            <span>System</span>
+            <select id="systemSel"></select>
+          </label>
+
+          <label class="field">
+            <span>Topic</span>
+            <select id="topicSel"></select>
+          </label>
+
+          <label class="field">
+            <span>Type</span>
+            <select id="typeSel">
+              <option value="ANY">ANY</option>
+              <option value="single">Single</option>
+              <option value="sata">SATA</option>
+              <option value="bowtie">NGN Bowtie</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Difficulty</span>
+            <select id="diffSel">
+              <option value="ANY">ANY</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Timer / question</span>
+            <select id="timerSel">
+              <option value="0">Off</option>
+              <option value="30">30s</option>
+              <option value="45">45s</option>
+              <option value="60">60s</option>
+              <option value="90">90s</option>
+              <option value="120">120s</option>
+            </select>
+          </label>
         </div>
+
+        <div class="row">
+          <button class="btn primary" id="nextBtn">Next Practice</button>
+          <button class="btn" id="startExamBtn">Start 75Q Exam</button>
+          <button class="btn danger" id="resetBtn">Reset</button>
+        </div>
+
         <div class="kv">
-          <div><span>Topic:</span> <b id="topicLbl">—</b></div>
-          <div><span>Type:</span> <b id="typeLbl">—</b></div>
-          <div><span>Difficulty:</span> <b id="diffLbl">—</b></div>
+          <div><span>Mode:</span> <b id="modeLbl">Practice</b></div>
+          <div><span>Score:</span> <b id="scoreLbl">0/0</b></div>
+          <div><span>Timer:</span> <b id="timerLbl">—</b></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardTitle">Gamification</div>
+        <div class="kv">
+          <div><span>XP:</span> <b id="xpLbl">0</b></div>
+          <div><span>Streak:</span> <b id="streakLbl">0</b></div>
+          <div><span>Rank:</span> <b id="rankLbl">Novice</b></div>
+        </div>
+
+        <div class="badgeRow" id="badgeRow"></div>
+
+        <div class="gaugeWrap">
+          <div class="gaugeLabel">
+            <span>NCLEX readiness</span>
+            <b id="readyPct">0%</b>
+          </div>
+          <div class="gauge">
+            <div class="gaugeFill" id="gaugeFill" style="width:0%"></div>
+          </div>
+          <div class="muted tiny">Readiness uses accuracy + difficulty + consistency. (Local only)</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardTitle">Theme</div>
+        <div class="grid2">
+          <label class="field">
+            <span>Preset</span>
+            <select id="themeSel"></select>
+          </label>
+          <label class="field">
+            <span>Accent</span>
+            <select id="accentSel"></select>
+          </label>
         </div>
       </div>
 
@@ -45,25 +133,45 @@
         <div class="cardTitle">Answer & Rationale</div>
         <div id="answerArea" class="muted">Select an answer to see feedback.</div>
       </div>
-    </section>
+    </aside>
 
     <section class="right">
       <div class="card qcard">
         <div class="cardTitle">Question</div>
+        <div class="meta">
+          <div><span>Topic:</span> <b id="qTopic">—</b></div>
+          <div><span>Type:</span> <b id="qType">—</b></div>
+          <div><span>Difficulty:</span> <b id="qDiff">—</b></div>
+        </div>
+
         <div id="qStem" class="stem">—</div>
         <div id="qChoices" class="choices"></div>
         <div id="bowtieArea" class="bowtie"></div>
+
         <div class="row end">
           <button id="submitBtn" class="btn primary" disabled>Submit</button>
           <button id="showAnswerBtn" class="btn" disabled>Show Rationale</button>
         </div>
       </div>
+
+      <div class="card">
+        <div class="cardTitle">Leaderboard</div>
+        <div class="row">
+          <label class="field" style="min-width:160px">
+            <span>Initials</span>
+            <input id="initialsInp" maxlength="3" placeholder="ABC" />
+          </label>
+          <button class="btn" id="openLbBtn">Open</button>
+          <button class="btn danger" id="clearLbBtn">Clear</button>
+        </div>
+        <div id="lbArea" class="lbArea muted">Finish an exam to post a score.</div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="muted">
-      If you use GitHub Pages, keep <code>index.html</code>, <code>app.js</code>, <code>styles.css</code>, and <code>questions.json</code> in the same published folder.
+    <div class="muted tiny">
+      Deploy: upload this folder to GitHub Pages. Keep <code>index.html</code>, <code>styles.css</code>, <code>app.js</code>, <code>banks_manifest.json</code>, and <code>banks/</code> together.
     </div>
   </footer>
 

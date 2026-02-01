@@ -1,31 +1,55 @@
-# LVN HESI WebApp — Display Fix v1
+# Nurse Review Practice WebApp — Banks v1
 
-## What this fixes
-- Prevents crashes like: `undefined is not an object (evaluating 'q.choices.forEach')`
-- Renders **Single**, **SATA**, and **NGN Bowtie** questions correctly.
-- Shows **Case Tabs** when a question includes `case.tabs` (case study, vitals, labs, nurse did, MD orders).
-- Counts what loaded: **Questions** and **Clusters** (grouped by `case_group.id` if present).
+## What you asked for (implemented)
+- **Multiple banks** ready for future content:
+  - Compass A (includes your 25-question pilot already)
+  - NCLEX Review (blank)
+  - Anatomy (blank)
+  - Physiology (blank)
+  - Labs (blank)
+  - Pharmacology (blank)
+  - MedSurg (blank)
+- **Body systems dropdown** (or ANY)
+- **Topic dropdown**
+  - Compass A uses your **exact topic list**
+  - Other banks default to ANY until those banks are populated
+- **Timer per question** (Off / 30 / 45 / 60 / 90 / 120 seconds)
+  - Auto-submits when time expires (counts as attempt)
+- **Correct/Incorrect tracking**
+  - Stored in localStorage (local to device/browser)
+- **Badge system**
+  - First Blood, streaks, XP milestones, exam finisher, 80% club
+- **Exam flow**
+  - Start 75Q exam, then automatically saves score to leaderboard on completion
+- **Leaderboard**
+  - Initials + score saved locally (top 20 shown)
+- **NCLEX readiness gauge**
+  - Accuracy + streak + XP boost (local estimate)
+- **Theme customization**
+  - Presets + accent colors
+  - Saved to localStorage
 
-## Files included
-- `index.html` (main page)
-- `app.js` (robust loader + renderer)
-- `styles.css` (clean theme)
-- (You must provide) `questions.json` in the same folder
+## Folder contents
+- `index.html`
+- `styles.css`
+- `app.js`
+- `banks_manifest.json`
+- `banks/compass_a.json` (your 25 questions, Compass A pilot)
+- `banks/nclex_review.json` (empty)
+- `banks/anatomy.json` (empty)
+- `banks/physiology.json` (empty)
+- `banks/labs.json` (empty)
+- `banks/pharmacology.json` (empty)
+- `banks/medsurg.json` (empty)
 
-## Data requirements
-Each question should be an object with:
-- `id` (string)
-- `topic` (string)
-- `difficulty` (number)
-- `qtype` = `single` | `sata` | `bowtie`
-- `stem` (string)
-- For single/sata: `choices` (array)
-- For bowtie: `bowtie` object with left/middle/right options and answers
-- Optional: `case.tabs` with keys: `case_study`, `vitals`, `labs`, `nursing_actions`, `md_orders`
-- Optional clustering: `case_group: { id, sequence, total, title }`
+## How to deploy (GitHub Pages)
+Upload the entire folder contents to your Pages published root, keeping the same structure:
+- `index.html` at root
+- `banks/` folder present
+- `banks_manifest.json` at root
 
-## Deploy to GitHub Pages
-Upload these files to the published folder (root), along with your `questions.json`.
-No service worker is used in this build, so caching issues are minimized.
+Then open:
+- `https://YOURNAME.github.io/YOURREPO/`
 
-Version: v1
+## Version
+Banks v1
