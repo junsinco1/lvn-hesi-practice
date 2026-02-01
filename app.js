@@ -1,3 +1,105 @@
+
+
+// ---------- Compass A topic blueprint (weights based on # items tested) ----------
+const COMPASS_A_BLUEPRINT = {
+  "Informatics-Technology": 2,
+  "Immunity": 1,
+  "Gwth & Devlp": 4,
+  "Fluid & Electrolyte": 2,
+  "Leadership": 4,
+  "Intrapartum": 2,
+  "Spirit of Inquiry": 1,
+  "Health Promotion & Maintenance": 12,
+  "Nursing informatics": 3,
+  "Oxygenation-Gas Exchange": 11,
+  "Professional identity": 3,
+  "Infection": 11,
+  "Trauma/Emergency": 2,
+  "Advocacy/ Ethical/Legal Issues-Ethics": 8,
+  "Reproductive": 4,
+  "Health, Wellness & Illness": 21,
+  "Adherence": 1,
+  "Functional Ability": 1,
+  "Health promotion": 19,
+  "Motivation": 2,
+  "Anxty/Commnictns": 4,
+  "Analysis": 14,
+  "Sexuality/Reproduction": 5,
+  "Comfort": 7,
+  "Pain": 2,
+  "Pediatrics": 11,
+  "Psychosocial Integrity": 10,
+  "Maternity": 8,
+  "Analyze Cues": 9,
+  "Professional Behaviors -Professionalism": 7,
+  "Fundamentals": 22,
+  "Safety": 24,
+  "Prioritize Hypotheses": 8,
+  "Take Actions": 44,
+  "Med Administration": 9,
+  "Math": 4,
+  "Postpartum": 2,
+  "Health Policy/Systems": 10,
+  "Health Care Law": 4,
+  "Health Care Policy": 6,
+  "Implementation": 45,
+  "Human Flourishing": 16,
+  "Evidence Based Practice -Evidence": 83,
+  "Quality Improvement (QI)": 52,
+  "Evidence-based Practice (EBP)": 63,
+  "Clinical Judgment-Clin Decision-Critical Thinking": 95,
+  "Geriatrics": 7,
+  "Nursing interventions": 87,
+  "Physiological Integrity": 48,
+  "Reduce Risk Potential": 11,
+  "Pharm & Parenteral Tx": 14,
+  "Basic Care/Comfort": 11,
+  "Physio Adaptation": 12,
+  "Professional Issues": 44,
+  "Collaboration/ Managing Care": 23,
+  "Care Coordination": 19,
+  "Documentation": 2,
+  "Nursing Judgment": 86,
+  "Patient-centered Care": 32,
+  "Assessment": 17,
+  "Community Hlth": 2,
+  "Antepartum": 2,
+  "Recognize Cues": 19,
+  "Teaching and Learning-Patient Education": 16,
+  "Newborn": 2,
+  "Teamwork and Collaboration": 22,
+  "Evaluate Outcomes": 13,
+  "Grief & Loss": 7,
+  "Palliation": 1,
+  "Stress & Coping": 6,
+  "Caregiving": 2,
+  "Depress/Grief": 8,
+  "Generate Solutions": 16,
+  "Medical Surgical": 26,
+  "Psychiatric/Mental Hlth": 9,
+  "Tissue integrity": 6,
+  "Evaluation": 12,
+  "Safe/Effective Environment": 30,
+  "Safety & Infect Control": 12,
+  "Coordinated Care (PN)": 18,
+  "Planning": 12,
+  "Critical Care": 1,
+  "Teaching": 10,
+  "Basic Nursing Skills": 10,
+  "Abuse": 1,
+  "Behaviors": 1,
+  "Addiction": 1,
+  "Intracranial regulation": 3,
+  "Thermoregulation": 1,
+  "Perfusion": 6,
+  "Clotting": 3,
+  "Sensory": 2,
+  "Sensory/Perception": 2,
+  "Legal/Ethical": 7,
+  "Cellular regulation": 1,
+  "Immune/Hematology": 6,
+  "Pathophysiology": 8
+};
 // Nurse Review WebApp — Banks v1 (No Service Worker)
 // Features: bank/system/topic dropdowns, timer, scoring, badges, readiness gauge, leaderboard.
 // Data: banks_manifest.json + banks/*.json. Each question should include bank/system/topic/qtype/choices...
@@ -277,6 +379,116 @@ function matchesFilters(q){
 function pickFrom(arr){
   if(!arr.length) return null;
   return arr[Math.floor(Math.random()*arr.length)];
+}
+
+
+function blueprintWeight(topic){
+  if(el.bankSel.value !== "compass_a") return 1;
+  return COMPASS_A_BLUEPRINT[topic] || 1;
+}
+function weightedTopicPick(topicKeys, weightFn){
+  if(!topicKeys.length) return null;
+  let sum = 0;
+  const weights = topicKeys.map(t=>{
+    const w = Math.max(0.0001, weightFn(t));
+    sum += w;
+    return w;
+  });
+  let r = Math.random() * sum;
+  for(let i=0;i<topicKeys.length;i++){
+    r -= weights[i];
+    if(r <= 0) return topicKeys[i];
+  }
+  return topicKeys[topicKeys.length-1];
+}
+function groupByTopic(itemsArr){
+  const map = new Map();
+  for(const q of itemsArr){
+    const t = (q.topic || "Untitled");
+    if(!map.has(t)) map.set(t, []);
+    map.get(t).push(q);
+  }
+  return map;
+}
+function buildWeightedExamQueue(eligibleSingles, eligibleClusters){
+  const usedQ = new Set();
+  const usedClusters = new Set();
+  const queue = [];
+
+  const singlesByTopic = groupByTopic(eligibleSingles);
+
+  const clustersByTopic = new Map();
+  for(const cl of eligibleClusters){
+    const first = cl[0];
+    const t = (first?.topic || "Untitled");
+    if(!clustersByTopic.has(t)) clustersByTopic.set(t, []);
+    clustersByTopic.get(t).push(cl);
+  }
+
+  function pickSingle(){
+    const topics = [...singlesByTopic.keys()].filter(t => singlesByTopic.get(t).some(q => !usedQ.has(q.id)));
+    if(!topics.length) return null;
+    const t = weightedTopicPick(topics, blueprintWeight);
+    const candidates = singlesByTopic.get(t).filter(q => !usedQ.has(q.id));
+    if(!candidates.length) return null;
+    return candidates[Math.floor(Math.random()*candidates.length)];
+  }
+
+  function pickCluster(){
+    const topics = [...clustersByTopic.keys()].filter(t => clustersByTopic.get(t).some(cl => {
+      const cid = cl[0]?.case_group?.id || cl[0]?.case?.id || cl[0]?.cluster_id || cl._cluster_id || null;
+      return !usedClusters.has(cid || cl);
+    }));
+    if(!topics.length) return null;
+    const t = weightedTopicPick(topics, blueprintWeight);
+    const options = clustersByTopic.get(t) || [];
+    const available = options.filter(cl=>{
+      const cid = cl[0]?.case_group?.id || cl[0]?.case?.id || cl[0]?.cluster_id || cl._cluster_id || null;
+      return !usedClusters.has(cid || cl);
+    });
+    if(!available.length) return null;
+    return available[Math.floor(Math.random()*available.length)];
+  }
+
+  const maxLoops = 5000;
+  let loops = 0;
+
+  while(queue.length < 75 && loops++ < maxLoops){
+    const remaining = 75 - queue.length;
+    const canCluster = eligibleClusters.length && remaining >= 2;
+    const preferCluster = canCluster && (Math.random() < 0.40);
+
+    if(preferCluster){
+      const cl = pickCluster();
+      if(cl){
+        const cid = cl[0]?.case_group?.id || cl[0]?.case?.id || cl[0]?.cluster_id || cl._cluster_id || cl;
+        usedClusters.add(cid);
+        for(const q of cl){
+          if(queue.length >= 75) break;
+          if(!q || !q.id) continue;
+          if(usedQ.has(q.id)) continue;
+          usedQ.add(q.id);
+          queue.push(q);
+        }
+        continue;
+      }
+    }
+
+    const q = pickSingle();
+    if(q && q.id && !usedQ.has(q.id)){
+      usedQ.add(q.id);
+      queue.push(q);
+      continue;
+    }
+
+    const fallbackPool = eligibleSingles.concat(...eligibleClusters);
+    const fb = fallbackPool.find(x=>x && x.id && !usedQ.has(x.id));
+    if(!fb) break;
+    usedQ.add(fb.id);
+    queue.push(fb);
+  }
+
+  return queue.slice(0,75);
 }
 
 function pickNext(){
@@ -608,16 +820,32 @@ function startExam(){
   el.modeLbl.textContent = "Exam";
   el.scoreLbl.textContent = "0/0";
 
-  for(let i=0;i<75;i++){
-    const q = pickNext();
-    if(q) examQueue.push(q);
+  const eligibleSingles = singles.filter(matchesFilters);
+  const eligibleClusters = clusters
+    .map(c=>c.filter(matchesFilters))
+    .filter(c=>c.length);
+
+  const useBlueprint = (el.bankSel.value === "compass_a") && ((el.topicSel.value || "ANY") === "ANY");
+
+  if(useBlueprint){
+    examQueue = buildWeightedExamQueue(eligibleSingles, eligibleClusters);
+  }else{
+    const used = new Set();
+    for(let k=0;k<2000 && examQueue.length<75;k++){
+      const q = pickNext();
+      if(!q || !q.id) continue;
+      if(used.has(q.id)) continue;
+      used.add(q.id);
+      examQueue.push(q);
+    }
   }
+
   if(!examQueue.length){
     el.loadStatus.textContent = "No questions match filters";
     return;
   }
   render(examQueue[0]);
-  el.loadStatus.textContent = `Exam 1/${examQueue.length}`;
+  el.loadStatus.textContent = `Exam 1/${examQueue.length}` + (useBlueprint ? " • Blueprint" : "");
 }
 
 function next(){

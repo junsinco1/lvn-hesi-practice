@@ -53,3 +53,8 @@ Then open:
 
 ## Version
 Banks v1
+
+
+## v1.1 (Blueprint Exams)
+- Compass A: 75Q exams are **weighted by your Compass A topic blueprint** when Bank=Compass A and Topic=ANY.
+- Exam builder de-dupes questions and mixes clusters + singles.
