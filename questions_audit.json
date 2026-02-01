@@ -5,39 +5,53 @@
     "bowtie": 1,
     "sata": 1398
   },
-  "unique_answer_strings_single": 108,
-  "most_common_single_answers": [
+  "topics_top10": [
     [
-      "Document the finding first and address it after completing charting",
-      306
+      "Med Administration",
+      1897
     ],
     [
-      "Provide reassurance only and encourage rest without additional assessment",
-      291
+      "Oxygenation-Gas Exchange",
+      834
     ],
     [
-      "Delay intervention and reassess in 30 minutes because the client is stable",
-      283
+      "Assessment",
+      667
     ],
     [
-      "Hold all fluids without assessing hemodynamics or provider orders",
-      281
+      "Math",
+      550
     ],
     [
-      "Delegate assessment of the unstable client to assistive personnel",
-      265
+      "Perfusion",
+      394
     ],
     [
-      "Encourage oral intake immediately despite aspiration risk",
-      259
+      "Psychiatric/Mental Health",
+      346
     ],
     [
-      "Administer the medication without verifying allergies, contraindications, or the order parameters",
-      258
+      "Infection",
+      296
     ],
     [
-      "\u201cI will follow the diet/med plan and monitor for red-flag signs like severe headache, vision changes, or bleeding.\u201d",
-      111
+      "Implementation",
+      206
+    ],
+    [
+      "Fluid & Electrolyte",
+      196
+    ],
+    [
+      "Antepartum",
+      145
     ]
+  ],
+  "case_coverage": {
+    "has_case": 6000,
+    "missing_case": 0
+  },
+  "bowtie_vitals_unique_samples": [
+    "e3b4c3088c27bc87b85c865ac2b279eb"
   ]
 }
