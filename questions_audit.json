@@ -1,27 +1,43 @@
 {
-  "total": 5000,
-  "unique_stems": 4778,
-  "duplicate_stems_exact": 216,
-  "top_single_answers": [
+  "total": 6000,
+  "types": {
+    "single": 4601,
+    "bowtie": 1,
+    "sata": 1398
+  },
+  "unique_answer_strings_single": 108,
+  "most_common_single_answers": [
     [
-      "delay action and reassess later because the client is not in acute distress per facility protocol",
-      67
+      "Document the finding first and address it after completing charting",
+      306
     ],
     [
-      "document the finding without implementing any intervention and reassess within 5\u201310 minutes",
-      63
+      "Provide reassurance only and encourage rest without additional assessment",
+      291
     ],
     [
-      "provide reassurance only and encourage rest without further assessment per facility protocol",
-      62
+      "Delay intervention and reassess in 30 minutes because the client is stable",
+      283
     ],
     [
-      "document the finding without implementing any intervention and notify the provider with SBAR if not improving",
-      61
+      "Hold all fluids without assessing hemodynamics or provider orders",
+      281
     ],
     [
-      "provide reassurance only and encourage rest without further assessment while maintaining safety precautions",
-      61
+      "Delegate assessment of the unstable client to assistive personnel",
+      265
+    ],
+    [
+      "Encourage oral intake immediately despite aspiration risk",
+      259
+    ],
+    [
+      "Administer the medication without verifying allergies, contraindications, or the order parameters",
+      258
+    ],
+    [
+      "\u201cI will follow the diet/med plan and monitor for red-flag signs like severe headache, vision changes, or bleeding.\u201d",
+      111
     ]
   ]
 }
