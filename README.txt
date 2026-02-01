@@ -1,14 +1,14 @@
-LVN / RN HESI PRACTICE — v20 PROGRESSIVE CLUSTERS
+LVN / RN HESI PRACTICE — v21 PROGRESSIVE LAB TRENDS
 
 NEW:
-• True time-based progression per patient
-• Baseline → deterioration → post-intervention
-• Questions tied to phase of care
-• SATA changes intent based on timeline
+• Lab values TREND over time
+• Baseline → worsening → improving
+• Trends tied to disease process
+• SATA requires interpreting lab direction, not static values
 
-STRUCTURE:
-- timeline[] controls vitals/labs by phase
-- questions[] reference phase context
+SCALE:
+• 220 progressive patient clusters
+• ~900 NGN questions
 
 FILES:
 - questions.json
