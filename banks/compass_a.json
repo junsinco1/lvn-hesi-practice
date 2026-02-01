@@ -40,39 +40,41 @@
     "id": "CA-003",
     "type": "bowtie",
     "archetype": "cause_action_outcome",
-    "left": {
-      "prompt": "Most likely physiologic problem",
-      "options": [
-        "Air trapping with alveolar hypoventilation",
-        "Acute pulmonary embolism",
-        "Left ventricular failure",
-        "Septic shock"
-      ],
-      "answer": 0
-    },
-    "middle": {
-      "prompt": "Best nursing action",
-      "options": [
-        "Administer bronchodilator and titrate oxygen cautiously",
-        "Initiate aggressive IV fluids",
-        "Prepare for blood transfusion",
-        "Apply abdominal binder"
-      ],
-      "answer": 0
-    },
-    "right": {
-      "prompt": "Expected measurable outcome",
-      "options": [
-        "Improved PaO\u2082 and reduced work of breathing",
-        "Immediate normalization of ABG",
-        "Resolution of fever",
-        "Decrease in blood glucose"
-      ],
-      "answer": 0
-    },
     "rationale": "Bronchodilation improves ventilation and gas exchange, reducing CO\u2082 retention and hypoxemia.",
     "cluster": "CL-RESP-01",
-    "domain": "MedSurg-Respiratory"
+    "domain": "MedSurg-Respiratory",
+    "bowtie": {
+      "left": {
+        "prompt": "Most likely physiologic problem",
+        "options": [
+          "Air trapping with alveolar hypoventilation",
+          "Acute pulmonary embolism",
+          "Left ventricular failure",
+          "Septic shock"
+        ],
+        "answer": 0
+      },
+      "middle": {
+        "prompt": "Best nursing action",
+        "options": [
+          "Administer bronchodilator and titrate oxygen cautiously",
+          "Initiate aggressive IV fluids",
+          "Prepare for blood transfusion",
+          "Apply abdominal binder"
+        ],
+        "answer": 0
+      },
+      "right": {
+        "prompt": "Expected measurable outcome",
+        "options": [
+          "Improved PaO\u2082 and reduced work of breathing",
+          "Immediate normalization of ABG",
+          "Resolution of fever",
+          "Decrease in blood glucose"
+        ],
+        "answer": 0
+      }
+    }
   },
   {
     "id": "CA-004",
@@ -115,39 +117,41 @@
     "id": "CA-006",
     "type": "bowtie",
     "archetype": "cause_action_outcome",
-    "left": {
-      "prompt": "Underlying problem",
-      "options": [
-        "Primary pathophysiologic process",
-        "Unrelated condition",
-        "Medication error",
-        "Psychological stressor"
-      ],
-      "answer": 0
-    },
-    "middle": {
-      "prompt": "Priority action",
-      "options": [
-        "Target underlying process",
-        "Delay intervention",
-        "Treat unrelated symptom",
-        "Ignore findings"
-      ],
-      "answer": 0
-    },
-    "right": {
-      "prompt": "Expected result",
-      "options": [
-        "Physiologic stabilization",
-        "No change",
-        "Worsening",
-        "Unrelated improvement"
-      ],
-      "answer": 0
-    },
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-MEDSURG-CARDIAC",
-    "domain": "MedSurg-Cardiac"
+    "domain": "MedSurg-Cardiac",
+    "bowtie": {
+      "left": {
+        "prompt": "Underlying problem",
+        "options": [
+          "Primary pathophysiologic process",
+          "Unrelated condition",
+          "Medication error",
+          "Psychological stressor"
+        ],
+        "answer": 0
+      },
+      "middle": {
+        "prompt": "Priority action",
+        "options": [
+          "Target underlying process",
+          "Delay intervention",
+          "Treat unrelated symptom",
+          "Ignore findings"
+        ],
+        "answer": 0
+      },
+      "right": {
+        "prompt": "Expected result",
+        "options": [
+          "Physiologic stabilization",
+          "No change",
+          "Worsening",
+          "Unrelated improvement"
+        ],
+        "answer": 0
+      }
+    }
   },
   {
     "id": "CA-007",
@@ -190,39 +194,41 @@
     "id": "CA-009",
     "type": "bowtie",
     "archetype": "cause_action_outcome",
-    "left": {
-      "prompt": "Underlying problem",
-      "options": [
-        "Primary pathophysiologic process",
-        "Unrelated condition",
-        "Medication error",
-        "Psychological stressor"
-      ],
-      "answer": 0
-    },
-    "middle": {
-      "prompt": "Priority action",
-      "options": [
-        "Target underlying process",
-        "Delay intervention",
-        "Treat unrelated symptom",
-        "Ignore findings"
-      ],
-      "answer": 0
-    },
-    "right": {
-      "prompt": "Expected result",
-      "options": [
-        "Physiologic stabilization",
-        "No change",
-        "Worsening",
-        "Unrelated improvement"
-      ],
-      "answer": 0
-    },
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-RENAL",
-    "domain": "Renal"
+    "domain": "Renal",
+    "bowtie": {
+      "left": {
+        "prompt": "Underlying problem",
+        "options": [
+          "Primary pathophysiologic process",
+          "Unrelated condition",
+          "Medication error",
+          "Psychological stressor"
+        ],
+        "answer": 0
+      },
+      "middle": {
+        "prompt": "Priority action",
+        "options": [
+          "Target underlying process",
+          "Delay intervention",
+          "Treat unrelated symptom",
+          "Ignore findings"
+        ],
+        "answer": 0
+      },
+      "right": {
+        "prompt": "Expected result",
+        "options": [
+          "Physiologic stabilization",
+          "No change",
+          "Worsening",
+          "Unrelated improvement"
+        ],
+        "answer": 0
+      }
+    }
   },
   {
     "id": "CA-010",
@@ -265,39 +271,41 @@
     "id": "CA-012",
     "type": "bowtie",
     "archetype": "cause_action_outcome",
-    "left": {
-      "prompt": "Underlying problem",
-      "options": [
-        "Primary pathophysiologic process",
-        "Unrelated condition",
-        "Medication error",
-        "Psychological stressor"
-      ],
-      "answer": 0
-    },
-    "middle": {
-      "prompt": "Priority action",
-      "options": [
-        "Target underlying process",
-        "Delay intervention",
-        "Treat unrelated symptom",
-        "Ignore findings"
-      ],
-      "answer": 0
-    },
-    "right": {
-      "prompt": "Expected result",
-      "options": [
-        "Physiologic stabilization",
-        "No change",
-        "Worsening",
-        "Unrelated improvement"
-      ],
-      "answer": 0
-    },
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-NEURO",
-    "domain": "Neuro"
+    "domain": "Neuro",
+    "bowtie": {
+      "left": {
+        "prompt": "Underlying problem",
+        "options": [
+          "Primary pathophysiologic process",
+          "Unrelated condition",
+          "Medication error",
+          "Psychological stressor"
+        ],
+        "answer": 0
+      },
+      "middle": {
+        "prompt": "Priority action",
+        "options": [
+          "Target underlying process",
+          "Delay intervention",
+          "Treat unrelated symptom",
+          "Ignore findings"
+        ],
+        "answer": 0
+      },
+      "right": {
+        "prompt": "Expected result",
+        "options": [
+          "Physiologic stabilization",
+          "No change",
+          "Worsening",
+          "Unrelated improvement"
+        ],
+        "answer": 0
+      }
+    }
   },
   {
     "id": "CA-013",
@@ -340,39 +348,41 @@
     "id": "CA-015",
     "type": "bowtie",
     "archetype": "cause_action_outcome",
-    "left": {
-      "prompt": "Underlying problem",
-      "options": [
-        "Primary pathophysiologic process",
-        "Unrelated condition",
-        "Medication error",
-        "Psychological stressor"
-      ],
-      "answer": 0
-    },
-    "middle": {
-      "prompt": "Priority action",
-      "options": [
-        "Target underlying process",
-        "Delay intervention",
-        "Treat unrelated symptom",
-        "Ignore findings"
-      ],
-      "answer": 0
-    },
-    "right": {
-      "prompt": "Expected result",
-      "options": [
-        "Physiologic stabilization",
-        "No change",
-        "Worsening",
-        "Unrelated improvement"
-      ],
-      "answer": 0
-    },
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-OB-INTRAPARTUM",
-    "domain": "OB-Intrapartum"
+    "domain": "OB-Intrapartum",
+    "bowtie": {
+      "left": {
+        "prompt": "Underlying problem",
+        "options": [
+          "Primary pathophysiologic process",
+          "Unrelated condition",
+          "Medication error",
+          "Psychological stressor"
+        ],
+        "answer": 0
+      },
+      "middle": {
+        "prompt": "Priority action",
+        "options": [
+          "Target underlying process",
+          "Delay intervention",
+          "Treat unrelated symptom",
+          "Ignore findings"
+        ],
+        "answer": 0
+      },
+      "right": {
+        "prompt": "Expected result",
+        "options": [
+          "Physiologic stabilization",
+          "No change",
+          "Worsening",
+          "Unrelated improvement"
+        ],
+        "answer": 0
+      }
+    }
   },
   {
     "id": "CA-016",
@@ -415,39 +425,41 @@
     "id": "CA-018",
     "type": "bowtie",
     "archetype": "cause_action_outcome",
-    "left": {
-      "prompt": "Underlying problem",
-      "options": [
-        "Primary pathophysiologic process",
-        "Unrelated condition",
-        "Medication error",
-        "Psychological stressor"
-      ],
-      "answer": 0
-    },
-    "middle": {
-      "prompt": "Priority action",
-      "options": [
-        "Target underlying process",
-        "Delay intervention",
-        "Treat unrelated symptom",
-        "Ignore findings"
-      ],
-      "answer": 0
-    },
-    "right": {
-      "prompt": "Expected result",
-      "options": [
-        "Physiologic stabilization",
-        "No change",
-        "Worsening",
-        "Unrelated improvement"
-      ],
-      "answer": 0
-    },
     "rationale": "Addressing the primary process leads to stabilization.",
     "cluster": "CL-PSYCH",
-    "domain": "Psych"
+    "domain": "Psych",
+    "bowtie": {
+      "left": {
+        "prompt": "Underlying problem",
+        "options": [
+          "Primary pathophysiologic process",
+          "Unrelated condition",
+          "Medication error",
+          "Psychological stressor"
+        ],
+        "answer": 0
+      },
+      "middle": {
+        "prompt": "Priority action",
+        "options": [
+          "Target underlying process",
+          "Delay intervention",
+          "Treat unrelated symptom",
+          "Ignore findings"
+        ],
+        "answer": 0
+      },
+      "right": {
+        "prompt": "Expected result",
+        "options": [
+          "Physiologic stabilization",
+          "No change",
+          "Worsening",
+          "Unrelated improvement"
+        ],
+        "answer": 0
+      }
+    }
   },
   {
     "id": "CA-019",
