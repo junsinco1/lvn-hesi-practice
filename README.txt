@@ -1,15 +1,23 @@
-LVN / RN HESI PRACTICE — v11
-1000 QUESTION CREATIVE BANK
+LVN / RN HESI PRACTICE — v13 PATIENT CLUSTERS (EXACT TOPICS)
 
-FEATURES:
-• 1000 unique questions
-• Mixed formats: single, SATA, NGN bowtie
-• Broad clinical diversity across systems
-• Emphasis on judgment, prioritization, and safety
-• Suitable for LVN and RN hard-mode practice
+WHAT THIS IS:
+• Patient-based NGN clusters
+• Each cluster maps to ONE of your exact HESI Compass topics
+• Each patient includes:
+  - Vitals
+  - Labs
+  - Condition
+• Linked questions per patient:
+  1) Single-answer (assessment/priority)
+  2) SATA (clinical judgment)
+  3) NGN Bowtie (problem → action → outcome)
+
+SCALE:
+• 300 patient clusters
+• ~900 linked questions
 
 FILES:
 - questions.json
 
-USAGE:
+DEPLOY:
 Replace your existing questions.json with this file.
