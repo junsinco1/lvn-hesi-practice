@@ -1,15 +1,18 @@
-Compass A Bank (REPLACED)
-Version: CompassA-1000 v2 (replaces 25Q pilot)
+NCLEX Review Bank
+Version: NCLEX-1000 v1
 Date: 2026-02-01
 
 Contents:
-- banks/compass_a.json (1000 questions)
+- banks/nclex_review.json (1000 questions)
+
 Mix:
-- Progressive patient clusters (120 clusters x 3 = 360 items)
-- Single-choice (370)
-- SATA (200)
-- NGN Bowtie (70)
+- 100 progressive clusters (4 questions each) = 400
+- Single-choice = 340
+- SATA = 190
+- NGN Bowtie = 50
+- Medication math/unit conversion = 20
 
 Notes:
-- Drop 'banks/compass_a.json' into your webapp /banks folder, replacing the old pilot file.
-- UI expects choices for single/SATA, and bowtie structure for bowtie items.
+- Drop into your webapp /banks folder.
+- Bank name: "NCLEX Review"
+- Filename: nclex_review.json
