@@ -1,9 +1,13 @@
-LVN HESI PRACTICE — v23 ARCHETYPE-MIX (1000 QUESTIONS)
+Nurse Review WebApp - Compass A Bank
+Version: CompassA-1000 v1
+Date: 2026-02-01
 
-This version focuses on TRUE variety:
-• Different cognitive tasks (mechanism, interpretation, meds, scope, teaching, math, least-wrong)
-• Answer choices do not reuse action templates
-• Language intentionally varied
-
-INSTALL:
-Replace questions.json with this file.
+Contents:
+- banks/compass_a.json  (1000 questions total)
+  * Includes progressive patient clusters (3-question sequences)
+  * Mix of Single, SATA, and NGN Bowtie
+  * Many questions include Case Tabs: case_study, vitals, labs, nursing_actions, md_orders
+  * Includes medication math & unit conversion items
+Notes:
+- This file is designed to drop into the webapp 'banks/' folder.
+- Bank label: "Compass A"
