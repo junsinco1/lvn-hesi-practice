@@ -1,0 +1,4252 @@
+[
+  {
+    "id": "ANAT-0001",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0002",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0003",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0004",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0005",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0006",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0007",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0008",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0009",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0010",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0011",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0012",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0013",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0014",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0015",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0016",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0017",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0018",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0019",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0020",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0021",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0022",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0023",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0024",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0025",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0026",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0027",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0028",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0029",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0030",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0031",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0032",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0033",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0034",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0035",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0036",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0037",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0038",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0039",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0040",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0041",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0042",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0043",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0044",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0045",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0046",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0047",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0048",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0049",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0050",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0051",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0052",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0053",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0054",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0055",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0056",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0057",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0058",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0059",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0060",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0061",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0062",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0063",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0064",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0065",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0066",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0067",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0068",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0069",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0070",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0071",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0072",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0073",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0074",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0075",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0076",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0077",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0078",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0079",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0080",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0081",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0082",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0083",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0084",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0085",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0086",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0087",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0088",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0089",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0090",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0091",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0092",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0093",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0094",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0095",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0096",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0097",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0098",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0099",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0100",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0101",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0102",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0103",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0104",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0105",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0106",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0107",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0108",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0109",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0110",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0111",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0112",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0113",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0114",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0115",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0116",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0117",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0118",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0119",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0120",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0121",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0122",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0123",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0124",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0125",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0126",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0127",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0128",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0129",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0130",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0131",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0132",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0133",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0134",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0135",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0136",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0137",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0138",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0139",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0140",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0141",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0142",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0143",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0144",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0145",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0146",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0147",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0148",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0149",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0150",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0151",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0152",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0153",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0154",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0155",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0156",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0157",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0158",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0159",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0160",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0161",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0162",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0163",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0164",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0165",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0166",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0167",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0168",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0169",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0170",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0171",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0172",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0173",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0174",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0175",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0176",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0177",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0178",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0179",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0180",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0181",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0182",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0183",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0184",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0185",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0186",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0187",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0188",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0189",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0190",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0191",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0192",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0193",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0194",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0195",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0196",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0197",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0198",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0199",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0200",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0201",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0202",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0203",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0204",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0205",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0206",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0207",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0208",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0209",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0210",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0211",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0212",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0213",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0214",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0215",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0216",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0217",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0218",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0219",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0220",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0221",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which structure transmits auditory vibrations to the inner ear?",
+    "choices": [
+      "Ossicles",
+      "Cochlea",
+      "Tympanic membrane",
+      "Eustachian tube"
+    ],
+    "answer": "Ossicles",
+    "rationale": "This structure plays the primary anatomical role within the sensory system."
+  },
+  {
+    "id": "ANAT-0222",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0223",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0224",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0225",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0226",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0227",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0228",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0229",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0230",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0231",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0232",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0233",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0234",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which structure directly facilitates gas exchange at the alveolar level?",
+    "choices": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea",
+      "Pleura"
+    ],
+    "answer": "Alveoli",
+    "rationale": "This structure plays the primary anatomical role within the respiratory system."
+  },
+  {
+    "id": "ANAT-0235",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0236",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0237",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical feature protects the brain from mechanical injury?",
+    "choices": [
+      "Cranial bones",
+      "Cerebellum",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": "Cranial bones",
+    "rationale": "This structure plays the primary anatomical role within the neurologic system."
+  },
+  {
+    "id": "ANAT-0238",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which nephron component is responsible for filtrate concentration?",
+    "choices": [
+      "Loop of Henle",
+      "Glomerulus",
+      "Collecting duct",
+      "Proximal tubule"
+    ],
+    "answer": "Loop of Henle",
+    "rationale": "This structure plays the primary anatomical role within the renal/urinary system."
+  },
+  {
+    "id": "ANAT-0239",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure is responsible for bile storage and concentration?",
+    "choices": [
+      "Gallbladder",
+      "Pancreas",
+      "Jejunum",
+      "Appendix"
+    ],
+    "answer": "Gallbladder",
+    "rationale": "This structure plays the primary anatomical role within the gi/hepatic system."
+  },
+  {
+    "id": "ANAT-0240",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which skin layer contains blood vessels and sensory receptors?",
+    "choices": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Stratum corneum"
+    ],
+    "answer": "Dermis",
+    "rationale": "This structure plays the primary anatomical role within the integumentary system."
+  },
+  {
+    "id": "ANAT-0241",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0242",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0243",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure anchors skeletal muscle to bone?",
+    "choices": [
+      "Tendon",
+      "Ligament",
+      "Cartilage",
+      "Bursa"
+    ],
+    "answer": "Tendon",
+    "rationale": "This structure plays the primary anatomical role within the musculoskeletal system."
+  },
+  {
+    "id": "ANAT-0244",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which gland secretes hormones that regulate metabolic rate?",
+    "choices": [
+      "Thyroid gland",
+      "Adrenal cortex",
+      "Pancreas",
+      "Pituitary posterior lobe"
+    ],
+    "answer": "Thyroid gland",
+    "rationale": "This structure plays the primary anatomical role within the endocrine system."
+  },
+  {
+    "id": "ANAT-0245",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which anatomical site primarily regulates sodium balance?",
+    "choices": [
+      "Kidneys",
+      "Adrenal medulla",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "Kidneys",
+    "rationale": "This structure plays the primary anatomical role within the fluids & electrolytes system."
+  },
+  {
+    "id": "ANAT-0246",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0247",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which structure produces gametes in the female reproductive system?",
+    "choices": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "answer": "Ovary",
+    "rationale": "This structure plays the primary anatomical role within the reproductive system."
+  },
+  {
+    "id": "ANAT-0248",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which anatomical structure is primarily responsible for maintaining unidirectional blood flow through the heart?",
+    "choices": [
+      "Mitral valve",
+      "Left ventricle",
+      "Aorta",
+      "Pericardium"
+    ],
+    "answer": "Mitral valve",
+    "rationale": "This structure plays the primary anatomical role within the cardiovascular system."
+  },
+  {
+    "id": "ANAT-0249",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  },
+  {
+    "id": "ANAT-0250",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology anatomy",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which organ is responsible for T-cell maturation?",
+    "choices": [
+      "Thymus",
+      "Spleen",
+      "Bone marrow",
+      "Lymph node"
+    ],
+    "answer": "Thymus",
+    "rationale": "This structure plays the primary anatomical role within the immune/hematology system."
+  }
+]
