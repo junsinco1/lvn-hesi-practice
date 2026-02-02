@@ -1,0 +1,2510 @@
+[
+  {
+    "id": "CA-0165",
+    "qtype": "single",
+    "topic": "Oxygenation / Pulmonary",
+    "difficulty": 5,
+    "stem": "A client with pneumonia suddenly becomes confused and restless. Which finding best explains this change?",
+    "choices": [
+      "Rising temperature",
+      "Decreased PaO\u2082",
+      "Increased white blood cell count",
+      "Elevated blood glucose"
+    ],
+    "answer": "Decreased PaO\u2082",
+    "rationale": "Early hypoxemia often presents as restlessness and confusion before overt respiratory distress or abnormal vital signs appear.",
+    "bank": "Compass A",
+    "system": "Oxygenation / Pulmonary",
+    "choice_rationales": {
+      "Rising temperature": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Decreased PaO\u2082": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Increased white blood cell count": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Elevated blood glucose": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0166",
+    "qtype": "sata",
+    "topic": "Fluids & Electrolytes \u2013 Hypernatremia",
+    "difficulty": 5,
+    "stem": "Which findings are expected in hypernatremia? Select all that apply.",
+    "choices": [
+      "Thirst",
+      "Dry mucous membranes",
+      "Confusion",
+      "Seizures",
+      "Bounding pulses"
+    ],
+    "answer": [
+      "Thirst",
+      "Dry mucous membranes",
+      "Confusion",
+      "Seizures"
+    ],
+    "rationale": "Cellular dehydration causes neurologic changes and intense thirst. Bounding pulses are not a defining feature.",
+    "bank": "Compass A",
+    "system": "Fluids & Electrolytes",
+    "choice_rationales": {
+      "Thirst": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Dry mucous membranes": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Confusion": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Seizures": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Bounding pulses": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0167",
+    "qtype": "single",
+    "topic": "Leadership / Time Management",
+    "difficulty": 5,
+    "stem": "Which task should the nurse complete first at the start of a shift?",
+    "choices": [
+      "Review the medication administration record",
+      "Assess the client with unstable vital signs",
+      "Check email messages",
+      "Complete charting from previous shift"
+    ],
+    "answer": "Assess the client with unstable vital signs",
+    "rationale": "Client instability takes priority over administrative tasks to prevent deterioration.",
+    "bank": "Compass A",
+    "system": "Leadership / Time Management",
+    "choice_rationales": {
+      "Review the medication administration record": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Assess the client with unstable vital signs": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Check email messages": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Complete charting from previous shift": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0168",
+    "qtype": "single",
+    "topic": "Growth & Development \u2013 School Age",
+    "difficulty": 5,
+    "stem": "Which behavior is most typical of a 9-year-old child?",
+    "choices": [
+      "Magical thinking",
+      "Concrete reasoning",
+      "Egocentric thinking",
+      "Parallel play"
+    ],
+    "answer": "Concrete reasoning",
+    "rationale": "School-age children think logically about concrete events but struggle with abstract concepts.",
+    "bank": "Compass A",
+    "system": "Growth & Development",
+    "choice_rationales": {
+      "Magical thinking": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Concrete reasoning": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Egocentric thinking": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Parallel play": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0169",
+    "qtype": "sata",
+    "topic": "Cardiovascular \u2013 Hypertension (Secondary)",
+    "difficulty": 5,
+    "stem": "Which factors increase the risk for secondary hypertension? Select all that apply.",
+    "choices": [
+      "Chronic kidney disease",
+      "Endocrine disorders",
+      "Obesity",
+      "Use of oral contraceptives",
+      "Renal artery stenosis"
+    ],
+    "answer": [
+      "Chronic kidney disease",
+      "Endocrine disorders",
+      "Use of oral contraceptives",
+      "Renal artery stenosis"
+    ],
+    "rationale": "Secondary hypertension results from identifiable causes such as renal and endocrine disease or medications. Obesity contributes more to primary hypertension.",
+    "bank": "Compass A",
+    "system": "Cardiovascular",
+    "choice_rationales": {
+      "Chronic kidney disease": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Endocrine disorders": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Obesity": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Use of oral contraceptives": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Renal artery stenosis": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0170",
+    "qtype": "bowtie",
+    "topic": "Endocrine \u2013 Adrenal Crisis",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Acute adrenal insufficiency",
+        "SIADH",
+        "Diabetic ketoacidosis",
+        "Thyroid storm"
+      ],
+      "left_answer": "Acute adrenal insufficiency",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Administer IV corticosteroids and fluids",
+        "Restrict fluids",
+        "Give insulin infusion",
+        "Administer diuretics"
+      ],
+      "middle_answer": "Administer IV corticosteroids and fluids",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Stabilization of blood pressure and glucose",
+        "Immediate normalization of sodium",
+        "Resolution of symptoms without treatment",
+        "Decreased cortisol levels"
+      ],
+      "right_answer": "Stabilization of blood pressure and glucose"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "History of long-term steroid use, now vomiting.",
+        "vitals": "BP 78/44, HR 118",
+        "labs": "Na\u207a 124 mEq/L, glucose 58 mg/dL",
+        "nursing_actions": "IV access, monitor vitals",
+        "md_orders": "IV hydrocortisone, fluids"
+      }
+    },
+    "rationale": "Adrenal crisis causes hypotension, hyponatremia, and hypoglycemia. Prompt steroid replacement and fluids are lifesaving.",
+    "bank": "Compass A",
+    "system": "Endocrine",
+    "choices": [],
+    "answer": {
+      "left": "Acute adrenal insufficiency",
+      "middle": "Administer IV corticosteroids and fluids",
+      "right": "Stabilization of blood pressure and glucose"
+    }
+  },
+  {
+    "id": "CA-0171",
+    "qtype": "single",
+    "topic": "Safety / Electrical",
+    "difficulty": 5,
+    "stem": "Which intervention reduces the risk of electrical injury in hospitalized clients?",
+    "choices": [
+      "Using extension cords",
+      "Keeping liquids away from outlets",
+      "Allowing frayed cords if equipment works",
+      "Using two-prong plugs"
+    ],
+    "answer": "Keeping liquids away from outlets",
+    "rationale": "Moisture increases electrical conduction, raising shock risk.",
+    "bank": "Compass A",
+    "system": "Safety / Electrical",
+    "choice_rationales": {
+      "Using extension cords": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Keeping liquids away from outlets": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Allowing frayed cords if equipment works": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Using two-prong plugs": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0172",
+    "qtype": "sata",
+    "topic": "Neurologic \u2013 Spinal Cord Injury / Spinal Shock",
+    "difficulty": 5,
+    "stem": "Which findings are expected during spinal shock? Select all that apply.",
+    "choices": [
+      "Flaccid paralysis",
+      "Loss of reflexes",
+      "Hypotension",
+      "Spasticity",
+      "Bradycardia"
+    ],
+    "answer": [
+      "Flaccid paralysis",
+      "Loss of reflexes",
+      "Hypotension",
+      "Bradycardia"
+    ],
+    "rationale": "Spinal shock causes temporary loss of neurologic function below injury, including flaccidity, areflexia, hypotension, and bradycardia.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Flaccid paralysis": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Loss of reflexes": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hypotension": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Spasticity": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Bradycardia": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0173",
+    "qtype": "single",
+    "topic": "Pharmacology \u2013 ACE Inhibitors",
+    "difficulty": 5,
+    "stem": "Which finding requires immediate follow-up in a client receiving an ACE inhibitor?",
+    "choices": [
+      "Dry cough",
+      "Serum potassium 5.8 mEq/L",
+      "Dizziness on standing",
+      "Fatigue"
+    ],
+    "answer": "Serum potassium 5.8 mEq/L",
+    "rationale": "ACE inhibitors can cause hyperkalemia, which increases the risk of life-threatening dysrhythmias.",
+    "bank": "Compass A",
+    "system": "Pharmacology",
+    "choice_rationales": {
+      "Dry cough": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Serum potassium 5.8 mEq/L": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Dizziness on standing": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Fatigue": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0174",
+    "qtype": "single",
+    "topic": "Teaching / Infection Prevention",
+    "difficulty": 5,
+    "stem": "Which statement indicates correct understanding of hand hygiene?",
+    "choices": [
+      "Alcohol rubs replace handwashing after C. diff exposure.",
+      "Handwashing is needed when hands are visibly soiled.",
+      "Gloves eliminate the need for hand hygiene.",
+      "Hand hygiene is optional if no contact occurred."
+    ],
+    "answer": "Handwashing is needed when hands are visibly soiled.",
+    "rationale": "Soap and water are required when hands are visibly dirty or after spore-forming organism exposure.",
+    "bank": "Compass A",
+    "system": "Teaching / Infection Prevention",
+    "choice_rationales": {
+      "Alcohol rubs replace handwashing after C. diff exposure.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Handwashing is needed when hands are visibly soiled.": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Gloves eliminate the need for hand hygiene.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Hand hygiene is optional if no contact occurred.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0175",
+    "qtype": "single",
+    "topic": "Oxygenation / Pulmonary",
+    "difficulty": 5,
+    "stem": "A client with pneumonia is receiving oxygen via nasal cannula at 4 L/min. Which finding indicates the intervention is effective?",
+    "choices": [
+      "Respiratory rate decreases from 30 to 24/min",
+      "Temperature decreases by 0.5\u00b0C",
+      "Sputum becomes thinner",
+      "White blood cell count decreases"
+    ],
+    "answer": "Respiratory rate decreases from 30 to 24/min",
+    "rationale": "Improved oxygenation reduces work of breathing and tachypnea. Temperature and WBC reflect infection resolution, not immediate oxygen response.",
+    "bank": "Compass A",
+    "system": "Oxygenation / Pulmonary",
+    "choice_rationales": {
+      "Respiratory rate decreases from 30 to 24/min": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Temperature decreases by 0.5\u00b0C": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Sputum becomes thinner": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "White blood cell count decreases": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0176",
+    "qtype": "sata",
+    "topic": "Fluids & Electrolytes \u2013 Acid\u2013Base (Metabolic Acidosis)",
+    "difficulty": 5,
+    "stem": "Which findings support a diagnosis of metabolic acidosis? Select all that apply.",
+    "choices": [
+      "pH 7.29",
+      "HCO\u2083\u207b 17 mEq/L",
+      "Deep, rapid respirations",
+      "PaCO\u2082 55 mm Hg",
+      "Diarrhea history"
+    ],
+    "answer": [
+      "pH 7.29",
+      "HCO\u2083\u207b 17 mEq/L",
+      "Deep, rapid respirations",
+      "Diarrhea history"
+    ],
+    "rationale": "Low pH and bicarbonate with compensatory Kussmaul respirations indicate metabolic acidosis. Elevated PaCO\u2082 reflects respiratory acidosis.",
+    "bank": "Compass A",
+    "system": "Fluids & Electrolytes",
+    "choice_rationales": {
+      "pH 7.29": "Correct\u2014this option aligns with the condition described in the stem.",
+      "HCO\u2083\u207b 17 mEq/L": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Deep, rapid respirations": "Correct\u2014this option aligns with the condition described in the stem.",
+      "PaCO\u2082 55 mm Hg": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Diarrhea history": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0177",
+    "qtype": "single",
+    "topic": "Leadership / Assignment",
+    "difficulty": 5,
+    "stem": "Which client should the nurse assign to a newly licensed nurse?",
+    "choices": [
+      "Client on continuous IV insulin infusion",
+      "Client with unstable GI bleeding",
+      "Client 24 hours post uncomplicated surgery",
+      "Client receiving titrated vasoactive medications"
+    ],
+    "answer": "Client 24 hours post uncomplicated surgery",
+    "rationale": "Stable postoperative clients are appropriate for less experienced nurses. Unstable or high-risk therapies require advanced assessment skills.",
+    "bank": "Compass A",
+    "system": "Leadership / Assignment",
+    "choice_rationales": {
+      "Client on continuous IV insulin infusion": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Client with unstable GI bleeding": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Client 24 hours post uncomplicated surgery": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Client receiving titrated vasoactive medications": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0178",
+    "qtype": "single",
+    "topic": "Growth & Development \u2013 Infant",
+    "difficulty": 5,
+    "stem": "Which developmental milestone is expected in a 12-month-old infant?",
+    "choices": [
+      "Uses two-word sentences",
+      "Walks independently",
+      "Scribbles with crayon",
+      "Rides a tricycle"
+    ],
+    "answer": "Walks independently",
+    "rationale": "Most children walk independently around 12 months as gross motor control improves.",
+    "bank": "Compass A",
+    "system": "Growth & Development",
+    "choice_rationales": {
+      "Uses two-word sentences": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Walks independently": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Scribbles with crayon": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Rides a tricycle": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0179",
+    "qtype": "sata",
+    "topic": "Cardiovascular \u2013 Peripheral Artery Disease",
+    "difficulty": 5,
+    "stem": "Which findings are consistent with peripheral artery disease? Select all that apply.",
+    "choices": [
+      "Intermittent claudication",
+      "Cool extremities",
+      "Diminished pulses",
+      "Dependent rubor",
+      "Bilateral pitting edema"
+    ],
+    "answer": [
+      "Intermittent claudication",
+      "Cool extremities",
+      "Diminished pulses",
+      "Dependent rubor"
+    ],
+    "rationale": "PAD causes impaired arterial flow, leading to pain with exertion, cool skin, color changes, and weak pulses. Edema suggests venous disease.",
+    "bank": "Compass A",
+    "system": "Cardiovascular",
+    "choice_rationales": {
+      "Intermittent claudication": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Cool extremities": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Diminished pulses": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Dependent rubor": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Bilateral pitting edema": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0180",
+    "qtype": "bowtie",
+    "topic": "Respiratory \u2013 Tension Pneumothorax",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Tension pneumothorax",
+        "Atelectasis",
+        "Pulmonary edema",
+        "Hemothorax"
+      ],
+      "left_answer": "Tension pneumothorax",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Prepare for immediate needle decompression",
+        "Encourage incentive spirometry",
+        "Administer diuretics",
+        "Place client in Trendelenburg position"
+      ],
+      "middle_answer": "Prepare for immediate needle decompression",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Improved blood pressure and oxygenation",
+        "Resolution of pain only",
+        "Normal chest x-ray immediately",
+        "Decreased white blood cell count"
+      ],
+      "right_answer": "Improved blood pressure and oxygenation"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Trauma client with sudden respiratory distress.",
+        "vitals": "BP 78/46, HR 132, RR 34",
+        "labs": "(imaging pending)",
+        "nursing_actions": "Oxygen applied",
+        "md_orders": "Emergency needle decompression",
+        "assessment": "Tracheal deviation, absent breath sounds on right"
+      }
+    },
+    "rationale": "Air trapped under pressure collapses lung tissue and impairs venous return. Decompression rapidly restores ventilation and perfusion.",
+    "bank": "Compass A",
+    "system": "Respiratory",
+    "choices": [],
+    "answer": {
+      "left": "Tension pneumothorax",
+      "middle": "Prepare for immediate needle decompression",
+      "right": "Improved blood pressure and oxygenation"
+    }
+  },
+  {
+    "id": "CA-0181",
+    "qtype": "single",
+    "topic": "Safety / Chemical Exposure",
+    "difficulty": 5,
+    "stem": "Which action should the nurse take first after a chemical spill on a client\u2019s skin?",
+    "choices": [
+      "Notify environmental services",
+      "Remove contaminated clothing",
+      "Apply neutralizing solution",
+      "Complete incident report"
+    ],
+    "answer": "Remove contaminated clothing",
+    "rationale": "Removing the source of exposure limits ongoing tissue damage. Reporting follows client safety measures.",
+    "bank": "Compass A",
+    "system": "Safety / Chemical Exposure",
+    "choice_rationales": {
+      "Notify environmental services": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Remove contaminated clothing": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Apply neutralizing solution": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Complete incident report": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0182",
+    "qtype": "sata",
+    "topic": "Neurologic \u2013 Right Hemispheric Stroke",
+    "difficulty": 5,
+    "stem": "Which findings suggest a right hemispheric stroke? Select all that apply.",
+    "choices": [
+      "Left-sided weakness",
+      "Spatial-perceptual deficits",
+      "Impulsivity",
+      "Expressive aphasia",
+      "Left visual field neglect"
+    ],
+    "answer": [
+      "Left-sided weakness",
+      "Spatial-perceptual deficits",
+      "Impulsivity",
+      "Left visual field neglect"
+    ],
+    "rationale": "Right-brain strokes cause left-sided deficits, neglect, and poor judgment. Aphasia is more common with left hemispheric injury.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Left-sided weakness": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Spatial-perceptual deficits": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Impulsivity": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Expressive aphasia": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Left visual field neglect": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0183",
+    "qtype": "single",
+    "topic": "Pharmacology \u2013 Diuretics",
+    "difficulty": 5,
+    "stem": "Which laboratory value should be monitored closely in a client receiving furosemide?",
+    "choices": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Magnesium"
+    ],
+    "answer": "Potassium",
+    "rationale": "Loop diuretics cause potassium loss, increasing dysrhythmia risk.",
+    "bank": "Compass A",
+    "system": "Pharmacology",
+    "choice_rationales": {
+      "Sodium": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Potassium": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Calcium": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Magnesium": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0184",
+    "qtype": "single",
+    "topic": "Health Promotion / Coping",
+    "difficulty": 5,
+    "stem": "Which statement indicates effective coping in a client newly diagnosed with a chronic illness?",
+    "choices": [
+      "I avoid thinking about my diagnosis.",
+      "I\u2019ve learned which symptoms require help.",
+      "I don\u2019t want to talk about it.",
+      "I stopped all activities I enjoy."
+    ],
+    "answer": "I\u2019ve learned which symptoms require help.",
+    "rationale": "Understanding symptom management and when to seek care reflects adaptive coping and engagement.",
+    "bank": "Compass A",
+    "system": "Health Promotion / Coping",
+    "choice_rationales": {
+      "I avoid thinking about my diagnosis.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "I\u2019ve learned which symptoms require help.": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "I don\u2019t want to talk about it.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "I stopped all activities I enjoy.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0185",
+    "qtype": "single",
+    "topic": "Perfusion / Shock",
+    "difficulty": 5,
+    "stem": "A client with severe dehydration presents with tachycardia and delayed capillary refill. Which additional finding most strongly supports hypovolemic shock?",
+    "choices": [
+      "Crackles in both lungs",
+      "Narrow pulse pressure",
+      "Warm, flushed skin",
+      "Elevated central venous pressure"
+    ],
+    "answer": "Narrow pulse pressure",
+    "rationale": "Low circulating volume reduces preload and stroke volume, producing hypotension with a narrow pulse pressure. Crackles and high CVP suggest fluid overload.",
+    "bank": "Compass A",
+    "system": "Perfusion / Shock",
+    "choice_rationales": {
+      "Crackles in both lungs": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Narrow pulse pressure": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Warm, flushed skin": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Elevated central venous pressure": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0186",
+    "qtype": "sata",
+    "topic": "Electrolytes \u2013 Hypophosphatemia",
+    "difficulty": 5,
+    "stem": "Which findings are consistent with hypophosphatemia? Select all that apply.",
+    "choices": [
+      "Muscle weakness",
+      "Respiratory failure",
+      "Confusion",
+      "Hyperactive reflexes",
+      "Hemolysis"
+    ],
+    "answer": [
+      "Muscle weakness",
+      "Respiratory failure",
+      "Confusion",
+      "Hemolysis"
+    ],
+    "rationale": "Low phosphorus impairs ATP production, affecting muscle contraction (including diaphragm), neurologic function, and red blood cell integrity.",
+    "bank": "Compass A",
+    "system": "Electrolytes",
+    "choice_rationales": {
+      "Muscle weakness": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Respiratory failure": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Confusion": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hyperactive reflexes": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Hemolysis": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0187",
+    "qtype": "single",
+    "topic": "Quality Improvement (QI)",
+    "difficulty": 5,
+    "stem": "Which action best demonstrates participation in a quality improvement initiative?",
+    "choices": [
+      "Reporting an error to a colleague only",
+      "Analyzing unit fall data trends",
+      "Disciplining staff involved in errors",
+      "Documenting care as required"
+    ],
+    "answer": "Analyzing unit fall data trends",
+    "rationale": "QI focuses on system-level data analysis to identify patterns and improve outcomes, not individual blame.",
+    "bank": "Compass A",
+    "system": "Quality Improvement (QI)",
+    "choice_rationales": {
+      "Reporting an error to a colleague only": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Analyzing unit fall data trends": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Disciplining staff involved in errors": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Documenting care as required": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0188",
+    "qtype": "single",
+    "topic": "Growth & Development \u2013 Toddler",
+    "difficulty": 5,
+    "stem": "Which behavior is most expected in a 2-year-old child?",
+    "choices": [
+      "Shares toys willingly",
+      "Uses complete sentences",
+      "Exhibits temper tantrums",
+      "Demonstrates abstract reasoning"
+    ],
+    "answer": "Exhibits temper tantrums",
+    "rationale": "Toddlers experience frustration as autonomy increases faster than language and self-control, leading to tantrums.",
+    "bank": "Compass A",
+    "system": "Growth & Development",
+    "choice_rationales": {
+      "Shares toys willingly": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Uses complete sentences": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Exhibits temper tantrums": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Demonstrates abstract reasoning": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0189",
+    "qtype": "sata",
+    "topic": "Cardiovascular \u2013 Atrial Fibrillation Risk",
+    "difficulty": 5,
+    "stem": "Which factors increase the risk for atrial fibrillation? Select all that apply.",
+    "choices": [
+      "Hypertension",
+      "Valvular heart disease",
+      "Hyperthyroidism",
+      "Hypokalemia",
+      "Bradycardia"
+    ],
+    "answer": [
+      "Hypertension",
+      "Valvular heart disease",
+      "Hyperthyroidism",
+      "Hypokalemia"
+    ],
+    "rationale": "Structural heart disease, electrolyte imbalance, and endocrine disorders disrupt atrial conduction. Bradycardia alone does not cause AF.",
+    "bank": "Compass A",
+    "system": "Cardiovascular",
+    "choice_rationales": {
+      "Hypertension": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Valvular heart disease": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hyperthyroidism": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hypokalemia": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Bradycardia": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0190",
+    "qtype": "bowtie",
+    "topic": "Renal \u2013 Urinary Retention",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Acute urinary retention",
+        "Urinary tract infection",
+        "Neurogenic bladder",
+        "Renal failure"
+      ],
+      "left_answer": "Acute urinary retention",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Perform straight catheterization as ordered",
+        "Encourage oral fluids only",
+        "Apply heat to abdomen",
+        "Administer diuretics"
+      ],
+      "middle_answer": "Perform straight catheterization as ordered",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Relief of discomfort and decreased bladder volume",
+        "Immediate normalization of urine labs",
+        "Resolution of anesthesia effects",
+        "Increased urine output for 24 hours"
+      ],
+      "right_answer": "Relief of discomfort and decreased bladder volume"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Postoperative client unable to void.",
+        "vitals": "BP 138/84, HR 96",
+        "labs": "Bladder scan volume >500 mL",
+        "nursing_actions": "Bladder scan",
+        "md_orders": "Straight catheter if volume >500 mL",
+        "assessment": "Distended bladder, suprapubic discomfort"
+      }
+    },
+    "rationale": "Postoperative urinary retention is common due to anesthesia and immobility. Catheterization relieves bladder overdistention and discomfort.",
+    "bank": "Compass A",
+    "system": "Renal",
+    "choices": [],
+    "answer": {
+      "left": "Acute urinary retention",
+      "middle": "Perform straight catheterization as ordered",
+      "right": "Relief of discomfort and decreased bladder volume"
+    }
+  },
+  {
+    "id": "CA-0191",
+    "qtype": "single",
+    "topic": "Safety / Radiation",
+    "difficulty": 5,
+    "stem": "Which instruction is most important for a client receiving internal radiation therapy?",
+    "choices": [
+      "Increase oral fluids",
+      "Limit visitor contact as instructed",
+      "Ambulate frequently",
+      "Eat high-fiber foods"
+    ],
+    "answer": "Limit visitor contact as instructed",
+    "rationale": "Internal radiation poses exposure risk to others. Time, distance, and shielding precautions protect visitors and staff.",
+    "bank": "Compass A",
+    "system": "Safety / Radiation",
+    "choice_rationales": {
+      "Increase oral fluids": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Limit visitor contact as instructed": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Ambulate frequently": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Eat high-fiber foods": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0192",
+    "qtype": "sata",
+    "topic": "Neurologic \u2013 Guillain-Barr\u00e9 Syndrome",
+    "difficulty": 5,
+    "stem": "Which findings are characteristic of Guillain-Barr\u00e9 syndrome? Select all that apply.",
+    "choices": [
+      "Ascending muscle weakness",
+      "Decreased deep tendon reflexes",
+      "Rapid onset after infection",
+      "Spastic paralysis",
+      "Autonomic instability"
+    ],
+    "answer": [
+      "Ascending muscle weakness",
+      "Decreased deep tendon reflexes",
+      "Rapid onset after infection",
+      "Autonomic instability"
+    ],
+    "rationale": "GBS causes immune-mediated demyelination leading to ascending weakness, areflexia, and autonomic dysfunction. Spasticity is not typical.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Ascending muscle weakness": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Decreased deep tendon reflexes": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Rapid onset after infection": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Spastic paralysis": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Autonomic instability": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0193",
+    "qtype": "single",
+    "topic": "Pharmacology \u2013 Corticosteroids",
+    "difficulty": 5,
+    "stem": "Which teaching point is most important for a client on long-term corticosteroid therapy?",
+    "choices": [
+      "Take medication only when symptoms worsen",
+      "Stop medication abruptly if side effects occur",
+      "Do not abruptly discontinue the medication",
+      "Avoid all vaccinations permanently"
+    ],
+    "answer": "Do not abruptly discontinue the medication",
+    "rationale": "Abrupt cessation can precipitate adrenal insufficiency. Gradual tapering is essential.",
+    "bank": "Compass A",
+    "system": "Pharmacology",
+    "choice_rationales": {
+      "Take medication only when symptoms worsen": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Stop medication abruptly if side effects occur": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Do not abruptly discontinue the medication": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Avoid all vaccinations permanently": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0194",
+    "qtype": "single",
+    "topic": "Teaching / Ostomy Care",
+    "difficulty": 5,
+    "stem": "Which statement indicates successful learning by a client with a new colostomy?",
+    "choices": [
+      "I\u2019ll empty the pouch only when it\u2019s full.",
+      "I\u2019ll change the appliance if I feel itching.",
+      "I should clean the stoma with harsh soap.",
+      "I\u2019ll avoid all social activities."
+    ],
+    "answer": "I\u2019ll change the appliance if I feel itching.",
+    "rationale": "Peristomal itching indicates leakage or skin irritation and requires prompt appliance change to prevent breakdown.",
+    "bank": "Compass A",
+    "system": "Teaching / Ostomy Care",
+    "choice_rationales": {
+      "I\u2019ll empty the pouch only when it\u2019s full.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "I\u2019ll change the appliance if I feel itching.": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "I should clean the stoma with harsh soap.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "I\u2019ll avoid all social activities.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0195",
+    "qtype": "single",
+    "topic": "Oxygenation / Respiratory",
+    "difficulty": 5,
+    "stem": "A client with acute bronchitis reports worsening shortness of breath. Which assessment finding most strongly indicates increasing airway obstruction?",
+    "choices": [
+      "Productive cough",
+      "Prolonged expiratory phase",
+      "Low-grade fever",
+      "Crackles at lung bases"
+    ],
+    "answer": "Prolonged expiratory phase",
+    "rationale": "Airflow obstruction delays exhalation, causing a prolonged expiratory phase\u2014an early indicator of worsening bronchospasm.",
+    "bank": "Compass A",
+    "system": "Oxygenation / Respiratory",
+    "choice_rationales": {
+      "Productive cough": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Prolonged expiratory phase": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Low-grade fever": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Crackles at lung bases": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0196",
+    "qtype": "sata",
+    "topic": "Fluids & Electrolytes \u2013 Dehydration",
+    "difficulty": 5,
+    "stem": "Which findings support a diagnosis of severe dehydration? Select all that apply.",
+    "choices": [
+      "Tachycardia",
+      "Poor skin turgor",
+      "Orthostatic hypotension",
+      "Bounding pulses",
+      "Decreased urine output"
+    ],
+    "answer": [
+      "Tachycardia",
+      "Poor skin turgor",
+      "Orthostatic hypotension",
+      "Decreased urine output"
+    ],
+    "rationale": "Volume depletion reduces circulating volume, leading to tachycardia, hypotension, decreased turgor, and oliguria.",
+    "bank": "Compass A",
+    "system": "Fluids & Electrolytes",
+    "choice_rationales": {
+      "Tachycardia": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Poor skin turgor": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Orthostatic hypotension": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Bounding pulses": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Decreased urine output": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0197",
+    "qtype": "single",
+    "topic": "Ethics / Professionalism",
+    "difficulty": 5,
+    "stem": "A nurse observes a colleague documenting care that was not performed. What is the most appropriate initial action?",
+    "choices": [
+      "Confront the colleague publicly",
+      "Report directly to the nurse manager",
+      "Discuss the concern privately with the colleague",
+      "Ignore the situation"
+    ],
+    "answer": "Discuss the concern privately with the colleague",
+    "rationale": "Addressing concerns privately allows clarification and correction while maintaining professionalism. Escalation follows if unresolved.",
+    "bank": "Compass A",
+    "system": "Ethics / Professionalism",
+    "choice_rationales": {
+      "Confront the colleague publicly": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Report directly to the nurse manager": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Discuss the concern privately with the colleague": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Ignore the situation": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0198",
+    "qtype": "single",
+    "topic": "Growth & Development \u2013 Infant",
+    "difficulty": 5,
+    "stem": "Which finding is most concerning in a 4-month-old infant?",
+    "choices": [
+      "Rolling from front to back",
+      "Lack of head control",
+      "Smiling socially",
+      "Bringing hands to mouth"
+    ],
+    "answer": "Lack of head control",
+    "rationale": "By 4 months, infants should have good head control. Lack of control suggests possible neuromuscular delay.",
+    "bank": "Compass A",
+    "system": "Growth & Development",
+    "choice_rationales": {
+      "Rolling from front to back": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Lack of head control": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Smiling socially": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Bringing hands to mouth": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0199",
+    "qtype": "sata",
+    "topic": "Cardiovascular \u2013 Heart Failure",
+    "difficulty": 5,
+    "stem": "Which findings indicate worsening heart failure? Select all that apply.",
+    "choices": [
+      "Weight gain of 2.5 lb in 2 days",
+      "Increased shortness of breath",
+      "Decreased nocturnal urination",
+      "Crackles in lungs",
+      "Reduced appetite"
+    ],
+    "answer": [
+      "Weight gain of 2.5 lb in 2 days",
+      "Increased shortness of breath",
+      "Crackles in lungs",
+      "Reduced appetite"
+    ],
+    "rationale": "Fluid retention causes rapid weight gain, pulmonary congestion, dyspnea, and GI congestion affecting appetite.",
+    "bank": "Compass A",
+    "system": "Cardiovascular",
+    "choice_rationales": {
+      "Weight gain of 2.5 lb in 2 days": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Increased shortness of breath": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Decreased nocturnal urination": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Crackles in lungs": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Reduced appetite": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0200",
+    "qtype": "bowtie",
+    "topic": "Endocrine \u2013 Thyroid Storm",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Thyroid storm",
+        "Sepsis",
+        "Malignant hyperthermia",
+        "Adrenal crisis"
+      ],
+      "left_answer": "Thyroid storm",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Administer beta-blocker as ordered",
+        "Give insulin infusion",
+        "Restrict fluids",
+        "Delay treatment until labs normalize"
+      ],
+      "middle_answer": "Administer beta-blocker as ordered",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Decreased heart rate and temperature",
+        "Immediate normalization of thyroid levels",
+        "Resolution of agitation within minutes",
+        "Increased blood pressure only"
+      ],
+      "right_answer": "Decreased heart rate and temperature"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "History of Graves disease, febrile and agitated.",
+        "vitals": "HR 148, BP 162/92, Temp 40\u00b0C",
+        "labs": "Elevated T3/T4",
+        "nursing_actions": "Cooling measures, IV access",
+        "md_orders": "Beta-blocker, antithyroid meds"
+      }
+    },
+    "rationale": "Thyroid storm causes life-threatening hypermetabolism. Beta-blockers control adrenergic symptoms while definitive therapy is initiated.",
+    "bank": "Compass A",
+    "system": "Endocrine",
+    "choices": [],
+    "answer": {
+      "left": "Thyroid storm",
+      "middle": "Administer beta-blocker as ordered",
+      "right": "Decreased heart rate and temperature"
+    }
+  },
+  {
+    "id": "CA-0201",
+    "qtype": "single",
+    "topic": "Safety / Medication Reconciliation",
+    "difficulty": 5,
+    "stem": "When performing medication reconciliation, the nurse should prioritize which information?",
+    "choices": [
+      "Brand-name medications only",
+      "Prescription and over-the-counter drugs",
+      "Medications taken years ago",
+      "Provider preference"
+    ],
+    "answer": "Prescription and over-the-counter drugs",
+    "rationale": "OTC and herbal agents can interact with prescriptions and must be included for safe medication management.",
+    "bank": "Compass A",
+    "system": "Safety / Medication Reconciliation",
+    "choice_rationales": {
+      "Brand-name medications only": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Prescription and over-the-counter drugs": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Medications taken years ago": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Provider preference": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0202",
+    "qtype": "sata",
+    "topic": "Neurologic \u2013 Multiple Sclerosis",
+    "difficulty": 5,
+    "stem": "Which findings are common in multiple sclerosis? Select all that apply.",
+    "choices": [
+      "Muscle weakness",
+      "Visual disturbances",
+      "Heat intolerance",
+      "Sudden onset of symptoms",
+      "Relapsing-remitting pattern"
+    ],
+    "answer": [
+      "Muscle weakness",
+      "Visual disturbances",
+      "Heat intolerance",
+      "Relapsing-remitting pattern"
+    ],
+    "rationale": "MS is characterized by demyelination causing weakness, visual issues, heat sensitivity, and episodic exacerbations.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Muscle weakness": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Visual disturbances": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Heat intolerance": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Sudden onset of symptoms": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Relapsing-remitting pattern": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0203",
+    "qtype": "single",
+    "topic": "Pharmacology \u2013 Beta-Blockers",
+    "difficulty": 5,
+    "stem": "Which finding requires follow-up in a client taking a beta-blocker?",
+    "choices": [
+      "Fatigue",
+      "Heart rate of 48 bpm",
+      "Mild dizziness",
+      "Cold extremities"
+    ],
+    "answer": "Heart rate of 48 bpm",
+    "rationale": "Significant bradycardia may compromise cardiac output and requires evaluation or dose adjustment.",
+    "bank": "Compass A",
+    "system": "Pharmacology",
+    "choice_rationales": {
+      "Fatigue": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Heart rate of 48 bpm": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Mild dizziness": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Cold extremities": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0204",
+    "qtype": "single",
+    "topic": "Nutrition / Iron-Deficiency Anemia",
+    "difficulty": 5,
+    "stem": "Which dietary choice is most appropriate for a client with iron-deficiency anemia?",
+    "choices": [
+      "Yogurt and bananas",
+      "Chicken breast and rice",
+      "Spinach and lentils",
+      "White bread and cheese"
+    ],
+    "answer": "Spinach and lentils",
+    "rationale": "Plant-based iron sources such as spinach and legumes improve iron intake, especially when paired with vitamin C.",
+    "bank": "Compass A",
+    "system": "Nutrition / Iron",
+    "choice_rationales": {
+      "Yogurt and bananas": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Chicken breast and rice": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Spinach and lentils": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "White bread and cheese": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0205",
+    "qtype": "single",
+    "topic": "Infection / Immune Response",
+    "difficulty": 5,
+    "stem": "A postoperative client develops chills and a temperature of 38.9\u00b0C (102\u00b0F). Which assessment finding most strongly suggests systemic infection rather than a localized response?",
+    "choices": [
+      "Incisional tenderness",
+      "Elevated white blood cell count",
+      "Serous wound drainage",
+      "Mild redness at incision"
+    ],
+    "answer": "Elevated white blood cell count",
+    "rationale": "Leukocytosis reflects a systemic inflammatory response, whereas localized findings are expected postoperatively.",
+    "bank": "Compass A",
+    "system": "Infection / Immune Response",
+    "choice_rationales": {
+      "Incisional tenderness": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Elevated white blood cell count": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Serous wound drainage": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Mild redness at incision": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0206",
+    "qtype": "sata",
+    "topic": "Renal / Acute Kidney Injury",
+    "difficulty": 5,
+    "stem": "Which findings are consistent with acute kidney injury? Select all that apply.",
+    "choices": [
+      "Rising serum creatinine",
+      "Decreased urine output",
+      "Hyperkalemia",
+      "Hypotension",
+      "Metabolic acidosis"
+    ],
+    "answer": [
+      "Rising serum creatinine",
+      "Decreased urine output",
+      "Hyperkalemia",
+      "Metabolic acidosis"
+    ],
+    "rationale": "AKI impairs filtration, causing azotemia, electrolyte retention, reduced urine output, and acid\u2013base imbalance.",
+    "bank": "Compass A",
+    "system": "Renal / Acute Kidney Injury",
+    "choice_rationales": {
+      "Rising serum creatinine": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Decreased urine output": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hyperkalemia": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hypotension": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Metabolic acidosis": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0207",
+    "qtype": "single",
+    "topic": "Psychiatric/Mental Health \u2013 Anxiety",
+    "difficulty": 5,
+    "stem": "A client experiencing acute anxiety is pacing and hyperventilating. What is the nurse\u2019s best immediate intervention?",
+    "choices": [
+      "Ask the client to explain their fears",
+      "Provide clear, calm directions",
+      "Leave the client alone to regain control",
+      "Administer PRN medication immediately"
+    ],
+    "answer": "Provide clear, calm directions",
+    "rationale": "During acute anxiety, cognition is impaired. Short, calm instructions reduce stimulation and help regain control.",
+    "bank": "Compass A",
+    "system": "Psychiatric/Mental Health",
+    "choice_rationales": {
+      "Ask the client to explain their fears": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Provide clear, calm directions": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Leave the client alone to regain control": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Administer PRN medication immediately": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0208",
+    "qtype": "single",
+    "topic": "Maternity \u2013 Postpartum",
+    "difficulty": 5,
+    "stem": "Which finding 12 hours after delivery requires immediate intervention?",
+    "choices": [
+      "Fundus firm at umbilicus",
+      "Moderate lochia rubra",
+      "Saturating a pad every 30 minutes",
+      "Mild uterine cramping"
+    ],
+    "answer": "Saturating a pad every 30 minutes",
+    "rationale": "Excessive bleeding indicates postpartum hemorrhage and requires urgent assessment and intervention.",
+    "bank": "Compass A",
+    "system": "Maternity",
+    "choice_rationales": {
+      "Fundus firm at umbilicus": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Moderate lochia rubra": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Saturating a pad every 30 minutes": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Mild uterine cramping": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0209",
+    "qtype": "sata",
+    "topic": "Medication Safety",
+    "difficulty": 5,
+    "stem": "Which actions reduce the risk of medication errors? Select all that apply.",
+    "choices": [
+      "Using two patient identifiers",
+      "Reading back verbal orders",
+      "Relying on memory for doses",
+      "Clarifying unclear prescriptions",
+      "Documenting after administration"
+    ],
+    "answer": [
+      "Using two patient identifiers",
+      "Reading back verbal orders",
+      "Clarifying unclear prescriptions",
+      "Documenting after administration"
+    ],
+    "rationale": "Safety practices include verification, clarification, and timely documentation. Memory-based dosing increases error risk.",
+    "bank": "Compass A",
+    "system": "Medication Safety",
+    "choice_rationales": {
+      "Using two patient identifiers": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Reading back verbal orders": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Relying on memory for doses": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Clarifying unclear prescriptions": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Documenting after administration": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0210",
+    "qtype": "bowtie",
+    "topic": "GI \u2013 Upper GI Bleed",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Hypovolemic shock",
+        "Bowel obstruction",
+        "Acute pancreatitis",
+        "Hepatic encephalopathy"
+      ],
+      "left_answer": "Hypovolemic shock",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Initiate rapid IV fluid resuscitation",
+        "Encourage oral intake",
+        "Administer laxatives",
+        "Delay treatment pending imaging"
+      ],
+      "middle_answer": "Initiate rapid IV fluid resuscitation",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Stabilized blood pressure and heart rate",
+        "Immediate cessation of bleeding",
+        "Normal hemoglobin within 1 hour",
+        "Resolution of pain only"
+      ],
+      "right_answer": "Stabilized blood pressure and heart rate"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "History of peptic ulcer disease, sudden hematemesis.",
+        "vitals": "HR 122, BP 92/58, RR 22",
+        "labs": "Hgb 8.2 g/dL",
+        "nursing_actions": "Large-bore IV, NPO",
+        "md_orders": "IV PPI, type & crossmatch"
+      }
+    },
+    "rationale": "Acute blood loss compromises circulating volume. Rapid fluid replacement supports perfusion while definitive therapy proceeds.",
+    "bank": "Compass A",
+    "system": "GI \u2013 Upper GI Bleed",
+    "choices": [],
+    "answer": {
+      "left": "Hypovolemic shock",
+      "middle": "Initiate rapid IV fluid resuscitation",
+      "right": "Stabilized blood pressure and heart rate"
+    }
+  },
+  {
+    "id": "CA-0211",
+    "qtype": "single",
+    "topic": "Neurologic \u2013 Stroke",
+    "difficulty": 5,
+    "stem": "Which symptom is most indicative of an ischemic stroke?",
+    "choices": [
+      "Gradual onset headache",
+      "Sudden unilateral weakness",
+      "Fever and neck stiffness",
+      "Progressive memory loss"
+    ],
+    "answer": "Sudden unilateral weakness",
+    "rationale": "Acute focal neurologic deficits strongly suggest ischemic stroke and require emergent evaluation.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Gradual onset headache": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Sudden unilateral weakness": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Fever and neck stiffness": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Progressive memory loss": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0212",
+    "qtype": "sata",
+    "topic": "Respiratory \u2013 Pneumonia",
+    "difficulty": 5,
+    "stem": "Which findings support a diagnosis of bacterial pneumonia? Select all that apply.",
+    "choices": [
+      "Fever",
+      "Productive cough",
+      "Elevated white blood cell count",
+      "Sudden pleuritic chest pain",
+      "Dry, nonproductive cough"
+    ],
+    "answer": [
+      "Fever",
+      "Productive cough",
+      "Elevated white blood cell count",
+      "Sudden pleuritic chest pain"
+    ],
+    "rationale": "Bacterial pneumonia presents with systemic infection signs, purulent sputum, pleuritic pain, and leukocytosis.",
+    "bank": "Compass A",
+    "system": "Respiratory",
+    "choice_rationales": {
+      "Fever": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Productive cough": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Elevated white blood cell count": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Sudden pleuritic chest pain": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Dry, nonproductive cough": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0213",
+    "qtype": "single",
+    "topic": "Ethics / Informed Consent",
+    "difficulty": 5,
+    "stem": "Which situation requires new informed consent?",
+    "choices": [
+      "Change in nurse assignment",
+      "Delay in procedure time",
+      "Addition of a new surgical procedure",
+      "Routine postoperative care"
+    ],
+    "answer": "Addition of a new surgical procedure",
+    "rationale": "Any change to the planned intervention requires updated consent to respect patient autonomy.",
+    "bank": "Compass A",
+    "system": "Ethics / Informed Consent",
+    "choice_rationales": {
+      "Change in nurse assignment": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Delay in procedure time": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Addition of a new surgical procedure": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Routine postoperative care": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0214",
+    "qtype": "single",
+    "topic": "Diabetes \u2013 Hypoglycemia",
+    "difficulty": 5,
+    "stem": "Which finding most strongly indicates hypoglycemia?",
+    "choices": [
+      "Polyuria",
+      "Fruity breath odor",
+      "Diaphoresis and confusion",
+      "Slow, deep respirations"
+    ],
+    "answer": "Diaphoresis and confusion",
+    "rationale": "Neuroglycopenic symptoms such as confusion and adrenergic signs like diaphoresis are hallmark indicators of low blood glucose.",
+    "bank": "Compass A",
+    "system": "Diabetes",
+    "choice_rationales": {
+      "Polyuria": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Fruity breath odor": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Diaphoresis and confusion": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Slow, deep respirations": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0215",
+    "qtype": "single",
+    "topic": "Fluids & Electrolytes / Acid\u2013Base",
+    "difficulty": 5,
+    "stem": "A client receiving nasogastric suction has the following ABG: pH 7.48, PaCO\u2082 40 mm Hg, HCO\u2083\u207b 30 mEq/L. How should the nurse interpret this result?",
+    "choices": [
+      "Respiratory alkalosis",
+      "Respiratory acidosis",
+      "Metabolic alkalosis",
+      "Metabolic acidosis"
+    ],
+    "answer": "Metabolic alkalosis",
+    "rationale": "Loss of gastric acid through suction increases bicarbonate levels, producing metabolic alkalosis with a normal PaCO\u2082.",
+    "bank": "Compass A",
+    "system": "Fluids & Electrolytes / Acid",
+    "choice_rationales": {
+      "Respiratory alkalosis": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Respiratory acidosis": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Metabolic alkalosis": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Metabolic acidosis": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0216",
+    "qtype": "sata",
+    "topic": "Cardiovascular \u2013 Left-Sided Heart Failure",
+    "difficulty": 5,
+    "stem": "Which findings are expected in left-sided heart failure? Select all that apply.",
+    "choices": [
+      "Pulmonary crackles",
+      "Orthopnea",
+      "Peripheral edema",
+      "Paroxysmal nocturnal dyspnea",
+      "Jugular venous distention"
+    ],
+    "answer": [
+      "Pulmonary crackles",
+      "Orthopnea",
+      "Paroxysmal nocturnal dyspnea"
+    ],
+    "rationale": "Left-sided failure causes pulmonary congestion and impaired gas exchange. JVD and peripheral edema are more consistent with right-sided failure.",
+    "bank": "Compass A",
+    "system": "Cardiovascular",
+    "choice_rationales": {
+      "Pulmonary crackles": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Orthopnea": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Peripheral edema": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Paroxysmal nocturnal dyspnea": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Jugular venous distention": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0217",
+    "qtype": "single",
+    "topic": "Pediatrics / Growth & Development",
+    "difficulty": 5,
+    "stem": "Which behavior best demonstrates autonomy in a toddler?",
+    "choices": [
+      "Playing alongside other children",
+      "Using two-word sentences",
+      "Refusing help with dressing",
+      "Following simple commands"
+    ],
+    "answer": "Refusing help with dressing",
+    "rationale": "Autonomy is expressed through independence and self-control, often seen as resistance to assistance.",
+    "bank": "Compass A",
+    "system": "Pediatrics / Growth & Development",
+    "choice_rationales": {
+      "Playing alongside other children": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Using two-word sentences": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Refusing help with dressing": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Following simple commands": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0218",
+    "qtype": "single",
+    "topic": "Pharmacology \u2013 Warfarin",
+    "difficulty": 5,
+    "stem": "A client receiving warfarin therapy has an INR of 5.1. What is the nurse\u2019s priority action?",
+    "choices": [
+      "Administer vitamin K",
+      "Hold the next dose and notify the provider",
+      "Encourage foods high in vitamin K",
+      "Recheck INR in 7 days"
+    ],
+    "answer": "Hold the next dose and notify the provider",
+    "rationale": "An INR >5 increases bleeding risk. Holding the dose and notifying the provider allows for adjustment or reversal if needed.",
+    "bank": "Compass A",
+    "system": "Pharmacology",
+    "choice_rationales": {
+      "Administer vitamin K": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Hold the next dose and notify the provider": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Encourage foods high in vitamin K": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Recheck INR in 7 days": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0219",
+    "qtype": "sata",
+    "topic": "Safety / Fall Prevention",
+    "difficulty": 5,
+    "stem": "Which interventions reduce fall risk in hospitalized older adults? Select all that apply.",
+    "choices": [
+      "Bed in lowest position",
+      "Non-skid footwear",
+      "Hourly rounding",
+      "Side rails raised on all sides",
+      "Adequate lighting"
+    ],
+    "answer": [
+      "Bed in lowest position",
+      "Non-skid footwear",
+      "Hourly rounding",
+      "Adequate lighting"
+    ],
+    "rationale": "Environmental control and frequent monitoring reduce falls. Full side rails may increase injury risk and are not recommended.",
+    "bank": "Compass A",
+    "system": "Safety / Fall Prevention",
+    "choice_rationales": {
+      "Bed in lowest position": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Non-skid footwear": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hourly rounding": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Side rails raised on all sides": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Adequate lighting": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0220",
+    "qtype": "bowtie",
+    "topic": "Endocrine \u2013 Diabetic Ketoacidosis",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Metabolic acidosis from ketone accumulation",
+        "Respiratory alkalosis",
+        "Syndrome of inappropriate ADH",
+        "Hypoglycemia"
+      ],
+      "left_answer": "Metabolic acidosis from ketone accumulation",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Initiate isotonic IV fluids",
+        "Administer oral glucose",
+        "Restrict fluids",
+        "Delay insulin until potassium normalizes"
+      ],
+      "middle_answer": "Initiate isotonic IV fluids",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Rising serum bicarbonate and decreasing anion gap",
+        "Immediate normalization of blood glucose",
+        "Resolution of nausea only",
+        "Increased respiratory rate"
+      ],
+      "right_answer": "Rising serum bicarbonate and decreasing anion gap"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Type 1 diabetes with vomiting and missed insulin doses.",
+        "vitals": "HR 118, BP 98/60, RR 28 (deep), SpO\u2082 98%",
+        "labs": "Glucose 520 mg/dL, pH 7.18, K\u207a 5.6",
+        "nursing_actions": "Cardiac monitoring, IV access",
+        "md_orders": "IV fluids, insulin infusion"
+      }
+    },
+    "rationale": "DKA causes metabolic acidosis and dehydration. Volume replacement improves perfusion and supports insulin effectiveness.",
+    "bank": "Compass A",
+    "system": "Endocrine",
+    "choices": [],
+    "answer": {
+      "left": "Metabolic acidosis from ketone accumulation",
+      "middle": "Initiate isotonic IV fluids",
+      "right": "Rising serum bicarbonate and decreasing anion gap"
+    }
+  },
+  {
+    "id": "CA-0221",
+    "qtype": "single",
+    "topic": "Neurologic \u2013 Increased ICP",
+    "difficulty": 5,
+    "stem": "Which assessment finding is most concerning in a client with increased intracranial pressure?",
+    "choices": [
+      "Headache relieved by rest",
+      "Unequal pupil size",
+      "Nausea after meals",
+      "Mild photophobia"
+    ],
+    "answer": "Unequal pupil size",
+    "rationale": "Anisocoria suggests cranial nerve compression and rising intracranial pressure requiring immediate evaluation.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Headache relieved by rest": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Unequal pupil size": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Nausea after meals": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Mild photophobia": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0222",
+    "qtype": "sata",
+    "topic": "Infection Control \u2013 Isolation",
+    "difficulty": 5,
+    "stem": "Which conditions require airborne precautions? Select all that apply.",
+    "choices": [
+      "Tuberculosis",
+      "Varicella",
+      "Influenza",
+      "Measles",
+      "Clostridioides difficile"
+    ],
+    "answer": [
+      "Tuberculosis",
+      "Varicella",
+      "Measles"
+    ],
+    "rationale": "Airborne pathogens remain suspended in air; influenza is droplet, and C. difficile requires contact precautions.",
+    "bank": "Compass A",
+    "system": "Infection Control",
+    "choice_rationales": {
+      "Tuberculosis": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Varicella": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Influenza": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Measles": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Clostridioides difficile": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0223",
+    "qtype": "single",
+    "topic": "Nutrition / Enteral Feeding",
+    "difficulty": 5,
+    "stem": "Which action confirms correct placement of a nasogastric tube before feeding?",
+    "choices": [
+      "Auscultating air insufflation",
+      "Checking tube length",
+      "Verifying gastric pH",
+      "Observing absence of coughing"
+    ],
+    "answer": "Verifying gastric pH",
+    "rationale": "Gastric pH testing is more reliable than auscultation and reduces risk of aspiration.",
+    "bank": "Compass A",
+    "system": "Nutrition / Enteral Feeding",
+    "choice_rationales": {
+      "Auscultating air insufflation": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Checking tube length": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Verifying gastric pH": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Observing absence of coughing": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0224",
+    "qtype": "single",
+    "topic": "Professional Practice / Delegation",
+    "difficulty": 5,
+    "stem": "Which task is appropriate for the nurse to delegate to a licensed practical nurse (LPN)?",
+    "choices": [
+      "Initial assessment of chest pain",
+      "Teaching insulin self-administration",
+      "Reinforcing discharge instructions",
+      "Developing the plan of care"
+    ],
+    "answer": "Reinforcing discharge instructions",
+    "rationale": "LPNs may reinforce teaching but not perform initial assessments, create care plans, or provide comprehensive education.",
+    "bank": "Compass A",
+    "system": "Professional Practice / Delegation",
+    "choice_rationales": {
+      "Initial assessment of chest pain": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Teaching insulin self-administration": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Reinforcing discharge instructions": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Developing the plan of care": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0225",
+    "qtype": "single",
+    "topic": "Oxygenation / COPD",
+    "difficulty": 5,
+    "stem": "A client with COPD is receiving oxygen at 4 L/min via nasal cannula. Which assessment finding requires immediate intervention?",
+    "choices": [
+      "SpO\u2082 90%",
+      "RR 12/min",
+      "Increasing somnolence",
+      "Barrel-shaped chest"
+    ],
+    "answer": "Increasing somnolence",
+    "rationale": "Increasing somnolence may indicate CO\u2082 retention and hypoventilation. Oxygen therapy can suppress hypoxic drive in COPD, leading to respiratory failure.",
+    "bank": "Compass A",
+    "system": "Oxygenation / COPD",
+    "choice_rationales": {
+      "SpO\u2082 90%": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "RR 12/min": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Increasing somnolence": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Barrel-shaped chest": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0226",
+    "qtype": "sata",
+    "topic": "Renal / Acute Kidney Injury",
+    "difficulty": 5,
+    "stem": "Which findings are consistent with acute kidney injury (AKI)? Select all that apply.",
+    "choices": [
+      "Rising creatinine",
+      "Decreased urine output",
+      "Hyperkalemia",
+      "Metabolic alkalosis",
+      "Fluid overload"
+    ],
+    "answer": [
+      "Rising creatinine",
+      "Decreased urine output",
+      "Hyperkalemia",
+      "Fluid overload"
+    ],
+    "rationale": "AKI leads to impaired excretion of fluid and electrolytes, causing azotemia, oliguria, hyperkalemia, and volume overload. Metabolic acidosis\u2014not alkalosis\u2014is expected.",
+    "bank": "Compass A",
+    "system": "Renal / Acute Kidney Injury",
+    "choice_rationales": {
+      "Rising creatinine": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Decreased urine output": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hyperkalemia": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Metabolic alkalosis": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Fluid overload": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0227",
+    "qtype": "single",
+    "topic": "Maternity \u2013 Postpartum Hemorrhage",
+    "difficulty": 5,
+    "stem": "Which assessment finding most strongly suggests postpartum hemorrhage?",
+    "choices": [
+      "Uterus firm at the midline",
+      "Lochia rubra saturating a pad in 15 minutes",
+      "Mild afterpains with breastfeeding",
+      "BP 118/76 mm Hg"
+    ],
+    "answer": "Lochia rubra saturating a pad in 15 minutes",
+    "rationale": "Heavy lochia with rapid saturation indicates excessive bleeding and possible uterine atony or retained placental fragments.",
+    "bank": "Compass A",
+    "system": "Maternity",
+    "choice_rationales": {
+      "Uterus firm at the midline": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Lochia rubra saturating a pad in 15 minutes": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Mild afterpains with breastfeeding": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "BP 118/76 mm Hg": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0228",
+    "qtype": "single",
+    "topic": "Ethics / Refusal of Treatment",
+    "difficulty": 5,
+    "stem": "Which situation requires the nurse to withhold a procedure?",
+    "choices": [
+      "Client refuses treatment after explanation",
+      "Consent signed by spouse",
+      "Client asks questions about risks",
+      "Provider explains the procedure"
+    ],
+    "answer": "Client refuses treatment after explanation",
+    "rationale": "Clients have the right to refuse treatment at any time. Performing a procedure without consent is unethical and illegal.",
+    "bank": "Compass A",
+    "system": "Ethics / Refusal of Treatment",
+    "choice_rationales": {
+      "Client refuses treatment after explanation": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Consent signed by spouse": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Client asks questions about risks": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Provider explains the procedure": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0229",
+    "qtype": "sata",
+    "topic": "Medication Safety \u2013 High-Alert Medications",
+    "difficulty": 5,
+    "stem": "Which medications are considered high-alert and require independent double-checks? Select all that apply.",
+    "choices": [
+      "Insulin",
+      "Heparin",
+      "Potassium chloride IV",
+      "Acetaminophen",
+      "Warfarin"
+    ],
+    "answer": [
+      "Insulin",
+      "Heparin",
+      "Potassium chloride IV",
+      "Warfarin"
+    ],
+    "rationale": "These medications carry a high risk of serious harm if administered incorrectly. Acetaminophen is not classified as high-alert.",
+    "bank": "Compass A",
+    "system": "Medication Safety",
+    "choice_rationales": {
+      "Insulin": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Heparin": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Potassium chloride IV": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Acetaminophen": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Warfarin": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0230",
+    "qtype": "bowtie",
+    "topic": "Neurologic \u2013 Stroke Evaluation",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely concern",
+      "left_options": [
+        "Ischemic stroke",
+        "Hypoglycemia",
+        "Spinal cord compression",
+        "Seizure disorder"
+      ],
+      "left_answer": "Ischemic stroke",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Maintain NPO and prepare for imaging",
+        "Administer aspirin immediately",
+        "Lower BP aggressively",
+        "Give thrombolytic before CT"
+      ],
+      "middle_answer": "Maintain NPO and prepare for imaging",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Stable neurologic status pending intervention",
+        "Immediate return of speech",
+        "BP normalization within minutes",
+        "Resolution of weakness without treatment"
+      ],
+      "right_answer": "Stable neurologic status pending intervention"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Sudden right-sided weakness and aphasia.",
+        "vitals": "BP 188/104, HR 92, RR 18",
+        "labs": "Glucose 108 mg/dL",
+        "nursing_actions": "Neuro checks, IV access",
+        "md_orders": "CT head STAT"
+      }
+    },
+    "rationale": "Stroke symptoms require rapid imaging to differentiate ischemic vs hemorrhagic causes. Interventions must not precede CT results.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choices": [],
+    "answer": {
+      "left": "Ischemic stroke",
+      "middle": "Maintain NPO and prepare for imaging",
+      "right": "Stable neurologic status pending intervention"
+    }
+  },
+  {
+    "id": "CA-0231",
+    "qtype": "single",
+    "topic": "Infection / Sepsis",
+    "difficulty": 5,
+    "stem": "Which finding best supports early sepsis?",
+    "choices": [
+      "Bradycardia",
+      "Hypothermia",
+      "Elevated lactate",
+      "Narrow pulse pressure"
+    ],
+    "answer": "Elevated lactate",
+    "rationale": "Elevated lactate reflects tissue hypoperfusion and anaerobic metabolism, an early marker of sepsis severity.",
+    "bank": "Compass A",
+    "system": "Infection / Sepsis",
+    "choice_rationales": {
+      "Bradycardia": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Hypothermia": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Elevated lactate": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Narrow pulse pressure": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0232",
+    "qtype": "sata",
+    "topic": "Psychiatric/Mental Health \u2013 Therapeutic Communication",
+    "difficulty": 5,
+    "stem": "Which nurse responses demonstrate therapeutic communication? Select all that apply.",
+    "choices": [
+      "Tell me more about what you\u2019re feeling.",
+      "Everything will be okay.",
+      "That sounds overwhelming.",
+      "Why did you do that?",
+      "I\u2019m here to listen."
+    ],
+    "answer": [
+      "Tell me more about what you\u2019re feeling.",
+      "That sounds overwhelming.",
+      "I\u2019m here to listen."
+    ],
+    "rationale": "Therapeutic communication validates feelings and encourages expression without judgment or false reassurance.",
+    "bank": "Compass A",
+    "system": "Psychiatric/Mental Health",
+    "choice_rationales": {
+      "Tell me more about what you\u2019re feeling.": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Everything will be okay.": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "That sounds overwhelming.": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Why did you do that?": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "I\u2019m here to listen.": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0233",
+    "qtype": "single",
+    "topic": "GI \u2013 Bowel Obstruction",
+    "difficulty": 5,
+    "stem": "Which finding is most consistent with a small bowel obstruction?",
+    "choices": [
+      "Hypoactive bowel sounds",
+      "Ribbon-like stools",
+      "Abdominal distention with vomiting",
+      "RLQ rebound tenderness"
+    ],
+    "answer": "Abdominal distention with vomiting",
+    "rationale": "Obstruction leads to distention, vomiting, and high-pitched bowel sounds early, progressing to hypoactivity later.",
+    "bank": "Compass A",
+    "system": "GI \u2013 Bowel Obstruction",
+    "choice_rationales": {
+      "Hypoactive bowel sounds": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Ribbon-like stools": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Abdominal distention with vomiting": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "RLQ rebound tenderness": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0234",
+    "qtype": "single",
+    "topic": "Delegation / UAP",
+    "difficulty": 5,
+    "stem": "Which task may the nurse delegate to an unlicensed assistive personnel (UAP)?",
+    "choices": [
+      "Assess pain level",
+      "Obtain vital signs on a stable client",
+      "Teach incentive spirometry",
+      "Evaluate wound healing"
+    ],
+    "answer": "Obtain vital signs on a stable client",
+    "rationale": "UAPs may collect routine data but cannot assess, teach, or evaluate.",
+    "bank": "Compass A",
+    "system": "Delegation / UAP",
+    "choice_rationales": {
+      "Assess pain level": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Obtain vital signs on a stable client": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Teach incentive spirometry": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Evaluate wound healing": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0235",
+    "qtype": "single",
+    "topic": "Fluids & Electrolytes \u2013 Hypokalemia",
+    "difficulty": 5,
+    "stem": "A client receiving loop diuretics reports muscle cramps and palpitations. Which lab value does the nurse anticipate?",
+    "choices": [
+      "Sodium 150 mEq/L",
+      "Potassium 2.9 mEq/L",
+      "Calcium 11.2 mg/dL",
+      "Magnesium 3.0 mg/dL"
+    ],
+    "answer": "Potassium 2.9 mEq/L",
+    "rationale": "Loop diuretics increase renal potassium loss. Hypokalemia causes muscle cramps, dysrhythmias, and weakness.",
+    "bank": "Compass A",
+    "system": "Fluids & Electrolytes",
+    "choice_rationales": {
+      "Sodium 150 mEq/L": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Potassium 2.9 mEq/L": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Calcium 11.2 mg/dL": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Magnesium 3.0 mg/dL": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0236",
+    "qtype": "sata",
+    "topic": "Endocrine \u2013 Hypothyroidism",
+    "difficulty": 5,
+    "stem": "Which findings are expected in untreated hypothyroidism? Select all that apply.",
+    "choices": [
+      "Weight gain",
+      "Cold intolerance",
+      "Bradycardia",
+      "Diarrhea",
+      "Dry, coarse skin"
+    ],
+    "answer": [
+      "Weight gain",
+      "Cold intolerance",
+      "Bradycardia",
+      "Dry, coarse skin"
+    ],
+    "rationale": "Reduced metabolic rate leads to slowed cardiac output, weight gain, cold sensitivity, and skin changes. Diarrhea is more typical of hyperthyroidism.",
+    "bank": "Compass A",
+    "system": "Endocrine",
+    "choice_rationales": {
+      "Weight gain": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Cold intolerance": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Bradycardia": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Diarrhea": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Dry, coarse skin": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0237",
+    "qtype": "single",
+    "topic": "Musculoskeletal \u2013 Compartment Syndrome",
+    "difficulty": 5,
+    "stem": "Which assessment finding indicates compartment syndrome?",
+    "choices": [
+      "Pain relieved by elevation",
+      "Tingling distal to the injury",
+      "Warm skin temperature",
+      "Bounding pulses"
+    ],
+    "answer": "Tingling distal to the injury",
+    "rationale": "Neurologic changes such as paresthesia signal increasing compartment pressure and ischemia.",
+    "bank": "Compass A",
+    "system": "Musculoskeletal",
+    "choice_rationales": {
+      "Pain relieved by elevation": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Tingling distal to the injury": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Warm skin temperature": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Bounding pulses": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0238",
+    "qtype": "single",
+    "topic": "Pharmacology \u2013 Anaphylaxis",
+    "difficulty": 5,
+    "stem": "A client develops flushing, hypotension, and wheezing shortly after IV antibiotic administration. What is the nurse\u2019s priority action?",
+    "choices": [
+      "Slow the infusion",
+      "Administer antihistamine",
+      "Stop the infusion and maintain airway",
+      "Document the reaction"
+    ],
+    "answer": "Stop the infusion and maintain airway",
+    "rationale": "These findings indicate anaphylaxis. The infusion must be stopped immediately and airway supported before medications are given.",
+    "bank": "Compass A",
+    "system": "Pharmacology",
+    "choice_rationales": {
+      "Slow the infusion": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Administer antihistamine": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Stop the infusion and maintain airway": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Document the reaction": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0239",
+    "qtype": "sata",
+    "topic": "Nutrition / Enteral Feeding \u2013 Aspiration",
+    "difficulty": 5,
+    "stem": "Which findings suggest aspiration in a client receiving tube feedings? Select all that apply.",
+    "choices": [
+      "Sudden coughing",
+      "Decreased oxygen saturation",
+      "Abdominal distention",
+      "Crackles on auscultation",
+      "Elevated blood glucose"
+    ],
+    "answer": [
+      "Sudden coughing",
+      "Decreased oxygen saturation",
+      "Crackles on auscultation"
+    ],
+    "rationale": "Aspiration affects the airway and lungs, producing cough, hypoxia, and adventitious breath sounds.",
+    "bank": "Compass A",
+    "system": "Nutrition / Enteral Feeding",
+    "choice_rationales": {
+      "Sudden coughing": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Decreased oxygen saturation": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Abdominal distention": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Crackles on auscultation": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Elevated blood glucose": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0240",
+    "qtype": "bowtie",
+    "topic": "Renal \u2013 Hyperkalemia",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Cardiac conduction instability",
+        "Volume depletion",
+        "Metabolic alkalosis",
+        "Hypoglycemia"
+      ],
+      "left_answer": "Cardiac conduction instability",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Administer IV calcium gluconate",
+        "Encourage oral potassium intake",
+        "Restrict fluids",
+        "Delay intervention until repeat labs"
+      ],
+      "middle_answer": "Administer IV calcium gluconate",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Stabilization of cardiac rhythm",
+        "Immediate normalization of potassium",
+        "Increased urine output",
+        "Resolution of renal failure"
+      ],
+      "right_answer": "Stabilization of cardiac rhythm"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Chronic kidney disease with missed dialysis.",
+        "vitals": "HR 54, BP 148/88",
+        "labs": "K\u207a 6.8 mEq/L, BUN \u2191, creatinine \u2191",
+        "nursing_actions": "Cardiac monitoring",
+        "md_orders": "Calcium gluconate IV"
+      }
+    },
+    "rationale": "Severe hyperkalemia alters myocardial conduction. Calcium stabilizes cardiac membranes but does not lower serum potassium.",
+    "bank": "Compass A",
+    "system": "Renal",
+    "choices": [],
+    "answer": {
+      "left": "Cardiac conduction instability",
+      "middle": "Administer IV calcium gluconate",
+      "right": "Stabilization of cardiac rhythm"
+    }
+  },
+  {
+    "id": "CA-0241",
+    "qtype": "single",
+    "topic": "Pediatrics \u2013 Bronchiolitis",
+    "difficulty": 5,
+    "stem": "Which finding is most concerning in an infant with bronchiolitis?",
+    "choices": [
+      "Nasal flaring",
+      "RR 48/min",
+      "Poor feeding",
+      "Apnea episodes"
+    ],
+    "answer": "Apnea episodes",
+    "rationale": "Apnea indicates respiratory failure risk and requires immediate intervention.",
+    "bank": "Compass A",
+    "system": "Pediatrics",
+    "choice_rationales": {
+      "Nasal flaring": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "RR 48/min": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Poor feeding": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Apnea episodes": "Correct\u2014this choice best addresses the stem\u2019s clinical priority."
+    }
+  },
+  {
+    "id": "CA-0242",
+    "qtype": "sata",
+    "topic": "Infection Control \u2013 CLABSI Prevention",
+    "difficulty": 5,
+    "stem": "Which interventions reduce the risk of central line\u2013associated bloodstream infections (CLABSI)? Select all that apply.",
+    "choices": [
+      "Chlorhexidine skin prep",
+      "Daily assessment for line necessity",
+      "Routine line replacement every 48 hours",
+      "Sterile dressing changes",
+      "Hand hygiene before access"
+    ],
+    "answer": [
+      "Chlorhexidine skin prep",
+      "Daily assessment for line necessity",
+      "Sterile dressing changes",
+      "Hand hygiene before access"
+    ],
+    "rationale": "Evidence-based bundles emphasize aseptic technique and minimizing line duration. Routine replacement increases infection risk.",
+    "bank": "Compass A",
+    "system": "Infection Control",
+    "choice_rationales": {
+      "Chlorhexidine skin prep": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Daily assessment for line necessity": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Routine line replacement every 48 hours": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Sterile dressing changes": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hand hygiene before access": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0243",
+    "qtype": "single",
+    "topic": "Neurologic \u2013 Seizure Precautions",
+    "difficulty": 5,
+    "stem": "Which intervention is appropriate during an active seizure?",
+    "choices": [
+      "Insert an oral airway",
+      "Restrain the client",
+      "Turn the client to the side",
+      "Place objects in the mouth"
+    ],
+    "answer": "Turn the client to the side",
+    "rationale": "Side-lying maintains airway patency and prevents aspiration. Objects and restraints increase injury risk.",
+    "bank": "Compass A",
+    "system": "Neurologic",
+    "choice_rationales": {
+      "Insert an oral airway": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Restrain the client": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Turn the client to the side": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Place objects in the mouth": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0244",
+    "qtype": "single",
+    "topic": "Documentation \u2013 Objective Data",
+    "difficulty": 5,
+    "stem": "Which charting entry best reflects objective data?",
+    "choices": [
+      "Client reports severe pain.",
+      "Client appears anxious.",
+      "BP 162/94 mm Hg.",
+      "Client seems uncomfortable."
+    ],
+    "answer": "BP 162/94 mm Hg.",
+    "rationale": "Objective data are measurable and observable, not interpreted or reported perceptions.",
+    "bank": "Compass A",
+    "system": "Documentation",
+    "choice_rationales": {
+      "Client reports severe pain.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Client appears anxious.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "BP 162/94 mm Hg.": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Client seems uncomfortable.": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0245",
+    "qtype": "single",
+    "topic": "Oxygenation / Pneumonia",
+    "difficulty": 5,
+    "stem": "A client with pneumonia is on 2 L/min nasal cannula. SpO\u2082 remains 88%. Which action should the nurse take next?",
+    "choices": [
+      "Encourage incentive spirometry",
+      "Increase oxygen per protocol",
+      "Place the client supine",
+      "Obtain a sputum culture"
+    ],
+    "answer": "Increase oxygen per protocol",
+    "rationale": "Persistent hypoxemia despite supplemental oxygen requires escalation per protocol before adjunctive measures.",
+    "bank": "Compass A",
+    "system": "Oxygenation / Pneumonia",
+    "choice_rationales": {
+      "Encourage incentive spirometry": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Increase oxygen per protocol": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Place the client supine": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Obtain a sputum culture": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0246",
+    "qtype": "sata",
+    "topic": "Diabetes / Insulin Administration",
+    "difficulty": 5,
+    "stem": "Which actions are appropriate when administering insulin? Select all that apply.",
+    "choices": [
+      "Verify insulin type with another nurse",
+      "Roll cloudy insulin gently",
+      "Inject into edematous tissue",
+      "Use insulin-specific syringes",
+      "Massage the site after injection"
+    ],
+    "answer": [
+      "Verify insulin type with another nurse",
+      "Roll cloudy insulin gently",
+      "Use insulin-specific syringes"
+    ],
+    "rationale": "Independent double-checks reduce errors. Cloudy insulin is rolled, not shaken. Edema and massage alter absorption.",
+    "bank": "Compass A",
+    "system": "Diabetes / Insulin Administration",
+    "choice_rationales": {
+      "Verify insulin type with another nurse": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Roll cloudy insulin gently": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Inject into edematous tissue": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Use insulin-specific syringes": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Massage the site after injection": "Incorrect\u2014this option is not typically associated with the condition in the stem."
+    }
+  },
+  {
+    "id": "CA-0247",
+    "qtype": "single",
+    "topic": "Cardiovascular \u2013 Fluid Overload",
+    "difficulty": 5,
+    "stem": "Which assessment finding best indicates fluid volume overload?",
+    "choices": [
+      "Decreased skin turgor",
+      "Orthostatic hypotension",
+      "Bilateral crackles",
+      "Dry mucous membranes"
+    ],
+    "answer": "Bilateral crackles",
+    "rationale": "Crackles reflect pulmonary congestion from excess intravascular volume.",
+    "bank": "Compass A",
+    "system": "Cardiovascular",
+    "choice_rationales": {
+      "Decreased skin turgor": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Orthostatic hypotension": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Bilateral crackles": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Dry mucous membranes": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0248",
+    "qtype": "single",
+    "topic": "GI / Liver Disease",
+    "difficulty": 5,
+    "stem": "A client with cirrhosis develops confusion and asterixis. Which lab value supports the nurse\u2019s suspicion?",
+    "choices": [
+      "Elevated ammonia",
+      "Low albumin",
+      "Prolonged INR",
+      "Elevated bilirubin"
+    ],
+    "answer": "Elevated ammonia",
+    "rationale": "Ammonia accumulation contributes directly to hepatic encephalopathy.",
+    "bank": "Compass A",
+    "system": "GI / Liver Disease",
+    "choice_rationales": {
+      "Elevated ammonia": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Low albumin": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Prolonged INR": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Elevated bilirubin": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0249",
+    "qtype": "sata",
+    "topic": "Psych / Suicide Precautions",
+    "difficulty": 5,
+    "stem": "Which interventions are appropriate for a client on suicide precautions? Select all that apply.",
+    "choices": [
+      "Remove personal belongings",
+      "Perform q15-minute checks",
+      "Place the client in a room near the nurses\u2019 station",
+      "Allow unsupervised bathroom use",
+      "Use nonjudgmental communication"
+    ],
+    "answer": [
+      "Remove personal belongings",
+      "Perform q15-minute checks",
+      "Place the client in a room near the nurses\u2019 station",
+      "Use nonjudgmental communication"
+    ],
+    "rationale": "Environmental safety, frequent observation, and therapeutic communication reduce self-harm risk.",
+    "bank": "Compass A",
+    "system": "Psych / Suicide Precautions",
+    "choice_rationales": {
+      "Remove personal belongings": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Perform q15-minute checks": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Place the client in a room near the nurses\u2019 station": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Allow unsupervised bathroom use": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Use nonjudgmental communication": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0250",
+    "qtype": "bowtie",
+    "topic": "Sepsis / Infection",
+    "difficulty": 5,
+    "stem": "Complete the NGN bowtie using the case information in the tabs.",
+    "bowtie": {
+      "left_label": "Most likely physiologic concern",
+      "left_options": [
+        "Impaired tissue perfusion",
+        "Fluid volume excess",
+        "Respiratory alkalosis",
+        "Acute hypertension"
+      ],
+      "left_answer": "Impaired tissue perfusion",
+      "middle_label": "Best nursing action now",
+      "middle_options": [
+        "Administer IV fluids rapidly",
+        "Delay antibiotics until fever resolves",
+        "Restrict fluids",
+        "Place the client flat and leave unattended"
+      ],
+      "middle_answer": "Administer IV fluids rapidly",
+      "right_label": "Expected measurable improvement",
+      "right_options": [
+        "Improved BP and lactate reduction",
+        "Immediate normalization of WBC",
+        "Resolution of infection within minutes",
+        "Increased urine ketones"
+      ],
+      "right_answer": "Improved BP and lactate reduction"
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Urosepsis following untreated UTI.",
+        "vitals": "T 39.2\u00b0C, HR 122, BP 88/52",
+        "labs": "WBC 18K, lactate 4.2 mmol/L",
+        "nursing_actions": "IV access, cultures",
+        "md_orders": "Broad-spectrum antibiotics, fluids"
+      }
+    },
+    "rationale": "Septic shock causes maldistributed blood flow. Early aggressive fluids restore perfusion and reduce lactate.",
+    "bank": "Compass A",
+    "system": "Sepsis / Infection",
+    "choices": [],
+    "answer": {
+      "left": "Impaired tissue perfusion",
+      "middle": "Administer IV fluids rapidly",
+      "right": "Improved BP and lactate reduction"
+    }
+  },
+  {
+    "id": "CA-0251",
+    "qtype": "single",
+    "topic": "Maternity \u2013 Intrapartum FHR",
+    "difficulty": 5,
+    "stem": "Which finding during labor requires immediate intervention?",
+    "choices": [
+      "Variable decelerations with contractions",
+      "Early decelerations",
+      "FHR baseline variability 6\u201325 bpm",
+      "Accelerations with fetal movement"
+    ],
+    "answer": "Variable decelerations with contractions",
+    "rationale": "Variable decelerations suggest cord compression and may compromise fetal oxygenation.",
+    "bank": "Compass A",
+    "system": "Maternity",
+    "choice_rationales": {
+      "Variable decelerations with contractions": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Early decelerations": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "FHR baseline variability 6\u201325 bpm": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Accelerations with fetal movement": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0252",
+    "qtype": "sata",
+    "topic": "Renal / Acute Kidney Injury",
+    "difficulty": 5,
+    "stem": "Which findings are consistent with acute kidney injury? Select all that apply.",
+    "choices": [
+      "Rising creatinine",
+      "Oliguria",
+      "Metabolic acidosis",
+      "Hypokalemia",
+      "Elevated BUN"
+    ],
+    "answer": [
+      "Rising creatinine",
+      "Oliguria",
+      "Metabolic acidosis",
+      "Elevated BUN"
+    ],
+    "rationale": "AKI impairs waste excretion, causing azotemia, acidosis, and decreased urine output. Hyperkalemia\u2014not hypokalemia\u2014is expected.",
+    "bank": "Compass A",
+    "system": "Renal / Acute Kidney Injury",
+    "choice_rationales": {
+      "Rising creatinine": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Oliguria": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Metabolic acidosis": "Correct\u2014this option aligns with the condition described in the stem.",
+      "Hypokalemia": "Incorrect\u2014this option is not typically associated with the condition in the stem.",
+      "Elevated BUN": "Correct\u2014this option aligns with the condition described in the stem."
+    }
+  },
+  {
+    "id": "CA-0253",
+    "qtype": "single",
+    "topic": "Ethics / Informed Consent",
+    "difficulty": 5,
+    "stem": "Who is responsible for obtaining informed consent for a surgical procedure?",
+    "choices": [
+      "The nurse",
+      "The charge nurse",
+      "The surgeon",
+      "The unit clerk"
+    ],
+    "answer": "The surgeon",
+    "rationale": "The provider performing the procedure must explain risks, benefits, and alternatives.",
+    "bank": "Compass A",
+    "system": "Ethics / Informed Consent",
+    "choice_rationales": {
+      "The nurse": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "The charge nurse": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "The surgeon": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "The unit clerk": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  },
+  {
+    "id": "CA-0254",
+    "qtype": "single",
+    "topic": "Community Health / TB Screening",
+    "difficulty": 5,
+    "stem": "Which client is the highest priority for tuberculosis screening?",
+    "choices": [
+      "College student living in dorms",
+      "Client with diabetes",
+      "Recent immigrant from a high-prevalence country",
+      "Child attending daycare"
+    ],
+    "answer": "Recent immigrant from a high-prevalence country",
+    "rationale": "Epidemiologic risk drives TB screening priorities.",
+    "bank": "Compass A",
+    "system": "Community Health / TB Screening",
+    "choice_rationales": {
+      "College student living in dorms": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Client with diabetes": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition.",
+      "Recent immigrant from a high-prevalence country": "Correct\u2014this choice best addresses the stem\u2019s clinical priority.",
+      "Child attending daycare": "Incorrect\u2014this choice does not best match the stem\u2019s priority/condition."
+    }
+  }
+]
