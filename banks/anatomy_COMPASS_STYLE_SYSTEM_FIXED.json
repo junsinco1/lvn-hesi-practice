@@ -1,0 +1,852 @@
+[
+  {
+    "id": "ANAT-0001",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the endocrine system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The endocrine system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0002",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the integumentary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The integumentary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0003",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0004",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0005",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0006",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0007",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the integumentary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The integumentary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0008",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the immune/hematology system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The immune/hematology system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0009",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the integumentary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The integumentary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0010",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the immune/hematology system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The immune/hematology system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0011",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the respiratory system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The respiratory system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0012",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0013",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the integumentary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The integumentary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0014",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the immune/hematology system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The immune/hematology system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0015",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the respiratory system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The respiratory system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0016",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the integumentary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The integumentary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0017",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the musculoskeletal system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The musculoskeletal system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0018",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the musculoskeletal system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The musculoskeletal system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0019",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0020",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the renal/urinary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The renal/urinary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0021",
+    "bank": "Anatomy",
+    "system": "Integumentary",
+    "topic": "Integumentary structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the integumentary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The integumentary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0022",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the sensory system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The sensory system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0023",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the fluids & electrolytes system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The fluids & electrolytes system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0024",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0025",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0026",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0027",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the renal/urinary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The renal/urinary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0028",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0029",
+    "bank": "Anatomy",
+    "system": "Musculoskeletal",
+    "topic": "Musculoskeletal structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the musculoskeletal system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The musculoskeletal system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0030",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the neurologic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The neurologic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0031",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the immune/hematology system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The immune/hematology system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0032",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0033",
+    "bank": "Anatomy",
+    "system": "Respiratory",
+    "topic": "Respiratory structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the respiratory system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The respiratory system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0034",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the neurologic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The neurologic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0035",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0036",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0037",
+    "bank": "Anatomy",
+    "system": "Renal/Urinary",
+    "topic": "Renal/Urinary structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the renal/urinary system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The renal/urinary system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0038",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0039",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the sensory system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The sensory system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0040",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the neurologic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The neurologic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0041",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "topic": "Reproductive structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the reproductive system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The reproductive system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0042",
+    "bank": "Anatomy",
+    "system": "GI/Hepatic",
+    "topic": "GI/Hepatic structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the gi/hepatic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The gi/hepatic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0043",
+    "bank": "Anatomy",
+    "system": "Fluids & Electrolytes",
+    "topic": "Fluids & Electrolytes structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the fluids & electrolytes system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The fluids & electrolytes system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0044",
+    "bank": "Anatomy",
+    "system": "Endocrine",
+    "topic": "Endocrine structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the endocrine system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The endocrine system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0045",
+    "bank": "Anatomy",
+    "system": "Cardiovascular",
+    "topic": "Cardiovascular structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the cardiovascular system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The cardiovascular system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0046",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the immune/hematology system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The immune/hematology system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0047",
+    "bank": "Anatomy",
+    "system": "Immune/Hematology",
+    "topic": "Immune/Hematology structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the immune/hematology system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The immune/hematology system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0048",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic structure and function",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the neurologic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The neurologic system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0049",
+    "bank": "Anatomy",
+    "system": "Sensory",
+    "topic": "Sensory structure and function",
+    "difficulty": 4,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the sensory system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The sensory system has specialized anatomical structures that support its primary physiologic role."
+  },
+  {
+    "id": "ANAT-0050",
+    "bank": "Anatomy",
+    "system": "Neurologic",
+    "topic": "Neurologic structure and function",
+    "difficulty": 3,
+    "qtype": "single",
+    "stem": "Which statement best describes a key anatomical feature of the neurologic system?",
+    "choices": [
+      "It primarily regulates hormone secretion",
+      "It facilitates transport or structural support specific to its system",
+      "It is responsible for voluntary muscle contraction only",
+      "It functions independently of other body systems"
+    ],
+    "answer": "It facilitates transport or structural support specific to its system",
+    "rationale": "The neurologic system has specialized anatomical structures that support its primary physiologic role."
+  }
+]
