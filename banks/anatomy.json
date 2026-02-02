@@ -66,13 +66,11 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Villous atrophy",
       "middle": "Impaired nutrient absorption",
       "right": "Weight loss and anemia"
     },
-    "choice_rationales": {},
     "rationale": "Damage to intestinal villi reduces surface area, impairing absorption of nutrients and leading to malnutrition.",
     "bowtie": {
       "left_label": "Primary anatomical change",
@@ -82,7 +80,6 @@
         "Colonic dilation",
         "Esophageal stricture"
       ],
-      "left_answer": "Villous atrophy",
       "middle_label": "Functional consequence",
       "middle_options": [
         "Impaired nutrient absorption",
@@ -90,15 +87,13 @@
         "Reduced peristalsis",
         "Increased acid secretion"
       ],
-      "middle_answer": "Impaired nutrient absorption",
       "right_label": "Expected manifestation",
       "right_options": [
         "Weight loss and anemia",
         "Projectile vomiting",
         "Severe constipation",
         "Hematemesis"
-      ],
-      "right_answer": "Weight loss and anemia"
+      ]
     },
     "case": {
       "tabs": {
@@ -177,24 +172,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Cerebellum",
       "middle": "Coordination of movement",
       "right": "Ataxia"
     },
-    "choice_rationales": {},
     "rationale": "The cerebellum fine-tunes motor activity and balance; lesions cause ataxia and tremor.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Cerebellum",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Coordination of movement",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Ataxia"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -314,13 +304,11 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Pleural fibrosis",
       "middle": "Reduced lung compliance",
       "right": "Thickened pleural layers"
     },
-    "choice_rationales": {},
     "rationale": "Asbestos exposure causes fibrotic thickening of pleura, restricting lung expansion.",
     "bowtie": {
       "left_label": "Primary anatomical change",
@@ -330,7 +318,6 @@
         "Bronchial dilation",
         "Tracheal collapse"
       ],
-      "left_answer": "Pleural fibrosis",
       "middle_label": "Functional consequence",
       "middle_options": [
         "Reduced lung compliance",
@@ -343,10 +330,8 @@
         "Cartilage destruction",
         "Dilated bronchi"
       ],
-      "middle_answer": "Reduced lung compliance",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Thickened pleural layers"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -425,24 +410,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the neurological case.",
-    "choices": [],
     "answer": {
       "left": "Basal ganglia",
       "middle": "Initiation of movement",
       "right": "Bradykinesia"
     },
-    "choice_rationales": {},
     "rationale": "Basal ganglia dysfunction impairs initiation and modulation of voluntary movement.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Basal ganglia",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Initiation of movement",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Bradykinesia"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -562,24 +542,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Capillary angiogenesis",
       "middle": "Improved oxygen diffusion",
       "right": "Increased pulmonary capillary density"
     },
-    "choice_rationales": {},
     "rationale": "Chronic hypoxia stimulates capillary growth to enhance oxygen delivery at the alveolar level.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Capillary angiogenesis",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Improved oxygen diffusion",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Increased pulmonary capillary density"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -659,24 +634,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the neurological case.",
-    "choices": [],
     "answer": {
       "left": "Substantia nigra",
       "middle": "Dopamine",
       "right": "Bradykinesia"
     },
-    "choice_rationales": {},
     "rationale": "Loss of dopaminergic neurons in the substantia nigra produces Parkinsonian motor deficits.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Substantia nigra",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Dopamine",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Bradykinesia"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -795,24 +765,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical endocrine case.",
-    "choices": [],
     "answer": {
       "left": "Adrenal cortex destruction",
       "middle": "Cortisol",
       "right": "Adrenal gland atrophy"
     },
-    "choice_rationales": {},
     "rationale": "Primary adrenal insufficiency (Addison disease) results from cortical destruction, leading to cortisol deficiency and adrenal atrophy.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Adrenal cortex destruction",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Cortisol",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Adrenal gland atrophy"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -891,24 +856,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the neurological injury case.",
-    "choices": [],
     "answer": {
       "left": "Subthalamic nucleus",
       "middle": "Involuntary flinging movements",
       "right": "Ballistic limb movements"
     },
-    "choice_rationales": {},
     "rationale": "Lesions of the subthalamic nucleus cause hemiballismus with violent involuntary movements.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Subthalamic nucleus",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Involuntary flinging movements",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Ballistic limb movements"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1028,13 +988,11 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Glomerular sclerosis",
       "middle": "Reduced filtration surface",
       "right": "Thickened glomerular basement membrane"
     },
-    "choice_rationales": {},
     "rationale": "Chronic hypertension damages glomeruli, reducing filtration capacity and thickening the basement membrane.",
     "bowtie": {
       "left_label": "Primary anatomical change",
@@ -1044,7 +1002,6 @@
         "Renal artery dilation",
         "Ureteral obstruction"
       ],
-      "left_answer": "Glomerular sclerosis",
       "middle_label": "Functional consequence",
       "middle_options": [
         "Reduced filtration surface",
@@ -1057,10 +1014,8 @@
         "Increased nephron number",
         "Dilated collecting ducts"
       ],
-      "middle_answer": "Reduced filtration surface",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Thickened glomerular basement membrane"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1139,24 +1094,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the anatomical wound case.",
-    "choices": [],
     "answer": {
       "left": "Dermis and underlying muscle",
       "middle": "Structural support",
       "right": "Necrotic muscle fibers"
     },
-    "choice_rationales": {},
     "rationale": "Stage 4 pressure injuries extend through skin into muscle, compromising structural integrity.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Dermis and underlying muscle",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Structural support",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Necrotic muscle fibers"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1275,13 +1225,11 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Bronchial smooth muscle constriction",
       "middle": "Increased airway resistance",
       "right": "Thickened bronchial walls"
     },
-    "choice_rationales": {},
     "rationale": "Asthma causes reversible bronchoconstriction due to smooth muscle tightening and mucosal edema, increasing airway resistance.",
     "bowtie": {
       "left_label": "Primary anatomical change",
@@ -1301,13 +1249,10 @@
         "Ruptured capillaries",
         "Enlarged epiglottis"
       ],
-      "left_answer": "Bronchial smooth muscle constriction",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Increased airway resistance",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Thickened bronchial walls"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1386,24 +1331,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the case information.",
-    "choices": [],
     "answer": {
       "left": "Cerebellum",
       "middle": "Impaired coordination",
       "right": "Dysmetria"
     },
-    "choice_rationales": {},
     "rationale": "Cerebellar damage disrupts coordination and fine motor control, producing dysmetria and ataxia.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Cerebellum",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Impaired coordination",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Dysmetria"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1523,24 +1463,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Loss of villi",
       "middle": "Reduced nutrient absorption",
       "right": "Flattened mucosal surface"
     },
-    "choice_rationales": {},
     "rationale": "Villi dramatically increase absorptive area. Their destruction leads to malabsorption and a smooth intestinal lining.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Loss of villi",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Reduced nutrient absorption",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Flattened mucosal surface"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1619,24 +1554,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the anatomical injury case.",
-    "choices": [],
     "answer": {
       "left": "Full dermis",
       "middle": "Sensory nerve endings",
       "right": "Dry leathery eschar"
     },
-    "choice_rationales": {},
     "rationale": "Full-thickness burns destroy dermal nerves, resulting in painless, dry, rigid tissue.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Full dermis",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Sensory nerve endings",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Dry leathery eschar"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1756,24 +1686,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case.",
-    "choices": [],
     "answer": {
       "left": "Collecting duct",
       "middle": "Increased aquaporin insertion",
       "right": "Concentrated urine production"
     },
-    "choice_rationales": {},
     "rationale": "ADH acts on the collecting duct, inserting aquaporins to conserve water during dehydration.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Collecting duct",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Increased aquaporin insertion",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Concentrated urine production"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1852,24 +1777,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the case information.",
-    "choices": [],
     "answer": {
       "left": "Wernicke’s area",
       "middle": "Receptive aphasia",
       "right": "Inability to understand language"
     },
-    "choice_rationales": {},
     "rationale": "Wernicke’s area controls language comprehension. Damage results in fluent but meaningless speech.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Wernicke’s area",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Receptive aphasia",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Inability to understand language"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -1990,24 +1910,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the NGN bowtie using the anatomical case information.",
-    "choices": [],
     "answer": {
       "left": "Left: Alveolar wall destruction",
       "middle": "Middle: Encourage pursed-lip breathing",
       "right": "Right: Increased expiratory airflow"
     },
-    "choice_rationales": {},
     "rationale": "Emphysema causes alveolar destruction, reducing surface area and elastic recoil. Pursed-lip breathing increases airway pressure and improves expiration.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Left: Alveolar wall destruction",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Middle: Encourage pursed-lip breathing",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Right: Increased expiratory airflow"
+      "right_options": []
     },
     "case": {
       "tabs": {
@@ -2086,24 +2001,19 @@
     "difficulty": 5,
     "qtype": "bowtie",
     "stem": "Complete the bowtie using the anatomical injury case.",
-    "choices": [],
     "answer": {
       "left": "Epidermis + partial dermis",
       "middle": "Barrier protection",
       "right": "Intact hair follicles"
     },
-    "choice_rationales": {},
     "rationale": "Partial-thickness burns spare some dermal structures like hair follicles but disrupt barrier integrity.",
     "bowtie": {
       "left_label": "Primary anatomical change",
       "left_options": [],
-      "left_answer": "Epidermis + partial dermis",
       "middle_label": "Functional consequence",
       "middle_options": [],
-      "middle_answer": "Barrier protection",
       "right_label": "Expected manifestation",
-      "right_options": [],
-      "right_answer": "Intact hair follicles"
+      "right_options": []
     },
     "case": {
       "tabs": {
