@@ -135,6 +135,34 @@
       ]
     },
     {
+      "name": "Compass B",
+      "file": "banks/compass_b.json",
+      "systems": [
+        "ANY",
+        "Cardiovascular",
+        "Respiratory",
+        "Neurologic",
+        "Endocrine",
+        "Renal/Urinary",
+        "GI/Hepatic",
+        "Musculoskeletal",
+        "Integumentary/Wound",
+        "Immune/Hematology",
+        "Reproductive/OB",
+        "Pediatrics/Growth & Development",
+        "Psych/Mental Health",
+        "Infectious Disease/Micro",
+        "Fluids & Electrolytes/Acid-Base",
+        "Perioperative/Critical Care",
+        "Community/Public Health",
+        "Ethics/Legal/Professional",
+        "Informatics/Quality/Safety"
+      ],
+      "topics": [
+        "ANY"
+      ]
+    },
+    {
       "name": "NCLEX Review",
       "file": "banks/nclex_review.json",
       "systems": [
