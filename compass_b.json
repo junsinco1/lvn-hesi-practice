@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "CB-01-001",
+    "bank": "Compass B",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: CKD missed dialysis; weakness; peaked T waves.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hyperkalemia with ECG changes: CKD missed dialysis; weakness; peaked T waves.",
+        "vitals": "HR 60, BP 150/86",
+        "labs": "K 6.9, creatinine 7.2; ECG peaked T, wide QRS",
+        "nursing_actions": "Continuous ECG, prepare IV calcium, check meds",
+        "md_orders": "IV calcium gluconate, insulin + dextrose, albuterol neb; dialysis"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-002",
+    "bank": "Compass B",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: NG suction high; paresthesias; hypoventilation.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Metabolic alkalosis from vomiting, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Metabolic alkalosis from vomiting: NG suction high; paresthesias; hypoventilation.",
+        "vitals": "HR 104, BP 110/70",
+        "labs": "pH 7.54, HCO3 38, K 2.9, Cl 88",
+        "nursing_actions": "Assess volume status, replace K/Cl per order",
+        "md_orders": "IV NS with KCl; adjust suction"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-003",
+    "bank": "Compass B",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Septic shock; cool extremities; rising lactate.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "High anion gap acidosis from lactic acidosis: Septic shock; cool extremities; rising lactate.",
+        "vitals": "HR 128, BP 84/50 on pressors",
+        "labs": "Lactate 6.0, pH 7.22, HCO3 14",
+        "nursing_actions": "Ensure oxygenation/perfusion, reassess fluids/pressors",
+        "md_orders": "Sepsis bundle, source control"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-004",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Central line placement then acute respiratory distress, tracheal deviation noted.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Tension pneumothorax, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Tension pneumothorax: Central line placement then acute respiratory distress, tracheal deviation noted.",
+        "vitals": "HR 140, RR 36, BP 78/40, SpO2 82% on NRB",
+        "labs": "Decreased/absent breath sounds one side; CXR delayed",
+        "nursing_actions": "Call rapid response, prepare for needle decompression, support ventilation",
+        "md_orders": "Needle decompression then chest tube"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-005",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: Chest pressure radiating to jaw, diaphoresis; bradycardia and hypotension after nitro.",
+    "choices": [
+      "Administer IM injections for pain while on full‑dose heparin",
+      "Apply SCDs while awaiting imaging for PE",
+      "Verify baseline CBC/aPTT and bleeding risk before titrating heparin",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Administer IM injections for pain while on full‑dose heparin",
+    "rationale": "The nurse should question Administer IM injections for pain while on full‑dose heparin because it conflicts with the client's presentation (HR 48, BP 84/50, RR 20, SpO2 95% RA) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Administer IM injections for pain while on full‑dose heparin": "Correct—unsafe/contraindicated given the case data.",
+      "Apply SCDs while awaiting imaging for PE": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Verify baseline CBC/aPTT and bleeding risk before titrating heparin": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "STEMI with inferior involvement: Chest pressure radiating to jaw, diaphoresis; bradycardia and hypotension after nitro.",
+        "vitals": "HR 48, BP 84/50, RR 20, SpO2 95% RA",
+        "labs": "ECG ST elevation II, III, aVF; troponin pending",
+        "nursing_actions": "Place supine, IV fluids cautious, prepare atropine",
+        "md_orders": "Aspirin, heparin, emergent cath; avoid more nitrates if RV infarct"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-006",
+    "bank": "Compass B",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Post-op on PCA; increasingly difficult to arouse.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Respiratory acidosis narcotic overdose, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Respiratory acidosis narcotic overdose: Post-op on PCA; increasingly difficult to arouse.",
+        "vitals": "RR 6, HR 58, BP 98/60, SpO2 89%",
+        "labs": "ABG: pH 7.20, PaCO2 68",
+        "nursing_actions": "Stop opioid, stimulate, support ventilation, call provider",
+        "md_orders": "Naloxone titrated, airway support"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-007",
+    "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Chemo patient, fever 38.6C, ANC 400.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Neutropenic fever, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Neutropenic fever: Chemo patient, fever 38.6C, ANC 400.",
+        "vitals": "HR 110, BP 102/66",
+        "labs": "ANC 400, lactate 2.1",
+        "nursing_actions": "Protective isolation, cultures before antibiotics",
+        "md_orders": "Broad-spectrum antipseudomonal within 1 hr"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-008",
+    "bank": "Compass B",
+    "system": "Endocrine",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Chronic steroids stopped; vomiting, hypotension, hyperkalemia.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Adrenal crisis: Chronic steroids stopped; vomiting, hypotension, hyperkalemia.",
+        "vitals": "HR 128, BP 78/46",
+        "labs": "Na 124, K 6.1, glucose 54",
+        "nursing_actions": "IV access, fluids, check glucose, cardiac monitor",
+        "md_orders": "IV hydrocortisone, dextrose, NS"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-009",
+    "bank": "Compass B",
+    "system": "Neurologic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which action is most urgent to prevent deterioration?\n\nClient data: Continuous seizure >5 min; hypoxia risk.",
+    "choices": [
+      "Airway support",
+      "Increase oxygen to a non‑rebreather without reassessing airway patency or breathing pattern",
+      "Document the findings and reassess in 30 minutes",
+      "Provide oral fluids and encourage rest"
+    ],
+    "answer": "Airway support",
+    "rationale": "Status epilepticus: the priority is immediate stabilization (ABCs/perfusion) based on HR 140, SpO2 86%. This action directly addresses the life‑threatening physiology described.",
+    "choice_rationales": {
+      "Airway support": "Correct—targets the immediate threat and aligns with emergency nursing priorities.",
+      "Increase oxygen to a non‑rebreather without reassessing airway patency or breathing pattern": "Plausible but unsafe—intervening without targeted reassessment can worsen the problem or delay definitive care.",
+      "Document the findings and reassess in 30 minutes": "Incorrect—delays time‑sensitive intervention in an unstable scenario.",
+      "Provide oral fluids and encourage rest": "Incorrect—does not address acute pathophysiology."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Status epilepticus: Continuous seizure >5 min; hypoxia risk.",
+        "vitals": "HR 140, SpO2 86%",
+        "labs": "Glucose 62",
+        "nursing_actions": "Airway support, check glucose, administer benzo per protocol",
+        "md_orders": "IV lorazepam, then antiepileptic"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-01-010",
+    "bank": "Compass B",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Polydipsia + thiazide use; now headache, nausea, seizures.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Severe hyponatremia with neuro symptoms, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Severe hyponatremia with neuro symptoms: Polydipsia + thiazide use; now headache, nausea, seizures.",
+        "vitals": "HR 88, BP 126/78",
+        "labs": "Na 114, serum osm low, urine osm high",
+        "nursing_actions": "Seizure precautions, restrict free water, neuro checks",
+        "md_orders": "3% hypertonic saline via pump, frequent Na checks"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-011",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Septic shock on ventilator with worsening oxygenation despite increasing FiO2.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "ARDS from sepsis: Septic shock on ventilator with worsening oxygenation despite increasing FiO2.",
+        "vitals": "HR 118, RR 28 (vent), BP 92/54 on norepi, SpO2 86% on FiO2 0.8",
+        "labs": "ABG: PaO2/FiO2 < 100; CXR bilateral infiltrates",
+        "nursing_actions": "Prone positioning prep, oral care, suction PRN",
+        "md_orders": "Low tidal volume strategy, PEEP titration"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-012",
+    "bank": "Compass B",
+    "system": "Endocrine",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: Chronic steroids stopped; vomiting, hypotension, hyperkalemia.",
+    "choices": [
+      "Obtain finger‑stick glucose and timing of last insulin/antidiabetic dose",
+      "Measure calf circumference",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Obtain finger‑stick glucose and timing of last insulin/antidiabetic dose",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Obtain finger‑stick glucose and timing of last insulin/antidiabetic dose is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Obtain finger‑stick glucose and timing of last insulin/antidiabetic dose": "Correct—directly reduces medication‑related harm.",
+      "Measure calf circumference": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Adrenal crisis: Chronic steroids stopped; vomiting, hypotension, hyperkalemia.",
+        "vitals": "HR 128, BP 78/46",
+        "labs": "Na 124, K 6.1, glucose 54",
+        "nursing_actions": "IV access, fluids, check glucose, cardiac monitor",
+        "md_orders": "IV hydrocortisone, dextrose, NS"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-013",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: Septic shock on ventilator with worsening oxygenation despite increasing FiO2.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "ARDS from sepsis: Septic shock on ventilator with worsening oxygenation despite increasing FiO2.",
+        "vitals": "HR 118, RR 28 (vent), BP 92/54 on norepi, SpO2 86% on FiO2 0.8",
+        "labs": "ABG: PaO2/FiO2 < 100; CXR bilateral infiltrates",
+        "nursing_actions": "Prone positioning prep, oral care, suction PRN",
+        "md_orders": "Low tidal volume strategy, PEEP titration"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-014",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute PE on heparin: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+        "vitals": "HR 124, RR 30, BP 102/64, SpO2 88% RA",
+        "labs": "D-dimer ↑, ABG: pH 7.48, PaCO2 30, PaO2 58; CT angiogram: PE",
+        "nursing_actions": "Place on O2, continuous pulse ox, notify provider; assess bleeding risks",
+        "md_orders": "Heparin infusion, baseline aPTT, CBC; possible thrombolytic if unstable"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-015",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: Severe headache, confusion; BP very high; papilledema.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (BP 238/132, HR 96, RR 18) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypertensive emergency with encephalopathy: Severe headache, confusion; BP very high; papilledema.",
+        "vitals": "BP 238/132, HR 96, RR 18",
+        "labs": "Creatinine 2.1, UA protein+",
+        "nursing_actions": "Neuro checks, seizure precautions, IV access",
+        "md_orders": "IV nicardipine with controlled BP reduction"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-016",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which action is most urgent to prevent deterioration?\n\nClient data: Asthma flare not relieved by home inhaler; speaking in words only; accessory muscle use.",
+    "choices": [
+      "High-flow O2",
+      "Increase oxygen to a non‑rebreather without reassessing airway patency or breathing pattern",
+      "Document the findings and reassess in 30 minutes",
+      "Provide oral fluids and encourage rest"
+    ],
+    "answer": "High-flow O2",
+    "rationale": "Status asthmaticus: the priority is immediate stabilization (ABCs/perfusion) based on HR 132, RR 34, BP 156/90, SpO2 90% RA. This action directly addresses the life‑threatening physiology described.",
+    "choice_rationales": {
+      "High-flow O2": "Correct—targets the immediate threat and aligns with emergency nursing priorities.",
+      "Increase oxygen to a non‑rebreather without reassessing airway patency or breathing pattern": "Plausible but unsafe—intervening without targeted reassessment can worsen the problem or delay definitive care.",
+      "Document the findings and reassess in 30 minutes": "Incorrect—delays time‑sensitive intervention in an unstable scenario.",
+      "Provide oral fluids and encourage rest": "Incorrect—does not address acute pathophysiology."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Status asthmaticus: Asthma flare not relieved by home inhaler; speaking in words only; accessory muscle use.",
+        "vitals": "HR 132, RR 34, BP 156/90, SpO2 90% RA",
+        "labs": "Peak flow 35% of personal best; ABG trending PaCO2 rising",
+        "nursing_actions": "High-flow O2, continuous neb setup, prepare IV access",
+        "md_orders": "Continuous albuterol, IV steroids, magnesium sulfate"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-017",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: Type 1 diabetes, polyuria, abdominal pain; deep rapid breathing.",
+    "choices": [
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+      "Ask about favorite foods",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Review allergies, current vitals, and a contraindication relevant to the ordered medication is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication": "Correct—directly reduces medication‑related harm.",
+      "Ask about favorite foods": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "DKA Kussmaul respirations: Type 1 diabetes, polyuria, abdominal pain; deep rapid breathing.",
+        "vitals": "HR 128, RR 32, BP 96/58, SpO2 98% RA",
+        "labs": "Glucose 620, anion gap 26, pH 7.12, K 5.6",
+        "nursing_actions": "Assess airway/breathing, start IV fluids per protocol",
+        "md_orders": "Regular insulin infusion, electrolyte monitoring"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-018",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which action is most urgent to prevent deterioration?\n\nClient data: BPH; low urine output; suprapubic fullness; rising creatinine.",
+    "choices": [
+      "Bladder scan",
+      "Obtain a complete health history before intervening",
+      "Document the findings and reassess in 30 minutes",
+      "Provide oral fluids and encourage rest"
+    ],
+    "answer": "Bladder scan",
+    "rationale": "Postrenal obstruction with AKI: the priority is immediate stabilization (ABCs/perfusion) based on HR 98, BP 148/88. This action directly addresses the life‑threatening physiology described.",
+    "choice_rationales": {
+      "Bladder scan": "Correct—targets the immediate threat and aligns with emergency nursing priorities.",
+      "Obtain a complete health history before intervening": "Plausible but unsafe—intervening without targeted reassessment can worsen the problem or delay definitive care.",
+      "Document the findings and reassess in 30 minutes": "Incorrect—delays time‑sensitive intervention in an unstable scenario.",
+      "Provide oral fluids and encourage rest": "Incorrect—does not address acute pathophysiology."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Postrenal obstruction with AKI: BPH; low urine output; suprapubic fullness; rising creatinine.",
+        "vitals": "HR 98, BP 148/88",
+        "labs": "Creatinine 3.4, K 5.8, bladder scan 900 mL",
+        "nursing_actions": "Bladder scan, prepare sterile straight cath/foley",
+        "md_orders": "Foley insertion, monitor output; BMP repeat"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-019",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: Sudden severe dyspnea, frothy sputum; crackles; hypertension.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (HR 122, BP 210/110, RR 34, SpO2 82% RA) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute decompensated HF with flash pulmonary edema: Sudden severe dyspnea, frothy sputum; crackles; hypertension.",
+        "vitals": "HR 122, BP 210/110, RR 34, SpO2 82% RA",
+        "labs": "BNP 1800, CXR pulmonary edema",
+        "nursing_actions": "High Fowler, apply CPAP/BiPAP if ordered, IV access",
+        "md_orders": "IV nitroglycerin, IV loop diuretic"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-020",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates the intervention is working?\n\nClient data: Severe headache, confusion; BP very high; papilledema.",
+    "choices": [
+      "Improved perfusion (MAP ≥ 65, mentation, urine output) with reduced symptoms",
+      "Normalized troponin within 1 hour",
+      "A single normal value of an unrelated lab test",
+      "Provider documentation that the condition is stable"
+    ],
+    "answer": "Improved perfusion (MAP ≥ 65, mentation, urine output) with reduced symptoms",
+    "rationale": "In Hypertensive emergency with encephalopathy, response is judged by objective trends tied to the underlying physiology, not unrelated metrics or instantaneous changes.",
+    "choice_rationales": {
+      "Improved perfusion (MAP ≥ 65, mentation, urine output) with reduced symptoms": "Correct—directly measures physiologic response to treatment for this condition.",
+      "Normalized troponin within 1 hour": "Tempting but not primary—may change later and does not validate stabilization of the main problem.",
+      "A single normal value of an unrelated lab test": "Incorrect—unrelated measures can be normal despite ongoing instability.",
+      "Provider documentation that the condition is stable": "Incorrect—must correlate with objective data."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypertensive emergency with encephalopathy: Severe headache, confusion; BP very high; papilledema.",
+        "vitals": "BP 238/132, HR 96, RR 18",
+        "labs": "Creatinine 2.1, UA protein+",
+        "nursing_actions": "Neuro checks, seizure precautions, IV access",
+        "md_orders": "IV nicardipine with controlled BP reduction"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-021",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: Palpitations, dizziness; irregularly irregular; on digoxin and furosemide.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "A-fib RVR on digoxin: Palpitations, dizziness; irregularly irregular; on digoxin and furosemide.",
+        "vitals": "HR 156 irregular, BP 112/70, RR 22",
+        "labs": "K 3.0, digoxin level 2.8, ECG AFib",
+        "nursing_actions": "Hold digoxin, notify provider, place on cardiac monitor",
+        "md_orders": "K replacement, digoxin immune Fab if severe toxicity"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-022",
+    "bank": "Compass B",
+    "system": "Immune/Hematology",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client receiving warfarin therapy has an INR of 4.6. Which nursing action is most appropriate?",
+    "choices": [
+      "Administer the scheduled dose and recheck INR tomorrow",
+      "Hold the medication and notify the provider",
+      "Administer vitamin K IM immediately",
+      "Encourage increased intake of green leafy vegetables"
+    ],
+    "answer": "Hold the medication and notify the provider",
+    "rationale": "An INR of 4.6 indicates increased bleeding risk. The nurse should hold warfarin and notify the provider. Vitamin K may be ordered but should not be given without a prescription. Dietary changes are not an acute intervention.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-023",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates the intervention is working?\n\nClient data: Fever, productive cough, confusion in older adult; hypotension develops.",
+    "choices": [
+      "Improved oxygenation (SpO2/PaO2) with decreased work of breathing",
+      "Decreased temperature within 15 minutes",
+      "A single normal value of an unrelated lab test",
+      "Provider documentation that the condition is stable"
+    ],
+    "answer": "Improved oxygenation (SpO2/PaO2) with decreased work of breathing",
+    "rationale": "In Pneumonia with sepsis criteria, response is judged by objective trends tied to the underlying physiology, not unrelated metrics or instantaneous changes.",
+    "choice_rationales": {
+      "Improved oxygenation (SpO2/PaO2) with decreased work of breathing": "Correct—directly measures physiologic response to treatment for this condition.",
+      "Decreased temperature within 15 minutes": "Tempting but not primary—may change later and does not validate stabilization of the main problem.",
+      "A single normal value of an unrelated lab test": "Incorrect—unrelated measures can be normal despite ongoing instability.",
+      "Provider documentation that the condition is stable": "Incorrect—must correlate with objective data."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia with sepsis criteria: Fever, productive cough, confusion in older adult; hypotension develops.",
+        "vitals": "T 39.2C, HR 118, RR 28, BP 88/52, SpO2 89% RA",
+        "labs": "WBC 18k, lactate 3.8, CXR lobar consolidation",
+        "nursing_actions": "O2, obtain cultures, start sepsis bundle per protocol",
+        "md_orders": "Broad-spectrum antibiotics, IV fluids 30 mL/kg"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-024",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with heart failure has gained 2.5 kg in 48 hours. Which interpretation is most accurate?",
+    "choices": [
+      "The client is experiencing fat accumulation",
+      "The client is retaining approximately 2.5 liters of fluid",
+      "The weight gain is likely due to increased muscle mass",
+      "The finding is expected and not clinically significant"
+    ],
+    "answer": "The client is retaining approximately 2.5 liters of fluid",
+    "rationale": "A 1 kg weight gain corresponds to approximately 1 liter of fluid. Rapid weight gain in heart failure indicates fluid retention and worsening cardiac status.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-025",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which action is most urgent to prevent deterioration?\n\nClient data: After ACE inhibitor first dose, swelling lips/tongue, muffled voice.",
+    "choices": [
+      "Stay with client",
+      "Increase oxygen to a non‑rebreather without reassessing airway patency or breathing pattern",
+      "Document the findings and reassess in 30 minutes",
+      "Provide oral fluids and encourage rest"
+    ],
+    "answer": "Stay with client",
+    "rationale": "Upper airway obstruction/angioedema: the priority is immediate stabilization (ABCs/perfusion) based on HR 110, RR 26, BP 138/84, SpO2 94% RA. This action directly addresses the life‑threatening physiology described.",
+    "choice_rationales": {
+      "Stay with client": "Correct—targets the immediate threat and aligns with emergency nursing priorities.",
+      "Increase oxygen to a non‑rebreather without reassessing airway patency or breathing pattern": "Plausible but unsafe—intervening without targeted reassessment can worsen the problem or delay definitive care.",
+      "Document the findings and reassess in 30 minutes": "Incorrect—delays time‑sensitive intervention in an unstable scenario.",
+      "Provide oral fluids and encourage rest": "Incorrect—does not address acute pathophysiology."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Upper airway obstruction/angioedema: After ACE inhibitor first dose, swelling lips/tongue, muffled voice.",
+        "vitals": "HR 110, RR 26, BP 138/84, SpO2 94% RA",
+        "labs": "No labs yet",
+        "nursing_actions": "Stay with client, call rapid response, prepare airway equipment",
+        "md_orders": "Epinephrine IM, steroids, antihistamine; possible intubation"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-026",
+    "bank": "Compass B",
+    "system": "Neurologic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Continuous seizure >5 min; hypoxia risk.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Status epilepticus, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Status epilepticus: Continuous seizure >5 min; hypoxia risk.",
+        "vitals": "HR 140, SpO2 86%",
+        "labs": "Glucose 62",
+        "nursing_actions": "Airway support, check glucose, administer benzo per protocol",
+        "md_orders": "IV lorazepam, then antiepileptic"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-027",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding suggests that a client with diabetes mellitus is experiencing hypoglycemia?",
+    "choices": [
+      "Polyuria and polydipsia",
+      "Warm, dry skin",
+      "Shakiness and diaphoresis",
+      "Kussmaul respirations"
+    ],
+    "answer": "Shakiness and diaphoresis",
+    "rationale": "Hypoglycemia activates the sympathetic nervous system, causing tremors and sweating. The other findings are associated with hyperglycemia.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-028",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: MAP low despite fluids; mottled skin.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Septic shock on norepinephrine: MAP low despite fluids; mottled skin.",
+        "vitals": "HR 128, BP 78/42 (MAP 54) on norepi",
+        "labs": "Lactate 5.6",
+        "nursing_actions": "Titrate vasopressor per protocol, assess perfusion",
+        "md_orders": "Pressors, antibiotics, source control"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-029",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client reports chest pain rated 8/10. Which nursing action is the priority?",
+    "choices": [
+      "Obtain a detailed pain history",
+      "Administer oxygen",
+      "Place the client in a semi-Fowler position",
+      "Administer prescribed morphine"
+    ],
+    "answer": "Administer oxygen",
+    "rationale": "Chest pain may indicate myocardial ischemia. Oxygen improves myocardial oxygenation and is the priority intervention while further assessment and treatment are initiated.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-030",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute PE on heparin: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+        "vitals": "HR 124, RR 30, BP 102/64, SpO2 88% RA",
+        "labs": "D-dimer ↑, ABG: pH 7.48, PaCO2 30, PaO2 58; CT angiogram: PE",
+        "nursing_actions": "Place on O2, continuous pulse ox, notify provider; assess bleeding risks",
+        "md_orders": "Heparin infusion, baseline aPTT, CBC; possible thrombolytic if unstable"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-031",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which action is most urgent to prevent deterioration?\n\nClient data: Severe headache, confusion; BP very high; papilledema.",
+    "choices": [
+      "Neuro checks",
+      "Administer a full 1 L bolus without assessing for fluid overload or bleeding source",
+      "Document the findings and reassess in 30 minutes",
+      "Provide oral fluids and encourage rest"
+    ],
+    "answer": "Neuro checks",
+    "rationale": "Hypertensive emergency with encephalopathy: the priority is immediate stabilization (ABCs/perfusion) based on BP 238/132, HR 96, RR 18. This action directly addresses the life‑threatening physiology described.",
+    "choice_rationales": {
+      "Neuro checks": "Correct—targets the immediate threat and aligns with emergency nursing priorities.",
+      "Administer a full 1 L bolus without assessing for fluid overload or bleeding source": "Plausible but unsafe—intervening without targeted reassessment can worsen the problem or delay definitive care.",
+      "Document the findings and reassess in 30 minutes": "Incorrect—delays time‑sensitive intervention in an unstable scenario.",
+      "Provide oral fluids and encourage rest": "Incorrect—does not address acute pathophysiology."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypertensive emergency with encephalopathy: Severe headache, confusion; BP very high; papilledema.",
+        "vitals": "BP 238/132, HR 96, RR 18",
+        "labs": "Creatinine 2.1, UA protein+",
+        "nursing_actions": "Neuro checks, seizure precautions, IV access",
+        "md_orders": "IV nicardipine with controlled BP reduction"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-032",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A postoperative client suddenly becomes restless, tachycardic, and dyspneic. Which action should the nurse take first?",
+    "choices": [
+      "Administer prescribed opioid analgesic",
+      "Apply oxygen and assess pulse oximetry",
+      "Notify the surgeon immediately",
+      "Assist the client to ambulate"
+    ],
+    "answer": "Apply oxygen and assess pulse oximetry",
+    "rationale": "The symptoms suggest an acute respiratory emergency. Addressing airway and breathing takes priority before notification or other interventions.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-041",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is caring for a client receiving magnesium sulfate for preeclampsia. Which assessment finding requires immediate intervention?",
+    "choices": [
+      "Respiratory rate of 10/min",
+      "Urine output of 35 mL/hr",
+      "Serum magnesium level of 5.2 mg/dL",
+      "Deep tendon reflexes rated +1"
+    ],
+    "answer": "Respiratory rate of 10/min",
+    "rationale": "Respiratory depression is the most dangerous sign of magnesium toxicity and requires immediate intervention. The other findings are within expected or therapeutic ranges.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-042",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: Type 1 diabetes, polyuria, abdominal pain; deep rapid breathing.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "DKA Kussmaul respirations: Type 1 diabetes, polyuria, abdominal pain; deep rapid breathing.",
+        "vitals": "HR 128, RR 32, BP 96/58, SpO2 98% RA",
+        "labs": "Glucose 620, anion gap 26, pH 7.12, K 5.6",
+        "nursing_actions": "Assess airway/breathing, start IV fluids per protocol",
+        "md_orders": "Regular insulin infusion, electrolyte monitoring"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-051",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is preparing to administer IV furosemide to a client with acute heart failure. Which assessment finding would cause the nurse to question the order?",
+    "choices": [
+      "Potassium level of 3.1 mEq/L",
+      "Crackles at bilateral lung bases",
+      "Blood pressure of 148/88 mmHg",
+      "Oxygen saturation of 91% on room air"
+    ],
+    "answer": "Potassium level of 3.1 mEq/L",
+    "rationale": "Furosemide can further decrease potassium. A potassium level of 3.1 mEq/L increases the risk for dysrhythmias and should be corrected before administration.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-052",
+    "bank": "Compass B",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: NG suction high; paresthesias; hypoventilation.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (HR 104, BP 110/70) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Metabolic alkalosis from vomiting: NG suction high; paresthesias; hypoventilation.",
+        "vitals": "HR 104, BP 110/70",
+        "labs": "pH 7.54, HCO3 38, K 2.9, Cl 88",
+        "nursing_actions": "Assess volume status, replace K/Cl per order",
+        "md_orders": "IV NS with KCl; adjust suction"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-061",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is caring for a patient admitted with acute kidney injury (AKI) following severe dehydration from prolonged vomiting. Which assessment finding requires immediate intervention?",
+    "choices": [
+      "Serum potassium 5.6 mEq/L",
+      "Urine output 25 mL/hr for 4 hours",
+      "BUN 38 mg/dL and creatinine 2.1 mg/dL",
+      "Blood pressure 148/92 mm Hg"
+    ],
+    "answer": "Serum potassium 5.6 mEq/L",
+    "rationale": "Hyperkalemia is the most immediately life-threatening complication of AKI due to the risk of fatal cardiac dysrhythmias. While oliguria and elevated renal labs confirm AKI, they do not pose the same immediate cardiac danger.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-062",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A postoperative patient receiving opioids becomes difficult to arouse. Respirations are 8/min and oxygen saturation is 89% on room air. What is the nurse’s priority action?",
+    "choices": [
+      "Apply supplemental oxygen",
+      "Administer naloxone",
+      "Stimulate the patient and reassess",
+      "Notify the provider"
+    ],
+    "answer": "Administer naloxone",
+    "rationale": "The patient is experiencing opioid-induced respiratory depression. Naloxone reverses the opioid effect and addresses the underlying cause, whereas oxygen alone does not correct hypoventilation.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-063",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with heart failure reports sudden weight gain and increasing dyspnea. Which finding best indicates fluid volume excess?",
+    "choices": [
+      "Bounding peripheral pulses",
+      "Urine specific gravity 1.030",
+      "Crackles in bilateral lung bases",
+      "Serum sodium 138 mEq/L"
+    ],
+    "answer": "Crackles in bilateral lung bases",
+    "rationale": "Crackles reflect pulmonary congestion caused by fluid overload, a classic manifestation of worsening heart failure.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-064",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A patient with diabetes becomes diaphoretic, confused, and tremulous. Which intervention should the nurse perform first?",
+    "choices": [
+      "Check blood glucose",
+      "Administer insulin",
+      "Give oral carbohydrates",
+      "Notify the provider"
+    ],
+    "answer": "Check blood glucose",
+    "rationale": "Symptoms strongly suggest hypoglycemia, but confirmation with a blood glucose check is required before initiating treatment if the patient is conscious and able to cooperate.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-065",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is teaching infection prevention to a patient receiving chemotherapy. Which statement indicates correct understanding?",
+    "choices": [
+      "I should avoid fresh flowers and plants.",
+      "I can stop precautions if I feel well.",
+      "Hand sanitizer replaces handwashing.",
+      "Masks are only needed if I’m coughing."
+    ],
+    "answer": "I should avoid fresh flowers and plants.",
+    "rationale": "Plants and soil harbor microorganisms that can cause serious infections in immunocompromised patients.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-066",
+    "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse notes a patient with sepsis has a lactate level of 4.2 mmol/L. What does this finding indicate?",
+    "choices": [
+      "Adequate tissue perfusion",
+      "Metabolic alkalosis",
+      "Tissue hypoxia",
+      "Renal compensation"
+    ],
+    "answer": "Tissue hypoxia",
+    "rationale": "Elevated lactate reflects anaerobic metabolism caused by poor tissue perfusion and oxygen delivery in sepsis.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-067",
+    "bank": "Compass B",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client receiving IV fluids develops jugular venous distention and new crackles. What should the nurse do first?",
+    "choices": [
+      "Slow the IV infusion",
+      "Administer a diuretic",
+      "Notify the provider",
+      "Obtain a chest x-ray"
+    ],
+    "answer": "Slow the IV infusion",
+    "rationale": "Slowing the infusion immediately prevents further volume overload and is an appropriate independent nursing action.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-068",
+    "bank": "Compass B",
+    "system": "Neurologic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A patient with a history of stroke suddenly has slurred speech and unilateral weakness. What is the nurse’s priority?",
+    "choices": [
+      "Check blood glucose",
+      "Activate stroke protocol",
+      "Obtain vital signs",
+      "Notify family"
+    ],
+    "answer": "Activate stroke protocol",
+    "rationale": "Rapid activation of the stroke protocol ensures timely imaging and intervention, which are critical for neurologic outcomes.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-069",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse reviews a medication order for a patient with asthma. Which medication should the nurse question?",
+    "choices": [
+      "Albuterol",
+      "Montelukast",
+      "Propranolol",
+      "Fluticasone"
+    ],
+    "answer": "Propranolol",
+    "rationale": "Non-selective beta-blockers such as propranolol can precipitate bronchoconstriction and are contraindicated in asthma.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-070",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A patient reports chest pain radiating to the left arm with nausea and diaphoresis. Which action is most important?",
+    "choices": [
+      "Administer nitroglycerin",
+      "Obtain a 12-lead ECG",
+      "Give oxygen",
+      "Check blood pressure"
+    ],
+    "answer": "Obtain a 12-lead ECG",
+    "rationale": "A rapid ECG is essential to identify myocardial infarction and guide time-sensitive reperfusion therapy.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-071",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with COPD on 2 L/min nasal cannula becomes increasingly somnolent and is difficult to arouse. RR is 8/min and SpO₂ is 91%. Which action is most appropriate first?",
+    "choices": [
+      "Increase oxygen to 6 L/min and reassess in 15 minutes",
+      "Stimulate the client, assess airway/breath sounds, and prepare to support ventilation per protocol",
+      "Administer a PRN sedative to reduce anxiety and work of breathing",
+      "Place the client supine and encourage deep breathing exercises"
+    ],
+    "answer": "Stimulate the client, assess airway/breath sounds, and prepare to support ventilation per protocol",
+    "rationale": "Somnolence with a low respiratory rate in COPD suggests hypoventilation and CO₂ retention. The priority is airway and breathing—assess respiratory effort/airway patency and be ready to support ventilation (e.g., notify provider/RT, consider assisted ventilation) rather than simply increasing oxygen or giving sedatives.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-072",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with type 1 diabetes is diaphoretic, tremulous, and confused. Capillary glucose is 52 mg/dL. The client is awake and can swallow. Which intervention is best?",
+    "choices": [
+      "Give 15 g of fast-acting carbohydrate and recheck glucose in 15 minutes",
+      "Administer regular insulin to correct the glucose imbalance",
+      "Give 1 mg glucagon IM and place the client NPO",
+      "Start an IV and give D50W immediately without checking symptoms again"
+    ],
+    "answer": "Give 15 g of fast-acting carbohydrate and recheck glucose in 15 minutes",
+    "rationale": "For symptomatic hypoglycemia in an awake client who can swallow, the 15-15 rule (15 g rapid carbohydrate, recheck in 15 minutes) is the safest, fastest correction. Glucagon is used when the client cannot swallow; insulin would worsen hypoglycemia; IV dextrose is appropriate if severe symptoms or inability to take PO.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-073",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "The RN is caring for four clients. Which task is appropriate to delegate to an experienced UAP?",
+    "choices": [
+      "Assess a client 1 hour after receiving IV morphine for respiratory depression",
+      "Teach a client with heart failure how to monitor daily weights at home",
+      "Obtain vital signs for a stable postoperative client 6 hours after surgery",
+      "Evaluate a client's response to a newly started antihypertensive medication"
+    ],
+    "answer": "Obtain vital signs for a stable postoperative client 6 hours after surgery",
+    "rationale": "UAPs may collect routine data (e.g., vital signs) on stable clients. Assessment, teaching, and evaluation of medication effects require RN judgment. The tempting distractor is the post-op client, but the key is that the client is stable and the task is data collection, not interpretation.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-074",
+    "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client has suspected C. difficile infection with profuse diarrhea. Which infection-control action is required?",
+    "choices": [
+      "Use alcohol-based hand sanitizer after glove removal",
+      "Place the client on contact precautions and wash hands with soap and water",
+      "Wear an N95 respirator when entering the room",
+      "Initiate droplet precautions and place a surgical mask on the client during care"
+    ],
+    "answer": "Place the client on contact precautions and wash hands with soap and water",
+    "rationale": "C. difficile spores are not reliably killed by alcohol hand rubs; soap-and-water handwashing is required. Contact precautions (gown/gloves, dedicated equipment) limit spore transmission. N95/droplet measures target airborne/droplet pathogens, not spore-forming enteric infections.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-075",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with a head injury suddenly develops a severe headache and projectile vomiting. The nurse notes a decreasing level of consciousness. Which provider order should the nurse question?",
+    "choices": [
+      "Keep the head of bed elevated 30 degrees",
+      "Administer mannitol as prescribed",
+      "Suction the airway every 2 hours on a schedule",
+      "Maintain the neck in neutral alignment"
+    ],
+    "answer": "Suction the airway every 2 hours on a schedule",
+    "rationale": "Scheduled suctioning can increase intrathoracic pressure and transiently raise ICP. Airway suctioning should be done only when clinically indicated and for the shortest duration. Elevating the HOB, osmotic therapy, and neutral alignment support venous drainage and reduce ICP.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-076",
+    "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "One hour after delivery, a client has heavy lochia rubra and the fundus is boggy and deviated to the right. Which action is most appropriate first?",
+    "choices": [
+      "Massage the fundus and assist the client to empty the bladder",
+      "Apply an ice pack to the perineum and reassess in 30 minutes",
+      "Administer oxytocin and notify the provider before any other action",
+      "Place the client in Trendelenburg position"
+    ],
+    "answer": "Massage the fundus and assist the client to empty the bladder",
+    "rationale": "A boggy, displaced fundus suggests uterine atony often worsened by a full bladder. Immediate fundal massage and bladder emptying help the uterus contract and reduce bleeding. Oxytocin may be needed, but first-line nursing actions address the correctable cause right now; Trendelenburg and ice packs do not correct uterine atony.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-077",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client receiving IV furosemide for heart failure has a potassium level of 3.1 mEq/L. Which finding would most strongly suggest the client is developing a complication of this electrolyte imbalance?",
+    "choices": [
+      "Bounding peripheral pulses",
+      "U wave on the ECG",
+      "Warm, flushed skin",
+      "Bradycardia with hypertension"
+    ],
+    "answer": "U wave on the ECG",
+    "rationale": "Loop diuretics can cause hypokalemia. A classic ECG change with hypokalemia is a prominent U wave and increased risk for dysrhythmias. Bounding pulses and flushed skin are not specific to low potassium; bradycardia with hypertension suggests increased ICP rather than hypokalemia.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-078",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client says, \"If my pain doesn't get better, I don't want to live.\" What is the nurse’s best response?",
+    "choices": [
+      "\"You shouldn’t say things like that. Your family needs you.\"",
+      "\"Are you thinking about harming yourself right now?\"",
+      "\"Let’s focus on the positive—your pain meds will work soon.\"",
+      "\"I’ll notify the provider so they can adjust your medication.\""
+    ],
+    "answer": "\"You shouldn’t say things like that. Your family needs you.\"",
+    "rationale": "The statement suggests possible suicidal ideation. The priority is a direct, nonjudgmental assessment of intent and immediate safety. Minimizing, moralizing, or deflecting delays risk assessment. Notifying the provider may be needed, but first the nurse must determine current risk.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-079",
+    "bank": "Compass B",
+    "system": "Endocrine",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with diabetic ketoacidosis (DKA) is receiving treatment. Which findings indicate the therapy is effective? (Select all that apply.)",
+    "choices": [
+      "Serum bicarbonate increases toward normal",
+      "Anion gap decreases",
+      "Urine output decreases to <10 mL/hr",
+      "Mental status becomes more alert",
+      "Serum potassium decreases precipitously without replacement",
+      "Respiratory rate decreases as acidosis resolves"
+    ],
+    "answer": "Serum bicarbonate increases toward normal",
+    "rationale": "Effective DKA treatment closes the anion gap and corrects metabolic acidosis (rising HCO₃⁻), improving Kussmaul respirations and mental status. Urine output should be adequate; a rapid potassium drop is expected risk and requires replacement—not a sign of success by itself.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-080",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "The nurse is preparing to start a heparin infusion. Which actions reduce the risk of medication error? (Select all that apply.)",
+    "choices": [
+      "Use an independent double-check of the dose and pump settings with another licensed nurse",
+      "Program the infusion using the facility’s heparin protocol and smart-pump drug library",
+      "Prime the tubing with heparin solution to prevent dilution",
+      "Verify baseline aPTT/anti-Xa per order and confirm timing of follow-up labs",
+      "Calculate the dose using pounds without converting to kilograms",
+      "Label the IV line at the pump as a heparin infusion"
+    ],
+    "answer": "Use an independent double-check of the dose and pump settings with another licensed nurse",
+    "rationale": "Heparin is a high-alert medication. Independent double-checks, smart-pump protocols, correct monitoring labs, and clear labeling reduce dosing/line errors. Priming with heparin can unintentionally deliver a bolus; dosing must be weight-based in kilograms to avoid conversion errors.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-081",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: During anesthesia: rising ETCO2, muscle rigidity, hyperthermia.",
+    "choices": [
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+      "Ask about favorite foods",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Review allergies, current vitals, and a contraindication relevant to the ordered medication is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication": "Correct—directly reduces medication‑related harm.",
+      "Ask about favorite foods": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Malignant hyperthermia: During anesthesia: rising ETCO2, muscle rigidity, hyperthermia.",
+        "vitals": "T 40.5, HR 160, ETCO2 ↑",
+        "labs": "K 6.4, CK ↑, acidosis",
+        "nursing_actions": "Stop triggering agent, hyperventilate 100% O2, cooling",
+        "md_orders": "Dantrolene; treat hyperkalemia"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-082",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: Melena then syncope; cool clammy; on warfarin.",
+    "choices": [
+      "Verify BP/HR and review contraindications before giving vasoactive or rate‑controlling meds",
+      "Ask about last meal time",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Verify BP/HR and review contraindications before giving vasoactive or rate‑controlling meds",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Verify BP/HR and review contraindications before giving vasoactive or rate‑controlling meds is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Verify BP/HR and review contraindications before giving vasoactive or rate‑controlling meds": "Correct—directly reduces medication‑related harm.",
+      "Ask about last meal time": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Massive GI bleed causing shock: Melena then syncope; cool clammy; on warfarin.",
+        "vitals": "HR 138, BP 76/40, RR 28, SpO2 93%",
+        "labs": "Hgb 6.8, INR 4.5, lactate 5.1",
+        "nursing_actions": "Two large-bore IVs, type&cross, transfusion protocol",
+        "md_orders": "PRBCs, vitamin K, PCC; endoscopy"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-083",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Fever, productive cough, confusion in older adult; hypotension develops.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pneumonia with sepsis criteria: Fever, productive cough, confusion in older adult; hypotension develops.",
+        "vitals": "T 39.2C, HR 118, RR 28, BP 88/52, SpO2 89% RA",
+        "labs": "WBC 18k, lactate 3.8, CXR lobar consolidation",
+        "nursing_actions": "O2, obtain cultures, start sepsis bundle per protocol",
+        "md_orders": "Broad-spectrum antibiotics, IV fluids 30 mL/kg"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-084",
+    "bank": "Compass B",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: 6-month-old with vomiting/diarrhea; sunken fontanelle.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (HR 168, RR 40, cap refill 4s) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Infant with dehydration: 6-month-old with vomiting/diarrhea; sunken fontanelle.",
+        "vitals": "HR 168, RR 40, cap refill 4s",
+        "labs": "Na 150, bicarb low",
+        "nursing_actions": "IV/PO rehydration per protocol, strict I&O",
+        "md_orders": "Oral rehydration or IV fluids"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-085",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: Type 1 diabetes, polyuria, abdominal pain; deep rapid breathing.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (HR 128, RR 32, BP 96/58, SpO2 98% RA) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "DKA Kussmaul respirations: Type 1 diabetes, polyuria, abdominal pain; deep rapid breathing.",
+        "vitals": "HR 128, RR 32, BP 96/58, SpO2 98% RA",
+        "labs": "Glucose 620, anion gap 26, pH 7.12, K 5.6",
+        "nursing_actions": "Assess airway/breathing, start IV fluids per protocol",
+        "md_orders": "Regular insulin infusion, electrolyte monitoring"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-086",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+    "choices": [
+      "CT pulmonary angiography demonstrating a filling defect",
+      "Troponin mildly elevated",
+      "Bilateral crackles on auscultation",
+      "Relief of pain with antacids"
+    ],
+    "answer": "CT pulmonary angiography demonstrating a filling defect",
+    "rationale": "In Acute PE on heparin, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "CT pulmonary angiography demonstrating a filling defect": "Correct—most specific/definitive confirmation.",
+      "Troponin mildly elevated": "Plausible but nonspecific—can occur with many conditions.",
+      "Bilateral crackles on auscultation": "Incorrect—not diagnostic for this condition.",
+      "Relief of pain with antacids": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute PE on heparin: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+        "vitals": "HR 124, RR 30, BP 102/64, SpO2 88% RA",
+        "labs": "D-dimer ↑, ABG: pH 7.48, PaCO2 30, PaO2 58; CT angiogram: PE",
+        "nursing_actions": "Place on O2, continuous pulse ox, notify provider; assess bleeding risks",
+        "md_orders": "Heparin infusion, baseline aPTT, CBC; possible thrombolytic if unstable"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-087",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: Flank pain, fever, CVA tenderness; hypotension develops.",
+    "choices": [
+      "Check potassium/creatinine and urine output trend before giving renally cleared or K‑altering meds",
+      "Assess hair distribution",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Check potassium/creatinine and urine output trend before giving renally cleared or K‑altering meds",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Check potassium/creatinine and urine output trend before giving renally cleared or K‑altering meds is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Check potassium/creatinine and urine output trend before giving renally cleared or K‑altering meds": "Correct—directly reduces medication‑related harm.",
+      "Assess hair distribution": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pyelonephritis to sepsis: Flank pain, fever, CVA tenderness; hypotension develops.",
+        "vitals": "T 39.0, HR 122, BP 86/48",
+        "labs": "WBC 17k, lactate 3.2, UA nitrites+",
+        "nursing_actions": "Start IV fluids, obtain cultures, monitor output",
+        "md_orders": "IV antibiotics, fluids, possible ICU"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-088",
+    "bank": "Compass B",
+    "system": "Neurologic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: Continuous seizure >5 min; hypoxia risk.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Status epilepticus: Continuous seizure >5 min; hypoxia risk.",
+        "vitals": "HR 140, SpO2 86%",
+        "labs": "Glucose 62",
+        "nursing_actions": "Airway support, check glucose, administer benzo per protocol",
+        "md_orders": "IV lorazepam, then antiepileptic"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-089",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates the intervention is working?\n\nClient data: Flank pain, fever, CVA tenderness; hypotension develops.",
+    "choices": [
+      "Objective improvement in the key abnormal vital sign/lab trend described",
+      "Client states they feel better without objective change",
+      "A single normal value of an unrelated lab test",
+      "Provider documentation that the condition is stable"
+    ],
+    "answer": "Objective improvement in the key abnormal vital sign/lab trend described",
+    "rationale": "In Pyelonephritis to sepsis, response is judged by objective trends tied to the underlying physiology, not unrelated metrics or instantaneous changes.",
+    "choice_rationales": {
+      "Objective improvement in the key abnormal vital sign/lab trend described": "Correct—directly measures physiologic response to treatment for this condition.",
+      "Client states they feel better without objective change": "Tempting but not primary—may change later and does not validate stabilization of the main problem.",
+      "A single normal value of an unrelated lab test": "Incorrect—unrelated measures can be normal despite ongoing instability.",
+      "Provider documentation that the condition is stable": "Incorrect—must correlate with objective data."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Pyelonephritis to sepsis: Flank pain, fever, CVA tenderness; hypotension develops.",
+        "vitals": "T 39.0, HR 122, BP 86/48",
+        "labs": "WBC 17k, lactate 3.2, UA nitrites+",
+        "nursing_actions": "Start IV fluids, obtain cultures, monitor output",
+        "md_orders": "IV antibiotics, fluids, possible ICU"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-090",
+    "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Fever, petechial rash, nuchal rigidity; hypotension risk.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Meningococcal meningitis: Fever, petechial rash, nuchal rigidity; hypotension risk.",
+        "vitals": "T 39.5, HR 128, BP 90/54",
+        "labs": "LP pending",
+        "nursing_actions": "Droplet precautions, notify provider, prepare antibiotics",
+        "md_orders": "IV ceftriaxone; prophylaxis for contacts"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-93",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is caring for a postoperative client who becomes increasingly restless and disoriented. Vital signs show HR 122, RR 28, SpO₂ 89% on room air. The client received opioid pain medication 30 minutes ago. Which interpretation best explains the client’s change in status?",
+    "choices": [
+      "Expected response to postoperative pain",
+      "Acute respiratory compromise requiring intervention",
+      "Normal side effect of opioid administration",
+      "Anxiety related to hospitalization"
+    ],
+    "answer": "Acute respiratory compromise requiring intervention",
+    "rationale": "Restlessness, tachypnea, and hypoxemia indicate worsening oxygenation. Although opioids can cause sedation, these findings suggest respiratory compromise that requires immediate intervention.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-94",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse receives report on four clients. Which client should the nurse assess first?",
+    "choices": [
+      "Client with pneumonia requesting pain medication",
+      "Client with diabetes reporting shakiness and diaphoresis",
+      "Client with heart failure awaiting morning weights",
+      "Client with COPD requesting assistance to the bathroom"
+    ],
+    "answer": "Client with diabetes reporting shakiness and diaphoresis",
+    "rationale": "Shakiness and diaphoresis are classic signs of hypoglycemia, which is an immediate life-threatening condition requiring prompt assessment and intervention.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-95",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse reviews lab results for a client receiving chemotherapy. Which finding requires immediate follow-up?",
+    "choices": [
+      "Hemoglobin 10.8 g/dL",
+      "Platelet count 180,000/mm³",
+      "Absolute neutrophil count 900/mm³",
+      "Potassium 3.6 mEq/L"
+    ],
+    "answer": "Absolute neutrophil count 900/mm³",
+    "rationale": "An ANC below 1,000 indicates significant immunosuppression and a high risk for infection, requiring immediate protective interventions.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-96",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with chronic kidney disease has a potassium level of 6.2 mEq/L. Which action should the nurse anticipate first?",
+    "choices": [
+      "Administer loop diuretics",
+      "Prepare for cardiac monitoring",
+      "Encourage oral fluids",
+      "Recheck potassium in 4 hours"
+    ],
+    "answer": "Prepare for cardiac monitoring",
+    "rationale": "Severe hyperkalemia places the client at risk for lethal dysrhythmias. Continuous cardiac monitoring is the priority before corrective treatment.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-97",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is teaching a client newly diagnosed with heart failure. Which statement indicates the need for further teaching?",
+    "choices": [
+      "I will weigh myself every morning",
+      "I should report shortness of breath",
+      "I can stop my medications once I feel better",
+      "I need to limit my sodium intake"
+    ],
+    "answer": "I can stop my medications once I feel better",
+    "rationale": "Heart failure is a chronic condition requiring lifelong management. Medications must be continued even when symptoms improve.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-98",
+    "bank": "Compass B",
+    "system": "Ethics/Legal/Professional",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates the intervention is working?\n\nClient data: Older adult with delirium refusing emergent surgery; family demands proceed.",
+    "choices": [
+      "Objective improvement in the key abnormal vital sign/lab trend described",
+      "Client states they feel better without objective change",
+      "A single normal value of an unrelated lab test",
+      "Provider documentation that the condition is stable"
+    ],
+    "answer": "Objective improvement in the key abnormal vital sign/lab trend described",
+    "rationale": "In Informed consent capacity, response is judged by objective trends tied to the underlying physiology, not unrelated metrics or instantaneous changes.",
+    "choice_rationales": {
+      "Objective improvement in the key abnormal vital sign/lab trend described": "Correct—directly measures physiologic response to treatment for this condition.",
+      "Client states they feel better without objective change": "Tempting but not primary—may change later and does not validate stabilization of the main problem.",
+      "A single normal value of an unrelated lab test": "Incorrect—unrelated measures can be normal despite ongoing instability.",
+      "Provider documentation that the condition is stable": "Incorrect—must correlate with objective data."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Informed consent capacity: Older adult with delirium refusing emergent surgery; family demands proceed.",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-99",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client admitted with sepsis has a lactate level of 4.5 mmol/L. Which interpretation is most accurate?",
+    "choices": [
+      "Adequate tissue perfusion is occurring",
+      "The client is developing metabolic alkalosis",
+      "Ongoing tissue hypoxia is present",
+      "Renal clearance is improving"
+    ],
+    "answer": "Ongoing tissue hypoxia is present",
+    "rationale": "Elevated lactate indicates anaerobic metabolism from inadequate oxygen delivery, a hallmark of severe sepsis.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-100",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: After IV antibiotic: wheeze, hypotension, urticaria.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Anaphylaxis after antibiotic, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Anaphylaxis after antibiotic: After IV antibiotic: wheeze, hypotension, urticaria.",
+        "vitals": "HR 140, BP 70/38, SpO2 88%",
+        "labs": "",
+        "nursing_actions": "Stop infusion, call rapid response, maintain airway",
+        "md_orders": "Epinephrine IM/IV per protocol, fluids"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-101",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with a history of heart failure presents with sudden weight gain and worsening dyspnea. Which assessment finding most strongly supports acute fluid overload rather than disease progression alone?",
+    "choices": [
+      "Crackles at bilateral lung bases and elevated jugular venous distention",
+      "Irregular heart rhythm with intermittent palpitations",
+      "Decreased hemoglobin and hematocrit values",
+      "Cool extremities with delayed capillary refill"
+    ],
+    "answer": "Crackles at bilateral lung bases and elevated jugular venous distention",
+    "rationale": "Pulmonary crackles and JVD indicate intravascular volume excess and increased preload, consistent with acute fluid overload. Rhythm changes and anemia do not directly reflect fluid accumulation.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-102",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Asthma flare not relieved by home inhaler; speaking in words only; accessory muscle use.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Status asthmaticus: Asthma flare not relieved by home inhaler; speaking in words only; accessory muscle use.",
+        "vitals": "HR 132, RR 34, BP 156/90, SpO2 90% RA",
+        "labs": "Peak flow 35% of personal best; ABG trending PaCO2 rising",
+        "nursing_actions": "High-flow O2, continuous neb setup, prepare IV access",
+        "md_orders": "Continuous albuterol, IV steroids, magnesium sulfate"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-103",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which laboratory trend is most concerning for acute kidney injury in a postoperative patient?",
+    "choices": [
+      "Rising creatinine with decreasing urine output",
+      "Stable BUN with mild hyponatremia",
+      "Transient elevation in glucose levels",
+      "Slightly decreased potassium level"
+    ],
+    "answer": "Rising creatinine with decreasing urine output",
+    "rationale": "A rising creatinine combined with oliguria reflects impaired renal filtration and is a hallmark of acute kidney injury.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-104",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+    "choices": [
+      "Administer IM injections for pain while on full‑dose heparin",
+      "Apply SCDs while awaiting imaging for PE",
+      "Verify baseline CBC/aPTT and bleeding risk before titrating heparin",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Administer IM injections for pain while on full‑dose heparin",
+    "rationale": "The nurse should question Administer IM injections for pain while on full‑dose heparin because it conflicts with the client's presentation (HR 124, RR 30, BP 102/64, SpO2 88% RA) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Administer IM injections for pain while on full‑dose heparin": "Correct—unsafe/contraindicated given the case data.",
+      "Apply SCDs while awaiting imaging for PE": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Verify baseline CBC/aPTT and bleeding risk before titrating heparin": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute PE on heparin: Sudden pleuritic chest pain and dyspnea after knee arthroplasty. Tachycardic, SpO2 low.",
+        "vitals": "HR 124, RR 30, BP 102/64, SpO2 88% RA",
+        "labs": "D-dimer ↑, ABG: pH 7.48, PaCO2 30, PaO2 58; CT angiogram: PE",
+        "nursing_actions": "Place on O2, continuous pulse ox, notify provider; assess bleeding risks",
+        "md_orders": "Heparin infusion, baseline aPTT, CBC; possible thrombolytic if unstable"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-105",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which assessment finding best differentiates diabetic ketoacidosis from hyperosmolar hyperglycemic state?",
+    "choices": [
+      "Presence of metabolic acidosis with ketones",
+      "Severe hyperglycemia",
+      "Signs of dehydration",
+      "Altered mental status"
+    ],
+    "answer": "Presence of metabolic acidosis with ketones",
+    "rationale": "DKA is characterized by ketone production and metabolic acidosis, whereas HHS typically lacks significant ketosis.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-106",
+    "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: Severe epigastric pain radiating to back; NPO; hypocalcemia risk.",
+    "choices": [
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+      "Ask about favorite foods",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Review allergies, current vitals, and a contraindication relevant to the ordered medication is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication": "Correct—directly reduces medication‑related harm.",
+      "Ask about favorite foods": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute pancreatitis: Severe epigastric pain radiating to back; NPO; hypocalcemia risk.",
+        "vitals": "HR 118, BP 104/66",
+        "labs": "Lipase 2400, Ca 7.6, glucose 280",
+        "nursing_actions": "Aggressive IV fluids, pain control monitoring, I&O",
+        "md_orders": "LR bolus, opioids, monitor electrolytes"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-107",
+    "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly suggests sepsis rather than a localized infection?",
+    "choices": [
+      "Hypotension with elevated lactate levels",
+      "Localized redness and warmth",
+      "Mild fever responsive to antipyretics",
+      "Purulent drainage from a wound"
+    ],
+    "answer": "Hypotension with elevated lactate levels",
+    "rationale": "Systemic hypotension and elevated lactate reflect impaired tissue perfusion, a defining feature of sepsis.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-108",
+    "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates the intervention is working?\n\nClient data: Watery diarrhea after antibiotics; abdominal cramps; fever.",
+    "choices": [
+      "Objective improvement in the key abnormal vital sign/lab trend described",
+      "Client states they feel better without objective change",
+      "A single normal value of an unrelated lab test",
+      "Provider documentation that the condition is stable"
+    ],
+    "answer": "Objective improvement in the key abnormal vital sign/lab trend described",
+    "rationale": "In C.diff colitis with dehydration, response is judged by objective trends tied to the underlying physiology, not unrelated metrics or instantaneous changes.",
+    "choice_rationales": {
+      "Objective improvement in the key abnormal vital sign/lab trend described": "Correct—directly measures physiologic response to treatment for this condition.",
+      "Client states they feel better without objective change": "Tempting but not primary—may change later and does not validate stabilization of the main problem.",
+      "A single normal value of an unrelated lab test": "Incorrect—unrelated measures can be normal despite ongoing instability.",
+      "Provider documentation that the condition is stable": "Incorrect—must correlate with objective data."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "C.diff colitis with dehydration: Watery diarrhea after antibiotics; abdominal cramps; fever.",
+        "vitals": "HR 120, BP 90/54",
+        "labs": "WBC 22k, creatinine rising",
+        "nursing_actions": "Contact precautions, assess hydration, stool sample",
+        "md_orders": "Oral vancomycin, IVF"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-109",
+    "bank": "Compass B",
+    "system": "Reproductive/OB",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding in a postpartum client most strongly indicates uterine atony?",
+    "choices": [
+      "Boggy uterus with heavy lochia",
+      "Mild uterine cramping",
+      "Temperature of 37.8°C (100°F)",
+      "Small clots during fundal massage"
+    ],
+    "answer": "Boggy uterus with heavy lochia",
+    "rationale": "A soft, boggy uterus with excessive bleeding is classic for uterine atony, a leading cause of postpartum hemorrhage.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-110",
+    "bank": "Compass B",
+    "system": "Psych/Mental Health",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: On SSRI + linezolid; agitation, clonus, hyperthermia.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In Serotonin syndrome, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Serotonin syndrome: On SSRI + linezolid; agitation, clonus, hyperthermia.",
+        "vitals": "T 39.0, HR 132, BP 168/92",
+        "labs": "CK elevated",
+        "nursing_actions": "Stop serotonergic agents, cooling, benzodiazepines",
+        "md_orders": "Cyproheptadine; ICU"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-111",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with chronic kidney disease is prescribed erythropoietin alfa. Which laboratory value best indicates the medication is having the intended effect?",
+    "choices": [
+      "Decreasing serum creatinine",
+      "Increasing hemoglobin level",
+      "Normalized potassium level",
+      "Reduced blood urea nitrogen"
+    ],
+    "answer": "Increasing hemoglobin level",
+    "rationale": "Erythropoietin stimulates erythropoiesis. Rising hemoglobin confirms therapeutic response. Renal markers and electrolytes do not measure RBC production.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-112",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A postoperative client develops sudden shortness of breath, tachycardia, and pleuritic chest pain. Which complication is the nurse most concerned about?",
+    "choices": [
+      "Atelectasis",
+      "Pulmonary embolism",
+      "Myocardial infarction",
+      "Pneumonia"
+    ],
+    "answer": "Pulmonary embolism",
+    "rationale": "Abrupt dyspnea, tachycardia, and pleuritic pain strongly indicate PE. Atelectasis and pneumonia develop gradually; MI presents with different pain patterns.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-113",
+    "bank": "Compass B",
+    "system": "Endocrine",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which action is most urgent to prevent deterioration?\n\nClient data: Hypothyroid, cold, bradycardic, altered LOC.",
+    "choices": [
+      "Warm blankets",
+      "Obtain a complete health history before intervening",
+      "Document the findings and reassess in 30 minutes",
+      "Provide oral fluids and encourage rest"
+    ],
+    "answer": "Warm blankets",
+    "rationale": "Myxedema coma: the priority is immediate stabilization (ABCs/perfusion) based on T 34.5C, HR 42, BP 88/54. This action directly addresses the life‑threatening physiology described.",
+    "choice_rationales": {
+      "Warm blankets": "Correct—targets the immediate threat and aligns with emergency nursing priorities.",
+      "Obtain a complete health history before intervening": "Plausible but unsafe—intervening without targeted reassessment can worsen the problem or delay definitive care.",
+      "Document the findings and reassess in 30 minutes": "Incorrect—delays time‑sensitive intervention in an unstable scenario.",
+      "Provide oral fluids and encourage rest": "Incorrect—does not address acute pathophysiology."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Myxedema coma: Hypothyroid, cold, bradycardic, altered LOC.",
+        "vitals": "T 34.5C, HR 42, BP 88/54",
+        "labs": "TSH high, free T4 low, Na 120, CO2 retention",
+        "nursing_actions": "Warm blankets, airway/ventilation support, notify provider",
+        "md_orders": "IV levothyroxine, hydrocortisone, warming"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-114",
+    "bank": "Compass B",
+    "system": "Immune/Hematology",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client receiving warfarin therapy has an INR of 4.5. Which nursing action is most appropriate?",
+    "choices": [
+      "Administer vitamin K",
+      "Hold the next dose and notify the provider",
+      "Continue the current dose",
+      "Increase dietary vitamin K"
+    ],
+    "answer": "Hold the next dose and notify the provider",
+    "rationale": "An INR of 4.5 is supratherapeutic. Holding warfarin and notifying the provider reduces bleeding risk. Vitamin K is reserved for severe elevation or bleeding.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-115",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which explanation best justifies the nursing priority to the interprofessional team?\n\nClient data: Severe headache, confusion; BP very high; papilledema.",
+    "choices": [
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+      "Because it is easiest for the nurse to complete",
+      "Because it is written on the chart",
+      "Because it improves patient satisfaction first"
+    ],
+    "answer": "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury",
+    "rationale": "Clinical priorities are justified by pathophysiology and risk, not convenience or non‑urgent metrics.",
+    "choice_rationales": {
+      "Because it targets the physiologic derangement driving instability and prevents irreversible organ injury": "Correct—connects action to risk reduction.",
+      "Because it is easiest for the nurse to complete": "Incorrect—convenience is not a priority rationale.",
+      "Because it is written on the chart": "Incorrect—orders require clinical judgment in context.",
+      "Because it improves patient satisfaction first": "Incorrect—satisfaction is secondary to safety."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Hypertensive emergency with encephalopathy: Severe headache, confusion; BP very high; papilledema.",
+        "vitals": "BP 238/132, HR 96, RR 18",
+        "labs": "Creatinine 2.1, UA protein+",
+        "nursing_actions": "Neuro checks, seizure precautions, IV access",
+        "md_orders": "IV nicardipine with controlled BP reduction"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-116",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with COPD is receiving oxygen at 4 L/min via nasal cannula. Which finding requires immediate intervention?",
+    "choices": [
+      "Oxygen saturation of 92%",
+      "Respiratory rate of 18/min",
+      "Increasing somnolence",
+      "Mild dyspnea on exertion"
+    ],
+    "answer": "Increasing somnolence",
+    "rationale": "Excess oxygen can suppress respiratory drive in COPD, causing CO₂ retention and somnolence—an urgent safety concern.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-117",
+    "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which finding most strongly confirms the working diagnosis?\n\nClient data: Watery diarrhea after antibiotics; abdominal cramps; fever.",
+    "choices": [
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)",
+      "A normal value unrelated to the suspected diagnosis",
+      "A finding that supports a different primary diagnosis"
+    ],
+    "answer": "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case",
+    "rationale": "In C.diff colitis with dehydration, confirmation relies on the most specific/definitive indicator for the suspected condition; nonspecific findings can be misleading.",
+    "choice_rationales": {
+      "A diagnostic finding that directly demonstrates the suspected pathophysiology in the case": "Correct—most specific/definitive confirmation.",
+      "A nonspecific stress response finding (e.g., mild leukocytosis)": "Plausible but nonspecific—can occur with many conditions.",
+      "A normal value unrelated to the suspected diagnosis": "Incorrect—not diagnostic for this condition.",
+      "A finding that supports a different primary diagnosis": "Incorrect—points away from the working diagnosis."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "C.diff colitis with dehydration: Watery diarrhea after antibiotics; abdominal cramps; fever.",
+        "vitals": "HR 120, BP 90/54",
+        "labs": "WBC 22k, creatinine rising",
+        "nursing_actions": "Contact precautions, assess hydration, stool sample",
+        "md_orders": "Oral vancomycin, IVF"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-118",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A nurse is preparing to administer IV potassium chloride. Which action is essential for safe administration?",
+    "choices": [
+      "Administer via IV push",
+      "Dilute in IV fluid",
+      "Give rapidly through a peripheral line",
+      "Administer without cardiac monitoring"
+    ],
+    "answer": "Dilute in IV fluid",
+    "rationale": "Potassium must always be diluted and infused slowly. IV push potassium can cause fatal arrhythmias.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-119",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client with sepsis has a blood pressure of 86/48 mmHg. Which intervention should the nurse anticipate first?",
+    "choices": [
+      "Broad-spectrum antibiotics",
+      "IV fluid bolus",
+      "Vasopressor therapy",
+      "Blood transfusion"
+    ],
+    "answer": "IV fluid bolus",
+    "rationale": "Initial sepsis management prioritizes fluid resuscitation to restore perfusion before antibiotics or vasopressors.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-120",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Melena then syncope; cool clammy; on warfarin.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Massive GI bleed causing shock: Melena then syncope; cool clammy; on warfarin.",
+        "vitals": "HR 138, BP 76/40, RR 28, SpO2 93%",
+        "labs": "Hgb 6.8, INR 4.5, lactate 5.1",
+        "nursing_actions": "Two large-bore IVs, type&cross, transfusion protocol",
+        "md_orders": "PRBCs, vitamin K, PCC; endoscopy"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-131",
+    "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which parameter best indicates the intervention is working?\n\nClient data: No flatus, distention, high-pitched bowel sounds; vomiting.",
+    "choices": [
+      "Objective improvement in the key abnormal vital sign/lab trend described",
+      "Client states they feel better without objective change",
+      "A single normal value of an unrelated lab test",
+      "Provider documentation that the condition is stable"
+    ],
+    "answer": "Objective improvement in the key abnormal vital sign/lab trend described",
+    "rationale": "In Bowel obstruction, response is judged by objective trends tied to the underlying physiology, not unrelated metrics or instantaneous changes.",
+    "choice_rationales": {
+      "Objective improvement in the key abnormal vital sign/lab trend described": "Correct—directly measures physiologic response to treatment for this condition.",
+      "Client states they feel better without objective change": "Tempting but not primary—may change later and does not validate stabilization of the main problem.",
+      "A single normal value of an unrelated lab test": "Incorrect—unrelated measures can be normal despite ongoing instability.",
+      "Provider documentation that the condition is stable": "Incorrect—must correlate with objective data."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Bowel obstruction: No flatus, distention, high-pitched bowel sounds; vomiting.",
+        "vitals": "HR 112, BP 118/74",
+        "labs": "K 3.1, Cl 90, lactate borderline",
+        "nursing_actions": "NG tube decompression prep, NPO, fluid replacement",
+        "md_orders": "NG suction, IV fluids, surgical consult"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-132",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which findings are most consistent with hypoglycemia? (Select all that apply.)",
+    "choices": [
+      "Diaphoresis",
+      "Tremors",
+      "Fruity breath odor",
+      "Palpitations",
+      "Kussmaul respirations",
+      "Confusion"
+    ],
+    "answer": "Diaphoresis",
+    "rationale": "Hypoglycemia produces adrenergic symptoms such as sweating, tremors, and tachycardia, along with neuroglycopenic effects like confusion. Fruity breath and Kussmaul respirations indicate hyperglycemia.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-133",
+    "bank": "Compass B",
+    "system": "Musculoskeletal",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which task is most appropriate for the nurse to delegate to an experienced UAP?",
+    "choices": [
+      "Teach hip precautions",
+      "Assess neurovascular status",
+      "Evaluate pain response to opioids",
+      "Assist with hygiene while maintaining hip precautions"
+    ],
+    "answer": "Assist with hygiene while maintaining hip precautions",
+    "rationale": "UAPs may assist with routine care such as hygiene when the client is stable. Teaching, assessment, and evaluation require nursing judgment.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-134",
+    "bank": "Compass B",
+    "system": "Integumentary/Wound",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which additional assessment is most important before administering the ordered medication?\n\nClient data: Severe pain out of proportion, crepitus; rapidly spreading erythema.",
+    "choices": [
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+      "Ask about favorite foods",
+      "Confirm the client's room number",
+      "Offer to ambulate the client first"
+    ],
+    "answer": "Review allergies, current vitals, and a contraindication relevant to the ordered medication",
+    "rationale": "Targeted safety checks prior to medication administration prevent predictable adverse events. Review allergies, current vitals, and a contraindication relevant to the ordered medication is directly tied to pharmacodynamics and current status.",
+    "choice_rationales": {
+      "Review allergies, current vitals, and a contraindication relevant to the ordered medication": "Correct—directly reduces medication‑related harm.",
+      "Ask about favorite foods": "Plausible but not safety‑critical in this scenario.",
+      "Confirm the client's room number": "Incorrect—does not address medication safety beyond basic identification.",
+      "Offer to ambulate the client first": "Incorrect—unrelated and may be unsafe."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Necrotizing fasciitis: Severe pain out of proportion, crepitus; rapidly spreading erythema.",
+        "vitals": "HR 138, BP 88/50",
+        "labs": "WBC 24k, lactate 4.8",
+        "nursing_actions": "Call provider STAT, mark borders, prepare for surgery",
+        "md_orders": "Broad-spectrum IV antibiotics; emergent debridement"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-135",
+    "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: Asthma flare not relieved by home inhaler; speaking in words only; accessory muscle use.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (HR 132, RR 34, BP 156/90, SpO2 90% RA) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Status asthmaticus: Asthma flare not relieved by home inhaler; speaking in words only; accessory muscle use.",
+        "vitals": "HR 132, RR 34, BP 156/90, SpO2 90% RA",
+        "labs": "Peak flow 35% of personal best; ABG trending PaCO2 rising",
+        "nursing_actions": "High-flow O2, continuous neb setup, prepare IV access",
+        "md_orders": "Continuous albuterol, IV steroids, magnesium sulfate"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-136",
+    "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Sudden severe dyspnea, frothy sputum; crackles; hypertension.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Acute decompensated HF with flash pulmonary edema: Sudden severe dyspnea, frothy sputum; crackles; hypertension.",
+        "vitals": "HR 122, BP 210/110, RR 34, SpO2 82% RA",
+        "labs": "BNP 1800, CXR pulmonary edema",
+        "nursing_actions": "High Fowler, apply CPAP/BiPAP if ordered, IV access",
+        "md_orders": "IV nitroglycerin, IV loop diuretic"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-137",
+    "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which actions best protect peristomal skin? (Select all that apply.)",
+    "choices": [
+      "Measure stoma and size wafer appropriately",
+      "Use alcohol wipes routinely",
+      "Clean gently with warm water and pat dry",
+      "Use a skin barrier if skin is weepy",
+      "Oversize the opening",
+      "Change pouch promptly if leaking"
+    ],
+    "answer": "Measure stoma and size wafer appropriately",
+    "rationale": "Correct sizing, gentle cleansing, barrier use, and prompt leak management prevent chemical irritation of peristomal skin.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-138",
+    "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which complication is the client at greatest risk for in the next hour?\n\nClient data: Generalized edema, frothy urine; low albumin.",
+    "choices": [
+      "Rapid decompensation directly related to the acute physiologic instability described",
+      "A delayed/chronic complication unrelated to the current trajectory",
+      "Mild transient headache",
+      "Improved appetite"
+    ],
+    "answer": "Rapid decompensation directly related to the acute physiologic instability described",
+    "rationale": "Prioritize the most time‑sensitive, life‑threatening complication predicted by the acute pathophysiology (ABCs/perfusion).",
+    "choice_rationales": {
+      "Rapid decompensation directly related to the acute physiologic instability described": "Correct—most immediate life‑threatening risk.",
+      "A delayed/chronic complication unrelated to the current trajectory": "Plausible but not the immediate threat in the next hour.",
+      "Mild transient headache": "Incorrect—low acuity compared with the scenario.",
+      "Improved appetite": "Incorrect—not a complication."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Nephrotic syndrome with thrombosis risk: Generalized edema, frothy urine; low albumin.",
+        "vitals": "BP 156/92",
+        "labs": "Albumin 2.0, proteinuria 4+, cholesterol high",
+        "nursing_actions": "Daily weights, assess for DVT/PE, skin care",
+        "md_orders": "ACE inhibitor, diuretic; anticoag prophylaxis"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-139",
+    "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "Which order should the nurse question based on the case data?\n\nClient data: 2 hrs post-op: saturated dressing, dropping BP, rising HR.",
+    "choices": [
+      "Carry out the order without verifying contraindications present in the case data",
+      "Recheck vital signs before giving the next dose",
+      "Clarify the order that conflicts with the client's current status",
+      "Proceed with all orders; questioning delays care"
+    ],
+    "answer": "Carry out the order without verifying contraindications present in the case data",
+    "rationale": "The nurse should question Carry out the order without verifying contraindications present in the case data because it conflicts with the client's presentation (HR 132, BP 86/48) and increases risk. Safety verification/clarification is required.",
+    "choice_rationales": {
+      "Carry out the order without verifying contraindications present in the case data": "Correct—unsafe/contraindicated given the case data.",
+      "Recheck vital signs before giving the next dose": "Plausible but not the key safety conflict; does not address the highest‑risk contraindication.",
+      "Clarify the order that conflicts with the client's current status": "Appropriate—verifies safety and aligns with preventing harm.",
+      "Proceed with all orders; questioning delays care": "Incorrect—nursing accountability includes clarifying unsafe orders."
+    },
+    "case": {
+      "tabs": {
+        "case_study": "Post-op hemorrhage: 2 hrs post-op: saturated dressing, dropping BP, rising HR.",
+        "vitals": "HR 132, BP 86/48",
+        "labs": "Hgb drop from 12 to 8",
+        "nursing_actions": "Reinforce dressing, notify surgeon, prepare fluids/blood",
+        "md_orders": "CBC, type&cross, possible return to OR"
+      }
+    },
+    "case_group": {}
+  },
+  {
+    "id": "CB-140",
+    "bank": "Compass B",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Compass B",
+    "difficulty": 5,
+    "qtype": "single",
+    "stem": "A client develops flushing and hypotension during vancomycin infusion. What is the nurse’s first action?",
+    "choices": [
+      "Administer epinephrine",
+      "Stop the infusion and assess ABCs",
+      "Increase infusion rate",
+      "Document and reassess later"
+    ],
+    "answer": "Stop the infusion and assess ABCs",
+    "rationale": "Vancomycin infusion reactions require immediate cessation of the drug and assessment before further intervention.",
+    "choice_rationales": {},
+    "case": {
+      "tabs": {
+        "case_study": "",
+        "vitals": "",
+        "labs": "",
+        "nursing_actions": "",
+        "md_orders": ""
+      }
+    },
+    "case_group": {}
+  }
+]
