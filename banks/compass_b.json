@@ -2,9 +2,10 @@
   {
     "id": "CB-01-001",
     "bank": "Compass B",
-    "topic": "Patient Safety & Quality",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Patient Safety & Quality. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -13,14 +14,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-002",
     "bank": "Compass B",
-    "topic": "Clinical Judgment & Prioritization",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Clinical Judgment & Prioritization. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -29,14 +31,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-003",
     "bank": "Compass B",
-    "topic": "Fluid & Electrolyte Balance",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Fluid & Electrolyte Balance. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -45,14 +48,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-004",
     "bank": "Compass B",
-    "topic": "Respiratory Function",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Respiratory Function. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -61,14 +65,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-005",
     "bank": "Compass B",
-    "topic": "Cardiovascular Stability",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Cardiovascular Stability. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -77,14 +82,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-006",
     "bank": "Compass B",
-    "topic": "Medication Safety",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Medication Safety. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -93,14 +99,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-007",
     "bank": "Compass B",
-    "topic": "Infection Control",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Infection Control. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -109,14 +116,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-008",
     "bank": "Compass B",
-    "topic": "Endocrine Regulation",
+    "system": "Endocrine",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Endocrine Regulation. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -125,14 +133,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-009",
     "bank": "Compass B",
-    "topic": "Neurologic Assessment",
+    "system": "Neurologic",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Neurologic Assessment. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -141,14 +150,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-01-010",
     "bank": "Compass B",
-    "topic": "Ethical/Legal Practice",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient scenario related to Ethical/Legal Practice. Which nursing action is MOST appropriate based on the assessment data?",
     "choices": [
       "Implement the intervention that addresses the most immediate threat to physiologic stability",
@@ -157,14 +167,15 @@
       "Document findings and reassess in one hour"
     ],
     "answer": "Implement the intervention that addresses the most immediate threat to physiologic stability",
-    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse\u2019s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
+    "rationale": "This question requires prioritization using clinical judgment. While provider orders and delegation may be appropriate later, the nurse’s primary responsibility is to address immediate threats to patient safety and physiologic stability. The other options may seem reasonable but delay critical intervention."
   },
   {
     "id": "CB-011",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Postoperative Care / Oxygenation",
+    "qtype": "single",
     "stem": "A nurse is caring for a postoperative patient who suddenly becomes restless, tachycardic, and short of breath. Oxygen saturation drops from 97% to 89% on room air. Which action should the nurse take first?",
     "choices": [
       "Apply oxygen via nasal cannula",
@@ -178,9 +189,10 @@
   {
     "id": "CB-012",
     "bank": "Compass B",
+    "system": "Endocrine",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Endocrine / Diabetes",
+    "qtype": "single",
     "stem": "A patient with type 2 diabetes has a fasting blood glucose of 68 mg/dL and reports feeling shaky and sweaty. Which nursing action is most appropriate?",
     "choices": [
       "Administer sliding-scale insulin",
@@ -194,9 +206,10 @@
   {
     "id": "CB-013",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Fluids & Electrolytes",
+    "qtype": "single",
     "stem": "A nurse is reviewing lab results for a patient receiving furosemide. Which finding requires the most immediate intervention?",
     "choices": [
       "Sodium 134 mEq/L",
@@ -210,10 +223,11 @@
   {
     "id": "CB-014",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Pharmacology / Opioids",
-    "stem": "A patient receiving opioid analgesics develops shallow respirations and pinpoint pupils. What is the nurse\u2019s priority action?",
+    "qtype": "single",
+    "stem": "A patient receiving opioid analgesics develops shallow respirations and pinpoint pupils. What is the nurse’s priority action?",
     "choices": [
       "Apply supplemental oxygen",
       "Stimulate the patient verbally",
@@ -226,25 +240,27 @@
   {
     "id": "CB-015",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Cardiac / Heart Failure",
+    "qtype": "single",
     "stem": "A nurse is teaching a patient with heart failure about daily weight monitoring. Which statement indicates correct understanding?",
     "choices": [
-      "I\u2019ll weigh myself if I feel short of breath",
-      "I\u2019ll weigh myself every morning after breakfast",
-      "I\u2019ll call my provider if I gain 2 pounds in one day",
-      "I\u2019ll use whichever scale is available"
+      "I’ll weigh myself if I feel short of breath",
+      "I’ll weigh myself every morning after breakfast",
+      "I’ll call my provider if I gain 2 pounds in one day",
+      "I’ll use whichever scale is available"
     ],
-    "answer": "I\u2019ll call my provider if I gain 2 pounds in one day",
+    "answer": "I’ll call my provider if I gain 2 pounds in one day",
     "rationale": "Rapid weight gain reflects fluid retention and worsening heart failure, requiring prompt provider notification."
   },
   {
     "id": "CB-016",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Respiratory / Infection",
+    "qtype": "single",
     "stem": "A patient with pneumonia is receiving IV antibiotics. Which finding best indicates the treatment is effective?",
     "choices": [
       "White blood cell count decreases",
@@ -258,9 +274,10 @@
   {
     "id": "CB-017",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Nutrition / Tubes",
+    "qtype": "single",
     "stem": "A nurse prepares to administer enteral feedings through a nasogastric tube. Which action is essential to prevent aspiration?",
     "choices": [
       "Flush the tube with sterile water",
@@ -274,9 +291,10 @@
   {
     "id": "CB-018",
     "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Renal / Electrolytes",
+    "qtype": "single",
     "stem": "A patient with chronic kidney disease has a potassium level of 6.2 mEq/L. Which assessment finding would the nurse expect?",
     "choices": [
       "Muscle weakness",
@@ -290,9 +308,10 @@
   {
     "id": "CB-019",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Cardiac Monitoring",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient on continuous telemetry. Which rhythm change requires immediate action?",
     "choices": [
       "Sinus tachycardia at 110 bpm",
@@ -306,12 +325,13 @@
   {
     "id": "CB-020",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "topic": "Sepsis / Shock",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient with suspected sepsis. Which finding is most concerning?",
     "choices": [
-      "Temperature 100.4\u00b0F (38\u00b0C)",
+      "Temperature 100.4°F (38°C)",
       "Heart rate 112 bpm",
       "Blood pressure 88/54 mm Hg",
       "Respiratory rate 22/min"
@@ -322,9 +342,10 @@
   {
     "id": "CB-021",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Safety / Clinical Judgment",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A nurse prepares to administer IV potassium chloride to a client with hypokalemia. Which action requires immediate correction before proceeding?",
     "choices": [
       "Diluting potassium chloride in normal saline",
@@ -338,9 +359,10 @@
   {
     "id": "CB-022",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Pharmacology",
+    "system": "Immune/Hematology",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client receiving warfarin therapy has an INR of 4.6. Which nursing action is most appropriate?",
     "choices": [
       "Administer the scheduled dose and recheck INR tomorrow",
@@ -354,9 +376,10 @@
   {
     "id": "CB-023",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Oxygenation",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "Which assessment finding in a client with COPD requires the most immediate follow-up?",
     "choices": [
       "Barrel-shaped chest",
@@ -370,9 +393,10 @@
   {
     "id": "CB-024",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Fluid & Electrolytes",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client with heart failure has gained 2.5 kg in 48 hours. Which interpretation is most accurate?",
     "choices": [
       "The client is experiencing fat accumulation",
@@ -386,9 +410,10 @@
   {
     "id": "CB-025",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Infection Control",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "Which action by a nurse caring for a client with Clostridioides difficile requires intervention?",
     "choices": [
       "Wearing gloves when entering the room",
@@ -402,9 +427,10 @@
   {
     "id": "CB-026",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Neurological",
+    "system": "Neurologic",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A client with a head injury has a Glasgow Coma Scale score of 7. How should the nurse interpret this finding?",
     "choices": [
       "Mild neurological impairment",
@@ -418,9 +444,10 @@
   {
     "id": "CB-027",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Endocrine",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "Which finding suggests that a client with diabetes mellitus is experiencing hypoglycemia?",
     "choices": [
       "Polyuria and polydipsia",
@@ -434,9 +461,10 @@
   {
     "id": "CB-028",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Delegation",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "Which task is appropriate for the nurse to delegate to an unlicensed assistive personnel (UAP)?",
     "choices": [
       "Assessing pain in a postoperative client",
@@ -450,9 +478,10 @@
   {
     "id": "CB-029",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client reports chest pain rated 8/10. Which nursing action is the priority?",
     "choices": [
       "Obtain a detailed pain history",
@@ -466,10 +495,11 @@
   {
     "id": "CB-030",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Ethics",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "stem": "A competent client refuses a life-saving blood transfusion. What principle should guide the nurse\u2019s response?",
+    "qtype": "single",
+    "stem": "A competent client refuses a life-saving blood transfusion. What principle should guide the nurse’s response?",
     "choices": [
       "Beneficence",
       "Nonmaleficence",
@@ -477,18 +507,19 @@
       "Justice"
     ],
     "answer": "Autonomy",
-    "rationale": "Autonomy refers to the client\u2019s right to make informed decisions about their care, even when refusing life-saving treatment."
+    "rationale": "Autonomy refers to the client’s right to make informed decisions about their care, even when refusing life-saving treatment."
   },
   {
     "id": "CB-031",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Safety/Clinical Judgment",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
-    "stem": "A nurse reviews a client\u2019s medication list and notes newly prescribed warfarin. Which finding requires immediate follow-up before administration?",
+    "qtype": "single",
+    "stem": "A nurse reviews a client’s medication list and notes newly prescribed warfarin. Which finding requires immediate follow-up before administration?",
     "choices": [
       "INR of 1.8",
-      "Platelet count of 210,000/mm\u00b3",
+      "Platelet count of 210,000/mm³",
       "Active hematuria reported this morning",
       "History of atrial fibrillation"
     ],
@@ -498,9 +529,10 @@
   {
     "id": "CB-032",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Emergency/Respiratory",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A postoperative client suddenly becomes restless, tachycardic, and dyspneic. Which action should the nurse take first?",
     "choices": [
       "Administer prescribed opioid analgesic",
@@ -514,9 +546,10 @@
   {
     "id": "CB-041",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 OB/Critical Care",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A nurse is caring for a client receiving magnesium sulfate for preeclampsia. Which assessment finding requires immediate intervention?",
     "choices": [
       "Respiratory rate of 10/min",
@@ -530,9 +563,10 @@
   {
     "id": "CB-042",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Respiratory",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A client with COPD is receiving oxygen at 4 L/min via nasal cannula. Which finding is most concerning?",
     "choices": [
       "Oxygen saturation of 92%",
@@ -541,14 +575,15 @@
       "Productive cough with thick sputum"
     ],
     "answer": "Drowsiness and decreased level of consciousness",
-    "rationale": "Drowsiness may indicate CO\u2082 retention from excessive oxygen therapy. The other findings are expected in COPD."
+    "rationale": "Drowsiness may indicate CO₂ retention from excessive oxygen therapy. The other findings are expected in COPD."
   },
   {
     "id": "CB-051",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Cardiac",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A nurse is preparing to administer IV furosemide to a client with acute heart failure. Which assessment finding would cause the nurse to question the order?",
     "choices": [
       "Potassium level of 3.1 mEq/L",
@@ -562,10 +597,11 @@
   {
     "id": "CB-052",
     "bank": "Compass B",
-    "qtype": "single",
-    "topic": "Exit Review \u2013 Nutrition/Metabolic",
+    "system": "Fluids & Electrolytes/Acid-Base",
+    "topic": "Compass B",
     "difficulty": 4,
-    "stem": "A client receiving total parenteral nutrition (TPN) becomes diaphoretic and confused. What is the nurse\u2019s priority action?",
+    "qtype": "single",
+    "stem": "A client receiving total parenteral nutrition (TPN) becomes diaphoretic and confused. What is the nurse’s priority action?",
     "choices": [
       "Slow the infusion rate",
       "Check capillary blood glucose",
@@ -578,9 +614,10 @@
   {
     "id": "CB-061",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Renal / Fluid & Electrolytes",
+    "qtype": "single",
     "stem": "A nurse is caring for a patient admitted with acute kidney injury (AKI) following severe dehydration from prolonged vomiting. Which assessment finding requires immediate intervention?",
     "choices": [
       "Serum potassium 5.6 mEq/L",
@@ -594,10 +631,11 @@
   {
     "id": "CB-062",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Pharmacology / Safety",
-    "stem": "A postoperative patient receiving opioids becomes difficult to arouse. Respirations are 8/min and oxygen saturation is 89% on room air. What is the nurse\u2019s priority action?",
+    "qtype": "single",
+    "stem": "A postoperative patient receiving opioids becomes difficult to arouse. Respirations are 8/min and oxygen saturation is 89% on room air. What is the nurse’s priority action?",
     "choices": [
       "Apply supplemental oxygen",
       "Administer naloxone",
@@ -610,9 +648,10 @@
   {
     "id": "CB-063",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Cardiovascular / Fluid Balance",
+    "qtype": "single",
     "stem": "A client with heart failure reports sudden weight gain and increasing dyspnea. Which finding best indicates fluid volume excess?",
     "choices": [
       "Bounding peripheral pulses",
@@ -626,9 +665,10 @@
   {
     "id": "CB-064",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Endocrine / Diabetes",
+    "qtype": "single",
     "stem": "A patient with diabetes becomes diaphoretic, confused, and tremulous. Which intervention should the nurse perform first?",
     "choices": [
       "Check blood glucose",
@@ -642,15 +682,16 @@
   {
     "id": "CB-065",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Infection Control / Oncology",
+    "qtype": "single",
     "stem": "A nurse is teaching infection prevention to a patient receiving chemotherapy. Which statement indicates correct understanding?",
     "choices": [
       "I should avoid fresh flowers and plants.",
       "I can stop precautions if I feel well.",
       "Hand sanitizer replaces handwashing.",
-      "Masks are only needed if I\u2019m coughing."
+      "Masks are only needed if I’m coughing."
     ],
     "answer": "I should avoid fresh flowers and plants.",
     "rationale": "Plants and soil harbor microorganisms that can cause serious infections in immunocompromised patients."
@@ -658,9 +699,10 @@
   {
     "id": "CB-066",
     "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Critical Care / Sepsis",
+    "qtype": "single",
     "stem": "A nurse notes a patient with sepsis has a lactate level of 4.2 mmol/L. What does this finding indicate?",
     "choices": [
       "Adequate tissue perfusion",
@@ -674,9 +716,10 @@
   {
     "id": "CB-067",
     "bank": "Compass B",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "IV Therapy / Fluid Overload",
+    "qtype": "single",
     "stem": "A client receiving IV fluids develops jugular venous distention and new crackles. What should the nurse do first?",
     "choices": [
       "Slow the IV infusion",
@@ -690,10 +733,11 @@
   {
     "id": "CB-068",
     "bank": "Compass B",
+    "system": "Neurologic",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Neurologic / Stroke",
-    "stem": "A patient with a history of stroke suddenly has slurred speech and unilateral weakness. What is the nurse\u2019s priority?",
+    "qtype": "single",
+    "stem": "A patient with a history of stroke suddenly has slurred speech and unilateral weakness. What is the nurse’s priority?",
     "choices": [
       "Check blood glucose",
       "Activate stroke protocol",
@@ -706,9 +750,10 @@
   {
     "id": "CB-069",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Respiratory / Pharmacology",
+    "qtype": "single",
     "stem": "A nurse reviews a medication order for a patient with asthma. Which medication should the nurse question?",
     "choices": [
       "Albuterol",
@@ -722,9 +767,10 @@
   {
     "id": "CB-070",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "mc",
-    "topic": "Cardiac / Emergency Care",
+    "qtype": "single",
     "stem": "A patient reports chest pain radiating to the left arm with nausea and diaphoresis. Which action is most important?",
     "choices": [
       "Administer nitroglycerin",
@@ -738,10 +784,11 @@
   {
     "id": "CB-071",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Respiratory / Oxygenation",
-    "stem": "A client with COPD on 2 L/min nasal cannula becomes increasingly somnolent and is difficult to arouse. RR is 8/min and SpO\u2082 is 91%. Which action is most appropriate first?",
+    "qtype": "single",
+    "stem": "A client with COPD on 2 L/min nasal cannula becomes increasingly somnolent and is difficult to arouse. RR is 8/min and SpO₂ is 91%. Which action is most appropriate first?",
     "choices": [
       "Increase oxygen to 6 L/min and reassess in 15 minutes",
       "Stimulate the client, assess airway/breath sounds, and prepare to support ventilation per protocol",
@@ -749,14 +796,15 @@
       "Place the client supine and encourage deep breathing exercises"
     ],
     "answer": "Stimulate the client, assess airway/breath sounds, and prepare to support ventilation per protocol",
-    "rationale": "Somnolence with a low respiratory rate in COPD suggests hypoventilation and CO\u2082 retention. The priority is airway and breathing\u2014assess respiratory effort/airway patency and be ready to support ventilation (e.g., notify provider/RT, consider assisted ventilation) rather than simply increasing oxygen or giving sedatives."
+    "rationale": "Somnolence with a low respiratory rate in COPD suggests hypoventilation and CO₂ retention. The priority is airway and breathing—assess respiratory effort/airway patency and be ready to support ventilation (e.g., notify provider/RT, consider assisted ventilation) rather than simply increasing oxygen or giving sedatives."
   },
   {
     "id": "CB-072",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Endocrine / Diabetes",
+    "qtype": "single",
     "stem": "A client with type 1 diabetes is diaphoretic, tremulous, and confused. Capillary glucose is 52 mg/dL. The client is awake and can swallow. Which intervention is best?",
     "choices": [
       "Give 15 g of fast-acting carbohydrate and recheck glucose in 15 minutes",
@@ -770,9 +818,10 @@
   {
     "id": "CB-073",
     "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Leadership / Delegation",
+    "qtype": "single",
     "stem": "The RN is caring for four clients. Which task is appropriate to delegate to an experienced UAP?",
     "choices": [
       "Assess a client 1 hour after receiving IV morphine for respiratory depression",
@@ -786,9 +835,10 @@
   {
     "id": "CB-074",
     "bank": "Compass B",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Infection Control",
+    "qtype": "single",
     "stem": "A client has suspected C. difficile infection with profuse diarrhea. Which infection-control action is required?",
     "choices": [
       "Use alcohol-based hand sanitizer after glove removal",
@@ -802,9 +852,10 @@
   {
     "id": "CB-075",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Neurologic / Increased ICP",
+    "qtype": "single",
     "stem": "A client with a head injury suddenly develops a severe headache and projectile vomiting. The nurse notes a decreasing level of consciousness. Which provider order should the nurse question?",
     "choices": [
       "Keep the head of bed elevated 30 degrees",
@@ -818,9 +869,10 @@
   {
     "id": "CB-076",
     "bank": "Compass B",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Maternal-Newborn / Postpartum",
+    "qtype": "single",
     "stem": "One hour after delivery, a client has heavy lochia rubra and the fundus is boggy and deviated to the right. Which action is most appropriate first?",
     "choices": [
       "Massage the fundus and assist the client to empty the bladder",
@@ -834,9 +886,10 @@
   {
     "id": "CB-077",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Renal / Fluid & Electrolytes",
+    "qtype": "single",
     "stem": "A client receiving IV furosemide for heart failure has a potassium level of 3.1 mEq/L. Which finding would most strongly suggest the client is developing a complication of this electrolyte imbalance?",
     "choices": [
       "Bounding peripheral pulses",
@@ -850,25 +903,27 @@
   {
     "id": "CB-078",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
-    "topic": "Psych / Therapeutic Communication",
-    "stem": "A client says, \"If my pain doesn't get better, I don't want to live.\" What is the nurse\u2019s best response?",
+    "qtype": "single",
+    "stem": "A client says, \"If my pain doesn't get better, I don't want to live.\" What is the nurse’s best response?",
     "choices": [
-      "\"You shouldn\u2019t say things like that. Your family needs you.\"",
+      "\"You shouldn’t say things like that. Your family needs you.\"",
       "\"Are you thinking about harming yourself right now?\"",
-      "\"Let\u2019s focus on the positive\u2014your pain meds will work soon.\"",
-      "\"I\u2019ll notify the provider so they can adjust your medication.\""
+      "\"Let’s focus on the positive—your pain meds will work soon.\"",
+      "\"I’ll notify the provider so they can adjust your medication.\""
     ],
-    "answer": "\u201cAre you thinking about harming yourself right now?\u201d",
+    "answer": "“Are you thinking about harming yourself right now?”",
     "rationale": "The statement suggests possible suicidal ideation. The priority is a direct, nonjudgmental assessment of intent and immediate safety. Minimizing, moralizing, or deflecting delays risk assessment. Notifying the provider may be needed, but first the nurse must determine current risk."
   },
   {
     "id": "CB-079",
     "bank": "Compass B",
+    "system": "Endocrine",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "sata",
-    "topic": "Fluids & Electrolytes / Acid-Base",
+    "qtype": "single",
     "stem": "A client with diabetic ketoacidosis (DKA) is receiving treatment. Which findings indicate the therapy is effective? (Select all that apply.)",
     "choices": [
       "Serum bicarbonate increases toward normal",
@@ -878,44 +933,36 @@
       "Serum potassium decreases precipitously without replacement",
       "Respiratory rate decreases as acidosis resolves"
     ],
-    "answer": [
-      "Serum bicarbonate increases toward normal",
-      "Anion gap decreases",
-      "Mental status becomes more alert",
-      "Respiratory rate decreases as acidosis resolves"
-    ],
-    "rationale": "Effective DKA treatment closes the anion gap and corrects metabolic acidosis (rising HCO\u2083\u207b), improving Kussmaul respirations and mental status. Urine output should be adequate; a rapid potassium drop is expected risk and requires replacement\u2014not a sign of success by itself."
+    "answer": "Serum bicarbonate increases toward normal",
+    "rationale": "Effective DKA treatment closes the anion gap and corrects metabolic acidosis (rising HCO₃⁻), improving Kussmaul respirations and mental status. Urine output should be adequate; a rapid potassium drop is expected risk and requires replacement—not a sign of success by itself."
   },
   {
     "id": "CB-080",
     "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "sata",
-    "topic": "Medication Safety / High-Alert Meds",
+    "qtype": "single",
     "stem": "The nurse is preparing to start a heparin infusion. Which actions reduce the risk of medication error? (Select all that apply.)",
     "choices": [
       "Use an independent double-check of the dose and pump settings with another licensed nurse",
-      "Program the infusion using the facility\u2019s heparin protocol and smart-pump drug library",
+      "Program the infusion using the facility’s heparin protocol and smart-pump drug library",
       "Prime the tubing with heparin solution to prevent dilution",
       "Verify baseline aPTT/anti-Xa per order and confirm timing of follow-up labs",
       "Calculate the dose using pounds without converting to kilograms",
       "Label the IV line at the pump as a heparin infusion"
     ],
-    "answer": [
-      "Use an independent double-check of the dose and pump settings with another licensed nurse",
-      "Program the infusion using the facility\u2019s heparin protocol and smart-pump drug library",
-      "Verify baseline aPTT/anti-Xa per order and confirm timing of follow-up labs",
-      "Label the IV line at the pump as a heparin infusion"
-    ],
+    "answer": "Use an independent double-check of the dose and pump settings with another licensed nurse",
     "rationale": "Heparin is a high-alert medication. Independent double-checks, smart-pump protocols, correct monitoring labs, and clear labeling reduce dosing/line errors. Priming with heparin can unintentionally deliver a bolus; dosing must be weight-based in kilograms to avoid conversion errors."
   },
   {
     "id": "CB-081",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
-    "stem": "A nurse is caring for a postoperative client who suddenly becomes restless and tachypneic 6 hours after surgery. SpO\u2082 is 88% on room air. What is the nurse\u2019s priority action?",
+    "qtype": "single",
+    "stem": "A nurse is caring for a postoperative client who suddenly becomes restless and tachypneic 6 hours after surgery. SpO₂ is 88% on room air. What is the nurse’s priority action?",
     "choices": [
       "Administer prescribed PRN opioid for pain",
       "Apply supplemental oxygen and assess lung sounds",
@@ -928,9 +975,10 @@
   {
     "id": "CB-082",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A client with heart failure has gained 2.5 kg (5.5 lb) in 48 hours. Which assessment finding most strongly supports fluid volume excess affecting gas exchange?",
     "choices": [
       "Decreased urine output over the last 8 hours",
@@ -944,9 +992,10 @@
   {
     "id": "CB-083",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A client with diabetes reports shakiness and confusion. Capillary glucose is 54 mg/dL. Which intervention should the nurse implement first?",
     "choices": [
       "Administer subcutaneous glucagon",
@@ -955,14 +1004,15 @@
       "Notify the provider of the critical glucose level"
     ],
     "answer": "Give 15 g of fast-acting carbohydrates orally",
-    "rationale": "Because the client is symptomatic but awake and able to take PO, the fastest, least invasive correction is oral rapid glucose (15\u201315 rule). IV dextrose or glucagon is for inability to swallow or altered LOC; provider notification comes after immediate treatment."
+    "rationale": "Because the client is symptomatic but awake and able to take PO, the fastest, least invasive correction is oral rapid glucose (15–15 rule). IV dextrose or glucagon is for inability to swallow or altered LOC; provider notification comes after immediate treatment."
   },
   {
     "id": "CB-084",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A client receiving IV antibiotics develops flushing, itching, and wheezing. What should the nurse do immediately?",
     "choices": [
       "Slow the infusion rate",
@@ -976,25 +1026,27 @@
   {
     "id": "CB-085",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "Which finding best indicates that a client with pneumonia is responding to treatment?",
     "choices": [
       "Decreased white blood cell count",
-      "Reduced oxygen requirement to maintain target SpO\u2082",
+      "Reduced oxygen requirement to maintain target SpO₂",
       "Improved appetite over 24 hours",
       "Cough has completely resolved"
     ],
-    "answer": "Reduced oxygen requirement to maintain target SpO\u2082",
-    "rationale": "Improved oxygenation/less supplemental O\u2082 needed reflects better gas exchange\u2014the key physiologic outcome in pneumonia. WBC and symptoms may improve later and can be influenced by steroids, hydration, and other factors."
+    "answer": "Reduced oxygen requirement to maintain target SpO₂",
+    "rationale": "Improved oxygenation/less supplemental O₂ needed reflects better gas exchange—the key physiologic outcome in pneumonia. WBC and symptoms may improve later and can be influenced by steroids, hydration, and other factors."
   },
   {
     "id": "CB-086",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A nurse is preparing to administer insulin to a client. Which step most effectively prevents a high-risk medication error?",
     "choices": [
       "Use an insulin-specific syringe",
@@ -1003,14 +1055,15 @@
       "Rotate injection sites daily"
     ],
     "answer": "Verify the dose with another nurse using an independent double-check",
-    "rationale": "Insulin is a high-alert medication; an independent double-check targets the most dangerous failure mode\u2014wrong dose/product. Proper equipment and timing matter, but they do not substitute for dose verification on high-alert meds."
+    "rationale": "Insulin is a high-alert medication; an independent double-check targets the most dangerous failure mode—wrong dose/product. Proper equipment and timing matter, but they do not substitute for dose verification on high-alert meds."
   },
   {
     "id": "CB-087",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A client with chronic kidney disease has a potassium level of 6.1 mEq/L. Which finding requires the most immediate follow-up?",
     "choices": [
       "Muscle weakness",
@@ -1024,9 +1077,10 @@
   {
     "id": "CB-088",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Neurologic",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A client with stroke has dysphagia. Which nursing action best reduces aspiration risk before oral intake begins?",
     "choices": [
       "Place the client in high-Fowler position during meals",
@@ -1040,9 +1094,10 @@
   {
     "id": "CB-089",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A postoperative client has urine output of 15 mL/hr. Which additional finding most strongly supports acute kidney injury rather than simple dehydration?",
     "choices": [
       "Dark yellow urine",
@@ -1056,9 +1111,10 @@
   {
     "id": "CB-090",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Exit Review",
+    "qtype": "single",
     "stem": "A client with sepsis has a lactate level of 4.2 mmol/L. What does this finding indicate?",
     "choices": [
       "Adequate tissue perfusion",
@@ -1072,10 +1128,11 @@
   {
     "id": "CB-93",
     "bank": "Compass B",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
-    "type": "regular",
-    "topic": "Oxygenation-Gas Exchange",
-    "stem": "A nurse is caring for a postoperative client who becomes increasingly restless and disoriented. Vital signs show HR 122, RR 28, SpO\u2082 89% on room air. The client received opioid pain medication 30 minutes ago. Which interpretation best explains the client\u2019s change in status?",
+    "qtype": "single",
+    "stem": "A nurse is caring for a postoperative client who becomes increasingly restless and disoriented. Vital signs show HR 122, RR 28, SpO₂ 89% on room air. The client received opioid pain medication 30 minutes ago. Which interpretation best explains the client’s change in status?",
     "choices": [
       "Expected response to postoperative pain",
       "Acute respiratory compromise requiring intervention",
@@ -1088,9 +1145,10 @@
   {
     "id": "CB-94",
     "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 5,
-    "type": "regular",
-    "topic": "Prioritization",
+    "qtype": "single",
     "stem": "A nurse receives report on four clients. Which client should the nurse assess first?",
     "choices": [
       "Client with pneumonia requesting pain medication",
@@ -1104,25 +1162,27 @@
   {
     "id": "CB-95",
     "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 5,
-    "type": "regular",
-    "topic": "Immunity",
+    "qtype": "single",
     "stem": "A nurse reviews lab results for a client receiving chemotherapy. Which finding requires immediate follow-up?",
     "choices": [
       "Hemoglobin 10.8 g/dL",
-      "Platelet count 180,000/mm\u00b3",
-      "Absolute neutrophil count 900/mm\u00b3",
+      "Platelet count 180,000/mm³",
+      "Absolute neutrophil count 900/mm³",
       "Potassium 3.6 mEq/L"
     ],
-    "answer": "Absolute neutrophil count 900/mm\u00b3",
+    "answer": "Absolute neutrophil count 900/mm³",
     "rationale": "An ANC below 1,000 indicates significant immunosuppression and a high risk for infection, requiring immediate protective interventions."
   },
   {
     "id": "CB-96",
     "bank": "Compass B",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 5,
-    "type": "regular",
-    "topic": "Fluid & Electrolyte",
+    "qtype": "single",
     "stem": "A client with chronic kidney disease has a potassium level of 6.2 mEq/L. Which action should the nurse anticipate first?",
     "choices": [
       "Administer loop diuretics",
@@ -1136,9 +1196,10 @@
   {
     "id": "CB-97",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "type": "regular",
-    "topic": "Health Promotion & Maintenance",
+    "qtype": "single",
     "stem": "A nurse is teaching a client newly diagnosed with heart failure. Which statement indicates the need for further teaching?",
     "choices": [
       "I will weigh myself every morning",
@@ -1152,15 +1213,16 @@
   {
     "id": "CB-98",
     "bank": "Compass B",
+    "system": "Ethics/Legal/Professional",
+    "topic": "Compass B",
     "difficulty": 4,
-    "type": "regular",
-    "topic": "Delegation",
+    "qtype": "single",
     "stem": "A nurse prepares to delegate care tasks to an unlicensed assistive personnel (UAP). Which task is appropriate to delegate?",
     "choices": [
-      "Assessing a client\u2019s pain level",
+      "Assessing a client’s pain level",
       "Teaching a client how to use an incentive spirometer",
       "Measuring and recording intake and output",
-      "Evaluating a client\u2019s response to medication"
+      "Evaluating a client’s response to medication"
     ],
     "answer": "Measuring and recording intake and output",
     "rationale": "UAPs may perform routine data collection. Assessment, teaching, and evaluation require nursing judgment and cannot be delegated."
@@ -1168,9 +1230,10 @@
   {
     "id": "CB-99",
     "bank": "Compass B",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "type": "regular",
-    "topic": "Infection",
+    "qtype": "single",
     "stem": "A client admitted with sepsis has a lactate level of 4.5 mmol/L. Which interpretation is most accurate?",
     "choices": [
       "Adequate tissue perfusion is occurring",
@@ -1184,10 +1247,11 @@
   {
     "id": "CB-100",
     "bank": "Compass B",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 4,
-    "type": "regular",
-    "topic": "Ethics/Legal",
-    "stem": "A nurse notices that a provider\u2019s order conflicts with hospital policy and could place a client at risk. What is the nurse\u2019s best action?",
+    "qtype": "single",
+    "stem": "A nurse notices that a provider’s order conflicts with hospital policy and could place a client at risk. What is the nurse’s best action?",
     "choices": [
       "Carry out the order as written",
       "Clarify the order before implementation",
@@ -1195,14 +1259,15 @@
       "Ask another nurse to administer the treatment"
     ],
     "answer": "Clarify the order before implementation",
-    "rationale": "The nurse has a legal and ethical duty to question unsafe orders. Clarification protects the client and the nurse\u2019s license."
+    "rationale": "The nurse has a legal and ethical duty to question unsafe orders. Clarification protects the client and the nurse’s license."
   },
   {
     "id": "CB-101",
     "bank": "Compass B",
-    "topic": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A client with a history of heart failure presents with sudden weight gain and worsening dyspnea. Which assessment finding most strongly supports acute fluid overload rather than disease progression alone?",
     "choices": [
       "Crackles at bilateral lung bases and elevated jugular venous distention",
@@ -1216,25 +1281,27 @@
   {
     "id": "CB-102",
     "bank": "Compass B",
-    "topic": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
-    "stem": "A patient with COPD is receiving supplemental oxygen. Which finding indicates oxygen therapy is negatively affecting the patient\u2019s respiratory drive?",
+    "qtype": "single",
+    "stem": "A patient with COPD is receiving supplemental oxygen. Which finding indicates oxygen therapy is negatively affecting the patient’s respiratory drive?",
     "choices": [
-      "Increasing PaCO\u2082 with decreasing respiratory rate",
+      "Increasing PaCO₂ with decreasing respiratory rate",
       "Mild improvement in oxygen saturation",
       "Use of accessory muscles during inspiration",
       "Productive cough with thick sputum"
     ],
-    "answer": "Increasing PaCO\u2082 with decreasing respiratory rate",
-    "rationale": "In COPD, excessive oxygen can blunt hypoxic drive, leading to hypoventilation and CO\u2082 retention. Improved saturation alone does not indicate harm."
+    "answer": "Increasing PaCO₂ with decreasing respiratory rate",
+    "rationale": "In COPD, excessive oxygen can blunt hypoxic drive, leading to hypoventilation and CO₂ retention. Improved saturation alone does not indicate harm."
   },
   {
     "id": "CB-103",
     "bank": "Compass B",
-    "topic": "Renal",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "Which laboratory trend is most concerning for acute kidney injury in a postoperative patient?",
     "choices": [
       "Rising creatinine with decreasing urine output",
@@ -1248,9 +1315,10 @@
   {
     "id": "CB-104",
     "bank": "Compass B",
-    "topic": "Neurologic",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A client develops sudden confusion after a fall. Which finding requires immediate intervention?",
     "choices": [
       "Unequal pupils with declining level of consciousness",
@@ -1264,9 +1332,10 @@
   {
     "id": "CB-105",
     "bank": "Compass B",
-    "topic": "Endocrine",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "Which assessment finding best differentiates diabetic ketoacidosis from hyperosmolar hyperglycemic state?",
     "choices": [
       "Presence of metabolic acidosis with ketones",
@@ -1280,9 +1349,10 @@
   {
     "id": "CB-106",
     "bank": "Compass B",
-    "topic": "GI",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "A patient with a bowel obstruction is at highest risk for which complication?",
     "choices": [
       "Fluid and electrolyte imbalance",
@@ -1296,9 +1366,10 @@
   {
     "id": "CB-107",
     "bank": "Compass B",
-    "topic": "Infection",
+    "system": "Infectious Diseases/Micro",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "Which finding most strongly suggests sepsis rather than a localized infection?",
     "choices": [
       "Hypotension with elevated lactate levels",
@@ -1312,30 +1383,32 @@
   {
     "id": "CB-108",
     "bank": "Compass B",
-    "topic": "Hematology",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "Which laboratory result places a patient at greatest risk for spontaneous bleeding?",
     "choices": [
-      "Platelet count of 18,000/mm\u00b3",
+      "Platelet count of 18,000/mm³",
       "Hemoglobin of 10 g/dL",
       "INR of 1.3",
-      "WBC count of 14,000/mm\u00b3"
+      "WBC count of 14,000/mm³"
     ],
-    "answer": "Platelet count of 18,000/mm\u00b3",
+    "answer": "Platelet count of 18,000/mm³",
     "rationale": "Severe thrombocytopenia significantly increases the risk of spontaneous bleeding."
   },
   {
     "id": "CB-109",
     "bank": "Compass B",
-    "topic": "Maternal",
+    "system": "Reproductive/OB",
+    "topic": "Compass B",
     "difficulty": 5,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "Which finding in a postpartum client most strongly indicates uterine atony?",
     "choices": [
       "Boggy uterus with heavy lochia",
       "Mild uterine cramping",
-      "Temperature of 37.8\u00b0C (100\u00b0F)",
+      "Temperature of 37.8°C (100°F)",
       "Small clots during fundal massage"
     ],
     "answer": "Boggy uterus with heavy lochia",
@@ -1344,9 +1417,10 @@
   {
     "id": "CB-110",
     "bank": "Compass B",
-    "topic": "Psychiatric",
+    "system": "Psych/Mental Health",
+    "topic": "Compass B",
     "difficulty": 4,
-    "qtype": "regular",
+    "qtype": "single",
     "stem": "Which behavior best indicates escalating suicide risk in a hospitalized patient?",
     "choices": [
       "Sudden calmness after expressing hopelessness",
@@ -1360,9 +1434,10 @@
   {
     "id": "CB-111",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Renal/Hematology",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client with chronic kidney disease is prescribed erythropoietin alfa. Which laboratory value best indicates the medication is having the intended effect?",
     "choices": [
       "Decreasing serum creatinine",
@@ -1376,9 +1451,10 @@
   {
     "id": "CB-112",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Perioperative/Critical Care",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A postoperative client develops sudden shortness of breath, tachycardia, and pleuritic chest pain. Which complication is the nurse most concerned about?",
     "choices": [
       "Atelectasis",
@@ -1392,13 +1468,14 @@
   {
     "id": "CB-113",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Endocrine",
+    "system": "Endocrine",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A client with type 1 diabetes reports shakiness, sweating, and confusion. Which action should the nurse take first?",
     "choices": [
       "Administer glucagon intramuscularly",
-      "Check the client\u2019s blood glucose level",
+      "Check the client’s blood glucose level",
       "Provide a rapid-acting carbohydrate",
       "Notify the healthcare provider"
     ],
@@ -1408,9 +1485,10 @@
   {
     "id": "CB-114",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Pharmacology",
+    "system": "Immune/Hematology",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client receiving warfarin therapy has an INR of 4.5. Which nursing action is most appropriate?",
     "choices": [
       "Administer vitamin K",
@@ -1424,9 +1502,10 @@
   {
     "id": "CB-115",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Cardiovascular",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A nurse is caring for a client with heart failure. Which assessment finding best indicates worsening left-sided heart failure?",
     "choices": [
       "Peripheral edema",
@@ -1440,9 +1519,10 @@
   {
     "id": "CB-116",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Respiratory",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client with COPD is receiving oxygen at 4 L/min via nasal cannula. Which finding requires immediate intervention?",
     "choices": [
       "Oxygen saturation of 92%",
@@ -1451,14 +1531,15 @@
       "Mild dyspnea on exertion"
     ],
     "answer": "Increasing somnolence",
-    "rationale": "Excess oxygen can suppress respiratory drive in COPD, causing CO\u2082 retention and somnolence\u2014an urgent safety concern."
+    "rationale": "Excess oxygen can suppress respiratory drive in COPD, causing CO₂ retention and somnolence—an urgent safety concern."
   },
   {
     "id": "CB-117",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "GI/Hepatic",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A client with cirrhosis develops confusion and asterixis. Which laboratory value is most relevant to this change?",
     "choices": [
       "Elevated ammonia",
@@ -1472,9 +1553,10 @@
   {
     "id": "CB-118",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Medication Safety",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A nurse is preparing to administer IV potassium chloride. Which action is essential for safe administration?",
     "choices": [
       "Administer via IV push",
@@ -1488,9 +1570,10 @@
   {
     "id": "CB-119",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Infectious Disease/Critical Care",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 5,
+    "qtype": "single",
     "stem": "A client with sepsis has a blood pressure of 86/48 mmHg. Which intervention should the nurse anticipate first?",
     "choices": [
       "Broad-spectrum antibiotics",
@@ -1504,9 +1587,10 @@
   {
     "id": "CB-120",
     "bank": "Compass B",
-    "qtype": "mc",
-    "topic": "Pharmacology/Endocrine",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 4,
+    "qtype": "single",
     "stem": "A nurse is teaching a client newly prescribed metformin. Which statement indicates correct understanding?",
     "choices": [
       "I should stop taking this if I get a cold.",
@@ -1520,9 +1604,10 @@
   {
     "id": "CB-131",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Assessment / GI",
+    "qtype": "single",
     "stem": "The nurse is preparing to assess bowel sounds. Which action is correct?",
     "choices": [
       "Palpate all four quadrants deeply before auscultating",
@@ -1536,9 +1621,10 @@
   {
     "id": "CB-132",
     "bank": "Compass B",
-    "qtype": "sata",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 5,
-    "topic": "Endocrine / Hypoglycemia",
+    "qtype": "single",
     "stem": "Which findings are most consistent with hypoglycemia? (Select all that apply.)",
     "choices": [
       "Diaphoresis",
@@ -1548,20 +1634,16 @@
       "Kussmaul respirations",
       "Confusion"
     ],
-    "answer": [
-      "Diaphoresis",
-      "Tremors",
-      "Palpitations",
-      "Confusion"
-    ],
+    "answer": "Diaphoresis",
     "rationale": "Hypoglycemia produces adrenergic symptoms such as sweating, tremors, and tachycardia, along with neuroglycopenic effects like confusion. Fruity breath and Kussmaul respirations indicate hyperglycemia."
   },
   {
     "id": "CB-133",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Musculoskeletal",
+    "topic": "Compass B",
     "difficulty": 5,
-    "topic": "Delegation / Musculoskeletal",
+    "qtype": "single",
     "stem": "Which task is most appropriate for the nurse to delegate to an experienced UAP?",
     "choices": [
       "Teach hip precautions",
@@ -1575,9 +1657,10 @@
   {
     "id": "CB-134",
     "bank": "Compass B",
-    "qtype": "sata",
+    "system": "Integumentary/Wound",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Integumentary / Oncology",
+    "qtype": "single",
     "stem": "Which instructions should the nurse include for radiation skin care? (Select all that apply.)",
     "choices": [
       "Use lukewarm water and mild soap",
@@ -1587,20 +1670,16 @@
       "Scrub peeling skin",
       "Avoid heating pads on the site"
     ],
-    "answer": [
-      "Use lukewarm water and mild soap",
-      "Avoid tight clothing over the site",
-      "Protect the area from sun exposure",
-      "Avoid heating pads on the site"
-    ],
+    "answer": "Use lukewarm water and mild soap",
     "rationale": "Radiated skin requires gentle cleansing and protection from friction, sunlight, and temperature extremes. Petroleum products and scrubbing worsen irritation."
   },
   {
     "id": "CB-135",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Respiratory",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Respiratory / Infection Control",
+    "qtype": "single",
     "stem": "What infection control action is most appropriate for a child with RSV?",
     "choices": [
       "Airborne precautions",
@@ -1614,9 +1693,10 @@
   {
     "id": "CB-136",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Cardiovascular",
+    "topic": "Compass B",
     "difficulty": 3,
-    "topic": "Medication Administration",
+    "qtype": "single",
     "stem": "Which technique is correct when administering otic drops to an adult?",
     "choices": [
       "Pull pinna down and back",
@@ -1630,9 +1710,10 @@
   {
     "id": "CB-137",
     "bank": "Compass B",
-    "qtype": "sata",
+    "system": "GI/Hepatic",
+    "topic": "Compass B",
     "difficulty": 5,
-    "topic": "GI / Ostomy Care",
+    "qtype": "single",
     "stem": "Which actions best protect peristomal skin? (Select all that apply.)",
     "choices": [
       "Measure stoma and size wafer appropriately",
@@ -1642,20 +1723,16 @@
       "Oversize the opening",
       "Change pouch promptly if leaking"
     ],
-    "answer": [
-      "Measure stoma and size wafer appropriately",
-      "Clean gently with warm water and pat dry",
-      "Use a skin barrier if skin is weepy",
-      "Change pouch promptly if leaking"
-    ],
+    "answer": "Measure stoma and size wafer appropriately",
     "rationale": "Correct sizing, gentle cleansing, barrier use, and prompt leak management prevent chemical irritation of peristomal skin."
   },
   {
     "id": "CB-138",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Renal/Urinary",
+    "topic": "Compass B",
     "difficulty": 4,
-    "topic": "Urinary / Specimen Collection",
+    "qtype": "single",
     "stem": "Which instruction is most important for obtaining a clean-catch urine specimen?",
     "choices": [
       "Collect the first urine that appears",
@@ -1669,9 +1746,10 @@
   {
     "id": "CB-139",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Perioperative/Critical Care",
+    "topic": "Compass B",
     "difficulty": 3,
-    "topic": "Sensory / Teaching",
+    "qtype": "single",
     "stem": "Which teaching point best addresses hearing aid whistling?",
     "choices": [
       "Turn volume to maximum",
@@ -1685,10 +1763,11 @@
   {
     "id": "CB-140",
     "bank": "Compass B",
-    "qtype": "single",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Compass B",
     "difficulty": 5,
-    "topic": "Medication Safety",
-    "stem": "A client develops flushing and hypotension during vancomycin infusion. What is the nurse\u2019s first action?",
+    "qtype": "single",
+    "stem": "A client develops flushing and hypotension during vancomycin infusion. What is the nurse’s first action?",
     "choices": [
       "Administer epinephrine",
       "Stop the infusion and assess ABCs",
