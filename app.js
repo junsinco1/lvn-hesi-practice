@@ -12,7 +12,7 @@ const el = {
   systemSel: $("#systemSel"),
   topicSel: $("#topicSel"),
   typeSel: $("#typeSel"),
-  diffSel: $("#diffSel"),
+  examCount: $("#examCount"),
   timerSel: $("#timerSel"),
   themeSel: $("#themeSel"),
   accentSel: $("#accentSel"),
@@ -196,7 +196,7 @@ function normalizeQuestion(q, bankName){
   nq.system = nq.system || "ANY";
   nq.topic = nq.topic || "ANY";
   nq.qtype = nq.qtype || (Array.isArray(nq.answer) ? "sata" : "single");
-  nq.difficulty = Number.isFinite(+nq.difficulty) ? +nq.difficulty : 3;
+  nq.difficulty = 5; // forced extremely hard (single difficulty)
   if((nq.qtype==="single" || nq.qtype==="sata") && !Array.isArray(nq.choices)) nq.choices = [];
   if(!nq.choice_rationales || typeof nq.choice_rationales !== "object") nq.choice_rationales = {};
   // normalize case tabs
@@ -265,12 +265,10 @@ function matchesFilters(q){
   const sys = el.systemSel.value || "ANY";
   const topic = el.topicSel.value || "ANY";
   const type = el.typeSel.value || "ANY";
-  const diff = el.diffSel.value || "ANY";
 
   if(sys !== "ANY" && (q.system||"ANY") !== sys) return false;
   if(topic !== "ANY" && (q.topic||"ANY") !== topic) return false;
   if(type !== "ANY" && (q.qtype||"single") !== type) return false;
-  if(diff !== "ANY" && String(q.difficulty||3) !== String(diff)) return false;
   return true;
 }
 
@@ -417,7 +415,7 @@ function render(q){
 
   el.qTopic.textContent = q.topic || "—";
   el.qType.textContent = q.qtype || "—";
-  el.qDiff.textContent = String(q.difficulty ?? "—");
+  el.qDiff.textContent = "Extremely Hard";
   el.qStem.textContent = q.stem || "—";
 
   setCaseTabs(q);
@@ -600,7 +598,22 @@ function renderLb(){
 }
 
 // ---------- Exam flow ----------
-function startExam(){
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+function buildEligiblePool(){
+  const flat = [];
+  for(const q of singles) if(matchesFilters(q)) flat.push(q);
+  for(const cl of clusters){
+    for(const q of cl) if(matchesFilters(q)) flat.push(q);
+  }
+  return flat;
+}
+function startExam(n){
   mode = "exam";
   examQueue = [];
   examIndex = 0;
@@ -608,14 +621,20 @@ function startExam(){
   el.modeLbl.textContent = "Exam";
   el.scoreLbl.textContent = "0/0";
 
-  for(let i=0;i<75;i++){
-    const q = pickNext();
-    if(q) examQueue.push(q);
-  }
-  if(!examQueue.length){
+  const pool = buildEligiblePool();
+  if(!pool.length){
     el.loadStatus.textContent = "No questions match filters";
     return;
   }
+  shuffle(pool);
+
+  // Prefer unique questions first
+  examQueue = pool.slice(0, Math.min(n, pool.length));
+  // If user requests more than available, fill remaining with repeats
+  while(examQueue.length < n){
+    examQueue.push(pool[Math.floor(Math.random()*pool.length)]);
+  }
+
   render(examQueue[0]);
   el.loadStatus.textContent = `Exam 1/${examQueue.length}`;
 }
@@ -700,7 +719,7 @@ function initDropdownBehavior(){
     if(q) render(q);
   });
   // when filters change, just pick a new question
-  for(const s of [el.systemSel, el.topicSel, el.typeSel, el.diffSel]){
+  for(const s of [el.systemSel, el.topicSel, el.typeSel]){
     s.addEventListener("change", ()=>{
       const q = pickNext();
       if(q) render(q);

@@ -32,7 +32,7 @@
           </label>
 
           <label class="field">
-            <span>System</span>
+            <span>Body System</span>
             <select id="systemSel"></select>
           </label>
 
@@ -45,23 +45,12 @@
             <span>Type</span>
             <select id="typeSel">
               <option value="ANY">ANY</option>
-              <option value="single">Single</option>
+              <option value="single">Standard</option>
               <option value="sata">SATA</option>
-              <option value="bowtie">NGN Bowtie</option>
+              <option value="bowtie">Bowtie</option>
             </select>
           </label>
-
-          <label class="field">
-            <span>Difficulty</span>
-            <select id="diffSel">
-              <option value="ANY" selected>ANY</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </select>
-          </label>
-
-          <label class="field">
+<label class="field">
             <span>Timer / question</span>
             <select id="timerSel">
               <option value="0">Off</option>
@@ -72,11 +61,16 @@
               <option value="120">120s</option>
             </select>
           </label>
+
+          <label class="field">
+            <span>Exam # Questions</span>
+            <input id="examCount" type="number" inputmode="numeric" min="1" max="500" step="1" value="75" />
+          </label>
         </div>
 
         <div class="row">
           <button class="btn primary" id="nextBtn">Next Practice</button>
-          <button class="btn" id="startExamBtn">Start 75Q Exam</button>
+          <button class="btn" id="startExamBtn">Start Exam</button>
           <button class="btn danger" id="resetBtn">Reset</button>
         </div>
 
