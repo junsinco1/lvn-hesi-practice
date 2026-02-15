@@ -197,22 +197,14 @@
         "ANY",
         "Cardiovascular",
         "Respiratory",
-        "Neurologic",
+        "Nervous System",
         "Endocrine",
-        "Renal/Urinary",
-        "GI/Hepatic",
+        "Gastrointestinal",
+        "Hepatic",
+        "Hematologic",
+        "Integumentary",
         "Musculoskeletal",
-        "Integumentary/Wound",
-        "Immune/Hematology",
-        "Reproductive/OB",
-        "Pediatrics/Growth & Development",
-        "Psych/Mental Health",
-        "Infectious Disease/Micro",
-        "Fluids & Electrolytes/Acid-Base",
-        "Perioperative/Critical Care",
-        "Community/Public Health",
-        "Ethics/Legal/Professional",
-        "Informatics/Quality/Safety"
+        "Urinary"
       ],
       "topics": [
         "ANY"

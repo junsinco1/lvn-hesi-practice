@@ -240,6 +240,30 @@ function setSystemAndTopicOptions(bankName){
   // de-dupe
   const uniq = [...new Set(base)];
   el.topicSel.innerHTML = uniq.map(t=>`<option value="${t}">${t}</option>`).join("");
+
+function refreshDynamicTopics(bankName){
+  // For banks with topics=["ANY"] (like Anatomy), derive topics from loaded question data.
+  // Also supports narrowing topics by selected Body System.
+  const meta = manifest.banks.find(b=>b.name===bankName);
+  const wantsDynamic = (meta?.topics || ["ANY"]).length === 1 && (meta?.topics || ["ANY"])[0] === "ANY";
+  if(!wantsDynamic) return;
+
+  const sys = el.systemSel.value || "ANY";
+  const pool = buildEligiblePool(); // already respects current filters except topic; we temporarily ignore topic
+  const topics = new Set(["ANY"]);
+  // collect topics from singles/clusters directly to avoid topic filter restriction
+  const collect = (q)=>{
+    if(sys !== "ANY" && (q.system||"ANY") !== sys) return;
+    if(q.topic) topics.add(q.topic);
+  };
+  for(const q of singles) collect(q);
+  for(const cl of clusters) for(const q of cl) collect(q);
+
+  const list = [...topics];
+  el.topicSel.innerHTML = list.map(t=>`<option value="${t}">${t}</option>`).join("");
+  // Keep current selection if still present
+  if(!list.includes(el.topicSel.value)) el.topicSel.value = "ANY";
+}
 }
 
 async function loadBank(bankName){
@@ -613,13 +637,19 @@ function buildEligiblePool(){
   }
   return flat;
 }
-function startExam(n){
+function startExam(){
   mode = "exam";
   examQueue = [];
   examIndex = 0;
   scoreCorrect = 0; scoreTotal = 0;
   el.modeLbl.textContent = "Exam";
   el.scoreLbl.textContent = "0/0";
+
+  // numeric exam length (student-selected)
+  let n = parseInt(el.examCount?.value || "0", 10);
+  if(!Number.isFinite(n) || n < 1) n = 1;
+  if(n > 500) n = 500;
+
 
   const pool = buildEligiblePool();
   if(!pool.length){
@@ -714,6 +744,7 @@ function initDropdownBehavior(){
     const bankName = el.bankSel.value;
     setSystemAndTopicOptions(bankName);
     await loadBank(bankName);
+    refreshDynamicTopics(bankName);
     // show a question
     const q = pickNext();
     if(q) render(q);
@@ -721,6 +752,8 @@ function initDropdownBehavior(){
   // when filters change, just pick a new question
   for(const s of [el.systemSel, el.topicSel, el.typeSel]){
     s.addEventListener("change", ()=>{
+      const bankName = el.bankSel.value;
+      if(s === el.systemSel) refreshDynamicTopics(bankName);
       const q = pickNext();
       if(q) render(q);
     });
