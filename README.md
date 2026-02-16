@@ -105,3 +105,8 @@ Common fields used by the app:
 - This app stores settings and leaderboard locally in the browser (no server, no database).
 - Works best in Chrome/Edge; Safari may require running via a local server.
 
+
+
+## Labs Bank (System-based)
+- Rebuilt Labs bank to **500 extremely hard** questions organized by **Body System**.
+- Question types: Single, SATA, and Bowtie.
