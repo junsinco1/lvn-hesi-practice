@@ -152,16 +152,11 @@ function bumpStats(q, wasCorrect){
 // readiness gauge (simple but useful)
 function updateReadinessGauge(){
   const stats = loadStats();
-  // Use NCLEX Review stats if any, otherwise blend across all banks
-  let base = stats["NCLEX Review"];
+  // Blend performance across all banks
   let correct = 0, total = 0;
-  if(base && base.total >= 10){
-    correct = base.correct; total = base.total;
-  } else {
-    for(const b of Object.values(stats)){
-      correct += (b.correct||0);
-      total += (b.total||0);
-    }
+  for(const b of Object.values(stats)){
+    correct += (b.correct||0);
+    total += (b.total||0);
   }
   const acc = total ? (correct/total) : 0;
   // Difficulty and streak boost: rough estimate (stored in session only)
@@ -172,6 +167,7 @@ function updateReadinessGauge(){
   el.readyPct.textContent = `${pct}%`;
   el.gaugeFill.style.width = `${pct}%`;
 }
+
 
 function setStatusCounts(){
   const clusterCount = clusters.length;
@@ -234,7 +230,6 @@ function setSystemAndTopicOptions(bankName){
   const meta = manifest.banks.find(b=>b.name===bankName);
   const sysList = meta?.systems || ["ANY"];
   el.systemSel.innerHTML = sysList.map(s=>`<option value="${s}">${s}</option>`).join("");
-  // Topics: for Compass A we provide the large list; others "ANY" until you load those banks.
   const topics = meta?.topics || ["ANY"];
   const base = ["ANY", ...topics.filter(t=>t!=="ANY")];
   // de-dupe
@@ -790,9 +785,9 @@ function bindButtons(){
 window.addEventListener("DOMContentLoaded", async ()=>{
   initThemeUI();
   await loadManifest();
-  // default bank: Compass A
-  el.bankSel.value = "Compass A";
-  setSystemAndTopicOptions("Compass A");
+  // default bank: Anatomy
+  el.bankSel.value = "Anatomy";
+  setSystemAndTopicOptions("Anatomy");
   initDropdownBehavior();
   bindButtons();
   updateBadges();
