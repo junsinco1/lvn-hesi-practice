@@ -133,12 +133,24 @@
     <section class="right">
       <div class="card qcard">
         <div class="cardTitle">Question</div>
-        <div class="meta">
-          <div><span>Topic:</span> <b id="qTopic">—</b></div>
-          <div><span>Type:</span> <b id="qType">—</b></div>
-          <div><span>Difficulty:</span> <b id="qDiff">—</b></div>
-        </div>
 
+        <div class="qTop">
+          <div class="qCrumbs">
+            <span class="chip" id="qBankChip">—</span>
+            <span class="sep">›</span>
+            <span class="chip" id="qSystemChip">—</span>
+            <span class="sep">›</span>
+            <span class="chip" id="qTopicChip">—</span>
+            <span class="sep">›</span>
+            <span class="chip" id="qTypeChip">—</span>
+          </div>
+          <div class="qStats">
+            <span class="chip ghost" id="qModeChip">Practice</span>
+            <span class="chip ghost" id="qCountChip">—</span>
+            <span class="chip ghost" id="qTimerChip">—</span>
+          </div>
+        </div>
+        <div class="qProgress"><div class="qProgressFill" id="qProgressFill"></div></div>
         <div id="qStem" class="stem">—</div>
         <div id="qChoices" class="choices"></div>
         <div id="bowtieArea" class="bowtie"></div>

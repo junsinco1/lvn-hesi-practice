@@ -133,3 +133,84 @@ select:focus,input:focus{border-color:color-mix(in srgb, var(--accent) 70%, var(
   white-space: pre-wrap;
   color: var(--text);
 }
+
+
+/* --- Design refresh v2 (Feb 2026) --- */
+
+.qTop{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background: rgba(10,14,30,.45);
+  margin:10px 0 10px;
+}
+.qCrumbs{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0;}
+.qStats{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end;}
+.sep{opacity:.55;}
+.chip{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background: rgba(18,26,51,.55);
+  color: var(--text);
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  max-width: 260px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+.chip.ghost{
+  background: rgba(255,255,255,.03);
+  color: color-mix(in srgb, var(--text) 85%, var(--muted));
+}
+.qProgress{
+  height:10px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background: rgba(10,14,30,.35);
+  overflow:hidden;
+  margin:0 0 14px;
+}
+.qProgressFill{
+  height:100%;
+  width:0%;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 90%, white 10%), color-mix(in srgb, var(--accent) 60%, var(--good)));
+}
+
+/* Make answer options feel more tappable */
+.choice{
+  padding:12px 14px;
+  border-radius:14px;
+}
+.choice input{transform: translateY(1px);}
+
+/* Question stem readability */
+.stem{
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: .1px;
+}
+
+/* Buttons: clearer hierarchy */
+.btn.primary{
+  box-shadow: 0 10px 25px rgba(106,163,255,.18);
+}
+.btn.primary:active{
+  transform: translateY(1px);
+}
+
+/* Responsive: stack left panel on small screens */
+@media (max-width: 980px){
+  .layout{grid-template-columns:1fr;}
+  .left{position:static;}
+  .qTop{flex-direction:column;align-items:flex-start;}
+  .qStats{justify-content:flex-start;}
+}

@@ -31,9 +31,14 @@ const el = {
   caseTabs: $("#caseTabs"),
   caseBody: $("#caseBody"),
   answerArea: $("#answerArea"),
-  qTopic: $("#qTopic"),
-  qType: $("#qType"),
-  qDiff: $("#qDiff"),
+  qBankChip: $("#qBankChip"),
+  qSystemChip: $("#qSystemChip"),
+  qTopicChip: $("#qTopicChip"),
+  qTypeChip: $("#qTypeChip"),
+  qModeChip: $("#qModeChip"),
+  qCountChip: $("#qCountChip"),
+  qTimerChip: $("#qTimerChip"),
+  qProgressFill: $("#qProgressFill"),
   qStem: $("#qStem"),
   qChoices: $("#qChoices"),
   bowtieArea: $("#bowtieArea"),
@@ -445,13 +450,32 @@ function renderBowtie(q){
   el.showAnswerBtn.disabled = false;
 }
 
+
+function updateQuestionCounter(){
+  const isExam = mode === "exam";
+  const total = isExam ? (examQueue?.length || 0) : 0;
+  const num = isExam ? (examIndex + 1) : 0;
+
+  if(el.qCountChip){
+    el.qCountChip.textContent = isExam ? (`${num}/${total}`) : "—";
+  }
+  if(el.qProgressFill){
+    const pct = isExam && total ? Math.round((num/total)*100) : 0;
+    el.qProgressFill.style.width = pct + "%";
+  }
+}
+
 function render(q){
   clearQuestionUI();
   current = q;
 
-  el.qTopic.textContent = q.topic || "—";
-  el.qType.textContent = q.qtype || "—";
-  el.qDiff.textContent = "Extremely Hard";
+  // Header chips
+  if(el.qBankChip) el.qBankChip.textContent = (el.bankSel?.value || "—");
+  if(el.qSystemChip) el.qSystemChip.textContent = (q.system || el.systemSel?.value || "—");
+  if(el.qTopicChip) el.qTopicChip.textContent = (q.topic || "—");
+  if(el.qTypeChip) el.qTypeChip.textContent = (q.qtype || "—");
+  if(el.qModeChip) el.qModeChip.textContent = (mode === "exam" ? "Exam" : "Practice");
+  updateQuestionCounter();
   el.qStem.textContent = q.stem || "—";
 
   setCaseTabs(q);
@@ -637,6 +661,7 @@ function choiceRationaleBlock(q){
 
 // ---------- Timer ----------
 function stopTimer(){
+  if(el.qTimerChip) el.qTimerChip.textContent = (timerSeconds>0 ? `Timer: ${timerLeft || 0}s` : "Timer: Off");
   if(timerHandle){ clearInterval(timerHandle); timerHandle = null; }
   timerLeft = 0;
   el.timerLbl.textContent = "—";
@@ -644,12 +669,14 @@ function stopTimer(){
 function startTimerForQuestion(){
   stopTimer();
   timerSeconds = parseInt(el.timerSel.value || "0", 10) || 0;
-  if(timerSeconds <= 0){ el.timerLbl.textContent = "Off"; return; }
+  if(timerSeconds <= 0){ el.timerLbl.textContent = "Off"; if(el.qTimerChip) el.qTimerChip.textContent = "Timer: Off"; return; }
   timerLeft = timerSeconds;
   el.timerLbl.textContent = `${timerLeft}s`;
+  if(el.qTimerChip) el.qTimerChip.textContent = `Timer: ${timerLeft}s`;
   timerHandle = setInterval(()=>{
     timerLeft--;
     el.timerLbl.textContent = `${timerLeft}s`;
+    if(el.qTimerChip) el.qTimerChip.textContent = `Timer: ${timerLeft}s`;
     if(timerLeft <= 0){
       stopTimer();
       // Auto-submit as incorrect if no selection made
