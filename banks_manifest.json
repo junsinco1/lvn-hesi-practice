@@ -111,26 +111,37 @@
       "systems": [
         "ANY",
         "Cardiovascular",
-        "Respiratory",
-        "Neurologic",
         "Endocrine",
-        "Renal/Urinary",
         "GI/Hepatic",
-        "Musculoskeletal",
-        "Integumentary/Wound",
         "Immune/Hematology",
-        "Reproductive/OB",
-        "Pediatrics/Growth & Development",
-        "Psych/Mental Health",
-        "Infectious Disease/Micro",
-        "Fluids & Electrolytes/Acid-Base",
-        "Perioperative/Critical Care",
-        "Community/Public Health",
-        "Ethics/Legal/Professional",
-        "Informatics/Quality/Safety"
+        "Musculoskeletal",
+        "Neurologic",
+        "Renal/Urinary",
+        "Respiratory",
+        "Special Senses (Eye/Ear)"
       ],
       "topics": [
-        "ANY"
+        "ANY",
+        "AKI/Urinary Retention/CAUTI",
+        "ARDS/Pneumonia",
+        "COPD/Asthma",
+        "Cardiac Emergencies",
+        "Electrolytes/Acid-Base",
+        "Endocrine Emergencies",
+        "GI Bleed/Pancreas",
+        "General",
+        "Hepatic Disease",
+        "ICP/Head Injury",
+        "MSK/Ortho Emergencies",
+        "Neuromuscular Disorders",
+        "Pulmonary Embolism",
+        "Renal Failure/Dialysis",
+        "Seizures/Status Epilepticus",
+        "Skin/Burns/Wounds",
+        "Special Senses Emergencies",
+        "Spinal Cord Emergencies",
+        "Stroke/TIA",
+        "Ventilator/Trach/Chest Tubes"
       ]
     }
   ]
