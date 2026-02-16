@@ -43,6 +43,12 @@ const el = {
   openLbBtn: $("#openLbBtn"),
   clearLbBtn: $("#clearLbBtn"),
   lbArea: $("#lbArea"),
+  validateBtn: $("#validateBtn"),
+  validatorModal: $("#validatorModal"),
+  validatorOut: $("#validatorOut"),
+  validatorCloseBtn: $("#validatorCloseBtn"),
+  runValidateBtn: $("#runValidateBtn"),
+  downloadValidateBtn: $("#downloadValidateBtn"),
 };
 
 // ---------- Theme presets ----------
@@ -173,6 +179,16 @@ function setStatusCounts(){
   const clusterCount = clusters.length;
   const qCount = singles.length + clusterCount; // rough session count (singles + clusters)
   el.countStatus.textContent = `Loaded: ${items.length} questions • ${clusterCount} clusters`;
+}
+
+
+function escapeHtml(s){
+  return String(s)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#39;");
 }
 
 // ---------- Data loading ----------
@@ -483,6 +499,76 @@ function isCorrect(q, sel){
   return false;
 }
 
+
+function lockAndMarkChoices(q, sel){
+  // Mark choices visually and disable further changes.
+  if(!q) return;
+
+  if(q.qtype === "single" || q.qtype === "sata"){
+    const correctSet = new Set(Array.isArray(q.answer) ? q.answer : [q.answer]);
+    const labels = Array.from(el.qChoices.querySelectorAll("label.choice"));
+    for(const lab of labels){
+      const inp = lab.querySelector("input");
+      if(!inp) continue;
+      const val = inp.value;
+      const selected = Array.isArray(sel) ? sel.includes(val) : (sel === val);
+      const isCorrectChoice = correctSet.has(val);
+
+      lab.classList.toggle("selected", !!selected);
+      lab.classList.toggle("correct", !!isCorrectChoice);
+      lab.classList.toggle("wrong", !!selected && !isCorrectChoice);
+      lab.classList.add("disabled");
+
+      inp.disabled = true;
+    }
+  }
+
+  if(q.qtype === "bowtie"){
+    const ans = q.answer || {};
+    const groups = [
+      {name:"btLeft", correct: ans.left},
+      {name:"btMiddle", correct: ans.middle},
+      {name:"btRight", correct: ans.right},
+    ];
+    for(const g of groups){
+      const opts = Array.from(el.bowtieArea.querySelectorAll(`input[name="${g.name}"]`));
+      for(const inp of opts){
+        const lab = inp.closest("label.btOpt");
+        const selected = inp.checked;
+        const isCorrectChoice = (inp.value === g.correct);
+        if(lab){
+          lab.classList.toggle("correct", isCorrectChoice);
+          lab.classList.toggle("wrong", selected && !isCorrectChoice);
+        }
+        inp.disabled = true;
+      }
+    }
+  }
+}
+
+function sataScore(q, sel){
+  const correct = new Set(q.answer || []);
+  const picked = new Set(sel || []);
+  let hit = 0;
+  for(const c of correct) if(picked.has(c)) hit++;
+  const falsePos = Array.from(picked).filter(x=>!correct.has(x)).length;
+  return {hit, total: correct.size, falsePos};
+}
+
+function prettyCorrect(q){
+  if(q.qtype === "single"){
+    return q.answer ? String(q.answer) : "—";
+  }
+  if(q.qtype === "sata"){
+    return (q.answer || []).map(a=>`• ${a}`).join("\n") || "—";
+  }
+  if(q.qtype === "bowtie"){
+    const a = q.answer || {};
+    return `Left: ${a.left ?? "—"}\nMiddle: ${a.middle ?? "—"}\nRight: ${a.right ?? "—"}`;
+  }
+  return "—";
+}
+
 function showFeedback(q, sel){
   const correct = isCorrect(q, sel);
 
@@ -510,22 +596,29 @@ function showFeedback(q, sel){
   updateBadges();
 
   // feedback body
+  lockAndMarkChoices(q, sel);
+
   let html = `<div><b>${correct ? "Correct ✅" : "Incorrect ❌"}</b></div>`;
+
   if(q.qtype === "single"){
-    html += `<div class="muted">Correct answer: <b>${q.answer ?? "—"}</b></div>`;
+    html += `<div class="muted">Correct answer:</div><div style="margin:4px 0 10px 0"><b>${escapeHtml(String(q.answer ?? "—"))}</b></div>`;
     html += choiceRationaleBlock(q);
   } else if(q.qtype === "sata"){
-    html += `<div class="muted">Correct selections:</div><ul>${(q.answer||[]).map(a=>`<li>${a}</li>`).join("")}</ul>`;
+    const ss = sataScore(q, sel);
+    html += `<div class="muted">Correct selections:</div><div style="margin:4px 0 10px 0;white-space:pre-wrap"><b>${escapeHtml(prettyCorrect(q))}</b></div>`;
+    html += `<div class="muted">Your result:</div><div style="margin:4px 0 10px 0"><b>${ss.hit}/${ss.total}</b> correct${ss.falsePos ? ` • <span style="color:var(--danger)">${ss.falsePos}</span> incorrect selection${ss.falsePos>1?"s":""}` : ""}</div>`;
     html += choiceRationaleBlock(q);
   } else if(q.qtype === "bowtie"){
-    const ans = q.answer || {};
-    html += `<div class="muted">Correct bowtie:</div>
-      <ul><li><b>${ans.left ?? "—"}</b></li><li><b>${ans.middle ?? "—"}</b></li><li><b>${ans.right ?? "—"}</b></li></ul>`;
+    html += `<div class="muted">Correct bowtie:</div><div style="margin:4px 0 10px 0;white-space:pre-wrap"><b>${escapeHtml(prettyCorrect(q))}</b></div>`;
   }
+
   if(q.rationale){
-    html += `<hr style="border:0;border-top:1px solid var(--border);margin:10px 0" />`;
-    html += `<div><b>Rationale</b></div><div class="muted">${q.rationale}</div>`;
+    html += `<details style="margin-top:10px" open>
+      <summary style="cursor:pointer;font-weight:800">Rationale</summary>
+      <div class="muted" style="margin-top:6px">${q.rationale}</div>
+    </details>`;
   }
+
   el.answerArea.innerHTML = html;
 
   stopTimer();
@@ -758,8 +851,177 @@ function initDropdownBehavior(){
   });
 }
 
+
+// ---------- Bank Validator ----------
+let lastValidateReport = null;
+
+function openValidator(){
+  el.validatorModal.classList.remove("hidden");
+  el.validatorOut.textContent = "Click “Run validation”.";
+  el.downloadValidateBtn.disabled = true;
+  lastValidateReport = null;
+}
+
+function closeValidator(){
+  el.validatorModal.classList.add("hidden");
+}
+
+async function runBankValidation(){
+  const issues = [];
+  const bankSummaries = [];
+  const globalIds = new Map(); // id -> {bank, idx}
+
+  const allowedTypes = new Set(["single","sata","bowtie"]);
+  const letterInStem = /(^|\n)\s*[A-E][\.|\)]\s+/m;
+
+  for(const b of (manifest?.banks || [])){
+    let data;
+    try{
+      data = await fetchJson(b.file);
+    }catch(err){
+      issues.push({bank:b.name, id:null, issue:`Failed to load ${b.file}: ${String(err?.message||err)}`});
+      continue;
+    }
+    if(!Array.isArray(data)){
+      issues.push({bank:b.name, id:null, issue:`${b.file} is not an array`});
+      continue;
+    }
+
+    let count = 0;
+    let localIds = new Set();
+    for(let i=0;i<data.length;i++){
+      const raw = data[i] || {};
+      const q = normalizeQuestion(raw, b.name);
+      count++;
+
+      const qid = q.id ?? `(index:${i})`;
+      if(q.id){
+        if(localIds.has(q.id)) issues.push({bank:b.name, id:qid, issue:"Duplicate question id within bank"});
+        localIds.add(q.id);
+
+        if(globalIds.has(q.id)){
+          const prev = globalIds.get(q.id);
+          issues.push({bank:b.name, id:qid, issue:`Duplicate id across banks (also in ${prev.bank})`});
+        }else{
+          globalIds.set(q.id, {bank:b.name, idx:i});
+        }
+      }else{
+        issues.push({bank:b.name, id:qid, issue:"Missing id"});
+      }
+
+      if(!q.stem || typeof q.stem !== "string") issues.push({bank:b.name, id:qid, issue:"Missing/invalid stem"});
+      if(q.stem && letterInStem.test(q.stem)) issues.push({bank:b.name, id:qid, issue:"Detected lettered choice fragment inside stem (e.g., 'E.')"});
+      if(!allowedTypes.has(q.qtype)) issues.push({bank:b.name, id:qid, issue:`Invalid qtype: ${String(q.qtype)}`});
+
+      if(q.qtype === "single"){
+        if(!Array.isArray(q.choices) || q.choices.length < 2) issues.push({bank:b.name, id:qid, issue:"Single question missing choices"});
+        if(typeof q.answer !== "string" || !q.answer.trim()) issues.push({bank:b.name, id:qid, issue:"Single question missing correct answer"});
+        if(Array.isArray(q.choices) && typeof q.answer === "string" && q.choices.length && !q.choices.includes(q.answer)){
+          issues.push({bank:b.name, id:qid, issue:"Correct answer not found in choices (text mismatch)"});
+        }
+      }
+
+      if(q.qtype === "sata"){
+        if(!Array.isArray(q.choices) || q.choices.length < 3) issues.push({bank:b.name, id:qid, issue:"SATA missing choices"});
+        if(!Array.isArray(q.answer) || q.answer.length < 2) issues.push({bank:b.name, id:qid, issue:"SATA missing/invalid correct selections"});
+        if(Array.isArray(q.answer) && Array.isArray(q.choices)){
+          for(const a of q.answer){
+            if(!q.choices.includes(a)) issues.push({bank:b.name, id:qid, issue:"One or more SATA answers not found in choices (text mismatch)"});
+          }
+        }
+      }
+
+      if(q.qtype === "bowtie"){
+        const bt = q.bowtie;
+        if(!bt || !Array.isArray(bt.left_options) || !Array.isArray(bt.middle_options) || !Array.isArray(bt.right_options)){
+          issues.push({bank:b.name, id:qid, issue:"Bowtie missing bowtie option arrays"});
+        }
+        const ans = q.answer || {};
+        if(!ans || typeof ans !== "object") issues.push({bank:b.name, id:qid, issue:"Bowtie missing answer object"});
+        if(bt && ans){
+          if(ans.left && !bt.left_options.includes(ans.left)) issues.push({bank:b.name, id:qid, issue:"Bowtie left answer not in left options"});
+          if(ans.middle && !bt.middle_options.includes(ans.middle)) issues.push({bank:b.name, id:qid, issue:"Bowtie middle answer not in middle options"});
+          if(ans.right && !bt.right_options.includes(ans.right)) issues.push({bank:b.name, id:qid, issue:"Bowtie right answer not in right options"});
+        }
+      }
+    }
+
+    bankSummaries.push({bank:b.name, file:b.file, questions:count});
+  }
+
+  // Summary
+  const report = {
+    generatedAt: new Date().toISOString(),
+    banks: bankSummaries,
+    issueCount: issues.length,
+    issues
+  };
+  return report;
+}
+
+function formatValidationReport(report){
+  const lines = [];
+  lines.push(`Bank Validator Report`);
+  lines.push(`Generated: ${report.generatedAt}`);
+  lines.push(`Banks: ${report.banks.length}`);
+  const totalQ = report.banks.reduce((a,b)=>a+(b.questions||0),0);
+  lines.push(`Total questions: ${totalQ}`);
+  lines.push(`Issues: ${report.issueCount}`);
+  lines.push(``);
+  for(const b of report.banks){
+    lines.push(`- ${b.bank}: ${b.questions} (${b.file})`);
+  }
+  if(report.issueCount){
+    lines.push(``);
+    lines.push(`Top issues (first 50):`);
+    report.issues.slice(0,50).forEach((it, idx)=>{
+      lines.push(`${idx+1}. [${it.bank}] ${it.id ?? ""} — ${it.issue}`);
+    });
+    if(report.issueCount > 50) lines.push(`…and ${report.issueCount-50} more`);
+  }else{
+    lines.push(``);
+    lines.push(`✅ No issues found.`);
+  }
+  return lines.join("\n");
+}
+
+function downloadJsonReport(obj, filename){
+  const blob = new Blob([JSON.stringify(obj, null, 2)], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url), 1000);
+}
+
 function bindButtons(){
   el.reloadBtn.addEventListener("click", reloadAll);
+  if(el.validateBtn){
+    el.validateBtn.addEventListener("click", openValidator);
+    el.validatorCloseBtn?.addEventListener("click", closeValidator);
+    el.validatorModal?.addEventListener("click", (e)=>{ if(e.target === el.validatorModal) closeValidator(); });
+    el.runValidateBtn?.addEventListener("click", async ()=>{
+      el.runValidateBtn.disabled = true;
+      el.validatorOut.textContent = "Running validation…";
+      try{
+        const rep = await runBankValidation();
+        lastValidateReport = rep;
+        el.validatorOut.textContent = formatValidationReport(rep);
+        el.downloadValidateBtn.disabled = false;
+      }catch(err){
+        el.validatorOut.textContent = `Validation failed: ${String(err?.message||err)}`;
+      }finally{
+        el.runValidateBtn.disabled = false;
+      }
+    });
+    el.downloadValidateBtn?.addEventListener("click", ()=>{
+      if(!lastValidateReport) return;
+      downloadJsonReport(lastValidateReport, `bank_validation_${new Date().toISOString().slice(0,10)}.json`);
+    });
+  }
   el.nextBtn.addEventListener("click", next);
   el.startExamBtn.addEventListener("click", startExam);
   el.resetBtn.addEventListener("click", reset);

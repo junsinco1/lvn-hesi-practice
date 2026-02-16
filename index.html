@@ -17,6 +17,7 @@
       <div class="pill" id="loadStatus">Loading…</div>
       <div class="pill" id="countStatus">Loaded: 0</div>
       <button class="btn" id="reloadBtn">Reload</button>
+      <button class="btn" id="validateBtn">Validate Banks</button>
     </div>
   </header>
 
@@ -170,5 +171,20 @@
   </footer>
 
   <script src="app.js"></script>
+
+  <div id="validatorModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="validatorTitle">
+    <div class="modalCard">
+      <div class="modalHeader">
+        <div id="validatorTitle" class="modalTitle">Bank Validator</div>
+        <button class="btn" id="validatorCloseBtn">Close</button>
+      </div>
+      <div class="modalActions">
+        <button class="btn primary" id="runValidateBtn">Run validation</button>
+        <button class="btn" id="downloadValidateBtn" disabled>Download report (JSON)</button>
+      </div>
+      <pre id="validatorOut" class="modalPre">Click “Run validation”.</pre>
+    </div>
+  </div>
+
 </body>
 </html>
