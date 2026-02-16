@@ -30,23 +30,23 @@
         "Respiratory",
         "Neurologic",
         "Endocrine",
-        "Renal/Urinary",
         "GI/Hepatic",
-        "Musculoskeletal",
-        "Integumentary/Wound",
+        "Renal/Urinary",
         "Immune/Hematology",
+        "Musculoskeletal",
+        "Integumentary",
+        "Special Senses (Eye/Ear)",
         "Reproductive/OB",
-        "Pediatrics/Growth & Development",
-        "Psych/Mental Health",
-        "Infectious Disease/Micro",
-        "Fluids & Electrolytes/Acid-Base",
-        "Perioperative/Critical Care",
-        "Community/Public Health",
-        "Ethics/Legal/Professional",
-        "Informatics/Quality/Safety"
+        "Fluids & Electrolytes/Acid-Base"
       ],
       "topics": [
-        "ANY"
+        "ANY",
+        "Hemodynamics/Preload-Afterload",
+        "Cardiac Cycle/Valves",
+        "Electrophysiology/Conduction",
+        "Autonomic Regulation",
+        "Oxygen Delivery/Perfusion",
+        "Shock Physiology"
       ]
     },
     {

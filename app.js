@@ -645,7 +645,6 @@ function startExam(){
   if(!Number.isFinite(n) || n < 1) n = 1;
 
   const pool = buildEligiblePool();
-  if(n > pool.length) n = pool.length;
   if(!pool.length){
     el.loadStatus.textContent = "No questions match filters";
     return;
