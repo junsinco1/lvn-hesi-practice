@@ -105,17 +105,3 @@ Common fields used by the app:
 - This app stores settings and leaderboard locally in the browser (no server, no database).
 - Works best in Chrome/Edge; Safari may require running via a local server.
 
-
-
-## Physiology Bank
-
-- New **system-based** Physiology bank (Extremely Hard).
-- Filters: **Body System** + **Topic**.
-- Current build includes the first Cardiovascular physiology set; additional systems will be added in the same format.
-- Rules: see `PHYSIOLOGY_QUESTION_RULES.md`.
-
-## Physiology Bank (Work in Progress)
-
-- Current physiology bank included in this build: **25 questions** (starter set).
-- Next batches will be appended using the same rules (system-based, extremely hard, Standard/SATA/Bowtie).
-

@@ -192,6 +192,7 @@ function normalizeQuestion(q, bankName){
   nq.system = nq.system || "ANY";
   nq.topic = nq.topic || "ANY";
   nq.qtype = nq.qtype || (Array.isArray(nq.answer) ? "sata" : "single");
+  if(nq.qtype === "standard") nq.qtype = "single";
   nq.difficulty = 5; // forced extremely hard (single difficulty)
   if((nq.qtype==="single" || nq.qtype==="sata") && !Array.isArray(nq.choices)) nq.choices = [];
   if(!nq.choice_rationales || typeof nq.choice_rationales !== "object") nq.choice_rationales = {};
