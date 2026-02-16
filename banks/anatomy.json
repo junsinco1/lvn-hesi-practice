@@ -9492,5 +9492,948 @@
     ],
     "rationale": "Spasticity/hyperreflexia suggest UMN.",
     "topic": "which findings support cauda"
+  },
+  {
+    "id": "ANAT-0501",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "During a bimanual exam, the clinician palpates the cervix. The cervix is the inferior portion of the:",
+    "choices": [
+      "Vagina",
+      "Uterus",
+      "Fallopian tube",
+      "Ovary"
+    ],
+    "qtype": "single",
+    "answer": "Uterus",
+    "rationale": "The cervix is the lower uterine segment projecting into the vagina.",
+    "topic": "during a bimanual exam the"
+  },
+  {
+    "id": "ANAT-0502",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A postpartum patient has heavy bleeding after uterine atony. Which uterine layer is primarily responsible for powerful contractions that compress vessels?",
+    "choices": [
+      "Endometrium",
+      "Myometrium",
+      "Perimetrium",
+      "Parametrium"
+    ],
+    "qtype": "single",
+    "answer": "Myometrium",
+    "rationale": "Myometrium is the smooth muscle layer that contracts to compress spiral arteries.",
+    "topic": "a postpartum patient has heavy"
+  },
+  {
+    "id": "ANAT-0503",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A nurse is teaching about an IUD insertion. The uterine cavity is normally lined by which layer?",
+    "choices": [
+      "Perimetrium",
+      "Myometrium",
+      "Endometrium",
+      "Serosa of bladder"
+    ],
+    "qtype": "single",
+    "answer": "Endometrium",
+    "rationale": "Endometrium is the mucosal lining that undergoes cyclical changes.",
+    "topic": "a nurse is teaching about"
+  },
+  {
+    "id": "ANAT-0504",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "During laparoscopic salpingectomy, which structure runs in the superior margin of the broad ligament within the mesosalpinx?",
+    "choices": [
+      "Ureter",
+      "Round ligament",
+      "Uterine tube",
+      "Ovarian ligament"
+    ],
+    "qtype": "single",
+    "answer": "Uterine tube",
+    "rationale": "The uterine tube is suspended by the mesosalpinx (part of broad ligament).",
+    "topic": "during laparoscopic salpingectomy which structure"
+  },
+  {
+    "id": "ANAT-0505",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A patient has pelvic surgery; the ureter is at risk near the uterine artery. The classic relationship is:",
+    "choices": [
+      "Ureter crosses over the uterine artery ('water over the bridge')",
+      "Uterine artery crosses over the ureter ('water under the bridge')",
+      "Ureter travels within the round ligament",
+      "Ureter enters the uterus through the cervix"
+    ],
+    "qtype": "single",
+    "answer": "Uterine artery crosses over the ureter ('water under the bridge')",
+    "rationale": "Ureter passes under uterine artery near cervix: 'water (urine) under the bridge'.",
+    "topic": "a patient has pelvic surgery"
+  },
+  {
+    "id": "ANAT-0506",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "During hysterectomy, ligation too lateral risks injuring which structure as it courses along the lateral pelvic wall?",
+    "choices": [
+      "External iliac artery",
+      "Ureter",
+      "Obturator nerve",
+      "Femoral nerve"
+    ],
+    "qtype": "single",
+    "answer": "Ureter",
+    "rationale": "Ureter descends on lateral pelvic wall and enters bladder near cervix; vulnerable during uterine artery ligation.",
+    "topic": "during hysterectomy ligation too lateral"
+  },
+  {
+    "id": "ANAT-0507",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A patient with endometriosis has pain referred to the shoulder from diaphragmatic irritation. This referral is carried primarily by:",
+    "choices": [
+      "Phrenic nerve (C3–C5)",
+      "Vagus nerve",
+      "Intercostal nerves (T7–T9)",
+      "Obturator nerve"
+    ],
+    "qtype": "single",
+    "answer": "Phrenic nerve (C3–C5)",
+    "rationale": "Diaphragm irritation refers to shoulder via phrenic (C3–C5).",
+    "topic": "a patient with endometriosis has"
+  },
+  {
+    "id": "ANAT-0508",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "In males, the structure analogous to the female round ligament of the uterus is the:",
+    "choices": [
+      "Tunica vaginalis",
+      "Gubernaculum testis",
+      "Ductus deferens",
+      "Bulbourethral gland"
+    ],
+    "qtype": "single",
+    "answer": "Gubernaculum testis",
+    "rationale": "Both derive from gubernaculum; female round ligament/ovarian ligament are remnants.",
+    "topic": "in males the structure analogous"
+  },
+  {
+    "id": "ANAT-0509",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A testicular torsion compromises blood flow in vessels traveling within which structure?",
+    "choices": [
+      "Spermatic cord",
+      "Inguinal ligament",
+      "Cremasteric fascia only",
+      "Tunica albuginea"
+    ],
+    "qtype": "single",
+    "answer": "Spermatic cord",
+    "rationale": "Testicular vessels and vas deferens are contained in the spermatic cord.",
+    "topic": "a testicular torsion compromises blood"
+  },
+  {
+    "id": "ANAT-0510",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A varicocele is dilation of pampiniform plexus. The pampiniform plexus drains primarily into the:",
+    "choices": [
+      "Internal iliac vein",
+      "Renal vein",
+      "Testicular vein",
+      "External iliac vein"
+    ],
+    "qtype": "single",
+    "answer": "Testicular vein",
+    "rationale": "Pampiniform plexus forms testicular vein; left drains to left renal vein; right to IVC.",
+    "topic": "a varicocele is dilation of"
+  },
+  {
+    "id": "ANAT-0511",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A patient has painless gross hematuria after pelvic irradiation. Which structure lies immediately anterior to the vagina and is most susceptible to fistula formation?",
+    "choices": [
+      "Rectum",
+      "Ureter",
+      "Urinary bladder",
+      "Appendix"
+    ],
+    "qtype": "single",
+    "answer": "Urinary bladder",
+    "rationale": "Bladder sits anterior to vagina; radiation can predispose to vesicovaginal fistula.",
+    "topic": "a patient has painless gross"
+  },
+  {
+    "id": "ANAT-0512",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "During childbirth, a tear extends into the perineal body. The perineal body is most critical because it provides attachment for:",
+    "choices": [
+      "Only external anal sphincter",
+      "Multiple perineal muscles supporting pelvic floor",
+      "Uterine tubes",
+      "Obturator internus"
+    ],
+    "qtype": "single",
+    "answer": "Multiple perineal muscles supporting pelvic floor",
+    "rationale": "Perineal body anchors bulbospongiosus, EAS, levator ani fibers, etc; integrity supports pelvic floor.",
+    "topic": "during childbirth a tear extends"
+  },
+  {
+    "id": "ANAT-0513",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A nurse inserts a catheter in a male patient. The narrowest portion of the male urethra is the:",
+    "choices": [
+      "Prostatic urethra",
+      "Membranous urethra",
+      "Spongy (penile) urethra",
+      "Bulbar urethra"
+    ],
+    "qtype": "single",
+    "answer": "Membranous urethra",
+    "rationale": "Membranous urethra (through urogenital diaphragm/external sphincter) is least distensible and narrow.",
+    "topic": "a nurse inserts a catheter"
+  },
+  {
+    "id": "ANAT-0514",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A patient undergoes prostatectomy. The nerve plexus most responsible for erectile function and at risk during surgery is the:",
+    "choices": [
+      "Hypogastric plexus (parasympathetic fibers)",
+      "Celiac plexus",
+      "Phrenic nerve",
+      "Intercostal nerves"
+    ],
+    "qtype": "single",
+    "answer": "Hypogastric plexus (parasympathetic fibers)",
+    "rationale": "Cavernous nerves from pelvic (inferior hypogastric) plexus mediate erection (parasympathetic S2–S4).",
+    "topic": "a patient undergoes prostatectomy the"
+  },
+  {
+    "id": "ANAT-0515",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Epididymitis pain can be referred to the lower abdomen via shared spinal segments of the testis, which are primarily:",
+    "choices": [
+      "T10–T12",
+      "C3–C5",
+      "L4–S1",
+      "S2–S4"
+    ],
+    "qtype": "single",
+    "answer": "T10–T12",
+    "rationale": "Testicular visceral afferents travel with sympathetics to T10–T12.",
+    "topic": "epididymitis pain can be referred"
+  },
+  {
+    "id": "ANAT-0516",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A woman has pelvic pain worse with hip extension; psoas sign is positive. Which structure can irritate psoas and produce this finding?",
+    "choices": [
+      "Appendix",
+      "Ovary only",
+      "Cervix",
+      "Vulva"
+    ],
+    "qtype": "single",
+    "answer": "Appendix",
+    "rationale": "Inflamed appendix can irritate psoas muscle causing pain with hip extension.",
+    "topic": "a woman has pelvic pain"
+  },
+  {
+    "id": "ANAT-0517",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "In females, the most common site of ectopic pregnancy is the:",
+    "choices": [
+      "Fimbriae",
+      "Ampulla of uterine tube",
+      "Isthmus",
+      "Cervix"
+    ],
+    "qtype": "single",
+    "answer": "Ampulla of uterine tube",
+    "rationale": "Ampulla is the most common site where fertilization occurs and ectopic implantation frequently happens.",
+    "topic": "in females the most common"
+  },
+  {
+    "id": "ANAT-0518",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The artery most directly supplying the uterus is the:",
+    "choices": [
+      "Ovarian artery",
+      "Uterine artery",
+      "Internal pudendal artery",
+      "Inferior epigastric artery"
+    ],
+    "qtype": "single",
+    "answer": "Uterine artery",
+    "rationale": "Uterine artery (from internal iliac) supplies uterus; ovarian artery supplies ovary.",
+    "topic": "the artery most directly supplying"
+  },
+  {
+    "id": "ANAT-0519",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The ovarian artery originates most commonly from the:",
+    "choices": [
+      "External iliac artery",
+      "Abdominal aorta",
+      "Internal iliac artery",
+      "Femoral artery"
+    ],
+    "qtype": "single",
+    "answer": "Abdominal aorta",
+    "rationale": "Ovarian (gonadal) arteries arise from abdominal aorta.",
+    "topic": "the ovarian artery originates most"
+  },
+  {
+    "id": "ANAT-0520",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "During childbirth, stretching of the pelvic floor places which nerve at risk for compression leading to postpartum urinary retention?",
+    "choices": [
+      "Pudendal nerve",
+      "Phrenic nerve",
+      "Radial nerve",
+      "Facial nerve"
+    ],
+    "qtype": "single",
+    "answer": "Pudendal nerve",
+    "rationale": "Pudendal nerve (S2–S4) supplies external urethral sphincter/perineum; stretching can cause neuropraxia.",
+    "topic": "during childbirth stretching of the"
+  },
+  {
+    "id": "ANAT-0521",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A male patient has a hydrocele. The hydrocele is fluid accumulation within the:",
+    "choices": [
+      "Tunica albuginea",
+      "Tunica vaginalis",
+      "Corpus spongiosum",
+      "Dartos fascia"
+    ],
+    "qtype": "single",
+    "answer": "Tunica vaginalis",
+    "rationale": "Tunica vaginalis is a peritoneal sac around testis; fluid accumulation causes hydrocele.",
+    "topic": "a male patient has a"
+  },
+  {
+    "id": "ANAT-0522",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The structure that traverses the inguinal canal in females is the:",
+    "choices": [
+      "Ureter",
+      "Round ligament of uterus",
+      "Ovarian ligament",
+      "Uterine tube"
+    ],
+    "qtype": "single",
+    "answer": "Round ligament of uterus",
+    "rationale": "Round ligament passes through inguinal canal to labia majora.",
+    "topic": "the structure that traverses the"
+  },
+  {
+    "id": "ANAT-0523",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A nurse suspects an injury to the external anal sphincter after delivery. The external anal sphincter is primarily innervated by:",
+    "choices": [
+      "Pudendal nerve",
+      "Femoral nerve",
+      "Obturator nerve",
+      "Sciatic nerve"
+    ],
+    "qtype": "single",
+    "answer": "Pudendal nerve",
+    "rationale": "Pudendal nerve supplies external anal sphincter; injury can cause fecal incontinence.",
+    "topic": "a nurse suspects an injury"
+  },
+  {
+    "id": "ANAT-0524",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "In males, which structure lies posterior to the urinary bladder and can be palpated on rectal exam?",
+    "choices": [
+      "Bulbourethral glands",
+      "Seminal vesicles",
+      "Cowper's duct",
+      "External iliac artery"
+    ],
+    "qtype": "single",
+    "answer": "Seminal vesicles",
+    "rationale": "Seminal vesicles sit posterior to bladder, superior to prostate; palpable in some conditions.",
+    "topic": "in males which structure lies"
+  },
+  {
+    "id": "ANAT-0525",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The ductus deferens joins the seminal vesicle duct to form the:",
+    "choices": [
+      "Ejaculatory duct",
+      "Prostatic duct",
+      "Urethral diverticulum",
+      "Spermatic vein"
+    ],
+    "qtype": "single",
+    "answer": "Ejaculatory duct",
+    "rationale": "Ductus deferens + seminal vesicle duct → ejaculatory duct entering prostatic urethra.",
+    "topic": "the ductus deferens joins the"
+  },
+  {
+    "id": "ANAT-0526",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A patient with pelvic inflammatory disease has adnexal tenderness. 'Adnexa' most specifically refers to:",
+    "choices": [
+      "Cervix and vagina",
+      "Ovaries and uterine tubes",
+      "Uterus only",
+      "Bladder and ureters"
+    ],
+    "qtype": "single",
+    "answer": "Ovaries and uterine tubes",
+    "rationale": "Adnexa includes ovaries, tubes, and supporting tissues.",
+    "topic": "a patient with pelvic inflammatory"
+  },
+  {
+    "id": "ANAT-0527",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which ligament anchors the ovary to the lateral pelvic wall and carries the ovarian vessels?",
+    "choices": [
+      "Suspensory ligament of ovary (infundibulopelvic ligament)",
+      "Round ligament",
+      "Broad ligament proper",
+      "Uterosacral ligament"
+    ],
+    "qtype": "single",
+    "answer": "Suspensory ligament of ovary (infundibulopelvic ligament)",
+    "rationale": "Suspensory ligament contains ovarian artery/vein as they enter pelvis.",
+    "topic": "which ligament anchors the ovary"
+  },
+  {
+    "id": "ANAT-0528",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "During a pelvic lymph node dissection for cervical cancer, the first nodes commonly involved are along the:",
+    "choices": [
+      "Para-aortic nodes",
+      "Superficial inguinal nodes",
+      "Internal iliac/obturator nodes",
+      "Axillary nodes"
+    ],
+    "qtype": "single",
+    "answer": "Internal iliac/obturator nodes",
+    "rationale": "Cervix drains to internal iliac and obturator nodes; important for staging.",
+    "topic": "during a pelvic lymph node"
+  },
+  {
+    "id": "ANAT-0529",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The lymphatic drainage of the testes is primarily to the:",
+    "choices": [
+      "Superficial inguinal nodes",
+      "Para-aortic (lumbar) nodes",
+      "Internal iliac nodes",
+      "Popliteal nodes"
+    ],
+    "qtype": "single",
+    "answer": "Para-aortic (lumbar) nodes",
+    "rationale": "Testes originate high and drain to para-aortic nodes; scrotum drains to superficial inguinal.",
+    "topic": "the lymphatic drainage of the"
+  },
+  {
+    "id": "ANAT-0530",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The lymphatic drainage of the scrotal skin is primarily to the:",
+    "choices": [
+      "Para-aortic nodes",
+      "Superficial inguinal nodes",
+      "Deep cervical nodes",
+      "Mediastinal nodes"
+    ],
+    "qtype": "single",
+    "answer": "Superficial inguinal nodes",
+    "rationale": "Scrotal skin drains to superficial inguinal nodes.",
+    "topic": "the lymphatic drainage of the"
+  },
+  {
+    "id": "ANAT-0531",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A vaginal laceration with brisk bleeding risks injury to branches of which artery that supplies the perineum?",
+    "choices": [
+      "Internal pudendal artery",
+      "Superior mesenteric artery",
+      "Renal artery",
+      "Subclavian artery"
+    ],
+    "qtype": "single",
+    "answer": "Internal pudendal artery",
+    "rationale": "Internal pudendal supplies perineum and external genitalia.",
+    "topic": "a vaginal laceration with brisk"
+  },
+  {
+    "id": "ANAT-0532",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "The clitoris is homologous to which male structure?",
+    "choices": [
+      "Corpus spongiosum",
+      "Glans penis",
+      "Prostate",
+      "Scrotum"
+    ],
+    "qtype": "single",
+    "answer": "Glans penis",
+    "rationale": "Clitoris (glans) is homologous to glans penis; both from genital tubercle.",
+    "topic": "the clitoris is homologous to"
+  },
+  {
+    "id": "ANAT-0533",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A postpartum hemorrhage persists despite uterine massage. Suspected retained products prevent full contraction of which uterine region that is most muscular and contractile?",
+    "choices": [
+      "Fundus",
+      "Cervix",
+      "Vaginal introitus",
+      "Round ligament"
+    ],
+    "qtype": "single",
+    "answer": "Fundus",
+    "rationale": "Fundal myometrium provides strongest contraction to clamp vessels; retained tissue impairs contraction.",
+    "topic": "a postpartum hemorrhage persists despite"
+  },
+  {
+    "id": "ANAT-0534",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A patient reports dyspareunia and deep pelvic pain. Which structure is directly posterior to the vagina and can be involved in a rectovaginal exam?",
+    "choices": [
+      "Rectum",
+      "Bladder",
+      "Urethra",
+      "Pubic symphysis"
+    ],
+    "qtype": "single",
+    "answer": "Rectum",
+    "rationale": "Rectum lies posterior to vagina; rectovaginal exam assesses posterior pelvis.",
+    "topic": "a patient reports dyspareunia and"
+  },
+  {
+    "id": "ANAT-0535",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "A hysterectomy requires cutting the uterosacral ligaments. These ligaments primarily attach the cervix/upper vagina to the:",
+    "choices": [
+      "Sacrum",
+      "Pubic symphysis",
+      "Ischial spine",
+      "Anterior abdominal wall"
+    ],
+    "qtype": "single",
+    "answer": "Sacrum",
+    "rationale": "Uterosacral ligaments run from cervix/upper vagina to sacrum, helping support the uterus.",
+    "topic": "a hysterectomy requires cutting the"
+  },
+  {
+    "id": "ANAT-0536",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which structures are derived from the gubernaculum in females? (Select all that apply.)",
+    "choices": [
+      "Round ligament of uterus",
+      "Ovarian ligament",
+      "Suspensory ligament of ovary",
+      "Tunica vaginalis",
+      "Ductus deferens"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Round ligament of uterus",
+      "Ovarian ligament"
+    ],
+    "rationale": "Gubernaculum becomes ovarian ligament and round ligament; suspensory ligament is a peritoneal fold carrying vessels.",
+    "topic": "which structures are derived from"
+  },
+  {
+    "id": "ANAT-0537",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which findings support injury to the pudendal nerve after delivery? (Select all that apply.)",
+    "choices": [
+      "Decreased perineal sensation",
+      "Urinary retention with weak voluntary sphincter control",
+      "Loss of patellar reflex",
+      "Fecal incontinence from EAS weakness",
+      "Loss of facial expression"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Decreased perineal sensation",
+      "Urinary retention with weak voluntary sphincter control",
+      "Fecal incontinence from EAS weakness"
+    ],
+    "rationale": "Pudendal (S2–S4) supplies perineal sensation and external urethral/anal sphincters.",
+    "topic": "which findings support injury to"
+  },
+  {
+    "id": "ANAT-0538",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which structures pass through the inguinal canal in a typical adult male? (Select all that apply.)",
+    "choices": [
+      "Spermatic cord",
+      "Ilioinguinal nerve",
+      "Femoral nerve",
+      "Ureter",
+      "Inferior epigastric artery"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Spermatic cord",
+      "Ilioinguinal nerve"
+    ],
+    "rationale": "Inguinal canal transmits spermatic cord and ilioinguinal nerve; femoral nerve/ureter do not traverse it.",
+    "topic": "which structures pass through the"
+  },
+  {
+    "id": "ANAT-0539",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which structures are located within the spermatic cord? (Select all that apply.)",
+    "choices": [
+      "Ductus deferens",
+      "Testicular artery",
+      "Pampiniform plexus",
+      "External iliac vein",
+      "Bulbourethral glands"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Ductus deferens",
+      "Testicular artery",
+      "Pampiniform plexus"
+    ],
+    "rationale": "Spermatic cord contains vas deferens, testicular vessels, pampiniform plexus, nerves/lymphatics.",
+    "topic": "which structures are located within"
+  },
+  {
+    "id": "ANAT-0540",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which statements about lymphatic drainage are correct? (Select all that apply.)",
+    "choices": [
+      "Testes drain to para-aortic (lumbar) nodes",
+      "Scrotum drains to superficial inguinal nodes",
+      "Ovary drains to popliteal nodes",
+      "Vulva drains to superficial inguinal nodes (many regions)",
+      "Cervix drains primarily to axillary nodes"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Testes drain to para-aortic (lumbar) nodes",
+      "Scrotum drains to superficial inguinal nodes",
+      "Vulva drains to superficial inguinal nodes (many regions)"
+    ],
+    "rationale": "Gonads drain to para-aortic; external genital skin to inguinal; cervix to pelvic nodes.",
+    "topic": "which statements about lymphatic drainage"
+  },
+  {
+    "id": "ANAT-0541",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which neurovascular structures are most at risk during ligation of the uterine artery near the cervix? (Select all that apply.)",
+    "choices": [
+      "Ureter",
+      "Uterine vein",
+      "Obturator nerve",
+      "External iliac artery",
+      "Round ligament"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Ureter",
+      "Uterine vein"
+    ],
+    "rationale": "Ureter runs under uterine artery; accompanying veins are nearby; obturator nerve is more lateral in obturator canal region.",
+    "topic": "which neurovascular structures are most"
+  },
+  {
+    "id": "ANAT-0542",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which structures contribute to the perineal body and pelvic floor support? (Select all that apply.)",
+    "choices": [
+      "Bulbospongiosus",
+      "External anal sphincter",
+      "Levator ani fibers",
+      "Biceps femoris",
+      "Superficial transverse perineal muscle"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Bulbospongiosus",
+      "External anal sphincter",
+      "Levator ani fibers",
+      "Superficial transverse perineal muscle"
+    ],
+    "rationale": "Perineal body anchors multiple perineal muscles and supports pelvic floor.",
+    "topic": "which structures contribute to the"
+  },
+  {
+    "id": "ANAT-0543",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which are true regarding the uterine tube? (Select all that apply.)",
+    "choices": [
+      "Ampulla is the most common site of fertilization",
+      "Fimbriae help capture oocyte",
+      "Isthmus is the widest portion",
+      "Ciliated epithelium aids transport toward uterus",
+      "Uterine tube drains to superficial inguinal nodes"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Ampulla is the most common site of fertilization",
+      "Fimbriae help capture oocyte",
+      "Ciliated epithelium aids transport toward uterus"
+    ],
+    "rationale": "Ampulla is widest; lymph drainage follows gonadal pattern (para-aortic), not superficial inguinal.",
+    "topic": "which are true regarding the"
+  },
+  {
+    "id": "ANAT-0544",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which features are consistent with a vesicovaginal fistula? (Select all that apply.)",
+    "choices": [
+      "Continuous leakage of urine through vagina",
+      "History of pelvic surgery/radiation",
+      "Urine leakage that stops with coughing",
+      "Recurrent vaginal infections/irritation",
+      "Hematemesis"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Continuous leakage of urine through vagina",
+      "History of pelvic surgery/radiation",
+      "Recurrent vaginal infections/irritation"
+    ],
+    "rationale": "Bladder-vaginal communication causes continuous leakage and irritation; cough stress incontinence is different.",
+    "topic": "which features are consistent with"
+  },
+  {
+    "id": "ANAT-0545",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Which structures are directly involved in erection physiology in males? (Select all that apply.)",
+    "choices": [
+      "Parasympathetic fibers from S2–S4 via pelvic plexus",
+      "Cavernous nerves",
+      "Internal pudendal artery branches",
+      "Phrenic nerve",
+      "External carotid artery"
+    ],
+    "qtype": "sata",
+    "answer": [
+      "Parasympathetic fibers from S2–S4 via pelvic plexus",
+      "Cavernous nerves",
+      "Internal pudendal artery branches"
+    ],
+    "rationale": "Erection is parasympathetic (S2–S4) with cavernous nerves; arterial inflow via pudendal branches.",
+    "topic": "which structures are directly involved"
+  },
+  {
+    "id": "ANAT-0546",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Scenario: During total abdominal hysterectomy, brisk bleeding occurs near the cervix. The surgeon is preparing to ligate the uterine artery. Task: Choose the structure most at risk and the best immediate safety action.",
+    "qtype": "bowtie",
+    "bowtie": {
+      "left_label": "Diagnosis/Key Risk",
+      "left_options": [
+        "Ureter",
+        "Femoral nerve",
+        "Common iliac vein",
+        "Appendix"
+      ],
+      "middle_label": "Best Action/Assessment",
+      "middle_options": [
+        "Identify ureter course and ligate uterine artery close to uterus; avoid lateral clamp placement",
+        "Clamp widely lateral to cervix to capture all tissue quickly",
+        "Ignore ureter; it is far from uterine artery",
+        "Ligate ovarian vessels only"
+      ],
+      "right_label": "Outcome/Next",
+      "right_options": [
+        "N/A"
+      ]
+    },
+    "answer": {
+      "left": "Ureter",
+      "middle": "Identify ureter course and ligate uterine artery close to uterus; avoid lateral clamp placement",
+      "right": "N/A"
+    },
+    "rationale": "Ureter passes under uterine artery near cervix; safe ligation is close to uterus with ureter identification.",
+    "choices": [],
+    "topic": "scenario during total abdominal hysterectomy"
+  },
+  {
+    "id": "ANAT-0547",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Scenario: Post-delivery patient has severe perineal pain, loss of perineal sensation, and fecal incontinence. Task: Choose the most likely injured nerve and the best targeted assessment focus.",
+    "qtype": "bowtie",
+    "bowtie": {
+      "left_label": "Diagnosis/Key Risk",
+      "left_options": [
+        "Pudendal nerve",
+        "Femoral nerve",
+        "Obturator nerve",
+        "Phrenic nerve"
+      ],
+      "middle_label": "Best Action/Assessment",
+      "middle_options": [
+        "Assess anal wink/external anal sphincter tone and perineal sensation; escalate for obstetric evaluation",
+        "Assess dorsiflexion strength only",
+        "Assess shoulder abduction strength",
+        "Assess gag reflex only"
+      ],
+      "right_label": "Outcome/Next",
+      "right_options": [
+        "N/A"
+      ]
+    },
+    "answer": {
+      "left": "Pudendal nerve",
+      "middle": "Assess anal wink/external anal sphincter tone and perineal sensation; escalate for obstetric evaluation",
+      "right": "N/A"
+    },
+    "rationale": "Pudendal (S2–S4) supplies perineal sensation and external sphincters; deficits require prompt evaluation.",
+    "choices": [],
+    "topic": "scenario post delivery patient has"
+  },
+  {
+    "id": "ANAT-0548",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Scenario: Male patient presents with acute scrotal pain and high-riding testis. Task: Choose the diagnosis and the immediate nursing priority action.",
+    "qtype": "bowtie",
+    "bowtie": {
+      "left_label": "Diagnosis/Key Risk",
+      "left_options": [
+        "Testicular torsion",
+        "Epididymitis",
+        "Inguinal hernia strangulation",
+        "Hydrocele"
+      ],
+      "middle_label": "Best Action/Assessment",
+      "middle_options": [
+        "Immediate escalation for emergent urologic evaluation; keep NPO and prepare for rapid intervention",
+        "Apply heat and schedule outpatient follow-up",
+        "Provide scrotal support only and discharge",
+        "Delay evaluation until ultrasound next day"
+      ],
+      "right_label": "Outcome/Next",
+      "right_options": [
+        "N/A"
+      ]
+    },
+    "answer": {
+      "left": "Testicular torsion",
+      "middle": "Immediate escalation for emergent urologic evaluation; keep NPO and prepare for rapid intervention",
+      "right": "N/A"
+    },
+    "rationale": "Torsion compromises testicular blood flow; time-sensitive emergency requiring immediate escalation.",
+    "choices": [],
+    "topic": "scenario male patient presents with"
+  },
+  {
+    "id": "ANAT-0549",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Scenario: Patient has continuous watery leakage from the vagina after pelvic surgery. Task: Choose the most likely fistula and the best confirming bedside clue.",
+    "qtype": "bowtie",
+    "bowtie": {
+      "left_label": "Diagnosis/Key Risk",
+      "left_options": [
+        "Vesicovaginal fistula",
+        "Rectovaginal fistula",
+        "Ureterovaginal fistula",
+        "Cervicovaginal fistula"
+      ],
+      "middle_label": "Best Action/Assessment",
+      "middle_options": [
+        "Leakage increases with bladder filling and may show urine odor; dye test may demonstrate bladder-to-vagina communication",
+        "Passage of stool through vagina is the hallmark",
+        "Pain only during menses is the hallmark",
+        "Bleeding from nose confirms diagnosis"
+      ],
+      "right_label": "Outcome/Next",
+      "right_options": [
+        "N/A"
+      ]
+    },
+    "answer": {
+      "left": "Vesicovaginal fistula",
+      "middle": "Leakage increases with bladder filling and may show urine odor; dye test may demonstrate bladder-to-vagina communication",
+      "right": "N/A"
+    },
+    "rationale": "Bladder-vagina communication causes continuous urine leakage; dye testing can help localize.",
+    "choices": [],
+    "topic": "scenario patient has continuous watery"
+  },
+  {
+    "id": "ANAT-0550",
+    "bank": "Anatomy",
+    "system": "Reproductive",
+    "stem": "Scenario: During pelvic surgery, the surgeon must avoid the obturator nerve. Task: Choose the nerve injury deficit and the best focused assessment.",
+    "qtype": "bowtie",
+    "bowtie": {
+      "left_label": "Diagnosis/Key Risk",
+      "left_options": [
+        "Loss of thigh adduction strength and medial thigh sensation",
+        "Loss of knee extension and patellar reflex",
+        "Foot drop with lateral leg numbness",
+        "Loss of shoulder abduction"
+      ],
+      "middle_label": "Best Action/Assessment",
+      "middle_options": [
+        "Assess ability to adduct thigh against resistance and check medial thigh sensation",
+        "Assess patellar reflex only",
+        "Assess wrist extension",
+        "Assess facial symmetry"
+      ],
+      "right_label": "Outcome/Next",
+      "right_options": [
+        "N/A"
+      ]
+    },
+    "answer": {
+      "left": "Loss of thigh adduction strength and medial thigh sensation",
+      "middle": "Assess ability to adduct thigh against resistance and check medial thigh sensation",
+      "right": "N/A"
+    },
+    "rationale": "Obturator nerve supplies adductors and medial thigh sensation; injury causes adduction weakness and sensory loss.",
+    "choices": [],
+    "topic": "scenario during pelvic surgery the"
   }
 ]
