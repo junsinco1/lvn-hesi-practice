@@ -207,6 +207,45 @@ async function fetchJson(url){
   return await res.json();
 }
 
+
+// ---------- Answer/choice normalization helpers ----------
+function normLetter(x){
+  if(x==null) return "";
+  const s = String(x).trim().toUpperCase();
+  const m = s.match(/[A-E]/);
+  return m ? m[0] : "";
+}
+// Detect "A. text" / "A) text" etc at start
+function leadingChoiceKey(x){
+  if(x==null) return "";
+  const s = String(x).trim().toUpperCase();
+  const m = s.match(/^([A-E])\s*[\).\:\-]\s+/);
+  return m ? m[1] : "";
+}
+function isLetterToken(x){
+  const n = normLetter(x);
+  return n && String(x).trim().toUpperCase() === n;
+}
+function toChoiceArray(choices){
+  // Accept either array of strings or object {A:"..",B:".."}.
+  if(Array.isArray(choices)) return choices;
+  if(choices && typeof choices === "object"){
+    const keys = ["A","B","C","D","E"].filter(k => choices[k]!=null && String(choices[k]).trim()!=="");
+    return keys.map(k => `${k}. ${String(choices[k])}`);
+  }
+  return [];
+}
+function findChoiceTextByKey(q, key){
+  if(!key) return null;
+  const arr = Array.isArray(q.choices) ? q.choices : [];
+  const target = String(key).toUpperCase();
+  for(const c of arr){
+    const k = leadingChoiceKey(c) || (isLetterToken(c) ? c.toUpperCase() : "");
+    if(k === target) return c;
+  }
+  return null;
+}
+
 function normalizeQuestion(q, bankName){
   const nq = {...q};
   nq.bank = nq.bank || bankName || "Unknown";
@@ -214,8 +253,26 @@ function normalizeQuestion(q, bankName){
   nq.topic = nq.topic || "ANY";
   nq.qtype = nq.qtype || (Array.isArray(nq.answer) ? "sata" : "single");
   if(nq.qtype === "standard") nq.qtype = "single";
-  nq.difficulty = 5; // forced extremely hard (single difficulty)
-  if((nq.qtype==="single" || nq.qtype==="sata") && !Array.isArray(nq.choices)) nq.choices = [];
+  nq.difficulty = Number.isFinite(+nq.difficulty) ? +nq.difficulty : 3;
+
+  // Normalize choices: allow either ["A. ...", ...] or {A:"...",B:"..."}.
+  if(nq.qtype==="single" || nq.qtype==="sata"){
+    nq.choices = toChoiceArray(nq.choices);
+  }
+
+  // Normalize answers:
+  // - If bank stores "E." or "Answer: E", keep only the letter when it looks like a letter key.
+  if(nq.qtype==="single" && typeof nq.answer === "string"){
+    const a = normLetter(nq.answer);
+    if(a && String(nq.answer).trim().length <= 12) nq.answer = a;
+  }
+  if(nq.qtype==="sata" && Array.isArray(nq.answer)){
+    const looksLikeLetters = nq.answer.every(x => normLetter(x));
+    if(looksLikeLetters){
+      nq.answer = nq.answer.map(x => normLetter(x));
+    }
+  }
+
   if(!nq.choice_rationales || typeof nq.choice_rationales !== "object") nq.choice_rationales = {};
   // normalize case tabs
   if(nq.case && !nq.case.tabs && nq.tabs) nq.case = {tabs:nq.tabs};
@@ -504,22 +561,44 @@ function getSelected(q){
 }
 
 function isCorrect(q, sel){
+  if(!q) return false;
+
   if(q.qtype === "single"){
-    return sel && q.answer && sel === q.answer;
+    if(sel==null || q.answer==null) return false;
+    // If answer is stored as a letter key (A-E), compare by key.
+    const aKey = isLetterToken(q.answer) ? q.answer : normLetter(q.answer);
+    if(aKey && String(q.answer).trim().length <= 2){
+      return normLetter(sel) === aKey;
+    }
+    // Otherwise compare full string.
+    return String(sel) === String(q.answer);
   }
+
   if(q.qtype === "sata"){
     if(!Array.isArray(sel) || !Array.isArray(q.answer)) return false;
-    const a = new Set(q.answer);
-    const s = new Set(sel);
+    // If answer looks like letters, compare by letter keys.
+    const ansLooksLikeLetters = q.answer.every(x => String(x).trim().length<=2 && normLetter(x));
+    if(ansLooksLikeLetters){
+      const a = new Set(q.answer.map(x=>normLetter(x)));
+      const s = new Set(sel.map(x=>normLetter(x)));
+      if(a.size !== s.size) return false;
+      for(const x of a) if(!s.has(x)) return false;
+      return true;
+    }
+    // Else compare full strings.
+    const a = new Set(q.answer.map(String));
+    const s = new Set(sel.map(String));
     if(a.size !== s.size) return false;
     for(const x of a) if(!s.has(x)) return false;
     return true;
   }
+
   if(q.qtype === "bowtie"){
     if(!sel || typeof sel !== "object") return false;
     const ans = q.answer || {};
     return sel.left === ans.left && sel.middle === ans.middle && sel.right === ans.right;
   }
+
   return false;
 }
 
@@ -529,20 +608,25 @@ function lockAndMarkChoices(q, sel){
   if(!q) return;
 
   if(q.qtype === "single" || q.qtype === "sata"){
-    const correctSet = new Set(Array.isArray(q.answer) ? q.answer : [q.answer]);
+    const ansArr = Array.isArray(q.answer) ? q.answer : [q.answer];
+    const ansLooksLikeLetters = ansArr.every(x => String(x??"").trim().length<=2 && normLetter(x));
+    const correctSet = new Set(ansLooksLikeLetters ? ansArr.map(x=>normLetter(x)) : ansArr.map(x=>String(x)));
+
     const labels = Array.from(el.qChoices.querySelectorAll("label.choice"));
     for(const lab of labels){
       const inp = lab.querySelector("input");
       if(!inp) continue;
       const val = inp.value;
+
       const selected = Array.isArray(sel) ? sel.includes(val) : (sel === val);
-      const isCorrectChoice = correctSet.has(val);
+
+      const choiceKey = normLetter(val); // works for "A. ..." too
+      const isCorrectChoice = ansLooksLikeLetters ? correctSet.has(choiceKey) : correctSet.has(String(val));
 
       lab.classList.toggle("selected", !!selected);
       lab.classList.toggle("correct", !!isCorrectChoice);
       lab.classList.toggle("wrong", !!selected && !isCorrectChoice);
       lab.classList.add("disabled");
-
       inp.disabled = true;
     }
   }
@@ -571,8 +655,12 @@ function lockAndMarkChoices(q, sel){
 }
 
 function sataScore(q, sel){
-  const correct = new Set(q.answer || []);
-  const picked = new Set(sel || []);
+  const ansArr = q.answer || [];
+  const ansLooksLikeLetters = ansArr.every(x => String(x??"").trim().length<=2 && normLetter(x));
+  const correct = new Set(ansLooksLikeLetters ? ansArr.map(x=>normLetter(x)) : ansArr.map(String));
+  const pickedArr = sel || [];
+  const picked = new Set(ansLooksLikeLetters ? pickedArr.map(x=>normLetter(x)) : pickedArr.map(String));
+
   let hit = 0;
   for(const c of correct) if(picked.has(c)) hit++;
   const falsePos = Array.from(picked).filter(x=>!correct.has(x)).length;
@@ -580,16 +668,40 @@ function sataScore(q, sel){
 }
 
 function prettyCorrect(q){
+  if(!q) return "—";
+
   if(q.qtype === "single"){
-    return q.answer ? String(q.answer) : "—";
+    if(!q.answer) return "—";
+    const a = String(q.answer).trim().toUpperCase();
+    if(a.length<=2 && normLetter(a)){
+      const ct = findChoiceTextByKey(q, a);
+      return ct ? ct : a;
+    }
+    return String(q.answer);
   }
+
   if(q.qtype === "sata"){
-    return (q.answer || []).map(a=>`• ${a}`).join("\n") || "—";
+    const ans = q.answer || [];
+    if(!ans.length) return "—";
+    const looksLikeLetters = ans.every(x => String(x).trim().length<=2 && normLetter(x));
+    if(looksLikeLetters){
+      return ans.map(k=>{
+        const ct = findChoiceTextByKey(q, k);
+        return `• ${ct ? ct : k}`;
+      }).join("
+");
+    }
+    return ans.map(a=>`• ${a}`).join("
+");
   }
+
   if(q.qtype === "bowtie"){
     const a = q.answer || {};
-    return `Left: ${a.left ?? "—"}\nMiddle: ${a.middle ?? "—"}\nRight: ${a.right ?? "—"}`;
+    return `Left: ${a.left ?? "—"}
+Middle: ${a.middle ?? "—"}
+Right: ${a.right ?? "—"}`;
   }
+
   return "—";
 }
 
