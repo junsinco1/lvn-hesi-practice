@@ -258,6 +258,8 @@ function setSystemAndTopicOptions(bankName){
   const uniq = [...new Set(base)];
   el.topicSel.innerHTML = uniq.map(t=>`<option value="${t}">${t}</option>`).join("");
 
+}
+
 function refreshDynamicTopics(bankName){
   // For banks with topics=["ANY"] (like Anatomy), derive topics from loaded question data.
   // Also supports narrowing topics by selected Body System.
@@ -280,7 +282,6 @@ function refreshDynamicTopics(bankName){
   el.topicSel.innerHTML = list.map(t=>`<option value="${t}">${t}</option>`).join("");
   // Keep current selection if still present
   if(!list.includes(el.topicSel.value)) el.topicSel.value = "ANY";
-}
 }
 
 async function loadBank(bankName){
@@ -862,6 +863,16 @@ function initDropdownBehavior(){
     // show a question
     const q = pickNext();
     if(q) render(q);
+  });
+
+  el.systemSel.addEventListener("change", ()=>{
+    // If topics are dynamic, rebuild list when system changes
+    try{ refreshDynamicTopics(el.bankSel.value); }catch(e){}
+    // Refresh question counts/UI
+    setStatusCounts();
+  });
+  el.topicSel.addEventListener("change", ()=>{
+    setStatusCounts();
   });
   // when filters change, just pick a new question
   for(const s of [el.systemSel, el.topicSel, el.typeSel]){
