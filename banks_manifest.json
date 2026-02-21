@@ -144,6 +144,17 @@
         "Ventilator/Trach/Chest Tubes"
       ],
       "count": 925
+    },
+    {
+      "name": "CompassB",
+      "file": "banks/compass_b.json",
+      "systems": [
+        "ANY"
+      ],
+      "topics": [
+        "ANY"
+      ],
+      "count": 1160
     }
   ]
 }
