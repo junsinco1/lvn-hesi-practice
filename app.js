@@ -258,35 +258,29 @@ function setSystemAndTopicOptions(bankName){
   const uniq = [...new Set(base)];
   el.topicSel.innerHTML = uniq.map(t=>`<option value="${t}">${t}</option>`).join("");
 
-}
-
 function refreshDynamicTopics(bankName){
-  const meta = manifest?.banks?.find(b=>b.name===bankName);
+  // For banks with topics=["ANY"] (like Anatomy), derive topics from loaded question data.
+  // Also supports narrowing topics by selected Body System.
+  const meta = manifest.banks.find(b=>b.name===bankName);
   const wantsDynamic = (meta?.topics || ["ANY"]).length === 1 && (meta?.topics || ["ANY"])[0] === "ANY";
   if(!wantsDynamic) return;
 
   const sys = el.systemSel.value || "ANY";
+  const pool = buildEligiblePool(); // already respects current filters except topic; we temporarily ignore topic
   const topics = new Set(["ANY"]);
-
-  // Use loaded items to derive topics (works even if clusters/singles not built yet)
-  const src = Array.isArray(items) ? items : [];
-  for(const q of src){
-    if(sys !== "ANY" && (q.system||"ANY") !== sys) continue;
+  // collect topics from singles/clusters directly to avoid topic filter restriction
+  const collect = (q)=>{
+    if(sys !== "ANY" && (q.system||"ANY") !== sys) return;
     if(q.topic) topics.add(q.topic);
-  }
+  };
+  for(const q of singles) collect(q);
+  for(const cl of clusters) for(const q of cl) collect(q);
 
-  const list = [...topics].sort((a,b)=>{
-    if(a==="ANY") return -1;
-    if(b==="ANY") return 1;
-    return a.localeCompare(b);
-  });
-
-  el.topicSel.innerHTML = list.map(t=>{
-    const safe = String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-    return `<option value="${safe}">${safe}</option>`;
-  }).join("");
-
+  const list = [...topics];
+  el.topicSel.innerHTML = list.map(t=>`<option value="${t}">${t}</option>`).join("");
+  // Keep current selection if still present
   if(!list.includes(el.topicSel.value)) el.topicSel.value = "ANY";
+}
 }
 
 async function loadBank(bankName){
@@ -846,7 +840,6 @@ async function reloadAll(){
     const bankName = el.bankSel.value || manifest.banks[0].name;
     setSystemAndTopicOptions(bankName);
     await loadBank(bankName);
-    refreshDynamicTopics(bankName);
     el.loadStatus.textContent = "Loaded";
     updateBadges();
     updateReadinessGauge();
@@ -869,16 +862,6 @@ function initDropdownBehavior(){
     // show a question
     const q = pickNext();
     if(q) render(q);
-  });
-
-  el.systemSel.addEventListener("change", ()=>{
-    // If topics are dynamic, rebuild list when system changes
-    try{ refreshDynamicTopics(el.bankSel.value); }catch(e){}
-    // Refresh question counts/UI
-    setStatusCounts();
-  });
-  el.topicSel.addEventListener("change", ()=>{
-    setStatusCounts();
   });
   // when filters change, just pick a new question
   for(const s of [el.systemSel, el.topicSel, el.typeSel]){
