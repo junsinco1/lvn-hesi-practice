@@ -734,6 +734,35 @@ function getDeepDiveText(q){
 
 
 
+function buildSearchQuery(q){
+  const bank = String(q.bank||"").trim();
+  const sys = String(q.system||"").trim();
+  const topic = String(q.topic||"").trim();
+  const stem = String(q.stem||"").replace(/\[[^\]]+\]\s*/,"").trim();
+
+  // Build an answer string that works for single / SATA / bowtie
+  let ans = "";
+  if(typeof q.answer === "string") ans = q.answer;
+  else if(Array.isArray(q.answer)) ans = q.answer.join(", ");
+  else if(q.answer && typeof q.answer === "object"){
+    ans = Object.values(q.answer).join(" | ");
+  }
+
+  // Keep it short (Google works better with concise phrases)
+  const parts = [];
+  if(bank) parts.push(bank);
+  if(sys && sys !== "ANY") parts.push(sys);
+  if(topic && topic !== "ANY") parts.push(topic);
+  if(ans) parts.push(ans);
+  // Add a couple of key words from the stem (first ~10 words)
+  if(stem){
+    parts.push(stem.split(/\s+/).slice(0,10).join(" "));
+  }
+  // Nursing signal words to bias results
+  parts.push("nursing rationale");
+  return parts.join(" ");
+}
+
 function getNursingLinks(q){
   // Nursing-focused, publicly accessible resources.
   // We pick links based on bank first (when helpful), then topic/system.
@@ -743,6 +772,14 @@ function getNursingLinks(q){
 
   const links = [];
   const add = (label, url) => { if(url) links.push({label, url}); };
+
+// Always add a targeted search link (you pick the best result from Google)
+const qstr = buildSearchQuery(q);
+add("Google: topic + answer", "https://www.google.com/search?q=" + encodeURIComponent(qstr));
+// Nursing-skewed searches
+add("Google: nursing (OpenRN)", "https://www.google.com/search?q=" + encodeURIComponent(qstr + " site:openrn.org"));
+add("Google: nursing (NCBI Bookshelf)", "https://www.google.com/search?q=" + encodeURIComponent(qstr + " site:ncbi.nlm.nih.gov/books"));
+
 
   // --- Bank-specific prioritization ---
   if(bank.includes("compass") || bank.includes("medsurg") || bank.includes("labs")){
