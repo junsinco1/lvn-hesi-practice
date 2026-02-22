@@ -146,15 +146,34 @@
       "count": 925
     },
     {
-      "name": "CompassB",
-      "file": "banks/compass_b.json",
+      "name": "NursingMath",
+      "file": "banks/nursing_math.json",
       "systems": [
-        "ANY"
+        "Math"
       ],
       "topics": [
-        "ANY"
+        "Dimensional Analysis",
+        "Dose by Weight",
+        "Electrolyte Infusions & Safety",
+        "Gravity Drip gtt/min",
+        "Heparin/Insulin Units",
+        "IV Pump mL/hr",
+        "IV Push from Multi-dose Vial",
+        "IVPB / Time Conversions",
+        "Insulin/Heparin Complex",
+        "Multi-step Drip Setups",
+        "Pediatrics",
+        "Peds (Weight + Concentration + Max)",
+        "Percentage & Ratio Solutions",
+        "Reconstitution",
+        "Reconstitution + Total Volume",
+        "Titrations (mcg/kg/min)",
+        "Tricky Rounding & Time",
+        "Unit Conversions (mcg↔mg↔g)",
+        "Vasoactive Titrations",
+        "mEq Calculations"
       ],
-      "count": 1210
+      "count": 500
     }
   ]
 }
