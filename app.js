@@ -43,6 +43,7 @@ const el = {
   qChoices: $("#qChoices"),
   bowtieArea: $("#bowtieArea"),
   submitBtn: $("#submitBtn"),
+  nextQBtn: $("#nextQBtn"),
   showAnswerBtn: $("#showAnswerBtn"),
   initialsInp: $("#initialsInp"),
   openLbBtn: $("#openLbBtn"),
@@ -112,6 +113,7 @@ let mode = "practice";
 let examQueue = [];
 let examIndex = 0;
 let current = null;
+let feedbackShown = false;
 
 // scoring + gamification
 let scoreCorrect = 0;
@@ -467,7 +469,10 @@ function updateQuestionCounter(){
 
 function render(q){
   clearQuestionUI();
+  if(el.nextQBtn) el.nextQBtn.disabled = true;
   current = q;
+  feedbackShown = false;
+  if(el.nextQBtn) el.nextQBtn.disabled = true;
 
   // Header chips
   if(el.qBankChip) el.qBankChip.textContent = (el.bankSel?.value || "—");
@@ -594,6 +599,7 @@ function prettyCorrect(q){
 }
 
 function showFeedback(q, sel){
+  feedbackShown = true;
   const correct = isCorrect(q, sel);
 
   // scoring
@@ -661,8 +667,6 @@ function showFeedback(q, sel){
   }
 
   // Always provide at least one internal deep-dive link so this works for all banks
-  const anchor = makeLearnAnchor(q);
-  links.push({label: "Learn more", url: `learn.html#${anchor}`});
 
   const uniqueLinks = [];
   const seen = new Set();
@@ -688,6 +692,7 @@ function showFeedback(q, sel){
   }
 
   el.answerArea.innerHTML = html;
+  if(el.nextQBtn) el.nextQBtn.disabled = false;
 
   stopTimer();
 }
@@ -764,106 +769,12 @@ function buildSearchQuery(q){
 }
 
 function getNursingLinks(q){
-  // Nursing-focused, publicly accessible resources.
-  // We pick links based on bank first (when helpful), then topic/system.
-  const t = String(q.topic||"").toLowerCase();
-  const sys = String(q.system||"").toLowerCase();
-  const bank = String(q.bank||"").toLowerCase();
-
   const links = [];
   const add = (label, url) => { if(url) links.push({label, url}); };
 
-// Always add a targeted search link (you pick the best result from Google)
-const qstr = buildSearchQuery(q);
-add("Google: topic + answer", "https://www.google.com/search?q=" + encodeURIComponent(qstr));
-// Nursing-skewed searches
-add("Google: nursing (OpenRN)", "https://www.google.com/search?q=" + encodeURIComponent(qstr + " site:openrn.org"));
-add("Google: nursing (NCBI Bookshelf)", "https://www.google.com/search?q=" + encodeURIComponent(qstr + " site:ncbi.nlm.nih.gov/books"));
+  const qstr = buildSearchQuery(q);
+  add("Google: topic + answer", "https://www.google.com/search?q=" + encodeURIComponent(qstr));
 
-
-  // --- Bank-specific prioritization ---
-  if(bank.includes("compass") || bank.includes("medsurg") || bank.includes("labs")){
-    // Broad clinical decision + safety references
-    add("OpenRN: Nursing Fundamentals (index)", "https://openrn.org/books/nursing-fundamentals/");
-    add("OpenRN: Nursing Skills (index)", "https://openrn.org/books/nursing-skills/");
-    add("NCBI Bookshelf: Clinical nursing topics", "https://www.ncbi.nlm.nih.gov/books/?term=nursing+clinical");
-  }
-
-  if(bank.includes("anatomy") || bank.includes("physiology")){
-    add("OpenStax A&P (free text)", "https://openstax.org/details/books/anatomy-and-physiology");
-    add("NCBI Bookshelf: Physiology topics", "https://www.ncbi.nlm.nih.gov/books/?term=physiology");
-  }
-
-  if(bank.includes("nursingmath") || sys === "math" || bank.includes("math")){
-    add("OpenRN: Dosage Calculations", "https://openrn.org/books/nursing-skills/chapter/18-4-dosage-calculations/");
-    add("OpenRN: Medication Administration", "https://openrn.org/books/nursing-skills/chapter/18-2-medication-administration/");
-    add("NCBI Bookshelf: Dosage calculation search", "https://www.ncbi.nlm.nih.gov/books/?term=dosage%20calculation%20nursing");
-    return links;
-  }
-
-  // --- Topic/system-based matching (adds to bank defaults above) ---
-
-  // Medication safety & pharmacology
-  if(t.includes("med") || t.includes("pharm") || t.includes("parenteral") || t.includes("errors") || t.includes("administration")){
-    add("ISMP: High-Alert Medications", "https://www.ismp.org/recommendations/high-alert-medications-acute-list");
-    add("OpenRN: Rights of Medication Administration", "https://openrn.org/books/nursing-skills/chapter/18-2-medication-administration/");
-  }
-
-  // Infection control
-  if(t.includes("infection") || t.includes("infect") || t.includes("isolation") || t.includes("c. diff") || t.includes("tb") || t.includes("asepsis")){
-    add("CDC: Isolation Precautions", "https://www.cdc.gov/infectioncontrol/guidelines/isolation/index.html");
-    add("OpenRN: Asepsis", "https://openrn.org/books/nursing-fundamentals/chapter/6-4-asepsis/");
-    add("CDC: Injection Safety", "https://www.cdc.gov/injection-safety/index.html");
-  }
-
-  // Respiratory/oxygenation/ABG
-  if(t.includes("resp") || t.includes("oxygen") || t.includes("asthma") || t.includes("copd") || t.includes("pneumo") || t.includes("abg")){
-    add("OpenRN: Oxygenation", "https://openrn.org/books/nursing-fundamentals/chapter/15-3-oxygenation/");
-    add("NCBI Bookshelf: ABG interpretation search", "https://www.ncbi.nlm.nih.gov/books/?term=arterial%20blood%20gas%20interpretation");
-  }
-
-  // Perfusion/cardiac/shock
-  if(t.includes("perf") || t.includes("perfusion") || t.includes("heart") || t.includes("hf") || t.includes("acs") || t.includes("shock") || t.includes("ecg")){
-    add("OpenRN: Perfusion", "https://openrn.org/books/nursing-fundamentals/chapter/15-4-perfusion/");
-    add("AHA: CPR & ECC Guidelines (overview)", "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines");
-  }
-
-  // Neuro/ICP/stroke/seizure
-  if(t.includes("neuro") || t.includes("icp") || t.includes("intracranial") || t.includes("stroke") || t.includes("seizure")){
-    add("CDC: Stroke Signs (FAST)", "https://www.cdc.gov/stroke/signs_symptoms.htm");
-    add("OpenRN: Neurological (search)", "https://openrn.org/?s=neurological");
-  }
-
-  // OB/maternity
-  if(t.includes("intrapartum") || t.includes("postpartum") || t.includes("preg") || t.includes("labor") || t.includes("ob")){
-    add("ACOG Patient Education (overview)", "https://www.acog.org/womens-health");
-    add("OpenRN: Reproductive system (overview)", "https://openrn.org/books/nursing-fundamentals/chapter/26-2-reproductive-system/");
-  }
-
-  // Pediatrics
-  if(t.includes("peds") || t.includes("pediatric") || t.includes("growth") || t.includes("devlp") || t.includes("child")){
-    add("CDC: Child Development", "https://www.cdc.gov/ncbddd/childdevelopment/index.html");
-    add("OpenRN: Growth & Development (search)", "https://openrn.org/?s=growth+and+development");
-  }
-
-  // Mental health / psychosocial / violence
-  if(t.includes("psych") || t.includes("psychosis") || t.includes("coping") || t.includes("stress") || t.includes("violence") || t.includes("anxty")){
-    add("OpenRN: Therapeutic communication (search)", "https://openrn.org/?s=therapeutic+communication");
-    add("SAMHSA: Mental Health", "https://www.samhsa.gov/mental-health");
-  }
-
-  // Ethics/legal/advocacy
-  if(t.includes("ethic") || t.includes("legal") || t.includes("advocacy") || t.includes("hipaa") || t.includes("consent")){
-    add("HHS: HIPAA Privacy", "https://www.hhs.gov/hipaa/index.html");
-    add("ANA: Code of Ethics (overview)", "https://www.nursingworld.org/practice-policy/nursing-excellence/ethics/");
-  }
-
-  // If still empty, give solid nursing defaults.
-  if(links.length === 0){
-    add("OpenRN: Nursing Fundamentals (index)", "https://openrn.org/books/nursing-fundamentals/");
-    add("OpenRN: Nursing Skills (index)", "https://openrn.org/books/nursing-skills/");
-    add("NCBI Bookshelf: Nursing topics search", "https://www.ncbi.nlm.nih.gov/books/?term=nursing");
-  }
   return links;
 }
 
@@ -1047,6 +958,7 @@ function reset(){
   updateBadges();
   updateReadinessGauge();
   clearQuestionUI();
+  if(el.nextQBtn) el.nextQBtn.disabled = true;
   el.loadStatus.textContent = "Ready";
   stopTimer();
 }
@@ -1277,6 +1189,22 @@ function bindButtons(){
     const sel = getSelected(current);
     showFeedback(current, sel);
   });
+
+  // Next question button: auto-submit if not yet submitted (and selection exists), then advance
+  el.nextQBtn.addEventListener("click", ()=> {
+    if(!current) return;
+    if(!feedbackShown){
+      const sel = getSelected(current);
+      // require a selection before advancing
+      const hasSelection = (Array.isArray(sel) ? sel.length>0 : !!sel);
+      if(!hasSelection){
+        el.loadStatus.textContent = "Select an answer first";
+        return;
+      }
+      showFeedback(current, sel);
+    }
+    next();
+  });
   el.showAnswerBtn.addEventListener("click", ()=>{
     if(!current) return;
     const sel = getSelected(current);
@@ -1303,3 +1231,5 @@ window.addEventListener("DOMContentLoaded", async ()=>{
   renderLb();
   await reloadAll();
 });
+
+
