@@ -646,6 +646,9 @@ function showFeedback(q, sel){
 
   // Learn more (optional deep dive + links)
   const links = [];
+  // Nursing-specific reference links by topic
+  for(const l of getNursingLinks(q)) { links.push(l); }
+
   if(q.rationale_link && typeof q.rationale_link === "string"){
     links.push({label: "Learn more", url: q.rationale_link});
   }
@@ -727,6 +730,89 @@ function getDeepDiveText(q){
 
   // General nursing decision-making
   return "For clinical questions: prioritize ABCs, recognize high-risk cues (hypoxia, hypotension, acute LOC change), and follow facility protocols (sepsis, stroke, chest pain) while documenting objectively.";
+}
+
+
+
+function getNursingLinks(q){
+  // Nursing-specific, publicly accessible resources. If a topic match fails, return general nursing references.
+  const t = String(q.topic||"").toLowerCase();
+  const sys = String(q.system||"").toLowerCase();
+  const bank = String(q.bank||"").toLowerCase();
+
+  const links = [];
+
+  // Helper to push unique links
+  const add = (label, url) => {
+    if(!url) return;
+    links.push({label, url});
+  };
+
+  // Nursing math
+  if(sys === "math" || bank.includes("math")){
+    add("OpenRN: Dosage Calculations", "https://openrn.org/books/nursing-skills/chapter/18-4-dosage-calculations/");
+    add("OpenRN: Medication Administration", "https://openrn.org/books/nursing-skills/chapter/18-2-medication-administration/");
+    add("NCBI Bookshelf: Dosage Calculations (search)", "https://www.ncbi.nlm.nih.gov/books/?term=dosage%20calculation%20nursing");
+    return links;
+  }
+
+  // Core safety & meds
+  if(t.includes("safety") || t.includes("med") || t.includes("pharm") || t.includes("medication") || t.includes("errors")){
+    add("OpenRN: Rights of Medication Administration", "https://openrn.org/books/nursing-skills/chapter/18-2-medication-administration/");
+    add("ISMP: High-Alert Medications", "https://www.ismp.org/recommendations/high-alert-medications-acute-list");
+    add("CDC: Injection Safety", "https://www.cdc.gov/injection-safety/index.html");
+  }
+
+  // Infection control
+  if(t.includes("infection") || t.includes("infect") || t.includes("isolation") || t.includes("c. diff") || t.includes("tb")){
+    add("CDC: Isolation Precautions", "https://www.cdc.gov/infectioncontrol/guidelines/isolation/index.html");
+    add("CDC: C. difficile", "https://www.cdc.gov/cdiff/index.html");
+    add("OpenRN: Asepsis", "https://openrn.org/books/nursing-fundamentals/chapter/6-4-asepsis/");
+  }
+
+  // Respiratory
+  if(t.includes("resp") || t.includes("oxygen") || t.includes("asthma") || t.includes("copd") || t.includes("pneumo")){
+    add("OpenRN: Oxygenation", "https://openrn.org/books/nursing-fundamentals/chapter/15-3-oxygenation/");
+    add("NCBI Bookshelf: ABG interpretation (search)", "https://www.ncbi.nlm.nih.gov/books/?term=arterial%20blood%20gas%20interpretation");
+  }
+
+  // Cardiac/perfusion
+  if(t.includes("perf") || t.includes("perfusion") || t.includes("heart") || t.includes("hf") || t.includes("acs") || t.includes("shock")){
+    add("OpenRN: Perfusion", "https://openrn.org/books/nursing-fundamentals/chapter/15-4-perfusion/");
+    add("AHA: CPR & ECC Guidelines (overview)", "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines");
+  }
+
+  // OB
+  if(t.includes("intrapartum") || t.includes("postpartum") || t.includes("preg") || t.includes("labor")){
+    add("OpenRN: Reproductive System (overview)", "https://openrn.org/books/nursing-fundamentals/chapter/26-2-reproductive-system/");
+    add("ACOG Patient Education (overview)", "https://www.acog.org/womens-health");
+  }
+
+  // Pediatrics
+  if(t.includes("peds") || t.includes("pediatric") || t.includes("growth") || t.includes("devlp") || t.includes("child")){
+    add("OpenRN: Growth & Development (search)", "https://openrn.org/?s=growth+and+development");
+    add("CDC: Child Development", "https://www.cdc.gov/ncbddd/childdevelopment/index.html");
+  }
+
+  // Neuro
+  if(t.includes("neuro") || t.includes("icp") || t.includes("stroke") || t.includes("seizure")){
+    add("OpenRN: Neurological Assessment (search)", "https://openrn.org/?s=neurological");
+    add("CDC: Stroke Signs (FAST)", "https://www.cdc.gov/stroke/signs_symptoms.htm");
+  }
+
+  // Mental health / psychosocial
+  if(t.includes("psych") || t.includes("psychosis") || t.includes("coping") || t.includes("stress") || t.includes("violence")){
+    add("OpenRN: Therapeutic Communication (search)", "https://openrn.org/?s=therapeutic+communication");
+    add("SAMHSA: Mental Health", "https://www.samhsa.gov/mental-health");
+  }
+
+  // Default nursing references
+  if(links.length === 0){
+    add("OpenRN: Nursing Fundamentals (index)", "https://openrn.org/books/nursing-fundamentals/");
+    add("OpenRN: Nursing Skills (index)", "https://openrn.org/books/nursing-skills/");
+    add("NCBI Bookshelf: Nursing topics (search)", "https://www.ncbi.nlm.nih.gov/books/?term=nursing");
+  }
+  return links;
 }
 
 
