@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Nurse Review WebApp</title>
-  <link rel="stylesheet" href="styles.css?v=20260221-3"/>
+  <link rel="stylesheet" href="styles.css?v=20260221-4"/>
 </head>
 <body>
   <header class="topbar">
@@ -125,8 +125,16 @@
       </div>
 
       <div class="card">
-        <div class="cardTitle">Answer & Rationale</div>
-        <div id="answerArea" class="muted">Select an answer to see feedback.</div>
+        <div class="cardTitle">Leaderboard</div>
+        <div class="row">
+          <label class="field" style="min-width:160px">
+            <span>Initials</span>
+            <input id="initialsInp" maxlength="3" placeholder="ABC" />
+          </label>
+          <button class="btn" id="openLbBtn">Open</button>
+          <button class="btn danger" id="clearLbBtn">Clear</button>
+        </div>
+        <div id="lbArea" class="lbArea muted">Finish an exam to post a score.</div>
       </div>
     </aside>
 
@@ -175,7 +183,7 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260221-3"></script>
+  <script src="app.js?v=20260221-4"></script>
 
   <div id="validatorModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="validatorTitle">
     <div class="modalCard">
