@@ -214,3 +214,7 @@ select:focus,input:focus{border-color:color-mix(in srgb, var(--accent) 70%, var(
   .qTop{flex-direction:column;align-items:flex-start;}
   .qStats{justify-content:flex-start;}
 }
+
+
+.pillLink{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.16);text-decoration:none;color:inherit;font-weight:700;font-size:12px;background:rgba(255,255,255,.04)}
+.pillLink:hover{background:rgba(255,255,255,.08)}
