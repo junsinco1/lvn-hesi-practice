@@ -152,21 +152,21 @@
         "Insurance"
       ],
       "topics": [
-        "Licensing & Regulation (CA)",
-        "Ethics & Insurance Fraud",
-        "Insurance Concepts & Terms",
-        "Contract Law & Policy Structure",
-        "Life Insurance Policy Provisions",
-        "Types of Life Insurance (Term/Perm)",
-        "Life Riders & Endorsements",
-        "Beneficiaries, Ownership, Assignments",
-        "Premiums, Underwriting, Risk Classification",
         "Annuities (Types, Features, Suitability)",
-        "Settlement Options & Nonforfeiture",
-        "Group Life & Employer Plans",
+        "Beneficiaries, Ownership, Assignments",
         "Claims, Exclusions, Contestability",
+        "Contract Law & Policy Structure",
+        "Ethics & Insurance Fraud",
+        "Group Life & Employer Plans",
+        "Insurance Concepts & Terms",
+        "Licensing & Regulation (CA)",
+        "Life Insurance Policy Provisions",
+        "Life Riders & Endorsements",
+        "Premiums, Underwriting, Risk Classification",
         "Replacement, Advertising, Unfair Practices (CA)",
-        "Taxation Basics (Life & Annuities)"
+        "Settlement Options & Nonforfeiture",
+        "Taxation Basics (Life & Annuities)",
+        "Types of Life Insurance (Term/Perm)"
       ],
       "count": 450
     }
