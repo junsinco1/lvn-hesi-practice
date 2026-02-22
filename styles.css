@@ -216,5 +216,7 @@ select:focus,input:focus{border-color:color-mix(in srgb, var(--accent) 70%, var(
 }
 
 
-.pillLink{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.16);text-decoration:none;color:inherit;font-weight:700;font-size:12px;background:rgba(255,255,255,.04)}
-.pillLink:hover{background:rgba(255,255,255,.08)}
+/* Learn more links */
+.linkRow{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.learnLink{display:inline-block;padding:6px 10px;border:1px solid var(--border);border-radius:999px;text-decoration:none;font-weight:700}
+.learnLink:hover{transform:translateY(-1px)}

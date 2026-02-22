@@ -196,114 +196,6 @@ function escapeHtml(s){
     .replaceAll("'","&#39;");
 }
 
-
-// ---------- Optional "Learn more" support for rationales ----------
-// If a question has `rationale_links` (array of {label,url}) or `rationale_link` (string),
-// or if we have a built-in entry for the question's system/topic, we show a "Learn more" section.
-// This keeps the banks lightweight while giving students a path to deeper explanations.
-const LEARN_MORE = {
-  // Nursing Math
-  "Math|Gravity Drip gtt/min": {
-    title: "Gravity drip quick method",
-    body: "Formula: gtt/min = (mL × gtt/mL) ÷ minutes. Convert hours → minutes first. Round per facility policy.",
-    links: [
-      {label:"Dimensional analysis refresher", url:"https://www.khanacademy.org/science/health-and-medicine/healthcare-math"},
-    ],
-  },
-  "Math|IV Pump mL/hr": {
-    title: "IV pump rate",
-    body: "Formula: mL/hr = total mL ÷ hours. For minutes: mL/hr = mL ÷ (minutes/60).",
-    links: [],
-  },
-  "Math|Titrations (mcg/kg/min)": {
-    title: "Titrations (mcg/kg/min) workflow",
-    body: "Steps: 1) mcg/min = dose × kg. 2) mg/hr = (mcg/min ÷ 1000) × 60. 3) mg/mL = bag mg ÷ bag mL. 4) mL/hr = mg/hr ÷ (mg/mL).",
-    links: [],
-  },
-  "Math|Vasoactive Titrations": {
-    title: "Vasoactive titrations (devilish mode)",
-    body: "Same workflow as above, but watch units carefully (mcg↔mg), and always convert minutes to hours before final pump settings.",
-    links: [],
-  },
-  "Math|Multi-step Drip Setups": {
-    title: "Multi-step drips (units/kg/hr)",
-    body: "Steps: 1) units/hr = (units/kg/hr) × kg. 2) units/mL = bag units ÷ bag mL. 3) mL/hr = units/hr ÷ (units/mL).",
-    links: [],
-  },
-  "Math|Reconstitution": {
-    title: "Reconstitution",
-    body: "After reconstitution, always use the FINAL concentration (mg/mL). Dose mL = ordered mg ÷ mg/mL. If asked about remaining volume, subtract administered mL from total vial mL.",
-    links: [],
-  },
-};
-
-function normalizeLinks(q){
-  const out = [];
-  if(q && typeof q.rationale_link === "string" && q.rationale_link.startsWith("http")) {
-    out.push({label:"Reference", url:q.rationale_link});
-  }
-  if(q && Array.isArray(q.rationale_links)){
-    for(const item of q.rationale_links){
-      if(item && typeof item.url === "string" && item.url.startsWith("http")){
-        out.push({label: String(item.label || "Reference"), url: item.url});
-      }
-    }
-  }
-  // Remove duplicates by URL
-  const seen = new Set();
-  return out.filter(x => (seen.has(x.url) ? false : (seen.add(x.url), true)));
-}
-
-function learnMoreKey(q){
-  const sys = q?.system || "";
-  const topic = q?.topic || "";
-  return `${sys}|${topic}`;
-}
-
-function learnMoreBlock(q){
-  const key = learnMoreKey(q);
-  const entry = LEARN_MORE[key];
-  const links = normalizeLinks(q);
-  const hasEntry = !!entry;
-  const hasLinks = links.length > 0;
-  if(!hasEntry && !hasLinks) return "";
-
-  let html = `<details style="margin-top:10px">`;
-  html += `<summary style="cursor:pointer;font-weight:800">Learn more</summary>`;
-  html += `<div class="muted" style="margin-top:6px">`;
-
-  if(entry){
-    html += `<div style="font-weight:800;margin-bottom:6px">${escapeHtml(entry.title || "More detail")}</div>`;
-    html += `<div style="white-space:pre-wrap">${escapeHtml(entry.body || "")}</div>`;
-  } else {
-    html += `<div style="white-space:pre-wrap">References for deeper review:</div>`;
-  }
-
-  // Merge entry links + question links
-  const merged = [];
-  if(entry?.links?.length){
-    for(const l of entry.links){
-      if(l?.url) merged.push({label:l.label||"Reference", url:l.url});
-    }
-  }
-  for(const l of links) merged.push(l);
-
-  const seen = new Set();
-  const finalLinks = merged.filter(x => x?.url && x.url.startsWith("http") && !seen.has(x.url) && (seen.add(x.url), true));
-
-  if(finalLinks.length){
-    html += `<div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:8px">`;
-    for(const l of finalLinks){
-      html += `<a class="pillLink" href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.label)}</a>`;
-    }
-    html += `</div>`;
-  }
-
-  html += `</div></details>`;
-  return html;
-}
-
-
 // ---------- Data loading ----------
 function cacheBust(url){
   return url + (url.includes("?") ? "&" : "?") + "v=" + Date.now();
@@ -750,13 +642,93 @@ function showFeedback(q, sel){
       <div class="muted" style="margin-top:6px">${q.rationale}</div>
     </details>`;
   }
-  html += learnMoreBlock(q);
 
+
+  // Learn more (optional deep dive + links)
+  const links = [];
+  if(q.rationale_link && typeof q.rationale_link === "string"){
+    links.push({label: "Learn more", url: q.rationale_link});
+  }
+  if(Array.isArray(q.rationale_links)){
+    for(const it of q.rationale_links){
+      if(it && it.url){
+        links.push({label: it.label || "Learn more", url: it.url});
+      }
+    }
+  }
+
+  // Always provide at least one internal deep-dive link so this works for all banks
+  const anchor = makeLearnAnchor(q);
+  links.push({label: "Learn more", url: `learn.html#${anchor}`});
+
+  const uniqueLinks = [];
+  const seen = new Set();
+  for(const l of links){
+    const key = (l.label||"") + "|" + (l.url||"");
+    if(!seen.has(key) && l.url){
+      seen.add(key);
+      uniqueLinks.push(l);
+    }
+  }
+
+  if(uniqueLinks.length){
+    html += `<details style="margin-top:10px">
+      <summary style="cursor:pointer;font-weight:800">Learn more</summary>
+      <div class="muted" style="margin-top:6px">
+        <div style="margin-bottom:6px">Extra explanation and references for this topic.</div>
+        <div class="linkRow">
+          ${uniqueLinks.map(l => `<a class="learnLink" href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(l.label)}</a>`).join("")}
+        </div>
+        <div class="muted" style="margin-top:8px">${escapeHtml(getDeepDiveText(q))}</div>
+      </div>
+    </details>`;
+  }
 
   el.answerArea.innerHTML = html;
 
   stopTimer();
 }
+
+
+function normKey(s){
+  return String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+}
+function makeLearnAnchor(q){
+  const bank = normKey(q.bank || "");
+  const sys = normKey(q.system || "");
+  const topic = normKey(q.topic || "");
+  // Prefer system/topic; bank included for uniqueness
+  const parts = [bank, sys, topic].filter(Boolean);
+  return parts.length ? parts.join("-") : "general";
+}
+function getDeepDiveText(q){
+  // Small built-in deep dives, especially for Nursing Math.
+  const sys = String(q.system||"").toLowerCase();
+  const topic = String(q.topic||"").toLowerCase();
+
+  if(sys === "math" || (q.bank && String(q.bank).toLowerCase().includes("math"))){
+    if(topic.includes("titration") || topic.includes("vasoactive")){
+      return "Titrations: Convert the ordered dose (mcg/kg/min) → mcg/min (× weight) → mg/hr (÷1000×60). Then convert bag concentration to mg/mL and finish with mL/hr = (mg/hr) ÷ (mg/mL).";
+    }
+    if(topic.includes("gravity") || topic.includes("gtt")){
+      return "Gravity drips: gtt/min = (mL × drop factor) ÷ minutes. Minutes = hours × 60.";
+    }
+    if(topic.includes("pump") || topic.includes("ml/hr") || topic.includes("ivpb")){
+      return "Pump rates: mL/hr = total mL ÷ hours. If given minutes, convert to hours first (minutes ÷ 60).";
+    }
+    if(topic.includes("weight") || topic.includes("peds")){
+      return "Weight-based dosing: Convert lb → kg (÷2.2). Dose = mg/kg × kg. Apply max dose caps before converting to mL with concentration.";
+    }
+    if(topic.includes("reconst")){
+      return "Reconstitution: Find final concentration (mg/mL) after diluent. Then mL to give = ordered mg ÷ (mg/mL). Track remaining volume if needed.";
+    }
+    return "Use dimensional analysis: write the desired unit (e.g., mL/hr) and multiply by fractions that cancel units until only the desired unit remains.";
+  }
+
+  // General nursing decision-making
+  return "For clinical questions: prioritize ABCs, recognize high-risk cues (hypoxia, hypotension, acute LOC change), and follow facility protocols (sepsis, stroke, chest pain) while documenting objectively.";
+}
+
 
 function choiceRationaleBlock(q){
   if(!q.choice_rationales || !q.choices || !q.choices.length) return "";
