@@ -146,34 +146,29 @@
       "count": 925
     },
     {
-      "name": "NursingMath",
-      "file": "banks/nursing_math.json",
+      "name": "CALifeInsurance",
+      "file": "banks/ca_life_insurance.json",
       "systems": [
-        "Math"
+        "Insurance"
       ],
       "topics": [
-        "Dimensional Analysis",
-        "Dose by Weight",
-        "Electrolyte Infusions & Safety",
-        "Gravity Drip gtt/min",
-        "Heparin/Insulin Units",
-        "IV Pump mL/hr",
-        "IV Push from Multi-dose Vial",
-        "IVPB / Time Conversions",
-        "Insulin/Heparin Complex",
-        "Multi-step Drip Setups",
-        "Pediatrics",
-        "Peds (Weight + Concentration + Max)",
-        "Percentage & Ratio Solutions",
-        "Reconstitution",
-        "Reconstitution + Total Volume",
-        "Titrations (mcg/kg/min)",
-        "Tricky Rounding & Time",
-        "Unit Conversions (mcg↔mg↔g)",
-        "Vasoactive Titrations",
-        "mEq Calculations"
+        "Licensing & Regulation (CA)",
+        "Ethics & Insurance Fraud",
+        "Insurance Concepts & Terms",
+        "Contract Law & Policy Structure",
+        "Life Insurance Policy Provisions",
+        "Types of Life Insurance (Term/Perm)",
+        "Life Riders & Endorsements",
+        "Beneficiaries, Ownership, Assignments",
+        "Premiums, Underwriting, Risk Classification",
+        "Annuities (Types, Features, Suitability)",
+        "Settlement Options & Nonforfeiture",
+        "Group Life & Employer Plans",
+        "Claims, Exclusions, Contestability",
+        "Replacement, Advertising, Unfair Practices (CA)",
+        "Taxation Basics (Life & Annuities)"
       ],
-      "count": 500
+      "count": 450
     }
   ]
 }
