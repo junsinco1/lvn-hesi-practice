@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "HESI-PHARM-0001",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "MDI sequence admin",
+    "qtype": "single",
+    "stem": "MDI sequence admin: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Use the bronchodilator first, then the inhaled corticosteroid.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Use the bronchodilator first, then the inhaled corticosteroid.",
+    "rationale": "Correct: Use the bronchodilator first, then the inhaled corticosteroid. Bronchodilator opens airways; ICS can cause oral candidiasis."
+  },
+  {
+    "id": "HESI-PHARM-0002",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "MDI sequence admin",
+    "qtype": "single",
+    "stem": "MDI sequence admin: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Rinse mouth after inhaled corticosteroid to reduce thrush.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Rinse mouth after inhaled corticosteroid to reduce thrush.",
+    "rationale": "Correct: Rinse mouth after inhaled corticosteroid to reduce thrush. Bronchodilator opens airways; ICS can cause oral candidiasis."
+  },
+  {
+    "id": "HESI-PHARM-0003",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "MDI sequence admin",
+    "qtype": "sata",
+    "stem": "MDI sequence admin: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Use a spacer if prescribed to improve delivery.",
+      "Wait about 1 minute between puffs of the same inhaler.",
+      "Rinse mouth after steroid inhaler use.",
+      "Exhale into the spacer before inhaling.",
+      "Stop controller inhaler once symptoms improve.",
+      "Double the dose if you miss a dose."
+    ],
+    "answer": [
+      "Use a spacer if prescribed to improve delivery.",
+      "Wait about 1 minute between puffs of the same inhaler.",
+      "Rinse mouth after steroid inhaler use."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Bronchodilator opens airways; ICS can cause oral candidiasis."
+  },
+  {
+    "id": "HESI-PHARM-0004",
+    "bank": "HESI Pharmacy",
+    "system": "Endocrine",
+    "topic": "Thyroid Meds",
+    "qtype": "single",
+    "stem": "Thyroid Meds: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Palpitations and insomnia can indicate excessive levothyroxine dose.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Palpitations and insomnia can indicate excessive levothyroxine dose.",
+    "rationale": "Correct: Palpitations and insomnia can indicate excessive levothyroxine dose. Overreplacement + agranulocytosis are high-yield safety issues."
+  },
+  {
+    "id": "HESI-PHARM-0005",
+    "bank": "HESI Pharmacy",
+    "system": "Endocrine",
+    "topic": "Thyroid Meds",
+    "qtype": "single",
+    "stem": "Thyroid Meds: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Methimazole: report sore throat/fever due to agranulocytosis risk.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Methimazole: report sore throat/fever due to agranulocytosis risk.",
+    "rationale": "Correct: Methimazole: report sore throat/fever due to agranulocytosis risk. Overreplacement + agranulocytosis are high-yield safety issues."
+  },
+  {
+    "id": "HESI-PHARM-0006",
+    "bank": "HESI Pharmacy",
+    "system": "Endocrine",
+    "topic": "Thyroid Meds",
+    "qtype": "sata",
+    "stem": "Thyroid Meds: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Take levothyroxine on an empty stomach consistently.",
+      "Separate levothyroxine from iron/calcium by several hours.",
+      "Report sore throat/fever while on methimazole.",
+      "Take levothyroxine with antacids to improve absorption.",
+      "Stop thyroid meds when you feel better.",
+      "Double levothyroxine if you miss a dose."
+    ],
+    "answer": [
+      "Take levothyroxine on an empty stomach consistently.",
+      "Separate levothyroxine from iron/calcium by several hours.",
+      "Report sore throat/fever while on methimazole."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Overreplacement + agranulocytosis are high-yield safety issues."
+  },
+  {
+    "id": "HESI-PHARM-0007",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Antibiotic-pruritus",
+    "qtype": "single",
+    "stem": "Antibiotic-pruritus: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Stop the antibiotic and assess airway when hives/itching occur.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Stop the antibiotic and assess airway when hives/itching occur.",
+    "rationale": "Correct: Stop the antibiotic and assess airway when hives/itching occur. Urticaria can precede anaphylaxis—ABCs first."
+  },
+  {
+    "id": "HESI-PHARM-0008",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Antibiotic-pruritus",
+    "qtype": "single",
+    "stem": "Antibiotic-pruritus: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Stridor with hypotension suggests anaphylaxis (emergency).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Stridor with hypotension suggests anaphylaxis (emergency).",
+    "rationale": "Correct: Stridor with hypotension suggests anaphylaxis (emergency). Urticaria can precede anaphylaxis—ABCs first."
+  },
+  {
+    "id": "HESI-PHARM-0009",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Antibiotic-pruritus",
+    "qtype": "sata",
+    "stem": "Antibiotic-pruritus: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Stop infusion and assess airway/breathing.",
+      "Notify provider and document reaction details.",
+      "Prepare to administer epinephrine if systemic symptoms.",
+      "Continue antibiotic and slow rate only.",
+      "Give antidiarrheal as first action.",
+      "Document as expected side effect."
+    ],
+    "answer": [
+      "Stop infusion and assess airway/breathing.",
+      "Notify provider and document reaction details.",
+      "Prepare to administer epinephrine if systemic symptoms."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Urticaria can precede anaphylaxis—ABCs first."
+  },
+  {
+    "id": "HESI-PHARM-0010",
+    "bank": "HESI Pharmacy",
+    "system": "Integumentary/Wound",
+    "topic": "Betamethasone - reinforce",
+    "qtype": "single",
+    "stem": "Betamethasone - reinforce: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Occlusive dressings increase topical steroid absorption.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Occlusive dressings increase topical steroid absorption.",
+    "rationale": "Correct: Occlusive dressings increase topical steroid absorption. Absorption ↑ with occlusion; local adverse effects are common."
+  },
+  {
+    "id": "HESI-PHARM-0011",
+    "bank": "HESI Pharmacy",
+    "system": "Integumentary/Wound",
+    "topic": "Betamethasone - reinforce",
+    "qtype": "single",
+    "stem": "Betamethasone - reinforce: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Long-term high-potency topical steroids can cause skin atrophy/striae.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Long-term high-potency topical steroids can cause skin atrophy/striae.",
+    "rationale": "Correct: Long-term high-potency topical steroids can cause skin atrophy/striae. Absorption ↑ with occlusion; local adverse effects are common."
+  },
+  {
+    "id": "HESI-PHARM-0012",
+    "bank": "HESI Pharmacy",
+    "system": "Integumentary/Wound",
+    "topic": "Betamethasone - reinforce",
+    "qtype": "sata",
+    "stem": "Betamethasone - reinforce: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Apply a thin layer to affected areas.",
+      "Avoid face/groin unless prescribed.",
+      "Wash hands after application unless treating hands.",
+      "Use on fungal rashes to reduce itching.",
+      "Apply under occlusion daily without direction.",
+      "Stop abruptly after prolonged widespread use without guidance."
+    ],
+    "answer": [
+      "Apply a thin layer to affected areas.",
+      "Avoid face/groin unless prescribed.",
+      "Wash hands after application unless treating hands."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Absorption ↑ with occlusion; local adverse effects are common."
+  },
+  {
+    "id": "HESI-PHARM-0013",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Dihydroergotamine - action",
+    "qtype": "single",
+    "stem": "Dihydroergotamine - action: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Dihydroergotamine is used to abort acute migraine attacks.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Dihydroergotamine is used to abort acute migraine attacks.",
+    "rationale": "Correct: Dihydroergotamine is used to abort acute migraine attacks. Ergots vasoconstrict—ischemia risk."
+  },
+  {
+    "id": "HESI-PHARM-0014",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Dihydroergotamine - action",
+    "qtype": "single",
+    "stem": "Dihydroergotamine - action: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Chest tightness warrants stopping the drug and notifying provider (vasospasm).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Chest tightness warrants stopping the drug and notifying provider (vasospasm).",
+    "rationale": "Correct: Chest tightness warrants stopping the drug and notifying provider (vasospasm). Ergots vasoconstrict—ischemia risk."
+  },
+  {
+    "id": "HESI-PHARM-0015",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Dihydroergotamine - action",
+    "qtype": "sata",
+    "stem": "Dihydroergotamine - action: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Assess for pregnancy and uncontrolled HTN before giving.",
+      "Monitor for ischemic chest symptoms.",
+      "Avoid use within 24h of triptans per protocol.",
+      "Use for routine daily migraine prevention.",
+      "Give with nicotine to increase effect.",
+      "Ignore chest tightness because it is expected."
+    ],
+    "answer": [
+      "Assess for pregnancy and uncontrolled HTN before giving.",
+      "Monitor for ischemic chest symptoms.",
+      "Avoid use within 24h of triptans per protocol."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Ergots vasoconstrict—ischemia risk."
+  },
+  {
+    "id": "HESI-PHARM-0016",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "NTG patch off",
+    "qtype": "single",
+    "stem": "NTG patch off: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "A daily nitrate-free interval (10–12 hours) prevents tolerance.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "A daily nitrate-free interval (10–12 hours) prevents tolerance.",
+    "rationale": "Correct: A daily nitrate-free interval (10–12 hours) prevents tolerance. Tolerance + severe hypotension interactions are key."
+  },
+  {
+    "id": "HESI-PHARM-0017",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "NTG patch off",
+    "qtype": "single",
+    "stem": "NTG patch off: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Nitroglycerin is contraindicated with PDE-5 inhibitors (e.g., sildenafil).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Nitroglycerin is contraindicated with PDE-5 inhibitors (e.g., sildenafil).",
+    "rationale": "Correct: Nitroglycerin is contraindicated with PDE-5 inhibitors (e.g., sildenafil). Tolerance + severe hypotension interactions are key."
+  },
+  {
+    "id": "HESI-PHARM-0018",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "NTG patch off",
+    "qtype": "sata",
+    "stem": "NTG patch off: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Remove old patch before applying a new one.",
+      "Rotate application sites.",
+      "Rise slowly to reduce orthostatic hypotension.",
+      "Keep patch on 24 hours to prevent angina.",
+      "Cut the patch to change the dose.",
+      "Use with sildenafil for better vasodilation."
+    ],
+    "answer": [
+      "Remove old patch before applying a new one.",
+      "Rotate application sites.",
+      "Rise slowly to reduce orthostatic hypotension."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Tolerance + severe hypotension interactions are key."
+  },
+  {
+    "id": "HESI-PHARM-0019",
+    "bank": "HESI Pharmacy",
+    "system": "Endocrine",
+    "topic": "Fludrocortisone-Teaching",
+    "qtype": "single",
+    "stem": "Fludrocortisone-Teaching: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Fludrocortisone promotes sodium retention and increases intravascular volume.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Fludrocortisone promotes sodium retention and increases intravascular volume.",
+    "rationale": "Correct: Fludrocortisone promotes sodium retention and increases intravascular volume. Mineralocorticoid → volume expansion + hypokalemia."
+  },
+  {
+    "id": "HESI-PHARM-0020",
+    "bank": "HESI Pharmacy",
+    "system": "Endocrine",
+    "topic": "Fludrocortisone-Teaching",
+    "qtype": "single",
+    "stem": "Fludrocortisone-Teaching: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Edema and weight gain may indicate excessive mineralocorticoid effect.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Edema and weight gain may indicate excessive mineralocorticoid effect.",
+    "rationale": "Correct: Edema and weight gain may indicate excessive mineralocorticoid effect. Mineralocorticoid → volume expansion + hypokalemia."
+  },
+  {
+    "id": "HESI-PHARM-0021",
+    "bank": "HESI Pharmacy",
+    "system": "Endocrine",
+    "topic": "Fludrocortisone-Teaching",
+    "qtype": "sata",
+    "stem": "Fludrocortisone-Teaching: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor BP and daily weight.",
+      "Monitor potassium for hypokalemia risk.",
+      "Teach to report swelling/rapid weight gain.",
+      "Restrict all sodium aggressively without instruction.",
+      "Expect dehydration as the main effect.",
+      "Stop abruptly when feeling better."
+    ],
+    "answer": [
+      "Monitor BP and daily weight.",
+      "Monitor potassium for hypokalemia risk.",
+      "Teach to report swelling/rapid weight gain."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Mineralocorticoid → volume expansion + hypokalemia."
+  },
+  {
+    "id": "HESI-PHARM-0022",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Phenytoin",
+    "qtype": "single",
+    "stem": "Phenytoin: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Gingival hyperplasia risk requires meticulous oral hygiene.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Gingival hyperplasia risk requires meticulous oral hygiene.",
+    "rationale": "Correct: Gingival hyperplasia risk requires meticulous oral hygiene. Classic adverse effects + IV cardiac toxicity."
+  },
+  {
+    "id": "HESI-PHARM-0023",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Phenytoin",
+    "qtype": "single",
+    "stem": "Phenytoin: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "IV phenytoin can cause hypotension/dysrhythmias—monitor closely.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "IV phenytoin can cause hypotension/dysrhythmias—monitor closely.",
+    "rationale": "Correct: IV phenytoin can cause hypotension/dysrhythmias—monitor closely. Classic adverse effects + IV cardiac toxicity."
+  },
+  {
+    "id": "HESI-PHARM-0024",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Phenytoin",
+    "qtype": "sata",
+    "stem": "Phenytoin: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Use soft toothbrush/floss routinely.",
+      "Report rash (possible SJS/TEN).",
+      "Avoid abrupt discontinuation.",
+      "Take with antacids to increase absorption.",
+      "Expect seizures if you double the dose.",
+      "Skip dental care because gums will normalize."
+    ],
+    "answer": [
+      "Use soft toothbrush/floss routinely.",
+      "Report rash (possible SJS/TEN).",
+      "Avoid abrupt discontinuation."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Classic adverse effects + IV cardiac toxicity."
+  },
+  {
+    "id": "HESI-PHARM-0025",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Albendazole - labs",
+    "qtype": "single",
+    "stem": "Albendazole - labs: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Monitor liver function tests for hepatotoxicity with prolonged albendazole.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Monitor liver function tests for hepatotoxicity with prolonged albendazole.",
+    "rationale": "Correct: Monitor liver function tests for hepatotoxicity with prolonged albendazole. Liver monitoring is the high-yield safety point."
+  },
+  {
+    "id": "HESI-PHARM-0026",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Albendazole - labs",
+    "qtype": "single",
+    "stem": "Albendazole - labs: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Report jaundice or dark urine promptly.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Report jaundice or dark urine promptly.",
+    "rationale": "Correct: Report jaundice or dark urine promptly. Liver monitoring is the high-yield safety point."
+  },
+  {
+    "id": "HESI-PHARM-0027",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Albendazole - labs",
+    "qtype": "sata",
+    "stem": "Albendazole - labs: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Obtain baseline LFTs if extended therapy.",
+      "Take with food to increase absorption.",
+      "Report RUQ pain/jaundice.",
+      "No lab monitoring is needed.",
+      "Stop early when symptoms improve.",
+      "Take with alcohol to enhance effect."
+    ],
+    "answer": [
+      "Obtain baseline LFTs if extended therapy.",
+      "Take with food to increase absorption.",
+      "Report RUQ pain/jaundice."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Liver monitoring is the high-yield safety point."
+  },
+  {
+    "id": "HESI-PHARM-0028",
+    "bank": "HESI Pharmacy",
+    "system": "Integumentary/Wound",
+    "topic": "Keratolytic drug-psoriasis",
+    "qtype": "single",
+    "stem": "Keratolytic drug-psoriasis: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Keratolytics (e.g., salicylic acid) soften and remove scales in psoriasis.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Keratolytics (e.g., salicylic acid) soften and remove scales in psoriasis.",
+    "rationale": "Correct: Keratolytics (e.g., salicylic acid) soften and remove scales in psoriasis. Scale removal improves med penetration; systemic absorption risk with large areas."
+  },
+  {
+    "id": "HESI-PHARM-0029",
+    "bank": "HESI Pharmacy",
+    "system": "Integumentary/Wound",
+    "topic": "Keratolytic drug-psoriasis",
+    "qtype": "single",
+    "stem": "Keratolytic drug-psoriasis: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Using keratolytics can improve penetration of topical steroids.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Using keratolytics can improve penetration of topical steroids.",
+    "rationale": "Correct: Using keratolytics can improve penetration of topical steroids. Scale removal improves med penetration; systemic absorption risk with large areas."
+  },
+  {
+    "id": "HESI-PHARM-0030",
+    "bank": "HESI Pharmacy",
+    "system": "Integumentary/Wound",
+    "topic": "Keratolytic drug-psoriasis",
+    "qtype": "sata",
+    "stem": "Keratolytic drug-psoriasis: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Avoid applying to large areas unless directed.",
+      "Avoid use on broken skin unless instructed.",
+      "Moisturize as directed to reduce irritation.",
+      "Use under heating pads to increase absorption.",
+      "Apply to mucous membranes routinely.",
+      "Use for fungal rashes as first-line."
+    ],
+    "answer": [
+      "Avoid applying to large areas unless directed.",
+      "Avoid use on broken skin unless instructed.",
+      "Moisturize as directed to reduce irritation."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Scale removal improves med penetration; systemic absorption risk with large areas."
+  },
+  {
+    "id": "HESI-PHARM-0031",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Venlafaxine - OCD",
+    "qtype": "single",
+    "stem": "Venlafaxine - OCD: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Venlafaxine is an SNRI and can increase blood pressure.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Venlafaxine is an SNRI and can increase blood pressure.",
+    "rationale": "Correct: Venlafaxine is an SNRI and can increase blood pressure. BP monitoring + tapering are key."
+  },
+  {
+    "id": "HESI-PHARM-0032",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Venlafaxine - OCD",
+    "qtype": "single",
+    "stem": "Venlafaxine - OCD: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Abrupt discontinuation can cause withdrawal (discontinuation syndrome).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Abrupt discontinuation can cause withdrawal (discontinuation syndrome).",
+    "rationale": "Correct: Abrupt discontinuation can cause withdrawal (discontinuation syndrome). BP monitoring + tapering are key."
+  },
+  {
+    "id": "HESI-PHARM-0033",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Venlafaxine - OCD",
+    "qtype": "sata",
+    "stem": "Venlafaxine - OCD: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor BP periodically.",
+      "Do not stop abruptly—taper per provider.",
+      "Report serotonin syndrome symptoms with interacting drugs.",
+      "Combine with MAOIs without washout.",
+      "Double dose if a dose is missed.",
+      "Drink alcohol to reduce anxiety."
+    ],
+    "answer": [
+      "Monitor BP periodically.",
+      "Do not stop abruptly—taper per provider.",
+      "Report serotonin syndrome symptoms with interacting drugs."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. BP monitoring + tapering are key."
+  },
+  {
+    "id": "HESI-PHARM-0034",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Diuretic-discharge info",
+    "qtype": "single",
+    "stem": "Diuretic-discharge info: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Daily weights are the best home indicator of fluid status.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Daily weights are the best home indicator of fluid status.",
+    "rationale": "Correct: Daily weights are the best home indicator of fluid status. Electrolytes + orthostasis + daily weights."
+  },
+  {
+    "id": "HESI-PHARM-0035",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Diuretic-discharge info",
+    "qtype": "single",
+    "stem": "Diuretic-discharge info: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Muscle cramps/weakness may indicate hypokalemia with loop diuretics.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Muscle cramps/weakness may indicate hypokalemia with loop diuretics.",
+    "rationale": "Correct: Muscle cramps/weakness may indicate hypokalemia with loop diuretics. Electrolytes + orthostasis + daily weights."
+  },
+  {
+    "id": "HESI-PHARM-0036",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Diuretic-discharge info",
+    "qtype": "sata",
+    "stem": "Diuretic-discharge info: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Take diuretic earlier in the day.",
+      "Rise slowly to prevent orthostasis.",
+      "Report dizziness, cramps, or palpitations.",
+      "Take at bedtime to avoid forgetting.",
+      "Restrict all fluids automatically.",
+      "Ignore rapid weight gain."
+    ],
+    "answer": [
+      "Take diuretic earlier in the day.",
+      "Rise slowly to prevent orthostasis.",
+      "Report dizziness, cramps, or palpitations."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Electrolytes + orthostasis + daily weights."
+  },
+  {
+    "id": "HESI-PHARM-0037",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "Analgesic-evaluate",
+    "qtype": "single",
+    "stem": "Analgesic-evaluate: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Effectiveness is best evaluated by patient-reported pain relief and improved function.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Effectiveness is best evaluated by patient-reported pain relief and improved function.",
+    "rationale": "Correct: Effectiveness is best evaluated by patient-reported pain relief and improved function. Patient report + respiratory depression priority."
+  },
+  {
+    "id": "HESI-PHARM-0038",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "Analgesic-evaluate",
+    "qtype": "single",
+    "stem": "Analgesic-evaluate: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "RR 8/min after opioid requires immediate intervention (respiratory depression).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "RR 8/min after opioid requires immediate intervention (respiratory depression).",
+    "rationale": "Correct: RR 8/min after opioid requires immediate intervention (respiratory depression). Patient report + respiratory depression priority."
+  },
+  {
+    "id": "HESI-PHARM-0039",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "Analgesic-evaluate",
+    "qtype": "sata",
+    "stem": "Analgesic-evaluate: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Reassess pain after administration within facility policy.",
+      "Monitor sedation/respiratory rate.",
+      "Use bowel regimen teaching for constipation.",
+      "Rely on pupil size only.",
+      "Encourage alcohol for additional pain control.",
+      "Withhold reassessment if patient is asleep."
+    ],
+    "answer": [
+      "Reassess pain after administration within facility policy.",
+      "Monitor sedation/respiratory rate.",
+      "Use bowel regimen teaching for constipation."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Patient report + respiratory depression priority."
+  },
+  {
+    "id": "HESI-PHARM-0040",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Sulfonamides-force fluids",
+    "qtype": "single",
+    "stem": "Sulfonamides-force fluids: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Increase fluid intake to reduce crystalluria risk (if not contraindicated).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Increase fluid intake to reduce crystalluria risk (if not contraindicated).",
+    "rationale": "Correct: Increase fluid intake to reduce crystalluria risk (if not contraindicated). Crystalluria + severe skin reactions."
+  },
+  {
+    "id": "HESI-PHARM-0041",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Sulfonamides-force fluids",
+    "qtype": "single",
+    "stem": "Sulfonamides-force fluids: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Stop drug and seek care if severe rash/mucosal lesions occur (SJS/TEN).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Stop drug and seek care if severe rash/mucosal lesions occur (SJS/TEN).",
+    "rationale": "Correct: Stop drug and seek care if severe rash/mucosal lesions occur (SJS/TEN). Crystalluria + severe skin reactions."
+  },
+  {
+    "id": "HESI-PHARM-0042",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Sulfonamides-force fluids",
+    "qtype": "sata",
+    "stem": "Sulfonamides-force fluids: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Drink adequate water daily unless restricted.",
+      "Use sunscreen due to photosensitivity.",
+      "Report rash immediately.",
+      "Restrict fluids to prevent edema.",
+      "Stop antibiotic when symptoms improve.",
+      "Share leftover antibiotics."
+    ],
+    "answer": [
+      "Drink adequate water daily unless restricted.",
+      "Use sunscreen due to photosensitivity.",
+      "Report rash immediately."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Crystalluria + severe skin reactions."
+  },
+  {
+    "id": "HESI-PHARM-0043",
+    "bank": "HESI Pharmacy",
+    "system": "Special Senses (Eye/Ear)",
+    "topic": "Ceruminolytic solution",
+    "qtype": "single",
+    "stem": "Ceruminolytic solution: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Warm ceruminolytic drops in hands and keep ear up several minutes.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Warm ceruminolytic drops in hands and keep ear up several minutes.",
+    "rationale": "Correct: Warm ceruminolytic drops in hands and keep ear up several minutes. Perforation/infection contraindications + technique."
+  },
+  {
+    "id": "HESI-PHARM-0044",
+    "bank": "HESI Pharmacy",
+    "system": "Special Senses (Eye/Ear)",
+    "topic": "Ceruminolytic solution",
+    "qtype": "single",
+    "stem": "Ceruminolytic solution: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "History of tympanic membrane perforation requires provider evaluation first.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "History of tympanic membrane perforation requires provider evaluation first.",
+    "rationale": "Correct: History of tympanic membrane perforation requires provider evaluation first. Perforation/infection contraindications + technique."
+  },
+  {
+    "id": "HESI-PHARM-0045",
+    "bank": "HESI Pharmacy",
+    "system": "Special Senses (Eye/Ear)",
+    "topic": "Ceruminolytic solution",
+    "qtype": "sata",
+    "stem": "Ceruminolytic solution: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Avoid cotton swabs (pushes wax).",
+      "Stop and call if pain/drainage occurs.",
+      "Follow label timing; do not overuse.",
+      "Irrigate with very hot water.",
+      "Share ear drops with family.",
+      "Use routinely with fever/ear pain without evaluation."
+    ],
+    "answer": [
+      "Avoid cotton swabs (pushes wax).",
+      "Stop and call if pain/drainage occurs.",
+      "Follow label timing; do not overuse."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Perforation/infection contraindications + technique."
+  },
+  {
+    "id": "HESI-PHARM-0046",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Tardive dyskinesia - actions",
+    "qtype": "single",
+    "stem": "Tardive dyskinesia - actions: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Lip smacking and tongue protrusion suggest tardive dyskinesia.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Lip smacking and tongue protrusion suggest tardive dyskinesia.",
+    "rationale": "Correct: Lip smacking and tongue protrusion suggest tardive dyskinesia. TD can persist; prompt recognition matters."
+  },
+  {
+    "id": "HESI-PHARM-0047",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Tardive dyskinesia - actions",
+    "qtype": "single",
+    "stem": "Tardive dyskinesia - actions: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Notify provider to evaluate antipsychotic regimen—may be irreversible.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Notify provider to evaluate antipsychotic regimen—may be irreversible.",
+    "rationale": "Correct: Notify provider to evaluate antipsychotic regimen—may be irreversible. TD can persist; prompt recognition matters."
+  },
+  {
+    "id": "HESI-PHARM-0048",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Tardive dyskinesia - actions",
+    "qtype": "sata",
+    "stem": "Tardive dyskinesia - actions: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Assess for abnormal involuntary movements routinely.",
+      "Report symptoms early.",
+      "Avoid abrupt stopping without provider direction.",
+      "Treat with naloxone.",
+      "Assume it resolves in 24 hours.",
+      "Increase the antipsychotic dose to stop movements."
+    ],
+    "answer": [
+      "Assess for abnormal involuntary movements routinely.",
+      "Report symptoms early.",
+      "Avoid abrupt stopping without provider direction."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. TD can persist; prompt recognition matters."
+  },
+  {
+    "id": "HESI-PHARM-0049",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Bronchodilator-evaluate",
+    "qtype": "single",
+    "stem": "Bronchodilator-evaluate: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Improved peak flow and decreased wheezing indicate bronchodilator effectiveness.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Improved peak flow and decreased wheezing indicate bronchodilator effectiveness.",
+    "rationale": "Correct: Improved peak flow and decreased wheezing indicate bronchodilator effectiveness. Effect = airflow improvement; overuse signals uncontrolled asthma."
+  },
+  {
+    "id": "HESI-PHARM-0050",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Bronchodilator-evaluate",
+    "qtype": "single",
+    "stem": "Bronchodilator-evaluate: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Tremor and tachycardia are common adverse effects of beta-agonists.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Tremor and tachycardia are common adverse effects of beta-agonists.",
+    "rationale": "Correct: Tremor and tachycardia are common adverse effects of beta-agonists. Effect = airflow improvement; overuse signals uncontrolled asthma."
+  },
+  {
+    "id": "HESI-PHARM-0051",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Bronchodilator-evaluate",
+    "qtype": "sata",
+    "stem": "Bronchodilator-evaluate: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor HR after dosing.",
+      "Teach correct inhaler technique.",
+      "Report increased use—may indicate poor control.",
+      "Use only after controller steroid every time.",
+      "Expect bradycardia as common effect.",
+      "Stop all inhalers if symptoms worsen."
+    ],
+    "answer": [
+      "Monitor HR after dosing.",
+      "Teach correct inhaler technique.",
+      "Report increased use—may indicate poor control."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Effect = airflow improvement; overuse signals uncontrolled asthma."
+  },
+  {
+    "id": "HESI-PHARM-0052",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Peripheral vasodilator",
+    "qtype": "single",
+    "stem": "Peripheral vasodilator: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Monitor blood pressure for hypotension with vasodilators.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Monitor blood pressure for hypotension with vasodilators.",
+    "rationale": "Correct: Monitor blood pressure for hypotension with vasodilators. Hypotension and fluid retention are key adverse effects."
+  },
+  {
+    "id": "HESI-PHARM-0053",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Peripheral vasodilator",
+    "qtype": "single",
+    "stem": "Peripheral vasodilator: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Edema/weight gain can occur due to fluid retention.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Edema/weight gain can occur due to fluid retention.",
+    "rationale": "Correct: Edema/weight gain can occur due to fluid retention. Hypotension and fluid retention are key adverse effects."
+  },
+  {
+    "id": "HESI-PHARM-0054",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Peripheral vasodilator",
+    "qtype": "sata",
+    "stem": "Peripheral vasodilator: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Teach slow position changes.",
+      "Monitor BP and dizziness.",
+      "Report swelling or rapid weight gain.",
+      "Increase sodium without guidance.",
+      "Avoid monitoring vitals.",
+      "Combine with alcohol to prevent headaches."
+    ],
+    "answer": [
+      "Teach slow position changes.",
+      "Monitor BP and dizziness.",
+      "Report swelling or rapid weight gain."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Hypotension and fluid retention are key adverse effects."
+  },
+  {
+    "id": "HESI-PHARM-0055",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "propranolol (Inderal) - SE - PN",
+    "qtype": "single",
+    "stem": "propranolol (Inderal) - SE - PN: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Hold propranolol and notify provider for bradycardia (e.g., HR 52).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Hold propranolol and notify provider for bradycardia (e.g., HR 52).",
+    "rationale": "Correct: Hold propranolol and notify provider for bradycardia (e.g., HR 52). Bradycardia + bronchospasm + masking hypoglycemia."
+  },
+  {
+    "id": "HESI-PHARM-0056",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "propranolol (Inderal) - SE - PN",
+    "qtype": "single",
+    "stem": "propranolol (Inderal) - SE - PN: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Beta blockers can mask hypoglycemia symptoms (tachycardia) in diabetes.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Beta blockers can mask hypoglycemia symptoms (tachycardia) in diabetes.",
+    "rationale": "Correct: Beta blockers can mask hypoglycemia symptoms (tachycardia) in diabetes. Bradycardia + bronchospasm + masking hypoglycemia."
+  },
+  {
+    "id": "HESI-PHARM-0057",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "propranolol (Inderal) - SE - PN",
+    "qtype": "sata",
+    "stem": "propranolol (Inderal) - SE - PN: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Check HR/BP before giving.",
+      "Use caution in asthma (nonselective beta blocker).",
+      "Teach not to stop abruptly.",
+      "Use to treat acute asthma attack.",
+      "Double dose if missed.",
+      "Ignore wheezing as unrelated."
+    ],
+    "answer": [
+      "Check HR/BP before giving.",
+      "Use caution in asthma (nonselective beta blocker).",
+      "Teach not to stop abruptly."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Bradycardia + bronchospasm + masking hypoglycemia."
+  },
+  {
+    "id": "HESI-PHARM-0058",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Tamsulosin and BPH",
+    "qtype": "single",
+    "stem": "Tamsulosin and BPH: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Tamsulosin relaxes smooth muscle in bladder neck/prostate to improve flow.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Tamsulosin relaxes smooth muscle in bladder neck/prostate to improve flow.",
+    "rationale": "Correct: Tamsulosin relaxes smooth muscle in bladder neck/prostate to improve flow. Alpha-1 blocker: orthostasis is high yield."
+  },
+  {
+    "id": "HESI-PHARM-0059",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Tamsulosin and BPH",
+    "qtype": "single",
+    "stem": "Tamsulosin and BPH: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "First-dose orthostatic hypotension—take first dose at bedtime.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "First-dose orthostatic hypotension—take first dose at bedtime.",
+    "rationale": "Correct: First-dose orthostatic hypotension—take first dose at bedtime. Alpha-1 blocker: orthostasis is high yield."
+  },
+  {
+    "id": "HESI-PHARM-0060",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Tamsulosin and BPH",
+    "qtype": "sata",
+    "stem": "Tamsulosin and BPH: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Rise slowly and sit if dizzy.",
+      "Report syncope.",
+      "Take as directed, same time daily.",
+      "Drink no fluids after dosing.",
+      "Double dose if missed.",
+      "Expect permanent prostate shrinkage."
+    ],
+    "answer": [
+      "Rise slowly and sit if dizzy.",
+      "Report syncope.",
+      "Take as directed, same time daily."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Alpha-1 blocker: orthostasis is high yield."
+  },
+  {
+    "id": "HESI-PHARM-0061",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Phenylephrine - assess",
+    "qtype": "single",
+    "stem": "Phenylephrine - assess: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Assess blood pressure before giving phenylephrine (sympathomimetic).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Assess blood pressure before giving phenylephrine (sympathomimetic).",
+    "rationale": "Correct: Assess blood pressure before giving phenylephrine (sympathomimetic). Alpha-agonist can elevate BP/HR."
+  },
+  {
+    "id": "HESI-PHARM-0062",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Phenylephrine - assess",
+    "qtype": "single",
+    "stem": "Phenylephrine - assess: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Uncontrolled HTN is a major caution/contraindication.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Uncontrolled HTN is a major caution/contraindication.",
+    "rationale": "Correct: Uncontrolled HTN is a major caution/contraindication. Alpha-agonist can elevate BP/HR."
+  },
+  {
+    "id": "HESI-PHARM-0063",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Phenylephrine - assess",
+    "qtype": "sata",
+    "stem": "Phenylephrine - assess: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Avoid additional stimulants.",
+      "Report palpitations.",
+      "Do not exceed labeled dosing frequency.",
+      "Use with MAOIs without risk.",
+      "Take extra doses for faster relief.",
+      "Ignore chest pain."
+    ],
+    "answer": [
+      "Avoid additional stimulants.",
+      "Report palpitations.",
+      "Do not exceed labeled dosing frequency."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Alpha-agonist can elevate BP/HR."
+  },
+  {
+    "id": "HESI-PHARM-0064",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Lactulose-eval effect",
+    "qtype": "single",
+    "stem": "Lactulose-eval effect: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "For hepatic encephalopathy, lactulose lowers ammonia and improves mentation.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "For hepatic encephalopathy, lactulose lowers ammonia and improves mentation.",
+    "rationale": "Correct: For hepatic encephalopathy, lactulose lowers ammonia and improves mentation. Ammonia reduction; avoid dehydration/electrolyte imbalance."
+  },
+  {
+    "id": "HESI-PHARM-0065",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Lactulose-eval effect",
+    "qtype": "single",
+    "stem": "Lactulose-eval effect: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Target is typically 2–3 soft stools/day; dehydration is a concern.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Target is typically 2–3 soft stools/day; dehydration is a concern.",
+    "rationale": "Correct: Target is typically 2–3 soft stools/day; dehydration is a concern. Ammonia reduction; avoid dehydration/electrolyte imbalance."
+  },
+  {
+    "id": "HESI-PHARM-0066",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Lactulose-eval effect",
+    "qtype": "sata",
+    "stem": "Lactulose-eval effect: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor mental status and stool frequency.",
+      "Encourage fluids as appropriate.",
+      "Monitor electrolytes if diarrhea occurs.",
+      "Aim for zero stools per day.",
+      "Stop once first stool occurs.",
+      "Avoid monitoring because it’s only a laxative."
+    ],
+    "answer": [
+      "Monitor mental status and stool frequency.",
+      "Encourage fluids as appropriate.",
+      "Monitor electrolytes if diarrhea occurs."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Ammonia reduction; avoid dehydration/electrolyte imbalance."
+  },
+  {
+    "id": "HESI-PHARM-0067",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Gout-medication SE",
+    "qtype": "single",
+    "stem": "Gout-medication SE: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Allopurinol: report rash immediately (hypersensitivity).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Allopurinol: report rash immediately (hypersensitivity).",
+    "rationale": "Correct: Allopurinol: report rash immediately (hypersensitivity). Rash and GI toxicity are high-yield."
+  },
+  {
+    "id": "HESI-PHARM-0068",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Gout-medication SE",
+    "qtype": "single",
+    "stem": "Gout-medication SE: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Colchicine: diarrhea can indicate toxicity.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Colchicine: diarrhea can indicate toxicity.",
+    "rationale": "Correct: Colchicine: diarrhea can indicate toxicity. Rash and GI toxicity are high-yield."
+  },
+  {
+    "id": "HESI-PHARM-0069",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Gout-medication SE",
+    "qtype": "sata",
+    "stem": "Gout-medication SE: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Take NSAIDs with food and report GI bleeding signs.",
+      "Avoid alcohol triggers as instructed.",
+      "Continue urate-lowering therapy as directed (not for acute pain only).",
+      "Double colchicine dose if diarrhea starts.",
+      "Stop meds whenever pain improves.",
+      "Ignore rash because it is common."
+    ],
+    "answer": [
+      "Take NSAIDs with food and report GI bleeding signs.",
+      "Avoid alcohol triggers as instructed.",
+      "Continue urate-lowering therapy as directed (not for acute pain only)."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Rash and GI toxicity are high-yield."
+  },
+  {
+    "id": "HESI-PHARM-0070",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "diclofenac- fractures",
+    "qtype": "single",
+    "stem": "diclofenac- fractures: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Black tarry stools while taking diclofenac suggest GI bleeding.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Black tarry stools while taking diclofenac suggest GI bleeding.",
+    "rationale": "Correct: Black tarry stools while taking diclofenac suggest GI bleeding. NSAID GI bleed risk is key."
+  },
+  {
+    "id": "HESI-PHARM-0071",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "diclofenac- fractures",
+    "qtype": "single",
+    "stem": "diclofenac- fractures: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Avoid combining multiple NSAIDs to reduce bleeding/renal risk.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Avoid combining multiple NSAIDs to reduce bleeding/renal risk.",
+    "rationale": "Correct: Avoid combining multiple NSAIDs to reduce bleeding/renal risk. NSAID GI bleed risk is key."
+  },
+  {
+    "id": "HESI-PHARM-0072",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "diclofenac- fractures",
+    "qtype": "sata",
+    "stem": "diclofenac- fractures: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Take with food if GI upset occurs.",
+      "Report melena or hematemesis.",
+      "Use the lowest effective dose per plan.",
+      "Add aspirin daily without guidance.",
+      "Take on an empty stomach to increase effect.",
+      "Ignore abdominal pain."
+    ],
+    "answer": [
+      "Take with food if GI upset occurs.",
+      "Report melena or hematemesis.",
+      "Use the lowest effective dose per plan."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. NSAID GI bleed risk is key."
+  },
+  {
+    "id": "HESI-PHARM-0073",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Tylenol & liver toxicity",
+    "qtype": "single",
+    "stem": "Tylenol & liver toxicity: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Chronic alcohol use increases acetaminophen hepatotoxicity risk.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Chronic alcohol use increases acetaminophen hepatotoxicity risk.",
+    "rationale": "Correct: Chronic alcohol use increases acetaminophen hepatotoxicity risk. Max daily dose + alcohol interaction."
+  },
+  {
+    "id": "HESI-PHARM-0074",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Tylenol & liver toxicity",
+    "qtype": "single",
+    "stem": "Tylenol & liver toxicity: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "RUQ pain + jaundice/dark urine suggest liver injury.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "RUQ pain + jaundice/dark urine suggest liver injury.",
+    "rationale": "Correct: RUQ pain + jaundice/dark urine suggest liver injury. Max daily dose + alcohol interaction."
+  },
+  {
+    "id": "HESI-PHARM-0075",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Tylenol & liver toxicity",
+    "qtype": "sata",
+    "stem": "Tylenol & liver toxicity: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Track total daily acetaminophen from all products.",
+      "Avoid alcohol while taking.",
+      "Report jaundice or RUQ pain.",
+      "Assume OTC means unlimited dosing.",
+      "Double dose if pain persists.",
+      "Take with alcohol for better sleep."
+    ],
+    "answer": [
+      "Track total daily acetaminophen from all products.",
+      "Avoid alcohol while taking.",
+      "Report jaundice or RUQ pain."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Max daily dose + alcohol interaction."
+  },
+  {
+    "id": "HESI-PHARM-0076",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Hemophilia-DDAVP",
+    "qtype": "single",
+    "stem": "Hemophilia-DDAVP: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "DDAVP increases release of factor VIII and von Willebrand factor.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "DDAVP increases release of factor VIII and von Willebrand factor.",
+    "rationale": "Correct: DDAVP increases release of factor VIII and von Willebrand factor. Water retention → hyponatremia risk."
+  },
+  {
+    "id": "HESI-PHARM-0077",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Hemophilia-DDAVP",
+    "qtype": "single",
+    "stem": "Hemophilia-DDAVP: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Hyponatremia/water intoxication is a key adverse effect—fluid restriction may be ordered.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Hyponatremia/water intoxication is a key adverse effect—fluid restriction may be ordered.",
+    "rationale": "Correct: Hyponatremia/water intoxication is a key adverse effect—fluid restriction may be ordered. Water retention → hyponatremia risk."
+  },
+  {
+    "id": "HESI-PHARM-0078",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Hemophilia-DDAVP",
+    "qtype": "sata",
+    "stem": "Hemophilia-DDAVP: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor sodium as ordered.",
+      "Report headache/confusion.",
+      "Follow fluid restriction instructions.",
+      "Drink unlimited water.",
+      "Expect hypernatremia.",
+      "Use DDAVP to dissolve clots."
+    ],
+    "answer": [
+      "Monitor sodium as ordered.",
+      "Report headache/confusion.",
+      "Follow fluid restriction instructions."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Water retention → hyponatremia risk."
+  },
+  {
+    "id": "HESI-PHARM-0079",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Azathioprine Transplant Rejection",
+    "qtype": "single",
+    "stem": "Azathioprine Transplant Rejection: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Azathioprine can cause bone marrow suppression—monitor CBC.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Azathioprine can cause bone marrow suppression—monitor CBC.",
+    "rationale": "Correct: Azathioprine can cause bone marrow suppression—monitor CBC. Immunosuppression → infection risk; CBC monitoring."
+  },
+  {
+    "id": "HESI-PHARM-0080",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Azathioprine Transplant Rejection",
+    "qtype": "single",
+    "stem": "Azathioprine Transplant Rejection: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Report fever/sore throat promptly due to infection risk.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Report fever/sore throat promptly due to infection risk.",
+    "rationale": "Correct: Report fever/sore throat promptly due to infection risk. Immunosuppression → infection risk; CBC monitoring."
+  },
+  {
+    "id": "HESI-PHARM-0081",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Azathioprine Transplant Rejection",
+    "qtype": "sata",
+    "stem": "Azathioprine Transplant Rejection: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Avoid sick contacts and practice hand hygiene.",
+      "Do not stop immunosuppressants abruptly.",
+      "Follow lab monitoring schedule (CBC/LFTs).",
+      "Take live vaccines without provider approval.",
+      "Increase raw/undercooked foods.",
+      "Skip lab monitoring if feeling well."
+    ],
+    "answer": [
+      "Avoid sick contacts and practice hand hygiene.",
+      "Do not stop immunosuppressants abruptly.",
+      "Follow lab monitoring schedule (CBC/LFTs)."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Immunosuppression → infection risk; CBC monitoring."
+  },
+  {
+    "id": "HESI-PHARM-0082",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Alendronate- reinforce",
+    "qtype": "single",
+    "stem": "Alendronate- reinforce: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Take alendronate in morning with water only and remain upright 30 minutes.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Take alendronate in morning with water only and remain upright 30 minutes.",
+    "rationale": "Correct: Take alendronate in morning with water only and remain upright 30 minutes. Esophageal irritation + administration rules."
+  },
+  {
+    "id": "HESI-PHARM-0083",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Alendronate- reinforce",
+    "qtype": "single",
+    "stem": "Alendronate- reinforce: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "New heartburn/dysphagia may indicate esophagitis—report promptly.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "New heartburn/dysphagia may indicate esophagitis—report promptly.",
+    "rationale": "Correct: New heartburn/dysphagia may indicate esophagitis—report promptly. Esophageal irritation + administration rules."
+  },
+  {
+    "id": "HESI-PHARM-0084",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Alendronate- reinforce",
+    "qtype": "sata",
+    "stem": "Alendronate- reinforce: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Do not lie down after taking.",
+      "Avoid taking with calcium/food at same time.",
+      "Ensure adequate calcium/vitamin D intake as directed.",
+      "Take at bedtime with milk.",
+      "Crush and mix with juice.",
+      "Lie down to reduce nausea."
+    ],
+    "answer": [
+      "Do not lie down after taking.",
+      "Avoid taking with calcium/food at same time.",
+      "Ensure adequate calcium/vitamin D intake as directed."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Esophageal irritation + administration rules."
+  },
+  {
+    "id": "HESI-PHARM-0085",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Furosemide - adverse effects",
+    "qtype": "single",
+    "stem": "Furosemide - adverse effects: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Furosemide commonly causes hypokalemia.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Furosemide commonly causes hypokalemia.",
+    "rationale": "Correct: Furosemide commonly causes hypokalemia. Hypokalemia + ototoxicity."
+  },
+  {
+    "id": "HESI-PHARM-0086",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Furosemide - adverse effects",
+    "qtype": "single",
+    "stem": "Furosemide - adverse effects: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Hearing changes can indicate ototoxicity (especially rapid/high-dose IV).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Hearing changes can indicate ototoxicity (especially rapid/high-dose IV).",
+    "rationale": "Correct: Hearing changes can indicate ototoxicity (especially rapid/high-dose IV). Hypokalemia + ototoxicity."
+  },
+  {
+    "id": "HESI-PHARM-0087",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Furosemide - adverse effects",
+    "qtype": "sata",
+    "stem": "Furosemide - adverse effects: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor potassium and replace as ordered.",
+      "Daily weights for HF clients.",
+      "Report dizziness or palpitations.",
+      "Expect hyperkalemia.",
+      "Stop all fluids automatically.",
+      "Ignore tinnitus/hearing changes."
+    ],
+    "answer": [
+      "Monitor potassium and replace as ordered.",
+      "Daily weights for HF clients.",
+      "Report dizziness or palpitations."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Hypokalemia + ototoxicity."
+  },
+  {
+    "id": "HESI-PHARM-0088",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Theophylline - toxicity",
+    "qtype": "single",
+    "stem": "Theophylline - toxicity: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Theophylline has a narrow therapeutic index; toxicity causes N/V and tachycardia.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Theophylline has a narrow therapeutic index; toxicity causes N/V and tachycardia.",
+    "rationale": "Correct: Theophylline has a narrow therapeutic index; toxicity causes N/V and tachycardia. Levels + interactions are critical."
+  },
+  {
+    "id": "HESI-PHARM-0089",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Theophylline - toxicity",
+    "qtype": "single",
+    "stem": "Theophylline - toxicity: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Drug interactions (e.g., erythromycin) can increase levels/toxicity.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Drug interactions (e.g., erythromycin) can increase levels/toxicity.",
+    "rationale": "Correct: Drug interactions (e.g., erythromycin) can increase levels/toxicity. Levels + interactions are critical."
+  },
+  {
+    "id": "HESI-PHARM-0090",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Theophylline - toxicity",
+    "qtype": "sata",
+    "stem": "Theophylline - toxicity: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Hold dose and obtain serum level if toxicity suspected.",
+      "Limit caffeine/stimulants.",
+      "Report palpitations or persistent vomiting.",
+      "Double dose to prevent bronchospasm.",
+      "Ignore vomiting as expected.",
+      "Start new meds without informing provider."
+    ],
+    "answer": [
+      "Hold dose and obtain serum level if toxicity suspected.",
+      "Limit caffeine/stimulants.",
+      "Report palpitations or persistent vomiting."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Levels + interactions are critical."
+  },
+  {
+    "id": "HESI-PHARM-0091",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "GI Meds",
+    "qtype": "single",
+    "stem": "GI Meds: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "PPIs (e.g., omeprazole) work best taken before meals; not immediate relief.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "PPIs (e.g., omeprazole) work best taken before meals; not immediate relief.",
+    "rationale": "Correct: PPIs (e.g., omeprazole) work best taken before meals; not immediate relief. Administration timing + QT risk."
+  },
+  {
+    "id": "HESI-PHARM-0092",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "GI Meds",
+    "qtype": "single",
+    "stem": "GI Meds: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Ondansetron can prolong QT in susceptible clients.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Ondansetron can prolong QT in susceptible clients.",
+    "rationale": "Correct: Ondansetron can prolong QT in susceptible clients. Administration timing + QT risk."
+  },
+  {
+    "id": "HESI-PHARM-0093",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "GI Meds",
+    "qtype": "sata",
+    "stem": "GI Meds: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Take PPI before breakfast as directed.",
+      "Report persistent diarrhea (C. diff risk).",
+      "Tell provider about QT-prolonging meds history.",
+      "Crush all delayed-release capsules.",
+      "Take PPI only PRN for instant relief.",
+      "Ignore palpitations/syncope on ondansetron."
+    ],
+    "answer": [
+      "Take PPI before breakfast as directed.",
+      "Report persistent diarrhea (C. diff risk).",
+      "Tell provider about QT-prolonging meds history."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Administration timing + QT risk."
+  },
+  {
+    "id": "HESI-PHARM-0094",
+    "bank": "HESI Pharmacy",
+    "system": "Ethics/Legal/Professional",
+    "topic": "Medication admin",
+    "qtype": "single",
+    "stem": "Medication admin: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "After giving PRN opioid, document reassessment and response.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "After giving PRN opioid, document reassessment and response.",
+    "rationale": "Correct: After giving PRN opioid, document reassessment and response. Legal/quality documentation essentials."
+  },
+  {
+    "id": "HESI-PHARM-0095",
+    "bank": "HESI Pharmacy",
+    "system": "Ethics/Legal/Professional",
+    "topic": "Medication admin",
+    "qtype": "single",
+    "stem": "Medication admin: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "If patient refuses, document refusal, reason, teaching, and notifications.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "If patient refuses, document refusal, reason, teaching, and notifications.",
+    "rationale": "Correct: If patient refuses, document refusal, reason, teaching, and notifications. Legal/quality documentation essentials."
+  },
+  {
+    "id": "HESI-PHARM-0096",
+    "bank": "HESI Pharmacy",
+    "system": "Ethics/Legal/Professional",
+    "topic": "Medication admin",
+    "qtype": "sata",
+    "stem": "Medication admin: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Document time, dose, route, and patient response.",
+      "Hold and clarify unclear orders.",
+      "Use objective language (no blame).",
+      "Chart after the shift only.",
+      "Document 'noncompliant' without details.",
+      "Change the order time to look on-time."
+    ],
+    "answer": [
+      "Document time, dose, route, and patient response.",
+      "Hold and clarify unclear orders.",
+      "Use objective language (no blame)."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Legal/quality documentation essentials."
+  },
+  {
+    "id": "HESI-PHARM-0097",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Bisacodyl - evaluate",
+    "qtype": "single",
+    "stem": "Bisacodyl - evaluate: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Bisacodyl is a stimulant laxative; effectiveness = stool passage and reduced distention.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Bisacodyl is a stimulant laxative; effectiveness = stool passage and reduced distention.",
+    "rationale": "Correct: Bisacodyl is a stimulant laxative; effectiveness = stool passage and reduced distention. Measure outcomes; prevent misuse."
+  },
+  {
+    "id": "HESI-PHARM-0098",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Bisacodyl - evaluate",
+    "qtype": "single",
+    "stem": "Bisacodyl - evaluate: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Chronic daily use can cause dependence/electrolyte issues.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Chronic daily use can cause dependence/electrolyte issues.",
+    "rationale": "Correct: Chronic daily use can cause dependence/electrolyte issues. Measure outcomes; prevent misuse."
+  },
+  {
+    "id": "HESI-PHARM-0099",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Bisacodyl - evaluate",
+    "qtype": "sata",
+    "stem": "Bisacodyl - evaluate: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Increase fiber/fluids if allowed.",
+      "Use short-term unless directed.",
+      "Report rectal bleeding or severe abdominal pain.",
+      "Use daily long-term routinely.",
+      "Avoid activity because it worsens constipation.",
+      "Take extra doses hourly."
+    ],
+    "answer": [
+      "Increase fiber/fluids if allowed.",
+      "Use short-term unless directed.",
+      "Report rectal bleeding or severe abdominal pain."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Measure outcomes; prevent misuse."
+  },
+  {
+    "id": "HESI-PHARM-0100",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "Medication prepartion",
+    "qtype": "single",
+    "stem": "Medication prepartion: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Do not mix insulin glargine with other insulins.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Do not mix insulin glargine with other insulins.",
+    "rationale": "Correct: Do not mix insulin glargine with other insulins. Mixing rules prevent dosing errors."
+  },
+  {
+    "id": "HESI-PHARM-0101",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "Medication prepartion",
+    "qtype": "single",
+    "stem": "Medication prepartion: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "When mixing NPH and regular insulin: draw up clear (regular) before cloudy (NPH).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "When mixing NPH and regular insulin: draw up clear (regular) before cloudy (NPH).",
+    "rationale": "Correct: When mixing NPH and regular insulin: draw up clear (regular) before cloudy (NPH). Mixing rules prevent dosing errors."
+  },
+  {
+    "id": "HESI-PHARM-0102",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "Medication prepartion",
+    "qtype": "sata",
+    "stem": "Medication prepartion: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Verify medication rights and label syringes.",
+      "Use aseptic technique.",
+      "Discard vials with particulates or contamination.",
+      "Shake insulin vigorously.",
+      "Mix glargine with regular in same syringe.",
+      "Use expired vials if unopened."
+    ],
+    "answer": [
+      "Verify medication rights and label syringes.",
+      "Use aseptic technique.",
+      "Discard vials with particulates or contamination."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Mixing rules prevent dosing errors."
+  },
+  {
+    "id": "HESI-PHARM-0103",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Mannitol",
+    "qtype": "single",
+    "stem": "Mannitol: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Mannitol is used to decrease intracranial pressure (ICP).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Mannitol is used to decrease intracranial pressure (ICP).",
+    "rationale": "Correct: Mannitol is used to decrease intracranial pressure (ICP). Osmotic shifts can precipitate pulmonary edema."
+  },
+  {
+    "id": "HESI-PHARM-0104",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Mannitol",
+    "qtype": "single",
+    "stem": "Mannitol: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Crackles/pulmonary edema during therapy requires immediate intervention.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Crackles/pulmonary edema during therapy requires immediate intervention.",
+    "rationale": "Correct: Crackles/pulmonary edema during therapy requires immediate intervention. Osmotic shifts can precipitate pulmonary edema."
+  },
+  {
+    "id": "HESI-PHARM-0105",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Mannitol",
+    "qtype": "sata",
+    "stem": "Mannitol: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor I&O and serum osmolality as ordered.",
+      "Assess lung sounds and volume status.",
+      "Evaluate neuro status for ICP improvement.",
+      "Restrict monitoring because it is a diuretic.",
+      "Give extra fluids automatically despite crackles.",
+      "Ignore worsening dyspnea."
+    ],
+    "answer": [
+      "Monitor I&O and serum osmolality as ordered.",
+      "Assess lung sounds and volume status.",
+      "Evaluate neuro status for ICP improvement."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Osmotic shifts can precipitate pulmonary edema."
+  },
+  {
+    "id": "HESI-PHARM-0106",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Gabapentin - evaluate",
+    "qtype": "single",
+    "stem": "Gabapentin - evaluate: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Gabapentin is used for neuropathic pain; effectiveness = improved sleep/function.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Gabapentin is used for neuropathic pain; effectiveness = improved sleep/function.",
+    "rationale": "Correct: Gabapentin is used for neuropathic pain; effectiveness = improved sleep/function. CNS depression + tapering."
+  },
+  {
+    "id": "HESI-PHARM-0107",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Gabapentin - evaluate",
+    "qtype": "single",
+    "stem": "Gabapentin - evaluate: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Dizziness/sedation increases fall risk—avoid driving until effects known.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Dizziness/sedation increases fall risk—avoid driving until effects known.",
+    "rationale": "Correct: Dizziness/sedation increases fall risk—avoid driving until effects known. CNS depression + tapering."
+  },
+  {
+    "id": "HESI-PHARM-0108",
+    "bank": "HESI Pharmacy",
+    "system": "Neurologic",
+    "topic": "Gabapentin - evaluate",
+    "qtype": "sata",
+    "stem": "Gabapentin - evaluate: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Taper rather than stop abruptly if long-term.",
+      "Monitor for dizziness/somnolence.",
+      "Use caution with other CNS depressants.",
+      "Combine with alcohol for better effect.",
+      "Stop abruptly once pain improves.",
+      "Take only PRN for seizure prevention."
+    ],
+    "answer": [
+      "Taper rather than stop abruptly if long-term.",
+      "Monitor for dizziness/somnolence.",
+      "Use caution with other CNS depressants."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. CNS depression + tapering."
+  },
+  {
+    "id": "HESI-PHARM-0109",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "SSRI-complication",
+    "qtype": "single",
+    "stem": "SSRI-complication: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Serotonin syndrome is a serious SSRI complication (fever, clonus, agitation).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Serotonin syndrome is a serious SSRI complication (fever, clonus, agitation).",
+    "rationale": "Correct: Serotonin syndrome is a serious SSRI complication (fever, clonus, agitation). Recognize serotonin syndrome and interaction risk."
+  },
+  {
+    "id": "HESI-PHARM-0110",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "SSRI-complication",
+    "qtype": "single",
+    "stem": "SSRI-complication: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Combining SSRIs with MAOIs/linezolid increases risk.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Combining SSRIs with MAOIs/linezolid increases risk.",
+    "rationale": "Correct: Combining SSRIs with MAOIs/linezolid increases risk. Recognize serotonin syndrome and interaction risk."
+  },
+  {
+    "id": "HESI-PHARM-0111",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "SSRI-complication",
+    "qtype": "sata",
+    "stem": "SSRI-complication: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Report agitation, fever, diarrhea, sweating, tremor.",
+      "Avoid starting serotonergic interacting meds without provider.",
+      "Do not stop abruptly without guidance.",
+      "Take SSRI with MAOI to speed response.",
+      "Ignore muscle rigidity.",
+      "Add St. John’s wort without telling provider."
+    ],
+    "answer": [
+      "Report agitation, fever, diarrhea, sweating, tremor.",
+      "Avoid starting serotonergic interacting meds without provider.",
+      "Do not stop abruptly without guidance."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Recognize serotonin syndrome and interaction risk."
+  },
+  {
+    "id": "HESI-PHARM-0112",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Promethazine",
+    "qtype": "single",
+    "stem": "Promethazine: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Promethazine causes sedation—avoid alcohol/other CNS depressants.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Promethazine causes sedation—avoid alcohol/other CNS depressants.",
+    "rationale": "Correct: Promethazine causes sedation—avoid alcohol/other CNS depressants. CNS depression + IV injury risk."
+  },
+  {
+    "id": "HESI-PHARM-0113",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Promethazine",
+    "qtype": "single",
+    "stem": "Promethazine: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "IV promethazine has severe tissue injury/extravasation risk—use caution per policy.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "IV promethazine has severe tissue injury/extravasation risk—use caution per policy.",
+    "rationale": "Correct: IV promethazine has severe tissue injury/extravasation risk—use caution per policy. CNS depression + IV injury risk."
+  },
+  {
+    "id": "HESI-PHARM-0114",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Promethazine",
+    "qtype": "sata",
+    "stem": "Promethazine: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Assess level of sedation and fall risk.",
+      "Use correct route and dilution per protocol.",
+      "Teach not to drive until response known.",
+      "Take with alcohol to reduce nausea.",
+      "Inject into small hand veins routinely.",
+      "Double dose if nausea persists."
+    ],
+    "answer": [
+      "Assess level of sedation and fall risk.",
+      "Use correct route and dilution per protocol.",
+      "Teach not to drive until response known."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. CNS depression + IV injury risk."
+  },
+  {
+    "id": "HESI-PHARM-0115",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Epoetin-treat anemia",
+    "qtype": "single",
+    "stem": "Epoetin-treat anemia: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Epoetin stimulates RBC production; monitor for hypertension and thrombotic events.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Epoetin stimulates RBC production; monitor for hypertension and thrombotic events.",
+    "rationale": "Correct: Epoetin stimulates RBC production; monitor for hypertension and thrombotic events. Thrombosis/HTN risk; needs iron."
+  },
+  {
+    "id": "HESI-PHARM-0116",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Epoetin-treat anemia",
+    "qtype": "single",
+    "stem": "Epoetin-treat anemia: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Iron stores may need assessment/supplementation for effectiveness.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Iron stores may need assessment/supplementation for effectiveness.",
+    "rationale": "Correct: Iron stores may need assessment/supplementation for effectiveness. Thrombosis/HTN risk; needs iron."
+  },
+  {
+    "id": "HESI-PHARM-0117",
+    "bank": "HESI Pharmacy",
+    "system": "Immune/Hematology",
+    "topic": "Epoetin-treat anemia",
+    "qtype": "sata",
+    "stem": "Epoetin-treat anemia: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor Hgb/Hct per protocol.",
+      "Monitor BP regularly.",
+      "Assess iron studies and supplement if ordered.",
+      "Expect immediate effect in minutes.",
+      "Hold BP checks because it lowers BP.",
+      "Use if uncontrolled HTN without caution."
+    ],
+    "answer": [
+      "Monitor Hgb/Hct per protocol.",
+      "Monitor BP regularly.",
+      "Assess iron studies and supplement if ordered."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Thrombosis/HTN risk; needs iron."
+  },
+  {
+    "id": "HESI-PHARM-0118",
+    "bank": "HESI Pharmacy",
+    "system": "Infectious Disease/Micro",
+    "topic": "Flagyl",
+    "qtype": "single",
+    "stem": "Flagyl: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Metronidazole: avoid alcohol during therapy and for ~3 days after (disulfiram-like).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Metronidazole: avoid alcohol during therapy and for ~3 days after (disulfiram-like).",
+    "rationale": "Correct: Metronidazole: avoid alcohol during therapy and for ~3 days after (disulfiram-like). Alcohol reaction + neuropathy risk."
+  },
+  {
+    "id": "HESI-PHARM-0119",
+    "bank": "HESI Pharmacy",
+    "system": "Infectious Disease/Micro",
+    "topic": "Flagyl",
+    "qtype": "single",
+    "stem": "Flagyl: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Metallic taste and dark urine can occur; neuro symptoms warrant evaluation.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Metallic taste and dark urine can occur; neuro symptoms warrant evaluation.",
+    "rationale": "Correct: Metallic taste and dark urine can occur; neuro symptoms warrant evaluation. Alcohol reaction + neuropathy risk."
+  },
+  {
+    "id": "HESI-PHARM-0120",
+    "bank": "HESI Pharmacy",
+    "system": "Infectious Disease/Micro",
+    "topic": "Flagyl",
+    "qtype": "sata",
+    "stem": "Flagyl: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Avoid alcohol and alcohol-containing products.",
+      "Take full course as prescribed.",
+      "Report numbness/tingling or seizures.",
+      "Drink alcohol to reduce GI upset.",
+      "Stop when diarrhea resolves.",
+      "Take with warfarin without monitoring."
+    ],
+    "answer": [
+      "Avoid alcohol and alcohol-containing products.",
+      "Take full course as prescribed.",
+      "Report numbness/tingling or seizures."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Alcohol reaction + neuropathy risk."
+  },
+  {
+    "id": "HESI-PHARM-0121",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Bismuth subsalicylate",
+    "qtype": "single",
+    "stem": "Bismuth subsalicylate: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Bismuth can turn stools/tongue black (expected, harmless).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Bismuth can turn stools/tongue black (expected, harmless).",
+    "rationale": "Correct: Bismuth can turn stools/tongue black (expected, harmless). Salicylate cautions + harmless discoloration."
+  },
+  {
+    "id": "HESI-PHARM-0122",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Bismuth subsalicylate",
+    "qtype": "single",
+    "stem": "Bismuth subsalicylate: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Avoid in children/teens with viral illness due to salicylate (Reye risk).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Avoid in children/teens with viral illness due to salicylate (Reye risk).",
+    "rationale": "Correct: Avoid in children/teens with viral illness due to salicylate (Reye risk). Salicylate cautions + harmless discoloration."
+  },
+  {
+    "id": "HESI-PHARM-0123",
+    "bank": "HESI Pharmacy",
+    "system": "GI/Hepatic",
+    "topic": "Bismuth subsalicylate",
+    "qtype": "sata",
+    "stem": "Bismuth subsalicylate: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Do not use with salicylate allergy.",
+      "Avoid in children with viral illness.",
+      "Report ringing in ears (salicylate toxicity).",
+      "Take with anticoagulants without caution.",
+      "Ignore tinnitus.",
+      "Use to treat severe dehydration."
+    ],
+    "answer": [
+      "Do not use with salicylate allergy.",
+      "Avoid in children with viral illness.",
+      "Report ringing in ears (salicylate toxicity)."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Salicylate cautions + harmless discoloration."
+  },
+  {
+    "id": "HESI-PHARM-0124",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Baclofen - reinforce",
+    "qtype": "single",
+    "stem": "Baclofen - reinforce: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Baclofen is a muscle relaxant; causes CNS depression—avoid driving initially.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Baclofen is a muscle relaxant; causes CNS depression—avoid driving initially.",
+    "rationale": "Correct: Baclofen is a muscle relaxant; causes CNS depression—avoid driving initially. Sedation + withdrawal risk."
+  },
+  {
+    "id": "HESI-PHARM-0125",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Baclofen - reinforce",
+    "qtype": "single",
+    "stem": "Baclofen - reinforce: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Do not stop abruptly (withdrawal, seizures/hallucinations).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Do not stop abruptly (withdrawal, seizures/hallucinations).",
+    "rationale": "Correct: Do not stop abruptly (withdrawal, seizures/hallucinations). Sedation + withdrawal risk."
+  },
+  {
+    "id": "HESI-PHARM-0126",
+    "bank": "HESI Pharmacy",
+    "system": "Musculoskeletal",
+    "topic": "Baclofen - reinforce",
+    "qtype": "sata",
+    "stem": "Baclofen - reinforce: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Take as prescribed; taper if discontinuing.",
+      "Avoid alcohol/CNS depressants.",
+      "Report excessive weakness or confusion.",
+      "Stop suddenly once spasms improve.",
+      "Combine with alcohol to enhance relaxation.",
+      "Drive immediately after first dose."
+    ],
+    "answer": [
+      "Take as prescribed; taper if discontinuing.",
+      "Avoid alcohol/CNS depressants.",
+      "Report excessive weakness or confusion."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Sedation + withdrawal risk."
+  },
+  {
+    "id": "HESI-PHARM-0127",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Lithium toxicity",
+    "qtype": "single",
+    "stem": "Lithium toxicity: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Dehydration/diuretics/NSAIDs can increase lithium levels and toxicity.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Dehydration/diuretics/NSAIDs can increase lithium levels and toxicity.",
+    "rationale": "Correct: Dehydration/diuretics/NSAIDs can increase lithium levels and toxicity. Narrow therapeutic index + sodium/fluid balance."
+  },
+  {
+    "id": "HESI-PHARM-0128",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Lithium toxicity",
+    "qtype": "single",
+    "stem": "Lithium toxicity: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Early toxicity: GI upset, coarse tremor, ataxia.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Early toxicity: GI upset, coarse tremor, ataxia.",
+    "rationale": "Correct: Early toxicity: GI upset, coarse tremor, ataxia. Narrow therapeutic index + sodium/fluid balance."
+  },
+  {
+    "id": "HESI-PHARM-0129",
+    "bank": "HESI Pharmacy",
+    "system": "Psych/Mental Health",
+    "topic": "Lithium toxicity",
+    "qtype": "sata",
+    "stem": "Lithium toxicity: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Maintain consistent fluid and sodium intake.",
+      "Get serum lithium levels as ordered.",
+      "Report vomiting, diarrhea, tremor, confusion.",
+      "Start NSAIDs daily without telling provider.",
+      "Restrict fluids aggressively.",
+      "Double dose if missed."
+    ],
+    "answer": [
+      "Maintain consistent fluid and sodium intake.",
+      "Get serum lithium levels as ordered.",
+      "Report vomiting, diarrhea, tremor, confusion."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Narrow therapeutic index + sodium/fluid balance."
+  },
+  {
+    "id": "HESI-PHARM-0130",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Protamine sulfate",
+    "qtype": "single",
+    "stem": "Protamine sulfate: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Protamine reverses heparin.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Protamine reverses heparin.",
+    "rationale": "Correct: Protamine reverses heparin. Heparin antidote + reaction risk."
+  },
+  {
+    "id": "HESI-PHARM-0131",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Protamine sulfate",
+    "qtype": "single",
+    "stem": "Protamine sulfate: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Rapid infusion can cause severe hypotension/anaphylactoid reactions—monitor closely.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Rapid infusion can cause severe hypotension/anaphylactoid reactions—monitor closely.",
+    "rationale": "Correct: Rapid infusion can cause severe hypotension/anaphylactoid reactions—monitor closely. Heparin antidote + reaction risk."
+  },
+  {
+    "id": "HESI-PHARM-0132",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Protamine sulfate",
+    "qtype": "sata",
+    "stem": "Protamine sulfate: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Monitor BP and respiratory status during administration.",
+      "Have emergency meds/equipment available per protocol.",
+      "Verify recent heparin exposure and dose.",
+      "Give to reverse warfarin.",
+      "Push IV rapidly to finish quickly.",
+      "Ignore wheezing/hypotension."
+    ],
+    "answer": [
+      "Monitor BP and respiratory status during administration.",
+      "Have emergency meds/equipment available per protocol.",
+      "Verify recent heparin exposure and dose."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Heparin antidote + reaction risk."
+  },
+  {
+    "id": "HESI-PHARM-0133",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Statins-report adverse effect",
+    "qtype": "single",
+    "stem": "Statins-report adverse effect: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Muscle pain/weakness with dark urine suggests rhabdomyolysis—report immediately.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Muscle pain/weakness with dark urine suggests rhabdomyolysis—report immediately.",
+    "rationale": "Correct: Muscle pain/weakness with dark urine suggests rhabdomyolysis—report immediately. Myopathy/rhabdo is the big safety flag."
+  },
+  {
+    "id": "HESI-PHARM-0134",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Statins-report adverse effect",
+    "qtype": "single",
+    "stem": "Statins-report adverse effect: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Grapefruit can increase levels of some statins (interaction).",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Grapefruit can increase levels of some statins (interaction).",
+    "rationale": "Correct: Grapefruit can increase levels of some statins (interaction). Myopathy/rhabdo is the big safety flag."
+  },
+  {
+    "id": "HESI-PHARM-0135",
+    "bank": "HESI Pharmacy",
+    "system": "Cardiovascular",
+    "topic": "Statins-report adverse effect",
+    "qtype": "sata",
+    "stem": "Statins-report adverse effect: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Report unexplained muscle pain/weakness.",
+      "Avoid grapefruit if instructed.",
+      "LFT monitoring may be ordered.",
+      "Take extra doses for faster effect.",
+      "Stop diet/exercise changes.",
+      "Ignore dark urine."
+    ],
+    "answer": [
+      "Report unexplained muscle pain/weakness.",
+      "Avoid grapefruit if instructed.",
+      "LFT monitoring may be ordered."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Myopathy/rhabdo is the big safety flag."
+  },
+  {
+    "id": "HESI-PHARM-0136",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Nephrotoxic drug",
+    "qtype": "single",
+    "stem": "Nephrotoxic drug: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Aminoglycosides are classically nephrotoxic; monitor creatinine and I&O.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Aminoglycosides are classically nephrotoxic; monitor creatinine and I&O.",
+    "rationale": "Correct: Aminoglycosides are classically nephrotoxic; monitor creatinine and I&O. Early detection relies on labs/monitoring."
+  },
+  {
+    "id": "HESI-PHARM-0137",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Nephrotoxic drug",
+    "qtype": "single",
+    "stem": "Nephrotoxic drug: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Rising serum creatinine is an early indicator of kidney injury.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Rising serum creatinine is an early indicator of kidney injury.",
+    "rationale": "Correct: Rising serum creatinine is an early indicator of kidney injury. Early detection relies on labs/monitoring."
+  },
+  {
+    "id": "HESI-PHARM-0138",
+    "bank": "HESI Pharmacy",
+    "system": "Renal/Urinary",
+    "topic": "Nephrotoxic drug",
+    "qtype": "sata",
+    "stem": "Nephrotoxic drug: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Ensure adequate hydration if appropriate.",
+      "Monitor renal labs and trough levels when ordered.",
+      "Avoid additional nephrotoxins concurrently if possible.",
+      "Stop monitoring once urine output increases.",
+      "Assume kidney injury is always symptomatic early.",
+      "Use without dose adjustment in renal impairment."
+    ],
+    "answer": [
+      "Ensure adequate hydration if appropriate.",
+      "Monitor renal labs and trough levels when ordered.",
+      "Avoid additional nephrotoxins concurrently if possible."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Early detection relies on labs/monitoring."
+  },
+  {
+    "id": "HESI-PHARM-0139",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "IM-mg & ml",
+    "qtype": "single",
+    "stem": "IM-mg & ml: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Dose calculation: mL = ordered dose / concentration.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Dose calculation: mL = ordered dose / concentration.",
+    "rationale": "Correct: Dose calculation: mL = ordered dose / concentration. Math + safe technique."
+  },
+  {
+    "id": "HESI-PHARM-0140",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "IM-mg & ml",
+    "qtype": "single",
+    "stem": "IM-mg & ml: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Verify safe injection volume/site based on med and patient factors.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Verify safe injection volume/site based on med and patient factors.",
+    "rationale": "Correct: Verify safe injection volume/site based on med and patient factors. Math + safe technique."
+  },
+  {
+    "id": "HESI-PHARM-0141",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "IM-mg & ml",
+    "qtype": "sata",
+    "stem": "IM-mg & ml: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Use correct syringe/needle for IM.",
+      "Aspirate only if facility policy indicates.",
+      "Document site, dose, and patient response.",
+      "Guess volume if in a hurry.",
+      "Inject in same exact site repeatedly.",
+      "Skip independent double-check for high-alert meds."
+    ],
+    "answer": [
+      "Use correct syringe/needle for IM.",
+      "Aspirate only if facility policy indicates.",
+      "Document site, dose, and patient response."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Math + safe technique."
+  },
+  {
+    "id": "HESI-PHARM-0142",
+    "bank": "HESI Pharmacy",
+    "system": "Special Senses (Eye/Ear)",
+    "topic": "Ocular lubricant - reinforce",
+    "qtype": "single",
+    "stem": "Ocular lubricant - reinforce: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Do not touch dropper tip to eye to avoid contamination.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Do not touch dropper tip to eye to avoid contamination.",
+    "rationale": "Correct: Do not touch dropper tip to eye to avoid contamination. Sterility + proper sequencing."
+  },
+  {
+    "id": "HESI-PHARM-0143",
+    "bank": "HESI Pharmacy",
+    "system": "Special Senses (Eye/Ear)",
+    "topic": "Ocular lubricant - reinforce",
+    "qtype": "single",
+    "stem": "Ocular lubricant - reinforce: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Wait ~5 minutes between different eye drops to prevent washout.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Wait ~5 minutes between different eye drops to prevent washout.",
+    "rationale": "Correct: Wait ~5 minutes between different eye drops to prevent washout. Sterility + proper sequencing."
+  },
+  {
+    "id": "HESI-PHARM-0144",
+    "bank": "HESI Pharmacy",
+    "system": "Special Senses (Eye/Ear)",
+    "topic": "Ocular lubricant - reinforce",
+    "qtype": "sata",
+    "stem": "Ocular lubricant - reinforce: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Perform hand hygiene before instilling drops.",
+      "Apply nasolacrimal occlusion if instructed.",
+      "Remove contacts if directed before drops.",
+      "Share eye drops with family.",
+      "Touch tip to lashes for accuracy.",
+      "Instill ointment before drops routinely."
+    ],
+    "answer": [
+      "Perform hand hygiene before instilling drops.",
+      "Apply nasolacrimal occlusion if instructed.",
+      "Remove contacts if directed before drops."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Sterility + proper sequencing."
+  },
+  {
+    "id": "HESI-PHARM-0145",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Diphenhydramine-adverse",
+    "qtype": "single",
+    "stem": "Diphenhydramine-adverse: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Diphenhydramine causes sedation and anticholinergic effects (dry mouth, urinary retention).",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Diphenhydramine causes sedation and anticholinergic effects (dry mouth, urinary retention).",
+    "rationale": "Correct: Diphenhydramine causes sedation and anticholinergic effects (dry mouth, urinary retention). Anticholinergic + sedation risks."
+  },
+  {
+    "id": "HESI-PHARM-0146",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Diphenhydramine-adverse",
+    "qtype": "single",
+    "stem": "Diphenhydramine-adverse: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Older adults/BPH are higher risk for urinary retention/confusion.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Older adults/BPH are higher risk for urinary retention/confusion.",
+    "rationale": "Correct: Older adults/BPH are higher risk for urinary retention/confusion. Anticholinergic + sedation risks."
+  },
+  {
+    "id": "HESI-PHARM-0147",
+    "bank": "HESI Pharmacy",
+    "system": "Respiratory",
+    "topic": "Diphenhydramine-adverse",
+    "qtype": "sata",
+    "stem": "Diphenhydramine-adverse: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Avoid driving until effects known.",
+      "Use caution with glaucoma/BPH.",
+      "Avoid combining with alcohol.",
+      "Take extra doses to stay awake.",
+      "Combine with sedatives for better alertness.",
+      "Expect diarrhea as main effect."
+    ],
+    "answer": [
+      "Avoid driving until effects known.",
+      "Use caution with glaucoma/BPH.",
+      "Avoid combining with alcohol."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Anticholinergic + sedation risks."
+  },
+  {
+    "id": "HESI-PHARM-0148",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "PO- number of tablets",
+    "qtype": "single",
+    "stem": "PO- number of tablets: Which statement is MOST correct?",
+    "choices": [
+      "This is an expected benign finding that requires no monitoring.",
+      "Stop the medication as soon as symptoms improve.",
+      "Tablet calculation: tabs = ordered dose / dose per tablet.",
+      "Double the next dose if one is missed."
+    ],
+    "answer": "Tablet calculation: tabs = ordered dose / dose per tablet.",
+    "rationale": "Correct: Tablet calculation: tabs = ordered dose / dose per tablet. Math + medication safety (clarify unsafe dosing)."
+  },
+  {
+    "id": "HESI-PHARM-0149",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "PO- number of tablets",
+    "qtype": "single",
+    "stem": "PO- number of tablets: Which finding requires the nurse to take immediate action/notify the provider?",
+    "choices": [
+      "Mild transient nausea after the first dose",
+      "Do not split unscored tablets unless order/pharmacy allows—clarify if needed.",
+      "Mild dry mouth without other symptoms",
+      "Occasional mild headache"
+    ],
+    "answer": "Do not split unscored tablets unless order/pharmacy allows—clarify if needed.",
+    "rationale": "Correct: Do not split unscored tablets unless order/pharmacy allows—clarify if needed. Math + medication safety (clarify unsafe dosing)."
+  },
+  {
+    "id": "HESI-PHARM-0150",
+    "bank": "HESI Pharmacy",
+    "system": "Perioperative/Critical Care",
+    "topic": "PO- number of tablets",
+    "qtype": "sata",
+    "stem": "PO- number of tablets: Which discharge teaching points are appropriate? (Select all that apply.)",
+    "choices": [
+      "Verify tablet strength before dispensing.",
+      "Clarify orders requiring unsafe splitting.",
+      "Document administration accurately.",
+      "Round doses without clarification.",
+      "Crush all tablets automatically.",
+      "Give partial tablets without checking score/OK."
+    ],
+    "answer": [
+      "Verify tablet strength before dispensing.",
+      "Clarify orders requiring unsafe splitting.",
+      "Document administration accurately."
+    ],
+    "rationale": "Select the high-yield safety/teaching points. Math + medication safety (clarify unsafe dosing)."
+  }
+]
