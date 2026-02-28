@@ -78,8 +78,8 @@
       ]
     },
     {
-      "name": "Pharmacology",
-      "file": "banks/pharmacology.json",
+      "name": "HESI Pharmacy",
+      "file": "banks/hesi_pharmacy.json",
       "systems": [
         "ANY",
         "Cardiovascular",
@@ -103,7 +103,8 @@
       ],
       "topics": [
         "ANY"
-      ]
+      ],
+      "count": 150
     },
     {
       "name": "MedSurg",
