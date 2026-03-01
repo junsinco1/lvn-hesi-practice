@@ -1,0 +1,200 @@
+{
+  "version": "banks_v1",
+  "banks": [
+    {
+      "name": "Anatomy",
+      "file": "banks/anatomy.json",
+      "systems": [
+        "ANY",
+        "Cardiovascular",
+        "Respiratory",
+        "Nervous System",
+        "Endocrine",
+        "Gastrointestinal",
+        "Hepatic",
+        "Hematologic",
+        "Integumentary",
+        "Musculoskeletal",
+        "Urinary"
+      ],
+      "topics": [
+        "ANY"
+      ]
+    },
+    {
+      "name": "Physiology",
+      "file": "banks/physiology.json",
+      "systems": [
+        "ANY",
+        "Cardiovascular",
+        "Respiratory",
+        "Neurologic",
+        "Endocrine",
+        "Renal/Urinary",
+        "GI/Hepatic",
+        "Musculoskeletal",
+        "Integumentary/Wound",
+        "Immune/Hematology",
+        "Reproductive/OB",
+        "Pediatrics/Growth & Development",
+        "Psych/Mental Health",
+        "Infectious Disease/Micro",
+        "Fluids & Electrolytes/Acid-Base",
+        "Perioperative/Critical Care",
+        "Community/Public Health",
+        "Ethics/Legal/Professional",
+        "Informatics/Quality/Safety"
+      ],
+      "topics": [
+        "ANY"
+      ]
+    },
+    {
+      "name": "Labs",
+      "file": "banks/labs.json",
+      "systems": [
+        "ANY",
+        "Cardiovascular",
+        "Respiratory",
+        "Neurologic",
+        "Endocrine",
+        "Renal/Urinary",
+        "GI/Hepatic",
+        "Musculoskeletal",
+        "Integumentary/Wound",
+        "Immune/Hematology",
+        "Reproductive/OB",
+        "Pediatrics/Growth & Development",
+        "Psych/Mental Health",
+        "Infectious Disease/Micro",
+        "Fluids & Electrolytes/Acid-Base",
+        "Perioperative/Critical Care",
+        "Community/Public Health",
+        "Ethics/Legal/Professional",
+        "Informatics/Quality/Safety"
+      ],
+      "topics": [
+        "ANY"
+      ]
+    },
+    {
+      "name": "HESI Pharmacy",
+      "file": "banks/hesi_pharmacy.json",
+      "systems": [
+        "ANY",
+        "Cardiovascular",
+        "Respiratory",
+        "Neurologic",
+        "Endocrine",
+        "Renal/Urinary",
+        "GI/Hepatic",
+        "Musculoskeletal",
+        "Integumentary/Wound",
+        "Immune/Hematology",
+        "Reproductive/OB",
+        "Pediatrics/Growth & Development",
+        "Psych/Mental Health",
+        "Infectious Disease/Micro",
+        "Fluids & Electrolytes/Acid-Base",
+        "Perioperative/Critical Care",
+        "Community/Public Health",
+        "Ethics/Legal/Professional",
+        "Informatics/Quality/Safety"
+      ],
+      "topics": [
+        "ANY"
+      ],
+      "count": 150
+    },
+    {
+      "name": "MedSurg",
+      "file": "banks/medsurg.json",
+      "systems": [
+        "ANY",
+        "Cardiovascular",
+        "Endocrine",
+        "GI/Hepatic",
+        "Immune/Hematology",
+        "Musculoskeletal",
+        "Neurologic",
+        "Renal/Urinary",
+        "Respiratory",
+        "Special Senses (Eye/Ear)"
+      ],
+      "topics": [
+        "ANY",
+        "AKI/Urinary Retention/CAUTI",
+        "ARDS/Pneumonia",
+        "COPD/Asthma",
+        "Cardiac Emergencies",
+        "Electrolytes/Acid-Base",
+        "Endocrine Emergencies",
+        "GI Bleed/Pancreas",
+        "General",
+        "Hepatic Disease",
+        "ICP/Head Injury",
+        "MSK/Ortho Emergencies",
+        "Neuromuscular Disorders",
+        "Pulmonary Embolism",
+        "Renal Failure/Dialysis",
+        "Seizures/Status Epilepticus",
+        "Skin/Burns/Wounds",
+        "Special Senses Emergencies",
+        "Spinal Cord Emergencies",
+        "Stroke/TIA",
+        "Ventilator/Trach/Chest Tubes"
+      ],
+      "count": 925
+    },
+    {
+      "name": "CALifeInsurance",
+      "file": "banks/ca_life_insurance.json",
+      "systems": [
+        "Insurance"
+      ],
+      "topics": [
+        "Annuities (Types, Features, Suitability)",
+        "Beneficiaries, Ownership, Assignments",
+        "Claims, Exclusions, Contestability",
+        "Contract Law & Policy Structure",
+        "Ethics & Insurance Fraud",
+        "Group Life & Employer Plans",
+        "Insurance Concepts & Terms",
+        "Licensing & Regulation (CA)",
+        "Life Insurance Policy Provisions",
+        "Life Riders & Endorsements",
+        "Premiums, Underwriting, Risk Classification",
+        "Replacement, Advertising, Unfair Practices (CA)",
+        "Settlement Options & Nonforfeiture",
+        "Taxation Basics (Life & Annuities)",
+        "Types of Life Insurance (Term/Perm)"
+      ],
+      "count": 400
+    },
+    {
+      "name": "LifeHealthDisability",
+      "file": "banks/life_health_disability.json",
+      "systems": [
+        "ANY",
+        "Life",
+        "Health",
+        "Disability"
+      ],
+      "topics": [
+        "ANY"
+      ],
+      "count": 500
+    },
+    {
+      "name": "LeakerReview",
+      "file": "banks/leaker_review.json",
+      "systems": [
+        "Insurance"
+      ],
+      "topics": [
+        "ANY"
+      ],
+      "count": 304
+    }
+  ]
+}
