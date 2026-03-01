@@ -169,7 +169,21 @@
         "Taxation Basics (Life & Annuities)",
         "Types of Life Insurance (Term/Perm)"
       ],
-      "count": 450
+      "count": 400
+    },
+    {
+      "name": "LifeHealthDisability",
+      "file": "banks/life_health_disability.json",
+      "systems": [
+        "ANY",
+        "Life",
+        "Health",
+        "Disability"
+      ],
+      "topics": [
+        "ANY"
+      ],
+      "count": 500
     }
   ]
 }
