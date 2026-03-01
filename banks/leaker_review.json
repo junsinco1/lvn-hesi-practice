@@ -15,12 +15,12 @@
     ],
     "answer": "deductible",
     "choice_rationales": {
-      "deductible": "Correct — best matches the rule/fact tested.",
-      "premium tax": "Incorrect — does not match the rule/fact tested.",
-      "impatient fee": "Incorrect — does not match the rule/fact tested.",
-      "pre-admission test": "Incorrect — does not match the rule/fact tested."
+      "deductible": "Correct — Common major medical cost containment mechanism is the deductible.",
+      "premium tax": "Incorrect — does not match the tested fact/rule.",
+      "impatient fee": "Incorrect — does not match the tested fact/rule.",
+      "pre-admission test": "Incorrect — does not match the tested fact/rule."
     },
-    "rationale": "Low confidence (no key matched); defaulted to A. A commonly used cost containment measur e for emergency hospital car e under a major medical expense plan is the",
+    "rationale": "Common major medical cost containment mechanism is the deductible. (verified)",
     "case": {
       "tabs": {
         "case_study": "—",
@@ -9005,14 +9005,14 @@
       "act a broker on behalf of an insurer",
       "assist a br oker or agent in selling insurance"
     ],
-    "answer": "sell life insurance",
+    "answer": "assist a br oker or agent in selling insurance",
     "choice_rationales": {
-      "sell life insurance": "Correct — best matches the rule/fact tested.",
-      "char ge of a service fee": "Incorrect — does not match the rule/fact tested.",
-      "act a broker on behalf of an insurer": "Incorrect — does not match the rule/fact tested.",
-      "assist a br oker or agent in selling insurance": "Incorrect — does not match the rule/fact tested."
+      "sell life insurance": "Incorrect — does not match the tested fact/rule.",
+      "char ge of a service fee": "Incorrect — does not match the tested fact/rule.",
+      "act a broker on behalf of an insurer": "Incorrect — does not match the tested fact/rule.",
+      "assist a br oker or agent in selling insurance": "Correct — Insurance solicitor is authorized to assist a broker or agent in transacting/selling insurance."
     },
-    "rationale": "Low confidence (no key matched); defaulted to A. An insurance solicitor is a person authorized to :",
+    "rationale": "Insurance solicitor is authorized to assist a broker or agent in transacting/selling insurance. (verified)",
     "case": {
       "tabs": {
         "case_study": "—",
