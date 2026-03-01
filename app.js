@@ -63,18 +63,32 @@ const THEME_PRESETS = [
   {name:"Slate", vars:{bg:"#0f172a", bg2:"#0b1222", card:"rgba(23,33,62,.82)", card2:"rgba(12,18,38,.62)", text:"#eef2ff", muted:"#a5b4fc", border:"#2a3a73"}},
   {name:"Warm Ink", vars:{bg:"#141016", bg2:"#0d0a10", card:"rgba(35,24,44,.82)", card2:"rgba(20,14,28,.62)", text:"#fff1f2", muted:"#fbcfe8", border:"#4a2a5c"}},
   {name:"Clinical Light", vars:{bg:"#0d1326", bg2:"#070b18", card:"rgba(255,255,255,.07)", card2:"rgba(255,255,255,.05)", text:"#f8fafc", muted:"#cbd5e1", border:"#334155"}},
-];
 
-const ACCENTS = [
+  // New presets (more variety)
+  {name:"Arctic Day", vars:{bg:"#f6f8ff", bg2:"#eef3ff", card:"rgba(255,255,255,.78)", card2:"rgba(255,255,255,.60)", text:"#0b1220", muted:"#334155", border:"#cbd5e1"}},
+  {name:"Graphite", vars:{bg:"#0b0f14", bg2:"#070a0d", card:"rgba(20,24,30,.88)", card2:"rgba(16,19,24,.70)", text:"#eef2ff", muted:"#9aa6b2", border:"#2a313b"}},
+  {name:"Oceanic", vars:{bg:"#06151d", bg2:"#041017", card:"rgba(10,28,38,.86)", card2:"rgba(8,20,28,.64)", text:"#e6fbff", muted:"#7bdcf2", border:"#1e4a5a"}},
+  {name:"Forest Night", vars:{bg:"#07130f", bg2:"#050f0c", card:"rgba(11,26,18,.86)", card2:"rgba(8,18,13,.64)", text:"#eafff1", muted:"#8bd3a7", border:"#1f3f2e"}},
+  {name:"Sunset Ember", vars:{bg:"#1a0b12", bg2:"#11070c", card:"rgba(40,16,26,.86)", card2:"rgba(26,10,18,.64)", text:"#fff1f2", muted:"#fda4af", border:"#5a2336"}},
+  {name:"Royal Violet", vars:{bg:"#0e0b1a", bg2:"#070614", card:"rgba(24,18,44,.86)", card2:"rgba(16,12,30,.64)", text:"#f5f3ff", muted:"#c4b5fd", border:"#3a2a6b"}},
+  {name:"Sandstone", vars:{bg:"#15110b", bg2:"#100c07", card:"rgba(36,28,18,.86)", card2:"rgba(24,18,12,.64)", text:"#fff7ed", muted:"#fed7aa", border:"#5a4329"}},
+  {name:"Mono Clean", vars:{bg:"#0b0c10", bg2:"#08090c", card:"rgba(255,255,255,.06)", card2:"rgba(255,255,255,.04)", text:"#f8fafc", muted:"#cbd5e1", border:"#2b2f3a"}},
+];
+ const ACCENTS = [
   {name:"Blue", value:"#6aa3ff"},
   {name:"Mint", value:"#3ddc97"},
   {name:"Violet", value:"#b68cff"},
   {name:"Amber", value:"#ffcc66"},
   {name:"Rose", value:"#ff5b6b"},
   {name:"Cyan", value:"#38bdf8"},
+  // New accents
+  {name:"Teal", value:"#14b8a6"},
+  {name:"Indigo", value:"#6366f1"},
+  {name:"Lime", value:"#84cc16"},
+  {name:"Coral", value:"#fb7185"},
+  {name:"Sky", value:"#60a5fa"},
 ];
-
-function setCssVars(vars){
+ function setCssVars(vars){
   const r = document.documentElement;
   for(const [k,v] of Object.entries(vars)) r.style.setProperty(`--${k}`, v);
 }
@@ -90,20 +104,13 @@ function applyThemeFromStorage(){
 }
 
 function initThemeUI(){
-  el.themeSel.innerHTML = THEME_PRESETS.map(t=>`<option value="${t.name}">${t.name}</option>`).join("");
-  el.accentSel.innerHTML = ACCENTS.map(a=>`<option value="${a.value}">${a.name}</option>`).join("");
-  el.themeSel.addEventListener("change", ()=>{
-    localStorage.setItem("nr_theme", el.themeSel.value);
-    applyThemeFromStorage();
-  });
-  el.accentSel.addEventListener("change", ()=>{
-    localStorage.setItem("nr_accent", el.accentSel.value);
-    applyThemeFromStorage();
-  });
+  const esc = (s)=>String(s).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;");
+  el.themeSel.innerHTML = THEME_PRESETS.map(t=>`<option value="${esc(t.name)}">${esc(t.name)}</option>`).join("");
+  el.accentSel.innerHTML = ACCENTS.map(a=>`<option value="${esc(a.value)}">${esc(a.name)}</option>`).join("");
+  el.themeSel.addEventListener("change", ()=>{ localStorage.setItem("nr_theme", el.themeSel.value); applyThemeFromStorage(); });
+  el.accentSel.addEventListener("change", ()=>{ localStorage.setItem("nr_accent", el.accentSel.value); applyThemeFromStorage(); });
   applyThemeFromStorage();
-}
-
-// ---------- State ----------
+} // ---------- State ----------
 let manifest = null;
 let bankCache = new Map(); // bankName -> {items, bankMeta}
 let items = [];            // current bank items
