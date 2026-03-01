@@ -184,6 +184,17 @@
         "ANY"
       ],
       "count": 500
+    },
+    {
+      "name": "LeakerReview",
+      "file": "banks/leaker_review.json",
+      "systems": [
+        "Insurance"
+      ],
+      "topics": [
+        "ANY"
+      ],
+      "count": 304
     }
   ]
 }
