@@ -1,0 +1,1529 @@
+[
+  {
+    "id": "NEUROSENS-0001",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Beta Blockers",
+    "qtype": "single",
+    "stem": "A patient with a large ischemic stroke is prescribed a beta blocker for blood pressure control. Which finding should the nurse report before administering the dose?",
+    "choices": [
+      "Heart rate 54/min and blood pressure 104/68 mm Hg",
+      "Respiratory rate 18/min and oxygen saturation 95%",
+      "Mild expressive aphasia after the stroke",
+      "Temperature 99.1\u00b0F (37.3\u00b0C)"
+    ],
+    "answer": "Heart rate 54/min and blood pressure 104/68 mm Hg",
+    "rationale": "Beta blockers can worsen bradycardia and lower blood pressure further. In a neurologic patient, reduced cerebral perfusion is a concern when pulse and pressure are already low."
+  },
+  {
+    "id": "NEUROSENS-0002",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Beta Blockers",
+    "qtype": "sata",
+    "stem": "Which statements about beta blockers should the nurse include in teaching for a neurologic patient with hypertension? (Select all that apply.)",
+    "choices": [
+      "They may slow the heart rate",
+      "They should be stopped abruptly once the blood pressure improves",
+      "They can mask some signs of hypoglycemia",
+      "The nurse should assess blood pressure and pulse before giving the dose",
+      "They are the first-line medication for acute ICP reduction"
+    ],
+    "answer": [
+      "They may slow the heart rate",
+      "They can mask some signs of hypoglycemia",
+      "The nurse should assess blood pressure and pulse before giving the dose"
+    ],
+    "rationale": "Beta blockers lower heart rate and blood pressure and may mask adrenergic symptoms of hypoglycemia. They are not used to directly reduce ICP, and abrupt withdrawal may cause rebound effects."
+  },
+  {
+    "id": "NEUROSENS-0003",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Beta Blockers",
+    "qtype": "bowtie",
+    "stem": "Scenario: A patient with subarachnoid hemorrhage has a blood pressure of 190/102 mm Hg and is receiving a beta blocker infusion. The monitor now shows HR 46/min and the patient reports dizziness.",
+    "choices": [],
+    "bowtie": {
+      "left_label": "Complication",
+      "left_options": [
+        "Therapeutic response only",
+        "Symptomatic bradycardia",
+        "Worsening aphasia",
+        "Hyperglycemia"
+      ],
+      "middle_label": "Priority Action",
+      "middle_options": [
+        "Stop the infusion and notify the provider",
+        "Administer the next dose early",
+        "Encourage ambulation",
+        "Give mannitol immediately"
+      ],
+      "right_label": "Expected Reassessment",
+      "right_options": [
+        "Heart rate should improve toward safe range",
+        "Pupil size should become fixed",
+        "Urine output should stop",
+        "The EEG should normalize immediately"
+      ]
+    },
+    "answer": {
+      "left": "Symptomatic bradycardia",
+      "middle": "Stop the infusion and notify the provider",
+      "right": "Heart rate should improve toward safe range"
+    },
+    "rationale": "The priority is recognition of symptomatic bradycardia related to beta blockade and interruption of the drug while the provider is notified."
+  },
+  {
+    "id": "NEUROSENS-0004",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Decorticate Posturing",
+    "qtype": "single",
+    "stem": "A patient with traumatic brain injury flexes the arms toward the chest with clenched fists and extended legs when painful stimuli are applied. How should the nurse document this finding?",
+    "choices": [
+      "Decerebrate posturing",
+      "Decorticate posturing",
+      "Flaccid paralysis",
+      "Focal seizure activity"
+    ],
+    "answer": "Decorticate posturing",
+    "rationale": "Decorticate posturing is abnormal flexion of the upper extremities with leg extension and indicates severe brain injury above the brainstem."
+  },
+  {
+    "id": "NEUROSENS-0005",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Decorticate Posturing",
+    "qtype": "sata",
+    "stem": "Which nursing actions are appropriate when a patient demonstrates decorticate posturing? (Select all that apply.)",
+    "choices": [
+      "Reassess Glasgow Coma Scale",
+      "Document the stimulus that triggered the response",
+      "Consider the finding a possible sign of neurologic deterioration",
+      "Delay reporting until the next full assessment",
+      "Assess airway and oxygenation"
+    ],
+    "answer": [
+      "Reassess Glasgow Coma Scale",
+      "Document the stimulus that triggered the response",
+      "Consider the finding a possible sign of neurologic deterioration",
+      "Assess airway and oxygenation"
+    ],
+    "rationale": "Abnormal posturing may reflect worsening neurologic status and should be carefully documented, reassessed, and reported promptly while airway and oxygenation are maintained."
+  },
+  {
+    "id": "NEUROSENS-0006",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Decorticate Posturing",
+    "qtype": "single",
+    "stem": "Compared with a patient who obeys commands, a patient who now displays decorticate posturing after a head injury should be interpreted as having:",
+    "choices": [
+      "Improved cortical function",
+      "Possible worsening intracranial injury",
+      "Resolution of cerebral edema",
+      "Mild anxiety related to hospitalization"
+    ],
+    "answer": "Possible worsening intracranial injury",
+    "rationale": "New abnormal posturing after head injury suggests deterioration rather than improvement."
+  },
+  {
+    "id": "NEUROSENS-0007",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Decerebrate Posturing",
+    "qtype": "single",
+    "stem": "Which response best describes decerebrate posturing?",
+    "choices": [
+      "Arms flexed toward the chest and legs extended",
+      "Arms extended and pronated with jaw clenched and legs rigidly extended",
+      "Purposeful withdrawal from pain",
+      "No response to painful stimuli"
+    ],
+    "answer": "Arms extended and pronated with jaw clenched and legs rigidly extended",
+    "rationale": "Decerebrate posturing is abnormal extension and is generally associated with more severe brainstem dysfunction than decorticate posturing."
+  },
+  {
+    "id": "NEUROSENS-0008",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Decerebrate Posturing",
+    "qtype": "sata",
+    "stem": "Which findings would make the nurse especially concerned when a patient progresses from decorticate to decerebrate posturing? (Select all that apply.)",
+    "choices": [
+      "Possible extension of injury toward the brainstem",
+      "Potential rise in intracranial pressure",
+      "Need for immediate neurologic reassessment",
+      "Evidence that the patient is fully oriented",
+      "Need to report the change promptly"
+    ],
+    "answer": [
+      "Possible extension of injury toward the brainstem",
+      "Potential rise in intracranial pressure",
+      "Need for immediate neurologic reassessment",
+      "Need to report the change promptly"
+    ],
+    "rationale": "Progression to decerebrate posturing is a red flag for worsening neurologic compromise and requires urgent reassessment and reporting."
+  },
+  {
+    "id": "NEUROSENS-0009",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Decerebrate Posturing",
+    "qtype": "bowtie",
+    "stem": "Scenario: A patient with increased ICP changes from localizing pain to decerebrate posturing.",
+    "choices": [],
+    "bowtie": {
+      "left_label": "Interpretation",
+      "left_options": [
+        "Improving perfusion",
+        "Worsening neurologic status",
+        "Normal response to pain",
+        "Medication allergy"
+      ],
+      "middle_label": "Priority Action",
+      "middle_options": [
+        "Notify the provider/rapid response and continue frequent neuro checks",
+        "Turn off all alarms and reassess in 8 hours",
+        "Give oral fluids",
+        "Document only if repeated three more times"
+      ],
+      "right_label": "Most Important Follow-up",
+      "right_options": [
+        "Trend pupils, GCS, and vital signs",
+        "Prepare a meal tray",
+        "Ambulate the patient",
+        "Discontinue seizure precautions"
+      ]
+    },
+    "answer": {
+      "left": "Worsening neurologic status",
+      "middle": "Notify the provider/rapid response and continue frequent neuro checks",
+      "right": "Trend pupils, GCS, and vital signs"
+    },
+    "rationale": "A decline to decerebrate posturing suggests worsening neurologic injury requiring prompt escalation and trending of objective data."
+  },
+  {
+    "id": "NEUROSENS-0010",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Mannitol",
+    "qtype": "single",
+    "stem": "Which assessment finding best indicates that mannitol therapy for increased intracranial pressure is effective?",
+    "choices": [
+      "Urine output increases and level of consciousness improves",
+      "Heart rate increases to 120/min",
+      "The patient develops crackles in both lungs",
+      "Serum sodium falls rapidly with confusion"
+    ],
+    "answer": "Urine output increases and level of consciousness improves",
+    "rationale": "Mannitol is an osmotic diuretic that promotes fluid movement from brain tissue into the intravascular space and then out through the kidneys; improved neurologic status with expected diuresis suggests effectiveness."
+  },
+  {
+    "id": "NEUROSENS-0011",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Mannitol",
+    "qtype": "sata",
+    "stem": "Which nursing actions are appropriate when administering IV mannitol? (Select all that apply.)",
+    "choices": [
+      "Use a filter needle/tubing if crystals are present after proper preparation per policy",
+      "Monitor intake and output",
+      "Assess serum osmolality and renal function as ordered",
+      "Administer by rapid IV push through a peripheral line without verification",
+      "Monitor for fluid overload or dehydration"
+    ],
+    "answer": [
+      "Use a filter needle/tubing if crystals are present after proper preparation per policy",
+      "Monitor intake and output",
+      "Assess serum osmolality and renal function as ordered",
+      "Monitor for fluid overload or dehydration"
+    ],
+    "rationale": "Mannitol requires careful monitoring of fluid balance, renal function, and serum osmolality. Crystallization is a known handling issue and should be addressed according to policy."
+  },
+  {
+    "id": "NEUROSENS-0012",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Mannitol",
+    "qtype": "single",
+    "stem": "The nurse questions a new order for mannitol in which patient?",
+    "choices": [
+      "A patient with rising ICP after head trauma",
+      "A patient with acute kidney injury and no urine output",
+      "A patient with cerebral edema and intact kidneys",
+      "A patient awaiting repeat neurologic assessment"
+    ],
+    "answer": "A patient with acute kidney injury and no urine output",
+    "rationale": "Because mannitol relies on renal excretion and can worsen volume problems, anuria or severe renal failure is a major concern."
+  },
+  {
+    "id": "NEUROSENS-0013",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "ICP (Intracranial Pressure)",
+    "qtype": "single",
+    "stem": "Which finding is most consistent with increasing intracranial pressure?",
+    "choices": [
+      "Widening pulse pressure and decreasing level of consciousness",
+      "Hypotension with tachycardia",
+      "Warm flushed skin and bounding peripheral pulses only",
+      "Polyuria with dry mucous membranes only"
+    ],
+    "answer": "Widening pulse pressure and decreasing level of consciousness",
+    "rationale": "Changes in LOC are early clues. Later signs can include widened pulse pressure and abnormal respiratory or heart rate patterns."
+  },
+  {
+    "id": "NEUROSENS-0014",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "ICP (Intracranial Pressure)",
+    "qtype": "sata",
+    "stem": "Which interventions help reduce or avoid further increases in ICP? (Select all that apply.)",
+    "choices": [
+      "Keep the head of bed elevated as prescribed with head midline",
+      "Cluster all painful procedures back-to-back to get them over with",
+      "Avoid extreme hip flexion and Valsalva",
+      "Maintain adequate oxygenation",
+      "Suction only when needed and for the shortest safe duration"
+    ],
+    "answer": [
+      "Keep the head of bed elevated as prescribed with head midline",
+      "Avoid extreme hip flexion and Valsalva",
+      "Maintain adequate oxygenation",
+      "Suction only when needed and for the shortest safe duration"
+    ],
+    "rationale": "Nursing care focuses on avoiding venous outflow obstruction, hypoxia, and stimulation that can spike ICP."
+  },
+  {
+    "id": "NEUROSENS-0015",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "ICP (Intracranial Pressure)",
+    "qtype": "bowtie",
+    "stem": "Scenario: A patient with intracranial hemorrhage becomes harder to arouse. Blood pressure rises, pulse slows, and respirations become irregular.",
+    "choices": [],
+    "bowtie": {
+      "left_label": "Interpretation",
+      "left_options": [
+        "Classic Cushing response",
+        "Mild pain response",
+        "Expected effect of sleep",
+        "Orthostatic hypotension"
+      ],
+      "middle_label": "Priority Nursing Action",
+      "middle_options": [
+        "Escalate immediately and perform focused neuro assessment",
+        "Offer oral fluids and recheck tomorrow",
+        "Lower oxygen concentration",
+        "Encourage the patient to bear down to void"
+      ],
+      "right_label": "Additional Focus",
+      "right_options": [
+        "Pupils and airway",
+        "Pedal pulses only",
+        "Bowel sounds only",
+        "Skin turgor only"
+      ]
+    },
+    "answer": {
+      "left": "Classic Cushing response",
+      "middle": "Escalate immediately and perform focused neuro assessment",
+      "right": "Pupils and airway"
+    },
+    "rationale": "Worsening LOC with hypertension, bradycardia, and irregular respirations suggests dangerously increased ICP and possible herniation risk."
+  },
+  {
+    "id": "NEUROSENS-0016",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Glasgow Coma Scale (GCS)",
+    "qtype": "single",
+    "stem": "A patient opens eyes to speech, uses inappropriate words, and withdraws from pain. What Glasgow Coma Scale score should the nurse document?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "rationale": "Eye opening to speech = 3, inappropriate words = 3, withdraws from pain = 4. Total GCS = 10."
+  },
+  {
+    "id": "NEUROSENS-0017",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Glasgow Coma Scale (GCS)",
+    "qtype": "sata",
+    "stem": "Which statements about the Glasgow Coma Scale are correct? (Select all that apply.)",
+    "choices": [
+      "It scores eye opening, verbal response, and motor response",
+      "A lower score suggests deeper impairment of consciousness",
+      "It replaces the full neurologic exam in all situations",
+      "Trending the score over time is important",
+      "A sudden drop in score should be reported promptly"
+    ],
+    "answer": [
+      "It scores eye opening, verbal response, and motor response",
+      "A lower score suggests deeper impairment of consciousness",
+      "Trending the score over time is important",
+      "A sudden drop in score should be reported promptly"
+    ],
+    "rationale": "The GCS is a practical way to trend neurologic status, but it does not replace a complete assessment."
+  },
+  {
+    "id": "NEUROSENS-0018",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Glasgow Coma Scale (GCS)",
+    "qtype": "single",
+    "stem": "Which patient has the highest Glasgow Coma Scale score?",
+    "choices": [
+      "Eye opening to pain, incomprehensible sounds, abnormal flexion",
+      "Eyes open spontaneously, confused conversation, obeys commands",
+      "Eyes open to speech, oriented, localizes pain",
+      "No eye opening, no verbal response, extension to pain"
+    ],
+    "answer": "Eyes open spontaneously, confused conversation, obeys commands",
+    "rationale": "That combination scores 4 + 4 + 6 = 14, the highest among the options."
+  },
+  {
+    "id": "NEUROSENS-0019",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Concussion",
+    "qtype": "single",
+    "stem": "A patient diagnosed with a concussion is being discharged. Which instruction is most important?",
+    "choices": [
+      "Return immediately if repeated vomiting, worsening headache, or increasing confusion occurs",
+      "Stay alone overnight so rest is uninterrupted",
+      "Take aspirin every 4 hours for headache",
+      "Resume contact sports tomorrow if symptoms lessen"
+    ],
+    "answer": "Return immediately if repeated vomiting, worsening headache, or increasing confusion occurs",
+    "rationale": "These are danger signs of worsening brain injury after concussion and require urgent evaluation."
+  },
+  {
+    "id": "NEUROSENS-0020",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Concussion",
+    "qtype": "sata",
+    "stem": "Which symptoms are commonly associated with concussion? (Select all that apply.)",
+    "choices": [
+      "Headache",
+      "Brief confusion or amnesia",
+      "Photophobia",
+      "Gradually worsening unilateral fixed pupil as an expected benign finding",
+      "Dizziness"
+    ],
+    "answer": [
+      "Headache",
+      "Brief confusion or amnesia",
+      "Photophobia",
+      "Dizziness"
+    ],
+    "rationale": "Concussion may cause headache, confusion, amnesia, light sensitivity, and dizziness. A fixed unilateral pupil is not an expected benign finding."
+  },
+  {
+    "id": "NEUROSENS-0021",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Concussion",
+    "qtype": "single",
+    "stem": "Which activity is most appropriate for the first phase of concussion recovery?",
+    "choices": [
+      "Cognitive and physical rest with gradual return as symptoms improve",
+      "Immediate full return to work",
+      "Daily alcohol use to promote sleep",
+      "Heavy weight lifting to restore confidence"
+    ],
+    "answer": "Cognitive and physical rest with gradual return as symptoms improve",
+    "rationale": "Initial management typically emphasizes rest and a graded return to activity based on symptom resolution."
+  },
+  {
+    "id": "NEUROSENS-0022",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Memory Assessment",
+    "qtype": "single",
+    "stem": "To assess recent memory, which question is best for the nurse to ask?",
+    "choices": [
+      "'What did you eat for breakfast this morning?'",
+      "'What was your first job?'",
+      "'Where were you born?'",
+      "'What street did you live on in second grade?'"
+    ],
+    "answer": "'What did you eat for breakfast this morning?'",
+    "rationale": "Recent memory is assessed with events from the near past, whereas childhood questions assess remote memory."
+  },
+  {
+    "id": "NEUROSENS-0023",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Memory Assessment",
+    "qtype": "sata",
+    "stem": "Which components are commonly included in a focused neurologic assessment of mental status? (Select all that apply.)",
+    "choices": [
+      "Orientation",
+      "Attention and concentration",
+      "Memory",
+      "Color blindness only",
+      "Language"
+    ],
+    "answer": [
+      "Orientation",
+      "Attention and concentration",
+      "Memory",
+      "Language"
+    ],
+    "rationale": "Mental status assessment commonly includes orientation, attention, memory, language, judgment, and related cognitive domains."
+  },
+  {
+    "id": "NEUROSENS-0024",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Memory Assessment",
+    "qtype": "single",
+    "stem": "A patient can describe childhood events clearly but cannot remember three objects after five minutes. This finding suggests impairment in:",
+    "choices": [
+      "Remote memory",
+      "Recent memory",
+      "Motor planning",
+      "Visual acuity"
+    ],
+    "answer": "Recent memory",
+    "rationale": "Remembering distant past events reflects remote memory, while recalling newly learned information tests recent memory."
+  },
+  {
+    "id": "NEUROSENS-0025",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Meningitis",
+    "qtype": "single",
+    "stem": "Which action has the highest priority for a patient with suspected bacterial meningitis?",
+    "choices": [
+      "Initiate prescribed droplet precautions and prepare for rapid treatment",
+      "Encourage bright lights for orientation",
+      "Delay antibiotics until all family arrive",
+      "Place the patient in Trendelenburg position"
+    ],
+    "answer": "Initiate prescribed droplet precautions and prepare for rapid treatment",
+    "rationale": "Meningitis can progress rapidly. Isolation precautions and timely treatment are critical."
+  },
+  {
+    "id": "NEUROSENS-0026",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Meningitis",
+    "qtype": "sata",
+    "stem": "Which findings are consistent with meningitis? (Select all that apply.)",
+    "choices": [
+      "Fever",
+      "Neck stiffness",
+      "Photophobia",
+      "Positive Kernig or Brudzinski signs",
+      "Painless gradual hearing improvement"
+    ],
+    "answer": [
+      "Fever",
+      "Neck stiffness",
+      "Photophobia",
+      "Positive Kernig or Brudzinski signs"
+    ],
+    "rationale": "Classic findings include fever, nuchal rigidity, photophobia, headache, and meningeal irritation signs."
+  },
+  {
+    "id": "NEUROSENS-0027",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Meningitis",
+    "qtype": "bowtie",
+    "stem": "Scenario: A college student arrives with fever, severe headache, photophobia, and nuchal rigidity.",
+    "choices": [],
+    "bowtie": {
+      "left_label": "Likely Disorder",
+      "left_options": [
+        "Bacterial meningitis",
+        "Tension headache",
+        "Parkinson disease",
+        "Myasthenia gravis"
+      ],
+      "middle_label": "Immediate Nursing Priority",
+      "middle_options": [
+        "Institute appropriate isolation and expedite treatment",
+        "Provide only dark room and oral fluids",
+        "Ambulate to reduce stiffness",
+        "Test gag reflex every 8 hours only"
+      ],
+      "right_label": "Monitor Closely For",
+      "right_options": [
+        "Seizures and worsening LOC",
+        "Improved visual acuity only",
+        "Hypoglycemia only",
+        "Urinary retention only"
+      ]
+    },
+    "answer": {
+      "left": "Bacterial meningitis",
+      "middle": "Institute appropriate isolation and expedite treatment",
+      "right": "Seizures and worsening LOC"
+    },
+    "rationale": "Bacterial meningitis is an emergency with risk for seizures, increased ICP, and rapid decline."
+  },
+  {
+    "id": "NEUROSENS-0028",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Different Types of Headaches",
+    "qtype": "single",
+    "stem": "Which headache description is most consistent with migraine?",
+    "choices": [
+      "Unilateral throbbing pain with nausea and photophobia",
+      "Bandlike pressure across the forehead during stress",
+      "Brief electric shock-like pain triggered by chewing",
+      "Sudden worst headache of life after exertion"
+    ],
+    "answer": "Unilateral throbbing pain with nausea and photophobia",
+    "rationale": "Migraine often presents with throbbing unilateral pain, nausea, and sensitivity to light or sound."
+  },
+  {
+    "id": "NEUROSENS-0029",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Different Types of Headaches",
+    "qtype": "sata",
+    "stem": "Which descriptions are correctly matched with headache types? (Select all that apply.)",
+    "choices": [
+      "Tension headache: bandlike pressure",
+      "Cluster headache: severe unilateral orbital pain with autonomic symptoms",
+      "Migraine: may be associated with aura",
+      "Subarachnoid hemorrhage: usually a chronic mild headache pattern",
+      "Cluster headache: often occurs in cyclical patterns"
+    ],
+    "answer": [
+      "Tension headache: bandlike pressure",
+      "Cluster headache: severe unilateral orbital pain with autonomic symptoms",
+      "Migraine: may be associated with aura",
+      "Cluster headache: often occurs in cyclical patterns"
+    ],
+    "rationale": "A sudden 'worst headache of life' suggests a possible hemorrhage, not a chronic mild pattern."
+  },
+  {
+    "id": "NEUROSENS-0030",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Different Types of Headaches",
+    "qtype": "single",
+    "stem": "Which headache complaint requires emergency evaluation rather than routine symptom teaching?",
+    "choices": [
+      "'This is the worst headache I have ever had.'",
+      "'My usual tension headache started after a long shift.'",
+      "'I have a mild headache when I skip coffee.'",
+      "'My headache improves with rest in a dark room.'"
+    ],
+    "answer": "'This is the worst headache I have ever had.'",
+    "rationale": "A sudden severe 'worst headache of life' may indicate subarachnoid hemorrhage and needs emergent evaluation."
+  },
+  {
+    "id": "NEUROSENS-0031",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Antiplatelet Drugs",
+    "qtype": "single",
+    "stem": "A patient is prescribed aspirin after a transient ischemic attack. The nurse explains that the medication is primarily intended to:",
+    "choices": [
+      "Reduce platelet aggregation and help prevent clot formation",
+      "Dissolve an existing cerebral clot instantly",
+      "Lower intracranial pressure",
+      "Reverse aphasia within minutes"
+    ],
+    "answer": "Reduce platelet aggregation and help prevent clot formation",
+    "rationale": "Antiplatelet drugs reduce platelet clumping and are commonly used for secondary prevention in TIA and ischemic stroke settings."
+  },
+  {
+    "id": "NEUROSENS-0032",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Antiplatelet Drugs",
+    "qtype": "sata",
+    "stem": "Which points should the nurse reinforce for a patient taking antiplatelet therapy? (Select all that apply.)",
+    "choices": [
+      "Report unusual bleeding or black stools",
+      "Tell the provider before surgery or dental procedures",
+      "Stop the drug permanently after one dose if mild bruising occurs without guidance",
+      "Use caution with other products that increase bleeding risk",
+      "Take a double dose if one tablet is missed"
+    ],
+    "answer": [
+      "Report unusual bleeding or black stools",
+      "Tell the provider before surgery or dental procedures",
+      "Use caution with other products that increase bleeding risk"
+    ],
+    "rationale": "Teaching centers on bleeding precautions and avoiding unsupervised dose changes."
+  },
+  {
+    "id": "NEUROSENS-0033",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Antiplatelet Drugs",
+    "qtype": "single",
+    "stem": "Which patient statement shows correct understanding of clopidogrel therapy after ischemic stroke?",
+    "choices": [
+      "'This medicine helps keep platelets from sticking together too much.'",
+      "'This will immediately cure my speech problem.'",
+      "'I can stop it whenever I feel better.'",
+      "'It works the same way as mannitol.'"
+    ],
+    "answer": "'This medicine helps keep platelets from sticking together too much.'",
+    "rationale": "Clopidogrel is an antiplatelet medication used to help reduce recurrent ischemic events."
+  },
+  {
+    "id": "NEUROSENS-0034",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Aphasia",
+    "qtype": "single",
+    "stem": "Which nursing action is most appropriate for a patient with expressive aphasia after stroke?",
+    "choices": [
+      "Use short phrases and allow extra time for responses",
+      "Speak loudly into the patient's ear",
+      "Finish every sentence immediately",
+      "Avoid all communication attempts to prevent frustration"
+    ],
+    "answer": "Use short phrases and allow extra time for responses",
+    "rationale": "Supportive communication strategies include simple language, patience, and time for the patient to respond."
+  },
+  {
+    "id": "NEUROSENS-0035",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Aphasia",
+    "qtype": "sata",
+    "stem": "Which findings are examples of aphasia rather than dysarthria? (Select all that apply.)",
+    "choices": [
+      "Difficulty understanding spoken language",
+      "Inability to find words",
+      "Slurred articulation with intact comprehension only",
+      "Impaired naming of common objects",
+      "Problems reading or writing related to language impairment"
+    ],
+    "answer": [
+      "Difficulty understanding spoken language",
+      "Inability to find words",
+      "Impaired naming of common objects",
+      "Problems reading or writing related to language impairment"
+    ],
+    "rationale": "Aphasia is a language disorder; dysarthria is a motor speech articulation problem."
+  },
+  {
+    "id": "NEUROSENS-0036",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Aphasia",
+    "qtype": "single",
+    "stem": "A patient speaks fluently but uses incorrect words and does not understand simple commands. Which type of aphasia is most likely?",
+    "choices": [
+      "Receptive aphasia",
+      "Expressive aphasia",
+      "Dysarthria",
+      "Apraxia"
+    ],
+    "answer": "Receptive aphasia",
+    "rationale": "Fluent but nonsensical speech with poor comprehension is characteristic of receptive (Wernicke-type) aphasia."
+  },
+  {
+    "id": "NEUROSENS-0037",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Subarachnoid Hemorrhage & Cerebral Aneurysm",
+    "qtype": "single",
+    "stem": "Which statement by a patient most strongly suggests possible subarachnoid hemorrhage?",
+    "choices": [
+      "'I suddenly developed the worst headache of my life.'",
+      "'My chronic headache is slightly worse in the afternoon.'",
+      "'My neck is sore after sleeping wrong.'",
+      "'I get mild frontal headaches before exams.'"
+    ],
+    "answer": "'I suddenly developed the worst headache of my life.'",
+    "rationale": "A sudden severe headache is a classic warning sign of subarachnoid hemorrhage."
+  },
+  {
+    "id": "NEUROSENS-0038",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Subarachnoid Hemorrhage & Cerebral Aneurysm",
+    "qtype": "sata",
+    "stem": "Which manifestations can occur with subarachnoid hemorrhage? (Select all that apply.)",
+    "choices": [
+      "Nuchal rigidity",
+      "Photophobia",
+      "Decreased level of consciousness",
+      "Severe sudden headache",
+      "Gradual improvement with no need for monitoring"
+    ],
+    "answer": [
+      "Nuchal rigidity",
+      "Photophobia",
+      "Decreased level of consciousness",
+      "Severe sudden headache"
+    ],
+    "rationale": "SAH often presents abruptly and may include meningeal irritation and neurologic decline."
+  },
+  {
+    "id": "NEUROSENS-0039",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Subarachnoid Hemorrhage & Cerebral Aneurysm",
+    "qtype": "bowtie",
+    "stem": "Scenario: A patient with a known cerebral aneurysm suddenly develops vomiting, nuchal rigidity, and severe headache.",
+    "choices": [],
+    "bowtie": {
+      "left_label": "Likely Event",
+      "left_options": [
+        "Rupture with subarachnoid hemorrhage",
+        "Migraine aura only",
+        "Parkinson exacerbation",
+        "Multiple sclerosis remission"
+      ],
+      "middle_label": "Priority Response",
+      "middle_options": [
+        "Activate emergency evaluation and focused neurologic monitoring",
+        "Encourage ambulation and oral hydration only",
+        "Teach Cred\u00e9 method",
+        "Request routine outpatient EEG next month"
+      ],
+      "right_label": "High-Priority Concern",
+      "right_options": [
+        "Rebleeding and rising ICP",
+        "Improved near vision",
+        "Constipation only",
+        "Foot drop only"
+      ]
+    },
+    "answer": {
+      "left": "Rupture with subarachnoid hemorrhage",
+      "middle": "Activate emergency evaluation and focused neurologic monitoring",
+      "right": "Rebleeding and rising ICP"
+    },
+    "rationale": "Ruptured aneurysm is a neurologic emergency with risk for rebleeding, vasospasm, and increased ICP."
+  },
+  {
+    "id": "NEUROSENS-0040",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Different Strokes",
+    "qtype": "single",
+    "stem": "Which statement correctly distinguishes ischemic stroke from hemorrhagic stroke?",
+    "choices": [
+      "Ischemic stroke usually results from vessel occlusion, whereas hemorrhagic stroke involves bleeding into or around brain tissue",
+      "Hemorrhagic stroke is always caused by infection",
+      "Ischemic stroke never causes aphasia",
+      "There is no clinical difference between the two"
+    ],
+    "answer": "Ischemic stroke usually results from vessel occlusion, whereas hemorrhagic stroke involves bleeding into or around brain tissue",
+    "rationale": "The major distinction is blocked blood flow versus bleeding."
+  },
+  {
+    "id": "NEUROSENS-0041",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Different Strokes",
+    "qtype": "sata",
+    "stem": "Which are common focal manifestations of stroke? (Select all that apply.)",
+    "choices": [
+      "Unilateral weakness",
+      "Facial droop",
+      "Speech difficulty",
+      "Sudden visual field loss",
+      "Symmetric itching of both feet only"
+    ],
+    "answer": [
+      "Unilateral weakness",
+      "Facial droop",
+      "Speech difficulty",
+      "Sudden visual field loss"
+    ],
+    "rationale": "Stroke symptoms often reflect sudden focal neurologic deficits."
+  },
+  {
+    "id": "NEUROSENS-0042",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Different Strokes",
+    "qtype": "single",
+    "stem": "Which stroke symptom requires the nurse to determine the exact time the patient was last known well?",
+    "choices": [
+      "Any sudden stroke-like deficit",
+      "Chronic tremor present for years",
+      "Stable cataract symptoms",
+      "Dry eyes relieved by drops"
+    ],
+    "answer": "Any sudden stroke-like deficit",
+    "rationale": "Last-known-well time is critical in acute stroke evaluation because it affects treatment eligibility."
+  },
+  {
+    "id": "NEUROSENS-0043",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Urinary Incontinence",
+    "qtype": "single",
+    "stem": "A patient with Parkinson's disease has urgency and leakage before reaching the toilet. Which type of incontinence is most likely?",
+    "choices": [
+      "Urge incontinence",
+      "Stress incontinence",
+      "Functional blindness",
+      "Overflow due to total retention only"
+    ],
+    "answer": "Urge incontinence",
+    "rationale": "Urgency with leakage before toileting is typical of urge incontinence, which may occur in neurologic disorders."
+  },
+  {
+    "id": "NEUROSENS-0044",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Urinary Incontinence",
+    "qtype": "sata",
+    "stem": "Which nursing interventions may help a patient with neurogenic urinary incontinence? (Select all that apply.)",
+    "choices": [
+      "Scheduled toileting",
+      "Skin care and moisture protection",
+      "Fluid restriction to zero",
+      "Bladder diary if appropriate",
+      "Assessment for urinary retention"
+    ],
+    "answer": [
+      "Scheduled toileting",
+      "Skin care and moisture protection",
+      "Bladder diary if appropriate",
+      "Assessment for urinary retention"
+    ],
+    "rationale": "Management may include scheduled voiding, skin protection, and evaluating for retention or pattern triggers."
+  },
+  {
+    "id": "NEUROSENS-0045",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Urinary Incontinence",
+    "qtype": "single",
+    "stem": "Which finding suggests overflow rather than urge incontinence?",
+    "choices": [
+      "Constant dribbling with bladder distention",
+      "Sudden intense urge followed by moderate void",
+      "Leakage during coughing",
+      "Leakage only when unable to find the bathroom"
+    ],
+    "answer": "Constant dribbling with bladder distention",
+    "rationale": "Overflow incontinence is associated with retention, overdistention, and dribbling."
+  },
+  {
+    "id": "NEUROSENS-0046",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "TIA (Transient Ischemic Attack)",
+    "qtype": "single",
+    "stem": "A patient says the left arm weakness lasted 20 minutes and then completely resolved. Which interpretation is most accurate?",
+    "choices": [
+      "Possible transient ischemic attack requiring urgent evaluation",
+      "Benign fatigue from overuse",
+      "Parkinson disease",
+      "Expected effect of beta blockers only"
+    ],
+    "answer": "Possible transient ischemic attack requiring urgent evaluation",
+    "rationale": "Transient neurologic deficits can indicate TIA and are a warning sign for future stroke."
+  },
+  {
+    "id": "NEUROSENS-0047",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "TIA (Transient Ischemic Attack)",
+    "qtype": "sata",
+    "stem": "Which teaching points are appropriate after a TIA? (Select all that apply.)",
+    "choices": [
+      "Seek emergency care if symptoms recur",
+      "Take prescribed antiplatelet medications as directed",
+      "Control modifiable risk factors such as hypertension",
+      "Ignore symptoms if they last less than an hour",
+      "Stop all medications when feeling better"
+    ],
+    "answer": [
+      "Seek emergency care if symptoms recur",
+      "Take prescribed antiplatelet medications as directed",
+      "Control modifiable risk factors such as hypertension"
+    ],
+    "rationale": "TIA is a high-risk warning event. Secondary prevention and urgent response to recurrence are essential."
+  },
+  {
+    "id": "NEUROSENS-0048",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "TIA (Transient Ischemic Attack)",
+    "qtype": "single",
+    "stem": "Which statement by the nurse best explains a TIA to a family member?",
+    "choices": [
+      "'It is a temporary interruption of blood flow that can warn of future stroke risk.'",
+      "'It is a seizure that always causes loss of consciousness.'",
+      "'It means the brain has fully healed and no follow-up is needed.'",
+      "'It is the same as migraine with aura in all patients.'"
+    ],
+    "answer": "'It is a temporary interruption of blood flow that can warn of future stroke risk.'",
+    "rationale": "TIAs resolve, but they should be treated as serious warning signs for possible stroke."
+  },
+  {
+    "id": "NEUROSENS-0049",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Seizure Medications",
+    "qtype": "single",
+    "stem": "Which instruction is most important for a patient newly prescribed an antiseizure medication?",
+    "choices": [
+      "Do not stop the medication abruptly without provider guidance",
+      "Take the drug only when an aura occurs",
+      "Double the next dose after every missed dose",
+      "Stop the medication after one seizure-free week"
+    ],
+    "answer": "Do not stop the medication abruptly without provider guidance",
+    "rationale": "Abrupt discontinuation can precipitate withdrawal seizures or status epilepticus."
+  },
+  {
+    "id": "NEUROSENS-0050",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Seizure Medications",
+    "qtype": "sata",
+    "stem": "Which nursing considerations apply to many antiseizure medications? (Select all that apply.)",
+    "choices": [
+      "Monitor for sedation or dizziness",
+      "Reinforce adherence",
+      "Use safety precautions if balance is impaired",
+      "Tell the patient that laboratory monitoring is never needed",
+      "Review for drug interactions"
+    ],
+    "answer": [
+      "Monitor for sedation or dizziness",
+      "Reinforce adherence",
+      "Use safety precautions if balance is impaired",
+      "Review for drug interactions"
+    ],
+    "rationale": "Common nursing priorities include safety, adherence, and awareness of side effects and interactions."
+  },
+  {
+    "id": "NEUROSENS-0051",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Seizure Medications",
+    "qtype": "single",
+    "stem": "A patient taking phenytoin has swollen, bleeding gums. Which nursing response is best?",
+    "choices": [
+      "Teach meticulous oral hygiene and notify the provider",
+      "Stop the drug immediately without an order",
+      "Assure the patient this is unrelated",
+      "Give aspirin for the bleeding"
+    ],
+    "answer": "Teach meticulous oral hygiene and notify the provider",
+    "rationale": "Gingival hyperplasia can occur with phenytoin and should be addressed with oral care and follow-up."
+  },
+  {
+    "id": "NEUROSENS-0052",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Multiple Sclerosis (MS)",
+    "qtype": "single",
+    "stem": "Which statement about multiple sclerosis is accurate?",
+    "choices": [
+      "It is a chronic demyelinating disorder of the central nervous system",
+      "It causes degeneration of lower motor neurons only",
+      "It is a bacterial meningeal infection",
+      "It is cured by cataract extraction"
+    ],
+    "answer": "It is a chronic demyelinating disorder of the central nervous system",
+    "rationale": "MS involves immune-mediated demyelination within the CNS."
+  },
+  {
+    "id": "NEUROSENS-0053",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Multiple Sclerosis (MS)",
+    "qtype": "sata",
+    "stem": "Which manifestations may occur with multiple sclerosis? (Select all that apply.)",
+    "choices": [
+      "Fatigue",
+      "Visual changes such as diplopia",
+      "Numbness or weakness",
+      "Heat intolerance worsening symptoms",
+      "Sudden fixed unilateral pupil as the classic usual presentation"
+    ],
+    "answer": [
+      "Fatigue",
+      "Visual changes such as diplopia",
+      "Numbness or weakness",
+      "Heat intolerance worsening symptoms"
+    ],
+    "rationale": "MS can present with sensory, motor, visual, and fatigue-related symptoms; heat may worsen deficits."
+  },
+  {
+    "id": "NEUROSENS-0054",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Multiple Sclerosis (MS)",
+    "qtype": "single",
+    "stem": "Which teaching is most appropriate for a patient with MS-related fatigue?",
+    "choices": [
+      "Plan activities during periods of highest energy and allow rest periods",
+      "Exercise continuously without rest",
+      "Avoid all mobility forever",
+      "Use only hot environments to improve strength"
+    ],
+    "answer": "Plan activities during periods of highest energy and allow rest periods",
+    "rationale": "Energy conservation is a key strategy in MS management."
+  },
+  {
+    "id": "NEUROSENS-0055",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Cred\u00e9 Method",
+    "qtype": "single",
+    "stem": "The nurse teaches the Cred\u00e9 method to a patient with neurogenic bladder. Which description shows correct understanding?",
+    "choices": [
+      "Apply gentle manual pressure over the lower abdomen to help empty the bladder",
+      "Tighten pelvic floor muscles during coughing",
+      "Drink fluids only at bedtime",
+      "Press on the upper chest to stimulate urination"
+    ],
+    "answer": "Apply gentle manual pressure over the lower abdomen to help empty the bladder",
+    "rationale": "The Cred\u00e9 maneuver uses manual pressure over the bladder area to assist voiding in selected patients with retention or neurogenic bladder."
+  },
+  {
+    "id": "NEUROSENS-0056",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Cred\u00e9 Method",
+    "qtype": "sata",
+    "stem": "Before teaching the Cred\u00e9 method, which nursing considerations are important? (Select all that apply.)",
+    "choices": [
+      "Confirm the technique is appropriate for the patient's bladder problem",
+      "Monitor for incomplete emptying or urinary retention",
+      "Teach the patient to stop and report pain",
+      "Assume it replaces all follow-up bladder assessment",
+      "Watch for urinary tract infection symptoms"
+    ],
+    "answer": [
+      "Confirm the technique is appropriate for the patient's bladder problem",
+      "Monitor for incomplete emptying or urinary retention",
+      "Teach the patient to stop and report pain",
+      "Watch for urinary tract infection symptoms"
+    ],
+    "rationale": "The maneuver is not appropriate for every patient and does not replace assessment for retention, infection, or complications."
+  },
+  {
+    "id": "NEUROSENS-0057",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Cred\u00e9 Method",
+    "qtype": "single",
+    "stem": "Which outcome best indicates the Cred\u00e9 method is working as intended?",
+    "choices": [
+      "Reduced post-void residual and easier bladder emptying",
+      "Progressive bladder distention after every attempt",
+      "Severe suprapubic pain during each attempt",
+      "Sudden visual improvement"
+    ],
+    "answer": "Reduced post-void residual and easier bladder emptying",
+    "rationale": "The goal is more effective bladder emptying."
+  },
+  {
+    "id": "NEUROSENS-0058",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Parkinson\u2019s Disease",
+    "qtype": "single",
+    "stem": "Which set of findings is most characteristic of Parkinson's disease?",
+    "choices": [
+      "Resting tremor, rigidity, bradykinesia",
+      "Flaccid paralysis, fever, nuchal rigidity",
+      "Sudden unilateral facial droop and aphasia",
+      "Ascending weakness with absent reflexes"
+    ],
+    "answer": "Resting tremor, rigidity, bradykinesia",
+    "rationale": "These are hallmark features of Parkinson's disease."
+  },
+  {
+    "id": "NEUROSENS-0059",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Parkinson\u2019s Disease",
+    "qtype": "sata",
+    "stem": "Which nursing interventions are appropriate for a patient with Parkinson's disease? (Select all that apply.)",
+    "choices": [
+      "Allow extra time for mobility and eating",
+      "Institute fall precautions",
+      "Encourage small frequent meals if fatigue interferes with intake",
+      "Expect sudden cure after one dose of medication",
+      "Assess swallowing if drooling or coughing occurs"
+    ],
+    "answer": [
+      "Allow extra time for mobility and eating",
+      "Institute fall precautions",
+      "Encourage small frequent meals if fatigue interferes with intake",
+      "Assess swallowing if drooling or coughing occurs"
+    ],
+    "rationale": "Parkinson's disease affects mobility, safety, and swallowing."
+  },
+  {
+    "id": "NEUROSENS-0060",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Parkinson\u2019s Disease",
+    "qtype": "single",
+    "stem": "Which patient statement about carbidopa/levodopa indicates correct understanding?",
+    "choices": [
+      "'I should take it exactly as prescribed and report involuntary movements or wearing-off symptoms.'",
+      "'I can stop it suddenly once my tremor improves.'",
+      "'It is used to treat meningitis.'",
+      "'It will permanently cure Parkinson's disease.'"
+    ],
+    "answer": "'I should take it exactly as prescribed and report involuntary movements or wearing-off symptoms.'",
+    "rationale": "Levodopa improves symptoms but does not cure disease, and medication timing plus adverse effect monitoring matter."
+  },
+  {
+    "id": "NEUROSENS-0061",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Status Epilepticus",
+    "qtype": "single",
+    "stem": "What is the nurse's first priority during status epilepticus?",
+    "choices": [
+      "Maintain airway and support breathing",
+      "Offer oral water",
+      "Restrain all extremities forcefully",
+      "Ask the patient detailed orientation questions"
+    ],
+    "answer": "Maintain airway and support breathing",
+    "rationale": "Continuous or recurrent seizure activity threatens oxygenation and perfusion; airway and breathing come first."
+  },
+  {
+    "id": "NEUROSENS-0062",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Status Epilepticus",
+    "qtype": "sata",
+    "stem": "Which interventions are appropriate during active generalized tonic-clonic seizure activity? (Select all that apply.)",
+    "choices": [
+      "Protect the patient from injury",
+      "Turn the patient to the side when feasible",
+      "Do not place anything in the mouth",
+      "Loosen restrictive clothing",
+      "Attempt to hold the patient down firmly"
+    ],
+    "answer": [
+      "Protect the patient from injury",
+      "Turn the patient to the side when feasible",
+      "Do not place anything in the mouth",
+      "Loosen restrictive clothing"
+    ],
+    "rationale": "Seizure care focuses on safety and airway support, not restraint or oral insertion."
+  },
+  {
+    "id": "NEUROSENS-0063",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Status Epilepticus",
+    "qtype": "bowtie",
+    "stem": "Scenario: A patient continues seizing for several minutes without regaining consciousness between episodes.",
+    "choices": [],
+    "bowtie": {
+      "left_label": "Condition",
+      "left_options": [
+        "Status epilepticus",
+        "Simple partial seizure",
+        "TIA",
+        "Migraine aura"
+      ],
+      "middle_label": "Priority",
+      "middle_options": [
+        "Activate emergency response, protect airway, prepare rapid medication administration",
+        "Give oral snack",
+        "Reassure and leave patient alone",
+        "Begin memory testing"
+      ],
+      "right_label": "Major Risk",
+      "right_options": [
+        "Hypoxia and neurologic injury",
+        "Cataract formation",
+        "Dry eye syndrome",
+        "Urinary frequency only"
+      ]
+    },
+    "answer": {
+      "left": "Status epilepticus",
+      "middle": "Activate emergency response, protect airway, prepare rapid medication administration",
+      "right": "Hypoxia and neurologic injury"
+    },
+    "rationale": "Ongoing seizures without recovery constitute status epilepticus and can rapidly cause hypoxia and brain injury."
+  },
+  {
+    "id": "NEUROSENS-0064",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Myasthenia Gravis",
+    "qtype": "single",
+    "stem": "Which symptom is most characteristic of myasthenia gravis?",
+    "choices": [
+      "Worsening muscle weakness with repeated use",
+      "Resting tremor that improves with movement",
+      "Sudden severe headache with neck stiffness",
+      "Rigid flexed posture after head injury"
+    ],
+    "answer": "Worsening muscle weakness with repeated use",
+    "rationale": "Myasthenia gravis causes fatigable skeletal muscle weakness."
+  },
+  {
+    "id": "NEUROSENS-0065",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Myasthenia Gravis",
+    "qtype": "sata",
+    "stem": "Which assessments are especially important for a patient with myasthenia gravis? (Select all that apply.)",
+    "choices": [
+      "Respiratory status",
+      "Swallowing ability",
+      "Ptosis or diplopia",
+      "Trends in muscle fatigue",
+      "Near vision after cataract surgery only"
+    ],
+    "answer": [
+      "Respiratory status",
+      "Swallowing ability",
+      "Ptosis or diplopia",
+      "Trends in muscle fatigue"
+    ],
+    "rationale": "Myasthenia gravis can impair ocular, bulbar, and respiratory muscles."
+  },
+  {
+    "id": "NEUROSENS-0066",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Myasthenia Gravis",
+    "qtype": "single",
+    "stem": "Which meal plan is best for a patient with myasthenia gravis who tires while chewing?",
+    "choices": [
+      "Schedule meals when medication is most effective and energy is greatest",
+      "Serve the largest meal late at night after fatigue worsens",
+      "Withhold food whenever diplopia occurs",
+      "Restrict all fluids permanently"
+    ],
+    "answer": "Schedule meals when medication is most effective and energy is greatest",
+    "rationale": "Timing meals with peak muscle strength helps reduce aspiration risk and fatigue."
+  },
+  {
+    "id": "NEUROSENS-0067",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Amyotrophic Lateral Sclerosis (ALS)",
+    "qtype": "single",
+    "stem": "Which statement about amyotrophic lateral sclerosis is accurate?",
+    "choices": [
+      "It is a progressive motor neuron disease that leads to increasing weakness",
+      "It primarily improves with rest and fully resolves",
+      "It is mainly a disorder of visual acuity",
+      "It causes intermittent meningeal irritation from infection"
+    ],
+    "answer": "It is a progressive motor neuron disease that leads to increasing weakness",
+    "rationale": "ALS causes progressive degeneration of motor neurons and worsening weakness."
+  },
+  {
+    "id": "NEUROSENS-0068",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Amyotrophic Lateral Sclerosis (ALS)",
+    "qtype": "sata",
+    "stem": "Which nursing priorities are important in the care of a patient with ALS? (Select all that apply.)",
+    "choices": [
+      "Monitor respiratory function",
+      "Assess nutrition and swallowing",
+      "Plan communication support as speech changes",
+      "Expect rapid improvement after antibiotics",
+      "Promote energy conservation"
+    ],
+    "answer": [
+      "Monitor respiratory function",
+      "Assess nutrition and swallowing",
+      "Plan communication support as speech changes",
+      "Promote energy conservation"
+    ],
+    "rationale": "ALS care focuses on respiratory support, nutrition, communication, safety, and function."
+  },
+  {
+    "id": "NEUROSENS-0069",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Amyotrophic Lateral Sclerosis (ALS)",
+    "qtype": "single",
+    "stem": "Which change in a patient with ALS requires the most immediate follow-up?",
+    "choices": [
+      "Increasing shortness of breath and weaker cough",
+      "Need for extra time during meals",
+      "Mild frustration with handwriting",
+      "Asking questions about home equipment"
+    ],
+    "answer": "Increasing shortness of breath and weaker cough",
+    "rationale": "Respiratory muscle decline is a major life-threatening concern in ALS."
+  },
+  {
+    "id": "NEUROSENS-0070",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "EEG (Electroencephalogram)",
+    "qtype": "single",
+    "stem": "The nurse explains that an EEG is primarily used to:",
+    "choices": [
+      "Record electrical activity of the brain",
+      "Measure intraocular pressure",
+      "Evaluate urine retention",
+      "Directly lower intracranial pressure"
+    ],
+    "answer": "Record electrical activity of the brain",
+    "rationale": "EEG is used to assess brain electrical activity and is commonly used in seizure evaluation."
+  },
+  {
+    "id": "NEUROSENS-0071",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "EEG (Electroencephalogram)",
+    "qtype": "sata",
+    "stem": "Which nursing instructions may apply before an EEG? (Select all that apply.)",
+    "choices": [
+      "Follow specific instructions about hair washing and products",
+      "Expect that electrode placement is painless",
+      "Verify whether sleep deprivation has been ordered",
+      "Assume the test will treat seizures immediately",
+      "Review medications if the provider gave instructions about them"
+    ],
+    "answer": [
+      "Follow specific instructions about hair washing and products",
+      "Expect that electrode placement is painless",
+      "Verify whether sleep deprivation has been ordered",
+      "Review medications if the provider gave instructions about them"
+    ],
+    "rationale": "EEG prep may include clean hair, possible sleep deprivation, and medication guidance depending on the study."
+  },
+  {
+    "id": "NEUROSENS-0072",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "EEG (Electroencephalogram)",
+    "qtype": "single",
+    "stem": "Which patient statement indicates a need for more teaching about EEG?",
+    "choices": [
+      "'The test records electrical activity in my brain.'",
+      "'The electrodes do not deliver shocks to treat my seizures.'",
+      "'I may be asked to stay awake before the test.'",
+      "'The EEG will cure my epilepsy during the procedure.'"
+    ],
+    "answer": "'The EEG will cure my epilepsy during the procedure.'",
+    "rationale": "EEG is diagnostic, not curative."
+  },
+  {
+    "id": "NEUROSENS-0073",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Migraine Medications",
+    "qtype": "single",
+    "stem": "Which medication class is commonly used to abort an acute migraine attack?",
+    "choices": [
+      "Triptans",
+      "Antibiotics",
+      "Loop diuretics",
+      "Antipsychotics as first-line routine home therapy only"
+    ],
+    "answer": "Triptans",
+    "rationale": "Triptans are commonly used for acute migraine treatment in appropriate patients."
+  },
+  {
+    "id": "NEUROSENS-0074",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Migraine Medications",
+    "qtype": "sata",
+    "stem": "Which teaching points are appropriate for migraine medications? (Select all that apply.)",
+    "choices": [
+      "Take acute migraine medication as prescribed early in the attack when instructed",
+      "Track headache triggers and response to therapy",
+      "Overuse of rescue medication may worsen headache patterns",
+      "Use another person's prescription if your supply runs out",
+      "Report chest symptoms or concerning adverse effects promptly"
+    ],
+    "answer": [
+      "Take acute migraine medication as prescribed early in the attack when instructed",
+      "Track headache triggers and response to therapy",
+      "Overuse of rescue medication may worsen headache patterns",
+      "Report chest symptoms or concerning adverse effects promptly"
+    ],
+    "rationale": "Early treatment, trigger tracking, avoiding overuse, and monitoring for adverse effects are important."
+  },
+  {
+    "id": "NEUROSENS-0075",
+    "bank": "Neuro Sensory",
+    "system": "Neurologic",
+    "topic": "Migraine Medications",
+    "qtype": "single",
+    "stem": "A patient with frequent migraines asks why a preventive medication was prescribed instead of only rescue therapy. Which response is best?",
+    "choices": [
+      "'Preventive therapy can reduce the frequency or severity of attacks over time.'",
+      "'Preventive medication works only during a single acute attack.'",
+      "'It is the same as antiplatelet therapy for TIA.'",
+      "'It replaces all need to identify triggers.'"
+    ],
+    "answer": "'Preventive therapy can reduce the frequency or severity of attacks over time.'",
+    "rationale": "Preventive therapy is used when migraines are frequent or disabling."
+  },
+  {
+    "id": "NEUROSENS-0076",
+    "bank": "Neuro Sensory",
+    "system": "Dosage Calculations",
+    "topic": "Dosage Calculations",
+    "qtype": "single",
+    "stem": "The provider orders acetaminophen 650 mg PO. The tablets on hand are 325 mg each. How many tablets should the nurse administer?",
+    "choices": [
+      "1 tablet",
+      "2 tablets",
+      "2.5 tablets",
+      "3 tablets"
+    ],
+    "answer": "2 tablets",
+    "rationale": "Dose ordered \u00f7 dose on hand = 650 mg \u00f7 325 mg = 2 tablets."
+  },
+  {
+    "id": "NEUROSENS-0077",
+    "bank": "Neuro Sensory",
+    "system": "Dosage Calculations",
+    "topic": "Dosage Calculations",
+    "qtype": "single",
+    "stem": "A child weighs 22 lb. The prescribed dose is 10 mg/kg/dose. How many milligrams should the child receive per dose?",
+    "choices": [
+      "50 mg",
+      "100 mg",
+      "220 mg",
+      "440 mg"
+    ],
+    "answer": "100 mg",
+    "rationale": "22 lb \u00f7 2.2 = 10 kg. Then 10 mg/kg \u00d7 10 kg = 100 mg."
+  },
+  {
+    "id": "NEUROSENS-0078",
+    "bank": "Neuro Sensory",
+    "system": "Dosage Calculations",
+    "topic": "Dosage Calculations",
+    "qtype": "single",
+    "stem": "The provider orders amoxicillin 375 mg PO. The suspension available is 250 mg/5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "5 mL",
+      "7.5 mL",
+      "10 mL",
+      "12.5 mL"
+    ],
+    "answer": "7.5 mL",
+    "rationale": "375 mg \u00d7 5 mL \u00f7 250 mg = 7.5 mL."
+  }
+]
