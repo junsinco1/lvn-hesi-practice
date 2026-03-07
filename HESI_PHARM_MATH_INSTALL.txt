@@ -1,0 +1,10 @@
+Add these files to your repo:
+
+1. Put `hesi_pharm_math.json` into `/banks/` and rename it to:
+   `banks/hesi_pharm_math.json`
+
+2. Replace your current `banks_manifest.json` with:
+   `banks_manifest.updated.json`
+
+Why no `app.js` change was needed:
+The current app loads banks dynamically from `banks_manifest.json`, so adding a properly-structured bank entry is enough for the new bank to appear in the dropdown.
