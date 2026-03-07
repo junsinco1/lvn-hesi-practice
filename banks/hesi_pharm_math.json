@@ -1,0 +1,2135 @@
+[
+  {
+    "id": "HESI-PHARM-MATH-0001",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 100 mg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1.25 tablet(s)",
+      "1.75 tablet(s)",
+      "0.75 tablet(s)",
+      "2 tablet(s)"
+    ],
+    "answer": "1.25 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 100 \u00d7 1 = 1.25 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0002",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 100 mcg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1.25 tablet(s)",
+      "1.75 tablet(s)",
+      "0.75 tablet(s)",
+      "2 tablet(s)"
+    ],
+    "answer": "1.25 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 100 \u00d7 1 = 1.25 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0003",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 100 mg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "2.5 tablet(s)",
+      "1.25 tablet(s)",
+      "3 tablet(s)",
+      "2 tablet(s)"
+    ],
+    "answer": "2.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 100 \u00d7 2 = 2.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0004",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 100 mcg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "2.5 tablet(s)",
+      "1.25 tablet(s)",
+      "3 tablet(s)",
+      "2 tablet(s)"
+    ],
+    "answer": "2.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 100 \u00d7 2 = 2.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0005",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 125 mg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1 tablet(s)",
+      "1.5 tablet(s)",
+      "0.5 tablet(s)",
+      "1.75 tablet(s)"
+    ],
+    "answer": "1 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 125 \u00d7 1 = 1 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0006",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 125 mcg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1 tablet(s)",
+      "1.5 tablet(s)",
+      "0.5 tablet(s)",
+      "1.75 tablet(s)"
+    ],
+    "answer": "1 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 125 \u00d7 1 = 1 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0007",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 125 mg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "2 tablet(s)",
+      "1 tablet(s)",
+      "2.5 tablet(s)",
+      "1.5 tablet(s)"
+    ],
+    "answer": "2 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 125 \u00d7 2 = 2 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0008",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 125 mcg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "2 tablet(s)",
+      "1 tablet(s)",
+      "2.5 tablet(s)",
+      "1.5 tablet(s)"
+    ],
+    "answer": "2 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 125 \u00d7 2 = 2 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0009",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 200 mg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1.25 tablet(s)",
+      "0.62 tablet(s)",
+      "1.75 tablet(s)",
+      "0.75 tablet(s)"
+    ],
+    "answer": "1.25 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 200 \u00d7 2 = 1.25 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0010",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 200 mcg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1.25 tablet(s)",
+      "0.62 tablet(s)",
+      "1.75 tablet(s)",
+      "0.75 tablet(s)"
+    ],
+    "answer": "1.25 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 200 \u00d7 2 = 1.25 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0011",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 250 mg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "0.5 tablet(s)",
+      "1 tablet(s)",
+      "0.25 tablet(s)",
+      "1.25 tablet(s)"
+    ],
+    "answer": "0.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 250 \u00d7 1 = 0.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0012",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 250 mcg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "0.5 tablet(s)",
+      "1 tablet(s)",
+      "0.25 tablet(s)",
+      "1.25 tablet(s)"
+    ],
+    "answer": "0.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 250 \u00d7 1 = 0.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0013",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 250 mg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1 tablet(s)",
+      "0.5 tablet(s)",
+      "1.5 tablet(s)",
+      "1.75 tablet(s)"
+    ],
+    "answer": "1 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 250 \u00d7 2 = 1 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0014",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 250 mcg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1 tablet(s)",
+      "0.5 tablet(s)",
+      "1.5 tablet(s)",
+      "1.75 tablet(s)"
+    ],
+    "answer": "1 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 250 \u00d7 2 = 1 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0015",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 500 mg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "0.25 tablet(s)",
+      "0.75 tablet(s)",
+      "0.75 tablet(s)",
+      "1 tablet(s)"
+    ],
+    "answer": "0.25 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 500 \u00d7 1 = 0.25 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0016",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 500 mcg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "0.25 tablet(s)",
+      "0.75 tablet(s)",
+      "0.75 tablet(s)",
+      "1 tablet(s)"
+    ],
+    "answer": "0.25 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 500 \u00d7 1 = 0.25 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0017",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mg PO. The medication label reads 500 mg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "0.5 tablet(s)",
+      "0.25 tablet(s)",
+      "1 tablet(s)",
+      "1.25 tablet(s)"
+    ],
+    "answer": "0.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 500 \u00d7 2 = 0.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0018",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 125 mcg PO. The medication label reads 500 mcg per 2 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "0.5 tablet(s)",
+      "0.25 tablet(s)",
+      "1 tablet(s)",
+      "1.25 tablet(s)"
+    ],
+    "answer": "0.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 125 \u00f7 500 \u00d7 2 = 0.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0019",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 150 mg PO. The medication label reads 100 mg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1.5 tablet(s)",
+      "2 tablet(s)",
+      "1 tablet(s)",
+      "2.25 tablet(s)"
+    ],
+    "answer": "1.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 150 \u00f7 100 \u00d7 1 = 1.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0020",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Tablets/Capsules",
+    "qtype": "single",
+    "stem": "The provider orders 150 mcg PO. The medication label reads 100 mcg per 1 tablet(s). How many tablet(s) should the nurse administer?",
+    "choices": [
+      "1.5 tablet(s)",
+      "2 tablet(s)",
+      "1 tablet(s)",
+      "2.25 tablet(s)"
+    ],
+    "answer": "1.5 tablet(s)",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 150 \u00f7 100 \u00d7 1 = 1.5 tablet(s)."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0021",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 50 mg per 1 mL. How many mL should the nurse administer?",
+    "choices": [
+      "1.2 mL",
+      "0.5 mL",
+      "2.2 mL",
+      "2.7 mL"
+    ],
+    "answer": "1.2 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 50 \u00d7 1 = 1.2 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0022",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 50 mg per 2 mL. How many mL should the nurse administer?",
+    "choices": [
+      "2.4 mL",
+      "1.4 mL",
+      "3.4 mL",
+      "1.2 mL"
+    ],
+    "answer": "2.4 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 50 \u00d7 2 = 2.4 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0023",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 50 mg per 2.5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "3 mL",
+      "2 mL",
+      "4 mL",
+      "1.2 mL"
+    ],
+    "answer": "3 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 50 \u00d7 2.5 = 3 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0024",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 50 mg per 4 mL. How many mL should the nurse administer?",
+    "choices": [
+      "4.8 mL",
+      "3.8 mL",
+      "5.8 mL",
+      "1.2 mL"
+    ],
+    "answer": "4.8 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 50 \u00d7 4 = 4.8 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0025",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 50 mg per 5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "6 mL",
+      "5 mL",
+      "7 mL",
+      "1.2 mL"
+    ],
+    "answer": "6 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 50 \u00d7 5 = 6 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0026",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 50 mg per 10 mL. How many mL should the nurse administer?",
+    "choices": [
+      "12 mL",
+      "11 mL",
+      "13 mL",
+      "1.2 mL"
+    ],
+    "answer": "12 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 50 \u00d7 10 = 12 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0027",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 60 mg per 1 mL. How many mL should the nurse administer?",
+    "choices": [
+      "1 mL",
+      "0.5 mL",
+      "2 mL",
+      "2.5 mL"
+    ],
+    "answer": "1 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 60 \u00d7 1 = 1 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0028",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 60 mg per 2 mL. How many mL should the nurse administer?",
+    "choices": [
+      "2 mL",
+      "1 mL",
+      "3 mL",
+      "3.5 mL"
+    ],
+    "answer": "2 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 60 \u00d7 2 = 2 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0029",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 60 mg per 2.5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "2.5 mL",
+      "1.5 mL",
+      "3.5 mL",
+      "1 mL"
+    ],
+    "answer": "2.5 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 60 \u00d7 2.5 = 2.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0030",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 60 mg per 4 mL. How many mL should the nurse administer?",
+    "choices": [
+      "4 mL",
+      "3 mL",
+      "5 mL",
+      "1 mL"
+    ],
+    "answer": "4 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 60 \u00d7 4 = 4 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0031",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 60 mg per 5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "5 mL",
+      "4 mL",
+      "6 mL",
+      "1 mL"
+    ],
+    "answer": "5 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 60 \u00d7 5 = 5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0032",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 60 mg per 10 mL. How many mL should the nurse administer?",
+    "choices": [
+      "10 mL",
+      "9 mL",
+      "11 mL",
+      "1 mL"
+    ],
+    "answer": "10 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 60 \u00d7 10 = 10 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0033",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 80 mg per 2 mL. How many mL should the nurse administer?",
+    "choices": [
+      "1.5 mL",
+      "0.5 mL",
+      "2.5 mL",
+      "0.8 mL"
+    ],
+    "answer": "1.5 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 80 \u00d7 2 = 1.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0034",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 80 mg per 4 mL. How many mL should the nurse administer?",
+    "choices": [
+      "3 mL",
+      "2 mL",
+      "4 mL",
+      "0.8 mL"
+    ],
+    "answer": "3 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 80 \u00d7 4 = 3 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0035",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 80 mg per 10 mL. How many mL should the nurse administer?",
+    "choices": [
+      "7.5 mL",
+      "6.5 mL",
+      "8.5 mL",
+      "0.8 mL"
+    ],
+    "answer": "7.5 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 80 \u00d7 10 = 7.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0036",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 100 mg per 1 mL. How many mL should the nurse administer?",
+    "choices": [
+      "0.6 mL",
+      "0.5 mL",
+      "1.6 mL",
+      "2.1 mL"
+    ],
+    "answer": "0.6 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 100 \u00d7 1 = 0.6 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0037",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 100 mg per 2 mL. How many mL should the nurse administer?",
+    "choices": [
+      "1.2 mL",
+      "0.5 mL",
+      "2.2 mL",
+      "0.6 mL"
+    ],
+    "answer": "1.2 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 100 \u00d7 2 = 1.2 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0038",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 100 mg per 2.5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "1.5 mL",
+      "0.5 mL",
+      "2.5 mL",
+      "0.6 mL"
+    ],
+    "answer": "1.5 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 100 \u00d7 2.5 = 1.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0039",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 100 mg per 4 mL. How many mL should the nurse administer?",
+    "choices": [
+      "2.4 mL",
+      "1.4 mL",
+      "3.4 mL",
+      "0.6 mL"
+    ],
+    "answer": "2.4 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 100 \u00d7 4 = 2.4 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0040",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Oral Liquids",
+    "qtype": "single",
+    "stem": "The provider orders 60 mg PO. The liquid medication available is 100 mg per 5 mL. How many mL should the nurse administer?",
+    "choices": [
+      "3 mL",
+      "2 mL",
+      "4 mL",
+      "0.6 mL"
+    ],
+    "answer": "3 mL",
+    "rationale": "Use dose ordered \u00f7 dose on hand \u00d7 quantity = 60 \u00f7 100 \u00d7 5 = 3 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0041",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 50 mL and must infuse over 0.5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "100 mL/hr",
+      "50 mL/hr",
+      "200 mL/hr",
+      "25 mL/hr"
+    ],
+    "answer": "100 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 50 \u00f7 0.5 = 100 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0042",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 50 mL and must infuse over 1 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "50 mL/hr",
+      "25 mL/hr",
+      "100 mL/hr",
+      "50 mL/hr"
+    ],
+    "answer": "50 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 50 \u00f7 1 = 50 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0043",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 50 mL and must infuse over 2 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "25 mL/hr",
+      "12.5 mL/hr",
+      "50 mL/hr",
+      "100 mL/hr"
+    ],
+    "answer": "25 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 50 \u00f7 2 = 25 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0044",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 50 mL and must infuse over 2.5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "20 mL/hr",
+      "10 mL/hr",
+      "40 mL/hr",
+      "125 mL/hr"
+    ],
+    "answer": "20 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 50 \u00f7 2.5 = 20 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0045",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 50 mL and must infuse over 5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "10 mL/hr",
+      "5 mL/hr",
+      "20 mL/hr",
+      "250 mL/hr"
+    ],
+    "answer": "10 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 50 \u00f7 5 = 10 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0046",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 50 mL and must infuse over 10 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "5 mL/hr",
+      "2.5 mL/hr",
+      "10 mL/hr",
+      "500 mL/hr"
+    ],
+    "answer": "5 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 50 \u00f7 10 = 5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0047",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 75 mL and must infuse over 0.5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "150 mL/hr",
+      "75 mL/hr",
+      "300 mL/hr",
+      "37.5 mL/hr"
+    ],
+    "answer": "150 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 75 \u00f7 0.5 = 150 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0048",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 75 mL and must infuse over 1 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "75 mL/hr",
+      "37.5 mL/hr",
+      "150 mL/hr",
+      "75 mL/hr"
+    ],
+    "answer": "75 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 75 \u00f7 1 = 75 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0049",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 75 mL and must infuse over 1.5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "50 mL/hr",
+      "25 mL/hr",
+      "100 mL/hr",
+      "112.5 mL/hr"
+    ],
+    "answer": "50 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 75 \u00f7 1.5 = 50 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0050",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 75 mL and must infuse over 2.5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "30 mL/hr",
+      "15 mL/hr",
+      "60 mL/hr",
+      "187.5 mL/hr"
+    ],
+    "answer": "30 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 75 \u00f7 2.5 = 30 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0051",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 75 mL and must infuse over 3 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "25 mL/hr",
+      "12.5 mL/hr",
+      "50 mL/hr",
+      "225 mL/hr"
+    ],
+    "answer": "25 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 75 \u00f7 3 = 25 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0052",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 75 mL and must infuse over 5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "15 mL/hr",
+      "7.5 mL/hr",
+      "30 mL/hr",
+      "375 mL/hr"
+    ],
+    "answer": "15 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 75 \u00f7 5 = 15 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0053",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 100 mL and must infuse over 0.5 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "200 mL/hr",
+      "100 mL/hr",
+      "400 mL/hr",
+      "50 mL/hr"
+    ],
+    "answer": "200 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 100 \u00f7 0.5 = 200 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0054",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 100 mL and must infuse over 1 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "100 mL/hr",
+      "50 mL/hr",
+      "200 mL/hr",
+      "100 mL/hr"
+    ],
+    "answer": "100 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 100 \u00f7 1 = 100 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0055",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Infusion Pump mL/hr",
+    "qtype": "single",
+    "stem": "An IV infusion contains 100 mL and must infuse over 2 hour(s). What rate should the nurse program on the infusion pump?",
+    "choices": [
+      "50 mL/hr",
+      "25 mL/hr",
+      "100 mL/hr",
+      "200 mL/hr"
+    ],
+    "answer": "50 mL/hr",
+    "rationale": "mL/hr = total volume \u00f7 hours = 100 \u00f7 2 = 50 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0056",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 15 minutes using tubing with a drop factor of 15 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "50 gtt/min",
+      "25 gtt/min",
+      "60 gtt/min",
+      "40 gtt/min"
+    ],
+    "answer": "50 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 15) \u00f7 15 = 50 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0057",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 15 minutes using tubing with a drop factor of 60 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "200 gtt/min",
+      "100 gtt/min",
+      "210 gtt/min",
+      "190 gtt/min"
+    ],
+    "answer": "200 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 60) \u00f7 15 = 200 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0058",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 20 minutes using tubing with a drop factor of 10 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "25 gtt/min",
+      "12.5 gtt/min",
+      "35 gtt/min",
+      "15 gtt/min"
+    ],
+    "answer": "25 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 10) \u00f7 20 = 25 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0059",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 20 minutes using tubing with a drop factor of 20 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "50 gtt/min",
+      "25 gtt/min",
+      "60 gtt/min",
+      "40 gtt/min"
+    ],
+    "answer": "50 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 20) \u00f7 20 = 50 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0060",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 20 minutes using tubing with a drop factor of 60 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "150 gtt/min",
+      "75 gtt/min",
+      "160 gtt/min",
+      "140 gtt/min"
+    ],
+    "answer": "150 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 60) \u00f7 20 = 150 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0061",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 30 minutes using tubing with a drop factor of 15 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "25 gtt/min",
+      "12.5 gtt/min",
+      "35 gtt/min",
+      "15 gtt/min"
+    ],
+    "answer": "25 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 15) \u00f7 30 = 25 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0062",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 30 minutes using tubing with a drop factor of 60 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "100 gtt/min",
+      "50 gtt/min",
+      "110 gtt/min",
+      "90 gtt/min"
+    ],
+    "answer": "100 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 60) \u00f7 30 = 100 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0063",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 60 minutes using tubing with a drop factor of 60 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "50 gtt/min",
+      "25 gtt/min",
+      "60 gtt/min",
+      "40 gtt/min"
+    ],
+    "answer": "50 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 60) \u00f7 60 = 50 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0064",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 50 mL over 120 minutes using tubing with a drop factor of 60 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "25 gtt/min",
+      "12.5 gtt/min",
+      "35 gtt/min",
+      "15 gtt/min"
+    ],
+    "answer": "25 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (50 \u00d7 60) \u00f7 120 = 25 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0065",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 75 mL over 15 minutes using tubing with a drop factor of 10 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "50 gtt/min",
+      "25 gtt/min",
+      "60 gtt/min",
+      "40 gtt/min"
+    ],
+    "answer": "50 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (75 \u00d7 10) \u00f7 15 = 50 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0066",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 75 mL over 15 minutes using tubing with a drop factor of 15 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "75 gtt/min",
+      "37.5 gtt/min",
+      "85 gtt/min",
+      "65 gtt/min"
+    ],
+    "answer": "75 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (75 \u00d7 15) \u00f7 15 = 75 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0067",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 75 mL over 15 minutes using tubing with a drop factor of 20 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "100 gtt/min",
+      "50 gtt/min",
+      "110 gtt/min",
+      "90 gtt/min"
+    ],
+    "answer": "100 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (75 \u00d7 20) \u00f7 15 = 100 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0068",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 75 mL over 20 minutes using tubing with a drop factor of 20 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "75 gtt/min",
+      "37.5 gtt/min",
+      "85 gtt/min",
+      "65 gtt/min"
+    ],
+    "answer": "75 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (75 \u00d7 20) \u00f7 20 = 75 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0069",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 75 mL over 20 minutes using tubing with a drop factor of 60 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "225 gtt/min",
+      "112.5 gtt/min",
+      "235 gtt/min",
+      "215 gtt/min"
+    ],
+    "answer": "225 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (75 \u00d7 60) \u00f7 20 = 225 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0070",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Gravity Flow Rate",
+    "qtype": "single",
+    "stem": "The nurse must infuse 75 mL over 30 minutes using tubing with a drop factor of 10 gtt/mL. What is the flow rate in gtt/min?",
+    "choices": [
+      "25 gtt/min",
+      "12.5 gtt/min",
+      "35 gtt/min",
+      "15 gtt/min"
+    ],
+    "answer": "25 gtt/min",
+    "rationale": "gtt/min = (mL \u00d7 drop factor) \u00f7 minutes = (75 \u00d7 10) \u00f7 30 = 25 gtt/min."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0071",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 2 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 200 mg in 250 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "25 mL/hr",
+      "12.5 mL/hr",
+      "50 mL/hr",
+      "20 mL/hr"
+    ],
+    "answer": "25 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 2 = 20 mg/hr. Concentration = 200 \u00f7 250 = 0.8 mg/mL. Rate = 20 \u00f7 0.8 = 25 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0072",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 2 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 400 mg in 250 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "12.5 mL/hr",
+      "6.2 mL/hr",
+      "25 mL/hr",
+      "20 mL/hr"
+    ],
+    "answer": "12.5 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 2 = 20 mg/hr. Concentration = 400 \u00f7 250 = 1.6 mg/mL. Rate = 20 \u00f7 1.6 = 12.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0073",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 2 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 800 mg in 500 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "12.5 mL/hr",
+      "6.2 mL/hr",
+      "25 mL/hr",
+      "20 mL/hr"
+    ],
+    "answer": "12.5 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 2 = 20 mg/hr. Concentration = 800 \u00f7 500 = 1.6 mg/mL. Rate = 20 \u00f7 1.6 = 12.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0074",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 2 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 250 mg in 250 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "20 mL/hr",
+      "10 mL/hr",
+      "40 mL/hr",
+      "20 mL/hr"
+    ],
+    "answer": "20 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 2 = 20 mg/hr. Concentration = 250 \u00f7 250 = 1 mg/mL. Rate = 20 \u00f7 1 = 20 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0075",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 2 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 50 mg in 50 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "20 mL/hr",
+      "10 mL/hr",
+      "40 mL/hr",
+      "20 mL/hr"
+    ],
+    "answer": "20 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 2 = 20 mg/hr. Concentration = 50 \u00f7 50 = 1 mg/mL. Rate = 20 \u00f7 1 = 20 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0076",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 3 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 250 mg in 250 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "30 mL/hr",
+      "15 mL/hr",
+      "60 mL/hr",
+      "30 mL/hr"
+    ],
+    "answer": "30 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 3 = 30 mg/hr. Concentration = 250 \u00f7 250 = 1 mg/mL. Rate = 30 \u00f7 1 = 30 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0077",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 3 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 50 mg in 50 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "30 mL/hr",
+      "15 mL/hr",
+      "60 mL/hr",
+      "30 mL/hr"
+    ],
+    "answer": "30 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 3 = 30 mg/hr. Concentration = 50 \u00f7 50 = 1 mg/mL. Rate = 30 \u00f7 1 = 30 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0078",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 4 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 400 mg in 250 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "25 mL/hr",
+      "12.5 mL/hr",
+      "50 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "25 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 4 = 40 mg/hr. Concentration = 400 \u00f7 250 = 1.6 mg/mL. Rate = 40 \u00f7 1.6 = 25 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0079",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 4 mg/kg/hr. The patient weighs 22 lb. The IV bag contains 800 mg in 500 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "25 mL/hr",
+      "12.5 mL/hr",
+      "50 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "25 mL/hr",
+    "rationale": "Convert weight: 22 \u00f7 2.2 = 10 kg. Required dose/hr = 10 \u00d7 4 = 40 mg/hr. Concentration = 800 \u00f7 500 = 1.6 mg/mL. Rate = 40 \u00f7 1.6 = 25 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0080",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Weight-Based mg/kg/hr",
+    "qtype": "single",
+    "stem": "A medication is prescribed at 2 mg/kg/hr. The patient weighs 44 lb. The IV bag contains 400 mg in 250 mL. What rate should the nurse set in mL/hr?",
+    "choices": [
+      "25 mL/hr",
+      "12.5 mL/hr",
+      "50 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "25 mL/hr",
+    "rationale": "Convert weight: 44 \u00f7 2.2 = 20 kg. Required dose/hr = 20 \u00d7 2 = 40 mg/hr. Concentration = 400 \u00f7 250 = 1.6 mg/mL. Rate = 40 \u00f7 1.6 = 25 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0081",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 2 mcg/kg/min. The patient weighs 44 lb. The infusion contains 400 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "1.5 mL/hr",
+      "0.7 mL/hr",
+      "3 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "1.5 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 2 = 40 mcg/min. Convert to mg/hr: 40 \u00d7 60 \u00f7 1000 = 2.4 mg/hr. Concentration = 400/250 = 1.6 mg/mL. Rate = 2.4 \u00f7 1.6 = 1.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0082",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 2 mcg/kg/min. The patient weighs 44 lb. The infusion contains 250 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "2.4 mL/hr",
+      "1.2 mL/hr",
+      "4.8 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "2.4 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 2 = 40 mcg/min. Convert to mg/hr: 40 \u00d7 60 \u00f7 1000 = 2.4 mg/hr. Concentration = 250/250 = 1 mg/mL. Rate = 2.4 \u00f7 1 = 2.4 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0083",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 3 mcg/kg/min. The patient weighs 44 lb. The infusion contains 250 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "3.6 mL/hr",
+      "1.8 mL/hr",
+      "7.2 mL/hr",
+      "60 mL/hr"
+    ],
+    "answer": "3.6 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 3 = 60 mcg/min. Convert to mg/hr: 60 \u00d7 60 \u00f7 1000 = 3.6 mg/hr. Concentration = 250/250 = 1 mg/mL. Rate = 3.6 \u00f7 1 = 3.6 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0084",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 4 mcg/kg/min. The patient weighs 44 lb. The infusion contains 400 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "3 mL/hr",
+      "1.5 mL/hr",
+      "6 mL/hr",
+      "80 mL/hr"
+    ],
+    "answer": "3 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 4 = 80 mcg/min. Convert to mg/hr: 80 \u00d7 60 \u00f7 1000 = 4.8 mg/hr. Concentration = 400/250 = 1.6 mg/mL. Rate = 4.8 \u00f7 1.6 = 3 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0085",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 4 mcg/kg/min. The patient weighs 44 lb. The infusion contains 800 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "1.5 mL/hr",
+      "0.7 mL/hr",
+      "3 mL/hr",
+      "80 mL/hr"
+    ],
+    "answer": "1.5 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 4 = 80 mcg/min. Convert to mg/hr: 80 \u00d7 60 \u00f7 1000 = 4.8 mg/hr. Concentration = 800/250 = 3.2 mg/mL. Rate = 4.8 \u00f7 3.2 = 1.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0086",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 4 mcg/kg/min. The patient weighs 44 lb. The infusion contains 250 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "4.8 mL/hr",
+      "2.4 mL/hr",
+      "9.6 mL/hr",
+      "80 mL/hr"
+    ],
+    "answer": "4.8 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 4 = 80 mcg/min. Convert to mg/hr: 80 \u00d7 60 \u00f7 1000 = 4.8 mg/hr. Concentration = 250/250 = 1 mg/mL. Rate = 4.8 \u00f7 1 = 4.8 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0087",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 4 mcg/kg/min. The patient weighs 44 lb. The infusion contains 1600 mg in 500 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "1.5 mL/hr",
+      "0.7 mL/hr",
+      "3 mL/hr",
+      "80 mL/hr"
+    ],
+    "answer": "1.5 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 4 = 80 mcg/min. Convert to mg/hr: 80 \u00d7 60 \u00f7 1000 = 4.8 mg/hr. Concentration = 1600/500 = 3.2 mg/mL. Rate = 4.8 \u00f7 3.2 = 1.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0088",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 5 mcg/kg/min. The patient weighs 44 lb. The infusion contains 250 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "6 mL/hr",
+      "3 mL/hr",
+      "12 mL/hr",
+      "100 mL/hr"
+    ],
+    "answer": "6 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 5 = 100 mcg/min. Convert to mg/hr: 100 \u00d7 60 \u00f7 1000 = 6 mg/hr. Concentration = 250/250 = 1 mg/mL. Rate = 6 \u00f7 1 = 6 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0089",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 6 mcg/kg/min. The patient weighs 44 lb. The infusion contains 400 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "4.5 mL/hr",
+      "2.2 mL/hr",
+      "9 mL/hr",
+      "120 mL/hr"
+    ],
+    "answer": "4.5 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 6 = 120 mcg/min. Convert to mg/hr: 120 \u00d7 60 \u00f7 1000 = 7.2 mg/hr. Concentration = 400/250 = 1.6 mg/mL. Rate = 7.2 \u00f7 1.6 = 4.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0090",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "mcg/kg/min Drips",
+    "qtype": "single",
+    "stem": "Dopamine is ordered at 6 mcg/kg/min. The patient weighs 44 lb. The infusion contains 250 mg in 250 mL. What infusion rate should the nurse set?",
+    "choices": [
+      "7.2 mL/hr",
+      "3.6 mL/hr",
+      "14.4 mL/hr",
+      "120 mL/hr"
+    ],
+    "answer": "7.2 mL/hr",
+    "rationale": "Weight: 44 \u00f7 2.2 = 20 kg. Dose = 20 \u00d7 6 = 120 mcg/min. Convert to mg/hr: 120 \u00d7 60 \u00f7 1000 = 7.2 mg/hr. Concentration = 250/250 = 1 mg/mL. Rate = 7.2 \u00f7 1 = 7.2 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0091",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 50 units in 50 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "1 mL/hr",
+      "0.5 mL/hr",
+      "2 mL/hr",
+      "1 mL/hr"
+    ],
+    "answer": "1 mL/hr",
+    "rationale": "Concentration = 50 units \u00f7 50 mL = 1 units/mL. Rate = 1 units/hr \u00f7 1 units/mL = 1 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0092",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 50 units in 100 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "2 mL/hr",
+      "1 mL/hr",
+      "4 mL/hr",
+      "0.5 mL/hr"
+    ],
+    "answer": "2 mL/hr",
+    "rationale": "Concentration = 50 units \u00f7 100 mL = 0.5 units/mL. Rate = 1 units/hr \u00f7 0.5 units/mL = 2 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0093",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 50 units in 250 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "5 mL/hr",
+      "2.5 mL/hr",
+      "10 mL/hr",
+      "0.2 mL/hr"
+    ],
+    "answer": "5 mL/hr",
+    "rationale": "Concentration = 50 units \u00f7 250 mL = 0.2 units/mL. Rate = 1 units/hr \u00f7 0.2 units/mL = 5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0094",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 50 units in 500 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "10 mL/hr",
+      "5 mL/hr",
+      "20 mL/hr",
+      "0.1 mL/hr"
+    ],
+    "answer": "10 mL/hr",
+    "rationale": "Concentration = 50 units \u00f7 500 mL = 0.1 units/mL. Rate = 1 units/hr \u00f7 0.1 units/mL = 10 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0095",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 100 units in 50 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "0.5 mL/hr",
+      "0.2 mL/hr",
+      "1 mL/hr",
+      "2 mL/hr"
+    ],
+    "answer": "0.5 mL/hr",
+    "rationale": "Concentration = 100 units \u00f7 50 mL = 2 units/mL. Rate = 1 units/hr \u00f7 2 units/mL = 0.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0096",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 100 units in 100 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "1 mL/hr",
+      "0.5 mL/hr",
+      "2 mL/hr",
+      "1 mL/hr"
+    ],
+    "answer": "1 mL/hr",
+    "rationale": "Concentration = 100 units \u00f7 100 mL = 1 units/mL. Rate = 1 units/hr \u00f7 1 units/mL = 1 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0097",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 100 units in 250 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "2.5 mL/hr",
+      "1.2 mL/hr",
+      "5 mL/hr",
+      "0.4 mL/hr"
+    ],
+    "answer": "2.5 mL/hr",
+    "rationale": "Concentration = 100 units \u00f7 250 mL = 0.4 units/mL. Rate = 1 units/hr \u00f7 0.4 units/mL = 2.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0098",
+    "bank": "HESI Pharm Math",
+    "system": "Endocrine",
+    "topic": "Insulin Infusions",
+    "qtype": "single",
+    "stem": "A regular insulin infusion contains 100 units in 500 mL NS. The provider orders 1 units/hr. What rate should the nurse set?",
+    "choices": [
+      "5 mL/hr",
+      "2.5 mL/hr",
+      "10 mL/hr",
+      "0.2 mL/hr"
+    ],
+    "answer": "5 mL/hr",
+    "rationale": "Concentration = 100 units \u00f7 500 mL = 0.2 units/mL. Rate = 1 units/hr \u00f7 0.2 units/mL = 5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0099",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 20000 units in 500 mL D5W. The prescription is 700 units/hr. What rate should the nurse set?",
+    "choices": [
+      "17.5 mL/hr",
+      "8.8 mL/hr",
+      "35 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "17.5 mL/hr",
+    "rationale": "Concentration = 20000 \u00f7 500 = 40 units/mL. Rate = 700 \u00f7 40 = 17.5 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0100",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 25000 units in 250 mL D5W. The prescription is 700 units/hr. What rate should the nurse set?",
+    "choices": [
+      "7 mL/hr",
+      "3.5 mL/hr",
+      "14 mL/hr",
+      "100 mL/hr"
+    ],
+    "answer": "7 mL/hr",
+    "rationale": "Concentration = 25000 \u00f7 250 = 100 units/mL. Rate = 700 \u00f7 100 = 7 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0101",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 25000 units in 500 mL D5W. The prescription is 700 units/hr. What rate should the nurse set?",
+    "choices": [
+      "14 mL/hr",
+      "7 mL/hr",
+      "28 mL/hr",
+      "50 mL/hr"
+    ],
+    "answer": "14 mL/hr",
+    "rationale": "Concentration = 25000 \u00f7 500 = 50 units/mL. Rate = 700 \u00f7 50 = 14 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0102",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 50000 units in 500 mL D5W. The prescription is 700 units/hr. What rate should the nurse set?",
+    "choices": [
+      "7 mL/hr",
+      "3.5 mL/hr",
+      "14 mL/hr",
+      "100 mL/hr"
+    ],
+    "answer": "7 mL/hr",
+    "rationale": "Concentration = 50000 \u00f7 500 = 100 units/mL. Rate = 700 \u00f7 100 = 7 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0103",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 20000 units in 250 mL D5W. The prescription is 800 units/hr. What rate should the nurse set?",
+    "choices": [
+      "10 mL/hr",
+      "5 mL/hr",
+      "20 mL/hr",
+      "80 mL/hr"
+    ],
+    "answer": "10 mL/hr",
+    "rationale": "Concentration = 20000 \u00f7 250 = 80 units/mL. Rate = 800 \u00f7 80 = 10 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0104",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 20000 units in 500 mL D5W. The prescription is 800 units/hr. What rate should the nurse set?",
+    "choices": [
+      "20 mL/hr",
+      "10 mL/hr",
+      "40 mL/hr",
+      "40 mL/hr"
+    ],
+    "answer": "20 mL/hr",
+    "rationale": "Concentration = 20000 \u00f7 500 = 40 units/mL. Rate = 800 \u00f7 40 = 20 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0105",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 25000 units in 250 mL D5W. The prescription is 800 units/hr. What rate should the nurse set?",
+    "choices": [
+      "8 mL/hr",
+      "4 mL/hr",
+      "16 mL/hr",
+      "100 mL/hr"
+    ],
+    "answer": "8 mL/hr",
+    "rationale": "Concentration = 25000 \u00f7 250 = 100 units/mL. Rate = 800 \u00f7 100 = 8 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0106",
+    "bank": "HESI Pharm Math",
+    "system": "Cardiovascular",
+    "topic": "Heparin Infusions",
+    "qtype": "single",
+    "stem": "A heparin infusion contains 25000 units in 500 mL D5W. The prescription is 800 units/hr. What rate should the nurse set?",
+    "choices": [
+      "16 mL/hr",
+      "8 mL/hr",
+      "32 mL/hr",
+      "50 mL/hr"
+    ],
+    "answer": "16 mL/hr",
+    "rationale": "Concentration = 25000 \u00f7 500 = 50 units/mL. Rate = 800 \u00f7 50 = 16 mL/hr."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0107",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "The nurse reconstitutes cefazolin 1 g with 2.5 mL, yielding a final concentration of 330 mg/mL. The prescribed dose is 750 mg. How many mL should the nurse withdraw?",
+    "choices": [
+      "2.3 mL",
+      "1.1 mL",
+      "3.3 mL",
+      "330 mL"
+    ],
+    "answer": "2.3 mL",
+    "rationale": "Volume needed = dose \u00f7 concentration = 750 \u00f7 330 = 2.3 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0108",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "The nurse reconstitutes ampicillin 500 mg with 1.8 mL, yielding a final concentration of 250 mg/mL. The prescribed dose is 375 mg. How many mL should the nurse withdraw?",
+    "choices": [
+      "1.5 mL",
+      "0.8 mL",
+      "2.5 mL",
+      "250 mL"
+    ],
+    "answer": "1.5 mL",
+    "rationale": "Volume needed = dose \u00f7 concentration = 375 \u00f7 250 = 1.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0109",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "The nurse reconstitutes ceftriaxone 1 g with 3.6 mL, yielding a final concentration of 250 mg/mL. The prescribed dose is 500 mg. How many mL should the nurse withdraw?",
+    "choices": [
+      "2 mL",
+      "1 mL",
+      "3 mL",
+      "250 mL"
+    ],
+    "answer": "2 mL",
+    "rationale": "Volume needed = dose \u00f7 concentration = 500 \u00f7 250 = 2 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0110",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "The nurse reconstitutes vancomycin 500 mg with 10 mL, yielding a final concentration of 50 mg/mL. The prescribed dose is 375 mg. How many mL should the nurse withdraw?",
+    "choices": [
+      "7.5 mL",
+      "3.8 mL",
+      "8.5 mL",
+      "50 mL"
+    ],
+    "answer": "7.5 mL",
+    "rationale": "Volume needed = dose \u00f7 concentration = 375 \u00f7 50 = 7.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0111",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "The nurse reconstitutes solu-cortef 100 mg with 2 mL, yielding a final concentration of 50 mg/mL. The prescribed dose is 75 mg. How many mL should the nurse withdraw?",
+    "choices": [
+      "1.5 mL",
+      "0.8 mL",
+      "2.5 mL",
+      "50 mL"
+    ],
+    "answer": "1.5 mL",
+    "rationale": "Volume needed = dose \u00f7 concentration = 75 \u00f7 50 = 1.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0112",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "After reconstitution, a vial yields 250 mg in 5 mL. The provider orders 125 mg IM. How many mL should the nurse prepare?",
+    "choices": [
+      "2.5 mL",
+      "1.2 mL",
+      "3 mL",
+      "50 mL"
+    ],
+    "answer": "2.5 mL",
+    "rationale": "Concentration = 250 mg \u00f7 5 mL = 50 mg/mL. Volume = 125 \u00f7 50 = 2.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0113",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "After reconstitution, a vial yields 250 mg in 5 mL. The provider orders 250 mg IM. How many mL should the nurse prepare?",
+    "choices": [
+      "5 mL",
+      "2.5 mL",
+      "5.5 mL",
+      "50 mL"
+    ],
+    "answer": "5 mL",
+    "rationale": "Concentration = 250 mg \u00f7 5 mL = 50 mg/mL. Volume = 250 \u00f7 50 = 5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0114",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "single",
+    "stem": "After reconstitution, a vial yields 250 mg in 5 mL. The provider orders 375 mg IM. How many mL should the nurse prepare?",
+    "choices": [
+      "7.5 mL",
+      "3.8 mL",
+      "8 mL",
+      "50 mL"
+    ],
+    "answer": "7.5 mL",
+    "rationale": "Concentration = 250 mg \u00f7 5 mL = 50 mg/mL. Volume = 375 \u00f7 50 = 7.5 mL."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0115",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 22 lb. The recommended dosage range for a medication is 20-40 mg/kg/day divided equally. The provider orders 150 mg PO every 8 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 22 \u00f7 2.2 = 10 kg. Safe daily range = 200-400 mg/day. Ordered daily dose = 150 \u00d7 3 = 450 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0116",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 33 lb. The recommended dosage range for a medication is 10-20 mg/kg/day divided equally. The provider orders 250 mg PO every 12 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 33 \u00f7 2.2 = 15 kg. Safe daily range = 150-300 mg/day. Ordered daily dose = 250 \u00d7 2 = 500 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0117",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 44 lb. The recommended dosage range for a medication is 25-50 mg/kg/day divided equally. The provider orders 600 mg PO every 8 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 44 \u00f7 2.2 = 20 kg. Safe daily range = 500-1000 mg/day. Ordered daily dose = 600 \u00d7 3 = 1800 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0118",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 66 lb. The recommended dosage range for a medication is 15-30 mg/kg/day divided equally. The provider orders 900 mg PO every 6 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 66 \u00f7 2.2 = 30 kg. Safe daily range = 450-900 mg/day. Ordered daily dose = 900 \u00d7 4 = 3600 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0119",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 55 lb. The recommended dosage range for a medication is 20-40 mg/kg/day divided equally. The provider orders 700 mg PO every 12 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 55 \u00f7 2.2 = 25 kg. Safe daily range = 500-1000 mg/day. Ordered daily dose = 700 \u00d7 2 = 1400 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0120",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 26.4 lb. The recommended dosage range for a medication is 5-10 mg/kg/day divided equally. The provider orders 180 mg PO every 8 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 26.4 \u00f7 2.2 = 12 kg. Safe daily range = 60-120 mg/day. Ordered daily dose = 180 \u00d7 3 = 540 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0121",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 30.8 lb. The recommended dosage range for a medication is 25-45 mg/kg/day divided equally. The provider orders 500 mg PO every 12 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 30.8 \u00f7 2.2 = 14 kg. Safe daily range = 350-630 mg/day. Ordered daily dose = 500 \u00d7 2 = 1000 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0122",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "single",
+    "stem": "A child weighs 39.6 lb. The recommended dosage range for a medication is 30-60 mg/kg/day divided equally. The provider orders 1200 mg PO every 6 hours. Which interpretation is correct?",
+    "choices": [
+      "The dose is safe.",
+      "The dose is unsafe.",
+      "The nurse needs the height to calculate safety.",
+      "The order cannot be evaluated without the child's age."
+    ],
+    "answer": "The dose is unsafe.",
+    "rationale": "Weight = 39.6 \u00f7 2.2 = 18 kg. Safe daily range = 540-1080 mg/day. Ordered daily dose = 1200 \u00d7 4 = 4800 mg/day. Therefore, the dose is unsafe."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0123",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Calculation Setup",
+    "qtype": "sata",
+    "stem": "The provider orders 0.25 mg PO. Tablets available are 125 mcg each. Which actions are appropriate before administering the medication? (Select all that apply.)",
+    "choices": [
+      "Convert 0.25 mg to 250 mcg.",
+      "Recognize that 2 tablets are needed.",
+      "Verify whether tablets are scored before splitting any dose.",
+      "Document only after administration.",
+      "Assume mcg and mg are interchangeable.",
+      "Skip independent double-check even for a high-alert drug."
+    ],
+    "answer": [
+      "Convert 0.25 mg to 250 mcg.",
+      "Recognize that 2 tablets are needed.",
+      "Verify whether tablets are scored before splitting any dose."
+    ],
+    "rationale": "Convert mg to mcg first: 0.25 mg = 250 mcg. 250 mcg \u00f7 125 mcg/tablet = 2 tablets. Safe preparation and documentation principles still apply."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0124",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Calculation Setup",
+    "qtype": "sata",
+    "stem": "An order reads infuse 500 mL over 4 hours by pump. Which statements are correct? (Select all that apply.)",
+    "choices": [
+      "The correct rate is 125 mL/hr.",
+      "The nurse should round to a whole mL/hr for most pumps.",
+      "Volume \u00f7 time is used for this calculation.",
+      "The correct rate is 200 mL/hr.",
+      "Drop factor is required for a pump rate.",
+      "Programming 12.5 mL/hr would be correct."
+    ],
+    "answer": [
+      "The correct rate is 125 mL/hr.",
+      "The nurse should round to a whole mL/hr for most pumps.",
+      "Volume \u00f7 time is used for this calculation."
+    ],
+    "rationale": "500 \u00f7 4 = 125 mL/hr. Pump calculations use volume divided by hours, not drop factor."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0125",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Calculation Setup",
+    "qtype": "sata",
+    "stem": "A medication is ordered at 5 mcg/kg/min for a 154-lb patient. Which steps are necessary? (Select all that apply.)",
+    "choices": [
+      "Convert pounds to kilograms.",
+      "Multiply kg by mcg/kg/min to get mcg/min.",
+      "Convert mcg/min to mg/hr if the concentration is in mg/mL.",
+      "Set the pump directly in mcg/min without concentration.",
+      "Ignore the patient's weight if the dose is weight-based.",
+      "Use the bag concentration to determine mL/hr."
+    ],
+    "answer": [
+      "Convert pounds to kilograms.",
+      "Multiply kg by mcg/kg/min to get mcg/min.",
+      "Convert mcg/min to mg/hr if the concentration is in mg/mL.",
+      "Use the bag concentration to determine mL/hr."
+    ],
+    "rationale": "Weight-based drips require lb-to-kg conversion, dose computation, then dimensional conversion using the IV concentration."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0126",
+    "bank": "HESI Pharm Math",
+    "system": "Dosage Calculations",
+    "topic": "Calculation Setup",
+    "qtype": "sata",
+    "stem": "The provider orders 1.5 mg PO. The medication available is 0.5 mg/tablet. Which actions are appropriate? (Select all that apply.)",
+    "choices": [
+      "Calculate that 3 tablets are needed.",
+      "Verify the tablet strength against the MAR.",
+      "Convert 1.5 mg to 150 mcg before dividing.",
+      "Document administration after giving the medication.",
+      "Assume a decimal point can be ignored if handwriting is unclear.",
+      "Clarify illegible medication orders before administering."
+    ],
+    "answer": [
+      "Calculate that 3 tablets are needed.",
+      "Verify the tablet strength against the MAR.",
+      "Document administration after giving the medication.",
+      "Clarify illegible medication orders before administering."
+    ],
+    "rationale": "1.5 mg \u00f7 0.5 mg/tablet = 3 tablets. Safe medication practice also includes confirming the tablet strength, clarifying unclear orders, and documenting after administration."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0127",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Calculation Setup",
+    "qtype": "sata",
+    "stem": "The provider prescribes 1000 mL IV over 8 hours. Which statements are correct? (Select all that apply.)",
+    "choices": [
+      "The correct pump rate is 125 mL/hr.",
+      "The nurse should divide total mL by total hours.",
+      "A pump rate does not require the tubing drop factor.",
+      "The correct rate is 80 mL/hr.",
+      "The correct rate is 12.5 mL/hr.",
+      "The order should be converted to gtt/min before using an infusion pump."
+    ],
+    "answer": [
+      "The correct pump rate is 125 mL/hr.",
+      "The nurse should divide total mL by total hours.",
+      "A pump rate does not require the tubing drop factor."
+    ],
+    "rationale": "1000 \u00f7 8 = 125 mL/hr. Pump calculations use mL/hr and do not require a drop factor."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0128",
+    "bank": "HESI Pharm Math",
+    "system": "IV Therapy",
+    "topic": "Calculation Setup",
+    "qtype": "sata",
+    "stem": "A norepinephrine infusion is ordered at 0.1 mcg/kg/min for a 70-kg patient. Which calculation steps are appropriate? (Select all that apply.)",
+    "choices": [
+      "Multiply 0.1 mcg by 70 kg to obtain mcg/min.",
+      "Convert the ordered amount to mcg/hr or mg/hr as needed.",
+      "Use the bag concentration to convert the ordered dose to mL/hr.",
+      "Ignore the patient's weight because the concentration is already known.",
+      "Set the rate by guessing to the nearest whole number.",
+      "Check the final programmed rate with another nurse if required by policy."
+    ],
+    "answer": [
+      "Multiply 0.1 mcg by 70 kg to obtain mcg/min.",
+      "Convert the ordered amount to mcg/hr or mg/hr as needed.",
+      "Use the bag concentration to convert the ordered dose to mL/hr.",
+      "Check the final programmed rate with another nurse if required by policy."
+    ],
+    "rationale": "Weight-based titratable drips require dose per kilogram, conversion over time, and use of the IV concentration before programming the pump."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0129",
+    "bank": "HESI Pharm Math",
+    "system": "Medication Preparation",
+    "topic": "Reconstitution",
+    "qtype": "sata",
+    "stem": "A powdered antibiotic must be reconstituted before IM administration. Which actions are appropriate? (Select all that apply.)",
+    "choices": [
+      "Read the label for the final concentration after reconstitution.",
+      "Calculate the ordered volume using the final concentration.",
+      "Use the amount of diluent as the administered dose without calculating.",
+      "Rotate the vial gently if the manufacturer instructs.",
+      "Label the syringe when the medication is not given immediately.",
+      "Assume the vial concentration is unchanged after adding diluent."
+    ],
+    "answer": [
+      "Read the label for the final concentration after reconstitution.",
+      "Calculate the ordered volume using the final concentration.",
+      "Rotate the vial gently if the manufacturer instructs.",
+      "Label the syringe when the medication is not given immediately."
+    ],
+    "rationale": "After reconstitution, use the final concentration stated on the vial or package insert. Prepare and label the dose safely."
+  },
+  {
+    "id": "HESI-PHARM-MATH-0130",
+    "bank": "HESI Pharm Math",
+    "system": "Pediatrics/Growth & Development",
+    "topic": "Pediatric Safe Dose",
+    "qtype": "sata",
+    "stem": "The nurse is evaluating a pediatric medication order written as mg/kg/day divided q8h. Which actions are appropriate? (Select all that apply.)",
+    "choices": [
+      "Convert pounds to kilograms before using the recommended range.",
+      "Calculate the safe total daily range first.",
+      "Compare the provider's total daily dose with the safe daily range.",
+      "Determine the dose per administration after confirming the daily dose is safe.",
+      "Assume the order is safe if the child has tolerated it before.",
+      "Skip calculations when the pharmacy has already dispensed the medication."
+    ],
+    "answer": [
+      "Convert pounds to kilograms before using the recommended range.",
+      "Calculate the safe total daily range first.",
+      "Compare the provider's total daily dose with the safe daily range.",
+      "Determine the dose per administration after confirming the daily dose is safe."
+    ],
+    "rationale": "Safe pediatric-dose evaluation begins with kilograms, then calculation of the safe daily range, comparison with the prescribed daily total, and finally the per-dose amount."
+  }
+]
